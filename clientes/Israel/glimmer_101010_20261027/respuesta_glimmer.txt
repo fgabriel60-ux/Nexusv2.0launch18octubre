@@ -1,0 +1,394 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fabelagabriel645/main/ap-tWsZ8SdPXSxX0GO5KENniH
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/modelos_modal/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:03<1:12:03,  3.01s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:03<14:22,  1.66it/s]  
+[1ALoading weights:   0%|          | 6/1436 [00:03<09:49,  2.43it/s]
+[1ALoading weights:   1%|          | 14/1436 [00:03<03:02,  7.80it/s]
+[1ALoading weights:   1%|▏         | 18/1436 [00:03<02:48,  8.43it/s]
+[1ALoading weights:   2%|▏         | 26/1436 [00:04<01:34, 14.93it/s]
+[1ALoading weights:   2%|▏         | 31/1436 [00:04<01:40, 14.01it/s]
+[1ALoading weights:   3%|▎         | 36/1436 [00:04<01:18, 17.84it/s]
+[1ALoading weights:   3%|▎         | 40/1436 [00:04<01:12, 19.21it/s]
+[1ALoading weights:   3%|▎         | 44/1436 [00:05<01:18, 17.67it/s]
+[1ALoading weights:   3%|▎         | 49/1436 [00:05<01:02, 22.12it/s]
+[1ALoading weights:   4%|▎         | 53/1436 [00:05<01:10, 19.72it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:05<01:10, 19.60it/s]
+[1ALoading weights:   4%|▍         | 61/1436 [00:05<01:10, 19.45it/s]
+[1ALoading weights:   5%|▍         | 65/1436 [00:05<01:01, 22.39it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:06<01:05, 20.77it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:06<00:50, 27.01it/s]
+[1ALoading weights:   6%|▌         | 79/1436 [00:06<01:07, 20.07it/s]
+[1ALoading weights:   6%|▌         | 82/1436 [00:06<01:05, 20.52it/s]
+[1ALoading weights:   6%|▌         | 88/1436 [00:06<00:49, 27.40it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:07<01:05, 20.65it/s]
+[1ALoading weights:   7%|▋         | 98/1436 [00:07<00:49, 27.20it/s]
+[1ALoading weights:   7%|▋         | 102/1436 [00:07<01:10, 18.98it/s]
+[1ALoading weights:   8%|▊         | 110/1436 [00:07<00:48, 27.45it/s]
+[1ALoading weights:   8%|▊         | 115/1436 [00:08<01:09, 19.10it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:08<00:51, 25.52it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [00:08<01:03, 20.66it/s]
+[1ALoading weights:   9%|▉         | 135/1436 [00:08<00:48, 26.68it/s]
+[1ALoading weights:  10%|▉         | 139/1436 [00:09<01:07, 19.18it/s]
+[1ALoading weights:  10%|█         | 147/1436 [00:09<00:47, 27.04it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:09<01:03, 20.20it/s]
+[1ALoading weights:  11%|█         | 159/1436 [00:10<01:02, 20.53it/s]
+[1ALoading weights:  11%|█▏        | 163/1436 [00:10<01:00, 20.92it/s]
+[1ALoading weights:  12%|█▏        | 167/1436 [00:10<00:54, 23.46it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:10<00:45, 27.52it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:10<01:00, 20.94it/s]
+[1ALoading weights:  13%|█▎        | 182/1436 [00:11<00:57, 21.97it/s]
+[1ALoading weights:  13%|█▎        | 185/1436 [00:11<01:09, 18.04it/s]
+[1ALoading weights:  14%|█▎        | 194/1436 [00:11<00:44, 28.16it/s]
+[1ALoading weights:  14%|█▍        | 198/1436 [00:11<01:03, 19.61it/s]
+[1ALoading weights:  14%|█▍        | 207/1436 [00:12<00:42, 28.92it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:12<00:58, 20.81it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:12<00:48, 25.15it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:12<00:56, 21.43it/s]
+[1ALoading weights:  16%|█▌        | 231/1436 [00:13<00:43, 27.88it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:13<00:59, 20.31it/s]
+[1ALoading weights:  17%|█▋        | 243/1436 [00:13<00:45, 26.50it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:14<00:59, 19.99it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:14<00:47, 24.69it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:14<00:56, 20.99it/s]
+[1ALoading weights:  19%|█▊        | 267/1436 [00:14<00:42, 27.43it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:15<00:56, 20.56it/s]
+[1ALoading weights:  19%|█▉        | 278/1436 [00:15<00:53, 21.77it/s]
+[1ALoading weights:  20%|█▉        | 281/1436 [00:15<00:51, 22.45it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:15<00:54, 21.10it/s]
+[1ALoading weights:  20%|█▉        | 287/1436 [00:15<00:51, 22.12it/s]
+[1ALoading weights:  20%|██        | 293/1436 [00:15<00:49, 23.01it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:16<00:53, 21.40it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:16<00:42, 26.72it/s]
+[1ALoading weights:  21%|██▏       | 307/1436 [00:16<00:55, 20.26it/s]
+[1ALoading weights:  22%|██▏       | 314/1436 [00:16<00:40, 27.87it/s]
+[1ALoading weights:  22%|██▏       | 318/1436 [00:17<00:58, 19.16it/s]
+[1ALoading weights:  23%|██▎       | 326/1436 [00:17<00:48, 22.76it/s]
+[1ALoading weights:  23%|██▎       | 329/1436 [00:17<00:47, 23.38it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:17<00:49, 22.29it/s]
+[1ALoading weights:  24%|██▎       | 339/1436 [00:17<00:43, 25.36it/s]
+[1ALoading weights:  24%|██▍       | 342/1436 [00:18<00:54, 20.04it/s]
+[1ALoading weights:  24%|██▍       | 350/1436 [00:18<00:38, 28.17it/s]
+[1ALoading weights:  25%|██▍       | 354/1436 [00:18<00:55, 19.56it/s]
+[1ALoading weights:  25%|██▌       | 363/1436 [00:18<00:36, 29.12it/s]
+[1ALoading weights:  26%|██▌       | 368/1436 [00:19<00:49, 21.42it/s]
+[1ALoading weights:  26%|██▌       | 375/1436 [00:19<00:38, 27.80it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:19<00:51, 20.46it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:19<00:41, 25.33it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:20<00:50, 20.64it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:20<00:40, 25.39it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:20<00:49, 20.82it/s]
+[1ALoading weights:  29%|██▊       | 410/1436 [00:20<00:39, 25.95it/s]
+[1ALoading weights:  29%|██▉       | 414/1436 [00:21<00:54, 18.74it/s]
+[1ALoading weights:  29%|██▉       | 421/1436 [00:21<00:39, 25.51it/s]
+[1ALoading weights:  30%|██▉       | 426/1436 [00:21<00:52, 19.33it/s]
+[1ALoading weights:  30%|███       | 433/1436 [00:22<00:44, 22.31it/s]
+[1ALoading weights:  30%|███       | 437/1436 [00:22<00:51, 19.58it/s]
+[1ALoading weights:  31%|███       | 446/1436 [00:22<00:34, 28.44it/s]
+[1ALoading weights:  31%|███▏      | 451/1436 [00:22<00:46, 21.25it/s]
+[1ALoading weights:  32%|███▏      | 457/1436 [00:23<00:43, 22.43it/s]
+[1ALoading weights:  32%|███▏      | 461/1436 [00:23<00:41, 23.25it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:23<00:41, 23.23it/s]
+[1ALoading weights:  33%|███▎      | 470/1436 [00:23<00:40, 23.67it/s]
+[1ALoading weights:  33%|███▎      | 473/1436 [00:23<00:41, 23.40it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:23<00:44, 21.34it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:24<00:34, 27.31it/s]
+[1ALoading weights:  34%|███▍      | 487/1436 [00:24<00:46, 20.35it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:24<00:36, 25.61it/s]
+[1ALoading weights:  35%|███▍      | 499/1436 [00:25<00:46, 20.01it/s]
+[1ALoading weights:  35%|███▌      | 507/1436 [00:25<00:32, 28.24it/s]
+[1ALoading weights:  36%|███▌      | 511/1436 [00:25<00:46, 19.92it/s]
+[1ALoading weights:  36%|███▌      | 520/1436 [00:25<00:35, 25.52it/s]
+[1ALoading weights:  36%|███▋      | 524/1436 [00:26<00:42, 21.47it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:26<00:35, 25.25it/s]
+[1ALoading weights:  37%|███▋      | 535/1436 [00:26<00:44, 20.09it/s]
+[1ALoading weights:  38%|███▊      | 543/1436 [00:26<00:32, 27.71it/s]
+[1ALoading weights:  38%|███▊      | 547/1436 [00:27<00:43, 20.29it/s]
+[1ALoading weights:  39%|███▊      | 553/1436 [00:27<00:34, 25.52it/s]
+[1ALoading weights:  39%|███▉      | 557/1436 [00:27<00:47, 18.40it/s]
+[1ALoading weights:  39%|███▉      | 565/1436 [00:27<00:32, 26.52it/s]
+[1ALoading weights:  40%|███▉      | 570/1436 [00:28<00:42, 20.44it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:28<00:31, 26.77it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:28<00:38, 22.32it/s]
+[1ALoading weights:  41%|████      | 590/1436 [00:28<00:31, 26.85it/s]
+[1ALoading weights:  41%|████▏     | 594/1436 [00:29<00:43, 19.29it/s]
+[1ALoading weights:  42%|████▏     | 603/1436 [00:29<00:29, 28.45it/s]
+[1ALoading weights:  42%|████▏     | 608/1436 [00:29<00:39, 21.11it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:29<00:31, 25.86it/s]
+[1ALoading weights:  43%|████▎     | 620/1436 [00:30<00:37, 21.64it/s]
+[1ALoading weights:  44%|████▍     | 630/1436 [00:30<00:25, 31.57it/s]
+[1ALoading weights:  46%|████▌     | 658/1436 [00:30<00:10, 70.79it/s]
+[1ALoading weights:  48%|████▊     | 686/1436 [00:30<00:06, 108.03it/s]
+[1ALoading weights:  49%|████▉     | 706/1436 [00:30<00:05, 123.67it/s]
+[1ALoading weights:  51%|█████▏    | 738/1436 [00:30<00:04, 166.14it/s]
+[1ALoading weights:  54%|█████▍    | 781/1436 [00:30<00:02, 223.80it/s]
+[1ALoading weights:  57%|█████▋    | 816/1436 [00:30<00:02, 251.89it/s]
+[1ALoading weights:  59%|█████▉    | 850/1436 [00:31<00:02, 267.70it/s]
+[1ALoading weights:  62%|██████▏   | 890/1436 [00:31<00:01, 302.89it/s]
+[1ALoading weights:  64%|██████▍   | 924/1436 [00:31<00:01, 304.14it/s]
+[1ALoading weights:  67%|██████▋   | 966/1436 [00:31<00:01, 331.36it/s]
+[1ALoading weights:  70%|███████   | 1006/1436 [00:31<00:01, 348.21it/s]
+[1ALoading weights:  73%|███████▎  | 1042/1436 [00:31<00:01, 320.27it/s]
+[1ALoading weights:  76%|███████▌  | 1085/1436 [00:31<00:01, 346.96it/s]
+[1ALoading weights:  79%|███████▊  | 1128/1436 [00:31<00:00, 365.19it/s]
+[1ALoading weights:  81%|████████▏ | 1167/1436 [00:31<00:00, 368.99it/s]
+[1ALoading weights:  84%|████████▍ | 1205/1436 [00:32<00:00, 356.91it/s]
+[1ALoading weights:  87%|████████▋ | 1246/1436 [00:32<00:00, 358.37it/s]
+[1ALoading weights:  90%|████████▉ | 1288/1436 [00:32<00:00, 371.09it/s]
+[1ALoading weights:  92%|█████████▏| 1326/1436 [00:32<00:00, 366.58it/s]
+[1ALoading weights:  95%|█████████▍| 1363/1436 [00:32<00:00, 353.26it/s]
+[1ALoading weights:  98%|█████████▊| 1404/1436 [00:32<00:00, 353.72it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:32<00:00, 43.99it/s] 
+[transformers] Both `max_new_tokens` (=7000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## israel_sirled
+ to=selfEres estratega de anuncios de Meta para negocios en México y director de video. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento.
+
+CLIENTE: Israel, dueño de SIRLed...
+
+We need output A) PLAN PARA RECREAR CADA REFERENCIA con material de Israel (un video por referencia). Para cada una: qué copiar y qué NO, escenas (tabla: #, segundos, qué se ve y fuente —su video real / su foto / grabar Israel / Qwen / H3—, texto en pantalla exacto, sonido), qué tomas debe grabar Israel (instrucciones concretas: encuadre, cámara rápida, luz, duración) y una calificación esperada.
+
+B) GUION 10/10/10 PARA QUE ISRAEL LO LEA CON SU VOZ...
+
+We need deliver final answer in Spanish. Provide plan and script.
+
+Must not invent prices, measures, models, times, warranty. Use [POR CONFIRMAR CON ISRAEL] where needed.
+
+We need to respect capabilities: can use Qwen-Image-Edit-2511 from real photos, animation image→video with MiniMax H3, voice clone, etc. No new drone shots, no record advisor in person, no copyright music.
+
+We need to propose which video works best.
+
+We need to give 3 hooks 0-3s and best.
+
+Provide script word by word, short phrases per line.
+
+Provide instructions to record audio.
+
+CTA exact and 2-3 prequalification questions.
+
+What NOT to say (Meta policies, no invent data) and what data to confirm.
+
+Honest rating.
+
+We must output only final answer, no reasoning.
+
+Probably structure with headings A) and B).
+
+Make tables for scenes.
+
+Reference 1: Reel Dbjy5rnujqg presentation product. Copy: woman with totems, model specs, brightness, indoor/outdoor, business use. What NOT: we don't have model woman, no P2.4/P3.9 specs confirmed. So we must adapt to Israel's real material: his totem? He has vertical screens? Image 4 shows installations in bars. Might not have totem. Could use his vertical screen photos. Can't claim P2.4 etc. Use [POR CONFIRMAR]. Better to avoid specific models.
+
+Reference 2: Reel DZW99XNtlqQ process behind cameras Gramola. Copy: opening cases, cables, assembly, screen on with colorful smoke and football. No voice. What NOT: no French music? We can use synthesized music. Use Israel's workshop photos/videos.
+
+Reference 3: Reel DduYDrtJQJa before/after Leds Go. Copy: fast montage of empty hall, ironic texts about AI, reveal finished event with LED castle. What NOT: we don't have XV hall. Could use bar/restaurant before/after? He has installations. Might be less potent.
+
+We need calificación esperada.
+
+Provide plan for each reference.
+
+Let's craft.
+
+A) Plan recrear cada referencia.
+
+Reference 1 - Presentación producto tipo tótem.
+
+Qué copiar: estructura de presentación, mostrar pantalla encendida, detalle trasero/ruedas, uso en vitrina/sala juntas, texto en pantalla con beneficios.
+
+Qué NO copiar: modelo mujer, especificaciones P2.4/P3.9/ nits sin confirmar, claim de brillo.
+
+Escenas table.
+
+We need seconds total 28-30s.
+
+Let's propose 28s.
+
+Scene 1: 0-3s hook. What se ve: Israel a cuadro frente a pantalla vertical encendida en taller (su video real / grabar Israel). Texto en pantalla: "¿Tu negocio se ve igual que el de al lado?" Sonido: beat inicio + voz Israel.
+
+Scene 2: 3-7s... etc.
+
+Need source: su video real / su foto / grabar Israel / Qwen / H3.
+
+We can use H3 for push-in on screen.
+
+Provide text exact.
+
+Similarly for reference 2 and 3.
+
+Then qué tomas debe grabar Israel: instructions concrete.
+
+Calificación esperada: e.g., Confianza 8, Claridad 7, Mensajes 7.
+
+B) Guion 10/10/10.
+
+Choose best video: probably reference 2 process behind cameras + Israel voice, because builds trust with real workshop and installations. Or reference 1 presentation.
+
+Maybe best is hybrid of reference 2 (process) with voice of Israel.
+
+Provide 3 hooks:
+
+Hook A: "Si tu bar o restaurante todavía usa pantallas chicas, estás perdiendo clientes."
+Hook B: "Yo soy Israel de SIRLed y te instalo pantallas LED donde las necesites."
+Hook C: "Mira cómo queda una pantalla LED en un bar real, no en catálogo."
+
+Best: Hook B? Or Hook C.
+
+Provide script final word by palabra, separated lines.
+
+Example:
+
+"Soy Israel, de SIRLed."
+"Vendemos, instalamos y reparamos pantallas LED para negocios."
+"En bares, restaurantes, tiendas, iglesias y eventos."
+"Trabajamos con equipos de importación directa y manufactura de alta calidad."
+"La tecnología se adapta a tu presupuesto."
+"Y al instalar, te incluimos tus primeros videos publicitarios gratis."
+"Si quieres que tu negocio llame la atención de verdad, hablemos."
+"Escríbeme por WhatsApp al 55 7503 1182."
+"Te pregunto qué tipo de negocio tienes, si es interior o exterior y cuándo lo quieres."
+
+Need 25-35s.
+
+Include CTA exact.
+
+Prequalification questions: 1) ¿Qué tipo de negocio es y dónde está? 2) ¿Es interior o exterior y qué medida aproximada necesitas? 3) ¿Tienes fecha límite o presupuesto de referencia?
+
+What NOT to say: no precios, no pitch, no garantía, no tiempos, no "mejor precio", no claims médicos, no before/after engañoso, no música con derechos.
+
+What data to confirm: pitch/models, nits, tiempo instalación, garantía, si incluye videos gratis siempre o condiciones, si atiende todo México o CDMX, etc.
+
+Calificación honesta.
+
+Provide final.
+
+Make sure not to invent data. Use [POR CONFIRMAR CON ISRAEL] where needed.
+
+We must not show reasoning.
+
+Output in Spanish.
+
+Let's produce concise but complete.
+
+Probably use markdown tables.
+
+Ensure we mention source for each scene.
+
+Let's craft final answer.
+
+assistant to=user**A) PLAN PARA RECREAR CADA REFERENCIA CON MATERIAL DE ISRAEL**
+
+**REFERENCIA 1 - Reel Dbjy5rnujqg. Presentación de producto tipo tótem**
+Qué copiar: estructura de presentación, pantalla encendida + detalle trasero/ruedas, uso en vitrina y sala, textos cortos de beneficio.
+Qué NO copiar: mujer modelo, especificaciones P2.4 / P3.9 / 1,000 nits / 5,000 nits sin confirmar, claims de brillo.
+
+Escenas 28 s
+| # | Seg | Qué se ve y fuente | Texto en pantalla | Sonido |
+|---|-----|--------------------|-------------------|--------|
+| 1 | 0-3 | Israel a cuadro frente a pantalla vertical encendida en taller. Su video real / grabar Israel. H3 push-in | ¿Tu negocio se ve igual que el de al lado? | Beat sintetizado + voz Israel |
+| 2 | 3-7 | Pantalla vertical encendida con video de ciudad. Su foto / H3 órbita suave | Pantallas LED para negocios reales | Voz |
+| 3 | 7-11 | Detalle trasero de gabinete con ruedas y manijas. Su foto / Qwen quitar texto | Móviles, fáciles de instalar | Voz |
+| 4 | 11-15 | Instalación en bar con partido de béisbol en pantalla gigante. Su video real | Bares, restaurantes, tiendas | Voz |
+| 5 | 15-19 | Pantalla en vitrina de local. Su video real | Vitrinas y salas de juntas | Voz |
+| 6 | 19-23 | Taller con letrero SIRLed y módulos apilados. Su foto | Servicio de Ingeniería y Reparación | Voz |
+| 7 | 23-28 | Israel señalando pantalla encendida. Grabar Israel | Te incluimos tus primeros videos publicitarios gratis al instalar | Voz + CTA |
+
+Tomas que debe grabar Israel:
+* 1 toma a cuadro de medio cuerpo frente a una pantalla encendida en su taller, luz natural de día, celular a la altura de ojos, 5 s, sonríe y mira a cámara.
+* 1 recorrido en cámara rápida de 8 s por su taller mostrando gabinetes y cajas de transporte.
+* 1 close de 3 s a la parte trasera de un gabinete con ruedas.
+
+Calificación esperada: Confianza 7/10, Claridad 7/10, Mensajes 6/10. Falta modelo real de tótem y specs confirmadas.
+
+**REFERENCIA 2 - Reel DZW99XNtlqQ. Proceso / detrás de cámaras Gramola**
+Qué copiar: ritmo cine, manos abriendo cajas, cables, montaje de módulos, encendido con contenido dinámico, cierre con logo.
+Qué NO copiar: música en francés con derechos, marca Gramola.
+
+Escenas 26 s
+| # | Seg | Qué se ve y fuente | Texto en pantalla | Sonido |
+|---|-----|--------------------|-------------------|--------|
+| 1 | 0-3 | Manos abriendo caja de transporte. Su video real | Así se arma una pantalla LED | Beat sintetizado + riser |
+| 2 | 3-7 | Primer plano broches y conectores. Su foto / Qwen | Montaje rápido y seguro | Whoosh |
+| 3 | 7-11 | Equipo enrollando cable. Su video real | Equipo propio en taller | Voz Israel off |
+| 4 | 11-15 | Levantar módulo en taller. Su video real | Módulos de alta calidad | Voz |
+| 5 | 15-20 | Pantalla encendida con video de humo de colores. Su video real / H3 | Contenido que atrapa miradas | Drop |
+| 6 | 20-24 | Partido de hockey / básquet en pantalla gigante de bar. Su video real | Bares y restaurantes reales | Voz |
+| 7 | 24-26 | Logo SIRLed + WhatsApp. Su foto | WhatsApp 55 7503 1182 | Clic final |
+
+Tomas que debe grabar Israel:
+* 1 toma en cámara rápida de 6 s armando un módulo con su equipo, encuadre amplio, luz de taller.
+* 1 toma de 4 s encendiendo una pantalla y mostrando el cambio de negro a imagen.
+* 1 selfie de 3 s diciendo “esto lo hacemos nosotros”.
+
+Calificación esperada: Confianza 9/10, Claridad 8/10, Mensajes 8/10. Es la más viable con su material real.
+
+**REFERENCIA 3 - Reel DduYDrtJQJa. Antes y después Leds Go**
+Qué copiar: montaje rápido del montaje vacío → revelación final con pantalla impactante, textos irónicos.
+Qué NO copiar: salón de XV con castillo, canción comercial con derechos.
+
+Escenas 22 s
+| # | Seg | Qué se ve y fuente | Texto en pantalla | Sonido |
+|---|-----|--------------------|-------------------|--------|
+| 1 | 0-3 | Taller vacío con cajas. Su foto / H3 | “La IA te va a dejar sin trabajo” | Beat |
+| 2 | 3-6 | Equipo colocando estructura. Su video real | ¿Ah sí? | Whoosh |
+| 3 | 6-9 | Montaje en cámara rápida. Su video real | ¿Cuándo? | Voz Israel off |
+| 4 | 9-12 | Pantalla encendida en bar. Su video real | ¿Seguimos esperando? | Riser |
+| 5 | 12-20 | Bar terminado con pantalla gigante de partido. Su video real | Instalado por SIRLed | Voz |
+| 6 | 20-22 | Logo + WhatsApp. Su foto | WhatsApp 55 7503 1182 | Clic |
+
+Tomas que debe grabar Israel:
+* 1 secuencia de 10 s en cámara rápida del antes del montaje en un local real.
+* 1 toma de 5 s del después con pantalla encendida y clientes en el local.
+
+Calificación esperada: Confianza 8/10, Claridad 7/10, Mensajes 7/10. Menos potente sin evento tipo XV.
+
+---
+
+**B) GUION 10/10/10 PARA QUE ISRAEL LO LEA CON SU VOZ**
+
+Video que mejor funciona: REFERENCIA 2 proceso / detrás de cámaras con voz de Israel.
+
+**1) 3 ganchos 0-3 s**
+* Gancho A: “Si tu bar o restaurante todavía usa pantallas chicas, estás perdiendo clientes.”
+* Gancho B: “Soy Israel de SIRLed y te instalo pantallas LED donde las necesites.”
+* Gancho C: “Mira cómo queda una pantalla LED en un bar real, no en catálogo.”
+Mejor gancho: B. Confianza inmediata con nombre y servicio.
+
+**2) Guion final palabra por palabra 28-32 s**
+Soy Israel, de SIRLed.
+Vendemos, instalamos y reparamos pantallas LED para negocios.
+En bares, restaurantes, tiendas, iglesias y eventos.
+Trabajamos con equipos de importación directa y manufactura de alta calidad.
+La tecnología se adapta a tu presupuesto.
+Y al instalar, te incluimos tus primeros videos publicitarios gratis.
+Si quieres que tu negocio llame la atención de verdad, hablemos.
+Escríbeme por WhatsApp al 55 7503 1182.
+
+**3) Indicaciones para grabar audio con celular**
+* Lugar silencioso, sin eco, con cortinas cerradas. Graba de pie a 20 cm del micrófono.
+* Tono cercano, como hablando con un cliente. Una toma continua, sin prisa.
+* Haz 3 tomas completas y 2 de respaldo solo del CTA.
+* Mándalo como nota de voz de WhatsApp o archivo .m4a sin música.
+
+**4) CTA exacto y precalificación WhatsApp**
+CTA en pantalla y voz: “Escríbeme por WhatsApp al 55 7503 1182.”
+Preguntas de precalificación para responder en primer mensaje:
+* ¿Qué tipo de negocio es y en qué ciudad está?
+* ¿Es instalación interior o exterior y qué medida aproximada necesitas? [POR CONFIRMAR CON ISRAEL]
+* ¿Tienes fecha límite o presupuesto de referencia?
+
+**5) Qué NO decir y qué confirmar**
+NO decir: precios, medidas, pitch P2.4/P3.9, nits, tiempo de instalación, garantía, “el mejor precio”, promesas de resultados.
+Confirmar con Israel antes de publicar: si el bono de “primeros videos publicitarios gratis” aplica siempre y condiciones, zona de cobertura, si maneja renta o solo venta/instalación, y datos técnicos reales de los equipos que tiene en inventario.
+
+**6) Calificación honesta**
+Confianza 9/10, Claridad de oferta 8/10, Probabilidad de mensajes calificados 8/10.
+Falta para 10/10/10: confirmar por escrito con Israel los datos técnicos básicos y el alcance del bono de videos gratis, y tener 1 toma nueva de Israel a cuadro con buena luz.
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/fabelagabriel645/main/ap-tWsZ8SdPXSxX0GO5KENniH

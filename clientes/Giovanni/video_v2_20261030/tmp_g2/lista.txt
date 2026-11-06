@@ -1,0 +1,3 @@
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Giovanni/video_v2_20261030/tmp_g2/G1.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Giovanni/video_v2_20261030/tmp_g2/G2a.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Giovanni/video_v2_20261030/tmp_g2/G2b.mp4'

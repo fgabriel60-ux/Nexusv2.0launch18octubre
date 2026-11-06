@@ -1,0 +1,7 @@
+Cierre regenerado con Fish Audio, voz clonada José, modelo s2-pro.
+Cuatro tomas: Whisper medium transcribe el guion completo en todas.
+Elegida toma 1 por mayor confianza media: 0.9369366466999053
+La transcripción no permite certificar por sí sola la ausencia de quiebres de tono.
+La v9c original se conserva. La v9d cambia el cierre y corrige subtítulos Usamos / Tu losa.
+Evaluación Glimmer de v9d pendiente; v9c tiene 6.5 actual, 8.5 proyectada.
+Descuento de 10% en tarjeta heredado, aún no confirmado; advertido en datos enviados a Glimmer.

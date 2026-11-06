@@ -1,0 +1,6 @@
+CAPACIDADES DE PRODUCCIÓN (lo que SÍ podemos hacer con nuestro pipeline; propón solo mejoras viables):
+- Animación de una imagen con MiniMax H3 (imagen→video, 5 s, vertical 576x1024 escalado a 1080x1920): movimiento de cámara (push-in, dolly, tilt, órbita suave), viento en cabello/ropa/hojas, nubes, luces cálidas que brillan. Los rostros y las manos pueden deformarse con movimientos fuertes; el texto dentro del video sale inventado, por eso el texto va en una capa aparte.
+- Capa de texto original del flyer superpuesta con ffmpeg: aparición con fade, deslizamiento, 'pop' de escala, escalonada (un elemento tras otro), con timing exacto; el texto queda nítido y EXACTO (no se reescribe).
+- Zoom/pan digital (Ken Burns) sobre el cuadro, flash/brillo suave, viñeta, corrección de color.
+- Música suave y efectos de sonido (whoosh, pop, clic, ambiente) mezclados con ffmpeg. Sin voz.
+- Duración típica 6-8 s, 9:16 para Reels/Stories. NO podemos: cambiar el precio/datos del flyer, generar texto nuevo dentro del video, ni videos largos con personas hablando en este formato.

@@ -1,0 +1,490 @@
+{
+ "guion": [
+  {
+   "inicio_s": 0.1,
+   "nombre": "HOOK",
+   "texto": "¿Te falta un diente? Esto es lo que pasa por dentro."
+  },
+  {
+   "inicio_s": 5.1,
+   "nombre": "ANESTESIA",
+   "texto": "Empieza con anestesia. No duele: ni lo vas a sentir."
+  },
+  {
+   "inicio_s": 10.1,
+   "nombre": "ADENTRO",
+   "texto": "Y aquí está lo que nadie te enseña."
+  },
+  {
+   "inicio_s": 15.1,
+   "nombre": "PREPARA",
+   "texto": "El dentista abre un espacio en el hueso, justo donde estaba tu raíz."
+  },
+  {
+   "inicio_s": 20.1,
+   "nombre": "TITANIO",
+   "texto": "Ahí entra un tornillo de titanio. Esa va a ser tu nueva raíz."
+  },
+  {
+   "inicio_s": 25.1,
+   "nombre": "INTEGRA",
+   "texto": "Con los meses tu hueso crece alrededor y lo deja firme."
+  },
+  {
+   "inicio_s": 30.1,
+   "nombre": "CORONA",
+   "texto": "Encima, una corona igual a tus dientes."
+  },
+  {
+   "inicio_s": 33.1,
+   "nombre": "SONRISA",
+   "texto": "Y vuelves a sonreír."
+  }
+ ],
+ "voces": {
+  "narrador": [
+   {
+    "inicio_s": 0.1,
+    "nombre": "HOOK",
+    "dura_s": 2.79,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "¿Te falta un diente? Esto es lo que pasa por dentro."
+   },
+   {
+    "inicio_s": 5.1,
+    "nombre": "ANESTESIA",
+    "dura_s": 3.58,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Empieza con anestesia. No duele: ni lo vas a sentir."
+   },
+   {
+    "inicio_s": 10.1,
+    "nombre": "ADENTRO",
+    "dura_s": 1.96,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Y aquí está lo que nadie te enseña."
+   },
+   {
+    "inicio_s": 15.1,
+    "nombre": "PREPARA",
+    "dura_s": 3.6,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "El dentista abre un espacio en el hueso, justo donde estaba tu raíz."
+   },
+   {
+    "inicio_s": 20.1,
+    "nombre": "TITANIO",
+    "dura_s": 3.6,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Ahí entra un tornillo de titanio. Esa va a ser tu nueva raíz."
+   },
+   {
+    "inicio_s": 25.1,
+    "nombre": "INTEGRA",
+    "dura_s": 3.21,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Con los meses tu hueso crece alrededor y lo deja firme."
+   },
+   {
+    "inicio_s": 30.1,
+    "nombre": "CORONA",
+    "dura_s": 2.59,
+    "tramo_s": 2.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Encima, una corona igual a tus dientes."
+   },
+   {
+    "inicio_s": 33.1,
+    "nombre": "SONRISA",
+    "dura_s": 1.46,
+    "tramo_s": 1.7,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Y vuelves a sonreír."
+   }
+  ],
+  "locutor": [
+   {
+    "inicio_s": 0.1,
+    "nombre": "HOOK",
+    "dura_s": 3.32,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "¿Te falta un diente? Esto es lo que pasa por dentro."
+   },
+   {
+    "inicio_s": 5.1,
+    "nombre": "ANESTESIA",
+    "dura_s": 3.81,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Empieza con anestesia. No duele: ni lo vas a sentir."
+   },
+   {
+    "inicio_s": 10.1,
+    "nombre": "ADENTRO",
+    "dura_s": 1.88,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Y aquí está lo que nadie te enseña."
+   },
+   {
+    "inicio_s": 15.1,
+    "nombre": "PREPARA",
+    "dura_s": 4.57,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "El dentista abre un espacio en el hueso, justo donde estaba tu raíz."
+   },
+   {
+    "inicio_s": 20.1,
+    "nombre": "TITANIO",
+    "dura_s": 4.34,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Ahí entra un tornillo de titanio. Esa va a ser tu nueva raíz."
+   },
+   {
+    "inicio_s": 25.1,
+    "nombre": "INTEGRA",
+    "dura_s": 3.47,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Con los meses tu hueso crece alrededor y lo deja firme."
+   },
+   {
+    "inicio_s": 30.1,
+    "nombre": "CORONA",
+    "dura_s": 2.8,
+    "tramo_s": 2.8,
+    "tempo": 1.073,
+    "encima": false,
+    "texto": "Encima, una corona igual a tus dientes."
+   },
+   {
+    "inicio_s": 33.1,
+    "nombre": "SONRISA",
+    "dura_s": 1.41,
+    "tramo_s": 1.7,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Y vuelves a sonreír."
+   }
+  ],
+  "documental": [
+   {
+    "inicio_s": 0.1,
+    "nombre": "HOOK",
+    "dura_s": 3.87,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "¿Te falta un diente? Esto es lo que pasa por dentro."
+   },
+   {
+    "inicio_s": 5.1,
+    "nombre": "ANESTESIA",
+    "dura_s": 4.8,
+    "tramo_s": 4.8,
+    "tempo": 1.132,
+    "encima": false,
+    "texto": "Empieza con anestesia. No duele: ni lo vas a sentir."
+   },
+   {
+    "inicio_s": 10.1,
+    "nombre": "ADENTRO",
+    "dura_s": 2.19,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Y aquí está lo que nadie te enseña."
+   },
+   {
+    "inicio_s": 15.1,
+    "nombre": "PREPARA",
+    "dura_s": 4.8,
+    "tramo_s": 4.8,
+    "tempo": 1.078,
+    "encima": false,
+    "texto": "El dentista abre un espacio en el hueso, justo donde estaba tu raíz."
+   },
+   {
+    "inicio_s": 20.1,
+    "nombre": "TITANIO",
+    "dura_s": 4.8,
+    "tramo_s": 4.8,
+    "tempo": 1.083,
+    "encima": false,
+    "texto": "Ahí entra un tornillo de titanio. Esa va a ser tu nueva raíz."
+   },
+   {
+    "inicio_s": 25.1,
+    "nombre": "INTEGRA",
+    "dura_s": 4.52,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Con los meses tu hueso crece alrededor y lo deja firme."
+   },
+   {
+    "inicio_s": 30.1,
+    "nombre": "CORONA",
+    "dura_s": 2.8,
+    "tramo_s": 2.8,
+    "tempo": 1.194,
+    "encima": false,
+    "texto": "Encima, una corona igual a tus dientes."
+   },
+   {
+    "inicio_s": 33.1,
+    "nombre": "SONRISA",
+    "dura_s": 1.54,
+    "tramo_s": 1.7,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Y vuelves a sonreír."
+   }
+  ],
+  "shorts": [
+   {
+    "inicio_s": 0.1,
+    "nombre": "HOOK",
+    "dura_s": 2.43,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "¿Te falta un diente? Esto es lo que pasa por dentro."
+   },
+   {
+    "inicio_s": 5.1,
+    "nombre": "ANESTESIA",
+    "dura_s": 3.66,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Empieza con anestesia. No duele: ni lo vas a sentir."
+   },
+   {
+    "inicio_s": 10.1,
+    "nombre": "ADENTRO",
+    "dura_s": 1.83,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Y aquí está lo que nadie te enseña."
+   },
+   {
+    "inicio_s": 15.1,
+    "nombre": "PREPARA",
+    "dura_s": 3.45,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "El dentista abre un espacio en el hueso, justo donde estaba tu raíz."
+   },
+   {
+    "inicio_s": 20.1,
+    "nombre": "TITANIO",
+    "dura_s": 3.66,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Ahí entra un tornillo de titanio. Esa va a ser tu nueva raíz."
+   },
+   {
+    "inicio_s": 25.1,
+    "nombre": "INTEGRA",
+    "dura_s": 3.21,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Con los meses tu hueso crece alrededor y lo deja firme."
+   },
+   {
+    "inicio_s": 30.1,
+    "nombre": "CORONA",
+    "dura_s": 2.35,
+    "tramo_s": 2.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Encima, una corona igual a tus dientes."
+   },
+   {
+    "inicio_s": 33.1,
+    "nombre": "SONRISA",
+    "dura_s": 1.25,
+    "tramo_s": 1.7,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Y vuelves a sonreír."
+   }
+  ],
+  "mexicano": [
+   {
+    "inicio_s": 0.1,
+    "nombre": "HOOK",
+    "dura_s": 3.03,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "¿Te falta un diente? Esto es lo que pasa por dentro."
+   },
+   {
+    "inicio_s": 5.1,
+    "nombre": "ANESTESIA",
+    "dura_s": 4.39,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Empieza con anestesia. No duele: ni lo vas a sentir."
+   },
+   {
+    "inicio_s": 10.1,
+    "nombre": "ADENTRO",
+    "dura_s": 1.96,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Y aquí está lo que nadie te enseña."
+   },
+   {
+    "inicio_s": 15.1,
+    "nombre": "PREPARA",
+    "dura_s": 4.8,
+    "tramo_s": 4.8,
+    "tempo": 1.116,
+    "encima": false,
+    "texto": "El dentista abre un espacio en el hueso, justo donde estaba tu raíz."
+   },
+   {
+    "inicio_s": 20.1,
+    "nombre": "TITANIO",
+    "dura_s": 4.68,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Ahí entra un tornillo de titanio. Esa va a ser tu nueva raíz."
+   },
+   {
+    "inicio_s": 25.1,
+    "nombre": "INTEGRA",
+    "dura_s": 3.47,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Con los meses tu hueso crece alrededor y lo deja firme."
+   },
+   {
+    "inicio_s": 30.1,
+    "nombre": "CORONA",
+    "dura_s": 2.8,
+    "tramo_s": 2.8,
+    "tempo": 1.045,
+    "encima": false,
+    "texto": "Encima, una corona igual a tus dientes."
+   },
+   {
+    "inicio_s": 33.1,
+    "nombre": "SONRISA",
+    "dura_s": 1.46,
+    "tramo_s": 1.7,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Y vuelves a sonreír."
+   }
+  ],
+  "actual": [
+   {
+    "inicio_s": 0.1,
+    "nombre": "HOOK",
+    "dura_s": 2.95,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "¿Te falta un diente? Esto es lo que pasa por dentro."
+   },
+   {
+    "inicio_s": 5.1,
+    "nombre": "ANESTESIA",
+    "dura_s": 4.78,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Empieza con anestesia. No duele: ni lo vas a sentir."
+   },
+   {
+    "inicio_s": 10.1,
+    "nombre": "ADENTRO",
+    "dura_s": 2.06,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Y aquí está lo que nadie te enseña."
+   },
+   {
+    "inicio_s": 15.1,
+    "nombre": "PREPARA",
+    "dura_s": 4.52,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "El dentista abre un espacio en el hueso, justo donde estaba tu raíz."
+   },
+   {
+    "inicio_s": 20.1,
+    "nombre": "TITANIO",
+    "dura_s": 4.8,
+    "tramo_s": 4.8,
+    "tempo": 1.067,
+    "encima": false,
+    "texto": "Ahí entra un tornillo de titanio. Esa va a ser tu nueva raíz."
+   },
+   {
+    "inicio_s": 25.1,
+    "nombre": "INTEGRA",
+    "dura_s": 3.84,
+    "tramo_s": 4.8,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Con los meses tu hueso crece alrededor y lo deja firme."
+   },
+   {
+    "inicio_s": 30.1,
+    "nombre": "CORONA",
+    "dura_s": 2.83,
+    "tramo_s": 2.8,
+    "tempo": 1.22,
+    "encima": false,
+    "texto": "Encima, una corona igual a tus dientes."
+   },
+   {
+    "inicio_s": 33.1,
+    "nombre": "SONRISA",
+    "dura_s": 1.41,
+    "tramo_s": 1.7,
+    "tempo": 1.0,
+    "encima": false,
+    "texto": "Y vuelves a sonreír."
+   }
+  ]
+ }
+}

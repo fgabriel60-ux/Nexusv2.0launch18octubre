@@ -1,0 +1,3 @@
+#!/bin/sh
+# Filtro «premium» estilo reel inmobiliario de lujo: menos saturación, contraste de cine, negros levantados, sombras frías/luces cálidas, brillo suave, viñeta y grano fino.
+"/home/codespace/.python/current/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2" -v error -y -i "$1" -filter_complex "[0:v]eq=saturation=0.78:contrast=1.07:gamma=0.97,curves=all='0/0.035 0.25/0.22 0.5/0.5 0.78/0.80 1/0.96',colorbalance=rs=-0.04:bs=0.05:rh=0.05:bh=-0.04,split[a][b];[b]gblur=sigma=18,eq=brightness=0.02[g];[a][g]blend=all_mode=screen:all_opacity=0.18,vignette=PI/5,noise=alls=5:allf=t,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -profile:v main -level 3.1 -crf 21 -maxrate 3M -bufsize 6M -c:a copy -movflags +faststart "$2"

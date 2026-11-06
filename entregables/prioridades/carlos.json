@@ -1,0 +1,41 @@
+{
+ "pausado": false,
+ "actualizado": "4 nov 2026 01:55",
+ "tareas": [
+  {
+   "que": "Elegir en el tablero el video bueno de cada cliente",
+   "paso": "Abre el tablero: arriba de cada quien está el mejor calificado con su plan. Dale «Aprobar este video».",
+   "porque": "Sin eso no puedo mandar nada a los clientes ni subir campañas."
+  },
+  {
+   "que": "Jesús (RIMO): destrabar su cuenta de Meta",
+   "paso": "Que te dé rol de ANUNCIANTE en la cuenta Rimotex (1827272525138717) y que dé de alta su tarjeta.",
+   "porque": "La campaña de $100 al día a todo México está lista, Meta solo me frena por permisos y pago."
+  },
+  {
+   "que": "Adrián (tatuador): aprobar su v2 y lanzar",
+   "paso": "Te mando la v2 con los cambios (precio, WhatsApp en vez de DM). Apruébala y subimos su campaña.",
+   "porque": "Él ya dijo «si funciona empezamos ya» y ya iba a depositar."
+  },
+  {
+   "que": "Mariano: decidir si le aplico la v9",
+   "paso": "Dime sí y le hago los 5 arreglos de Glimmer + los 3 estéticos (etiquetas 1 s tarde, precio partido, final en negro).",
+   "porque": "Su video de la cuerda está en 6.5 y llega a 8.5."
+  },
+  {
+   "que": "Rafael (BYD): pedirle su oferta comercial del mes",
+   "paso": "Un mensaje: «mándame el bono/enganche/tasa reales de noviembre».",
+   "porque": "Sus dos videos se quedan en 5 por falta de oferta; con eso suben a 8."
+  },
+  {
+   "que": "Mandar los mensajes a los que ya pagaron y a los prospectos",
+   "paso": "Ya los tienes en WhatsApp listos para copiar, solo cambia el nombre.",
+   "porque": "Los relaja y te compra tiempo mientras subimos las calificaciones."
+  },
+  {
+   "que": "Guillermo: activar el anuncio v9b y fondear Meta",
+   "paso": "Anuncio 23860195593970790 en pausa; $500 MXN por SPEI.",
+   "porque": "Es el cliente que paga mensual y su anuncio ya calificó 8.2."
+  }
+ ]
+}

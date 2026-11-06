@@ -1,0 +1,1173 @@
+[
+  {
+    "path": "/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/Guillermo_toma0.wav",
+    "segments": [
+      {
+        "text": " Tu casa necesita saguán. En Puebla, Proyectos Metálicos Vicens hace saguanes a la medida.",
+        "start": 0.0,
+        "end": 4.32,
+        "words": [
+          {
+            "word": " Tu",
+            "start": 0.0,
+            "end": 0.14,
+            "probability": 0.18638594448566437
+          },
+          {
+            "word": " casa",
+            "start": 0.14,
+            "end": 0.34,
+            "probability": 0.9907159805297852
+          },
+          {
+            "word": " necesita",
+            "start": 0.34,
+            "end": 0.72,
+            "probability": 0.9856648445129395
+          },
+          {
+            "word": " saguán.",
+            "start": 0.72,
+            "end": 1.2,
+            "probability": 0.7937971154848734
+          },
+          {
+            "word": " En",
+            "start": 1.4,
+            "end": 1.5,
+            "probability": 0.9562993049621582
+          },
+          {
+            "word": " Puebla,",
+            "start": 1.5,
+            "end": 1.76,
+            "probability": 0.995334247748057
+          },
+          {
+            "word": " Proyectos",
+            "start": 1.86,
+            "end": 2.26,
+            "probability": 0.7925256987412771
+          },
+          {
+            "word": " Metálicos",
+            "start": 2.26,
+            "end": 2.66,
+            "probability": 0.9855568408966064
+          },
+          {
+            "word": " Vicens",
+            "start": 2.66,
+            "end": 3.0,
+            "probability": 0.6911744475364685
+          },
+          {
+            "word": " hace",
+            "start": 3.0,
+            "end": 3.32,
+            "probability": 0.7623814344406128
+          },
+          {
+            "word": " saguanes",
+            "start": 3.32,
+            "end": 3.7,
+            "probability": 0.8552929957707723
+          },
+          {
+            "word": " a",
+            "start": 3.7,
+            "end": 3.88,
+            "probability": 0.9899682402610779
+          },
+          {
+            "word": " la",
+            "start": 3.88,
+            "end": 4.04,
+            "probability": 0.9904953241348267
+          },
+          {
+            "word": " medida.",
+            "start": 4.04,
+            "end": 4.32,
+            "probability": 0.9964853525161743
+          }
+        ]
+      },
+      {
+        "text": " Cuidamos los detalles desde el armado hasta el acabado. Más de 15 años de experiencia.",
+        "start": 4.84,
+        "end": 9.3,
+        "words": [
+          {
+            "word": " Cuidamos",
+            "start": 4.84,
+            "end": 5.14,
+            "probability": 0.9914320508639017
+          },
+          {
+            "word": " los",
+            "start": 5.14,
+            "end": 5.34,
+            "probability": 0.9884054660797119
+          },
+          {
+            "word": " detalles",
+            "start": 5.34,
+            "end": 5.74,
+            "probability": 0.9975193738937378
+          },
+          {
+            "word": " desde",
+            "start": 5.74,
+            "end": 6.04,
+            "probability": 0.8989026546478271
+          },
+          {
+            "word": " el",
+            "start": 6.04,
+            "end": 6.22,
+            "probability": 0.9661709070205688
+          },
+          {
+            "word": " armado",
+            "start": 6.22,
+            "end": 6.5,
+            "probability": 0.9826279878616333
+          },
+          {
+            "word": " hasta",
+            "start": 6.5,
+            "end": 6.7,
+            "probability": 0.9824814200401306
+          },
+          {
+            "word": " el",
+            "start": 6.7,
+            "end": 6.88,
+            "probability": 0.9849177002906799
+          },
+          {
+            "word": " acabado.",
+            "start": 6.88,
+            "end": 7.36,
+            "probability": 0.9989989399909973
+          },
+          {
+            "word": " Más",
+            "start": 7.84,
+            "end": 8.0,
+            "probability": 0.9497167766094208
+          },
+          {
+            "word": " de",
+            "start": 8.0,
+            "end": 8.18,
+            "probability": 0.9988631010055542
+          },
+          {
+            "word": " 15",
+            "start": 8.18,
+            "end": 8.38,
+            "probability": 0.9583373665809631
+          },
+          {
+            "word": " años",
+            "start": 8.38,
+            "end": 8.62,
+            "probability": 0.9983110427856445
+          },
+          {
+            "word": " de",
+            "start": 8.62,
+            "end": 8.86,
+            "probability": 0.9977371692657471
+          },
+          {
+            "word": " experiencia.",
+            "start": 8.86,
+            "end": 9.3,
+            "probability": 0.9973172545433044
+          }
+        ]
+      },
+      {
+        "text": " Mándanos por WhatsApp una foto, las medidas y tu colonia para cotizar tu saguán.",
+        "start": 10.1,
+        "end": 13.9,
+        "words": [
+          {
+            "word": " Mándanos",
+            "start": 10.1,
+            "end": 10.34,
+            "probability": 0.9858441948890686
+          },
+          {
+            "word": " por",
+            "start": 10.34,
+            "end": 10.54,
+            "probability": 0.9720538258552551
+          },
+          {
+            "word": " WhatsApp",
+            "start": 10.54,
+            "end": 10.8,
+            "probability": 0.6136455535888672
+          },
+          {
+            "word": " una",
+            "start": 10.8,
+            "end": 11.04,
+            "probability": 0.9697768092155457
+          },
+          {
+            "word": " foto,",
+            "start": 11.04,
+            "end": 11.36,
+            "probability": 0.9993436932563782
+          },
+          {
+            "word": " las",
+            "start": 11.52,
+            "end": 11.62,
+            "probability": 0.9883755445480347
+          },
+          {
+            "word": " medidas",
+            "start": 11.62,
+            "end": 11.92,
+            "probability": 0.9953857064247131
+          },
+          {
+            "word": " y",
+            "start": 11.92,
+            "end": 12.12,
+            "probability": 0.8420484662055969
+          },
+          {
+            "word": " tu",
+            "start": 12.12,
+            "end": 12.3,
+            "probability": 0.9844732284545898
+          },
+          {
+            "word": " colonia",
+            "start": 12.3,
+            "end": 12.7,
+            "probability": 0.9905268251895905
+          },
+          {
+            "word": " para",
+            "start": 12.7,
+            "end": 12.9,
+            "probability": 0.9610546827316284
+          },
+          {
+            "word": " cotizar",
+            "start": 12.9,
+            "end": 13.32,
+            "probability": 0.985944390296936
+          },
+          {
+            "word": " tu",
+            "start": 13.32,
+            "end": 13.5,
+            "probability": 0.9873791337013245
+          },
+          {
+            "word": " saguán.",
+            "start": 13.5,
+            "end": 13.9,
+            "probability": 0.9893532594045004
+          }
+        ]
+      }
+    ],
+    "said": " Tu casa necesita saguán. En Puebla, Proyectos Metálicos Vicens hace saguanes a la medida.  Cuidamos los detalles desde el armado hasta el acabado. Más de 15 años de experiencia.  Mándanos por WhatsApp una foto, las medidas y tu colonia para cotizar tu saguán.",
+    "match": 0.9666666666666667
+  },
+  {
+    "path": "/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/Guillermo_toma1.wav",
+    "segments": [
+      {
+        "text": " ¿Su casa necesita saguán?",
+        "start": 0.0,
+        "end": 1.18,
+        "words": [
+          {
+            "word": " ¿Su",
+            "start": 0.0,
+            "end": 0.16,
+            "probability": 0.42285676300525665
+          },
+          {
+            "word": " casa",
+            "start": 0.16,
+            "end": 0.4,
+            "probability": 0.9839929938316345
+          },
+          {
+            "word": " necesita",
+            "start": 0.4,
+            "end": 0.76,
+            "probability": 0.9868355989456177
+          },
+          {
+            "word": " saguán?",
+            "start": 0.76,
+            "end": 1.18,
+            "probability": 0.8175302545229594
+          }
+        ]
+      },
+      {
+        "text": " En Puebla, Proyectos Metálicos Vicens hace saguanes a la medida.",
+        "start": 1.68,
+        "end": 4.72,
+        "words": [
+          {
+            "word": " En",
+            "start": 1.68,
+            "end": 1.88,
+            "probability": 0.9188452959060669
+          },
+          {
+            "word": " Puebla,",
+            "start": 1.88,
+            "end": 2.14,
+            "probability": 0.992072582244873
+          },
+          {
+            "word": " Proyectos",
+            "start": 2.24,
+            "end": 2.58,
+            "probability": 0.8940133849779764
+          },
+          {
+            "word": " Metálicos",
+            "start": 2.58,
+            "end": 3.0,
+            "probability": 0.9825371354818344
+          },
+          {
+            "word": " Vicens",
+            "start": 3.0,
+            "end": 3.32,
+            "probability": 0.6210284680128098
+          },
+          {
+            "word": " hace",
+            "start": 3.32,
+            "end": 3.52,
+            "probability": 0.7171907424926758
+          },
+          {
+            "word": " saguanes",
+            "start": 3.52,
+            "end": 3.9,
+            "probability": 0.851245661576589
+          },
+          {
+            "word": " a",
+            "start": 3.9,
+            "end": 4.06,
+            "probability": 0.9878308176994324
+          },
+          {
+            "word": " la",
+            "start": 4.06,
+            "end": 4.2,
+            "probability": 0.994500994682312
+          },
+          {
+            "word": " medida.",
+            "start": 4.2,
+            "end": 4.72,
+            "probability": 0.9939466118812561
+          }
+        ]
+      },
+      {
+        "text": " Cuidamos los detalles desde el armado hasta el acabado.",
+        "start": 5.22,
+        "end": 7.7,
+        "words": [
+          {
+            "word": " Cuidamos",
+            "start": 5.22,
+            "end": 5.54,
+            "probability": 0.9824995199839274
+          },
+          {
+            "word": " los",
+            "start": 5.54,
+            "end": 5.7,
+            "probability": 0.9839861392974854
+          },
+          {
+            "word": " detalles",
+            "start": 5.7,
+            "end": 5.98,
+            "probability": 0.9976321756839752
+          },
+          {
+            "word": " desde",
+            "start": 5.98,
+            "end": 6.2,
+            "probability": 0.9163583517074585
+          },
+          {
+            "word": " el",
+            "start": 6.2,
+            "end": 6.38,
+            "probability": 0.9240187406539917
+          },
+          {
+            "word": " armado",
+            "start": 6.38,
+            "end": 6.62,
+            "probability": 0.9802265763282776
+          },
+          {
+            "word": " hasta",
+            "start": 6.62,
+            "end": 6.8,
+            "probability": 0.9850953221321106
+          },
+          {
+            "word": " el",
+            "start": 6.8,
+            "end": 6.98,
+            "probability": 0.9813286066055298
+          },
+          {
+            "word": " acabado.",
+            "start": 6.98,
+            "end": 7.7,
+            "probability": 0.9990325272083282
+          }
+        ]
+      },
+      {
+        "text": " Más de 15 años de experiencia.",
+        "start": 8.06,
+        "end": 9.46,
+        "words": [
+          {
+            "word": " Más",
+            "start": 8.06,
+            "end": 8.2,
+            "probability": 0.8908138275146484
+          },
+          {
+            "word": " de",
+            "start": 8.2,
+            "end": 8.36,
+            "probability": 0.9984353184700012
+          },
+          {
+            "word": " 15",
+            "start": 8.36,
+            "end": 8.54,
+            "probability": 0.9647077918052673
+          },
+          {
+            "word": " años",
+            "start": 8.54,
+            "end": 8.72,
+            "probability": 0.9980419874191284
+          },
+          {
+            "word": " de",
+            "start": 8.72,
+            "end": 8.96,
+            "probability": 0.9950148463249207
+          },
+          {
+            "word": " experiencia.",
+            "start": 8.96,
+            "end": 9.46,
+            "probability": 0.9955924153327942
+          }
+        ]
+      },
+      {
+        "text": " Mándanos por WhatsApp una foto, las medidas y tu colonia para cotizar tu saguán.",
+        "start": 10.26,
+        "end": 14.0,
+        "words": [
+          {
+            "word": " Mándanos",
+            "start": 10.26,
+            "end": 10.46,
+            "probability": 0.9751755197842916
+          },
+          {
+            "word": " por",
+            "start": 10.46,
+            "end": 10.68,
+            "probability": 0.978621780872345
+          },
+          {
+            "word": " WhatsApp",
+            "start": 10.68,
+            "end": 11.02,
+            "probability": 0.575350821018219
+          },
+          {
+            "word": " una",
+            "start": 11.02,
+            "end": 11.34,
+            "probability": 0.9467054009437561
+          },
+          {
+            "word": " foto,",
+            "start": 11.34,
+            "end": 11.66,
+            "probability": 0.9993612170219421
+          },
+          {
+            "word": " las",
+            "start": 11.76,
+            "end": 11.9,
+            "probability": 0.9888325929641724
+          },
+          {
+            "word": " medidas",
+            "start": 11.9,
+            "end": 12.12,
+            "probability": 0.9954708814620972
+          },
+          {
+            "word": " y",
+            "start": 12.12,
+            "end": 12.32,
+            "probability": 0.9410433173179626
+          },
+          {
+            "word": " tu",
+            "start": 12.32,
+            "end": 12.46,
+            "probability": 0.9847556948661804
+          },
+          {
+            "word": " colonia",
+            "start": 12.46,
+            "end": 12.86,
+            "probability": 0.9891669750213623
+          },
+          {
+            "word": " para",
+            "start": 12.86,
+            "end": 13.04,
+            "probability": 0.9643857479095459
+          },
+          {
+            "word": " cotizar",
+            "start": 13.04,
+            "end": 13.46,
+            "probability": 0.9867765009403229
+          },
+          {
+            "word": " tu",
+            "start": 13.46,
+            "end": 13.62,
+            "probability": 0.9895018935203552
+          },
+          {
+            "word": " saguán.",
+            "start": 13.62,
+            "end": 14.0,
+            "probability": 0.9841417670249939
+          }
+        ]
+      }
+    ],
+    "said": " ¿Su casa necesita saguán?  En Puebla, Proyectos Metálicos Vicens hace saguanes a la medida.  Cuidamos los detalles desde el armado hasta el acabado.  Más de 15 años de experiencia.  Mándanos por WhatsApp una foto, las medidas y tu colonia para cotizar tu saguán.",
+    "match": 0.9
+  },
+  {
+    "path": "/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/Guillermo_toma2.wav",
+    "segments": [
+      {
+        "text": " Nunca se me cita saguán, en Puebla proyectos metálicos Vicens hace saguanes a la medida.",
+        "start": 0.0,
+        "end": 5.38,
+        "words": [
+          {
+            "word": " Nunca",
+            "start": 0.0,
+            "end": 0.34,
+            "probability": 0.5242523290216923
+          },
+          {
+            "word": " se",
+            "start": 0.34,
+            "end": 0.46,
+            "probability": 0.9752150774002075
+          },
+          {
+            "word": " me",
+            "start": 0.46,
+            "end": 0.56,
+            "probability": 0.42414477467536926
+          },
+          {
+            "word": " cita",
+            "start": 0.56,
+            "end": 0.8,
+            "probability": 0.8035124242305756
+          },
+          {
+            "word": " saguán,",
+            "start": 0.8,
+            "end": 1.34,
+            "probability": 0.761056145032247
+          },
+          {
+            "word": " en",
+            "start": 1.64,
+            "end": 1.78,
+            "probability": 0.9205637574195862
+          },
+          {
+            "word": " Puebla",
+            "start": 1.78,
+            "end": 2.12,
+            "probability": 0.9817540049552917
+          },
+          {
+            "word": " proyectos",
+            "start": 2.12,
+            "end": 2.74,
+            "probability": 0.9193293750286102
+          },
+          {
+            "word": " metálicos",
+            "start": 2.74,
+            "end": 3.32,
+            "probability": 0.9902733117341995
+          },
+          {
+            "word": " Vicens",
+            "start": 3.32,
+            "end": 3.66,
+            "probability": 0.47495729103684425
+          },
+          {
+            "word": " hace",
+            "start": 3.66,
+            "end": 4.02,
+            "probability": 0.38561174273490906
+          },
+          {
+            "word": " saguanes",
+            "start": 4.02,
+            "end": 4.46,
+            "probability": 0.8699118296305338
+          },
+          {
+            "word": " a",
+            "start": 4.46,
+            "end": 4.64,
+            "probability": 0.9863790273666382
+          },
+          {
+            "word": " la",
+            "start": 4.64,
+            "end": 4.8,
+            "probability": 0.9808654189109802
+          },
+          {
+            "word": " medida.",
+            "start": 4.8,
+            "end": 5.38,
+            "probability": 0.9952154159545898
+          }
+        ]
+      },
+      {
+        "text": " Cuidamos los detalles desde el armado hasta el acabado.",
+        "start": 5.6,
+        "end": 8.0,
+        "words": [
+          {
+            "word": " Cuidamos",
+            "start": 5.6,
+            "end": 5.98,
+            "probability": 0.9764872988065084
+          },
+          {
+            "word": " los",
+            "start": 5.98,
+            "end": 6.18,
+            "probability": 0.9799796342849731
+          },
+          {
+            "word": " detalles",
+            "start": 6.18,
+            "end": 6.52,
+            "probability": 0.9968056976795197
+          },
+          {
+            "word": " desde",
+            "start": 6.52,
+            "end": 6.78,
+            "probability": 0.9565790295600891
+          },
+          {
+            "word": " el",
+            "start": 6.78,
+            "end": 6.96,
+            "probability": 0.9452817440032959
+          },
+          {
+            "word": " armado",
+            "start": 6.96,
+            "end": 7.22,
+            "probability": 0.9799133241176605
+          },
+          {
+            "word": " hasta",
+            "start": 7.22,
+            "end": 7.38,
+            "probability": 0.9781991243362427
+          },
+          {
+            "word": " el",
+            "start": 7.38,
+            "end": 7.56,
+            "probability": 0.9854335784912109
+          },
+          {
+            "word": " acabado.",
+            "start": 7.56,
+            "end": 8.0,
+            "probability": 0.9984156489372253
+          }
+        ]
+      },
+      {
+        "text": " Más de 15 años de experiencia, mándanos por whatsapp una foto, las medidas y tu colonia",
+        "start": 8.3,
+        "end": 12.6,
+        "words": [
+          {
+            "word": " Más",
+            "start": 8.3,
+            "end": 8.42,
+            "probability": 0.8541535437107086
+          },
+          {
+            "word": " de",
+            "start": 8.42,
+            "end": 8.58,
+            "probability": 0.9976754784584045
+          },
+          {
+            "word": " 15",
+            "start": 8.58,
+            "end": 8.72,
+            "probability": 0.9743843078613281
+          },
+          {
+            "word": " años",
+            "start": 8.72,
+            "end": 8.94,
+            "probability": 0.9985672235488892
+          },
+          {
+            "word": " de",
+            "start": 8.94,
+            "end": 9.2,
+            "probability": 0.9927391409873962
+          },
+          {
+            "word": " experiencia,",
+            "start": 9.2,
+            "end": 9.52,
+            "probability": 0.9981350898742676
+          },
+          {
+            "word": " mándanos",
+            "start": 9.8,
+            "end": 10.02,
+            "probability": 0.9220315019289652
+          },
+          {
+            "word": " por",
+            "start": 10.02,
+            "end": 10.24,
+            "probability": 0.97055983543396
+          },
+          {
+            "word": " whatsapp",
+            "start": 10.24,
+            "end": 10.62,
+            "probability": 0.677499532699585
+          },
+          {
+            "word": " una",
+            "start": 10.62,
+            "end": 10.78,
+            "probability": 0.9853366017341614
+          },
+          {
+            "word": " foto,",
+            "start": 10.78,
+            "end": 11.14,
+            "probability": 0.9980971217155457
+          },
+          {
+            "word": " las",
+            "start": 11.54,
+            "end": 11.7,
+            "probability": 0.9807839393615723
+          },
+          {
+            "word": " medidas",
+            "start": 11.7,
+            "end": 11.94,
+            "probability": 0.9884414672851562
+          },
+          {
+            "word": " y",
+            "start": 11.94,
+            "end": 12.14,
+            "probability": 0.9516732692718506
+          },
+          {
+            "word": " tu",
+            "start": 12.14,
+            "end": 12.26,
+            "probability": 0.9828485250473022
+          },
+          {
+            "word": " colonia",
+            "start": 12.26,
+            "end": 12.6,
+            "probability": 0.9889229238033295
+          }
+        ]
+      },
+      {
+        "text": " para cotizar tu saguán.",
+        "start": 12.6,
+        "end": 13.76,
+        "words": [
+          {
+            "word": " para",
+            "start": 12.6,
+            "end": 12.78,
+            "probability": 0.9826441407203674
+          },
+          {
+            "word": " cotizar",
+            "start": 12.78,
+            "end": 13.2,
+            "probability": 0.9860158264636993
+          },
+          {
+            "word": " tu",
+            "start": 13.2,
+            "end": 13.38,
+            "probability": 0.9854636788368225
+          },
+          {
+            "word": " saguán.",
+            "start": 13.38,
+            "end": 13.76,
+            "probability": 0.979857345422109
+          }
+        ]
+      }
+    ],
+    "said": " Nunca se me cita saguán, en Puebla proyectos metálicos Vicens hace saguanes a la medida.  Cuidamos los detalles desde el armado hasta el acabado.  Más de 15 años de experiencia, mándanos por whatsapp una foto, las medidas y tu colonia  para cotizar tu saguán.",
+    "match": 0.9021479713603818
+  },
+  {
+    "path": "/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/Guillermo_toma3.wav",
+    "segments": [
+      {
+        "text": " Tu casa necesita saguay en Puebla, proyectos metálicos, bicensas y saguandes a la medida.",
+        "start": 0.0,
+        "end": 4.52,
+        "words": [
+          {
+            "word": " Tu",
+            "start": 0.0,
+            "end": 0.3,
+            "probability": 0.495825856924057
+          },
+          {
+            "word": " casa",
+            "start": 0.3,
+            "end": 0.52,
+            "probability": 0.9916353225708008
+          },
+          {
+            "word": " necesita",
+            "start": 0.52,
+            "end": 0.96,
+            "probability": 0.9920809864997864
+          },
+          {
+            "word": " saguay",
+            "start": 0.96,
+            "end": 1.36,
+            "probability": 0.4021654923756917
+          },
+          {
+            "word": " en",
+            "start": 1.36,
+            "end": 1.52,
+            "probability": 0.7356176972389221
+          },
+          {
+            "word": " Puebla,",
+            "start": 1.52,
+            "end": 1.82,
+            "probability": 0.9729507764180502
+          },
+          {
+            "word": " proyectos",
+            "start": 1.98,
+            "end": 2.38,
+            "probability": 0.9655454158782959
+          },
+          {
+            "word": " metálicos,",
+            "start": 2.38,
+            "end": 2.92,
+            "probability": 0.9799961149692535
+          },
+          {
+            "word": " bicensas",
+            "start": 3.06,
+            "end": 3.34,
+            "probability": 0.4330668052037557
+          },
+          {
+            "word": " y",
+            "start": 3.34,
+            "end": 3.52,
+            "probability": 0.5693287253379822
+          },
+          {
+            "word": " saguandes",
+            "start": 3.52,
+            "end": 3.82,
+            "probability": 0.8293682187795639
+          },
+          {
+            "word": " a",
+            "start": 3.82,
+            "end": 3.96,
+            "probability": 0.973077118396759
+          },
+          {
+            "word": " la",
+            "start": 3.96,
+            "end": 4.14,
+            "probability": 0.9950449466705322
+          },
+          {
+            "word": " medida.",
+            "start": 4.14,
+            "end": 4.52,
+            "probability": 0.9972385168075562
+          }
+        ]
+      },
+      {
+        "text": " Cuidamos los detalles desde el armado hasta el acabado.",
+        "start": 4.98,
+        "end": 7.56,
+        "words": [
+          {
+            "word": " Cuidamos",
+            "start": 4.98,
+            "end": 5.28,
+            "probability": 0.9772576292355856
+          },
+          {
+            "word": " los",
+            "start": 5.28,
+            "end": 5.5,
+            "probability": 0.979373037815094
+          },
+          {
+            "word": " detalles",
+            "start": 5.5,
+            "end": 5.84,
+            "probability": 0.9953154921531677
+          },
+          {
+            "word": " desde",
+            "start": 5.84,
+            "end": 6.08,
+            "probability": 0.9403532147407532
+          },
+          {
+            "word": " el",
+            "start": 6.08,
+            "end": 6.26,
+            "probability": 0.9724925756454468
+          },
+          {
+            "word": " armado",
+            "start": 6.26,
+            "end": 6.56,
+            "probability": 0.983432948589325
+          },
+          {
+            "word": " hasta",
+            "start": 6.56,
+            "end": 6.76,
+            "probability": 0.9832926392555237
+          },
+          {
+            "word": " el",
+            "start": 6.76,
+            "end": 6.94,
+            "probability": 0.9864223003387451
+          },
+          {
+            "word": " acabado.",
+            "start": 6.94,
+            "end": 7.56,
+            "probability": 0.9987215399742126
+          }
+        ]
+      },
+      {
+        "text": " Más de 15 años de experiencia, mánanos por whatsapp una foto, las medidas y tu colonia para cotizar tu saguam.",
+        "start": 7.88,
+        "end": 13.58,
+        "words": [
+          {
+            "word": " Más",
+            "start": 7.88,
+            "end": 8.0,
+            "probability": 0.8734065294265747
+          },
+          {
+            "word": " de",
+            "start": 8.0,
+            "end": 8.16,
+            "probability": 0.9987242817878723
+          },
+          {
+            "word": " 15",
+            "start": 8.16,
+            "end": 8.28,
+            "probability": 0.9713177680969238
+          },
+          {
+            "word": " años",
+            "start": 8.28,
+            "end": 8.5,
+            "probability": 0.9985445737838745
+          },
+          {
+            "word": " de",
+            "start": 8.5,
+            "end": 8.78,
+            "probability": 0.9963133931159973
+          },
+          {
+            "word": " experiencia,",
+            "start": 8.78,
+            "end": 9.16,
+            "probability": 0.9974282383918762
+          },
+          {
+            "word": " mánanos",
+            "start": 9.44,
+            "end": 9.7,
+            "probability": 0.7087104221185049
+          },
+          {
+            "word": " por",
+            "start": 9.7,
+            "end": 9.86,
+            "probability": 0.9794376492500305
+          },
+          {
+            "word": " whatsapp",
+            "start": 9.86,
+            "end": 10.24,
+            "probability": 0.7886124849319458
+          },
+          {
+            "word": " una",
+            "start": 10.24,
+            "end": 10.44,
+            "probability": 0.40499815344810486
+          },
+          {
+            "word": " foto,",
+            "start": 10.44,
+            "end": 10.74,
+            "probability": 0.9987908005714417
+          },
+          {
+            "word": " las",
+            "start": 10.9,
+            "end": 11.06,
+            "probability": 0.985797107219696
+          },
+          {
+            "word": " medidas",
+            "start": 11.06,
+            "end": 11.38,
+            "probability": 0.9948443174362183
+          },
+          {
+            "word": " y",
+            "start": 11.38,
+            "end": 11.98,
+            "probability": 0.8017563223838806
+          },
+          {
+            "word": " tu",
+            "start": 11.98,
+            "end": 12.12,
+            "probability": 0.982236921787262
+          },
+          {
+            "word": " colonia",
+            "start": 12.12,
+            "end": 12.46,
+            "probability": 0.983699768781662
+          },
+          {
+            "word": " para",
+            "start": 12.46,
+            "end": 12.64,
+            "probability": 0.9859036803245544
+          },
+          {
+            "word": " cotizar",
+            "start": 12.64,
+            "end": 13.06,
+            "probability": 0.9897103607654572
+          },
+          {
+            "word": " tu",
+            "start": 13.06,
+            "end": 13.26,
+            "probability": 0.9870026111602783
+          },
+          {
+            "word": " saguam.",
+            "start": 13.26,
+            "end": 13.58,
+            "probability": 0.9204520583152771
+          }
+        ]
+      }
+    ],
+    "said": " Tu casa necesita saguay en Puebla, proyectos metálicos, bicensas y saguandes a la medida.  Cuidamos los detalles desde el armado hasta el acabado.  Más de 15 años de experiencia, mánanos por whatsapp una foto, las medidas y tu colonia para cotizar tu saguam.",
+    "match": 0.6778042959427207
+  }
+]

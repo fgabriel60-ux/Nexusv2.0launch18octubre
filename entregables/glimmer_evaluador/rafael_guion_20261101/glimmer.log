@@ -1,0 +1,224 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-ElYklpL440HSKMkGARvUk3
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<24:16,  1.02s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:02<25:42,  1.08s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:02<11:00,  2.17it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:02<06:24,  3.72it/s]
+[1ALoading weights:   1%|          | 16/1436 [00:02<01:46, 13.32it/s]
+[1ALoading weights:   1%|▏         | 19/1436 [00:02<01:46, 13.35it/s]
+[1ALoading weights:   2%|▏         | 28/1436 [00:03<01:07, 21.00it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:03<01:07, 20.73it/s]
+[1ALoading weights:   3%|▎         | 38/1436 [00:03<00:56, 24.76it/s]
+[1ALoading weights:   3%|▎         | 42/1436 [00:03<01:01, 22.82it/s]
+[1ALoading weights:   4%|▎         | 52/1436 [00:03<00:42, 32.36it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:03<00:49, 28.06it/s]
+[1ALoading weights:   4%|▍         | 60/1436 [00:04<00:45, 30.05it/s]
+[1ALoading weights:   5%|▍         | 65/1436 [00:04<00:55, 24.66it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:04<00:38, 35.65it/s]
+[1ALoading weights:   6%|▌         | 81/1436 [00:04<00:44, 30.69it/s]
+[1ALoading weights:   6%|▌         | 88/1436 [00:04<00:37, 35.95it/s]
+[1ALoading weights:   6%|▋         | 93/1436 [00:05<00:43, 30.86it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:05<00:37, 35.25it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:05<00:45, 29.41it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:05<00:37, 35.20it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:05<00:44, 29.42it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:06<00:37, 35.39it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [00:06<00:44, 29.42it/s]
+[1ALoading weights:   9%|▉         | 134/1436 [00:06<00:41, 31.40it/s]
+[1ALoading weights:  10%|▉         | 138/1436 [00:06<00:47, 27.18it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:06<00:34, 37.49it/s]
+[1ALoading weights:  11%|█         | 153/1436 [00:06<00:40, 31.31it/s]
+[1ALoading weights:  11%|█         | 160/1436 [00:07<00:36, 35.16it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:07<00:44, 28.40it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:07<00:36, 34.90it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:07<00:44, 28.54it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:07<00:36, 34.29it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:08<00:43, 28.40it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [00:08<00:35, 34.71it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:08<00:42, 28.97it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:08<00:41, 29.48it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:08<00:40, 29.93it/s]
+[1ALoading weights:  15%|█▌        | 218/1436 [00:09<00:34, 35.09it/s]
+[1ALoading weights:  15%|█▌        | 222/1436 [00:09<00:45, 26.73it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:09<00:33, 35.42it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:09<00:41, 29.23it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:09<00:33, 35.15it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:10<00:41, 28.87it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:10<00:33, 35.19it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:10<00:39, 29.46it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:10<00:32, 35.86it/s]
+[1ALoading weights:  19%|█▉        | 273/1436 [00:10<00:38, 30.39it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:10<00:32, 35.28it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:11<00:39, 29.08it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:11<00:32, 35.56it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:11<00:38, 29.85it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:11<00:32, 35.12it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:11<00:39, 28.68it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:12<00:32, 34.64it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:12<00:37, 29.38it/s]
+[1ALoading weights:  23%|██▎       | 325/1436 [00:12<00:37, 29.86it/s]
+[1ALoading weights:  23%|██▎       | 329/1436 [00:12<00:34, 31.70it/s]
+[1ALoading weights:  23%|██▎       | 333/1436 [00:12<00:35, 30.94it/s]
+[1ALoading weights:  24%|██▎       | 340/1436 [00:12<00:29, 36.97it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:13<00:38, 28.63it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:13<00:30, 35.77it/s]
+[1ALoading weights:  25%|██▍       | 356/1436 [00:13<00:36, 29.25it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:13<00:29, 36.22it/s]
+[1ALoading weights:  26%|██▌       | 369/1436 [00:13<00:34, 30.85it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:13<00:30, 34.64it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:14<00:36, 28.55it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:14<00:29, 35.53it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:14<00:35, 29.16it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:14<00:29, 35.05it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:14<00:36, 28.41it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:15<00:29, 34.88it/s]
+[1ALoading weights:  29%|██▉       | 416/1436 [00:15<00:35, 28.53it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:15<00:28, 35.06it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:15<00:35, 28.46it/s]
+[1ALoading weights:  30%|███       | 436/1436 [00:15<00:28, 35.14it/s]
+[1ALoading weights:  31%|███       | 441/1436 [00:16<00:31, 31.21it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:16<00:28, 34.92it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:16<00:33, 29.44it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:16<00:27, 35.11it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:16<00:33, 29.29it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:16<00:26, 36.08it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:17<00:32, 29.82it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:17<00:26, 36.56it/s]
+[1ALoading weights:  34%|███▍      | 489/1436 [00:17<00:29, 31.65it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:17<00:25, 36.23it/s]
+[1ALoading weights:  35%|███▍      | 501/1436 [00:17<00:30, 30.96it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:17<00:25, 36.79it/s]
+[1ALoading weights:  36%|███▌      | 513/1436 [00:18<00:29, 31.02it/s]
+[1ALoading weights:  36%|███▌      | 517/1436 [00:18<00:30, 30.53it/s]
+[1ALoading weights:  36%|███▋      | 522/1436 [00:18<00:31, 29.27it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:18<00:23, 38.66it/s]
+[1ALoading weights:  37%|███▋      | 537/1436 [00:18<00:27, 33.02it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:19<00:23, 37.53it/s]
+[1ALoading weights:  38%|███▊      | 549/1436 [00:19<00:27, 32.33it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:19<00:23, 36.88it/s]
+[1ALoading weights:  39%|███▉      | 561/1436 [00:19<00:27, 31.78it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:19<00:23, 36.30it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:19<00:28, 30.33it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:20<00:24, 35.51it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:20<00:29, 29.31it/s]
+[1ALoading weights:  41%|████      | 592/1436 [00:20<00:23, 35.84it/s]
+[1ALoading weights:  42%|████▏     | 596/1436 [00:20<00:28, 29.37it/s]
+[1ALoading weights:  42%|████▏     | 604/1436 [00:20<00:23, 36.07it/s]
+[1ALoading weights:  42%|████▏     | 609/1436 [00:21<00:26, 31.25it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:21<00:23, 34.51it/s]
+[1ALoading weights:  43%|████▎     | 620/1436 [00:21<00:27, 29.44it/s]
+[1ALoading weights:  44%|████▍     | 638/1436 [00:21<00:14, 56.91it/s]
+[1ALoading weights:  47%|████▋     | 680/1436 [00:21<00:05, 132.08it/s]
+[1ALoading weights:  49%|████▉     | 710/1436 [00:21<00:04, 169.75it/s]
+[1ALoading weights:  53%|█████▎    | 768/1436 [00:21<00:02, 270.27it/s]
+[1ALoading weights:  58%|█████▊    | 829/1436 [00:21<00:01, 351.65it/s]
+[1ALoading weights:  62%|██████▏   | 890/1436 [00:22<00:01, 401.72it/s]
+[1ALoading weights:  67%|██████▋   | 956/1436 [00:22<00:01, 466.96it/s]
+[1ALoading weights:  70%|███████   | 1010/1436 [00:22<00:00, 480.79it/s]
+[1ALoading weights:  74%|███████▍  | 1068/1436 [00:22<00:00, 506.39it/s]
+[1ALoading weights:  78%|███████▊  | 1122/1436 [00:22<00:00, 513.43it/s]
+[1ALoading weights:  82%|████████▏ | 1176/1436 [00:22<00:00, 517.12it/s]
+[1ALoading weights:  86%|████████▌ | 1230/1436 [00:22<00:00, 518.80it/s]
+[1ALoading weights:  90%|████████▉ | 1292/1436 [00:22<00:00, 548.18it/s]
+[1ALoading weights:  94%|█████████▍| 1348/1436 [00:22<00:00, 548.76it/s]
+[1ALoading weights:  98%|█████████▊| 1404/1436 [00:23<00:00, 543.77it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:23<00:00, 62.25it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## RAFAEL_GUION_DENTRO_AUTO
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y guionista para asesores de autos en México. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento. Usa SOLO estos datos; no inventes precios, bonos, mensualidades, tasas, autonomía ni promociones.
+
+ASESOR: Rafael Hernández Ortiz, asesor de ventas de BYD Azcapotzalco (Ciudad de México). WhatsApp 55 7386 9438. Modelos que muestra su tarjeta: BYD Song Plus, BYD King y BYD Dolphin (aún no confirma oferta vigente). Objetivo: mensajes de WhatsApp de personas de Azcapotzalco y alrededores que de verdad quieren comprar auto.
+
+FORMATO DEL VIDEO (réplica de un reel): 0-3 s Rafael parado serio frente a su agencia BYD, cortes secos que se acercan a él con sonido; luego corte a Rafael sentado DENTRO de un BYD, cámara en el tablero, y ahí empieza a hablar a cámara ~12-15 s, tono de confianza, como platicando.
+
+ENTREGA:
+1) GUION HABLADO dentro del carro, 30-38 palabras máximo, frases cortas, en primera persona, que abra con una pregunta-gancho que filtre al comprador real, mencione que es asesor de BYD Azcapotzalco y cierre pidiendo mensaje por WhatsApp con una palabra clave. Escribe números con letra.
+2) TEXTO EN PANTALLA para los primeros 3 s (máximo 6 palabras).
+3) CALIFICACIÓN 1-10 del guion en gancho, confianza, claridad y mensajes calificados.
+
+We need output only final answer, in Spanish. Use only these data; no invent prices etc.
+
+Guion hablado 30-38 palabras max. Must be first person. Open with question-gancho that filters real buyer. Mention he is advisor of BYD Azcapotzalco and close asking message by WhatsApp with a keyword.
+
+Word count 30-38 words. Let's craft ~34 words.
+
+Possible: "¿Estás listo para comprar un auto eléctrico o híbrido este mes? Soy Rafael Hernández, asesor de BYD Azcapotzalco. Manejamos Song Plus, King y Dolphin. Escríbeme por WhatsApp con la palabra CLAVE."
+
+Count words.
+
+¿Estás(1) listo2 para3 comprar4 un5 auto6 eléctrico7 o8 híbrido9 este10 mes?11 Soy12 Rafael13 Hernández,14 asesor15 de16 BYD17 Azcapotzalco.18 Manejamos19 Song20 Plus,21 King22 y23 Dolphin.24 Escríbeme25 por26 WhatsApp27 con28 la29 palabra30 CLAVE31.
+
+31 words. Need 30-38. Good.
+
+Maybe include WhatsApp number? Could be okay but not required. Might be good to include? The instruction: cierre pidiendo mensaje por WhatsApp con una palabra clave. Could include number? Might be okay but not required. Might be safer not to invent? Number is given. Could include. But word count increase.
+
+Maybe add "al cincuenta y cinco..." That would be many words. Might keep just WhatsApp.
+
+Text on screen for first 3s max 6 words. Something like "¿Quieres comprar auto ya?" That's 4 words. Or "¿Listo para comprar hoy?" 4 words.
+
+Calificación 1-10 del guion en gancho, confianza, claridad y mensajes calificados.
+
+Provide rating.
+
+We must output only final answer. Probably three sections.
+
+Ensure no invented promotions. We didn't.
+
+Check models: BYD Song Plus, BYD King and BYD Dolphin. Good.
+
+No price.
+
+Word count okay.
+
+Make sure first person.
+
+Maybe use "Soy Rafael Hernández Ortiz". Full name given. Use full name? It says Rafael Hernández Ortiz. Use that.
+
+Let's adjust: Soy Rafael Hernández Ortiz, asesor de BYD Azcapotzalco.
+
+Count again with full name.
+
+¿Estás1 listo2 para3 comprar4 un5 auto6 eléctrico7 o8 híbrido9 este10 mes?11 Soy12 Rafael13 Hernández14 Ortiz,15 asesor16 de17 BYD18 Azcapotzalco.19 Manejamos20 Song21 Plus,22 King23 y24 Dolphin.25 Escríbeme26 por27 WhatsApp28 con29 la30 palabra31 CLAVE32.
+
+32 words. Good.
+
+Text on screen: "¿Listo para comprar auto?" That's 4 words? ¿Listo(1) para2 comprar3 auto?4 Good.
+
+Calificación: maybe 9/10.
+
+Provide rating.
+
+Output format clear.
+
+Let's deliver.
+
+assistant to=user1) GUION HABLADO dentro del carro
+¿Estás listo para comprar un auto eléctrico o híbrido este mes? Soy Rafael Hernández Ortiz, asesor de BYD Azcapotzalco. Manejamos Song Plus, King y Dolphin. Escríbeme por WhatsApp con la palabra CLAVE.
+
+2) TEXTO EN PANTALLA primeros 3 s
+¿Listo para comprar auto?
+
+3) CALIFICACIÓN
+Gancho 9/10 - Confianza 9/10 - Claridad 9/10 - Mensajes calificados 9/10
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-ElYklpL440HSKMkGARvUk3
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/rafael_guion_20261101/lote.json --tokens 4500
+Duración: 1.8 min  (código 0)
+  escenas-carlos (ap-fvv47fTBWiyPkjEujr7aXN): $0.133
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.013
+  glimmer (ap-ElYklpL440HSKMkGARvUk3): $0.072
+Gasto del trabajo: $0.218
+Saldo restante ≈ $28.41

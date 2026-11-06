@@ -1,0 +1,180 @@
+{
+ "carpeta": "tesla_mexico_v1",
+ "salida": "clientes/Carlos_Nexus/tesla_mexico/v1",
+ "semilla": 17,
+ "refs": {
+  "t": "clientes/Carlos_Nexus/tesla_mexico/refs/tesla.png"
+ },
+ "cuadros": {
+  "T01_agave": [
+   [
+    "t"
+   ],
+   "Foto cinematográfica realista vertical 9:16, vista aérea: El MISMO auto deportivo plateado de la imagen (Tesla Roadster nueva generación: carrocería plateada, faros delgados, rines negros, techo de cristal) VOLANDO en el aire sobre campos azules de agave en Jalisco, con un pueblo y cerros al fondo, luz dorada del atardecer, ruedas giradas hacia abajo como si flotara.",
+   "texto, letras, logotipos, letreros legibles, otro modelo de auto, auto deformado, ruedas deformadas, animal gigante, caricatura"
+  ],
+  "T02_periferico": [
+   [
+    "t"
+   ],
+   "Foto cinematográfica realista vertical 9:16 desde arriba en Ciudad de México: un embotellamiento enorme en el Periférico, cientos de autos y microbuses detenidos, y El MISMO auto deportivo plateado de la imagen (Tesla Roadster nueva generación: carrocería plateada, faros delgados, rines negros, techo de cristal) volando por ENCIMA del tráfico a unos 5 metros de altura, sombra sobre los autos, cielo con contaminación leve.",
+   "texto, letras, logotipos, letreros legibles, otro modelo de auto, auto deformado, ruedas deformadas, animal gigante, caricatura"
+  ],
+  "T03_tamales": [
+   [
+    "t"
+   ],
+   "Foto cinematográfica realista vertical 9:16, calle empedrada de un pueblo mexicano con casas de colores amarillo y rosa y faroles: El MISMO auto deportivo plateado de la imagen (Tesla Roadster nueva generación: carrocería plateada, faros delgados, rines negros, techo de cristal) FLOTANDO a un metro sobre la banqueta con la puerta abierta; una señora mexicana mayor con rebozo y delantal sentada en el asiento del copiloto sostiene una olla grande de tamales humeante, sonriendo.",
+   "texto, letras, logotipos, letreros legibles, otro modelo de auto, auto deformado, ruedas deformadas, animal gigante, caricatura"
+  ],
+  "T04_caseta": [
+   [
+    "t"
+   ],
+   "Foto cinematográfica realista vertical 9:16 en una caseta de cobro de autopista en México: autos formados en la fila, y El MISMO auto deportivo plateado de la imagen (Tesla Roadster nueva generación: carrocería plateada, faros delgados, rines negros, techo de cristal) pasando VOLANDO por encima del techo de la caseta; el cobrador con chaleco asoma por la ventanilla mirando hacia arriba sorprendido.",
+   "texto, letras, logotipos, letreros legibles, otro modelo de auto, auto deformado, ruedas deformadas, animal gigante, caricatura"
+  ],
+  "T05_tianguis": [
+   [
+    "t"
+   ],
+   "Foto cinematográfica realista vertical 9:16 de un tianguis mexicano con lonas rosas y azules, puestos de frutas y ropa, mucha gente comprando: El MISMO auto deportivo plateado de la imagen (Tesla Roadster nueva generación: carrocería plateada, faros delgados, rines negros, techo de cristal) flotando bajo sobre las lonas, la gente lo señala con el dedo y graba con su celular.",
+   "texto, letras, logotipos, letreros legibles, otro modelo de auto, auto deformado, ruedas deformadas, animal gigante, caricatura"
+  ],
+  "T06_carneasada": [
+   [
+    "t"
+   ],
+   "Foto cinematográfica realista vertical 9:16 en una playa mexicana con palmeras: El MISMO auto deportivo plateado de la imagen (Tesla Roadster nueva generación: carrocería plateada, faros delgados, rines negros, techo de cristal) FLOTANDO a medio metro sobre la arena con la cajuela delantera abierta; una familia mexicana hace carne asada en un asador junto al auto, humo y fuego, carne y cebollitas en la parrilla, mar al fondo.",
+   "texto, letras, logotipos, letreros legibles, otro modelo de auto, auto deformado, ruedas deformadas, animal gigante, caricatura"
+  ],
+  "T07_inundacion": [
+   [
+    "t"
+   ],
+   "Foto cinematográfica realista vertical 9:16 de una calle inundada en temporada de lluvias en una ciudad mexicana, agua café hasta las rodillas, autos atorados y gente con el pantalón arremangado: El MISMO auto deportivo plateado de la imagen (Tesla Roadster nueva generación: carrocería plateada, faros delgados, rines negros, techo de cristal) pasa VOLANDO a dos metros del agua, seco y limpio, salpicaduras abajo, la gente lo mira con envidia.",
+   "texto, letras, logotipos, letreros legibles, otro modelo de auto, auto deformado, ruedas deformadas, animal gigante, caricatura"
+  ],
+  "T08_patrulla": [
+   [
+    "t"
+   ],
+   "Foto cinematográfica realista vertical 9:16 en una avenida mexicana: un policía de tránsito mexicano con uniforme azul y libreta de multas mira hacia arriba sin poder hacer nada, mientras El MISMO auto deportivo plateado de la imagen (Tesla Roadster nueva generación: carrocería plateada, faros delgados, rines negros, techo de cristal) vuela por encima de él; patrulla con torreta encendida estacionada.",
+   "texto, letras, logotipos, letreros legibles, otro modelo de auto, auto deformado, ruedas deformadas, animal gigante, caricatura"
+  ],
+  "T09_tienda": [
+   [
+    "t"
+   ],
+   "Foto cinematográfica realista vertical 9:16 de noche en el estacionamiento de una tienda de conveniencia mexicana de esquina con luces blancas (sin logotipos): El MISMO auto deportivo plateado de la imagen (Tesla Roadster nueva generación: carrocería plateada, faros delgados, rines negros, techo de cristal) ATERRIZANDO suavemente en un cajón, polvo levantándose, un joven sale de la tienda con un garrafón de agua y bolsas mirando sorprendido.",
+   "texto, letras, logotipos, letreros legibles, otro modelo de auto, auto deformado, ruedas deformadas, animal gigante, caricatura"
+  ],
+  "T10_serenata": [
+   [
+    "t"
+   ],
+   "Foto cinematográfica realista vertical 9:16 de noche en una calle colonial mexicana: El MISMO auto deportivo plateado de la imagen (Tesla Roadster nueva generación: carrocería plateada, faros delgados, rines negros, techo de cristal) FLOTANDO a la altura de un balcón con flores; tres mariachis con traje negro de charro y sombrero tocan guitarra y trompeta sentados dentro y sobre el auto, una muchacha sonríe asomada en el balcón.",
+   "texto, letras, logotipos, letreros legibles, otro modelo de auto, auto deformado, ruedas deformadas, animal gigante, caricatura"
+  ],
+  "T11_plaza": [
+   [
+    "t"
+   ],
+   "Foto cinematográfica realista vertical 9:16 de noche en la plaza principal de un pueblo mexicano con una iglesia blanca iluminada, palmeras, papel picado y fuegos artificiales de colores en el cielo: El MISMO auto deportivo plateado de la imagen (Tesla Roadster nueva generación: carrocería plateada, faros delgados, rines negros, techo de cristal) flotando sobre la plaza, gente abajo levantando los brazos y grabando con celulares.",
+   "texto, letras, logotipos, letreros legibles, otro modelo de auto, auto deformado, ruedas deformadas, animal gigante, caricatura"
+  ],
+  "T12_despedida": [
+   [
+    "t"
+   ],
+   "Foto cinematográfica realista vertical 9:16 de noche, calle empedrada mexicana con casas de colores y faroles cálidos, confeti en el piso: El MISMO auto deportivo plateado de la imagen (Tesla Roadster nueva generación: carrocería plateada, faros delgados, rines negros, techo de cristal) elevándose hacia el cielo estrellado al fondo de la calle, luces traseras rojas encendidas, una pareja de abuelitos de espaldas lo ve irse.",
+   "texto, letras, logotipos, letreros legibles, otro modelo de auto, auto deformado, ruedas deformadas, animal gigante, caricatura"
+  ]
+ },
+ "tomas": [
+  [
+   "V01_agave",
+   "T01_agave",
+   "Vertical cinematic realistic shot. Slow aerial drone shot following the silver sports car flying smoothly over blue agave fields at golden hour, gentle camera push. Audio: wind and a soft electric whoosh. Same silver car, no text.",
+   3.5,
+   null
+  ],
+  [
+   "V02_periferico",
+   "T02_periferico",
+   "Vertical cinematic realistic shot. The silver car glides forward above the stuck traffic jam, cars below honk, camera tilts to follow. Audio: car horns, traffic, electric whoosh. Same silver car, no text.",
+   3.5,
+   null
+  ],
+  [
+   "V03_tamales",
+   "T03_tamales",
+   "Vertical cinematic realistic shot. The hovering car bobs gently, steam rises from the tamales pot, the old lady smiles and lifts the lid. Audio: street ambience, a vendor voice far away, no clear speech. Same silver car, no text.",
+   3.5,
+   null
+  ],
+  [
+   "V04_caseta",
+   "T04_caseta",
+   "Vertical cinematic realistic shot. The silver car flies over the toll booth roof, the toll collector leans out and looks up following it with his head. Audio: whoosh, cars idling. Same silver car, no text.",
+   3.5,
+   null
+  ],
+  [
+   "V05_tianguis",
+   "T05_tianguis",
+   "Vertical cinematic realistic shot. The car glides slowly over the market tarps, people point and raise their phones. Audio: market crowd chatter, cumbia far away. Same silver car, no text.",
+   3.5,
+   null
+  ],
+  [
+   "V06_carneasada",
+   "T06_carneasada",
+   "Vertical cinematic realistic shot. Smoke and flames rise from the grill, the family flips meat beside the hovering car, waves in the background. Audio: sizzling meat, waves, laughter. Same silver car, no text.",
+   3.5,
+   null
+  ],
+  [
+   "V07_inundacion",
+   "T07_inundacion",
+   "Vertical cinematic realistic shot. The car flies above the flooded street leaving a small wake of spray, people in the water turn to watch. Audio: splashing water, rain, whoosh. Same silver car, no text.",
+   3.5,
+   null
+  ],
+  [
+   "V08_patrulla",
+   "T08_patrulla",
+   "Vertical cinematic realistic shot. The traffic cop looks up and lowers his ticket book as the car flies over him, police lights flashing. Audio: siren chirp, whoosh. Same silver car, no text.",
+   3.5,
+   null
+  ],
+  [
+   "V09_tienda",
+   "T09_tienda",
+   "Vertical cinematic realistic shot. The car lands softly in the parking spot with dust rising, the young man stops walking and stares. Audio: soft landing hum, night ambience. Same silver car, no text.",
+   3.5,
+   null
+  ],
+  [
+   "V10_serenata",
+   "T10_serenata",
+   "Vertical cinematic realistic shot. The mariachis play on and around the hovering car at the balcony, the girl smiles. Audio: mariachi trumpet and guitar serenade. Same silver car, no text.",
+   3.5,
+   null
+  ],
+  [
+   "V11_plaza",
+   "T11_plaza",
+   "Vertical cinematic realistic shot. Fireworks burst over the plaza while the car floats above, people cheer and raise their arms. Audio: fireworks, crowd cheering. Same silver car, no text.",
+   3.5,
+   null
+  ],
+  [
+   "V12_despedida",
+   "T12_despedida",
+   "Vertical cinematic realistic shot. The car rises into the starry sky at the end of the street, red tail lights glowing, the elderly couple watches it go. Audio: soft whoosh fading, crickets. Same silver car, no text.",
+   3.5,
+   null
+  ]
+ ]
+}

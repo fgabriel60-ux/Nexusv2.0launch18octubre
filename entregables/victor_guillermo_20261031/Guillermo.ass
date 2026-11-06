@@ -1,0 +1,28 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montserrat,48,&H00FFFFFF,&H0000D7FF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,4,1,2,48,48,280,1
+Style: Title,Montserrat,38,&H00FFFFFF,&H0000D7FF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,3,2,0,8,35,35,85,1
+Style: CTA,Montserrat,35,&H0066D325,&H0000D7FF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,3,2,0,2,35,35,130,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:00:00.72,Default,,0,0,0,,{\kf14}¿Tu {\kf20}casa {\kf38}necesita
+Dialogue: 2,0:00:00.72,0:00:01.76,Default,,0,0,0,,{\kf48}zaguán? {\kf10}En {\kf26}Puebla,
+Dialogue: 2,0:00:01.86,0:00:03.00,Default,,0,0,0,,{\kf40}Proyectos {\kf40}Metálicos {\kf34}Vicens
+Dialogue: 2,0:00:03.00,0:00:03.88,Default,,0,0,0,,{\kf32}hace {\kf38}zaguanes {\kf18}a
+Dialogue: 2,0:00:03.88,0:00:05.14,Default,,0,0,0,,{\kf16}la {\kf28}medida. {\kf30}Cuidamos
+Dialogue: 2,0:00:05.14,0:00:06.04,Default,,0,0,0,,{\kf20}los {\kf40}detalles, {\kf30}desde
+Dialogue: 2,0:00:06.04,0:00:06.70,Default,,0,0,0,,{\kf18}el {\kf28}armado {\kf20}hasta
+Dialogue: 2,0:00:06.70,0:00:08.00,Default,,0,0,0,,{\kf18}el {\kf48}acabado. {\kf16}Más
+Dialogue: 2,0:00:08.00,0:00:08.62,Default,,0,0,0,,{\kf18}de {\kf20}quince {\kf24}años
+Dialogue: 2,0:00:08.62,0:00:10.34,Default,,0,0,0,,{\kf24}de {\kf44}experiencia. {\kf24}Mándanos
+Dialogue: 2,0:00:10.34,0:00:11.04,Default,,0,0,0,,{\kf20}por {\kf26}WhatsApp {\kf24}una
+Dialogue: 2,0:00:11.04,0:00:11.92,Default,,0,0,0,,{\kf32}foto, {\kf10}las {\kf30}medidas
+Dialogue: 2,0:00:11.92,0:00:12.70,Default,,0,0,0,,{\kf20}y {\kf18}tu {\kf40}colonia
+Dialogue: 2,0:00:12.70,0:00:13.50,Default,,0,0,0,,{\kf20}para {\kf42}cotizar {\kf18}tu
+Dialogue: 2,0:00:13.50,0:00:13.90,Default,,0,0,0,,{\kf40}zaguán.
+Dialogue: 1,0:00:00.00,0:00:14.42,Title,,0,0,0,,VICENS · ZAGUANES A LA MEDIDA\NPUEBLA Y ALREDEDORES
+Dialogue: 1,0:00:00.00,0:00:14.42,CTA,,0,0,0,,WHATSAPP 231 231 1066\NFoto + medidas + colonia

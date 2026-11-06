@@ -1,0 +1,4632 @@
+{
+  "backup": "/Users/juancarlos/Desktop/IMPLANTE_DENTAL/ANTES_ANIMACION_DIENTES_20260914_230459_3cfefe.blend",
+  "scene": "CHICA_IMPLANTE_ESTILO_APROBADO",
+  "frame": 560,
+  "objects": [
+    {
+      "name": "AP_Natural_tooth_0",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.9999998807907104,
+        0.5600000023841858,
+        1.3299999237060547
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "AP_Root_0",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -2.119999885559082,
+        -0.2800000011920929,
+        1.7200000286102295
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.20000000298023224,
+        0.12999999523162842,
+        1.159999966621399
+      ],
+      "dimensions": [
+        0.4000001847743988,
+        0.2600000500679016,
+        2.319999933242798
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Natural_tooth_1",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        1.0199999809265137,
+        0.5600000023841858,
+        1.3299999237060547
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "AP_Root_1",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        -1.1200000047683716,
+        -0.2800000011920929,
+        1.7200000286102295
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.20000000298023224,
+        0.12999999523162842,
+        1.159999966621399
+      ],
+      "dimensions": [
+        0.4000001847743988,
+        0.2600000500679016,
+        2.319999933242798
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Natural_tooth_2",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        1,
+        0.5600000023841858,
+        1.3299999237060547
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "AP_Root_2",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        1.0199999809265137,
+        -0.2800000011920929,
+        1.7200000286102295
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.20000000298023224,
+        0.12999999523162842,
+        1.159999966621399
+      ],
+      "dimensions": [
+        0.4000001847743988,
+        0.2600000500679016,
+        2.319999933242798
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Natural_tooth_3",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.9799998998641968,
+        0.5600000023841858,
+        1.3299999237060547
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "AP_Root_3",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        2.0399999618530273,
+        -0.2800000011920929,
+        1.7200000286102295
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.20000000298023224,
+        0.12999999523162842,
+        1.159999966621399
+      ],
+      "dimensions": [
+        0.4000001847743988,
+        0.2600000500679016,
+        2.319999933242798
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_IMPLANT_AXIS",
+      "type": "EMPTY",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        -0.671225905418396
+      ],
+      "rotation": [
+        0,
+        0,
+        -46.423248291015625
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0,
+        0,
+        0
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "location",
+          0,
+          4
+        ],
+        [
+          "location",
+          1,
+          4
+        ],
+        [
+          "location",
+          2,
+          4
+        ],
+        [
+          "rotation_euler",
+          0,
+          2
+        ],
+        [
+          "rotation_euler",
+          1,
+          2
+        ],
+        [
+          "rotation_euler",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Implant_body",
+      "type": "MESH",
+      "parent": "AP_IMPLANT_AXIS",
+      "location": [
+        0,
+        0,
+        1.6299999952316284
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.42875075340270996,
+        0.42875075340270996,
+        2.1600000858306885
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Machined_helical_thread",
+      "type": "CURVE",
+      "parent": "AP_IMPLANT_AXIS",
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.5552671551704407,
+        0.5535140037536621,
+        2.1864566802978516
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Implant_collar",
+      "type": "MESH",
+      "parent": "AP_IMPLANT_AXIS",
+      "location": [
+        0,
+        0,
+        0.5199999809265137
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.5,
+        0.5,
+        0.1899999976158142
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Connector_socket",
+      "type": "MESH",
+      "parent": "AP_IMPLANT_AXIS",
+      "location": [
+        0,
+        0,
+        0.4169999957084656
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.2199999988079071,
+        0.2199999988079071,
+        0.014999999664723873
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Healing_cap",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0.38999998569488525
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.46000000834465027,
+        0.46000000834465027,
+        0.18000000715255737
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Abutment",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        -1.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.35579365491867065,
+        0.35579365491867065,
+        0.5099999904632568
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "location",
+          0,
+          2
+        ],
+        [
+          "location",
+          1,
+          2
+        ],
+        [
+          "location",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Definitive_crown",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        1,
+        0.5600000023841858,
+        1.3299999237060547
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "location",
+          0,
+          2
+        ],
+        [
+          "location",
+          1,
+          2
+        ],
+        [
+          "location",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_00",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.1468023657798767,
+        0.06305378675460815,
+        0.057178497314453125
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_01",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.247898131608963,
+        0.0636807382106781,
+        0.05759775638580322
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_02",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.17842338979244232,
+        0.06337147951126099,
+        0.05738687515258789
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_03",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.1346435695886612,
+        0.06286295503377914,
+        0.05705761909484863
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_04",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.28753307461738586,
+        0.06376399844884872,
+        0.05765652656555176
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_05",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.1190355122089386,
+        0.06251805275678635,
+        0.0568462610244751
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_06",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.12000556290149689,
+        0.06254386901855469,
+        0.05686211585998535
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_07",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.23108981549739838,
+        0.06363142281770706,
+        0.0575636625289917
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_08",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.12988965213298798,
+        0.06277206540107727,
+        0.05700099468231201
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_09",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.22804713249206543,
+        0.06362127512693405,
+        0.057556867599487305
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_10",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.30476510524749756,
+        0.06379029154777527,
+        0.05767512321472168
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_11",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.22685977816581726,
+        0.06361719965934753,
+        0.057554006576538086
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_12",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.12406159937381744,
+        0.06264472007751465,
+        0.05692291259765625
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_13",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.2097630649805069,
+        0.06355033069849014,
+        0.05750775337219238
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_14",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.23882193863391876,
+        0.06365544348955154,
+        0.05758035182952881
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_15",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.20627331733703613,
+        0.06353452056646347,
+        0.05749702453613281
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_16",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.1487225890159607,
+        0.06307942420244217,
+        0.05719494819641113
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_17",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.26959824562072754,
+        0.06373095512390137,
+        0.05763310194015503
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_18",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.18658792972564697,
+        0.06342726945877075,
+        0.057424068450927734
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_19",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.21529726684093475,
+        0.06357378512620926,
+        0.05752396583557129
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_20",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.19562870264053345,
+        0.06348071247339249,
+        0.05746018886566162
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_21",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.14304520189762115,
+        0.06300035864114761,
+        0.05714428424835205
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_22",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.30286282300949097,
+        0.06378760933876038,
+        0.057672858238220215
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_23",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.22430719435214996,
+        0.06360820680856705,
+        0.057547569274902344
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_24",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.22492758929729462,
+        0.06361042708158493,
+        0.057549238204956055
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_25",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.3237820267677307,
+        0.06381449848413467,
+        0.05769193172454834
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_26",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.26147738099098206,
+        0.06371366232633591,
+        0.057621002197265625
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_27",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.1448693871498108,
+        0.06302686780691147,
+        0.05716121196746826
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_28",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.09024195373058319,
+        0.06127136945724487,
+        0.056154608726501465
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_29",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.10287465155124664,
+        0.06196119636297226,
+        0.05652427673339844
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_30",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.15739238262176514,
+        0.06318303942680359,
+        0.05726224184036255
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_31",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.21180865168571472,
+        0.06355922669172287,
+        0.05751395225524902
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_32",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.10737203061580658,
+        0.06214442849159241,
+        0.056627750396728516
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_33",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.0805986225605011,
+        0.060481004416942596,
+        0.055767059326171875
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_34",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.12436278164386749,
+        0.06265178322792053,
+        0.05692720413208008
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_35",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.15198393166065216,
+        0.06312063336372375,
+        0.05722153186798096
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_36",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.08757397532463074,
+        0.06108129024505615,
+        0.05605792999267578
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_37",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.20828542113304138,
+        0.06354373693466187,
+        0.05750322341918945
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_38",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.20358937978744507,
+        0.06352177262306213,
+        0.05748796463012695
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_39",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.21821370720863342,
+        0.06358542293310165,
+        0.05753171443939209
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_40",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.20299221575260162,
+        0.06351887434720993,
+        0.05748605728149414
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_41",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.14073844254016876,
+        0.0629652664065361,
+        0.057121992111206055
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_42",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.2784169018268585,
+        0.06374800950288773,
+        0.05764508247375488
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_43",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.11132556200027466,
+        0.06228566914796829,
+        0.0567091703414917
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_44",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.1316879242658615,
+        0.06280770152807236,
+        0.05702310800552368
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_45",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.21788454055786133,
+        0.06358411908149719,
+        0.057531118392944336
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_46",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.14314772188663483,
+        0.06300187855958939,
+        0.05714523792266846
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_47",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.18489812314510345,
+        0.06341635435819626,
+        0.05741679668426514
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_48",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.11542092263698578,
+        0.062415480613708496,
+        0.0567852258682251
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_49",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.08419458568096161,
+        0.060811012983322144,
+        0.05592465400695801
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_50",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.3373252749443054,
+        0.06382927298545837,
+        0.05770277976989746
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_51",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.22662410140037537,
+        0.06361638754606247,
+        0.05755317211151123
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_52",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.16003742814064026,
+        0.06321114301681519,
+        0.05728042125701904
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_53",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.09480027854442596,
+        0.061555929481983185,
+        0.056303322315216064
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Integration_54",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "dimensions": [
+        0.31754618883132935,
+        0.06380704790353775,
+        0.05768632888793945
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ],
+        [
+          "scale",
+          0,
+          2
+        ],
+        [
+          "scale",
+          1,
+          2
+        ],
+        [
+          "scale",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Anesthesia_rig",
+      "type": "EMPTY",
+      "parent": null,
+      "location": [
+        -1.2000000476837158,
+        -1.100000023841858,
+        -0.44999998807907104
+      ],
+      "rotation": [
+        0,
+        -0.550000011920929,
+        -0.30000001192092896
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0,
+        0,
+        0
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "location",
+          0,
+          4
+        ],
+        [
+          "location",
+          1,
+          4
+        ],
+        [
+          "location",
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "name": "AP_Needle",
+      "type": "MESH",
+      "parent": "AP_Anesthesia_rig",
+      "location": [
+        0,
+        0,
+        -0.47999998927116394
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.02800000086426735,
+        0.02800000086426735,
+        0.949999988079071
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Needle_hub",
+      "type": "MESH",
+      "parent": "AP_Anesthesia_rig",
+      "location": [
+        0,
+        0,
+        -1.0499999523162842
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.10999999940395355,
+        0.10999999940395355,
+        0.20000000298023224
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Syringe_barrel",
+      "type": "MESH",
+      "parent": "AP_Anesthesia_rig",
+      "location": [
+        0,
+        0,
+        -1.600000023841858
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.1899999976158142,
+        0.1899999976158142,
+        0.8999999761581421
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Syringe_inset",
+      "type": "MESH",
+      "parent": "AP_Anesthesia_rig",
+      "location": [
+        0,
+        0,
+        -1.5499999523162842
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.1940000057220459,
+        0.1940000057220459,
+        0.5199999809265137
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Plunger",
+      "type": "MESH",
+      "parent": "AP_Anesthesia_rig",
+      "location": [
+        0,
+        0,
+        -2.2200000286102295
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.07000000029802322,
+        0.07000000029802322,
+        0.4000000059604645
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Osteotomy_rig",
+      "type": "EMPTY",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        -3.799999952316284
+      ],
+      "rotation": [
+        0,
+        0,
+        94.2477798461914
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0,
+        0,
+        0
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "location",
+          0,
+          4
+        ],
+        [
+          "location",
+          1,
+          4
+        ],
+        [
+          "location",
+          2,
+          4
+        ],
+        [
+          "rotation_euler",
+          0,
+          2
+        ],
+        [
+          "rotation_euler",
+          1,
+          2
+        ],
+        [
+          "rotation_euler",
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "AP_Drill_shaft",
+      "type": "MESH",
+      "parent": "AP_Osteotomy_rig",
+      "location": [
+        0,
+        0,
+        1.100000023841858
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.14956803619861603,
+        0.14956803619861603,
+        2.5
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Handpiece",
+      "type": "MESH",
+      "parent": "AP_Osteotomy_rig",
+      "location": [
+        0,
+        0,
+        -0.6499999761581421
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.4399999976158142,
+        0.4399999976158142,
+        1.149999976158142
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Drill_flute",
+      "type": "CURVE",
+      "parent": "AP_Osteotomy_rig",
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.18788157403469086,
+        0.1877351701259613,
+        2.2408454418182373
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Drill_flute.001",
+      "type": "CURVE",
+      "parent": "AP_Osteotomy_rig",
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.18788157403469086,
+        0.1877351701259613,
+        2.2408454418182373
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_CAMERA",
+      "type": "CAMERA",
+      "parent": null,
+      "location": [
+        0.04508146643638611,
+        -28,
+        1.2324888706207275
+      ],
+      "rotation": [
+        1.570796251296997,
+        -6.585232359412885e-10,
+        -0.003568018786609173
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0,
+        0,
+        0
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "location",
+          0,
+          11
+        ],
+        [
+          "location",
+          1,
+          11
+        ],
+        [
+          "location",
+          2,
+          11
+        ],
+        [
+          "rotation_euler",
+          0,
+          11
+        ],
+        [
+          "rotation_euler",
+          1,
+          11
+        ],
+        [
+          "rotation_euler",
+          2,
+          11
+        ]
+      ]
+    },
+    {
+      "name": "AP_Key",
+      "type": "LIGHT",
+      "parent": null,
+      "location": [
+        -4,
+        -7,
+        7
+      ],
+      "rotation": [
+        0.9310122728347778,
+        2.876119076233863e-08,
+        -0.5191461443901062
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0,
+        0,
+        0
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "AP_Teal",
+      "type": "LIGHT",
+      "parent": null,
+      "location": [
+        4,
+        2,
+        5
+      ],
+      "rotation": [
+        0.841068685054779,
+        5.478504760958458e-08,
+        2.0344438552856445
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0,
+        0,
+        0
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "AP_Fill",
+      "type": "LIGHT",
+      "parent": null,
+      "location": [
+        2,
+        -4,
+        0
+      ],
+      "rotation": [
+        1.7907843589782715,
+        6.209270964063762e-08,
+        0.46364763379096985
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0,
+        0,
+        0
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "AP_Top",
+      "type": "LIGHT",
+      "parent": null,
+      "location": [
+        -1,
+        2,
+        7
+      ],
+      "rotation": [
+        0.3567333221435547,
+        1.6320880646958358e-08,
+        -2.677945137023926
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0,
+        0,
+        0
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "CHICA_Rostro_completo_3D",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        15.479059219360352,
+        12.294318199157715,
+        18.379472732543945
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          3
+        ],
+        [
+          "hide_viewport",
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "name": "CHICA_Rostro_final_3D",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        15.479059219360352,
+        12.294318199157715,
+        18.379472732543945
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "CHICA_Rostro_corte_diagonal",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        7.841573238372803,
+        12.294318199157715,
+        18.041675567626953
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "CHICA_Borde_corte",
+      "type": "CURVE",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        5.238100051879883,
+        6.673056602478027,
+        19.989444732666016
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "CHICA_Contexto_cabello_y_cuello",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        18.163314819335938,
+        9.688300132751465,
+        28.423999786376953
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          3
+        ],
+        [
+          "hide_viewport",
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "name": "CHICA_Contexto_final",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        18.163314819335938,
+        9.688300132751465,
+        28.423999786376953
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Diente_distal_0",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.8000001907348633,
+        0.3808000087738037,
+        0.9043999910354614
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "AP_Diente_distal_1",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.6000001430511475,
+        0.29679998755455017,
+        0.7049000263214111
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "AP_Diente_distal_2",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0.8399999141693115,
+        0.30799999833106995,
+        0.7315000295639038
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "AP_Enc\u00eda_org\u00e1nica",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        6.949999809265137,
+        1.6135971546173096,
+        0.9299999475479126
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "AP_Maxilar_cortical",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        6.099999904632568,
+        1.100000023841858,
+        2.989999771118164
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "AP_Hueso_trabecular",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        5.776700019836426,
+        0.054999999701976776,
+        2.7507998943328857
+      ],
+      "hide": false,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          5
+        ],
+        [
+          "hide_viewport",
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "CAM_ROSTRO_PARA_MODELAR",
+      "type": "CAMERA",
+      "parent": null,
+      "location": [
+        -1.2999999523162842,
+        -30,
+        4.800000190734863
+      ],
+      "rotation": [
+        1.5707963705062866,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        0,
+        0,
+        0
+      ],
+      "hide": false,
+      "curves": []
+    },
+    {
+      "name": "AP_Boca_interior",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions": [
+        6.564492225646973,
+        5.610743999481201,
+        2.0817818641662598
+      ],
+      "hide": true,
+      "curves": [
+        [
+          "hide_render",
+          0,
+          4
+        ],
+        [
+          "hide_viewport",
+          0,
+          4
+        ]
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "name": "VOZ_FISH_IMPLANTE",
+      "type": "SOUND",
+      "channel": 1,
+      "start": 1,
+      "end": 1047,
+      "packed": true
+    }
+  ]
+}

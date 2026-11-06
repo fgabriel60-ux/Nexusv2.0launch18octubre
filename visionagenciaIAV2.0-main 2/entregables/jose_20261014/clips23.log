@@ -1,0 +1,15 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-UPyGnlujTazj6aYqlMkrLs
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/jose_20261014/jose_modal.py
+├── ✓ Created Function cuadros.
+└── ✓ Created Function clips.
+clip J2 124 /datos/siena/out/jose/J2_00003_.mp4
+clip J3 124 /datos/siena/out/jose/J3_00002_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/jose_20261014/clips/J2
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/jose_20261014/clips/J3
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-15T00:43:38+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-UPyGnlujTazj6aYqlMkrLs

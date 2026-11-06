@@ -1,0 +1,6 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavela328-eng/main/ap-3uvu9JkLC2iRVFXul3QhyW
+Stopping app - uncaught exception raised locally: InvalidError('Please add a payment method to use T4 GPU functions.').
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Please add a payment method to use T4 GPU functions.                         │
+╰──────────────────────────────────────────────────────────────────────────────╯

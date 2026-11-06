@@ -1,0 +1,13 @@
+CALIFICACIÓN TOTAL: 7/10
+NOTAS: Gancho 6/10 · Oferta 7/10 · Confianza 7/10 · Claridad 8/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 8/10
+POR QUÉ FUNCIONA:
+- 0.4s-1.8s: grupo en círculo con texto “¿ERES CONSTRUCTORA O DESARROLLADOR?” y tarjeta “SOLO EMPRESAS - NO ES VACANTE” filtra empleo y habla directo al decisor.
+- 2.6s-4.8s: operaria quitando cemento con cuchara, subtítulo “En Servilin hacemos limpieza de obra fina para empresas” muestra el servicio post-obra en contexto real.
+- 6.3s-8.5s: retiro de polvo con escoba de goma, subtítulo “Retiramos polvo, cemento y restos de pintura” enumera dolores concretos del cliente.
+- 9.2s-11.4s: limpieza de ventanas con espuma, subtítulo “Limpiamos ventanas y pisos con personal uniformado” genera confianza visual.
+- 14.4s-18.1s: escena de entrega con asesor y personal con tablets, subtítulo “Tu obra lista para entregar solicita una propuesta por WhatsApp” + WhatsApp 56 3634 1441 y “Tipo de inmueble + m²” deja CTA claro y calificable.
+QUÉ LO FRENA:
+- 0.0s-5.8s: la voz en la transcripción dice “Cervilín” y la tarjeta dice “SERVILIN”. Incoherencia de marca. Arreglo viable: regrabar la frase con voz clonada Fish Audio con guion exacto “Servilin” y mantener texto en capa.
+- 0.4s-1.8s y 12.9s-13.7s: gancho y retorno al grupo sin contexto de obra, aspecto generado. Arreglo viable: reemplazar con toma real del cliente de recorrido post-obra con celular y animar con MiniMax H3 push-in con primer y último cuadro fijados.
+- 12.9s-13.7s: corte brusco de vuelta al grupo rompe ritmo. Arreglo viable: editar con ffmpeg corte al ritmo con whoosh y transición de desenfoque para mantener continuidad.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10

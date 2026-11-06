@@ -1,0 +1,1769 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-vwXNxe7iYlg5Uh7osj2yan
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<31:33,  1.32s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:02<34:40,  1.45s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:02<13:50,  1.72it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:03<10:35,  2.25it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:03<08:21,  2.85it/s]
+[1ALoading weights:   1%|          | 11/1436 [00:03<03:03,  7.77it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:03<02:10, 10.86it/s]
+[1ALoading weights:   2%|▏         | 23/1436 [00:03<01:25, 16.44it/s]
+[1ALoading weights:   2%|▏         | 28/1436 [00:04<01:08, 20.55it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:04<01:19, 17.60it/s]
+[1ALoading weights:   3%|▎         | 37/1436 [00:04<01:03, 22.13it/s]
+[1ALoading weights:   3%|▎         | 41/1436 [00:04<01:09, 20.08it/s]
+[1ALoading weights:   3%|▎         | 44/1436 [00:04<01:12, 19.22it/s]
+[1ALoading weights:   4%|▎         | 51/1436 [00:05<01:11, 19.30it/s]
+[1ALoading weights:   4%|▍         | 54/1436 [00:05<01:13, 18.70it/s]
+[1ALoading weights:   4%|▍         | 62/1436 [00:05<00:49, 27.74it/s]
+[1ALoading weights:   5%|▍         | 66/1436 [00:05<01:14, 18.42it/s]
+[1ALoading weights:   5%|▍         | 70/1436 [00:06<01:04, 21.20it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:06<00:55, 24.51it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:06<01:07, 20.07it/s]
+[1ALoading weights:   6%|▌         | 85/1436 [00:06<00:55, 24.44it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:06<01:02, 21.44it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:07<01:08, 19.76it/s]
+[1ALoading weights:   7%|▋         | 97/1436 [00:07<01:02, 21.32it/s]
+[1ALoading weights:   7%|▋         | 101/1436 [00:07<00:57, 23.11it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:07<00:57, 23.31it/s]
+[1ALoading weights:   8%|▊         | 109/1436 [00:07<00:47, 28.04it/s]
+[1ALoading weights:   8%|▊         | 113/1436 [00:07<00:57, 22.93it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:08<01:02, 21.27it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:08<00:46, 28.00it/s]
+[1ALoading weights:   9%|▉         | 127/1436 [00:08<01:05, 20.12it/s]
+[1ALoading weights:   9%|▉         | 133/1436 [00:08<00:49, 26.19it/s]
+[1ALoading weights:  10%|▉         | 137/1436 [00:08<00:57, 22.58it/s]
+[1ALoading weights:  10%|▉         | 140/1436 [00:09<01:03, 20.41it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:09<00:50, 25.62it/s]
+[1ALoading weights:  11%|█         | 151/1436 [00:09<01:04, 19.77it/s]
+[1ALoading weights:  11%|█         | 157/1436 [00:09<00:49, 25.63it/s]
+[1ALoading weights:  11%|█         | 161/1436 [00:10<00:56, 22.47it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:10<01:00, 21.04it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:10<00:49, 25.77it/s]
+[1ALoading weights:  12%|█▏        | 175/1436 [00:10<01:06, 19.09it/s]
+[1ALoading weights:  13%|█▎        | 182/1436 [00:10<00:55, 22.60it/s]
+[1ALoading weights:  13%|█▎        | 185/1436 [00:11<00:53, 23.44it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:11<00:58, 21.35it/s]
+[1ALoading weights:  13%|█▎        | 192/1436 [00:11<01:00, 20.60it/s]
+[1ALoading weights:  14%|█▎        | 197/1436 [00:11<00:51, 24.00it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:11<00:58, 21.29it/s]
+[1ALoading weights:  14%|█▍        | 205/1436 [00:11<00:47, 25.69it/s]
+[1ALoading weights:  15%|█▍        | 209/1436 [00:12<01:07, 18.07it/s]
+[1ALoading weights:  15%|█▌        | 217/1436 [00:12<00:55, 22.14it/s]
+[1ALoading weights:  15%|█▌        | 221/1436 [00:12<00:50, 24.29it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:12<00:57, 21.14it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:13<00:45, 26.32it/s]
+[1ALoading weights:  16%|█▋        | 235/1436 [00:13<00:59, 20.32it/s]
+[1ALoading weights:  17%|█▋        | 242/1436 [00:13<00:43, 27.46it/s]
+[1ALoading weights:  17%|█▋        | 246/1436 [00:13<01:00, 19.62it/s]
+[1ALoading weights:  18%|█▊        | 252/1436 [00:14<00:47, 24.80it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:14<00:45, 25.98it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:14<00:59, 19.76it/s]
+[1ALoading weights:  19%|█▊        | 267/1436 [00:14<00:42, 27.51it/s]
+[1ALoading weights:  19%|█▉        | 271/1436 [00:15<01:01, 18.94it/s]
+[1ALoading weights:  19%|█▉        | 279/1436 [00:15<00:42, 27.36it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:15<00:55, 20.73it/s]
+[1ALoading weights:  20%|██        | 290/1436 [00:15<00:51, 22.30it/s]
+[1ALoading weights:  20%|██        | 294/1436 [00:16<00:59, 19.05it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:16<00:42, 26.57it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:16<00:52, 21.50it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:16<00:42, 26.25it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:17<00:51, 21.49it/s]
+[1ALoading weights:  23%|██▎       | 326/1436 [00:17<00:41, 26.67it/s]
+[1ALoading weights:  23%|██▎       | 330/1436 [00:17<00:58, 18.99it/s]
+[1ALoading weights:  23%|██▎       | 337/1436 [00:17<00:45, 24.14it/s]
+[1ALoading weights:  24%|██▎       | 341/1436 [00:17<00:50, 21.89it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:18<00:52, 20.62it/s]
+[1ALoading weights:  24%|██▍       | 350/1436 [00:18<00:41, 26.02it/s]
+[1ALoading weights:  25%|██▍       | 354/1436 [00:18<00:58, 18.57it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:18<00:40, 26.24it/s]
+[1ALoading weights:  26%|██▌       | 368/1436 [00:19<00:49, 21.68it/s]
+[1ALoading weights:  26%|██▌       | 375/1436 [00:19<00:38, 27.74it/s]
+[1ALoading weights:  26%|██▋       | 379/1436 [00:19<00:57, 18.48it/s]
+[1ALoading weights:  27%|██▋       | 384/1436 [00:19<00:47, 21.97it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:20<00:43, 23.91it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:20<00:52, 19.85it/s]
+[1ALoading weights:  28%|██▊       | 397/1436 [00:20<00:43, 23.87it/s]
+[1ALoading weights:  28%|██▊       | 401/1436 [00:20<00:59, 17.51it/s]
+[1ALoading weights:  28%|██▊       | 409/1436 [00:20<00:41, 24.73it/s]
+[1ALoading weights:  29%|██▉       | 413/1436 [00:21<00:54, 18.65it/s]
+[1ALoading weights:  29%|██▉       | 421/1436 [00:21<00:51, 19.86it/s]
+[1ALoading weights:  30%|██▉       | 426/1436 [00:21<00:45, 21.99it/s]
+[1ALoading weights:  30%|███       | 433/1436 [00:22<00:35, 28.43it/s]
+[1ALoading weights:  30%|███       | 437/1436 [00:22<00:42, 23.44it/s]
+[1ALoading weights:  31%|███       | 441/1436 [00:22<00:45, 21.92it/s]
+[1ALoading weights:  31%|███       | 446/1436 [00:22<00:38, 25.91it/s]
+[1ALoading weights:  31%|███▏      | 450/1436 [00:22<00:52, 18.90it/s]
+[1ALoading weights:  32%|███▏      | 456/1436 [00:23<00:41, 23.39it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:23<00:38, 25.65it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:23<00:47, 20.36it/s]
+[1ALoading weights:  33%|███▎      | 471/1436 [00:23<00:34, 28.01it/s]
+[1ALoading weights:  33%|███▎      | 475/1436 [00:24<00:50, 19.04it/s]
+[1ALoading weights:  34%|███▎      | 482/1436 [00:24<00:37, 25.61it/s]
+[1ALoading weights:  34%|███▍      | 486/1436 [00:24<00:55, 17.00it/s]
+[1ALoading weights:  34%|███▍      | 495/1436 [00:24<00:36, 25.96it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:25<00:49, 19.08it/s]
+[1ALoading weights:  35%|███▌      | 507/1436 [00:25<00:36, 25.19it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:25<00:48, 18.87it/s]
+[1ALoading weights:  36%|███▌      | 517/1436 [00:25<00:40, 22.54it/s]
+[1ALoading weights:  36%|███▋      | 521/1436 [00:26<00:47, 19.12it/s]
+[1ALoading weights:  37%|███▋      | 525/1436 [00:26<00:47, 19.24it/s]
+[1ALoading weights:  37%|███▋      | 530/1436 [00:26<00:39, 22.70it/s]
+[1ALoading weights:  37%|███▋      | 534/1436 [00:26<00:53, 16.93it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:27<00:34, 25.58it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:27<00:42, 20.72it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:27<00:34, 25.21it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:28<00:42, 20.85it/s]
+[1ALoading weights:  39%|███▉      | 564/1436 [00:28<00:38, 22.93it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:28<00:34, 25.50it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:28<00:41, 20.62it/s]
+[1ALoading weights:  40%|████      | 577/1436 [00:28<00:35, 24.27it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:28<00:35, 23.79it/s]
+[1ALoading weights:  41%|████      | 583/1436 [00:29<00:49, 17.25it/s]
+[1ALoading weights:  41%|████      | 589/1436 [00:29<00:46, 18.15it/s]
+[1ALoading weights:  41%|████▏     | 593/1436 [00:29<00:40, 21.06it/s]
+[1ALoading weights:  42%|████▏     | 596/1436 [00:29<00:42, 19.84it/s]
+[1ALoading weights:  42%|████▏     | 601/1436 [00:30<00:51, 16.21it/s]
+[1ALoading weights:  42%|████▏     | 606/1436 [00:30<00:43, 19.26it/s]
+[1ALoading weights:  43%|████▎     | 613/1436 [00:30<00:30, 26.82it/s]
+[1ALoading weights:  43%|████▎     | 617/1436 [00:30<00:35, 22.90it/s]
+[1ALoading weights:  43%|████▎     | 620/1436 [00:30<00:38, 21.20it/s]
+[1ALoading weights:  44%|████▍     | 629/1436 [00:30<00:24, 32.30it/s]
+[1ALoading weights:  46%|████▌     | 657/1436 [00:31<00:09, 78.37it/s]
+[1ALoading weights:  48%|████▊     | 686/1436 [00:31<00:06, 122.47it/s]
+[1ALoading weights:  49%|████▉     | 706/1436 [00:31<00:05, 133.11it/s]
+[1ALoading weights:  51%|█████     | 735/1436 [00:31<00:04, 170.05it/s]
+[1ALoading weights:  54%|█████▍    | 775/1436 [00:31<00:02, 227.83it/s]
+[1ALoading weights:  57%|█████▋    | 814/1436 [00:31<00:02, 259.49it/s]
+[1ALoading weights:  59%|█████▉    | 854/1436 [00:31<00:02, 277.93it/s]
+[1ALoading weights:  62%|██████▏   | 894/1436 [00:31<00:01, 300.96it/s]
+[1ALoading weights:  65%|██████▍   | 927/1436 [00:31<00:01, 304.60it/s]
+[1ALoading weights:  68%|██████▊   | 974/1436 [00:32<00:01, 345.22it/s]
+[1ALoading weights:  70%|███████   | 1010/1436 [00:32<00:01, 337.27it/s]
+[1ALoading weights:  73%|███████▎  | 1045/1436 [00:32<00:01, 335.00it/s]
+[1ALoading weights:  75%|███████▌  | 1084/1436 [00:32<00:01, 339.25it/s]
+[1ALoading weights:  79%|███████▊  | 1128/1436 [00:32<00:00, 351.23it/s]
+[1ALoading weights:  81%|████████  | 1165/1436 [00:32<00:00, 343.60it/s]
+[1ALoading weights:  84%|████████▎ | 1200/1436 [00:32<00:00, 328.70it/s]
+[1ALoading weights:  86%|████████▌ | 1234/1436 [00:32<00:00, 327.73it/s]
+[1ALoading weights:  89%|████████▉ | 1279/1436 [00:32<00:00, 343.40it/s]
+[1ALoading weights:  92%|█████████▏| 1322/1436 [00:33<00:00, 359.03it/s]
+[1ALoading weights:  95%|█████████▍| 1358/1436 [00:33<00:00, 317.69it/s]
+[1ALoading weights:  98%|█████████▊| 1401/1436 [00:33<00:00, 331.02it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:33<00:00, 43.00it/s] 
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## Giovanni
+1) LAS 5 IMÁGENES (orden de prueba)
+
+1. Nombre corto: Cierre en paz 4:5
+Qué se ve: foto suya de despacho con traje, recorte limpio sobre fondo neutro generado con Qwen-Image-Edit a partir de su foto de cuadro nuevo (boca cerrada, sin dientes). Sin mano cerca de la tarjeta.
+Titular en pantalla: Tu familia merece un cierre en paz
+Línea de apoyo: Divorcios en línea · Lic. Giovanni Pulido
+Formato: 4:5 Feed. Botón WhatsApp en landing, no en imagen.
+Texto primario: Divorcios en Los Cabos con acompañamiento claro. Agenda por WhatsApp y recibe información sin presión.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+oferta: Precio único visible desde $20,000 en tarjeta final, sin sorpresas.
+confianza: Cara real al frente, nombre completo con “Lic.” y correo lic.giovannipulido@gmail.com en landing.
+claridad: Mensaje único de cierre en paz, una propuesta, un CTA.
+calidad visual: Foto suya real, encuadre limpio, tipografía legible, contraste alto.
+políticas: Sin promesa de plazo, sin “garantizado”, sin resultados.
+mensajes baratos: Oferta clara y creíble para su mercado, reduce fricción.
+mensajes calificados: Pregunta de calificación en landing y tarjeta de autoridad arriba.
+
+2. Nombre corto: Proceso claro 4:5
+Qué se ve: misma foto suya de cuadro nuevo, fondo despacho desenfocado generado con Qwen a partir de su foto.
+Titular en pantalla: Tu tranquilidad merece un proceso claro
+Línea de apoyo: Divorcios en línea · Lic. Giovanni Pulido
+Formato: 4:5 Feed. Botón WhatsApp en landing.
+Texto primario: Te explico el proceso de divorcio en Los Cabos. Escríbeme por WhatsApp para una orientación inicial.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+oferta: Precio único desde $20,000 en tarjeta final.
+confianza: Rostro real, nombre y título visibles, landing con tarjeta de autoridad arriba.
+claridad: Beneficio único, sin plazos.
+calidad visual: Imagen nítida, composición centrada, texto en capa.
+políticas: Sin plazos ni garantías.
+mensajes baratos: Propuesta simple y directa.
+mensajes calificados: Landing con cuestionario con plan para filtrar.
+
+3. Nombre corto: Sin trámites 9:16
+Qué se ve: collage vertical 3 fotos suyas reales que ya tenemos: despacho, Los Cabos, escritorio. Unificado con Qwen-Image-Edit.
+Titular en pantalla: Tu tiempo merece menos trámites
+Línea de apoyo: Divorcios en línea con Lic. Giovanni Pulido
+Formato: 9:16 Stories/Reels cover. Botón WhatsApp en landing.
+Texto primario: Atiendo divorcios en línea desde Los Cabos. Escríbeme y revisamos tu caso por WhatsApp.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+oferta: Precio único desde $20,000.
+confianza: Múltiples fotos reales del mismo abogado.
+claridad: Mensaje vertical claro y legible.
+calidad visual: Collage limpio, sin recortes bruscos.
+políticas: Sin promesas de tiempo ni resultados.
+mensajes baratos: Formato vertical nativo para móvil.
+mensajes calificados: CTA a WhatsApp con landing cualificada.
+
+4. Nombre corto: Precio único sello 4:5
+Qué se ve: foto suya real al frente, fondo rojo sobrio generado con Qwen a partir de su foto de cuadro nuevo. Sello “precio único sin sorpresas”.
+Titular en pantalla: Divorcios en línea con precio único
+Línea de apoyo: Lic. Giovanni Pulido · Los Cabos
+Formato: 4:5 Feed. Botón WhatsApp en landing.
+Texto primario: Consulta por WhatsApp. Precio único desde $20,000. Sin costos ocultos.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+oferta: Sello precio único sin sorpresas + desde $20,000.
+confianza: Rostro real y datos de contacto en landing.
+claridad: Propuesta de precio clara.
+calidad visual: Contraste rojo neutro, texto en capa legible.
+políticas: Sin garantías ni plazos.
+mensajes baratos: Oferta transparente.
+mensajes calificados: Landing con cuestionario para calificar leads.
+
+5. Nombre corto: Antes/Después proceso 4:5
+Qué se ve: antes/después con dos fotos suyas reales que ya tenemos: una en despacho y otra en exterior Los Cabos. Generado con Qwen a partir de sus fotos.
+Titular en pantalla: De la duda al plan claro
+Línea de apoyo: Divorcios en línea · Lic. Giovanni Pulido
+Formato: 4:5 Feed. Botón WhatsApp en landing.
+Texto primario: Te acompaño paso a paso en tu divorcio. Escríbeme por WhatsApp para empezar.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+oferta: Precio único desde $20,000 en tarjeta.
+confianza: Fotos reales del abogado en contextos reconocibles.
+claridad: Narrativa visual simple.
+calidad visual: Recorte limpio, alineación correcta.
+políticas: Sin promesas de plazo.
+mensajes baratos: Creatividad nativa y clara.
+mensajes calificados: Landing con plan y botón de WhatsApp sin scroll.
+
+2) CALIFICACIÓN ESPERADA
+
+Cierre en paz 4:5: 9/10
+Proceso claro 4:5: 8/10
+Sin trámites 9:16: 8/10
+Precio único sello 4:5: 8/10
+Antes/Después proceso 4:5: 7/10
+
+La más baja es Antes/Después proceso 4:5. Le falta: titular más directo a divorcios, evitar narrativa confusa de “antes/después” en un servicio legal y asegurar que el precio único sea visible en la imagen para subir claridad y oferta.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE LA NÚMERO 1 CALIFIQUE 10
+
+- Foto suya de rostro frontal con traje, fondo neutro, buena luz, sin manos cerca del marco. [FALTA: foto exacta con estas condiciones]
+- Confirmación escrita de precio a mostrar: “desde $20,000” o “precio único desde $20,000”. [FALTA: confirmación textual exacta]
+- Zona de atención que autoriza mostrar: solo “Los Cabos” o también BCS. [FALTA: confirmación de zona]
+- Prueba de autoridad para landing: foto de cédula profesional o logo de despacho para tarjeta de autoridad arriba. [FALTA: prueba/autorización]
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+
+Segmentación estimada:
+Ubicación: radio 25-40 km alrededor de Los Cabos, BCS, México.
+Edad: 30-65.
+Intereses estimados: derecho familiar, divorcio, asesoría legal, expatriados en Los Cabos.
+Comportamientos estimados: usuarios activos de WhatsApp, interesados en servicios legales locales.
+Presupuesto diario estimado: $100 a $300 MXN para prueba de mensajes a WhatsApp.
+
+5) LO QUE NO SE PUEDE DECIR EN SU GIRO POR POLÍTICAS DE META
+
+No prometer plazos como “resultados en 15 días”. No usar “garantizado”, “asegurado”, “sin riesgo”. No afirmar resultados específicos de casos. No usar lenguaje sensacionalista sobre disputas familiares. No mostrar documentos oficiales en la imagen. Mantener afirmaciones verificables y sin promesas de tiempo o resultado.
+
+######## Jesus_RIMO
+1) LAS 5 IMÁGENES
+
+1. Bolsa personalizada con tu logo
+- Qué se ve: foto suya de bolsa sublimada ya en inventario; si no existe, foto que debe mandar de una bolsa terminada sobre fondo neutro. Generada con Qwen-Image-Edit a partir de esa foto: fondo limpio color sólido, encuadre centrado.
+- Titular en pantalla: “Bolsas sublimadas a tu medida”
+- Línea de apoyo: “Lleva tu marca impresa”
+- Formato: 4:5 Feed. Botón de WhatsApp en parte inferior.
+- Texto primario del anuncio: Bolsas sublimadas con tu logo o diseño. Escríbenos por WhatsApp y te cotizamos.  
+Título del botón: Enviar WhatsApp
+- Cómo sube cada rubro: oferta: muestra producto propio y personalización clara; confianza: logo visible y producto real; claridad: una sola acción y mensaje directo; calidad visual: foto real recortada y fondo limpio; políticas: sin promesas ni precios inventados; mensajes baratos: evita “gratis” y urgencia; mensajes calificados: pide cotización por WhatsApp.
+
+2. Antes y después del sublimado
+- Qué se ve: collage con dos fotos suyas: bolsa en blanco y bolsa terminada. Generado con Qwen-Image-Edit a partir de sus fotos reales.
+- Titular en pantalla: “De blanco a tu marca”
+- Línea de apoyo: “Sublimado de calidad”
+- Formato: 4:5 Feed. Botón inferior.
+- Texto primario: Mira cómo queda tu diseño en bolsa. Envíame tu arte y te muestro muestra.  
+Título del botón: Quiero muestra
+- Cómo sube cada rubro: oferta: valor visual del proceso; confianza: fotos reales del negocio; claridad: comparación simple; calidad visual: collage ordenado; políticas: sin afirmaciones falsas; mensajes baratos: sin precio inventado; mensajes calificados: intención de cotizar con arte.
+
+3. Producto en uso real
+- Qué se ve: foto suya de persona usando la bolsa. Si no hay, foto que debe mandar de cliente con bolsa. Qwen-Image-Edit para limpiar fondo y encuadre.
+- Titular en pantalla: “Tu marca donde vas”
+- Línea de apoyo: “Bolsas útiles y duraderas”
+- Formato: 9:16 Stories/Reels. Botón inferior.
+- Texto primario: Lleva tu logo a todas partes. Escríbenos por WhatsApp para ver opciones.  
+Título del botón: Escribir ahora
+- Cómo sube cada rubro: oferta: uso real del producto; confianza: contexto real; claridad: mensaje único; calidad visual: encuadre vertical limpio; políticas: sin exageraciones; mensajes baratos: sin ofertas falsas; mensajes calificados: contacto directo.
+
+4. Collage de 4 diseños propios
+- Qué se ve: collage de 3-4 fotos suyas de bolsas con distintos diseños. Generado con Qwen a partir de sus fotos.
+- Titular en pantalla: “Diseños que puedes pedir”
+- Línea de apoyo: “Elige colores y estilo”
+- Formato: 4:5 Feed. Botón inferior.
+- Texto primario: Tenemos variedad de bolsas sublimadas. Mándanos tu idea por WhatsApp.  
+Título del botón: Mandar idea
+- Cómo sube cada rubro: oferta: variedad real; confianza: muestra trabajo propio; claridad: una acción; calidad visual: cuadrícula limpia; políticas: sin prometer tiempos; mensajes baratos: sin “oferta limitada”; mensajes calificados: pide idea específica.
+
+5. Producto recortado sobre fondo color
+- Qué se ve: bolsa suya recortada sobre fondo sólido. Generada con Qwen-Image-Edit a partir de foto suya.
+- Titular en pantalla: “Bolsa sublimada personalizada”
+- Línea de apoyo: “Con tu logo o diseño”
+- Formato: 1:1 Feed. Botón inferior.
+- Texto primario: Personalizamos bolsas con tu marca. Escríbenos y te asesoramos por WhatsApp.  
+Título del botón: Asesoría por WhatsApp
+- Cómo sube cada rubro: oferta: producto claro; confianza: imagen limpia de producto real; claridad: mensaje simple; calidad visual: fondo uniforme; políticas: sin claims prohibidos; mensajes baratos: sin precio inventado; mensajes calificados: conversación cualificada.
+
+2) CALIFICACIÓN ESPERADA
+
+1. Bolsa personalizada con tu logo: 9/10
+2. Antes y después del sublimado: 8/10
+3. Producto en uso real: 8/10
+4. Collage de 4 diseños propios: 8/10
+5. Producto recortado sobre fondo color: 7/10
+
+La más baja es la 5. Le falta para llegar a 9: foto real de mejor resolución de la bolsa, logo del negocio visible en la imagen y titular más específico al uso que el cliente busca.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE LA NÚMERO 1 CALIFIQUE 10
+
+- Foto real en alta resolución de una bolsa sublimada terminada, de frente, sin texto superpuesto.
+- Foto del logo de Jesús · RIMO · RIMO en PNG con fondo transparente.
+- Confirmación escrita de si puede mostrar precio real o prefiere solo “cotiza por WhatsApp”. [FALTA: precio real autorizado para publicar]
+- Zona de entrega que atiende. [FALTA: ciudad o radio de entrega]
+- Un ejemplo de vectorizado propio para usar como referencia visual, si lo autoriza. [FALTA: autorización de uso de ejemplo]
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+
+- Ubicación: ciudad donde opera el negocio. [FALTA: ciudad]. Radio inicial 10-15 km alrededor del taller/tienda.
+- Edad: 22 a 55 años.
+- Intereses: emprendimiento, marketing para PYMES, publicidad, merchandising, diseño gráfico, dueños de negocio local, ferias y eventos.
+- Presupuesto diario estimado: $150 a $300 MXN para prueba de mensajes a WhatsApp, con optimización a Conversaciones iniciadas por mensaje.
+
+5) LO QUE NO SE PUEDE DECIR EN SU GIRO POR POLÍTICAS DE META
+
+- No prometer resultados de venta, posicionamiento o retorno de inversión.
+- No usar precios, tiempos de entrega, garantías ni descuentos inventados.
+- No usar fotos de banco, de otros negocios o personas que no sean suyas.
+- No hacer afirmaciones absolutas de calidad como “la mejor” o “garantizado”.
+- No usar urgencia falsa: “últimos días”, “solo hoy”, “cupo limitado” sin sustento.
+- No mencionar políticas de salud, financiero ni contenido sensible.
+
+######## Victor_Servilin
+1) LAS 5 IMÁGENES
+
+1. Antes/Después obra fina
+- Qué se ve: collage 2 fotos reales del cliente (antes/después de limpieza de obra) con recorte y fondo neutro. Generada con Qwen-Image-Edit a partir de fotos suyas que ya tenemos.
+- Titular en pantalla: “Limpieza de obra para empresas”
+- Línea de apoyo: “Acabados listos para entregar”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Servilin limpia obra para empresas. Entregamos espacios listos. Escríbenos por WhatsApp.” Título botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: servicio claro para empresas; confianza: antes/después real; claridad: beneficio inmediato; calidad visual: collage limpio con sus fotos; políticas: sin promesas ni empleo; mensajes baratos: filtro por texto primario; mensajes calificados: intención B2B explícita.
+
+2. Equipo en obra con credenciales
+- Qué se ve: foto suya de personal con equipo en obra. Qwen-Image-Edit para limpiar fondo y encuadre. Se añade sello de texto “REPSE · ISO · STPS”.
+- Titular en pantalla: “Servicio para empresas”
+- Línea de apoyo: “Cumplimiento REPSE ISO STPS”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Servilin para empresas. Personal capacitado y cumplimiento. Pregunta por tu obra.” Título botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: servicio B2B; confianza: credenciales visibles; claridad: para empresas; calidad visual: foto real con sello; políticas: sin empleo; mensajes baratos: credenciales filtran; mensajes calificados: lenguaje empresarial.
+
+3. Producto recortado sobre fondo color
+- Qué se ve: producto/servicio recortado de foto suya (carro, herramientas, área limpia) sobre fondo sólido. Generada con Qwen a partir de foto suya que ya tenemos.
+- Titular en pantalla: “Obra limpia, entrega segura”
+- Línea de apoyo: “Para empresas constructoras”
+- Formato: 9:16 Stories/Reels cover. Botón WhatsApp en zona segura inferior.
+- Texto primario: “Limpieza de obra para empresas. Cotiza por WhatsApp.” Título botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: limpieza de obra; confianza: imagen profesional; claridad: público empresa; calidad visual: fondo limpio y recorte nítido; políticas: sin promesas; mensajes baratos: enfoque B2B; mensajes calificados: CTA directo.
+
+4. Collage 3 fotos de obra
+- Qué se ve: 3 fotos reales del cliente en grid. Qwen-Image-Edit para unificar luz y recortar textos.
+- Titular en pantalla: “Limpieza de obra empresarial”
+- Línea de apoyo: “Listo para inspección”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Servilin atiende empresas. Limpieza de obra con proceso. Escríbenos.” Título botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: servicio empresarial; confianza: varias evidencias reales; claridad: proceso implícito; calidad visual: grid ordenado; políticas: sin empleo; mensajes baratos: evita términos genéricos; mensajes calificados: habla a empresas.
+
+5. Logo + mensaje de WhatsApp
+- Qué se ve: fondo neutro con logo del cliente y burbuja de WhatsApp. Composición con texto en capa. Logo del cliente existente.
+- Titular en pantalla: “¿Necesitas limpieza de obra?”
+- Línea de apoyo: “Escríbenos por WhatsApp”
+- Formato: 1:1 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Servilin para empresas. Atención por WhatsApp.” Título botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: contacto directo; confianza: logo propio; claridad: CTA claro; calidad visual: minimalista; políticas: sin promesas; mensajes baratos: CTA específico; mensajes calificados: canal correcto.
+
+2) CALIFICACIÓN ESPERADA
+1. 9/10
+2. 9/10
+3. 8/10
+4. 8/10
+5. 7/10
+La más baja es la 5. Le falta foto real de obra y evidencia visual del servicio para subir confianza y calidad visual a 9.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE LA NÚMERO 1 CALIFIQUE 10
+- 2 fotos reales de antes/después de la misma área, tomadas por él, sin marcas de terceros.
+- Confirmar zona de atención real para texto geográfico.
+- Precio de referencia o rango que autoriza mostrar. [FALTA: precio publicado para empresas]
+- Autorización escrita para usar su logo y fotos en anuncios.
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+- Ubicación: [FALTA: ciudad o radio exacto donde atiende]. Estimación inicial: radio 15-30 km alrededor de su base operativa.
+- Edad: 28-55.
+- Detalles: hombres y mujeres. Intereses: construcción, obra civil, desarrolladores inmobiliarios, contratistas, gerentes de obra, facility management, arquitectos, inmobiliarias.
+- Presupuesto diario: estimación $250-$500 MXN/día para mensajes a WhatsApp. [FALTA: confirmación de presupuesto diario aprobado].
+
+5) LO QUE NO SE PUEDE DECIR EN SU GIRO POR POLÍTICAS DE META
+- No ofrecer empleo, vacantes ni reclutamiento.
+- No prometer tiempos, precios, garantías ni resultados específicos sin sustento.
+- No usar “mejor”, “garantizado”, “el más barato”.
+- No hacer afirmaciones de seguridad o cumplimiento legal sin prueba.
+- No usar fotos de banco, de otros negocios o personas que no sean suyas.
+- No incluir texto excesivo en imagen ni datos personales.
+
+######## Ruben_Quiropraxia
+1) LAS 5 IMÁGENES
+
+1.1 Nombre corto: Sesión Alphabiotista $300  
+Qué se ve: foto suya de TikTok ya usada en los 6 cuadros mejorados con Qwen (sin banners, 720x1280).  
+Titular en pantalla: “Alphabiotista en Metepec”  
+Línea de apoyo: “Sesión $300 · Agenda por WhatsApp”  
+Formato: 4:5 Feed. Botón de WhatsApp en zona inferior derecha libre.  
+Texto primario del anuncio: “Rubén · Quiropraxia · Alineación alfabiótica en Metepec. Sesión $300. Escríbenos por WhatsApp para agendar.”  
+Título del botón: “Enviar WhatsApp”  
+Cómo sube cada rubro:  
+oferta: precio real visible y claro.  
+confianza: rostro propio y nombre del negocio.  
+claridad: propuesta y acción únicas.  
+calidad visual: imagen propia recortada, fondo limpio con Qwen.  
+políticas: sin promesas de salud ni antes/después.  
+mensajes baratos: intención clara de agendar por WhatsApp.  
+mensajes calificados: contexto local y precio real filtran curiosidad.
+
+1.2 Nombre corto: Quién es Rubén  
+Qué se ve: foto suya de TikTok ya usada en los 6 cuadros mejorados con Qwen, primer plano.  
+Titular en pantalla: “Conoce a Rubén Alphabiotista”  
+Línea de apoyo: “Atención en Metepec · WhatsApp”  
+Formato: 9:16 Stories/Reels. Botón centrado inferior.  
+Texto primario del anuncio: “Rubén · Quiropraxia · Alineación alfabiótica. Metepec. Pregunta por disponibilidad vía WhatsApp.”  
+Título del botón: “Enviar WhatsApp”  
+Cómo sube cada rubro:  
+oferta: disponibilidad sin inventar promociones.  
+confianza: rostro propio y nombre.  
+claridad: quién es y cómo contactar.  
+calidad visual: recorte limpio y fondo neutro con Qwen.  
+políticas: sin claims médicos.  
+mensajes baratos: contacto directo.  
+mensajes calificados: identidad clara reduce consultas genéricas.
+
+1.3 Nombre corto: Cómo es la sesión  
+Qué se ve: foto suya de TikTok ya usada en los 6 cuadros mejorados con Qwen, encuadre medio en consulta.  
+Titular en pantalla: “Alineación alfabiótica explicada”  
+Línea de apoyo: “Estrés, cuello y espalda”  
+Formato: 4:5 Feed. Botón inferior derecho.  
+Texto primario del anuncio: “Rubén explica su enfoque alfabiótica. Metepec. Escríbenos por WhatsApp para dudas y agenda.”  
+Título del botón: “Enviar WhatsApp”  
+Cómo sube cada rubro:  
+oferta: información del servicio sin precio oculto.  
+confianza: profesional visible.  
+claridad: enfoque simple y localización.  
+calidad visual: imagen propia con fondo limpio.  
+políticas: sin prometer resultados.  
+mensajes baratos: pregunta cualificada.  
+mensajes calificados: filtra por interés en el enfoque.
+
+1.4 Nombre corto: Collage de trabajo  
+Qué se ve: collage 3 fotos suyas de TikTok ya usadas en los 6 cuadros mejorados con Qwen.  
+Titular en pantalla: “Trabajo alfabiótica en Metepec”  
+Línea de apoyo: “Agenda por WhatsApp hoy”  
+Formato: 1:1 Feed. Botón inferior.  
+Texto primario del anuncio: “Rubén · Quiropraxia · Alineación alfabiótica. Metepec. Sesión $300. WhatsApp para agendar.”  
+Título del botón: “Enviar WhatsApp”  
+Cómo sube cada rubro:  
+oferta: precio real.  
+confianza: varias tomas del mismo profesional.  
+claridad: servicio + ciudad + acción.  
+calidad visual: collage ordenado con Qwen.  
+políticas: sin claims de curación.  
+mensajes baratos: CTA directo.  
+mensajes calificados: repite precio y ciudad.
+
+1.5 Nombre corto: Producto + persona  
+Qué se ve: foto suya de TikTok ya usada en los 6 cuadros mejorados con Qwen con fondo de color sólido generado con Qwen.  
+Titular en pantalla: “Alphabiotista Metepec $300”  
+Línea de apoyo: “Escríbenos por WhatsApp”  
+Formato: 9:16 Stories/Reels. Botón inferior.  
+Texto primario del anuncio: “Rubén · Quiropraxia · Alineación alfabiótica. Sesión $300 en Metepec. WhatsApp para agendar.”  
+Título del botón: “Enviar WhatsApp”  
+Cómo sube cada rubro:  
+oferta: precio visible.  
+confianza: rostro propio.  
+claridad: mensaje corto.  
+calidad visual: fondo limpio y recorte nítido.  
+políticas: sin promesas.  
+mensajes baratos: CTA claro.  
+mensajes calificados: precio y ciudad.
+
+2) CALIFICACIÓN ESPERADA
+
+1. Sesión Alphabiotista $300: 9/10  
+2. Quién es Rubén: 8/10  
+3. Cómo es la sesión: 8/10  
+4. Collage de trabajo: 8/10  
+5. Producto + persona: 8/10  
+
+Qué le falta a la más baja para llegar a 9: foto suya con encuadre nítido sin recorte agresivo, fondo uniforme real de su consultorio en Metepec y confirmación escrita de zona exacta de atención y horarios de respuesta por WhatsApp. Con eso sube claridad, confianza y calidad visual.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL para que la número 1 califique 10
+
+- 3 fotos suyas en horizontal y vertical, luz natural, rostro visible, sin texto ni logos ajenos, tomadas en su consultorio de Metepec.  
+- Confirmación escrita de zona de atención: colonia/barrio y radio en Metepec.  
+- Horarios de atención y tiempo de respuesta por WhatsApp.  
+- Logo en PNG transparente.  
+- Autorización escrita para usar su imagen en anuncios de Meta.
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+
+Ciudad/radio: Metepec, Estado de México, radio 10 km; expansión a Toluca 12 km si el CPA lo permite.  
+Edad: 28 a 60.  
+Intereses: quiropráctica, bienestar, salud postural, estrés, yoga, pilates, fisioterapia, masajes terapéuticos.  
+Comportamientos: usuarios activos de WhatsApp, interesados en servicios locales.  
+Presupuesto diario estimado: $250 a $450 MXN para iniciar pruebas de mensajes a WhatsApp, con optimización a mensajes calificados.
+
+5) LO QUE NO SE PUEDE DECIR en su giro por políticas de Meta
+
+No prometer curar, aliviar, prevenir ni tratar enfermedades. No usar términos médicos de diagnóstico. No mostrar antes/después de cuerpo o salud. No decir “garantizado”, “resultados comprobados” ni tiempos de mejora. No usar imágenes de terceros ni de banco. No mencionar condiciones específicas como dolor ciático, adormecimiento o estrés como beneficio asegurado.
+
+######## Fernando
+1) LAS 5 IMÁGENES
+
+1.1 Nombre corto: Computadora que ya tienes
+Qué se ve: Foto suya de computadora en mostrador de tiendita (foto que debe mandar). Generada con Qwen-Image-Edit a partir de su foto para limpiar fondo y encuadre 4:5.
+Titular en pantalla: Aprovecha la computadora que ya tienes
+Línea de apoyo: Punto de venta en la nube
+Formato: 4:5 Feed. Botón WhatsApp en zona inferior libre.
+Texto primario del anuncio: Aprovecha la computadora que ya tienes en tu negocio. Te ayudo a convertirla en punto de venta. Escríbeme por WhatsApp.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+oferta: Oferta clara de aprovechar equipo existente.
+confianza: Usa su foto real y su WhatsApp de negocio.
+claridad: Mensaje único y directo.
+calidad visual: Foto real editada, fondo limpio, texto legible.
+políticas: Sin promesas, sin precios inventados.
+mensajes baratos: Pregunta concreta sobre su equipo actual.
+mensajes calificados: Filtra por negocios con computadora.
+
+1.2 Nombre corto: Kit real sobre mostrador
+Qué se ve: Collage con sus fotos reales de impresora térmica, lector y caja de software sobre mostrador de tiendita (fotos que debe mandar). Composición con texto en capa.
+Titular en pantalla: Kit completo para tu punto de venta
+Línea de apoyo: Impresora, lector y software
+Formato: 4:5 Feed. Botón WhatsApp inferior.
+Texto primario del anuncio: Mira el kit que entrego: impresora térmica, lector y software. ¿Te sirve para tu negocio? Escríbeme por WhatsApp.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+oferta: Muestra componentes del kit sin inventar precio.
+confianza: Producto real, fotos suyas.
+claridad: Qué incluye, sin ambigüedades.
+calidad visual: Producto recortado, fondo neutro.
+políticas: Sin garantías ni resultados inventados.
+mensajes baratos: Pregunta de compatibilidad.
+mensajes calificados: Interés en componentes específicos.
+
+1.3 Nombre corto: Antes y después mostrador
+Qué se ve: Antes/después con dos fotos suyas del mismo mostrador: sin sistema / con sistema. Generada con Qwen a partir de sus fotos.
+Titular en pantalla: De mostrador a punto de venta
+Línea de apoyo: Con la computadora que ya tienes
+Formato: 4:5 Feed. Botón WhatsApp inferior.
+Texto primario del anuncio: Así se ve el cambio en tu mostrador usando tu computadora. ¿Quieres ver cómo quedaría en tu negocio? Escríbeme.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+oferta: Transformación clara del mostrador.
+confianza: Fotos reales del cliente.
+claridad: Comparación visual simple.
+calidad visual: Recorte limpio, tipografía legible.
+políticas: Sin prometer ventas ni tiempos.
+mensajes baratos: Curiosidad visual concreta.
+mensajes calificados: Dueños que reconocen su entorno.
+
+1.4 Nombre corto: Simulación llamada nevería
+Qué se ve: Foto suya de mostrador de nevería con producto. Texto en capa. Generada con Qwen a partir de su foto para encuadre 9:16.
+Titular en pantalla: Controla inventario de nevería
+Línea de apoyo: Aunque cada bola pese distinto
+Formato: 9:16 Stories/Reels. Botón WhatsApp superior para no tapar texto.
+Texto primario del anuncio: Tienes preguntas precisas sobre inventario. Te explico cómo llevar control aunque varíe el peso. Escríbeme por WhatsApp.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+oferta: Solución a dolor real mencionado por él.
+confianza: Caso real de nevería citado en audio.
+claridad: Problema y enfoque claros.
+calidad visual: Foto real, texto grande.
+políticas: Sin prometer exactitud de inventario.
+mensajes baratos: Duda técnica específica.
+mensajes calificados: Negocio con control de inventario.
+
+1.5 Nombre corto: WhatsApp directo
+Qué se ve: Producto recortado sobre fondo color de marca. Usa sus fotos de impresora, lector y caja de software. Composición con logo.
+Titular en pantalla: Habla por WhatsApp ahora
+Línea de apoyo: Número 557 6456707
+Formato: 1:1 Feed. Botón WhatsApp inferior.
+Texto primario del anuncio: Dudas sobre punto de venta en la nube. Escríbeme directo a WhatsApp y te atiendo. 557 6456707
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+oferta: Canal directo de contacto.
+confianza: Número confirmado por él.
+claridad: Acción inmediata.
+calidad visual: Fondo sólido, producto nítido.
+políticas: Sin incentivos falsos.
+mensajes baratos: Contacto directo.
+mensajes calificados: Quien escribe ya tiene intención.
+
+2) CALIFICACIÓN ESPERADA
+1. Computadora que ya tienes: 9/10
+2. Kit real sobre mostrador: 9/10
+3. Antes y después mostrador: 8/10
+4. Simulación llamada nevería: 9/10
+5. WhatsApp directo: 8/10
+La más baja: Antes y después mostrador 8/10. Le falta foto “después” real del mismo ángulo y sin texto superpuesto en la foto original para que el contraste sea creíble y la calidad visual suba.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE LA NÚMERO 1 CALIFIQUE 10
+- Foto real de una computadora encendida en un mostrador de tiendita, tomada de frente, luz natural, sin logos de terceros.
+- Foto del mismo mostrador vacío o con equipo apagado para coherencia de escena.
+- Confirmación escrita de que el número de WhatsApp de negocio es 557 6456707.
+- [FALTA: precio oficial que autoriza mostrar del kit completo]. Pedirle precio exacto aprobado para texto.
+- [FALTA: zona de atención en CDMX]. Pedirle ciudad o alcaldías donde atiende para geolocalización del anuncio.
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+Ciudad o radio: CDMX, radio 15 km alrededor de su ubicación de atención. [FALTA: alcaldías exactas que atiende]
+Edad: 28 a 60
+Intereses: dueños de tiendita, abarrotes, nevería, minimarket, punto de venta, software para negocios, administración de inventario
+Comportamientos: administradores de página, pequeños empresarios
+Presupuesto diario estimado: $300 a $600 MXN para mensajes a WhatsApp en fase de prueba. Rango estimado.
+
+5) LO QUE NO SE PUEDE DECIR EN SU GIRO POR POLÍTICAS DE META
+No prometer aumento de ventas, ingresos, ahorro o ROI. No usar “garantizado”, “mejor precio”, “oferta por tiempo limitado” sin fecha verificable. No comparar con competidores. No mostrar precios si no están confirmados por escrito. No usar imágenes de banco ni de otros negocios. No usar caras que no sean suyas. No hacer afirmaciones sobre seguridad de datos sin prueba.
+
+######## Mariano_Vizcaino
+1) LAS 5 IMÁGENES (orden de prueba)
+
+1. Benjamina – Recorrido real con logo
+- Qué se ve: foto suya de Benjamina (la que ya tenemos de flyer) recortada y centrada; fondo limpio generado con Qwen a partir de esa misma foto; logo de Mariano en esquina.
+- Titular en pantalla: “Casa propia en Rosarito”
+- Línea de apoyo: “Benjamina · acceso controlado”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Recorrido real de Benjamina. Pregunta por disponibilidad y visita.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: muestra modelo real del residencial; confianza: logo y foto real del cliente; claridad: titular directo a vivienda en Rosarito; calidad visual: foto real con fondo limpio por Qwen; políticas: sin promesas ni precios inventados; mensajes baratos: gancho de “casa propia” + curiosidad del recorrido; mensajes calificados: pide disponibilidad y visita, filtra interesados.
+
+2. Las 3 casas – Collage Vizcaíno
+- Qué se ve: collage 3 fotos suyas: Bugambilia, Benjamina, Salvia (fotos que ya tenemos de flyers/videos). Sin texto incrustado en fotos; texto en capa.
+- Titular en pantalla: “3 opciones en Vizcaíno”
+- Línea de apoyo: “Bugambilia · Benjamina · Salvia”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Tres modelos dentro del mismo residencial. Cuéntame cuál te interesa.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: variedad real de modelos; confianza: fotos reales del cliente; claridad: nombres de casas visibles; calidad visual: collage equilibrado con recorte por Qwen; políticas: sin precios ni promesas; mensajes baratos: variedad genera clic; mensajes calificados: pregunta por modelo específico.
+
+3. Benjamina – Precio real si lo autoriza
+- Qué se ve: foto suya de Benjamina (flyer que ya tenemos) con fondo limpio por Qwen; espacio para precio en capa.
+- Titular en pantalla: “Benjamina desde [FALTA: precio autorizado]”
+- Línea de apoyo: “Residencial Vizcaíno, Rosarito”
+- Formato: 9:16 Stories/Reels cover. Botón WhatsApp abajo.
+- Texto primario: “Desde [FALTA: precio autorizado] en Benjamina. Escríbeme para detalles y visita.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: precio real si se autoriza; confianza: foto real + datos verificables; claridad: precio y ubicación; calidad visual: imagen limpia con tipografía legible; políticas: precio real, sin rent-to-own; mensajes baratos: precio visible atrae; mensajes calificados: pide detalles y visita.
+
+4. Antes/Después – Entrada del residencial
+- Qué se ve: antes/después con dos fotos suyas del acceso/plaza (fotos que debe mandar: “foto actual de entrada y una con mejor luz”). Montaje por Qwen manteniendo su material.
+- Titular en pantalla: “Vizcaíno, acceso controlado”
+- Línea de apoyo: “Plaza comercial · áreas verdes”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Conoce el acceso y amenidades de Vizcaíno. Te paso fotos y ubicación.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: resalta amenidades reales; confianza: fotos propias del lugar; claridad: beneficio de acceso controlado; calidad visual: contraste antes/después limpio; políticas: sin exagerar; mensajes baratos: curiosidad visual; mensajes calificados: pide ubicación y fotos.
+
+5. Producto recortado – Casa sobre color sólido
+- Qué se ve: fachada de Salvia recortada de su foto real y colocada sobre fondo color sólido generado con Qwen a partir de su foto.
+- Titular en pantalla: “Salvia en Vizcaíno”
+- Línea de apoyo: “Modelos familiares”
+- Formato: 1:1 Feed. Botón WhatsApp abajo.
+- Texto primario: “Modelo Salvia, residencial Vizcaíno. Pregunta por planos y visita.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: destaca modelo específico; confianza: imagen real recortada; claridad: nombre de modelo y residencial; calidad visual: fondo limpio y tipografía nítida; políticas: sin promesas; mensajes baratos: imagen limpia y reconocible; mensajes calificados: pide planos y visita.
+
+2) CALIFICACIÓN ESPERADA
+
+1. Benjamina – Recorrido real con logo: 9/10
+2. Las 3 casas – Collage Vizcaíno: 9/10
+3. Benjamina – Precio real si lo autoriza: 8/10
+4. Antes/Después – Entrada del residencial: 8/10
+5. Producto recortado – Salvia: 8/10
+
+Qué le falta a la más baja para llegar a 9: precio real autorizado y confirmado por escrito para la imagen 3; para la 4 y 5, una foto adicional de mejor luz/ángulo del acceso y de Salvia frontal sin gente/vehículos, respectivamente, para subir calidad visual y claridad del mensaje.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL para que la número 1 califique 10
+
+- Foto frontal nítida de Benjamina sin texto, tomada en horario de luz suave, en horizontal.
+- Confirmación escrita de que se puede usar su logo y nombre comercial en el anuncio.
+- Precio autorizado de Benjamina o indicación expresa de “no mostrar precio”.
+- Foto del letrero/entrada de Benjamina dentro de Vizcaíno para reforzar ubicación.
+- Aprobación de titular y línea de apoyo propuestos.
+
+4) SEGMENTACIÓN Y PRESUPUESTO (estimación)
+
+- Ubicación: Rosarito, Tijuana y Playas de Rosarito; radio 25-40 km alrededor de Vizcaíno Residencial.
+- Edad: 28-55.
+- Intereses: bienes raíces, compra de casa, remodelación, inversión inmobiliaria, vida en Rosarito, familias.
+- Presupuesto diario estimado: $300-$600 MXN para prueba de mensajes a WhatsApp con 2-3 anuncios activos; escalar según costo por mensaje calificado.
+
+5) LO QUE NO SE PUEDE DECIR en su giro por políticas de Meta
+
+- No prometer precios, descuentos, tiempos de entrega, financiamiento, enganche, “desde $X” sin confirmación escrita del cliente.
+- No usar “últimas unidades”, “aprovecha ahora”, “no te quedes fuera”, ni urgencia falsa.
+- No rent-to-own, no “casa propia sin crédito”, no garantías de aprobación.
+- No imágenes de banco, ni fotos de otros desarrollos, ni personas que no sean del cliente.
+- No declaraciones de ingresos, plusvalía asegurada o rendimiento de inversión.
+- No contenido sensible, político o testimonios falsos.
+
+######## Guillermo_Vicens
+1) LAS 5 IMÁGENES
+
+1. Techo placa teja una caída – antes/después
+- Qué se ve: collage antes/después con FOTO SUYA del techo terminado sobre 2 columnas con placa teja roja que ya tenemos + FOTO SUYA del proceso estructura negra con vigas hacia la barda que ya tenemos. Composición 4:5 con producto recortado y fondo limpio.
+- Titular en pantalla: “Techo de placa teja”
+- Línea de apoyo: “Estructura lista para instalar”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario del anuncio: “Techos de herrería en Puebla. Te muestro proceso real y terminado. Escríbeme por WhatsApp para cotizar tu área.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: muestra trabajo real terminado; confianza: antes/después con sus fotos; claridad: mensaje directo a techos; calidad visual: collage nítido con sus fotos; políticas: sin promesas ni precios inventados; mensajes baratos: intención clara de cotizar por WhatsApp; mensajes calificados: pide área para cotizar.
+
+2. Saguán con estructura y placa
+- Qué se ve: imagen generada con Qwen-Image-Edit a partir de FOTO SUYA que debe mandar del área “placeteja” con 6 travesaños y 3 a fondo, limpiando fondo y ajustando encuadre. Versión 9:16.
+- Titular en pantalla: “Saguán a tu medida”
+- Línea de apoyo: “Estructura + placa teja”
+- Formato: 9:16 Stories/Reels cover. Botón WhatsApp abajo.
+- Texto primario del anuncio: “Saguán, cortina y puerta con estructura visible. Te armo una simulación con tu foto. Escríbeme por WhatsApp.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: saguan a medida con sus materiales; confianza: usa su foto real editada; claridad: servicio específico; calidad visual: encuadre limpio sin textos extraños; políticas: sin garantías inventadas; mensajes baratos: pide foto del área; mensajes calificados: filtra por interés en saguan.
+
+3. Proceso techo una caída
+- Qué se ve: FOTO SUYA del techo terminado sobre 2 columnas con placa teja roja que ya tenemos, recortada sobre fondo de color y con pequeño recuadro del proceso estructura negra que ya tenemos.
+- Titular en pantalla: “Una sola caída”
+- Línea de apoyo: “Como lo necesitas”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario del anuncio: “Techo con una caída de barda a columnas. Te muestro cómo queda con tu medida. Escríbeme por WhatsApp.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: solución de una caída; confianza: muestra su trabajo real; claridad: describe tipología; calidad visual: composición limpia; políticas: sin tiempos inventados; mensajes baratos: consulta por medida; mensajes calificados: pide datos del área.
+
+4. Collage servicios ligeros
+- Qué se ve: collage 3 fotos suyas: techo placa teja terminado que ya tenemos + FOTO SUYA que debe mandar de saguan/cortina/puerta + FOTO SUYA que debe mandar de pérgola pequeña. Sin modelos.
+- Titular en pantalla: “Herrería y techos ligeros”
+- Línea de apoyo: “Saguán, cortina, puerta, pérgola”
+- Formato: 1:1 Feed. Botón WhatsApp abajo.
+- Texto primario del anuncio: “Trabajos ligeros de herrería y techos. Te envío fotos reales de procesos similares. Escríbeme por WhatsApp.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: variedad de servicios ligeros; confianza: fotos propias; claridad: lista servicios; calidad visual: collage equilibrado; políticas: sin comparativas engañosas; mensajes baratos: contacto directo; mensajes calificados: pide tipo de trabajo.
+
+5. Simulación estructura con lámina al ras
+- Qué se ve: imagen generada con Qwen-Image-Edit a partir de FOTO SUYA que debe mandar del área, simulando lámina al ras de barda y dejando ver estructura por debajo, sin inventar medidas.
+- Titular en pantalla: “Así quedaría tu techo”
+- Línea de apoyo: “Simulación con tu foto”
+- Formato: 9:16 Stories. Botón WhatsApp abajo.
+- Texto primario del anuncio: “Sube foto de tu área y te hago una simulación realista. Sin costo de diseño inicial. Escríbeme por WhatsApp.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: simulación con su foto; confianza: transparencia de simulación; claridad: explica qué se verá; calidad visual: edición limpia; políticas: no promete resultado final; mensajes baratos: pide foto; mensajes calificados: califica interés real.
+
+2) CALIFICACIÓN ESPERADA
+
+1. Techo placa teja una caída – antes/después: 9/10
+2. Saguán con estructura y placa: 8/10
+3. Proceso techo una caída: 8/10
+4. Collage servicios ligeros: 7/10
+5. Simulación estructura con lámina al ras: 7/10
+
+Qué le falta a la más baja para llegar a 9: a la 4 y 5 les falta foto real suya de saguan/cortina/puerta/pérgola y de área específica para simular. Con esas fotos propias, encuadre limpio y sin texto superpuesto extra, suben a 9.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL para que la número 1 califique 10
+
+- Foto suya nítida del techo terminado de placa teja roja sobre 2 columnas, tomada de frente con luz diurna.
+- Foto suya del mismo techo en proceso, estructura negra visible, mismo ángulo que la terminada.
+- Confirmar zona de atención en Puebla para geolocalizar el anuncio.
+- Precio de referencia que autoriza mostrar o indicar que prefiere “Precio bajo consulta” [FALTA: precio autorizado para mostrar o confirmación de no mostrar precio].
+- Autorización escrita para usar esas fotos en anuncios de Meta.
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+
+- Ubicación: Puebla capital y municipios conurbados, radio 15-25 km según zona donde atiende. [FALTA: confirmar ciudad exacta y colonias donde trabaja].
+- Edad: 28-60.
+- Intereses: remodelación hogar, construcción, herrería, techos, mejoras para casa, propietarios de vivienda.
+- Presupuesto diario estimado: $250 a $500 MXN para iniciar y optimizar mensajes a WhatsApp. Estimación basada en su conversación de inversión previa.
+
+5) LO QUE NO SE PUEDE DECIR en su giro por políticas de Meta
+
+- No prometer precios, tiempos de entrega, garantías ni resultados específicos si no están confirmados por él.
+- No usar fotos de banco, de otros negocios o de personas que no sean suyas.
+- No hacer afirmaciones absolutas de calidad, “el mejor”, “garantizado”, “único”.
+- No contenido sensible, antes/después engañosos ni manipulación que induzca a error.
+- No mencionar políticas de Facebook/WhatsApp ni hacer referencia a la plataforma en el creativo.
+
+######## Tatuador
+1) LAS 5 IMÁGENES
+
+1. Estudio 2001 – Confianza
+- Qué se ve: foto suya del estudio/estación de trabajo que ya tenemos (imagen enviada 10-29 18:03) con fondo limpio y encuadre centrado generado con Qwen-Image-Edit a partir de esa foto.
+- Titular en pantalla: “Estudio en Cancún desde 2001”
+- Línea de apoyo: “Diseño único y personalizado”
+- Formato: 4:5 Feed. Botón de WhatsApp en zona inferior libre.
+- Texto primario del anuncio: “Tatuador en el centro de Cancún. Estudio profesional desde 2001. Escríbeme por WhatsApp y armamos tu diseño personalizado.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: diferenciador de trayectoria real; confianza: antigüedad del estudio declarada por él; claridad: propuesta de diseño personalizado sin promesas; calidad visual: foto real retocada, fondo limpio, texto en capa; políticas: sin salud, sin antes/después corporal, sin precios inventados; mensajes baratos: evita “gratis/barato”, pide conversación; mensajes calificados: pide idea de diseño, filtra intención.
+
+2. Prueba de diseño – Conversación
+- Qué se ve: collage 3 fotos suyas de trabajos ya recibidas (imágenes enviadas 10-29 18:03 y 10-29 18:06) unidas con Qwen-Image-Edit, sin texto en la imagen original.
+- Titular en pantalla: “¿Te gusta una idea?”
+- Línea de apoyo: “La convertimos en diseño único”
+- Formato: 9:16 Stories/Reels. Botón de WhatsApp en zona inferior libre.
+- Texto primario del anuncio: “Si tienes una idea, la desarrollamos a tu gusto. Tatuador en centro de Cancún. Escríbeme por WhatsApp.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: personalización a partir de idea del cliente; confianza: muestra real de trabajos suyos; claridad: mensaje directo a WhatsApp; calidad visual: collage ordenado, recorte limpio; políticas: sin prometer resultados; mensajes baratos: no hay precio, no atrae curiosos; mensajes calificados: requiere idea previa.
+
+3. Trabajo real – Evidencia
+- Qué se ve: foto suya de un tatuaje terminado que ya tenemos (imagen enviada 10-29 18:03) recortada y sobre fondo de color sólido generado con Qwen-Image-Edit.
+- Titular en pantalla: “Tatuajes en estudio profesional”
+- Línea de apoyo: “Centro de Cancún”
+- Formato: 4:5 Feed. Botón de WhatsApp en zona inferior libre.
+- Texto primario del anuncio: “Estudio profesional en el centro de Cancún desde 2001. Hablemos por WhatsApp para tu diseño personalizado.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: servicio en estudio establecido; confianza: ubicación y antigüedad declaradas; claridad: llamada a WhatsApp clara; calidad visual: producto recortado nítido; políticas: sin contenido sensible prohibido; mensajes baratos: sin ofertas agresivas; mensajes calificados: contexto local real.
+
+4. Sin diseño definido – Objeción
+- Qué se ve: imagen generada con Qwen-Image-Edit a partir de foto suya de estudio que ya tenemos, encuadre amplio, hora del día neutra, sin personas ajenas.
+- Titular en pantalla: “No encuentras diseño que te atrape”
+- Línea de apoyo: “Armamos uno único para ti”
+- Formato: 9:16 Stories/Reels. Botón de WhatsApp en zona inferior libre.
+- Texto primario del anuncio: “Llevas tiempo queriéndote tatuar y no encuentras diseño. Con tu idea armamos uno personalizado. Escríbeme por WhatsApp.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: solución a falta de diseño; confianza: tono cercano del propio cliente; claridad: replica su frase real; calidad visual: fondo limpio, texto legible; políticas: sin promesas médicas; mensajes baratos: enfoque en personalización; mensajes calificados: pide idea, no clic casual.
+
+5. Centro Cancún – Proximidad
+- Qué se ve: foto suya del exterior/interior del estudio que ya tenemos (imagen enviada 10-29 18:03) con fondo limpio por Qwen-Image-Edit.
+- Titular en pantalla: “Tatuador en el centro de Cancún”
+- Línea de apoyo: “Estudio desde 2001”
+- Formato: 4:5 Feed. Botón de WhatsApp en zona inferior libre.
+- Texto primario del anuncio: “Atención en estudio profesional en el centro de Cancún desde 2001. Escríbeme por WhatsApp y coordinamos.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: proximidad y trayectoria; confianza: datos declarados por él; claridad: ubicación clara; calidad visual: imagen real retocada; políticas: sin afirmaciones prohibidas; mensajes baratos: sin precio inventado; mensajes calificados: pide coordinación por WhatsApp.
+
+2) CALIFICACIÓN ESPERADA
+
+1. Estudio 2001 – Confianza: 9/10
+2. Prueba de diseño – Conversación: 8/10
+3. Trabajo real – Evidencia: 8/10
+4. Sin diseño definido – Objeción: 7/10
+5. Centro Cancún – Proximidad: 8/10
+
+Qué le falta a la más baja para llegar a 9: “Sin diseño definido – Objeción” necesita una foto suya específica de estudio/trabajo real en lugar de encuadre genérico editado, y confirmar que el titular no se solape con elementos de la imagen para mejorar legibilidad y calidad visual.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL para que la número 1 califique 10
+
+- Foto exacta del estudio en el centro de Cancún con buena luz, sin texto superpuesto, en horizontal y vertical.
+- Foto nítida de su estación de trabajo/mesa con materiales visibles, sin reflejos.
+- Confirmación escrita de la zona exacta dentro del centro de Cancún para geolocalización del anuncio.
+- Precio REAL de consulta/diseño o rango que autorice mostrar. [FALTA: precio real autorizado para texto primario/titular]
+- Prueba de que el estudio opera desde 2001: foto del local con fachada o documento visible que lo respalde para confianza. [FALTA: evidencia de antigüedad]
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+
+- Ubicación: Cancún, Quintana Roo, radio 10-15 km desde el centro de Cancún. Estimación.
+- Edad: 22-45 años. Estimación.
+- Intereses: tatuajes, body art, piercing, street art, música en vivo, festivales locales, turismo en Cancún. Estimación.
+- Comportamientos: personas interesadas en servicios locales y mensajería por WhatsApp. Estimación.
+- Presupuesto diario: $300 a $600 MXN. Estimación.
+
+5) LO QUE NO SE PUEDE DECIR en su giro por políticas de Meta
+
+- No prometer resultados estéticos, curación rápida, indoloro o “sin dolor”.
+- No mostrar contenido gráfico excesivo de agujas, sangre o procesos invasivos de cerca.
+- No usar testimonios falsos, antes/después de cuerpo completo ni afirmaciones médicas.
+- No inventar precios, promociones, descuentos, tiempos de entrega ni garantías.
+- No usar fotos de banco, de otros tatuadores o caras que no sean suyas.
+- No hacer afirmaciones sensacionalistas tipo “el mejor”, “único”, “garantizado”.
+
+######## Alberto_Doctora_Angeles
+1) LAS 5 IMÁGENES
+
+1. Alberto A corregido · Dra. Ángeles real · Implante $12,500
+- Qué se ve: foto real de la Dra. Ángeles que ya tenemos (foto enviada 09-30 14:52). Qwen-Image-Edit: recorte medio, fondo clínico limpio, encuadre 4:5. Logo de Veneers Dental en esquina.
+- Titular en pantalla: Tu sonrisa merece volver
+- Línea de apoyo: Implante $12,500 · corona aparte
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario del anuncio: Dra. Ángeles en Nogales. Implante $12,500. Corona aparte. Escríbenos por WhatsApp para agendar.
+- Título del botón: Enviar WhatsApp
+- Cómo sube cada rubro: oferta: precio real de implante y “corona aparte” confirmado por Alberto; confianza: cara real de la doctora, nombre y negocio visibles; claridad: titular corto y precio legible; calidad visual: foto real sin IA en rostro, fondo limpio por edición; políticas: sin promesa médica, sin antes/después corporal; mensajes baratos: oferta clara y local; mensajes calificados: CTA a WhatsApp con contexto de servicio.
+
+2. Alberto B · Dra. Ángeles · Comer sin preocupación
+- Qué se ve: misma foto real de la Dra. Ángeles que ya tenemos. Qwen-Image-Edit: cambio de hora/luz suave, fondo neutro. Producto: close-up de implante recortado sobre fondo color marca.
+- Titular en pantalla: Tus comidas merecen disfrutarse
+- Línea de apoyo: Implante $12,500 · corona aparte
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario del anuncio: Atención con Dra. Ángeles, Veneers Dental Nogales. Implante $12,500. Corona aparte. Pregunta por disponibilidad vía WhatsApp.
+- Título del botón: Enviar WhatsApp
+- Cómo sube cada rubro: oferta: precio real repetido; confianza: rostro real y nombre; claridad: beneficio cotidiano sin salud; calidad visual: composición limpia con producto recortado; políticas: sin garantías ni resultados; mensajes baratos: beneficio simple; mensajes calificados: intención de contacto clara.
+
+3. Alberto C · Dra. Ángeles · Natural
+- Qué se ve: foto real de la Dra. Ángeles que ya tenemos. Qwen-Image-Edit: encuadre 9:16, fondo clínico uniforme.
+- Titular en pantalla: Tu sonrisa merece verse natural
+- Línea de apoyo: Implante $12,500 · corona aparte
+- Formato: 9:16 Stories/Reels cover. Botón WhatsApp en sticker inferior.
+- Texto primario del anuncio: Veneers Dental, Dra. Ángeles en Nogales. Implante $12,500. Corona aparte. Escríbenos por WhatsApp.
+- Título del botón: Enviar WhatsApp
+- Cómo sube cada rubro: oferta: precio real; confianza: doctora real; claridad: mensaje breve; calidad visual: vertical optimizada; políticas: sin afirmaciones médicas; mensajes baratos: oferta directa; mensajes calificados: CTA conversacional.
+
+4. Collage Dra. Ángeles · 3 fotos reales
+- Qué se ve: collage 3-4 fotos suyas que ya tenemos (set 09-30 14:52). Qwen-Image-Edit: unificar fondo, alinear, sin texto incrustado en foto. Overlay de texto en capa.
+- Titular en pantalla: Conoce a la Dra. Ángeles
+- Línea de apoyo: Implante $12,500 · corona aparte
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario del anuncio: Veneers Dental Nogales. Implante $12,500. Corona aparte. Agenda por WhatsApp con la doctora.
+- Título del botón: Enviar WhatsApp
+- Cómo sube cada rubro: oferta: precio real; confianza: varias fotos reales de la misma persona; claridad: identidad clara; calidad visual: collage limpio; políticas: sin promesas; mensajes baratos: presentación humana; mensajes calificados: contacto directo.
+
+5. Producto + Dra. Ángeles · Tarjeta limpia
+- Qué se ve: foto real de la Dra. Ángeles que ya tenemos + implante recortado generado por edición a partir de su material. Fondo color sólido de marca. Logo.
+- Titular en pantalla: Implante $12,500
+- Línea de apoyo: Corona aparte · Nogales
+- Formato: 1:1 Feed. Botón WhatsApp abajo centro.
+- Texto primario del anuncio: Veneers Dental con Dra. Ángeles. Implante $12,500. Corona aparte. Escríbenos por WhatsApp para información.
+- Título del botón: Enviar WhatsApp
+- Cómo sube cada rubro: oferta: precio visible; confianza: rostro real + logo; claridad: información mínima; calidad visual: producto aislado nítido; políticas: sin resultados garantizados; mensajes baratos: precio destacado; mensajes calificados: CTA a mensaje.
+
+2) CALIFICACIÓN ESPERADA
+
+1. Alberto A corregido · 9/10
+2. Alberto B · 8/10
+3. Alberto C · 8/10
+4. Collage Dra. Ángeles · 7/10
+5. Producto + Dra. Ángeles · 7/10
+
+Qué le falta a la más baja para llegar a 9: Collage y Producto necesitan foto real adicional de la Dra. Ángeles con mejor resolución y encuadre frontal bien iluminado, y confirmar zona exacta de atención para agregar “Nogales, Sonora” en línea de apoyo sin inventar. Con eso sube claridad, confianza y calidad visual.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL para que la número 1 califique 10
+
+- Foto real de la Dra. Ángeles en alta resolución, rostro frontal, luz uniforme, fondo clínico neutro, sin gafas oscuras ni accesorios que tapen rostro. [FALTA: foto con estas condiciones]
+- Confirmar por escrito zona exacta de atención. [FALTA: ciudad/estado y radio de atención confirmados]
+- Confirmar si el precio $12,500 aplica a todo Nogales o solo clínica. [FALTA: alcance geográfico del precio]
+- Autorización escrita para usar su imagen en anuncios de Meta. [FALTA: autorización de uso de imagen]
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+
+- Ciudad/radio: Nogales, Sonora y radio 15-25 km. Estimación.
+- Edad: 30-65. Estimación.
+- Intereses: odontología estética, salud dental, implantes dentales, ortodoncia, estética facial. Estimación.
+- Presupuesto diario: $100 MXN/día como acordado el 10-21. Rango estimado de prueba $100-$150 MXN/día.
+
+5) LO QUE NO SE PUEDE DECIR en su giro por políticas de Meta
+
+- No prometer resultados médicos ni de salud, ni “sonrisa perfecta”, “cero dolor”, “garantizado”.
+- No usar antes/después de pacientes reales sin autorización y documentación.
+- No afirmar rapidez de recuperación, tiempos de tratamiento ni durabilidad.
+- No desprestigiar a otros dentistas ni usar urgencia falsa.
+- No mostrar imágenes de sangre, heridas abiertas ni procedimientos invasivos gráficos.
+- No usar términos sensibles de salud personalizados.
+
+######## Israel_Sirled
+1) LAS 5 IMÁGENES
+
+1.1 Nombre corto: Instalación real SIRLed
+Qué se ve: Foto suya de instalación en taller/obra que ya tenemos. Recorte limpio del técnico con pantalla y logo SIRLed en esquina. Fondo de taller limpio con Qwen-Image-Edit.
+Titular en pantalla: “Instalamos y reparamos LED”
+Línea de apoyo: “Servicio a domicilio en CDMX”
+Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+Texto primario del anuncio: “SIRLed vende, instala y repara pantallas LED. Escríbenos por WhatsApp para cotizar tu proyecto.”
+Título del botón: “Enviar WhatsApp”
+Cómo sube cada rubro:
+oferta: Servicio claro de venta/instalación/reparación LED.
+confianza: Se ve su taller y equipo real, nombre SIRLed visible.
+claridad: Propuesta directa y acción WhatsApp.
+calidad visual: Foto real recortada, fondo limpio, texto en capa.
+políticas: Sin promesas, sin precios inventados, sin comparativas.
+mensajes baratos: Intención local de servicio técnico, creativo de trabajo real.
+mensajes calificados: Pregunta implícita de proyecto, filtra curiosos.
+
+1.2 Nombre corto: Antes y después taller
+Qué se ve: Collage antes/después con 2 fotos suyas de instalación que ya tenemos. Generado con Qwen a partir de esas fotos.
+Titular en pantalla: “Antes y después real”
+Línea de apoyo: “Trabajos de SIRLed”
+Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+Texto primario del anuncio: “Mira resultados reales de instalaciones y reparaciones LED por SIRLed. Escríbenos para agendar.”
+Título del botón: “Enviar WhatsApp”
+Cómo sube cada rubro:
+oferta: Muestra trabajo real de instalación/reparación.
+confianza: Evidencia visual propia.
+claridad: Mensaje simple de resultado real.
+calidad visual: Collage ordenado, tipografía legible.
+políticas: Sin garantías ni tiempos inventados.
+mensajes baratos: Creativo de prueba social visual.
+mensajes calificados: Pide agendar, no solo cotizar.
+
+1.3 Nombre corto: Equipo SIRLed en acción
+Qué se ve: Foto suya de equipo/técnico que ya tenemos. Qwen cambia encuadre y limpia fondo. Logo SIRLed.
+Titular en pantalla: “Ingeniería y reparación LED”
+Línea de apoyo: “SIRLed atiende tu pantalla”
+Formato: 9:16 Stories/Reels cover. Botón WhatsApp inferior.
+Texto primario del anuncio: “Servicio técnico especializado en pantallas LED. Venta, instalación y reparación con equipo propio.”
+Título del botón: “Enviar WhatsApp”
+Cómo sube cada rubro:
+oferta: Servicio técnico especializado.
+confianza: Rostros/equipo real del cliente.
+claridad: Qué hace y cómo contactar.
+calidad visual: Vertical nítida, texto grande.
+políticas: Sin afirmaciones absolutas.
+mensajes baratos: Relevancia local y profesional.
+mensajes calificados: Enfoque en servicio técnico.
+
+1.4 Nombre corto: Producto sobre color
+Qué se ve: Pantalla LED recortada de foto suya que ya tenemos sobre fondo sólido. Logo SIRLed.
+Titular en pantalla: “Pantallas LED a medida”
+Línea de apoyo: “Venta e instalación profesional”
+Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+Texto primario del anuncio: “SIRLed vende e instala pantallas LED. Escríbenos por WhatsApp y te asesoramos.”
+Título del botón: “Enviar WhatsApp”
+Cómo sube cada rubro:
+oferta: Venta e instalación clara.
+confianza: Producto real del cliente.
+claridad: Oferta simple y CTA directo.
+calidad visual: Producto destacado, fondo limpio.
+políticas: Sin precios inventados.
+mensajes baratos: Interés por producto visible.
+mensajes calificados: Asesoría, no solo precio.
+
+1.5 Nombre corto: Tarjeta SIRLed taller
+Qué se ve: Foto suya del letrero del taller que ya tenemos. Qwen limpia fondo y añade placa de texto.
+Titular en pantalla: “SIRLed, tu taller LED”
+Línea de apoyo: “Instalación y reparación”
+Formato: 1:1 Feed. Botón WhatsApp abajo centro.
+Texto primario del anuncio: “Servicio de ingeniería y reparación de pantallas LED. Contacto directo por WhatsApp.”
+Título del botón: “Enviar WhatsApp”
+Cómo sube cada rubro:
+oferta: Taller especializado LED.
+confianza: Identidad visual real.
+claridad: Quién es y qué hace.
+calidad visual: Imagen limpia con marca.
+políticas: Sin promesas de resultado.
+mensajes baratos: Marca local reconocible.
+mensajes calificados: Contacto directo con negocio.
+
+2) CALIFICACIÓN ESPERADA
+Instalación real SIRLed: 9/10
+Antes y después taller: 8/10
+Equipo SIRLed en acción: 9/10
+Producto sobre color: 8/10
+Tarjeta SIRLed taller: 7/10
+Qué le falta a la más baja para llegar a 9: Falta foto del letrero con mejor iluminación y ángulo frontal nítido. Necesita foto suya del exterior del taller con logo legible y sin reflejos para componer tarjeta limpia.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL para que la número 1 califique 10
+- Foto nítida de instalación en curso con técnico visible y pantalla encendida, tomada en horizontal.
+- Foto del taller interior con equipo y logo SIRLed legible.
+- Confirmar ciudad/zona de atención real para texto de apoyo.
+- Precio REAL de referencia si quiere mostrar rango en anuncio. [FALTA: precio base o rango autorizado para publicar]
+- Autorización escrita para usar su imagen/voz en anuncios.
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+Ciudad o radio: CDMX y área metropolitana. Radio 15-30 km desde su taller. [FALTA: colonia exacta del taller para geolocalizar]
+Edad: 28-55
+Intereses: Dueños de negocio, publicidad exterior, ferretería, construcción, LED, pantallas, mantenimiento industrial, administradores de inmuebles.
+Comportamientos: Pequeños empresarios,enteagement con páginas de servicios técnicos.
+Presupuesto diario estimado: $300 a $600 MXN para iniciar mensajes a WhatsApp, según volumen de leads deseado.
+
+5) LO QUE NO SE PUEDE DECIR en su giro por políticas de Meta
+No prometer tiempos de instalación/reparación específicos. No garantizar resultados de imagen o visibilidad. No usar precios inventados ni “desde $X”. No decir “el mejor” ni superlativos absolutos. No mencionar marcas de terceros. No usar fotos de banco ni de otros negocios. No hacer afirmaciones de seguridad eléctrica sin respaldo.
+
+######## Rafael
+1) LAS 5 IMÁGENES
+
+1.1 Nombre corto: Test Drive WhatsApp
+Qué se ve: foto suya real que ya tenemos con uniforme BYD y un auto BYD en agencia; fondo limpio con Qwen-Image-Edit.
+Titular en pantalla: “Prueba de manejo hoy”
+Línea de apoyo: “Escríbenos por WhatsApp”
+Formato: 4:5 Feed. Botón en parte inferior.
+Texto primario del anuncio: “Agenda tu prueba de manejo con Rafael, asesor BYD. Te asesoro por WhatsApp y te explico opciones disponibles.”
+Título del botón: “Enviar mensaje”
+Cómo sube cada rubro:
+- oferta: claridad de acción a WhatsApp sin prometer precio.
+- confianza: foto real del asesor con uniforme y logo visible.
+- claridad: mensaje único, titular directo y CTA visible.
+- calidad visual: foto real retocada, fondo limpio, encuadre centrado.
+- políticas: sin precios inventados, sin promesas de resultado.
+- mensajes baratos: intención clara de cotizar/prueba, no curiosidad.
+- mensajes calificados: CTA a WhatsApp con contexto de asesoría.
+
+1.2 Nombre corto: Asesor Real BYD
+Qué se ve: collage 3 fotos suyas reales que ya tenemos: retrato, con auto, en agencia.
+Titular en pantalla: “Asesor BYD en CDMX”
+Línea de apoyo: “Atención por WhatsApp”
+Formato: 4:5 Feed. Botón inferior.
+Texto primario del anuncio: “Soy Rafael, asesor BYD. Escríbeme por WhatsApp para opciones disponibles y prueba de manejo.”
+Título del botón: “Enviar mensaje”
+Cómo sube cada rubro:
+- oferta: contacto directo con asesor real.
+- confianza: varias fotos del mismo asesor, coherencia visual.
+- claridad: quién es y qué hacer ahora.
+- calidad visual: collage ordenado con recorte limpio.
+- políticas: contenido propio, sin afirmaciones no verificables.
+- mensajes baratos: foco en asesoría, no entretenimiento.
+- mensajes calificados: conversación iniciada con nombre y rol.
+
+1.3 Nombre corto: Zona de cobertura
+Qué se ve: foto suya real que ya tenemos con auto BYD; fondo cambiado a neutro con Qwen-Image-Edit.
+Titular en pantalla: “Atención en tu zona”
+Línea de apoyo: “Escríbe BYD por WhatsApp”
+Formato: 9:16 Stories/Reels. Botón inferior.
+Texto primario del anuncio: “Te atiendo por WhatsApp. Indica tu zona y modelo de interés para opciones disponibles.”
+Título del botón: “Enviar mensaje”
+Cómo sube cada rubro:
+- oferta: canal directo y palabra clave para clasificar lead.
+- confianza: rostro real y marca visible.
+- claridad: instrucción simple de escribir “BYD”.
+- calidad visual: fondo limpio, texto legible en vertical.
+- políticas: sin precios ni tiempos inventados.
+- mensajes baratos: intención de cotizar clara.
+- mensajes calificados: palabra clave reduce leads curiosos.
+
+1.4 Nombre corto: Antes/Después limpieza
+Qué se ve: antes/después con sus fotos reales que ya tenemos del mismo auto en agencia; edición con Qwen-Image-Edit para limpiar fondo.
+Titular en pantalla: “Mira el detalle real”
+Línea de apoyo: “Pregunta por disponibilidad”
+Formato: 4:5 Feed. Botón inferior.
+Texto primario del anuncio: “Compara acabados y detalles con fotos reales. Escríbeme por WhatsApp para revisar disponibilidad.”
+Título del botón: “Enviar mensaje”
+Cómo sube cada rubro:
+- oferta: transparencia visual del producto real.
+- confianza: fotos propias, sin retoque exagerado.
+- claridad: comparación simple y CTA único.
+- calidad visual: alto contraste, recorte prolijo.
+- políticas: sin prometer stock o entrega.
+- mensajes baratos: foco en producto real, no clickbait.
+- mensajes calificados: pregunta específica de disponibilidad.
+
+1.5 Nombre corto: Producto centrado
+Qué se ve: auto BYD recortado de sus fotos reales que ya tenemos sobre fondo color sólido; sin texto en imagen salvo titular.
+Titular en pantalla: “BYD con asesoría real”
+Línea de apoyo: “WhatsApp directo con Rafael”
+Formato: 9:16 Stories/Reels. Botón inferior.
+Texto primario del anuncio: “Asesoría directa por WhatsApp con Rafael. Te explico versiones y pasos para prueba de manejo.”
+Título del botón: “Enviar mensaje”
+Cómo sube cada rubro:
+- oferta: acceso directo al asesor.
+- confianza: producto real y rostro del asesor en miniatura si cabe.
+- claridad: propuesta simple y CTA visible.
+- calidad visual: fondo sólido, producto nítido.
+- políticas: sin claims de precio o financiamiento.
+- mensajes baratos: evita curiosidad visual sin contexto.
+- mensajes calificados: conversación con asesor identificado.
+
+2) CALIFICACIÓN ESPERADA
+- Test Drive WhatsApp: 8.5/10
+- Asesor Real BYD: 8/10
+- Zona de cobertura: 8/10
+- Antes/Después limpieza: 7.5/10
+- Producto centrado: 7.5/10
+Qué le falta a la más baja para llegar a 9: titular con gancho más específico sin inventar oferta, incluir zona real que atiende y prueba social verificable del asesor; actualmente falta zona confirmada y elemento de confianza extra como logo/agencia visible sin saturar.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL para que la número 1 califique 10
+- Foto suya en alta resolución con uniforme BYD frente a un auto BYD en agencia, rostro visible y logo legible.
+- Foto del auto BYD de frente en buena luz, sin gente ajena.
+- Confirmación escrita de zona que atiende: ciudad y colonias o radio real.
+- Precio REAL de referencia que autoriza mostrar o indicar que no se muestra precio.
+- Autorización de uso de su imagen y logo BYD para anuncios.
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+- Ubicación: CDMX, radio 12-18 km alrededor de agencia; adicional Naucalpan y Azcapotzalco si confirma cobertura.
+- Edad: 28-60.
+- Intereses: autos nuevos, vehículos híbridos/eléctricos, BYD, automotriz, compra de auto.
+- Presupuesto diario estimado: $400 - $800 MXN para iniciar mensajes a WhatsApp, según volumen de conversación deseado.
+
+5) LO QUE NO SE PUEDE DECIR en su giro por políticas de Meta
+- No prometer precio, mensualidad, enganche, tiempo de entrega o financiamiento específico sin documentación oficial.
+- No usar “mejor precio garantizado”, “oferta por tiempo limitado” sin sustento verificable.
+- No comparar marcas con afirmaciones denigrantes.
+- No mostrar tasas, APR o condiciones financieras no confirmadas.
+- No usar fotos de banco, de otros asesores o de concesionarios distintos.
+- No hacer claims de ahorro de combustible o emisiones como certeza absoluta.
+- No usar texto que cubra más del 20% de la imagen en piezas con texto en pantalla.
+
+######## Lisbeth
+1) LAS 5 IMÁGENES (orden de prueba)
+
+1. Terreno real con Lisbeth en borde de carretera
+- Qué se ve: foto suya de cuerpo completo en el borde de la carretera frente al terreno (foto que él mandó 10-24). Generada con Qwen-Image-Edit a partir de esa foto: encuadre limpio, luz dorada, sin texto original.
+- Titular en pantalla: “Tomatlán, Jalisco. Terreno real”
+- Línea de apoyo: “34 lotes con medidas variables”
+- Formato: 4:5 Feed. Botón de WhatsApp abajo a la derecha.
+- Texto primario del anuncio: “Terrenos en Tomatlán, Jalisco. 34 lotes con medidas variables. Agua y luz disponibles.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: muestra producto real y cantidad de lotes; confianza: persona real en su terreno; claridad: ubicación visible desde el inicio; calidad visual: foto real retocada con Qwen, encuadre limpio; políticas: sin promesas de ganancia ni salud; mensajes baratos: filtro por interés en terrenos; mensajes calificados: contexto claro de producto y ubicación.
+
+2. Vista aérea del lote con señalización
+- Qué se ve: foto con dron que él mandó 10-24 13:03. Generada con Qwen-Image-Edit a partir de esa foto: recorte limpio, sin marcas de agua, fondo natural.
+- Titular en pantalla: “Míralo desde arriba”
+- Línea de apoyo: “Terreno listo para construir”
+- Formato: 9:16 Stories/Reels. Botón de WhatsApp centrado inferior.
+- Texto primario del anuncio: “Vista real del terreno en Tomatlán, Jalisco. Listo para construir. Escríbenos por WhatsApp.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: vista aérea real del producto; confianza: imagen real sin edición exagerada; claridad: mensaje directo de producto; calidad visual: dron nítido, composición vertical; políticas: sin afirmaciones falsas; mensajes baratos: interés específico en lotes; mensajes calificados: intención clara de visita/información.
+
+3. Collage antes/después del lote
+- Qué se ve: collage con 3 fotos suyas: 1) foto tomada normal del terreno 10-24 13:02, 2) foto con dron 10-24 13:03, 3) Lisbeth de pie en el terreno 10-24 13:04. Generado con Qwen-Image-Edit a partir de esas fotos: unificar estilo, fondo neutro.
+- Titular en pantalla: “Terreno real en Tomatlán”
+- Línea de apoyo: “Agua y luz disponibles”
+- Formato: 4:5 Feed. Botón de WhatsApp abajo a la derecha.
+- Texto primario del anuncio: “Conoce los 34 lotes en Tomatlán, Jalisco. Agua y luz disponibles. Información por WhatsApp.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: muestra variedad de vistas reales; confianza: rostro real + evidencia del lote; claridad: beneficios visibles; calidad visual: collage equilibrado; políticas: sin garantías de plusvalía; mensajes baratos: segmentación a compradores locales; mensajes calificados: varios puntos de prueba visual.
+
+4. Producto recortado sobre fondo color
+- Qué se ve: Lisbeth recortada de su foto real enviada 10-22 15:11 (foto a la izquierda). Fondo sólido neutro generado con Qwen-Image-Edit. Al lado, miniatura del terreno con dron 10-24 13:03.
+- Titular en pantalla: “Terrenos en Tomatlán, Jalisco”
+- Línea de apoyo: “34 lotes con medidas variables”
+- Formato: 1:1 Feed. Botón de WhatsApp inferior.
+- Texto primario del anuncio: “Asesoría directa por WhatsApp con Lisbeth. Terrenos en Tomatlán, Jalisco.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: producto + asesora; confianza: rostro real; claridad: ubicación y cantidad; calidad visual: recorte limpio, fondo simple; políticas: sin promesas; mensajes baratos: enfoque a interesados en bienes raíces; mensajes calificados: contacto humano directo.
+
+5. Señalización en carretera con contexto
+- Qué se ve: foto suya de calle frente al terreno 10-24 13:02. Generada con Qwen-Image-Edit: limpiar fondo, mantener señal de carretera, encuadre amplio.
+- Titular en pantalla: “Acceso por carretera”
+- Línea de apoyo: “Terreno listo para construir”
+- Formato: 9:16 Stories. Botón de WhatsApp inferior.
+- Texto primario del anuncio: “Terrenos en Tomatlán, Jalisco, con acceso por carretera. Información real por WhatsApp.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: acceso visible; confianza: foto real del sitio; claridad: beneficio de acceso; calidad visual: encuadre amplio y legible; políticas: sin exageraciones; mensajes baratos: público cercano a la zona; mensajes calificados: contexto de ubicación real.
+
+2) CALIFICACIÓN ESPERADA
+1. 9/10. Falta precio en pantalla porque el cliente indica que el precio se da por WhatsApp.
+2. 8/10. Falta rostro humano para reforzar confianza.
+3. 9/10. Falta precio en pantalla por indicación del cliente.
+4. 8/10. Menor contexto de terreno; depende de miniatura pequeña.
+5. 7/10. Menor prueba social; es solo acceso. Para llegar a 9: agregar rostro real de Lisbeth en la misma imagen y mantener “Tomatlán, Jalisco” fijo en pantalla.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE LA NÚMERO 1 CALIFIQUE 10
+- Foto exacta de Lisbeth de cuerpo completo en el borde de la carretera frente al terreno, con buena luz y sin personas ajenas, tomada en horizontal.
+- Confirmación escrita de que el precio se comparte solo por WhatsApp o, si decide mostrarlo, el rango de precio autorizado para poner en imagen y texto.
+- Foto del letrero o señalización del acceso al terreno, tomada de frente, sin reflejos.
+- Comprobante simple de servicios: foto de tomas de agua/luz o constancia del fraccionamiento que mencione “agua y luz disponibles”. [FALTA: documento o foto que respalde agua y luz]
+- Medidas exactas de los 34 lotes o rango autorizado para publicar, y plano simple con nombres de calles colindantes. [FALTA: plano con medidas y nomenclatura]
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+- Ubicación: radio 25-40 km alrededor de Tomatlán, Jalisco, y ciudades cercanas Puerto Vallarta, Cabo Corrientes, Cihuatlán. Estimación.
+- Edad: 28-55 años. Estimación.
+- Intereses: bienes raíces, terrenos, construcción, inversión inmobiliaria, vida en playa, relocalización. Estimación.
+- Presupuesto diario: $300 a $600 MXN como rango de inicio para mensajes a WhatsApp. Estimación.
+
+5) LO QUE NO SE PUEDE DECIR EN SU GIRO POR POLÍTICAS DE META
+- No prometer rentabilidad, plusvalía garantizada, retorno de inversión o “se vende rápido”.
+- No usar precios inventados ni tiempos de entrega ficticios.
+- No afirmar que el terreno está a “20 min de la playa” si no hay prueba verificable; usar solo lo que se pueda comprobar con sus fotos.
+- No usar fotos de banco, de otros negocios o caras que no sean de Lisbeth.
+- No hacer afirmaciones de salud, empleo garantizado ni beneficios sociales.
+- No usar texto que cubra más del 20% de la imagen en piezas con texto en pantalla.
+
+######## Andres
+1) LAS 5 IMÁGENES
+
+1. Antes/Después Residencial
+- Qué se ve: Collage antes/después con 2 fotos reales del cliente ya recibidas (x12/x13) de obra civil/remodelación residencial. Generada con Qwen-Image-Edit a partir de esas fotos: recorte limpio, fondo neutro, encuadre 4:5.
+- Titular en pantalla: “Obra civil y remodelación real”
+- Línea de apoyo: “Construcción desde cero, ampliaciones”
+- Formato: 4:5 Feed. Botón de WhatsApp en zona inferior derecha libre.
+- Texto primario del anuncio: “Andrés U Construcción en Cd. Juárez. Obra civil, remodelación residencial y comercial. Escríbenos por WhatsApp para cotizar tu proyecto.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: servicio claro de construcción/remodelación sin promesa de precio; confianza: fotos reales del cliente y mención de facturación; claridad: propuesta directa de obra civil y remodelación; calidad visual: collage antes/después con recorte limpio y fondo neutro; políticas: sin garantías, sin resultados inventados; mensajes baratos: evita “gratis/barato”; mensajes calificados: pide proyecto específico por WhatsApp.
+
+2. Herrería General y Estructural
+- Qué se ve: Foto real del cliente ya recibida (x12/x13) de herrería. Generada con Qwen-Image-Edit: limpiar fondo, encuadre 4:5, producto recortado.
+- Titular en pantalla: “Herrería general y estructural”
+- Línea de apoyo: “Trabajos reales en Cd. Juárez”
+- Formato: 4:5 Feed. Botón inferior derecha.
+- Texto primario: “Herrería general y estructural con obra real. Andrés U Construcción atiende residencial y comercial. Escríbenos por WhatsApp.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: servicio específico de herrería; confianza: foto real del cliente; claridad: mensaje directo sin ambigüedad; calidad visual: recorte limpio y fondo neutro; políticas: sin afirmaciones falsas; mensajes baratos: sin términos de precio bajo; mensajes calificados: solicita detalles del proyecto.
+
+3. Construcción de Albercas
+- Qué se ve: Foto real del cliente ya recibida (x12/x13) de alberca. Generada con Qwen-Image-Edit: cambiar hora del día a luz natural suave, limpiar fondo.
+- Titular en pantalla: “Construcción de albercas a medida”
+- Línea de apoyo: “Obra civil con experiencia real”
+- Formato: 9:16 Stories/Reels. Botón inferior centro.
+- Texto primario: “Construcción de albercas y obra civil en Cd. Juárez. Andrés U Construcción, contratista dado de alta. Pregunta por tu proyecto.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: servicio de albercas sin precio inventado; confianza: foto real y mención de contratista; claridad: servicio concreto; calidad visual: iluminación corregida; políticas: sin promesas; mensajes baratos: sin “oferta”; mensajes calificados: pide especificaciones.
+
+4. Remodelación Comercial
+- Qué se ve: Foto real del cliente ya recibida (x12/x13) de remodelación comercial. Generada con Qwen-Image-Edit: fondo limpio, encuadre 4:5.
+- Titular en pantalla: “Remodelación comercial real”
+- Línea de apoyo: “Residencial y comercial en Juárez”
+- Formato: 4:5 Feed. Botón inferior derecha.
+- Texto primario: “Remodelación residencial y comercial por Andrés U Construcción. Obras desde cero y ampliaciones. Escríbenos por WhatsApp.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: remodelación comercial clara; confianza: obra real del cliente; claridad: propuesta sin jerga; calidad visual: imagen limpia y centrada; políticas: contenido permitido; mensajes baratos: sin urgencia falsa; mensajes calificados: pide tipo de local y alcance.
+
+5. Contratista Facturado
+- Qué se ve: Collage de 3-4 fotos reales del cliente ya recibidas (x12/x13) de diferentes obras. Generada con Qwen-Image-Edit: unificar estilo, fondo de color sólido.
+- Titular en pantalla: “Contratista en Cd. Juárez”
+- Línea de apoyo: “Facturo si el cliente lo requiere”
+- Formato: 1:1 Feed. Botón inferior derecha.
+- Texto primario: “Andrés U Construcción: obra civil, ampliaciones, remodelaciones, herrería y albercas. Contratista dado de alta en Hacienda. WhatsApp para cotizar.” Título del botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: portafolio amplio sin inventar; confianza: menciona alta en Hacienda con palabras del cliente; claridad: lista de servicios; calidad visual: collage uniforme; políticas: sin garantías; mensajes baratos: sin precio; mensajes calificados: pide datos del proyecto.
+
+2) CALIFICACIÓN ESPERADA
+1. Antes/Después Residencial: 9/10
+2. Herrería General y Estructural: 8/10
+3. Construcción de Albercas: 8/10
+4. Remodelación Comercial: 8/10
+5. Contratista Facturado: 7/10
+Qué le falta a la más baja para llegar a 9: imagen 5 necesita una foto suya con uniforme o credencial visible para reforzar confianza personal y evitar texto denso en pantalla; además titular más específico por servicio en lugar de mensaje genérico.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL para que la número 1 califique 10
+- Foto “antes” y “después” emparejada del mismo ángulo de una remodelación residencial suya, con buena luz.
+- Foto de perfil suya en obra con uniforme/casco para confianza.
+- Confirmación escrita de zona de atención en Cd. Juárez y radio de servicio.
+- Precio REAL de referencia o rangos que autorice mostrar, si los hay. [FALTA: precio de referencia autorizado]
+- Autorización escrita para usar sus fotos en anuncios.
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+- Ubicación: Ciudad Juárez, Chihuahua, radio 15-25 km según zona que confirme el cliente. [FALTA: zona exacta y colonias prioritarias]
+- Edad: 30-65 años.
+- Intereses y comportamientos: propietarios de vivienda, remodelación hogar, construcción, bienes raíces, pymes locales, herrería, albercas.
+- Presupuesto diario estimado: $300 a $600 MXN para iniciar mensajes a WhatsApp, según capacidad de respuesta.
+
+5) LO QUE NO SE PUEDE DECIR en su giro por políticas de Meta
+- No prometer tiempos de entrega, precios, garantías ni resultados específicos.
+- No usar fotos de banco, de otros negocios o personas que no sean suyas.
+- No hacer afirmaciones de “mejor precio”, “único”, “garantizado” ni urgencia falsa.
+- No contenido sensible, antes/después engañosos ni texto que cubra más del 20% de la imagen en piezas con texto en pantalla.
+
+######## Ivan_Fumicam
+1) LAS 5 IMÁGENES
+
+1. Antes/Después real de fumigación
+- Qué se ve: collage 2 fotos reales del cliente (antes/después) con recorte limpio y fondo neutro. Fotos que debe mandar.
+- Titular en pantalla: “Antes y después real”
+- Línea de apoyo: “Mira el cambio en tu hogar”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Resultados visibles con método Planet Plus. Escríbenos por WhatsApp y pide tu diagnóstico sin compromiso.” Título botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: muestra resultado real sin prometer; confianza: evidencia visual propia; claridad: antes/después entendible; calidad visual: collage nítido con sus fotos; políticas: sin salud ni plagas específicas; mensajes baratos: curiosidad por ver cambio; mensajes calificados: intención de diagnóstico.
+
+2. Equipo en acción con logo
+- Qué se ve: foto suya de trabajador aplicando fumigación, fondo limpio con Qwen-Image-Edit. Foto suya que ya tenemos / foto que debe mandar.
+- Titular en pantalla: “Fumigación profesional en casa”
+- Línea de apoyo: “Trabajo real, equipo real”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Servicio a domicilio en Cuernavaca. Escríbenos por WhatsApp para coordinar visita.” Título botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: servicio a domicilio claro; confianza: persona real del negocio; claridad: acción entendible; calidad visual: encuadre limpio con logo; políticas: sin afirmaciones médicas; mensajes baratos: interés general; mensajes calificados: pide coordinación.
+
+3. Método Planet Plus explicado visual
+- Qué se ve: foto suya de equipo/producto recortado sobre fondo color sólido. Foto suya que ya tenemos / foto que debe mandar.
+- Titular en pantalla: “Método Planet Plus aplicado”
+- Línea de apoyo: “Proceso paso a paso”
+- Formato: 9:16 Stories/Reels cover. Botón WhatsApp abajo.
+- Texto primario: “Te explicamos el proceso y qué incluye. Escríbenos por WhatsApp.” Título botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: proceso transparente; confianza: nombre de método usado por él; claridad: texto corto; calidad visual: producto aislado nítido; políticas: sin garantías; mensajes baratos: curiosidad por proceso; mensajes calificados: pide explicación.
+
+4. Testimonio visual con trabajador
+- Qué se ve: foto suya de trabajador con uniforme y logo, fondo cambiado a neutro con Qwen. Foto suya que ya tenemos / foto que debe mandar.
+- Titular en pantalla: “Equipo Iván Fumicam”
+- Línea de apoyo: “Atención por WhatsApp hoy”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Pregunta por disponibilidad en tu colonia. Respuesta rápida por WhatsApp.” Título botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: atención inmediata; confianza: rostro real del equipo; claridad: llamada a la acción directa; calidad visual: retrato limpio; políticas: sin promesas; mensajes baratos: urgencia suave; mensajes calificados: consulta de disponibilidad.
+
+5. Collage de 3 trabajos reales
+- Qué se ve: mosaico de 3 fotos suyas de intervenciones. Fotos que debe mandar.
+- Titular en pantalla: “Trabajos reales en Cuernavaca”
+- Línea de apoyo: “Mira lo que hacemos”
+- Formato: 1:1 Feed. Botón WhatsApp abajo.
+- Texto primario: “Casos reales de fumigación. Escríbenos por WhatsApp para cotizar tu caso.” Título botón: “Enviar WhatsApp”
+- Cómo sube cada rubro: oferta: portafolio real; confianza: varias evidencias; claridad: mensaje directo; calidad visual: mosaico equilibrado; políticas: sin resultados garantizados; mensajes baratos: exploración de casos; mensajes calificados: pide cotización.
+
+2) CALIFICACIÓN ESPERADA
+1. Antes/Después real: 9/10
+2. Equipo en acción con logo: 8/10
+3. Método Planet Plus explicado visual: 8/10
+4. Testimonio visual con trabajador: 7/10
+5. Collage de 3 trabajos reales: 8/10
+Qué le falta a la más baja para llegar a 9: foto de trabajador con mejor iluminación y fondo limpio, logo visible y sin texto superpuesto en la foto original; titular más específico a zona.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL para que la número 1 califique 10
+- 1 par de fotos antes/después del mismo lugar, tomadas con buena luz, sin personas identificables sin consentimiento.
+- Confirmar zona de atención exacta que quiere pautar ahora.
+- Precio REAL que quiere mostrar o confirmar que no muestra precio en creatividad.
+- Autorización escrita de uso de imágenes con personas visibles.
+- Logo en PNG transparente.
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+- Ciudad/radio: Cuernavaca, Morelos; radio 12-18 km según zona que confirme. [FALTA: confirmar colonia/barrio prioritario]
+- Edad: 28-65
+- Intereses: hogar y jardín, limpieza del hogar, propietarios de vivienda, mascotas, control de plagas, mejoras del hogar.
+- Presupuesto diario: $100 a $150 MXN/día como estimación inicial. [FALTA: confirmar presupuesto fijo diario y duración exacta]
+
+5) LO QUE NO SE PUEDE DECIR en su giro por políticas de Meta
+- No prometer eliminación total o garantía de resultados.
+- No mencionar especies de plagas con sensacionalismo ni asociar a salud pública.
+- No usar “mata”, “elimina 100%”, “sin químicos”, “seguro para niños/mascotas” sin respaldo.
+- No mostrar imágenes de plagas de forma gráfica.
+- No usar urgencia falsa ni datos inventados de precios, tiempos o cobertura.
+
+######## Manuel_XV
+1) LAS 5 IMÁGENES
+
+1.1 Nombre corto: Entrada salón real
+Qué se ve: foto suya del salón con la quinceañera en la entrada, encuadre corregido con Qwen-Image-Edit a partir de la foto que ya tenemos del reel (escena de entrada/giro). Sin texto incrustado en la foto.
+Titular en pantalla: “Tu quinceañera, contada en fotos”
+Línea de apoyo: “Luz real, emoción real”
+Formato: 4:5 Feed. Botón de WhatsApp en la parte inferior derecha del espacio seguro.
+Texto primario del anuncio (máx 3 renglones):  
+Quinceañera con luz natural y momentos reales.  
+Hunab Ku fotografía.  
+Escríbenos por WhatsApp y agenda tu fecha.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+- oferta: muestra el servicio de cobertura de XV con claridad visual.
+- confianza: logo Hunab Ku y estética orgánica de su reel final.
+- claridad del mensaje: titular y apoyo dicen qué es y qué siente.
+- calidad visual: foto suya real, encuadre corregido, color del reel v19.
+- cumplimiento de políticas: sin promesas, sin precios inventados, sin salud.
+- probabilidad de mensajes baratos: baja, porque la imagen es específica de XV y de su trabajo.
+- probabilidad de mensajes calificados: alta, porque el contexto es XV y el CTA es WhatsApp.
+
+1.2 Nombre corto: Vestido verde detalle
+Qué se ve: close-up del vestido verde mencionado en el guion de voz, recorte limpio con Qwen a partir de la foto del reel v3/v8 que ya tenemos. Fondo de color neutro generado a partir de su foto.
+Titular en pantalla: “El vestido, la luz, la sonrisa”
+Línea de apoyo: “Detalle que se siente”
+Formato: 4:5 Feed. Botón inferior derecho.
+Texto primario del anuncio:  
+Capturamos luz, vestido y emoción.  
+Fotografía Hunab Ku para XV.  
+Escríbenos por WhatsApp.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+- oferta: detalle icónico de XV.
+- confianza: imagen real suya, logo presente.
+- claridad del mensaje: titular describe lo que se ve.
+- calidad visual: recorte limpio, fondo simple.
+- cumplimiento de políticas: contenido propio, sin afirmaciones.
+- probabilidad de mensajes baratos: baja, imagen específica.
+- probabilidad de mensajes calificados: alta, interés claro por XV.
+
+1.3 Nombre corto: Antes/Después luz
+Qué se ve: collage 2 fotos suyas del mismo momento, antes/después de corrección de luz con Qwen a partir de fotos del reel v12/v15 que ya tenemos.
+Titular en pantalla: “Luz real, resultado cinematográfico”
+Línea de apoyo: “Mismo momento, mejor historia”
+Formato: 9:16 Stories/Reels. Botón inferior centro.
+Texto primario del anuncio:  
+Comparamos luz natural y edición respetuosa.  
+Hunab Ku fotografía de XV.  
+Escríbenos por WhatsApp para tu fecha.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+- oferta: muestra proceso visual sin prometer resultados.
+- confianza: transparencia antes/después con sus fotos.
+- claridad del mensaje: contraste evidente.
+- calidad visual: paridad de encuadre, tipografía limpia.
+- cumplimiento de políticas: sin garantías de resultado.
+- probabilidad de mensajes baratos: media-baja.
+- probabilidad de mensajes calificados: alta.
+
+1.4 Nombre corto: Collage 4 momentos
+Qué se ve: collage de 4 fotos suyas: entrada, giro, salón, retrato. Generado con Qwen a partir de escenas del reel v16/v18 que ya tenemos.
+Titular en pantalla: “Cuatro momentos, una historia”
+Línea de apoyo: “Tu XV completa”
+Formato: 1:1 Feed. Botón inferior derecho.
+Texto primario del anuncio:  
+Entrada, giro, salón y retrato.  
+Fotografía Hunab Ku.  
+Escríbenos por WhatsApp.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+- oferta: cobertura completa de evento.
+- confianza: variedad de sus tomas reales.
+- claridad del mensaje: titular resume la propuesta.
+- calidad visual: cuadrícula equilibrada.
+- cumplimiento de políticas: contenido propio.
+- probabilidad de mensajes baratos: baja.
+- probabilidad de mensajes calificados: alta.
+
+1.5 Nombre corto: Logo + WhatsApp
+Qué se ve: producto recortado: logo Hunab Ku PNG que él mandó 10-27 16:05 sobre fondo de color tomado de su foto real. Sin modelo.
+Titular en pantalla: “Hunab Ku Fotografía XV”
+Línea de apoyo: “Escríbenos por WhatsApp”
+Formato: 4:5 Feed. Botón inferior derecho.
+Texto primario del anuncio:  
+Fotografía de XV con enfoque en momentos reales.  
+Hunab Ku.  
+Escríbenos por WhatsApp y agenda.
+Título del botón: Enviar WhatsApp
+Cómo sube cada rubro:
+- oferta: marca y canal claro.
+- confianza: logo oficial y números que él dio.
+- claridad del mensaje: CTA directo.
+- calidad visual: fondo simple, logo nítido.
+- cumplimiento de políticas: sin claims.
+- probabilidad de mensajes baratos: media.
+- probabilidad de mensajes calificados: media.
+
+2) CALIFICACIÓN ESPERADA
+
+- Entrada salón real: 9/10
+- Vestido verde detalle: 8/10
+- Antes/Después luz: 8/10
+- Collage 4 momentos: 9/10
+- Logo + WhatsApp: 7/10
+
+Qué le falta a la más baja para llegar a 9:  
+Logo + WhatsApp necesita una foto real suya como fondo en lugar de color plano y un titular más específico de XV, además de mostrar un momento reconocible para subir claridad de oferta y confianza.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE LA NÚMERO 1 CALIFIQUE 10
+
+- Foto exacta de la entrada/salón usada en el reel v3/v8/v12, en alta resolución, sin recorte previo.
+- Confirmación escrita de zona de cobertura que atiende. [FALTA: zona/ciudades donde trabaja]
+- Precio de referencia o rango que autoriza mostrar. [FALTA: precio real o rango autorizado para XV]
+- Autorización por escrito para usar esa toma en anuncios de Meta.
+- Confirmación de que los números de WhatsApp a mostrar son +1 (520) 313-6941 y 631 126 5175.
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+
+- Ubicación: radio alrededor de la zona que él confirme. [FALTA: ciudad base y radio en km]
+- Edad: 28 a 55.
+- Detalle: mujeres y hombres.
+- Intereses: Quinceañera, Fotografía de eventos, Vestidos de quinceañera, Fiesta de 15 años, Fotografía.
+- Comportamientos: usuarios activos en WhatsApp, interesados en eventos sociales.
+- Presupuesto diario estimado: $300 a $600 MXN como rango de prueba inicial para objetivo Mensajes a WhatsApp. Estimación.
+
+5) LO QUE NO SE PUEDE DECIR EN SU GIRO POR POLÍTICAS DE META
+
+- No prometer resultados específicos de fotos, “las mejores fotos garantizadas” o “recuerdos perfectos”.
+- No usar fotos de banco, de otros fotógrafos o modelos que no sean suyos.
+- No inventar precios, tiempos de entrega, zonas de cobertura ni garantías.
+- No hacer afirmaciones personales sobre la quinceañera.
+- No usar texto que implique salud, belleza médica o transformación corporal.
+- No usar “antes y después” que sugiera cambio físico de personas.
+
+######## Uriel
+1) LAS 5 IMÁGENES (orden de prueba)
+
+1. Nombre corto: Dueño sin depender de ti
+Qué se ve: foto suya real que ya tenemos (flyer v2 con su foto). Generada con Qwen-Image-Edit a partir de esa foto: recorte medio, fondo limpio de oficina, encuadre 4:5.
+Titular en pantalla: Tu empresa crece sin depender de ti
+Línea de apoyo: Yo documento, tu equipo aplica
+Formato: 4:5 Feed. Botón WhatsApp en zona inferior libre.
+Texto primario del anuncio (máx 3 renglones): 
+¿Cada sucursal lo hace diferente? 
+Filtro de Liderazgo documenta procesos para que el equipo opere sin ti.
+Escríbenos por WhatsApp.
+Título del botón: Enviar mensaje
+Cómo sube cada rubro:
+oferta: clara, beneficio de independencia operativa.
+confianza: foto suya real + logos.
+claridad: pregunta dolor + promesa simple.
+calidad visual: foto real editada, tipografía grande, contraste alto.
+políticas: sin promesas de resultado, sin precio.
+mensajes baratos: intención clara a dueños, reduce curiosidad.
+mensajes calificados: pregunta de dolor filtra dueños reales.
+
+2. Nombre corto: Estructura que cansa
+Qué se ve: foto suya real que ya tenemos (flyer 1 “Tu empresa merece orden”). Qwen-Image-Edit: fondo neutro, encuadre 4:5, sin texto del arte original.
+Titular en pantalla: La falta de estructura te cansa
+Línea de apoyo: Ordena operaciones sin micromanagement
+Formato: 4:5 Feed. Botón WhatsApp inferior.
+Texto primario:
+Si la falta de estructura te está cansando, hay un método.
+Diagnóstico exprés 5 min para ordenar tu operación.
+Escríbenos por WhatsApp.
+Título del botón: Enviar mensaje
+Cómo sube cada rubro:
+oferta: diagnóstico exprés 5 min como gancho de valor.
+confianza: su rostro real y logos.
+claridad: dolor nombrado literal del cliente.
+calidad visual: composición limpia, texto grande centrado.
+políticas: sin garantías ni resultados.
+mensajes baratos: dolor específico reduce clics curiosos.
+mensajes calificados: habla a quien siente el cansancio operativo.
+
+3. Nombre corto: Cada sucursal diferente
+Qué se ve: collage 3 fotos suyas reales que ya tenemos (flyer v2 + flyer 1 + una de las imágenes que mandó 10-15). Qwen-Image-Edit: fondo azul/naranja de marca, recortes limpios.
+Titular en pantalla: ¿Cada sucursal lo hace diferente?
+Línea de apoyo: Unifica criterios y acelera equipos
+Formato: 4:5 Feed. Botón WhatsApp inferior.
+Texto primario:
+¿Cada sucursal lo hace diferente?
+Unificamos criterios y documentamos procesos aplicables.
+Escríbenos por WhatsApp.
+Título del botón: Enviar mensaje
+Cómo sube cada rubro:
+oferta: unificación de criterios como beneficio.
+confianza: varias fotos suyas reales.
+claridad: hook probado que ya usa.
+calidad visual: collage ordenado, paleta de marca.
+políticas: sin precio, sin promesas.
+mensajes baratos: hook específico de multi-sucursal.
+mensajes calificados: atrae a dueños con varias sedes.
+
+4. Nombre corto: Antes/Después proceso
+Qué se ve: antes/después con sus fotos reales que ya tenemos. Izquierda: foto suya en entorno operativo; derecha: misma foto editada con fondo limpio y postura de consultor. Qwen-Image-Edit a partir de foto suya existente.
+Titular en pantalla: De caos operativo a equipo autónomo
+Línea de apoyo: Documentamos, tu equipo aplica
+Formato: 9:16 Stories/Reels cover. Botón WhatsApp inferior.
+Texto primario:
+De caos a claridad operativa.
+Filtro de Liderazgo documenta y capacita a tu equipo.
+Escríbenos por WhatsApp.
+Título del botón: Enviar mensaje
+Cómo sube cada rubro:
+oferta: transformación operativa clara.
+confianza: rostro real, antes/después creíble.
+claridad: contraste visual inmediato.
+calidad visual: alto impacto vertical.
+políticas: sin resultados garantizados.
+mensajes baratos: visual fuerte evita clic casual.
+mensajes calificados: atrae a quien busca orden real.
+
+5. Nombre corto: Conceptual LinkedIn adaptado
+Qué se ve: una de las imágenes conceptuales que mandó 10-15 15:14 (estilo LinkedIn). Qwen-Image-Edit: limpiar fondo, mantener su estilo, añadir espacio para texto, formato 4:5.
+Titular en pantalla: Tu empresa merece crecer sin depender de ti
+Línea de apoyo: Estructura, documentación y ejecución
+Formato: 4:5 Feed. Botón WhatsApp inferior.
+Texto primario:
+Tu empresa merece crecer sin depender de ti.
+Construimos estructura que tu equipo puede ejecutar.
+Escríbenos por WhatsApp.
+Título del botón: Enviar mensaje
+Cómo sube cada rubro:
+oferta: crecimiento sin dependencia.
+confianza: estilo visual que ya le funciona en LinkedIn.
+claridad: frase de marca reconocible.
+calidad visual: estética cuidada, coherente con su branding.
+políticas: sin precio, sin promesas absolutas.
+mensajes baratos: estética profesional filtra audiencia.
+mensajes calificados: conecta con su tono conceptual.
+
+2) CALIFICACIÓN ESPERADA
+
+1. Dueño sin depender de ti: 9/10
+2. Estructura que cansa: 8/10
+3. Cada sucursal diferente: 9/10
+4. Antes/Después proceso: 8/10
+5. Conceptual LinkedIn adaptado: 7/10
+
+Qué le falta a la más baja (5) para llegar a 9: titular más corto y legible en móvil, línea de apoyo con beneficio concreto y no solo conceptual, y usar una foto suya con mejor iluminación y encuadre frontal en lugar de la imagen conceptual sin rostro claro.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE LA NÚMERO 1 CALIFIQUE 10
+
+- Foto suya real en alta resolución, rostro frontal, fondo neutro, sin texto superpuesto.
+- Confirmación escrita de si puede mostrarse el precio “desde $9,000 plataforma + sesiones” o mantener sin precio. [FALTA: confirmación explícita de uso de precio en anuncios]
+- Zona geográfica prioritaria de clientes ideales. [FALTA: ciudad o radio]
+- Un ejemplo de mensaje calificado real para replicar tono en el texto primario. [FALTA: ejemplo de conversación calificada]
+
+4) SEGMENTACIÓN Y PRESUPUESTO (estimación)
+
+Segmentación sugerida:
+Ubicación: Ciudad de México y área metropolitana, radio 25-40 km según zona que indique. [FALTA: ciudad/radio confirmada]
+Edad: 32-60
+Intereses en intersección: Emprendedores + Dueños de pequeña empresa + Gestión de operaciones + Mejora continua + Liderazgo empresarial
+Comportamientos: Administradores de página, tomadores de decisiones en PYMES
+Optimización: Mensajes a WhatsApp, ventana 7 días
+Presupuesto diario estimado: $400 - $800 MXN para prueba de 7-10 días por ad set, con 3-4 anuncios en competencia dentro del mismo conjunto.
+
+5) LO QUE NO SE PUEDE DECIR EN SU GIRO POR POLÍTICAS DE META
+
+- No prometer resultados específicos de ingresos, crecimiento porcentual o tiempo exacto de implementación.
+- No usar “garantizado”, “asegurado”, “resultados comprobados”.
+- No mencionar precios si el cliente no autoriza expresamente el uso en anuncios. [FALTA: autorización de precio]
+- No hacer comparaciones denigrantes con otros consultores.
+- No usar imágenes de terceros, stock o caras que no sean suyas.
+- No incluir datos de contacto en el arte; el contacto es vía botón de WhatsApp.
+
+######## Jose_Grupo_JR
+1) LAS 5 IMÁGENES
+
+1. Antes/Después azotea Grupo JR
+- Qué se ve: collage 2 fotos reales del cliente (antes/después de impermeabilización) que ya tenemos en el chat. Generada con Qwen-Image-Edit a partir de esas 2 fotos para limpiar fondo y recortar a 4:5.
+- Titular en pantalla: “Que llueva, tu azotea aguanta”
+- Línea de apoyo: “Sellador primario + poliuretano acrílico afibrado”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Impermeabilización en Puebla con Grupo JR. Trabajo real en azoteas. Escríbenos por WhatsApp y te explicamos el proceso.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: menciona sistema real usado; confianza: antes/después real; claridad: beneficio de lluvia; calidad visual: collage limpio con recorte; políticas: sin promesas; mensajes baratos: evita precio; mensajes calificados: pide proceso.
+
+2. Proceso de aplicación Grupo JR
+- Qué se ve: foto suya de aplicación en azotea que debe mandar. Generada con Qwen-Image-Edit para cambiar encuadre y hora del día, fondo limpio. 4:5.
+- Titular en pantalla: “Aplicación paso a paso”
+- Línea de apoyo: “Sellador primario y poliuretano acrílico afibrado”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Mira cómo trabajamos en Grupo JR. Proceso claro y ordenado. Pregunta por tu azotea por WhatsApp.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: muestra sistema; confianza: proceso visible; claridad: paso a paso; calidad visual: encuadre limpio; políticas: sin garantías; mensajes baratos: sin precio; mensajes calificados: filtra por interés en proceso.
+
+3. Producto en superficie Grupo JR
+- Qué se ve: foto suya de acabado blanco con lluvia perlada que debe mandar. Generada con Qwen-Image-Edit para fondo neutro y recorte. 4:5.
+- Titular en pantalla: “Lluvia que perla, no escurre”
+- Línea de apoyo: “Poliuretano acrílico afibrado”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Acabado que repele el agua en azoteas. Grupo JR en Puebla. Escríbenos para revisar tu caso.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: producto; confianza: evidencia visual; claridad: beneficio; calidad visual: primer plano nítido; políticas: sin promesas; mensajes baratos: sin precio; mensajes calificados: foco en problema de filtraciones.
+
+4. Equipo Grupo JR en sitio
+- Qué se ve: foto suya del equipo trabajando en azotea que debe mandar. Generada con Qwen-Image-Edit para limpiar fondo y unificar luz. 4:5.
+- Titular en pantalla: “Equipo Grupo JR en tu azotea”
+- Línea de apoyo: “Trabajo real en Puebla”
+- Formato: 4:5 Feed. Botón WhatsApp abajo centro.
+- Texto primario: “Personal de Grupo JR aplicando impermeabilización. Pregunta por el proceso y cómo se adapta a tu techo.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: servicio; confianza: personas reales; claridad: quién ejecuta; calidad visual: foto nítida; políticas: sin afirmaciones absolutas; mensajes baratos: sin precio; mensajes calificados: pide contexto de techo.
+
+5. Story vertical proceso rápido
+- Qué se ve: misma foto de proceso de la imagen 2 recortada a 9:16 con espacio superior para texto. Generada con Qwen-Image-Edit a partir de foto suya.
+- Titular en pantalla: “Tu azotea sin goteras”
+- Línea de apoyo: “Sellador + poliuretano acrílico afibrado”
+- Formato: 9:16 Stories/Reels cover. Botón WhatsApp en sticker.
+- Texto primario: “Grupo JR Puebla. Revisión por WhatsApp. Te explicamos el proceso para tu azotea.” Título del botón: “Enviar mensaje”
+- Cómo sube cada rubro: oferta: sistema; confianza: proceso; claridad: beneficio directo; calidad visual: vertical limpia; políticas: sin garantías; mensajes baratos: sin precio; mensajes calificados: intención de cotizar.
+
+2) CALIFICACIÓN ESPERADA
+1. Antes/Después azotea Grupo JR: 9/10
+2. Proceso de aplicación Grupo JR: 8/10
+3. Producto en superficie Grupo JR: 8/10
+4. Equipo Grupo JR en sitio: 7/10
+5. Story vertical proceso rápido: 8/10
+Qué le falta a la más baja para llegar a 9: Imagen 4 necesita foto suya nítida del equipo con uniforme/logotipo visible y encuadre limpio sin elementos distractores. Con eso sube confianza y calidad visual.
+
+3) QUÉ NOS TIENE QUE MANDAR ÉL para que la número 1 califique 10
+- Foto “antes” de azotea con filtración/grietas, tomada por él, sin texto.
+- Foto “después” de la misma azotea terminada, misma perspectiva, tomada por él.
+- Confirmar nombre exacto del servicio a mostrar: sellador primario especial + poliuretano acrílico afibrado.
+- [FALTA: precio por m² vigente que autorice mostrar] y [FALTA: zona de atención específica en Puebla para geolocalizar el anuncio].
+- Logo de Grupo JR en PNG transparente.
+
+4) SEGMENTACIÓN Y PRESUPUESTO
+- Ubicación: Puebla, México. Radio 15-25 km desde centro de Puebla, estimación.
+- Edad: 30-65.
+- Intereses: remodelación de hogar, impermeabilización, construcción, propietarios de vivienda, azoteas, lluvias en Puebla.
+- Presupuesto diario: $500-$800 MXN, estimación según conversación de pauta.
+
+5) LO QUE NO SE PUEDE DECIR en su giro por políticas de Meta
+- No prometer resultados garantizados, “cero goteras para siempre”, vida útil exacta ni ahorro energético.
+- No usar antes/después de personas, ni imágenes de salud/seguridad.
+- No mencionar precios inventados. Solo precio real autorizado por el cliente.
+- No usar fotos de banco ni de otro negocio. Solo fotos suyas.
+- No hacer afirmaciones ambientales no verificables.
+Stopping app - local entrypoint completed.
+[modal-client] 2026-11-04T20:56:39+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-vwXNxe7iYlg5Uh7osj2yan
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_imagenes_20261104/lote_clientes.json --tokens 3500
+Duración: 40.7 min  (código 0)
+  nexus3 (ap-ZtSTaaSIs8SrcU1TRgCKhf): $0.171
+  tablero-nexus (ap-KQvQ59JktJFE9CObPZp2JN): $0.003
+  auto-aplicar-cambios (ap-ce2KU24i3X3cvw0ikPHQxB): $0.002
+  prioridades-carlos (ap-hOZCm4c1yKe9gnSeJrx2pC): $0.001
+  vigia-clientes (ap-IZbkSyA2otIvj658MMlpSi): $0.001
+  rimo-anuncios (ap-CjiULlbTPSGz8oTKcXkB95): $0.000
+  glimmer (ap-vwXNxe7iYlg5Uh7osj2yan): $1.724
+Gasto del trabajo: $1.902
+Saldo restante ≈ $13.18

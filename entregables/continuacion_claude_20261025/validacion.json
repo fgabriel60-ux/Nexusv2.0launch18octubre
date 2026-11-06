@@ -1,0 +1,106 @@
+{
+  "Benjamina": {
+    "archivo": "clientes/Mariano/flyers_animados/Mariano_flyer_Benjamina_v5.mp4",
+    "dimensiones": [
+      1080,
+      1920
+    ],
+    "fps": 30.0,
+    "duracion_s": 7.0,
+    "MB": 1.801,
+    "decodificacion": "OK",
+    "video": "H264 Main",
+    "audio": "AAC"
+  },
+  "Bugambilia_pareja": {
+    "archivo": "clientes/Mariano/flyers_animados/Mariano_flyer_Bugambilia_v5.mp4",
+    "dimensiones": [
+      1080,
+      1920
+    ],
+    "fps": 30.0,
+    "duracion_s": 7.0,
+    "MB": 2.992,
+    "decodificacion": "OK",
+    "video": "H264 Main",
+    "audio": "AAC"
+  },
+  "Sotol_familia": {
+    "archivo": "clientes/Mariano/flyers_animados/Mariano_flyer_Sotol_familia_v5.mp4",
+    "dimensiones": [
+      1080,
+      1920
+    ],
+    "fps": 30.0,
+    "duracion_s": 7.0,
+    "MB": 3.234,
+    "decodificacion": "OK",
+    "video": "H264 Main",
+    "audio": "AAC"
+  },
+  "Bugambilia_mejor_opcion": {
+    "archivo": "clientes/Mariano/flyers_animados/Mariano_flyer_Bugambilia_mejor_opcion_v5.mp4",
+    "dimensiones": [
+      1080,
+      1920
+    ],
+    "fps": 30.0,
+    "duracion_s": 7.0,
+    "MB": 1.696,
+    "decodificacion": "OK",
+    "video": "H264 Main",
+    "audio": "AAC"
+  },
+  "Pixar": {
+    "archivo": "clientes/Carlos_Nexus/pixar/Pixar_v6_efectos_v2.mp4",
+    "dimensiones": [
+      720,
+      1280
+    ],
+    "fps": 30.0,
+    "duracion_s": 34.2,
+    "MB": 10.316,
+    "decodificacion": "OK",
+    "video": "H264 Main",
+    "audio": "AAC"
+  },
+  "Dental": {
+    "archivo": "clientes/Alberto/video/Veneers_Dra_Angeles_implantes_estilo_ref_v4.mp4",
+    "dimensiones": [
+      720,
+      1280
+    ],
+    "fps": 30.0,
+    "duracion_s": 31.4,
+    "MB": 6.975,
+    "decodificacion": "OK",
+    "video": "H264 Main",
+    "audio": "AAC"
+  },
+  "Spiderman": {
+    "archivo": "clientes/Mariano/video/Vizcaino_v5_gancho_spiderman_v2.mp4",
+    "dimensiones": [
+      720,
+      1280
+    ],
+    "fps": 30.0,
+    "duracion_s": 32.167,
+    "MB": 11.874,
+    "decodificacion": "OK",
+    "video": "H264 Main",
+    "audio": "AAC"
+  },
+  "Pajaro": {
+    "archivo": "proyectos/pajaro_mecanico_nitinol/video_realista/pajaro_realista_v1.mp4",
+    "dimensiones": [
+      720,
+      1280
+    ],
+    "fps": 24.0,
+    "duracion_s": 14.875,
+    "MB": 3.959,
+    "decodificacion": "OK",
+    "video": "H264 Main",
+    "audio": "AAC"
+  }
+}

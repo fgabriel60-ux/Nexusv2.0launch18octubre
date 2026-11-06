@@ -1,0 +1,38 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-IAyZlGd5NdXGwwQRWDPDXX
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma VBT1_aereo
+toma VBT2_alberca
+toma VBT3_balcon
+toma VBT4_sala
+toma VBT5_cocina
+toma VBT6_recamara
+toma VBT7_terraza
+guardado VBT1_aereo.mp4
+guardado VBT2_alberca.mp4
+guardado VBT3_balcon.mp4
+guardado VBT4_sala.mp4
+guardado VBT5_cocina.mp4
+guardado VBT6_recamara.mp4
+guardado VBT7_terraza.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-IAyZlGd5NdXGwwQRWDPDXX
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261031/villabahia_3c.json
+Duración: 19.5 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.103
+  escenas-carlos (ap-IAyZlGd5NdXGwwQRWDPDXX): $0.943
+  glimmer (ap-L1SYi9b1WOKQjafxdzVLaZ): $0.826
+  escenas-carlos (ap-a1scxV4UOGqsAlePUTZbCE): $0.174
+  escenas-carlos (ap-fi3cKjGqLLqzharMgnunum): $0.664
+Gasto del trabajo: $2.710
+Saldo restante ≈ $19.22

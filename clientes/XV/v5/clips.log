@@ -1,0 +1,17 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-ExFMOWs4IO7JlpbPtZB1A1
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/XV/v5/xv_v5_modal.py
+├── ✓ Created Function cuadros.
+└── ✓ Created Function clips.
+clip S1 /datos/siena/out/xv_v5/S1_00001_.mp4
+clip S2 /datos/siena/out/xv_v5/S2_00001_.mp4
+clip S3 /datos/siena/out/xv_v5/S3_00001_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/XV/v5/clips/S1
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/XV/v5/clips/S2
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/XV/v5/clips/S3
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-ExFMOWs4IO7JlpbPtZB1A1

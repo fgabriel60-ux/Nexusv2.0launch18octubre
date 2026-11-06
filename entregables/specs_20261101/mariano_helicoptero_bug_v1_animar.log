@@ -1,0 +1,29 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-OThbZOFxfbVlEG5JJdXpQt
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/_escenas_carlos/escenas_carlos
+│   _modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma KH1_heli
+toma KH2_cuerda
+toma KH3_habla
+guardado KH1_heli.mp4
+guardado KH2_cuerda.mp4
+guardado KH3_habla.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-8u1cLGx1F3HLApOtFP549U
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261101/mariano_helicoptero_bug_v1.json
+Duración: 7.7 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.037
+  escenas-carlos (ap-8u1cLGx1F3HLApOtFP549U): $0.297
+  glimmer (ap-GZxgnduGIY1UJKKwyjRnUa): $0.043
+  escenas-carlos (ap-OThbZOFxfbVlEG5JJdXpQt): $0.251
+Gasto del trabajo: $0.628
+Saldo restante ≈ $26.91

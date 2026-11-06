@@ -1,0 +1,5 @@
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/tmp_v19/P1.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/tmp_v19/P2.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/tmp_v19/P3.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/tmp_v19/terminado.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/tmp_v19/resto.mp4'

@@ -1,0 +1,58 @@
+{
+ "carpeta": "villabahia_3c",
+ "salida": "entregables/prospectos_sancarlos_20261031/villabahia_3c/salida/",
+ "semilla": 7,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "VBT1_aereo",
+   "VB1_aereo",
+   "Vertical luxury real estate walkthrough video, realistic, stable. Slow cinematic drone push forward over the condo buildings toward the bay and mountains, golden light. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   3.0,
+   null
+  ],
+  [
+   "VBT2_alberca",
+   "VB2_alberca",
+   "Vertical luxury real estate walkthrough video, realistic, stable. Smooth gimbal glide along the turquoise pool, palm trees swaying gently, water shimmering. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   3.0,
+   null
+  ],
+  [
+   "VBT3_balcon",
+   "VB3_balcon",
+   "Vertical luxury real estate walkthrough video, realistic, stable. Slow dolly forward on the balcony toward the ocean view, sea breeze, palms moving. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   3.0,
+   null
+  ],
+  [
+   "VBT4_sala",
+   "VB4_sala",
+   "Vertical luxury real estate walkthrough video, realistic, stable. Smooth slow walkthrough dolly into the living room toward the windows with ocean view, ceiling fan turning. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   3.0,
+   null
+  ],
+  [
+   "VBT5_cocina",
+   "VB5_cocina",
+   "Vertical luxury real estate walkthrough video, realistic, stable. Slow cinematic lateral slide across the kitchen and dining area, warm light. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   3.0,
+   null
+  ],
+  [
+   "VBT6_recamara",
+   "VB6_recamara",
+   "Vertical luxury real estate walkthrough video, realistic, stable. Slow push in toward the bedroom window with ocean view, curtains moving gently. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   3.0,
+   null
+  ],
+  [
+   "VBT7_terraza",
+   "VB7_terraza",
+   "Vertical luxury real estate walkthrough video, realistic, stable. Slow cinematic tilt and push from the terrace over the pool toward the beach and mountains. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   3.0,
+   null
+  ]
+ ]
+}

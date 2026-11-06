@@ -1,0 +1,101 @@
+{
+ "cliente": "Rafael Hernández Ortiz",
+ "titulo": "BYD Azcapotzalco · tu anuncio",
+ "intro": "Aquí ves tu video, la calificación que le pone la IA de Facebook y exactamente qué le falta para llegar a 8. Abajo de 8 Facebook casi no reparte mensajes y se paga por vistas; de 8 para arriba empiezan a llegar mensajes baratos.",
+ "regla": "La nota de hoy es la de la izquierda. Con los arreglos de abajo llega a la de la derecha.",
+ "clave": "QIBvtNbk3ETS",
+ "fecha": "3 nov 2026",
+ "calificacion": 5.0,
+ "proyectada": 7.5,
+ "rubros": [
+  {
+   "nombre": "el arranque, los primeros 3 segundos",
+   "valor": 4.0
+  },
+  {
+   "nombre": "lo que ofreces",
+   "valor": 2.0
+  },
+  {
+   "nombre": "qué tanta confianza das",
+   "valor": 6.0
+  },
+  {
+   "nombre": "qué tan claro se entiende",
+   "valor": 6.0
+  },
+  {
+   "nombre": "cómo se ve",
+   "valor": 5.0
+  },
+  {
+   "nombre": "reglas de Facebook",
+   "valor": 9.0
+  },
+  {
+   "nombre": "qué tan barato sale cada mensaje",
+   "valor": 7.0
+  },
+  {
+   "nombre": "si escribe gente que sí compra",
+   "valor": 3.0
+  }
+ ],
+ "funciona": [
+  "0.6-5.1s “¿Gasolina cara?” + “Azcapotzalco y alrededores” fija el dolor local y el territorio del asesor, genera identificación inmediata.",
+  "9.7-11.9s “BYD King 2027 · 205 hp” muestra modelo y potencia en texto en capa, da ancla de producto sin inventar precio.",
+  "17.6-24.4s “Tengo Song Plus, King y Dolphin, híbridos y eléctricos, con autonomía de hasta mil ciento cuarenta y cinco kilómetros.” presenta portafolio y beneficio de autonomía con el auto en plano real.",
+  "24.0-30.3s “Agenda tu prueba de manejo, escríbeme la palabra BYD por WhatsApp y te enseño el modelo que va contigo.” CTA claro a WhatsApp con palabra clave y promesa de prueba.",
+  "31.2-33.5s Tarjeta final con nombre, cargo, modelos y WhatsApp 55 7386 9438 refuerza contacto y profesionalismo."
+ ],
+ "arreglos": [
+  {
+   "texto": "Mandar la oferta comercial del mes (bono, enganche o tasa reales) para ponerla en pantalla. Es lo que más pesa: hoy el video promete «mejor precio y mejores bonos» sin respaldo.",
+   "sube": "sube lo que ofreces de 2 a 6"
+  },
+  {
+   "texto": "Grabar 2 tomas cortas con el teléfono a la altura de los ojos (no en el piso): una abriendo la puerta del King y otra dentro, enseñando las pantallas.",
+   "sube": "sube cómo se ve y la confianza"
+  },
+  {
+   "texto": "Reemplazar voz clonada de 1.1-3.0s por “¿Gasolina cara en Azcapotzalco? Prueba un híbrido hoy” · 0.6-3.0s · con qué se hace: voz clonada Fish Audio + texto en capa",
+   "sube": "sube el arranque, los primeros 3 segundos de 4 a 7"
+  },
+  {
+   "texto": "Eliminar menciones a “mejor precio” y “bonos” y dejar solo “prueba de manejo sin compromiso” · 1.1-7.4s · con qué se hace: voz clonada + corte de audio y texto en capa",
+   "sube": "sube lo que ofreces de 2 a 6"
+  },
+  {
+   "texto": "Añadir micro-overlay de credenciales “Asesor BYD Azcapotzalco” durante la presentación del asesor · 0.6-7.4s · con qué se hace: texto en capa",
+   "sube": "sube qué tanta confianza das de 6 a 8"
+  },
+  {
+   "texto": "Unificar subtítulo de autonomía en una sola frase “Autonomía de hasta 1 145 km combinados” · 17.9-24.0s · con qué se hace: texto en capa",
+   "sube": "sube qué tan claro se entiende de 6 a 8"
+  },
+  {
+   "texto": "Push-in suave 3 s sobre el King gris con puerta abierta usando MiniMax H3 a partir de foto real del auto · 17.6-20.6s · con qué se hace: MiniMax H3 imagen→video",
+   "sube": "sube cómo se ve de 5 a 7"
+  },
+  {
+   "texto": "Recortar a 22-26 s eliminando repeticiones de planos del asesor 6.2-10.8s · 6.2-10.8s · con qué se hace: corte con ffmpeg",
+   "sube": "sube qué tan barato sale cada mensaje de 7 a 8"
+  },
+  {
+   "texto": "Añadir filtro de intención en CTA “Escribe BYD + modelo que te interesa y colonia” · 24.0-30.3s · con qué se hace: voz clonada + texto en capa",
+   "sube": "sube si escribe gente que sí compra de 3 a 7"
+  }
+ ],
+ "rapido": [
+  "Cambiar voz clonada 1.1-7.4s quitando “mejor precio/bonos” y dejando solo dolor + prueba de manejo · voz clonada Fish Audio + texto en capa",
+  "Unificar subtítulo de autonomía en una sola línea en capa 17.9-24.0s · texto en capa",
+  "Recortar repeticiones del asesor 6.2-10.8s para bajar a ~25 s · corte con ffmpeg"
+ ],
+ "video": "/cv/rafael.mp4",
+ "video_ruta": "clientes/Rafael_BYD/v5_20261104/Rafael_BYD_v5B_sus_tomas.mp4",
+ "video_nota": "Este video está armado con tus propias tomas del 3 de noviembre y tu voz. El cierre va con tu voz clonada.",
+ "glimmer_crudo": "CALIFICACIÓN TOTAL: 5/10\nNOTAS: Gancho 4/10 · Oferta 2/10 · Confianza 6/10 · Claridad 6/10 · Calidad visual 5/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 3/10\nPOR QUÉ FUNCIONA:\n- 0.6-5.1s “¿Gasolina cara?” + “Azcapotzalco y alrededores” fija el dolor local y el territorio del asesor, genera identificación inmediata.\n- 9.7-11.9s “BYD King 2027 · 205 hp” muestra modelo y potencia en texto en capa, da ancla de producto sin inventar precio.\n- 17.6-24.4s “Tengo Song Plus, King y Dolphin, híbridos y eléctricos, con autonomía de hasta mil ciento cuarenta y cinco kilómetros.” presenta portafolio y beneficio de autonomía con el auto en plano real.\n- 24.0-30.3s “Agenda tu prueba de manejo, escríbeme la palabra BYD por WhatsApp y te enseño el modelo que va contigo.” CTA claro a WhatsApp con palabra clave y promesa de prueba.\n- 31.2-33.5s Tarjeta final con nombre, cargo, modelos y WhatsApp 55 7386 9438 refuerza contacto y profesionalismo.\n\nQUÉ LO FRENA:\n- 1.1-7.4s El gancho habla de “mejor precio” y “mejores bonos” pero no hay oferta comercial todavía (se manda el 4 nov). El mensaje queda vacío y baja intención calificada. Arreglo: quitar mención a precio/bonos y mantener solo dolor + prueba.\n- 7.4-17.9s El asesor está de frente todo el tiempo con fondo de sala; sin demostración del auto ni prueba de manejo. Arreglo: insertar 1 clip de 3-4 s del King en movimiento o puerta abierta con push-in de MiniMax H3 a partir de foto real.\n- 17.9-24.0s La autonomía “hasta 1145 kilómetros” aparece en subtítulos fragmentados y sin contexto de uso. Arreglo: unificar en una sola línea en capa y acompañar con un mini gráfico de autonomía generado en capa.\n\nVEREDICTO: Subir con cambios\nCalificación proyectada con los cambios: 7.5/10\n\nCÓMO SUBIR CADA NOTA:\n  Gancho 4→7: Reemplazar voz clonada de 1.1-3.0s por “¿Gasolina cara en Azcapotzalco? Prueba un híbrido hoy” · 0.6-3.0s · con qué se hace: voz clonada Fish Audio + texto en capa\n  Oferta 2→6: Eliminar menciones a “mejor precio” y “bonos” y dejar solo “prueba de manejo sin compromiso” · 1.1-7.4s · con qué se hace: voz clonada + corte de audio y texto en capa\n  Confianza 6→8: Añadir micro-overlay de credenciales “Asesor BYD Azcapotzalco” durante la presentación del asesor · 0.6-7.4s · con qué se hace: texto en capa\n  Claridad 6→8: Unificar subtítulo de autonomía en una sola frase “Autonomía de hasta 1 145 km combinados” · 17.9-24.0s · con qué se hace: texto en capa\n  Calidad visual 5→7: Push-in suave 3 s sobre el King gris con puerta abierta usando MiniMax H3 a partir de foto real del auto · 17.6-20.6s · con qué se hace: MiniMax H3 imagen→video\n  Políticas de Meta 9→9: ya está, no tocar\n  Mensajes baratos 7→8: Recortar a 22-26 s eliminando repeticiones de planos del asesor 6.2-10.8s · 6.2-10.8s · con qué se hace: corte con ffmpeg\n  Mensajes calificados 3→7: Añadir filtro de intención en CTA “Escribe BYD + modelo que te interesa y colonia” · 24.0-30.3s · con qué se hace: voz clonada + texto en capa\n\n3 GANCHOS ALTERNATIVOS para los primeros 3 segundos:\n- “¿Cuánto gastas en gasolina a la semana en Azcapotzalco?” · Escena: primer plano del asesor en sala con texto en capa, mismo material real 0.6s. Filtra conductores locales con gasto recurrente.\n- “King 2027 híbrido enchufado, prueba de manejo hoy en Azcapotzalco” · Escena: foto real del King frontal con push-in de MiniMax H3 5 s. Filtra interesados en modelo específico.\n- “Deja la gasolina cara: Song Plus, King o Dolphin, agenda tu prueba” · Escena: split de 3 fotos reales de los 3 modelos con zoom rápido en capa. Filtra comparadores de portafolio BYD.\n\n2 ESCENAS NUEVAS CON IA que más subirían la nota:\n- Qué se ve: el King gris en exhibición con puerta abierta y cámara en órbita lenta mostrando lateral y calavera. Con qué modelo se hace: MiniMax H3 imagen→video 5 s vertical. Foto o toma real que hace falta de base: foto real del King en sala con puerta abierta ya existente en 17.6s. Duración: 4 s.\n- Qué se ve: asesor señalando el tablero del King con gesto de “mira esto”. Con qué modelo se hace: Qwen-Image-Edit-2511 para cambiar pose a mano señalando a partir de foto real del asesor, luego MiniMax H3 3 s con leve push-in. Foto o toma real que hace falta de base: foto real del asesor de frente 0.6s. Duración: 3 s.\n\nLO MÁS RÁPIDO:\n- Cambiar voz clonada 1.1-7.4s quitando “mejor precio/bonos” y dejando solo dolor + prueba de manejo · voz clonada Fish Audio + texto en capa\n- Unificar subtítulo de autonomía en una sola línea en capa 17.9-24.0s · texto en capa\n- Recortar repeticiones del asesor 6.2-10.8s para bajar a ~25 s · corte con ffmpeg\n\n######## ADRIAN_TATUADOR_grabado_20261103\nCALIFICACIÓN TOTAL: 6/10\nNOTAS: Gancho 5/10 · Oferta 4/10 · Confianza 7/10 · Claridad 7/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 6/10 · Mensajes calificados 5/10\nPOR QUÉ FUNCIONA:\n- 0.3-2.6s el tatuador sentado con tableta en estudio con arte en pared y plantas genera contexto de tatuador real y local; invita a quedarse.\n- 4.9-5.5s señalética “Azucenas” + “ESTOY FRENTE AL PALACIO MUNICIPAL” ancla ubicación física en Cancún Centro y reduce fricción de búsqueda.\n- 8.9-11.2s primer plano de pecho con tatuaje japonés de linterna y samurái muestra trabajo real y nivel de detalle; es prueba social visual.\n- 14.7-17.0s escena de trabajo en cabina con texto “AGENDA AL DM @adrian.santanaink ‘Citas esta Semana’” deja canal de acción claro a WhatsApp/DM.\nQUÉ LO FRENA:\n- 0.1-8.1s el gancho “¿BUSCAS UN TATUAJE EN CANCÚN CENTRO?” aparece a 1.4s y se repite sin beneficio ni precio; no filtra intención de compra. Arreglo: reemplazar texto de gancho por beneficio + precio ancla y mantener la misma toma del sofá.\n- 8.1-13.1s “ESCRÍBEME AHORA Y ASEGURA TU LUGAR. LAS CITAS SE AGENDAN CON ANTICIPACIÓN, NO TE QUEDES FUERA” es urgencia genérica sin diferenciador ni prueba de demanda. Arreglo: añadir prueba social concreta con número de agenda y mantener el mismo plano de tatuaje.\n- 6.0-7.2s transición a calle con “EN EL CENTRO DE CANCÚN” es confusa y sin referencia visual clara del estudio. Arreglo: reemplazar por clip estabilizado de fachada con letrero “TATTOO” y geolocalización en capa de texto.\nVEREDICTO: «Subir con cambios», calificación proyectada 8/10 con los cambios.\nCÓMO SUBIR CADA NOTA:\n  Gancho 5→8: cambiar texto de capa en 0.3-1.4s a “Tatuaje en Cancún Centro desde $1,000 · frente al Palacio Municipal” · 0.3-1.4s · texto en capa\n  Oferta 4→8: insertar tarjeta de precio y diferenciador en 8.1-9.5s “Sesiones desde $1,000 · Diseño único y personalizado” · 8.1-9.5s · texto en capa\n  Confianza 7→8: añadir micro-prueba social en 11.8-13.0s “Agenda llena esta semana · quedan pocos huecos” · 11.8-13.0s · texto en capa con voz clonada ajustada\n  Claridad 7→9: reforzar CTA final en 15.3-17.0s “WhatsApp 998 331 6522 · escribe ‘Citas esta Semana’” · 15.3-17.0s · texto en capa\n  Calidad visual 6→8: estabilizar y hacer push-in suave al plano del tatuaje 8.9-11.2s y al plano de calle 7.8-8.4s · 8.9-11.2s / 7.8-8.4s · MiniMax H3 con primer y último cuadro fijados\n  Políticas de Meta 9→9: ya está, no tocar\n  Mensajes baratos 6→8: acotar audiencia a 18-45 años, 0-10 km de Palacio Municipal Cancún, intereses tatuaje/arte corporal, optimizar a Conversaciones iniciadas · configuración de campaña\n  Mensajes calificados 5→8: añadir filtro de intención en texto de capa 0.3-1.4s “¿Quieres tatuaje este mes?” y en 8.1-9.5s “Escríbeme con foto/referencia y presupuesto” · 0.3-1.4s / 8.1-9.5s · texto en capa + voz clonada\n3 GANCHOS ALTERNATIVOS para los primeros 3 segundos:\n- “Tatuaje en Cancún Centro desde $1,000” con escena del tatuador en sofá 0.3s con push-in MiniMax H3; filtra por presupuesto y zona.\n- “Frente al Palacio Municipal, agenda hoy” con escena de señal “Azucenas” 4.9s con zoom lento; filtra por proximidad inmediata.\n- “Diseño único, lo tatuo esta semana” con primer plano del tatuaje de linterna 8.9s con órbita suave; filtra por urgencia y estilo japonés.\n2 ESCENAS NUEVAS CON IA que más subirían la nota:\n- Fachada del estudio con neón “TATTOO” en noche, cámara dolly-in 3 s. Se hace con MiniMax H3 a partir de foto real de fachada que debe mandar el cliente; primer y último cuadro fijados, texto en capa aparte.\n- Close-up de mano del tatuador trabajando con aguja, movimiento de cámara push-in 4 s. Se genera con MiniMax H3 a partir de foto real de cabina que debe mandar el cliente; primer y último cuadro fijados, sin texto dentro del clip.\nLO MÁS RÁPIDO:\n- Cambiar texto de gancho a “Tatuaje en Cancún Centro desde $1,000 · frente al Palacio Municipal” en 0.3-1.4s con texto en capa.\n- Añadir tarjeta “Sesiones desde $1,000 · Diseño único y personalizado” en 8.1-9.5s con texto en capa y voz clonada ajustada.\n- Reemplazar clip confuso 6.0-7.2s por fachada con letrero “TATTOO” estabilizada con MiniMax H3 y texto “Estudio propio con neón · frente al Palacio Municipal” en capa.",
+ "pedidos": [],
+ "propuesto_en": 1793759803.7139635,
+ "auto_hecho": null
+}

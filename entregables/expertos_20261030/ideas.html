@@ -1,0 +1,112 @@
+<title>Ideas Hormozi y Monge</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,600..800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: lista numerada de 10 acciones (el orden es la prioridad), cada una con la idea del experto, lo que dicen tus chats y el paso de esta semana con su guion. */
+:root { --bg:#f2f1ec; --paper:#fbfaf6; --ink:#1f1d1a; --muted:#67625a; --line:#dcd8cf; --accent:#1f5f8b; --accent-soft:#dde9f2; --hot:#b5561b; --hot-soft:#f6e1d2;
+  --f-d:"Archivo","Arial Narrow",system-ui,sans-serif; --f-b:"IBM Plex Sans",system-ui,sans-serif; --f-m:"IBM Plex Mono",ui-monospace,monospace; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#15161a; --paper:#1c1d22; --ink:#e8e6e1; --muted:#a19c93; --line:#2f3036; --accent:#6fb2e0; --accent-soft:#1a2a36; --hot:#ec8a4c; --hot-soft:#3c2617; color-scheme:dark } }
+:root[data-theme="dark"] { --bg:#15161a; --paper:#1c1d22; --ink:#e8e6e1; --muted:#a19c93; --line:#2f3036; --accent:#6fb2e0; --accent-soft:#1a2a36; --hot:#ec8a4c; --hot-soft:#3c2617; color-scheme:dark }
+body { background:var(--bg); color:var(--ink); font:15px/1.6 var(--f-b) }
+.wrap { max-width:900px; margin:0 auto; padding-block:28px 64px; padding-left:max(16px,env(safe-area-inset-left,0px)); padding-right:max(16px,env(safe-area-inset-right,0px)); display:grid; gap:20px }
+h1, h2 { font-family:var(--f-d); font-stretch:80%; margin:0; text-wrap:balance } h1 { font-size:clamp(28px,5vw,42px); font-weight:800; line-height:1.05 } h2 { font-size:21px; font-weight:800 }
+.eyebrow { font:500 12px var(--f-m); letter-spacing:.08em; text-transform:uppercase; color:var(--muted) }
+p { margin:0; max-width:70ch } .lead { color:var(--muted) }
+ol.acc { list-style:none; margin:0; padding:0; display:grid; gap:14px; counter-reset:n }
+ol.acc > li { counter-increment:n; background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:16px 18px; display:grid; gap:8px }
+ol.acc > li > h2::before { content:counter(n) ". "; color:var(--accent) }
+.de { font:500 12px var(--f-m); color:var(--muted) } .de a { color:var(--accent) }
+.chats { border-left:3px solid var(--hot); background:var(--hot-soft); padding:8px 12px; border-radius:0 6px 6px 0; font-size:14px }
+.chats b, .paso b { display:block; font:600 11px var(--f-m); letter-spacing:.08em; text-transform:uppercase; color:var(--muted) }
+.paso { border-left:3px solid var(--accent); background:var(--accent-soft); padding:8px 12px; border-radius:0 6px 6px 0; font-size:14px }
+blockquote { margin:6px 0 0; padding:8px 12px; border:1px dashed var(--line); border-radius:6px; font-size:14px; background:var(--paper) }
+.fuentes { font-size:13px; color:var(--muted) } .fuentes a { color:var(--accent); overflow-wrap:anywhere }
+a:focus-visible { outline:2px solid var(--accent); outline-offset:2px }
+</style>
+
+<div class="wrap">
+  <header style="display:grid;gap:8px">
+    <div class="eyebrow">Visión Agencia · investigación · 30 oct 2026</div>
+    <h1>10 ideas de Hormozi y Monge Malo para tu negocio</h1>
+    <p class="lead">Saqué las ideas de 24 videos de YouTube (12 de Alex Hormozi y 12 de Luis Monge Malo, leídos por transcripción) y las crucé con lo que pasa en tus chats desde el 28 de septiembre. Están en orden: las primeras son las que más dinero mueven esta semana.</p>
+  </header>
+
+  <ol class="acc">
+    <li>
+      <h2>Contesta a cada prospecto en minutos, con el precio</h2>
+      <p>Monge: el 90% de los negocios pierde al cliente antes de venderle porque tarda, no contesta o esconde el precio. «Di el precio. Haz que sea fácil actuar y da una razón para actuar ahora.» Quien contesta en minutos ya está por encima del 90%.</p>
+      <p class="de">Fuente: Monge Malo · <a href="https://www.youtube.com/watch?v=ZNJBdMIwSDg" target="_blank" rel="noopener">Cómo vender mejor que el 99%</a> · <a href="https://www.youtube.com/watch?v=xiDSvLBdhDY" target="_blank" rel="noopener">Ganar en los negocios es tan simple como esto</a></p>
+      <div class="chats"><b>Tus chats</b>Hoy entraron 8 «Quiero más información» entre las 3 y las 7 am y ninguno tiene respuesta. A los 7 de antes les mandaste imagen y audio y ninguno contestó.</div>
+      <div class="paso"><b>Esta semana</b>Un mensaje fijo de texto en menos de 15 minutos, con precio y una sola pregunta:
+        <blockquote>¡Hola! Soy Carlos de Visión Agencia. Hago videos con sus fotos reales y su campaña en Facebook: $500 al mes + su pauta desde $250. ¿A qué se dedica y en qué ciudad? Con 3 fotos le hago su muestra gratis para mañana.</blockquote></div>
+    </li>
+    <li>
+      <h2>Seguimiento hasta el sí o el no</h2>
+      <p>Monge: nadie compra al primer contacto; llama al momento, al día siguiente y a los 3 días, hasta 7 veces. Si no responde, ponle el no en la boca: «si no te interesa, dímelo y no te molesto más».</p>
+      <p class="de">Fuente: Monge Malo · <a href="https://www.youtube.com/watch?v=JC7BX9ctYeA" target="_blank" rel="noopener">Cómo conseguir 5 clientes fácilmente</a></p>
+      <div class="chats"><b>Tus chats</b>Al menos 12 interesados se quedaron sin seguimiento: el 33 4813 0112 («me interesa calar 1 mes»), el mariachi («te transfiero el jueves»), Finanzas e Inmobiliaria («lo busco mañana para cerrar»), Julio César, Luz y sonido…</div>
+      <div class="paso"><b>Esta semana</b>Una llamada a cada uno de los 12. Si no contestan, un mensaje corto con lo que platicaron y al tercer intento: «¿Lo dejamos para otro momento o arrancamos esta semana?».</div>
+    </li>
+    <li>
+      <h2>Una sola oferta, clara, y súbele el precio con aviso</h2>
+      <p>Hormozi: para subir precios sin perder ventas, ancla un precio más alto, deja el precio de siempre como opción cómoda y da un descuento por pagar por adelantado. Avisa la fecha del aumento: eso crea urgencia real y vacía la lista de pendientes.</p>
+      <p class="de">Fuente: Hormozi · <a href="https://www.youtube.com/watch?v=GO6VCcLlnLs" target="_blank" rel="noopener">How I raise prices without losing sales</a></p>
+      <div class="chats"><b>Tus chats</b>Ofreciste $500 + $50 diarios, $500 + $100 diarios, $200 cada 15 días y $1,000. José Héctor calculó $2,000 y se frenó. Tu meta es $1,000 al mes por cliente.</div>
+      <div class="paso"><b>Esta semana</b>Plan único: «$1,000 al mes, o $500 si entras antes del 15 de noviembre y pagas 3 meses por adelantado». Anúncialo a todos los prospectos: el que dude, decide antes de la fecha.</div>
+    </li>
+    <li>
+      <h2>Muestra gratis, pero con condiciones</h2>
+      <p>Hormozi: tus primeros clientes pueden ser gratis o con descuento si a cambio (1) lo usan, (2) te dan su opinión y (3) te dejan un testimonio. Luego subes: 80% de descuento, 60%, 40%, 20%, precio completo y arriba. Si alguien no lo quiere ni gratis, pregunta por qué: ahí está el costo oculto que tienes que quitar.</p>
+      <p class="de">Fuente: Hormozi · <a href="https://www.youtube.com/watch?v=w7g08dVTwaE" target="_blank" rel="noopener">Watch this to get your first 5 customers</a></p>
+      <div class="chats"><b>Tus chats</b>Regalas muestras sin pedir nada a cambio (a Jeremías le regalaste los videos y se fue). Generadores dijo «no quiero imágenes, quiero ventas»: el costo oculto es que el cliente no ve resultado.</div>
+      <div class="paso"><b>Esta semana</b>Cada muestra gratis va con 3 condiciones: si le gusta la sube 7 días con $250 de pauta, te da su opinión y te graba 20 segundos de testimonio cuando le lleguen mensajes.</div>
+    </li>
+    <li>
+      <h2>Pide referencias siempre, a todos</h2>
+      <p>Hormozi y Monge coinciden: pregunta «¿conoces a alguien que…?» tanto si te compran como si no. Hormozi: «¿y alguien que te caiga mal?» saca nombres reales.</p>
+      <p class="de">Fuente: Hormozi · <a href="https://www.youtube.com/watch?v=w7g08dVTwaE" target="_blank" rel="noopener">First 5 customers</a> · Monge · <a href="https://www.youtube.com/watch?v=JC7BX9ctYeA" target="_blank" rel="noopener">5 clientes</a></p>
+      <div class="chats"><b>Tus chats</b>Guillermo ya cerró trabajos con su campaña (uno de $5,500 según su audio). BD Pro te dijo «te recomendaré». Nunca les has pedido nombres.</div>
+      <div class="paso"><b>Esta semana</b>A Guillermo, José y BD Pro: «¿Conoces a 2 herreros, contratistas o gente de eventos a los que les vendría bien lo que te hice? Si entran, tu siguiente mes te sale a mitad».</div>
+    </li>
+    <li>
+      <h2>Vende el resultado, no el video</h2>
+      <p>Monge: ofrece lo que la gente pide, con sus palabras. Hormozi: la oferta es el rey; tiene que ser tan buena que el cliente se sienta tonto diciendo que no, y se cobra por el valor del problema que resuelves, no por lo que te cuesta.</p>
+      <p class="de">Fuente: Hormozi · <a href="https://www.youtube.com/watch?v=pxVeOkOVr2w" target="_blank" rel="noopener">The Offer Is King</a> · Monge · <a href="https://www.youtube.com/watch?v=xiDSvLBdhDY" target="_blank" rel="noopener">Ganar en los negocios</a></p>
+      <div class="chats"><b>Tus chats</b>Lo que te piden: «quiero ventas reales» (Generadores), «si me salen 2 citas por semana te pago más» (tatuador), «es cotizar y cerrar» (Guillermo). Tu anuncio de Guillermo dice «4 videos al mes por $500»; Glimmer le bajó claridad por eso.</div>
+      <div class="paso"><b>Esta semana</b>Cambia tu frase: «Te consigo mensajes de clientes que preguntan precio, con videos de tus trabajos reales. Si en 30 días no te llegan, el segundo mes es gratis.» Antes de prometerlo, revisa que tus campañas den para cumplirlo.</div>
+    </li>
+    <li>
+      <h2>Sé el más formal de todos</h2>
+      <p>Monge: empezó sin dinero ni contactos y sobrevivió a la crisis de 2010 por dos cosas: ir con todo el mundo y ser el más formal (puntual, cumplir su palabra, no prometer lo que no puede).</p>
+      <p class="de">Fuente: Monge Malo · <a href="https://www.youtube.com/watch?v=ZNJBdMIwSDg" target="_blank" rel="noopener">Cómo vender mejor que el 99%</a></p>
+      <div class="chats"><b>Tus chats</b>31 mensajes explicando «la compu», «el sistema», «se cayó». Omar pidió su dinero: «no veo formalidad y seriedad». Víctor pagó y preguntó «¿ya está circulando?».</div>
+      <div class="paso"><b>Esta semana</b>Nunca prometas «hoy»: promete «mañana a las 12» y entrega a las 11. La fila de la GPU ya trabaja aunque tu compu falle.</div>
+    </li>
+    <li>
+      <h2>Busca socios que te pasen clientes cada mes</h2>
+      <p>Hormozi: si tus clientes entran y salen, sube un nivel y retén a quien te los trae. Su ejemplo: venderle a la agencia que tiene 10 quiroprácticos en vez de a cada quiropráctico.</p>
+      <p class="de">Fuente: Hormozi · <a href="https://www.youtube.com/watch?v=vgqlDIu5-I0" target="_blank" rel="noopener">How to reduce churn</a></p>
+      <div class="chats"><b>Tus chats</b>Tus mejores clientes son oficios: herrería, impermeabilización, carpintería, construcción. Todos compran material en algún lado.</div>
+      <div class="paso"><b>Esta semana</b>Propón a una ferretería, maderería o distribuidora de impermeabilizante (por ejemplo, el proveedor de José) que te recomiende con sus clientes a cambio de un video gratis para su propio negocio.</div>
+    </li>
+    <li>
+      <h2>Empieza por tu lista de contactos</h2>
+      <p>Hormozi: junta todos tus contactos (teléfono, redes, correo), escríbeles algo personal y 100 al día. Saluda, reconoce algo suyo y pregunta. Monge: «no guardes en secreto lo que haces».</p>
+      <p class="de">Fuente: Hormozi · <a href="https://www.youtube.com/watch?v=w7g08dVTwaE" target="_blank" rel="noopener">First 5 customers</a></p>
+      <div class="chats"><b>Tus chats</b>Tienes 458 chats y 322 tuvieron actividad desde el 28 de septiembre. Muchos son negocios que ya te escribieron alguna vez.</div>
+      <div class="paso"><b>Esta semana</b>20 mensajes al día a negocios de oficios de tu lista, personalizados con lo que platicaron: «Vi que haces X; a Guillermo le llegaron clientes con un video de sus trabajos. ¿Te hago uno de muestra?».</div>
+    </li>
+    <li>
+      <h2>Reporte con números para que se queden</h2>
+      <p>Hormozi: retener sale más barato que conseguir. Monge: la experiencia del cliente empieza en la venta y sigue después: una buena experiencia condiciona cómo ve el servicio.</p>
+      <p class="de">Fuente: Hormozi · <a href="https://www.youtube.com/watch?v=afbP6sB_Atc" target="_blank" rel="noopener">Watch this to keep more customers</a></p>
+      <div class="chats"><b>Tus chats</b>Iván: «puro preguntón». Víctor: cero clientes. Uriel apagó su campaña. Ninguno recibió un reporte con números.</div>
+      <div class="paso"><b>Cada lunes</b>A cada cliente: mensajes recibidos, costo por mensaje, cuántos preguntaron precio y qué vamos a mejorar. Tres líneas bastan.</div>
+    </li>
+  </ol>
+
+  <div class="fuentes">
+    <p><b>Videos leídos</b> (transcripciones por YouTube): Hormozi: first 5 customers, the offer is king, how to price anything, raise prices, charge exorbitant prices, grand slam offer (2), generate 1000s of leads, get customers fast, reduce churn, keep more customers, customers stay forever. Monge Malo: conseguir 5 clientes, ganar en los negocios, vender mejor que el 99%, 15 años de aprendizaje, curso ventas B2B y entrevistas en podcasts. En esta página solo resumí los más útiles para ti.</p>
+    <p>Lo de «tus chats» sale del análisis de tus conversaciones de WhatsApp del 28 sep al 30 oct.</p>
+  </div>
+</div>

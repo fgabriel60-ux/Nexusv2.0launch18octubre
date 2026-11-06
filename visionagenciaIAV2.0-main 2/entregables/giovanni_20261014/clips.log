@@ -1,0 +1,14 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-TggI1nJbRwHRrWa24QoTNA
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/giovanni_20261014/giovanni_modal.py
+├── ✓ Created Function cuadros.
+└── ✓ Created Function clips.
+clip G1 277 /datos/siena/out/giovanni/G1_00001_.mp4
+clip G2 277 /datos/siena/out/giovanni/G2_00001_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/giovanni_20261014/clips/G1
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/giovanni_20261014/clips/G2
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-TggI1nJbRwHRrWa24QoTNA

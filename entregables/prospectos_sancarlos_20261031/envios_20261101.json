@@ -1,0 +1,82 @@
+[
+ {
+  "negocio": "SaltySun Rentals",
+  "chat": "257504898498688@lid",
+  "estado": "success",
+  "fecha": "2026-11-01 01:58"
+ },
+ {
+  "negocio": "Casa del Sol",
+  "chat": "56594851193076@lid",
+  "estado": "success",
+  "fecha": "2026-11-01 01:58"
+ },
+ {
+  "negocio": "Sonoran Sun Realty (Emilia)",
+  "chat": "10058964418759@lid",
+  "estado": "success",
+  "fecha": "2026-11-01 01:58"
+ },
+ {
+  "negocio": "Sea of Cortez Rentals (Vonda)",
+  "chat": "147042567516343@lid",
+  "estado": "success",
+  "fecha": "2026-11-01 01:59"
+ },
+ {
+  "negocio": "SaltySun Rentals",
+  "chat": "257504898498688@lid",
+  "estado": "fallo",
+  "envio": "video muestra VillaBahia3C_ritmo_v4",
+  "fecha": "2026-11-01 02:06"
+ },
+ {
+  "negocio": "Casa del Sol",
+  "chat": "56594851193076@lid",
+  "estado": "fallo",
+  "envio": "video muestra VillaBahia3C_ritmo_v4",
+  "fecha": "2026-11-01 02:12"
+ },
+ {
+  "negocio": "Sonoran Sun Realty (Emilia)",
+  "chat": "10058964418759@lid",
+  "estado": "fallo",
+  "envio": "video muestra VillaBahia3C_ritmo_v4",
+  "fecha": "2026-11-01 02:17"
+ },
+ {
+  "negocio": "Sea of Cortez Rentals (Vonda)",
+  "chat": "147042567516343@lid",
+  "estado": "fallo",
+  "envio": "video muestra VillaBahia3C_ritmo_v4",
+  "fecha": "2026-11-01 02:23"
+ },
+ {
+  "negocio": "SaltySun",
+  "chat": "257504898498688@lid",
+  "estado": "success",
+  "envio": "video muestra VillaBahia3C_ritmo_v4",
+  "fecha": "2026-11-01 03:34"
+ },
+ {
+  "negocio": "Casa del Sol",
+  "chat": "56594851193076@lid",
+  "estado": "success",
+  "envio": "video muestra VillaBahia3C_ritmo_v4",
+  "fecha": "2026-11-01 03:34"
+ },
+ {
+  "negocio": "Sonoran Sun",
+  "chat": "10058964418759@lid",
+  "estado": "success",
+  "envio": "video muestra VillaBahia3C_ritmo_v4",
+  "fecha": "2026-11-01 03:34"
+ },
+ {
+  "negocio": "Sea of Cortez",
+  "chat": "147042567516343@lid",
+  "estado": "success",
+  "envio": "video muestra VillaBahia3C_ritmo_v4",
+  "fecha": "2026-11-01 03:34"
+ }
+]

@@ -1,0 +1,33 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-PwLuXLnK147fPaeBJPwp6n
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma AT1_entra
+toma AT2_cara
+toma AT3_manos
+toma AT4_ring
+toma AT5_maquina
+toma AT6_cierre
+guardado AT1_entra.mp4
+guardado AT2_cara.mp4
+guardado AT3_manos.mp4
+guardado AT4_ring.mp4
+guardado AT5_maquina.mp4
+guardado AT6_cierre.mp4
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-PwLuXLnK147fPaeBJPwp6n
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261031/tatuador_frames_v1.json
+Duración: 7.4 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.041
+  escenas-carlos (ap-PwLuXLnK147fPaeBJPwp6n): $0.352
+  glimmer (ap-bNLYWm5sZkE55qAao8ylsH): $0.297
+Gasto del trabajo: $0.690
+Saldo restante ≈ $13.24

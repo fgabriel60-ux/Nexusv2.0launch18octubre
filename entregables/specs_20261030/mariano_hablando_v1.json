@@ -1,0 +1,65 @@
+{
+ "carpeta": "clientes/Mariano/video/hablando_v1",
+ "salida": "clientes/Mariano/video/hablando_v1/salida",
+ "semilla": 5,
+ "refs": {
+  "m": "clientes/Mariano/video/hablando_v1/mariano_hook_ref.png",
+  "salvia": "clientes/Mariano/video/spiderman/refs/salvia_fachada.png",
+  "padel": "clientes/Mariano/video/spiderman/refs/salvia_padel.png",
+  "calle": "clientes/Mariano/video/spiderman/refs/calle_caballo.png"
+ },
+ "cuadros": {
+  "MH1_salvia": [
+   [
+    "m",
+    "salvia"
+   ],
+   "Foto realista vertical 9:16: el MISMO hombre de la primera imagen (misma cara, barba, peinado, saco azul claro, camisa blanca, jeans) de pie frente a la fachada de la casa modelo Salvia, mirando a la cámara y hablando con una mano abierta, expresión amable. Luz natural de día, cielo azul de Rosarito. El lugar es EXACTAMENTE el de la segunda imagen (real), sin inventar edificios. Plano medio, sin texto.",
+   "texto, letras, otra persona, cara diferente, manos arriba"
+  ],
+  "MH2_padel": [
+   [
+    "m",
+    "padel"
+   ],
+   "Foto realista vertical 9:16: el MISMO hombre de la primera imagen (misma cara, barba, peinado, saco azul claro, camisa blanca, jeans) de pie junto a la cancha de pádel de la privada, mirando a la cámara y hablando con una mano abierta, expresión amable. Luz natural de día, cielo azul de Rosarito. El lugar es EXACTAMENTE el de la segunda imagen (real), sin inventar edificios. Plano medio, sin texto.",
+   "texto, letras, otra persona, cara diferente, manos arriba"
+  ],
+  "MH3_calle": [
+   [
+    "m",
+    "calle"
+   ],
+   "Foto realista vertical 9:16: el MISMO hombre de la primera imagen (misma cara, barba, peinado, saco azul claro, camisa blanca, jeans) de pie en la calle de entrada de la privada, mirando a la cámara y hablando con una mano abierta, expresión amable. Luz natural de día, cielo azul de Rosarito. El lugar es EXACTAMENTE el de la segunda imagen (real), sin inventar edificios. Plano medio, sin texto.",
+   "texto, letras, otra persona, cara diferente, manos arriba"
+  ]
+ },
+ "tomas": [
+  [
+   "HM1_salvia",
+   "MH1_salvia",
+   "Vertical realistic shot: the same man talks directly to the camera in Spanish with natural lip movement exactly matching the speech, friendly, calm open-hand gesture, small head movements. Keep exactly the same face, beard, light blue blazer, white shirt and the real place from the first frame. Very slow push-in. No text.",
+   4.6,
+   "salvia"
+  ],
+  [
+   "HM2_padel",
+   "MH2_padel",
+   "Vertical realistic shot: the same man talks directly to the camera in Spanish with natural lip movement exactly matching the speech, friendly, calm open-hand gesture, small head movements. Keep exactly the same face, beard, light blue blazer, white shirt and the real place from the first frame. Very slow push-in. No text.",
+   5.3,
+   "privada"
+  ],
+  [
+   "HM3_calle",
+   "MH3_calle",
+   "Vertical realistic shot: the same man talks directly to the camera in Spanish with natural lip movement exactly matching the speech, friendly, calm open-hand gesture, small head movements. Keep exactly the same face, beard, light blue blazer, white shirt and the real place from the first frame. Very slow push-in. No text.",
+   3.9,
+   "cta"
+  ]
+ ],
+ "voces": {
+  "salvia": "clientes/Mariano/video/spiderman/voz/salvia.wav",
+  "privada": "clientes/Mariano/video/spiderman/voz/privada.wav",
+  "cta": "clientes/Mariano/video/spiderman/voz/cta.wav"
+ }
+}

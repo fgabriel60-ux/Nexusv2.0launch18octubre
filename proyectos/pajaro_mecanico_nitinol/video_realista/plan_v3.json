@@ -1,0 +1,20 @@
+{"salida": "pajaro_realista_v3.mp4", "xfade": 0.25, "musica": true,
+ "tramos": [
+  {"clip": "K1b", "ini": 0.0, "fin": 1.0, "vel": 1.0, "rotulo": "Lanzamiento"},
+  {"clip": "K1b", "ini": 1.0, "fin": 3.0, "vel": 0.8, "xfade": false, "rotulo": "Desenrollado"},
+  {"clip": "K1b", "ini": 3.0, "fin": 5.15, "vel": 1.4, "xfade": false},
+  {"clip": "K2", "ini": 0.0, "fin": 2.6, "vel": 1.4, "xfade": false},
+  {"clip": "K3c", "ini": 0.0, "fin": 5.15, "vel": 1.6, "rotulo": "Aleteo"},
+  {"clip": "K4", "ini": 0.5, "fin": 5.15, "vel": 1.9},
+  {"clip": "K5", "ini": 0.0, "fin": 3.3, "vel": 0.95, "rotulo": "Reenrollado"},
+  {"clip": "K5", "ini": 3.3, "fin": 5.15, "vel": 1.0, "xfade": false}
+ ],
+ "sfx": [
+  ["T0+0.35", "whoosh", {"d": 0.7, "f1": 400, "f2": 3000, "vol": 0.7}],
+  ["T1+0.2", "whoosh", {"d": 2.2, "f1": 250, "f2": 1200, "vol": 0.35}],
+  ["T2+1.2", "clic", {"vol": 0.6}],
+  ["T4+0.0", "aleteo", {"d": 3.2, "hz": 2.3, "vol": 0.4}],
+  ["T5+0.4", "clic", {"vol": 0.45}],
+  ["T6+0.2", "whoosh", {"d": 2.6, "f1": 1500, "f2": 300, "vol": 0.35}],
+  ["T7+0.9", "clic", {"vol": 0.55, "f": [2400, 3900, 6100]}]
+ ]}

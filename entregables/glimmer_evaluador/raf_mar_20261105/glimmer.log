@@ -1,0 +1,217 @@
+[0;93m2026-11-05 22:22:02.821113436 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:07/VMBUS:01/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+listo RAFAEL_v3_gancho 12.7s
+listo MARIANO_v2_rapel 9.5s
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-LZolU2vtOqJBNPEOSolUKI
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:00<20:32,  1.16it/s]
+[1ALoading weights:   0%|          | 2/1436 [00:01<22:43,  1.05it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:02<07:25,  3.21it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:02<06:09,  3.87it/s]
+[1ALoading weights:   1%|          | 16/1436 [00:02<01:35, 14.86it/s]
+[1ALoading weights:   1%|▏         | 20/1436 [00:02<01:31, 15.48it/s]
+[1ALoading weights:   2%|▏         | 28/1436 [00:02<00:57, 24.65it/s]
+[1ALoading weights:   2%|▏         | 33/1436 [00:02<00:57, 24.35it/s]
+[1ALoading weights:   3%|▎         | 40/1436 [00:02<00:45, 30.35it/s]
+[1ALoading weights:   3%|▎         | 45/1436 [00:03<00:49, 28.27it/s]
+[1ALoading weights:   4%|▎         | 52/1436 [00:03<00:40, 34.18it/s]
+[1ALoading weights:   4%|▍         | 57/1436 [00:03<00:45, 30.52it/s]
+[1ALoading weights:   4%|▍         | 64/1436 [00:03<00:38, 35.97it/s]
+[1ALoading weights:   5%|▍         | 69/1436 [00:03<00:42, 32.50it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:03<00:36, 37.25it/s]
+[1ALoading weights:   6%|▌         | 81/1436 [00:04<00:42, 31.84it/s]
+[1ALoading weights:   6%|▌         | 85/1436 [00:04<00:41, 32.89it/s]
+[1ALoading weights:   6%|▋         | 90/1436 [00:04<00:42, 31.58it/s]
+[1ALoading weights:   7%|▋         | 97/1436 [00:04<00:37, 35.88it/s]
+[1ALoading weights:   7%|▋         | 102/1436 [00:04<00:40, 33.12it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:04<00:31, 42.13it/s]
+[1ALoading weights:   8%|▊         | 117/1436 [00:05<00:36, 36.21it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:05<00:32, 40.68it/s]
+[1ALoading weights:   9%|▉         | 129/1436 [00:05<00:38, 34.19it/s]
+[1ALoading weights:   9%|▉         | 136/1436 [00:05<00:32, 40.22it/s]
+[1ALoading weights:  10%|▉         | 141/1436 [00:05<00:37, 34.93it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:05<00:32, 39.86it/s]
+[1ALoading weights:  11%|█         | 153/1436 [00:06<00:37, 34.51it/s]
+[1ALoading weights:  11%|█         | 159/1436 [00:06<00:34, 36.81it/s]
+[1ALoading weights:  11%|█▏        | 163/1436 [00:06<00:40, 31.65it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:06<00:31, 40.59it/s]
+[1ALoading weights:  12%|█▏        | 177/1436 [00:06<00:37, 33.43it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:06<00:31, 39.52it/s]
+[1ALoading weights:  13%|█▎        | 189/1436 [00:07<00:36, 33.96it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [00:07<00:32, 38.74it/s]
+[1ALoading weights:  14%|█▍        | 201/1436 [00:07<00:36, 34.24it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:07<00:31, 38.81it/s]
+[1ALoading weights:  15%|█▍        | 213/1436 [00:07<00:35, 34.33it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:07<00:31, 38.84it/s]
+[1ALoading weights:  16%|█▌        | 225/1436 [00:08<00:36, 33.50it/s]
+[1ALoading weights:  16%|█▌        | 229/1436 [00:08<00:37, 32.28it/s]
+[1ALoading weights:  16%|█▋        | 234/1436 [00:08<00:38, 30.95it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:08<00:27, 43.01it/s]
+[1ALoading weights:  17%|█▋        | 249/1436 [00:08<00:33, 35.88it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:08<00:29, 40.01it/s]
+[1ALoading weights:  18%|█▊        | 261/1436 [00:09<00:34, 34.39it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:09<00:29, 39.36it/s]
+[1ALoading weights:  19%|█▉        | 273/1436 [00:09<00:33, 34.31it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:09<00:29, 39.09it/s]
+[1ALoading weights:  20%|█▉        | 285/1436 [00:09<00:34, 33.82it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:09<00:29, 38.26it/s]
+[1ALoading weights:  21%|██        | 297/1436 [00:10<00:33, 33.85it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:10<00:29, 38.54it/s]
+[1ALoading weights:  22%|██▏       | 309/1436 [00:10<00:33, 33.32it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:10<00:28, 38.63it/s]
+[1ALoading weights:  22%|██▏       | 321/1436 [00:10<00:33, 33.21it/s]
+[1ALoading weights:  23%|██▎       | 325/1436 [00:10<00:33, 33.07it/s]
+[1ALoading weights:  23%|██▎       | 330/1436 [00:11<00:36, 30.36it/s]
+[1ALoading weights:  23%|██▎       | 337/1436 [00:11<00:31, 35.34it/s]
+[1ALoading weights:  24%|██▍       | 342/1436 [00:11<00:32, 33.30it/s]
+[1ALoading weights:  24%|██▍       | 348/1436 [00:11<00:32, 33.79it/s]
+[1ALoading weights:  25%|██▍       | 354/1436 [00:11<00:31, 33.83it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:11<00:25, 42.53it/s]
+[1ALoading weights:  26%|██▌       | 369/1436 [00:12<00:29, 36.77it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:12<00:25, 41.18it/s]
+[1ALoading weights:  27%|██▋       | 381/1436 [00:12<00:29, 36.11it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:12<00:26, 39.72it/s]
+[1ALoading weights:  27%|██▋       | 393/1436 [00:12<00:31, 33.51it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:12<00:26, 39.13it/s]
+[1ALoading weights:  28%|██▊       | 405/1436 [00:13<00:30, 33.78it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:13<00:27, 37.64it/s]
+[1ALoading weights:  29%|██▉       | 417/1436 [00:13<00:32, 31.79it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:13<00:27, 36.99it/s]
+[1ALoading weights:  30%|██▉       | 429/1436 [00:13<00:30, 33.04it/s]
+[1ALoading weights:  30%|███       | 436/1436 [00:13<00:25, 38.69it/s]
+[1ALoading weights:  31%|███       | 441/1436 [00:14<00:29, 33.49it/s]
+[1ALoading weights:  31%|███       | 446/1436 [00:14<00:28, 34.38it/s]
+[1ALoading weights:  31%|███▏      | 450/1436 [00:14<00:34, 28.99it/s]
+[1ALoading weights:  32%|███▏      | 457/1436 [00:14<00:29, 33.36it/s]
+[1ALoading weights:  32%|███▏      | 462/1436 [00:14<00:32, 30.33it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:15<00:22, 42.25it/s]
+[1ALoading weights:  33%|███▎      | 477/1436 [00:15<00:27, 34.85it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:15<00:23, 39.95it/s]
+[1ALoading weights:  34%|███▍      | 489/1436 [00:15<00:27, 34.37it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:15<00:25, 37.59it/s]
+[1ALoading weights:  35%|███▍      | 501/1436 [00:15<00:29, 31.87it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:16<00:25, 36.81it/s]
+[1ALoading weights:  36%|███▌      | 513/1436 [00:16<00:28, 31.88it/s]
+[1ALoading weights:  36%|███▌      | 520/1436 [00:16<00:24, 37.56it/s]
+[1ALoading weights:  37%|███▋      | 525/1436 [00:16<00:27, 32.97it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:16<00:23, 38.47it/s]
+[1ALoading weights:  37%|███▋      | 537/1436 [00:16<00:26, 34.18it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:17<00:22, 40.28it/s]
+[1ALoading weights:  38%|███▊      | 549/1436 [00:17<00:25, 34.42it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:17<00:22, 39.74it/s]
+[1ALoading weights:  39%|███▉      | 561/1436 [00:17<00:26, 33.38it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:17<00:21, 39.70it/s]
+[1ALoading weights:  40%|███▉      | 573/1436 [00:17<00:25, 33.73it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:18<00:21, 39.91it/s]
+[1ALoading weights:  41%|████      | 585/1436 [00:18<00:24, 34.09it/s]
+[1ALoading weights:  41%|████      | 589/1436 [00:18<00:29, 28.40it/s]
+[1ALoading weights:  41%|████▏     | 595/1436 [00:18<00:25, 32.91it/s]
+[1ALoading weights:  42%|████▏     | 604/1436 [00:18<00:20, 41.59it/s]
+[1ALoading weights:  42%|████▏     | 609/1436 [00:18<00:23, 35.93it/s]
+[1ALoading weights:  43%|████▎     | 614/1436 [00:19<00:23, 34.74it/s]
+[1ALoading weights:  43%|████▎     | 618/1436 [00:19<00:26, 30.98it/s]
+[1ALoading weights:  45%|████▍     | 640/1436 [00:19<00:11, 69.06it/s]
+[1ALoading weights:  47%|████▋     | 681/1436 [00:19<00:05, 144.37it/s]
+[1ALoading weights:  50%|█████     | 719/1436 [00:19<00:03, 199.51it/s]
+[1ALoading weights:  55%|█████▍    | 786/1436 [00:19<00:02, 316.96it/s]
+[1ALoading weights:  58%|█████▊    | 834/1436 [00:19<00:01, 358.90it/s]
+[1ALoading weights:  62%|██████▏   | 897/1436 [00:19<00:01, 429.58it/s]
+[1ALoading weights:  67%|██████▋   | 962/1436 [00:19<00:00, 478.17it/s]
+[1ALoading weights:  71%|███████   | 1022/1436 [00:20<00:00, 506.79it/s]
+[1ALoading weights:  75%|███████▍  | 1075/1436 [00:20<00:00, 505.29it/s]
+[1ALoading weights:  80%|███████▉  | 1145/1436 [00:20<00:00, 547.23it/s]
+[1ALoading weights:  84%|████████▎ | 1201/1436 [00:20<00:00, 543.62it/s]
+[1ALoading weights:  89%|████████▊ | 1271/1436 [00:20<00:00, 588.32it/s]
+[1ALoading weights:  93%|█████████▎| 1331/1436 [00:20<00:00, 566.96it/s]
+[1ALoading weights:  97%|█████████▋| 1389/1436 [00:20<00:00, 566.07it/s]Loading weights: 100%|██████████| 1436/1436 [00:20<00:00, 69.06it/s] 
+[transformers] Both `max_new_tokens` (=4000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=4000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## RAFAEL_v3_gancho
+CALIFICACIÓN TOTAL: 4/10
+NOTAS: Gancho 2/10 · Oferta 3/10 · Confianza 4/10 · Claridad 3/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 2/10
+POR QUÉ FUNCIONA: 
+- 0.2-1.9s el asesor está quieto con manos en bolsillos frente a autos blancos, la repetición crea curiosidad por el cambio de plano.
+- 3.2-4.9s el auto negro cruza y barre el cuadro, el corte oculto mantiene la atención hasta 4.9s.
+- 6.1s el primer plano dentro del auto cambia el contexto a interior, señal de prueba de manejo.
+QUÉ LO FRENA: 
+- 0.2-3.6s sin texto en pantalla y sin oferta audible; la transcripción 5.9-10.8s “en la ciudad de la ciudad de” no comunica beneficio ni CTA, por lo que no retiene ni califica.
+- 6.1-12.5s el asesor habla con voz clonada pero el audio no coincide con el guion prometido “Menos gasolina y más kilómetros con tu familia. Pregúntame por tu prueba de manejo”; el mensaje no se entiende y no hay subtítulos.
+- 0.2-12.7s no hay datos de modelo, autonomía, zona ni prueba de manejo visibles; el público objetivo no sabe si es para él.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10 con los cambios.
+CÓMO SUBIR CADA NOTA:
+  Gancho 2→8: Texto en capa “¿Cuánto gastas en gasolina al mes en Azcapotzalco?” · 0.0-0.8s · texto en capa
+  Oferta 3→8: Voz clonada “Song Plus, King y Dolphin. Hasta 1,145 km de autonomía. Prueba de manejo sin compromiso en Azcapotzalco.” · 0.8-3.0s · voz clonada
+  Confianza 4→8: Tarjeta en capa “Rafael Hernández, asesor BYD Azcapotzalco” + logo BYD real del cliente · 0.2-1.5s · texto en capa
+  Claridad 3→9: Subtítulos virales palabra por palabra del guion final y CTA en capa “Escríbeme a WhatsApp por tu prueba” · 5.9-12.5s · texto en capa
+  Calidad visual 6→8: Punch-in suave y estabilización en 0.2-3.6s y transición whoosh en el barrido del auto 3.2-4.9s · edición con ffmpeg
+  Políticas de Meta 9→9: ya está, no tocar
+  Mensajes baratos 7→8: Primeros 3s con pregunta de gasto local + rostro del asesor para detener scroll sin clickbait · 0.0-1.0s · texto en capa
+  Mensajes calificados 2→8: Filtro por zona y dolor “Recorres 20 a 50 km diarios en Azcapotzalco/Vallejo” + CTA de prueba de manejo · 1.0-3.0s · texto en capa + voz clonada
+3 GANCHOS ALTERNATIVOS para los primeros 3 segundos, palabra por palabra, cada uno con la escena que lo acompaña:
+- “Tu tanque lleno cada semana en Azcapotzalco” · escena: primer plano del asesor 0.2s con push-in MiniMax H3, fondo autos blancos.
+- “Familias de Vallejo están dejando la gasolina” · escena: plano medio del asesor 0.6s con texto en capa, autos al fondo.
+- “Prueba de manejo hoy, sin compromiso” · escena: corte a interior de auto 6.1s generado con Qwen-Image-Edit a partir de foto real del interior del Song Plus del cliente.
+2 ESCENAS NUEVAS CON IA que más subirían la nota:
+- Exterior atardecer en agencia Azcapotzalco con el asesor de pie junto a Song Plus, cámara órbita lenta 4s. Se hace con MiniMax H3 a partir de foto real del asesor y foto real del Song Plus del cliente. Dura 4s, reemplaza 0.2-1.9s.
+- Interior del auto con tablero encendido y vista a autos blancos por la ventana, primer plano del asesor hablando a cámara 5s. Se hace con Qwen-Image-Edit a partir de foto real del interior del auto del cliente y foto real del rostro del asesor. Dura 5s, se inserta en 6.1-11.1s.
+LO MÁS RÁPIDO: de todo lo anterior, los 3 cambios que suben más nota con menos trabajo, en orden.
+1. Añadir texto en capa en 0.0-0.8s “¿Cuánto gastas en gasolina al mes en Azcapotzalco?” + subtítulos virales en todo el video.
+2. Reemplazar la voz clonada actual por el guion exacto “Menos gasolina y más kilómetros con tu familia. Pregúntame por tu prueba de manejo en Azcapotzalco” en 5.9-10.8s.
+3. Insertar tarjeta en capa “Rafael Hernández, asesor BYD Azcapotzalco · Song Plus, King, Dolphin · Prueba sin compromiso” en 0.2-1.5s y CTA final “Escríbeme a WhatsApp” en 11.5-12.7s.
+
+######## MARIANO_v2_rapel
+CALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 7/10 · Oferta 3/10 · Confianza 6/10 · Claridad 5/10 · Calidad visual 8/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 4/10
+POR QUÉ FUNCIONA:
+- 0.2-2.4s rapel aéreo sobre el fraccionamiento genera curiosidad y retención visual inmediata.
+- 2.7-3.0s aterrizaje frente a la casa muestra ubicación real y escala del desarrollo.
+- 4.0-5.5s quita arnés y sostiene equipo, gesto de llegada que humaniza al asesor.
+- 5.9-9.4s primer plano con voz clonada “Ven, te invito a conocer las casas de Vizcaíno” da invitación directa y personal.
+QUÉ LO FRENA:
+- 0.2-2.4s sin texto ni oferta: el espectador no sabe qué se vende ni precios; se pierde calificación. Arreglo: tarjeta de oferta en capa desde 0.2s.
+- 5.6-9.3s solo invitación genérica, sin modelos, precios ni Infonavit/crédito. Arreglo: voz clonada con oferta específica y tarjetas de precio en capa.
+- 0.2-9.4s no se ve interior, amenidades ni diferenciadores de Vizcaíno. Arreglo: insertar 1-2 clips reales de fachadas/modelos y cancha de pádel con texto en capa.
+VEREDICTO: Subir con cambios
+CÓMO SUBIR CADA NOTA:
+  Gancho 7→8: mantener rapel y añadir texto en capa “Baja en rapel a Vizcaíno Residencial” · 0.2-0.8s · texto en capa
+  Oferta 3→8: añadir tarjetas de precio por modelo con datos reales · 0.2-1.4s y 3.0-4.6s · texto en capa
+  Confianza 6→8: mostrar fachada real y logo del fraccionamiento + “Asesor Mariano” · 2.7-3.6s · texto en capa + corte a toma real del cliente
+  Claridad 5→8: subtítulo palabra por palabra de la voz clonada y CTA claro · 5.6-9.3s · texto en capa
+  Calidad visual 8→8: ya está, no tocar
+  Políticas de Meta 9→9: ya está, no tocar
+  Mensajes baratos 7→8: recortar a 12-15 s con gancho en 0-3 s y CTA temprano · 0.2-9.4s · edición con ffmpeg
+  Mensajes calificados 4→7: voz clonada con filtro de compra y precios en pantalla · 5.6-9.3s · voz clonada Fish Audio + texto en capa
+3 GANCHOS ALTERNATIVOS para los primeros 3 segundos:
+- “1.4 millones en Rosarito. ¿Lo ves?” con escena del rapel 0.2-0.5s sobre el fraccionamiento, filtra buscadores de precio bajo.
+- “Infonavit aprobado aquí” con escena del aterrizaje 2.7-3.0s frente a casa, filtra interesados en crédito.
+- “Casa de 4 recámaras por 3.1” con primer plano del asesor 5.9-6.2s y texto en capa, filtra familias grandes.
+2 ESCENAS NUEVAS CON IA que más subirían la nota:
+- Push-in de fachada Sotol al atardecer generado con Qwen-Image-Edit-2511 a partir de foto real de fachada del cliente, animado 4 s con MiniMax H3 push-in suave, para insertar en 3.0-4.6s.
+- Mini recorrido interior Bugambilia 5 s con MiniMax H3 a partir de foto real interior del cliente, primer y último cuadro fijados, insertar tras el aterrizaje 3.0-4.0s.
+LO MÁS RÁPIDO:
+- Añadir texto en capa con precios y “Infonavit y crédito hipotecario” desde 0.2s.
+- Cambiar voz clonada a “Ven, te invito a conocer Vizcaíno Residencial. Sotol desde 1.4 millones, aceptamos Infonavit. Escríbeme por WhatsApp” y subtitular palabra por palabra 5.6-9.3s.
+- Insertar 1 corte real de 2 s de fachada/modelo y cancha de pádel del cliente entre 3.0-4.6s con texto en capa.
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-LZolU2vtOqJBNPEOSolUKI
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/raf_mar_20261105/lote.json --tokens 4000
+Duración: 3.5 min  (código 0)
+  glimmer (ap-LZolU2vtOqJBNPEOSolUKI): $0.142
+  glimmer (ap-j3uh6BRR8mJVTBqYn2yMhh): $0.209
+  glimmer (ap-qd5nlcJMAX4rD7ncCDllnC): $0.028
+Gasto del trabajo: $0.380
+Saldo restante ≈ $-13.26

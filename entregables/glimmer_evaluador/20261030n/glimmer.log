@@ -1,0 +1,438 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-kTYPWB7g0XPiObXNrKEBZA
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/entregables/glimmer_estrategias_20261029/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:02<1:10:58,  2.97s/it]
+[1ALoading weights:   0%|          | 3/1436 [00:03<19:37,  1.22it/s]  
+[1ALoading weights:   0%|          | 5/1436 [00:03<11:12,  2.13it/s]
+[1ALoading weights:   1%|          | 13/1436 [00:03<03:06,  7.65it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:03<02:50,  8.34it/s]
+[1ALoading weights:   2%|▏         | 28/1436 [00:04<01:25, 16.39it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:04<01:31, 15.26it/s]
+[1ALoading weights:   3%|▎         | 40/1436 [00:04<01:08, 20.34it/s]
+[1ALoading weights:   3%|▎         | 44/1436 [00:04<01:16, 18.13it/s]
+[1ALoading weights:   4%|▎         | 51/1436 [00:05<00:57, 24.28it/s]
+[1ALoading weights:   4%|▍         | 55/1436 [00:05<01:16, 18.13it/s]
+[1ALoading weights:   4%|▍         | 63/1436 [00:05<00:53, 25.70it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:06<01:11, 19.04it/s]
+[1ALoading weights:   5%|▌         | 73/1436 [00:06<01:00, 22.53it/s]
+[1ALoading weights:   5%|▌         | 77/1436 [00:06<01:07, 20.15it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:06<01:11, 18.95it/s]
+[1ALoading weights:   6%|▌         | 86/1436 [00:06<01:03, 21.29it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:06<01:02, 21.49it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:07<01:06, 20.14it/s]
+[1ALoading weights:   7%|▋         | 99/1436 [00:07<00:46, 28.57it/s]
+[1ALoading weights:   7%|▋         | 103/1436 [00:07<01:16, 17.47it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:07<00:55, 23.82it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:08<01:08, 19.27it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:08<01:06, 19.82it/s]
+[1ALoading weights:   9%|▊         | 125/1436 [00:08<01:03, 20.57it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [00:08<01:17, 16.92it/s]
+[1ALoading weights:   9%|▉         | 133/1436 [00:09<01:02, 20.93it/s]
+[1ALoading weights:   9%|▉         | 136/1436 [00:09<01:01, 21.06it/s]
+[1ALoading weights:  10%|▉         | 139/1436 [00:09<01:25, 15.25it/s]
+[1ALoading weights:  10%|▉         | 143/1436 [00:09<01:08, 18.74it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:09<01:05, 19.81it/s]
+[1ALoading weights:  11%|█         | 151/1436 [00:10<01:28, 14.48it/s]
+[1ALoading weights:  11%|█         | 158/1436 [00:10<00:59, 21.32it/s]
+[1ALoading weights:  11%|█         | 161/1436 [00:10<01:09, 18.34it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:10<01:13, 17.33it/s]
+[1ALoading weights:  12%|█▏        | 170/1436 [00:11<00:54, 23.15it/s]
+[1ALoading weights:  12%|█▏        | 173/1436 [00:11<01:06, 19.07it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:11<01:07, 18.55it/s]
+[1ALoading weights:  13%|█▎        | 182/1436 [00:11<01:01, 20.24it/s]
+[1ALoading weights:  13%|█▎        | 185/1436 [00:11<00:59, 20.92it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:12<01:02, 20.01it/s]
+[1ALoading weights:  14%|█▎        | 194/1436 [00:12<00:45, 27.21it/s]
+[1ALoading weights:  14%|█▍        | 198/1436 [00:12<01:10, 17.63it/s]
+[1ALoading weights:  14%|█▍        | 205/1436 [00:12<00:49, 24.76it/s]
+[1ALoading weights:  15%|█▍        | 209/1436 [00:13<01:10, 17.33it/s]
+[1ALoading weights:  15%|█▌        | 217/1436 [00:13<00:57, 21.28it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:13<00:56, 21.36it/s]
+[1ALoading weights:  16%|█▌        | 223/1436 [00:13<00:58, 20.65it/s]
+[1ALoading weights:  16%|█▌        | 229/1436 [00:13<00:45, 26.33it/s]
+[1ALoading weights:  16%|█▌        | 233/1436 [00:14<01:05, 18.26it/s]
+[1ALoading weights:  17%|█▋        | 239/1436 [00:14<00:49, 24.17it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:14<00:44, 26.55it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:14<00:59, 20.09it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:15<00:49, 23.82it/s]
+[1ALoading weights:  18%|█▊        | 259/1436 [00:15<01:04, 18.36it/s]
+[1ALoading weights:  19%|█▊        | 267/1436 [00:15<00:51, 22.63it/s]
+[1ALoading weights:  19%|█▉        | 270/1436 [00:15<01:03, 18.29it/s]
+[1ALoading weights:  19%|█▉        | 279/1436 [00:16<00:41, 27.58it/s]
+[1ALoading weights:  20%|█▉        | 283/1436 [00:16<01:00, 18.95it/s]
+[1ALoading weights:  20%|██        | 290/1436 [00:16<00:45, 25.41it/s]
+[1ALoading weights:  21%|██        | 295/1436 [00:17<01:02, 18.38it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:17<00:46, 24.60it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:17<00:54, 20.74it/s]
+[1ALoading weights:  22%|██▏       | 314/1436 [00:17<00:45, 24.80it/s]
+[1ALoading weights:  22%|██▏       | 318/1436 [00:18<01:03, 17.54it/s]
+[1ALoading weights:  23%|██▎       | 328/1436 [00:18<00:44, 25.11it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:18<00:52, 21.12it/s]
+[1ALoading weights:  23%|██▎       | 337/1436 [00:18<00:44, 24.60it/s]
+[1ALoading weights:  24%|██▎       | 341/1436 [00:19<00:49, 22.05it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:19<00:54, 19.99it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:19<00:43, 24.65it/s]
+[1ALoading weights:  25%|██▍       | 355/1436 [00:19<00:59, 18.23it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:19<00:42, 25.06it/s]
+[1ALoading weights:  26%|██▌       | 367/1436 [00:20<00:54, 19.63it/s]
+[1ALoading weights:  26%|██▌       | 373/1436 [00:20<00:43, 24.22it/s]
+[1ALoading weights:  26%|██▋       | 377/1436 [00:20<01:00, 17.42it/s]
+[1ALoading weights:  27%|██▋       | 385/1436 [00:20<00:43, 24.36it/s]
+[1ALoading weights:  27%|██▋       | 389/1436 [00:21<00:52, 19.96it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:21<00:53, 19.59it/s]
+[1ALoading weights:  28%|██▊       | 398/1436 [00:21<00:42, 24.56it/s]
+[1ALoading weights:  28%|██▊       | 402/1436 [00:21<00:56, 18.18it/s]
+[1ALoading weights:  29%|██▊       | 410/1436 [00:22<00:46, 22.15it/s]
+[1ALoading weights:  29%|██▉       | 413/1436 [00:22<00:47, 21.43it/s]
+[1ALoading weights:  29%|██▉       | 416/1436 [00:22<00:50, 20.22it/s]
+[1ALoading weights:  29%|██▉       | 423/1436 [00:22<00:35, 28.29it/s]
+[1ALoading weights:  30%|██▉       | 427/1436 [00:23<00:53, 18.81it/s]
+[1ALoading weights:  30%|███       | 432/1436 [00:23<00:43, 23.08it/s]
+[1ALoading weights:  30%|███       | 437/1436 [00:23<00:54, 18.45it/s]
+[1ALoading weights:  31%|███       | 443/1436 [00:23<00:42, 23.39it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:23<00:36, 27.30it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:24<00:46, 21.34it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:24<00:37, 26.12it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:24<00:47, 20.61it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:24<00:37, 25.64it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:25<00:46, 20.78it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:25<00:36, 26.05it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:25<00:45, 21.01it/s]
+[1ALoading weights:  34%|███▍      | 494/1436 [00:25<00:35, 26.37it/s]
+[1ALoading weights:  35%|███▍      | 498/1436 [00:26<00:50, 18.64it/s]
+[1ALoading weights:  35%|███▌      | 506/1436 [00:26<00:41, 22.15it/s]
+[1ALoading weights:  35%|███▌      | 509/1436 [00:26<00:40, 22.82it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:26<00:41, 22.32it/s]
+[1ALoading weights:  36%|███▌      | 517/1436 [00:27<00:43, 21.26it/s]
+[1ALoading weights:  36%|███▋      | 521/1436 [00:27<00:50, 18.26it/s]
+[1ALoading weights:  37%|███▋      | 529/1436 [00:27<00:47, 19.09it/s]
+[1ALoading weights:  37%|███▋      | 534/1436 [00:27<00:42, 21.45it/s]
+[1ALoading weights:  38%|███▊      | 543/1436 [00:28<00:29, 30.63it/s]
+[1ALoading weights:  38%|███▊      | 547/1436 [00:28<00:45, 19.56it/s]
+[1ALoading weights:  39%|███▊      | 555/1436 [00:28<00:37, 23.47it/s]
+[1ALoading weights:  39%|███▉      | 559/1436 [00:29<00:44, 19.62it/s]
+[1ALoading weights:  39%|███▉      | 566/1436 [00:29<00:34, 25.48it/s]
+[1ALoading weights:  40%|███▉      | 570/1436 [00:29<00:47, 18.20it/s]
+[1ALoading weights:  40%|████      | 576/1436 [00:29<00:38, 22.62it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:29<00:36, 23.53it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:30<00:45, 18.63it/s]
+[1ALoading weights:  41%|████      | 588/1436 [00:30<00:39, 21.61it/s]
+[1ALoading weights:  41%|████      | 592/1436 [00:30<00:36, 23.26it/s]
+[1ALoading weights:  41%|████▏     | 595/1436 [00:30<00:49, 17.00it/s]
+[1ALoading weights:  42%|████▏     | 601/1436 [00:31<00:42, 19.43it/s]
+[1ALoading weights:  42%|████▏     | 605/1436 [00:31<00:48, 16.98it/s]
+[1ALoading weights:  43%|████▎     | 613/1436 [00:31<00:33, 24.70it/s]
+[1ALoading weights:  43%|████▎     | 617/1436 [00:31<00:46, 17.61it/s]
+[1ALoading weights:  43%|████▎     | 622/1436 [00:32<00:38, 21.08it/s]
+[1ALoading weights:  45%|████▍     | 642/1436 [00:32<00:16, 48.24it/s]
+[1ALoading weights:  47%|████▋     | 674/1436 [00:32<00:08, 95.17it/s]
+[1ALoading weights:  48%|████▊     | 695/1436 [00:32<00:06, 116.13it/s]
+[1ALoading weights:  50%|█████     | 720/1436 [00:32<00:04, 145.29it/s]
+[1ALoading weights:  52%|█████▏    | 750/1436 [00:32<00:03, 175.57it/s]
+[1ALoading weights:  55%|█████▍    | 787/1436 [00:32<00:02, 223.20it/s]
+[1ALoading weights:  57%|█████▋    | 818/1436 [00:32<00:02, 243.93it/s]
+[1ALoading weights:  59%|█████▉    | 850/1436 [00:32<00:02, 253.17it/s]
+[1ALoading weights:  62%|██████▏   | 887/1436 [00:33<00:01, 280.78it/s]
+[1ALoading weights:  64%|██████▍   | 918/1436 [00:33<00:01, 288.08it/s]
+[1ALoading weights:  67%|██████▋   | 960/1436 [00:33<00:01, 310.34it/s]
+[1ALoading weights:  69%|██████▉   | 994/1436 [00:33<00:01, 305.77it/s]
+[1ALoading weights:  72%|███████▏  | 1034/1436 [00:33<00:01, 323.29it/s]
+[1ALoading weights:  74%|███████▍  | 1067/1436 [00:33<00:01, 304.67it/s]
+[1ALoading weights:  77%|███████▋  | 1106/1436 [00:33<00:01, 324.26it/s]
+[1ALoading weights:  79%|███████▉  | 1139/1436 [00:33<00:00, 320.66it/s]
+[1ALoading weights:  82%|████████▏ | 1175/1436 [00:33<00:00, 326.17it/s]
+[1ALoading weights:  84%|████████▍ | 1208/1436 [00:34<00:00, 310.87it/s]
+[1ALoading weights:  87%|████████▋ | 1246/1436 [00:34<00:00, 315.00it/s]
+[1ALoading weights:  90%|████████▉ | 1286/1436 [00:34<00:00, 337.85it/s]
+[1ALoading weights:  92%|█████████▏| 1321/1436 [00:34<00:00, 318.67it/s]
+[1ALoading weights:  94%|█████████▍| 1354/1436 [00:34<00:00, 316.39it/s]
+[1ALoading weights:  97%|█████████▋| 1386/1436 [00:34<00:00, 308.95it/s]
+[1ALoading weights:  99%|█████████▉| 1425/1436 [00:34<00:00, 330.83it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:34<00:00, 41.39it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## VICTOR_obra_fina_v5
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+NEGOCIO: Víctor · Servilin: servicio de limpieza y mantenimiento PARA EMPRESAS (oficinas, plantas, bodegas, obras, fraccionamientos), personal uniformado, capacitado y supervisado. NO es vacante de empleo (antes llegaban mensajes pidiendo trabajo). CTA: WhatsApp con tipo de inmueble y m². Precio [CONFIRMAR]. Objetivo: mensajes de empresas que contraten.
+Objetivo: campaña de mensajes a WhatsApp con mensajes baratos y CALIFICADOS (gente que sí compra).
+
+VIDEO DEL ANUNCIO (34.1 s, 9:16). Imágenes adjuntas = 30 cuadros repartidos en TODO el video (2 hojas de 15, con el segundo de cada cuadro arriba a la izquierda). Los subtítulos y tarjetas son capas de texto exactas.
+TRANSCRIPCIÓN DE LO QUE SE DICE (con tiempos):
+[  2.1-  8.5s] Eres constructora o desarrollador. Entregamos tus casas y departamentos listos. Limpieza de obra
+[  8.5- 15.5s] fina. Retiramos el polvo de obra, el cemento y los restos de pintura. Quitamos plásticos,
+[ 15.5- 21.9s] protectores y etiquetas de ventanas y cocina, con personal uniformado, capacitado y supervisado,
+[ 21.9- 28.3s] a tu servicio. Tu obra lista para entregar. Solicita una propuesta para tu empresa por
+[ 28.3- 32.4s] WhatsApp. Dinos qué tipo de inmueble y cuántos metros cuadrados.
+
+Responde EXACTAMENTE con este formato:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+CAPACIDADES...
+
+We need to evaluate video. Use only data. No invent prices. Mark [CONFIRMAR] if missing.
+
+We need rating total X/10 and notes each X/10.
+
+We need POR QUÉ FUNCIONA: 3-5 bullet points with exact second and why.
+
+QUÉ LO FRENA: 1-3 bullet points with exact second and concrete fix viable with capabilities.
+
+VEREDICTO: Subir ya / Subir con cambios / No subir, and projected rating.
+
+We must use only data from below. The video frames show timestamps: 0.6s,1.7s,2.8s,4.0s,5.1s,6.2s,7.4s,8.5s,9.7s,10.8s,11.9s,13.1s,14.2s,15.3s,16.5s,17.6s,18.7s,19.9s,21.0s,22.2s,23.3s,24.4s,25.6s,26.7s,27.8s,29.0s,30.1s,31.2s,32.4s,33.5s.
+
+Transcription times: 2.1-8.5s, 8.5-15.5s, 15.5-21.9s, 21.9-28.3s, 28.3-32.4s.
+
+We need to reference seconds exact from video. Probably use timestamps from frames.
+
+Observations: Video shows cleaning, polvo de obra fuera, limpieza de obra fina, ¿Eres constructora o desarrollador?, personal uniformado capacitado y supervisado, quitamos plásticos y etiquetas, SERVILIN limpieza de obra fina casas departamentos desarrollos solicita propuesta por whatsapp para tu empresa qué tipo de inmueble y cuántos m²?
+
+Top banner: SOLO EMPRESAS - NO ES VACANTE, REPSE ISO STPS.
+
+First frames 0.6s-1.7s show "EMPRESAS NO ES VACANTE DE EMPLEO STPS VACANTE"? Actually text.
+
+The hook: "¿ERES CONSTRUCTORA O DESARROLLADOR?" appears at 2.8s-8.5s. Good.
+
+Potential issues: The video shows same woman repeatedly, maybe AI generated? Quality visual maybe okay but repetitive. The first 0.6s-1.7s shows "POLVO DE OBRA FUERA LIMPIEZA DE OBRA FINA" with woman sweeping. Might be okay.
+
+Frena: The CTA appears late at 25.6s onward, dark screen with text only, no visual proof. Could be improved with real footage. Also the first 0.6s shows "EMPRESAS NO ES VACANTE DE EMPLEO" maybe confusing. Also the video shows only construction cleaning, but business description includes oficinas, plantas, bodegas, fraccionamientos. The video focuses only on obra fina. Might be mismatch.
+
+Also messages baratos vs calificados: The ad targets constructora/desarrollador, good qualification. But the banner "SOLO EMPRESAS - NO ES VACANTE" is good to filter job seekers.
+
+Potential frena: No price, but price is [CONFIRMAR] so can't invent. That's okay.
+
+The video has 34.1s, but CTA text appears at 25.6s and stays. The voice says CTA at 28.3-32.4s. Good.
+
+Maybe the video lacks social proof / testimonial. Could add real footage of client.
+
+Also the frames 14.2s-16.5s show plastic removal with multiple women, but the reflection looks AI. Might be okay.
+
+We need to give rating. Let's estimate.
+
+Gancho: 8/10? The question "¿Eres constructora o desarrollador?" at 2.8s is good. But first 0.6s shows polvo de obra fuera, maybe not hook. Could be 7.
+
+Oferta: 7/10? Shows services but no price [CONFIRMAR]. Clear service.
+
+Confianza: 7/10? Personal uniformado, capacitado y supervisado at 21.9s, REPSE ISO STPS banner. Good.
+
+Claridad: 8/10? CTA clear: WhatsApp tipo inmueble y m².
+
+Calidad visual: 6/10? AI generated look, repetitive, plastic removal scene looks artificial.
+
+Políticas de Meta: 9/10? No prohibited content. "NO ES VACANTE" good.
+
+Mensajes baratos: 8/10? Target narrow.
+
+Mensajes calificados: 8/10? Filters job seekers.
+
+Total maybe 7.5? Must be integer? X/10. Probably 7/10.
+
+Let's propose total 7/10.
+
+Notes: Gancho 7/10 · Oferta 7/10 · Confianza 7/10 · Claridad 8/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 8/10 · Mensajes calificados 8/10
+
+POR QUÉ FUNCIONA:
+- 2.8s-8.5s: texto "¿ERES CONSTRUCTORA O DESARROLLADOR?" + voz coincide, filtra a decisores y evita candidatos a empleo.
+- 9.7s-13.1s: muestra retiro de polvo/cemento con escoba y espátula, prueba visual del servicio de limpieza de obra fina que se vende.
+- 14.2s-17.6s: "QUITAMOS PLÁSTICOS Y ETIQUETAS" con escena de retiro de plástico en cocina, demuestra entrega lista para entregar.
+- 18.7s-24.4s: "PERSONAL UNIFORMADO CAPACITADO Y SUPERVISADO" con supervisor observando, refuerza confianza B2B.
+- 25.6s-33.5s: cierre con marca SERVILIN y CTA "SOLICITA UNA PROPUESTA POR WHATSAPP... ¿QUÉ TIPO DE INMUEBLE Y CUÁNTOS M²?" guía la respuesta calificada.
+
+QUÉ LO FRENA:
+- 0.6s-1.7s: abre con "POLVO DE OBRA FUERA LIMPIEZA DE OBRA FINA" sin contexto de empresa; el gancho de calificación llega hasta 2.8s. Arreglo viable: reemplazar primer cuadro con un push-in animado de la escena de 2.8s con el texto "¿ERES CONSTRUCTORA O DESARROLLADOR?" en capa, manteniendo voz.
+- 25.6s-33.5s: 8 segundos de pantalla oscura solo con texto de marca y CTA, sin prueba visual. Arreglo viable: intercalar con tomas reales del cliente de recorridos con celular de casas/departamentos terminados, con animación imagen→video push-in suave y texto en capa.
+- 14.2s-16.5s: escena de retiro de plásticos con reflejos y duplicados que se lee como generado. Arreglo viable: sustituir por toma real del cliente de cocina/ventana con plástico y usar animación MiniMax H3 con movimiento de cámara suave, texto en capa.
+
+VEREDICTO: «Subir con cambios», calificación proyectada 8.5/10
+
+Make sure format exact.
+
+The format requires:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+Use bullet points? Probably dash or •. Use viñetas cortas.
+
+Ensure Spanish.
+
+No invent prices. We have [CONFIRMAR] for price. We didn't mention price.
+
+We must not show reasoning.
+
+Output only final answer.
+
+Let's produce.
+
+Potential nuance: The video transcription says 2.1-8.5s Eres constructora... But frames show ¿ERES CONSTRUCTORA O DESARROLLADOR? at 2.8s. Use seconds from frames? Might be okay to reference both.
+
+Use exact seconds from frames: 2.8s, 4.0s etc.
+
+Let's craft POR QUÉ FUNCIONA with 4 bullets.
+
+Make sure each bullet mentions second exact.
+
+QUÉ LO FRENA: 1-3 bullets with second exact and concrete fix.
+
+We must ensure fixes are viable with capabilities listed: Qwen-Image-Edit, MiniMax H3, voice clone, real takes, ffmpeg editing, text layer, music.
+
+So suggestions: replace first frame with push-in, intercalar tomas reales, etc.
+
+Ok.
+
+Final output.
+
+Let's ensure no extra commentary.
+
+assistant to=userCALIFICACIÓN TOTAL: 7/10
+NOTAS: Gancho 7/10 · Oferta 7/10 · Confianza 7/10 · Claridad 8/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 8/10 · Mensajes calificados 8/10
+POR QUÉ FUNCIONA:
+- 2.8s-8.5s: aparece “¿ERES CONSTRUCTORA O DESARROLLADOR?” con voz “Eres constructora o desarrollador. Entregamos tus casas y departamentos listos”. Filtra a decisores B2B y aleja búsqueda de empleo.
+- 9.7s-13.1s: secuencia de retiro de polvo/cemento con espátula y escoba y texto “POLVO DE OBRA FUERA LIMPIEZA DE OBRA FINA”. Prueba visual directa del servicio que se vende.
+- 14.2s-17.6s: “QUITAMOS PLÁSTICOS Y ETIQUETAS” con escena de retiro de plástico en cocina. Demuestra entrega lista para entregar.
+- 18.7s-24.4s: “PERSONAL UNIFORMADO CAPACITADO Y SUPERVISADO” con supervisor observando. Refuerza confianza B2B y el sello REPSE ISO STPS en cabecera.
+- 25.6s-33.5s: cierre SERVILIN “LIMPIEZA DE OBRA FINA CASAS · DEPARTAMENTOS · DESARROLLOS” + “SOLICITA UNA PROPUESTA POR WHATSAPP PARA TU EMPRESA ¿QUÉ TIPO DE INMUEBLE Y CUÁNTOS M²?” guía la respuesta calificada.
+QUÉ LO FRENA:
+- 0.6s-1.7s: abre con “POLVO DE OBRA FUERA LIMPIEZA DE OBRA FINA” sin contexto de empresa; el gancho de calificación llega hasta 2.8s. Arreglo viable: reemplazar el primer cuadro por un push-in animado con MiniMax H3 a partir de foto real del cliente con el texto en capa “¿ERES CONSTRUCTORA O DESARROLLADOR?” manteniendo la voz.
+- 25.6s-33.5s: 8 s de pantalla oscura solo con texto de marca y CTA, sin prueba visual. Arreglo viable: intercalar tomas reales del cliente de recorridos con celular de casas/departamentos terminados con animación imagen→video push-in suave y texto en capa, manteniendo la voz clonada.
+- 14.2s-16.5s: escena de retiro de plásticos con reflejos/duplicados que se lee como generado. Arreglo viable: sustituir por toma real del cliente de ventana/cocina con plástico y animar con MiniMax H3 movimiento de cámara suave, texto en capa.
+VEREDICTO: «Subir con cambios», calificación proyectada 8.5/10
+
+######## VICTOR_v2_v5
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+NEGOCIO: Víctor · Servilin: servicio de limpieza y mantenimiento PARA EMPRESAS (oficinas, plantas, bodegas, obras, fraccionamientos), personal uniformado, capacitado y supervisado. NO es vacante de empleo (antes llegaban mensajes pidiendo trabajo). CTA: WhatsApp con tipo de inmueble y m². Precio [CONFIRMAR]. Objetivo: mensajes de empresas que contraten.
+Objetivo: campaña de mensajes a WhatsApp con mensajes baratos y CALIFICADOS (gente que sí compra).
+
+VIDEO DEL ANUNCIO (33.0 s, 9:16). Imágenes adjuntas = 30 cuadros repartidos en TODO el video (2 hojas de 15, con el segundo de cada cuadro arriba a la izquierda). Los subtítulos y tarjetas son capas de texto exactas.
+TRANSCRIPCIÓN DE LO QUE SE DICE (con tiempos):
+[  2.2-  8.3s] Aministras una planta, oficina o bodega. Deja de batallar con el personal de
+[  8.3- 13.4s] limpieza. Nosotros nos encargamos. La limpieza de tu planta no debería ser un
+[ 13.4- 18.3s] problema. En Servilín trabajamos con personal uniformado, capacitado y
+[ 18.3- 23.0s] supervisado. Nosotros nos encargamos de la limpieza y el mantenimiento. Tú te
+[ 23.0- 27.7s] enfocas en producir. Solicita una propuesta para tu empresa por WhatsApp.
+[ 27.7- 31.3s] Dinos qué tipo de inmueble y cuántos metros cuadrados.
+
+Responde EXACTAMENTE con este formato:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+CAPACIDADES...
+
+We need to evaluate video. Use data only. No invent prices. Price [CONFIRMAR].
+
+We need rating total X/10 and notes each X/10.
+
+We need POR QUÉ FUNCIONA: 3-5 bullet points with exact second and why.
+
+QUÉ LO FRENA: 1-3 bullet points with exact second and concrete fix viable with capabilities.
+
+VEREDICTO: Subir ya / Subir con cambios / No subir, and projected rating.
+
+We must use only data. The video frames timestamps: 0.5s,1.6s,2.7s,3.8s,4.9s,6.0s,7.1s,8.2s,9.3s,10.4s,11.5s,12.6s,13.7s,14.8s,15.9s,17.0s,18.1s,19.2s,20.3s,21.4s,22.5s,23.6s,24.7s,25.8s,26.9s,28.0s,29.1s,30.2s,31.3s,32.4s.
+
+Transcription times: 2.2-8.3s, 8.3-13.4s, 13.4-18.3s, 18.3-23.0s, 23.0-27.7s, 27.7-31.3s.
+
+We need to assess.
+
+Gancho: first seconds. At 0.5s-1.6s shows bathroom with "DEJA DE BATALLAR NOSOTROS NOS ENCARGAMOS". Top text "EMPRESAS NO ES VACANTE DE EMPLEO". Good hook for B2B? Maybe 6/10.
+
+Oferta: service cleaning maintenance for plants offices warehouses. No price. CTA WhatsApp with type and m2. Oferta clear but no price. Maybe 6/10.
+
+Confianza: shows personal uniformado, capacitado y supervisado, REPSE ISO STPS badges, "SOLO EMPRESAS - NO ES VACANTE". Good. 7/10.
+
+Claridad: message clear, but "Aministras" typo? transcription says Aministras. Might be "Administras". Clarity 7/10.
+
+Calidad visual: images look AI generated? Might be synthetic. Some deformation? Looks okay but repetitive. Maybe 6/10.
+
+Políticas de Meta: no prohibited content. Claims? "personal uniformado capacitado y supervisado" okay. No before/after misleading? Might be okay. 9/10.
+
+Mensajes baratos: targeting empresas, "SOLO EMPRESAS - NO ES VACANTE" reduces job seekers. Good. 7/10.
+
+Mensajes calificados: CTA asks type inmueble and m2, qualifies. But no price filter. 7/10.
+
+Total maybe 6.8? Need integer? X/10. Probably 6/10 or 7/10.
+
+Let's pick total 6/10.
+
+Notes: Gancho 6/10 · Oferta 6/10 · Confianza 7/10 · Claridad 7/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 7/10
+
+POR QUÉ FUNCIONA:
+- 2.7s-4.9s: pregunta "¿ADMINISTRAS UNA PLANTA, OFICINA O BODEGA?" con equipo limpiando ventanas, identifica al decisor B2B y filtra.
+- 6.0s-10.4s: "DEJA DE BATALLAR NOSOTROS NOS ENCARGAMOS" con escena de baño y tablet, muestra dolor de personal y solución.
+- 11.5s-13.7s: "LA LIMPIEZA NO DEBERÍA SER UN PROBLEMA" con barrido en planta real, prueba visual de contexto industrial.
+- 24.7s-26.9s: pantalla SERVILIN con CTA "SOLICITA UNA PROPUESTA POR WHATSAPP PARA TU EMPRESA ¿QUÉ TIPO DE INMUEBLE Y CUÁNTOS M²?" califica lead pidiendo datos de compra.
+
+Maybe 4 bullets.
+
+QUÉ LO FRENA:
+- 0.5s-1.6s: texto superior "EMPRESAS NO ES VACANTE DE EMPLEO" y "STPS VACANTE" se superpone y cambia entre cuadros, confunde. Arreglo viable: quitar textos variables con Qwen-Image-Edit-2511 y mantener en capa fija "SOLO EMPRESAS · NO ES VACANTE DE EMPLEO".
+- 23.0s-27.7s: la voz dice "Solicita una propuesta..." pero el video muestra escena de lavado industrial 19.2s-22.5s y luego baño 23.6s, sin continuidad visual con la promesa. Arreglo viable: reordenar clips con ffmpeg para que 23.0s-27.7s muestre personal supervisando con tablet, manteniendo primer/último cuadro fijados.
+- 27.7s-32.4s: cierre estático 8 segundos con misma tarjeta SERVILIN, riesgo de abandono. Arreglo viable: animar la tarjeta con MiniMax H3 push-in suave y cambiar velocidad con ffmpeg para mantener atención sin nuevo rodaje.
+
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10.
+
+Make sure format exact.
+
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: ...
+QUÉ LO FRENA: ...
+VEREDICTO: ...
+
+Use bullet points? Probably dash or •. Use viñetas cortas.
+
+Ensure Spanish.
+
+No invent prices. Price [CONFIRMAR] not used.
+
+Make sure not to invent times beyond given. Use seconds exact from frames.
+
+We have frames at 0.5s etc. Use those.
+
+Maybe mention 2.2-8.3s transcription.
+
+Provide final answer.
+
+Let's produce final.assistant to=userCALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 6/10 · Oferta 6/10 · Confianza 7/10 · Claridad 7/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 7/10
+POR QUÉ FUNCIONA:
+- 2.7s-4.9s: “¿ADMINISTRAS UNA PLANTA, OFICINA O BODEGA?” con equipo limpiando ventanas, nombra al decisor B2B y filtra desde el inicio.
+- 6.0s-10.4s: “DEJA DE BATALLAR NOSOTROS NOS ENCARGAMOS” en baño con tablet, muestra el dolor de gestionar personal y la promesa de externalizar.
+- 11.5s-13.7s: “LA LIMPIEZA NO DEBERÍA SER UN PROBLEMA” con barrido en nave industrial, prueba visual de contexto planta/bodega.
+- 24.7s-26.9s: cierre SERVILIN “SOLICITA UNA PROPUESTA POR WHATSAPP PARA TU EMPRESA ¿QUÉ TIPO DE INMUEBLE Y CUÁNTOS M²?” pide datos de compra y califica el lead.
+QUÉ LO FRENA:
+- 0.5s-1.6s: texto superior “EMPRESAS NO ES VACANTE DE EMPLEO / STPS VACANTE” cambia entre cuadros y se superpone. Arreglo viable: limpiar el texto de los cuadros con Qwen-Image-Edit-2511 y mantener en capa fija “SOLO EMPRESAS · NO ES VACANTE DE EMPLEO”.
+- 23.0s-27.7s: la voz dice “Solicita una propuesta… Tú te enfocas en producir” pero la imagen salta de lavado industrial 19.2s-22.5s a baño 23.6s sin continuidad. Arreglo viable: reordenar con ffmpeg para que 23.0s-27.7s muestre supervisión con tablet y personal uniformado, manteniendo primer/último cuadro fijados.
+- 27.7s-32.4s: cierre estático 8 s con la misma tarjeta SERVILIN. Arreglo viable: animar la tarjeta con MiniMax H3 push-in suave y variar velocidad con ffmpeg para retener atención sin nuevo rodaje.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-30T22:07:03+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-kTYPWB7g0XPiObXNrKEBZA
+
+== Reporte Modal fgabriel60 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261030n/lote.json --tokens 4500
+Duración: 9.5 min  (código 0)
+  glimmer (ap-kTYPWB7g0XPiObXNrKEBZA): $0.398
+Gasto del trabajo: $0.398
+Saldo restante ≈ $1.76

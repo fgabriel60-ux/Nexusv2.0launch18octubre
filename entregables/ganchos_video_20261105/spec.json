@@ -1,0 +1,48 @@
+{
+ "carpeta": "entregables/ganchos_video_20261105",
+ "salida": "entregables/ganchos_video_20261105/cuadros",
+ "semilla": 21,
+ "ancho": 720,
+ "alto": 1280,
+ "pasos": 30,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "RAF_1",
+   "RAF_polo_1_afuera",
+   "El hombre está parado completamente quieto con las manos en los bolsillos, mirando a la cámara; lo único que se mueve es la cámara, que gira despacio alrededor de él mientras los autos del fondo se van revelando. Él no camina ni gesticula.",
+   3,
+   null
+  ],
+  [
+   "RAF_2",
+   "RAF_polo_2_pasa_carro",
+   "El auto oscuro del primer plano cruza la calle de un lado al otro y barre el cuadro, tapando por un instante al hombre, que sigue quieto detrás. Movimiento rápido y continuo del auto.",
+   2,
+   null
+  ],
+  [
+   "RAF_3",
+   "RAF_polo_3_adentro",
+   "Dentro del auto, el hombre sentado habla a la cámara explicando algo, con movimiento natural de la boca y la cabeza; la cámara se acerca muy despacio. El fondo por la ventana queda quieto.",
+   4,
+   null
+  ],
+  [
+   "MAR_1",
+   "MAR_rapel_A",
+   "El hombre desciende colgado de la cuerda, bajando despacio hacia el fraccionamiento; la cuerda se mueve apenas y el suelo con las casas se va acercando. Él sujeta la cuerda con los guantes, sin soltar ni cambiar de postura.",
+   4,
+   null
+  ],
+  [
+   "MAR_2",
+   "MAR_rapel_B",
+   "El hombre, ya de pie frente a la casa, suelta la cuerda que sube fuera de cuadro y mira a la cámara; la cámara se acerca despacio. Él no camina.",
+   3,
+   null
+  ]
+ ],
+ "voces": {}
+}

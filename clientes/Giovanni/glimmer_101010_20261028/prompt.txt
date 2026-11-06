@@ -1,0 +1,29 @@
+Eres estratega de anuncios de Meta (Facebook/Instagram) para negocios en México. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento.
+
+CLIENTE: Lic. Giovanni Pulido, abogado en Los Cabos, BCS. Servicio: DIVORCIOS EN LÍNEA (trámite 100% en línea, sin filas ni traslados).
+Datos reales que él nos dio: más de 90 divorcios resueltos; más de 15 años de experiencia; 90% de los divorcios que lleva son voluntarios; "precio único sin sorpresas"; discreción total; respuesta rápida por WhatsApp (624 136 33 28); "los tiempos varían según el juzgado".
+HISTORIAL REAL: con un anuncio anterior a $18,000 recibió "muchos mensajes por WhatsApp pero nadie contrató; no sé si se espantaron por el precio". Sus cierres anteriores han sido por referidos. Él consultó con ChatGPT y le dijo que $20,000 es el precio estándar de mercado. Presupuesto: $100 MXN diarios, campaña de mensajes a WhatsApp.
+
+LAS DOS OPCIONES DE PRECIO A CALIFICAR:
+ PRECIO 1: divorcio voluntario desde $18,000 MXN.
+ PRECIO 2: divorcio voluntario desde $20,000 MXN.
+
+ANUNCIOS ADJUNTOS (imágenes, en orden): 1-3 = anuncios A/B/C estilo azul marino y dorado, ya con "Divorcios en línea" (A "Tu tranquilidad merece un proceso claro" desde $18,000; B "Tu tiempo merece menos trámites" resultados en 15 días desde $20,000; C "Tu familia merece un cierre en paz" voluntario desde $18,000). 4-5 = versiones en rojo con su cara real al frente, sello "precio único sin sorpresas" y su WhatsApp, voluntario desde $18,000.
+(Nota: el anuncio B menciona "15 días"; Meta rechaza promesas de plazo en servicios legales.)
+
+TAREA:
+1) Califica la CAMPAÑA con cada precio por separado (Precio 1 y Precio 2), como si la revisaras en Meta: relevancia/calidad esperada del anuncio, probabilidad de CTR, costo por mensaje esperado, y probabilidad de mensajes calificados que sí contraten. Da calificación x/10 para cada precio en: Confianza, Claridad de la oferta, Mensajes calificados. Di cuál precio conviene y por qué (considera que con $18,000 nadie contrató y que el precio de mercado es $20,000). No inventes cifras de Meta: si estimas, dilo.
+2) Califica cada anuncio adjunto (1 a 5) con una línea y di cuál lanzar primero y qué corregir (políticas de Meta en servicios legales).
+3) Entrega UN GUION para video 10/10/10: fórmula Confianza 10/10, Claridad de la oferta 10/10, Mensajes calificados por WhatsApp 10/10. Con: 3 ganchos de 0-3 s y elige el mejor; guion palabra por palabra de 25-35 s con la voz clonada de Giovanni; tabla de escenas (#, segundos, qué se ve, texto en pantalla exacto, voz); CTA exacto; 2-3 preguntas de precalificación para WhatsApp (incluye una que filtre por precio); qué NO decir. Usa solo los datos reales de arriba y solo lo que la producción permite (abajo). Entrega el guion para el precio que recomiendes y dime qué cambiar en una línea si fuera el otro.
+4) Calificación honesta final de tu plan (Confianza, Claridad, Mensajes calificados, x/10) y qué faltaría para llegar a 10/10/10.
+
+CAPACIDADES DE PRODUCCIÓN DE VIDEO (lo que SÍ podemos hacer; propón solo mejoras viables con esto):
+- Cuadros nuevos con Qwen-Image-Edit-2511 a partir de fotos REALES del cliente (su cara, su ropa, sus casas): poses, encuadres, hora del día (día/atardecer/noche), quitar textos.
+- Animación imagen→video con MiniMax H3 (clips de ~5 s, vertical 704x1280): movimiento de cámara (push-in, dolly, dron, órbita), primer y último cuadro fijados (ej. salto de un techo y aterrizaje), labios sincronizados con la voz clonada. Rostros y manos pueden deformarse con movimientos bruscos; el texto generado dentro del video sale inventado, por eso todo texto va en capa aparte.
+- Voz clonada del asesor (Fish Audio) por frase, con guion exacto; podemos cambiar palabras, orden y velocidad.
+- Tomas reales del cliente (recorridos con celular de cada modelo de casa, fachadas, caballos en la calle, canchas de pádel, vista al mar desde la azotea).
+- Edición con ffmpeg: cortes al ritmo, velocidad (cámara rápida/lenta), whoosh y transiciones con desenfoque, punch-in/zoom, color, viñeta.
+- Texto en capa exacta: subtítulos virales palabra por palabra (Playfair), tarjetas de precio, botón de WhatsApp, logotipos y datos reales. No inventamos precios ni datos.
+- Música propia sintetizada (beat con riser y drop) y efectos (whoosh, golpe, boom, clic).
+- Formato 9:16 para Reels/Stories, 15-35 s, H.264 720p.
+NO podemos: tomas reales nuevas con dron, grabar al asesor en persona, usar música con derechos, ni datos/precios que el cliente no haya dado.

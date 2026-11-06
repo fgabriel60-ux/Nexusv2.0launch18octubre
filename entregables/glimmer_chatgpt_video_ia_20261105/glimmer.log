@@ -1,0 +1,361 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-42ssD8arjsrUbediHDo2ei
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<28:06,  1.18s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:02<30:14,  1.27s/it]
+[1ALoading weights:   0%|          | 3/1436 [00:02<17:50,  1.34it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:02<08:29,  2.81it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:02<07:01,  3.39it/s]
+[1ALoading weights:   1%|          | 13/1436 [00:02<02:03, 11.48it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:03<01:45, 13.45it/s]
+[1ALoading weights:   1%|▏         | 20/1436 [00:03<01:39, 14.25it/s]
+[1ALoading weights:   2%|▏         | 27/1436 [00:03<01:33, 15.03it/s]
+[1ALoading weights:   3%|▎         | 37/1436 [00:03<00:53, 26.00it/s]
+[1ALoading weights:   3%|▎         | 42/1436 [00:04<01:08, 20.47it/s]
+[1ALoading weights:   3%|▎         | 50/1436 [00:04<00:49, 28.19it/s]
+[1ALoading weights:   4%|▍         | 55/1436 [00:04<01:01, 22.33it/s]
+[1ALoading weights:   4%|▍         | 63/1436 [00:04<00:51, 26.85it/s]
+[1ALoading weights:   5%|▍         | 67/1436 [00:05<00:59, 22.97it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:05<00:46, 29.56it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:05<00:55, 24.39it/s]
+[1ALoading weights:   6%|▌         | 88/1436 [00:05<00:46, 29.13it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:06<00:55, 24.10it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:06<00:45, 29.07it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:06<00:55, 23.83it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:06<00:45, 28.91it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:07<00:54, 24.21it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:07<00:45, 28.68it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [00:07<00:53, 24.54it/s]
+[1ALoading weights:   9%|▉         | 136/1436 [00:07<00:44, 29.05it/s]
+[1ALoading weights:  10%|▉         | 140/1436 [00:07<00:55, 23.56it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:08<00:43, 29.30it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:08<00:54, 23.76it/s]
+[1ALoading weights:  11%|█         | 160/1436 [00:08<00:42, 29.89it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:08<00:53, 23.90it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:09<00:42, 29.65it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:09<00:52, 24.11it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:09<00:43, 28.99it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:09<00:53, 23.41it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [00:09<00:42, 29.47it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:10<00:51, 23.80it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:10<00:48, 25.49it/s]
+[1ALoading weights:  15%|█▍        | 211/1436 [00:10<00:49, 24.84it/s]
+[1ALoading weights:  15%|█▌        | 218/1436 [00:10<00:37, 32.27it/s]
+[1ALoading weights:  15%|█▌        | 222/1436 [00:11<00:54, 22.23it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:11<00:39, 30.84it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:11<00:46, 25.54it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:11<00:37, 31.45it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:11<00:46, 25.35it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:12<00:39, 30.20it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:12<00:46, 25.43it/s]
+[1ALoading weights:  19%|█▊        | 267/1436 [00:12<00:40, 28.53it/s]
+[1ALoading weights:  19%|█▉        | 271/1436 [00:12<00:47, 24.58it/s]
+[1ALoading weights:  19%|█▉        | 275/1436 [00:12<00:43, 26.73it/s]
+[1ALoading weights:  20%|█▉        | 281/1436 [00:13<00:42, 27.11it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:13<00:45, 25.18it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:13<00:36, 31.38it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:13<00:44, 25.73it/s]
+[1ALoading weights:  21%|██        | 301/1436 [00:13<00:38, 29.85it/s]
+[1ALoading weights:  21%|██        | 305/1436 [00:14<00:44, 25.39it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:14<00:46, 24.05it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:14<00:37, 29.87it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:14<00:48, 23.17it/s]
+[1ALoading weights:  23%|██▎       | 327/1436 [00:14<00:40, 27.68it/s]
+[1ALoading weights:  23%|██▎       | 331/1436 [00:15<00:49, 22.48it/s]
+[1ALoading weights:  24%|██▎       | 340/1436 [00:15<00:36, 29.68it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:15<00:43, 24.95it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:15<00:36, 29.54it/s]
+[1ALoading weights:  25%|██▍       | 356/1436 [00:16<00:45, 23.85it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:16<00:36, 29.47it/s]
+[1ALoading weights:  26%|██▌       | 368/1436 [00:16<00:43, 24.70it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:16<00:36, 28.93it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:16<00:43, 24.21it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:17<00:36, 28.35it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:17<00:42, 24.33it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:17<00:35, 29.58it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:17<00:41, 25.09it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:18<00:34, 29.51it/s]
+[1ALoading weights:  29%|██▉       | 416/1436 [00:18<00:41, 24.58it/s]
+[1ALoading weights:  29%|██▉       | 422/1436 [00:18<00:33, 30.06it/s]
+[1ALoading weights:  30%|██▉       | 426/1436 [00:18<00:45, 22.04it/s]
+[1ALoading weights:  30%|███       | 434/1436 [00:18<00:32, 30.54it/s]
+[1ALoading weights:  31%|███       | 439/1436 [00:19<00:42, 23.63it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:19<00:32, 30.72it/s]
+[1ALoading weights:  32%|███▏      | 453/1436 [00:19<00:36, 27.10it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:19<00:31, 31.26it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:20<00:37, 25.66it/s]
+[1ALoading weights:  33%|███▎      | 469/1436 [00:20<00:33, 29.22it/s]
+[1ALoading weights:  33%|███▎      | 473/1436 [00:20<00:35, 26.88it/s]
+[1ALoading weights:  33%|███▎      | 477/1436 [00:20<00:35, 27.11it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:20<00:30, 31.18it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:20<00:37, 25.61it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:21<00:30, 30.77it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:21<00:38, 24.27it/s]
+[1ALoading weights:  35%|███▌      | 507/1436 [00:21<00:32, 28.65it/s]
+[1ALoading weights:  36%|███▌      | 511/1436 [00:21<00:38, 23.74it/s]
+[1ALoading weights:  36%|███▌      | 518/1436 [00:21<00:33, 27.19it/s]
+[1ALoading weights:  36%|███▋      | 521/1436 [00:22<00:41, 21.92it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:22<00:34, 26.34it/s]
+[1ALoading weights:  37%|███▋      | 535/1436 [00:22<00:35, 25.73it/s]
+[1ALoading weights:  38%|███▊      | 542/1436 [00:22<00:27, 32.18it/s]
+[1ALoading weights:  38%|███▊      | 546/1436 [00:23<00:39, 22.59it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:23<00:27, 31.44it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:23<00:35, 24.96it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:23<00:28, 30.31it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:24<00:34, 24.72it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:24<00:28, 30.02it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:24<00:33, 25.33it/s]
+[1ALoading weights:  41%|████      | 590/1436 [00:24<00:27, 30.73it/s]
+[1ALoading weights:  41%|████▏     | 594/1436 [00:24<00:38, 22.08it/s]
+[1ALoading weights:  42%|████▏     | 602/1436 [00:25<00:27, 30.75it/s]
+[1ALoading weights:  42%|████▏     | 607/1436 [00:25<00:35, 23.51it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:25<00:27, 29.87it/s]
+[1ALoading weights:  43%|████▎     | 620/1436 [00:25<00:32, 25.06it/s]
+[1ALoading weights:  44%|████▍     | 630/1436 [00:25<00:22, 36.21it/s]
+[1ALoading weights:  47%|████▋     | 670/1436 [00:26<00:07, 100.20it/s]
+[1ALoading weights:  49%|████▊     | 697/1436 [00:26<00:05, 132.42it/s]
+[1ALoading weights:  51%|█████     | 732/1436 [00:26<00:03, 177.43it/s]
+[1ALoading weights:  54%|█████▍    | 772/1436 [00:26<00:02, 230.13it/s]
+[1ALoading weights:  57%|█████▋    | 816/1436 [00:26<00:02, 281.54it/s]
+[1ALoading weights:  60%|██████    | 864/1436 [00:26<00:01, 324.45it/s]
+[1ALoading weights:  63%|██████▎   | 909/1436 [00:26<00:01, 357.83it/s]
+[1ALoading weights:  67%|██████▋   | 960/1436 [00:26<00:01, 392.39it/s]
+[1ALoading weights:  70%|███████   | 1007/1436 [00:26<00:01, 411.68it/s]
+[1ALoading weights:  73%|███████▎  | 1054/1436 [00:26<00:00, 417.41it/s]
+[1ALoading weights:  77%|███████▋  | 1099/1436 [00:27<00:00, 424.29it/s]
+[1ALoading weights:  80%|███████▉  | 1146/1436 [00:27<00:00, 425.20it/s]
+[1ALoading weights:  83%|████████▎ | 1195/1436 [00:27<00:00, 441.42it/s]
+[1ALoading weights:  86%|████████▋ | 1240/1436 [00:27<00:00, 439.91it/s]
+[1ALoading weights:  90%|████████▉ | 1288/1436 [00:27<00:00, 451.51it/s]
+[1ALoading weights:  93%|█████████▎| 1334/1436 [00:27<00:00, 451.96it/s]
+[1ALoading weights:  96%|█████████▌| 1380/1436 [00:27<00:00, 429.25it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:27<00:00, 51.60it/s] 
+[transformers] Both `max_new_tokens` (=6000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## CHATGPT_Y_VIDEO_IA
+Perfecto. Respuestas concretas, accionables y sin inventar datos. En forma de reglas y listas para que las conviertas en instrucciones.
+
+# PARTE 1 — SACARLE EL MÁXIMO A CHATGPT PARA PRODUCIR ANUNCIOS
+
+## 1) Prompt de imagen que funciona a la primera
+
+**Orden del prompt (plantilla rellenable):**
+
+1. **Objetivo comercial:** “Crea una imagen publicitaria para [negocio] en [ciudad/estado].”
+2. **Sujeto y fidelidad:** “Usa la foto de referencia del cliente adjunta. Conserva exactamente su cara, edad, color de piel, rasgos y expresión. No cambies la persona.”
+3. **Ropa y accesorios:** “Conserva exactamente la ropa del cliente: [descripción breve]. No agregues logos ni accesorios no solicitados.”
+4. **Escenario y producto:** “Fondo: [local real / calle típica de Sonora / estudio limpio]. Producto visible: [nombre, color, empaque].”
+5. **Acción y pose:** “Pose: [de pie sosteniendo producto / atendiendo en mostrador]. Mirada a cámara / a 30°.”
+6. **Estilo visual:** “Fotografía publicitaria realista, iluminación suave de estudio, profundidad de campo, colores naturales.”
+7. **Composición y encuadre:** “Formato [4:5 para feed / 9:16 para stories / 1:1]. Plano [medio / americano / primer plano]. Margen superior e inferior libre para texto.”
+8. **Texto en imagen (si aplica):** “Incluye texto en español: ‘[TEXTO EXACTO]’. Tipografía sans, grande y legible. Sin efectos 3D.”
+9. **Restricciones:** “Sin texto extra, sin logos inventados, sin marcas de agua, sin filtros exagerados.”
+10. **Calidad:** “Alta resolución, nitidez en rostro y producto, piel natural sin suavizado excesivo.”
+
+**Qué decir siempre:** sujeto + referencia de cara/ropa, formato, plano, iluminación, “sin texto extra”, “no cambiar identidad”.  
+**Qué sobra:** adjetivos vagos (“hermoso”, “impactante”), múltiples estilos a la vez, instrucciones contradictorias, “mejora la cara”.
+
+---
+
+## 2) Mantener CARA y ROPA de foto real
+
+**Reglas:**
+
+- Adjunta **1 foto clara, frontal, buena luz**, cara visible, fondo neutro. Si puedes, **2 ángulos** (frontal y 3/4).
+- En el prompt escribe: “**Usa la foto de referencia como identidad. No inventes otra persona. Conserva rasgos, edad, tono de piel y forma de rostro.**”
+- Para ropa: “**Conserva exactamente la prenda: color [ ], corte [ ], logo [sí/no]. No cambies textura ni color.**”
+- **Bloquea cambios:** “No rejuvenezcas, no cambies etnia, no cambies peinado ni color de cabello.”
+- Si necesitas varias imágenes del mismo cliente:
+
+  - Reutiliza **la misma semilla/seed** cuando el generador lo permita.
+  - Copia y pega el **mismo bloque de identidad y ropa** en cada prompt.
+  - Genera en **lotes de 2–3** y revisa consistencia antes de seguir.
+- **Cuando la cara “deriva” entre imágenes:**
+
+  - Vuelve a adjuntar la referencia en el mismo chat.
+  - Reduce variables: fija ángulo, iluminación y fondo.
+  - Pide “**variación mínima**” en lugar de “nueva pose dramática”.
+  - Si persiste, genera un **close-up maestro** y luego compón con recorte en edición en vez de regenerar.
+
+---
+
+## 3) Texto en imagen perfecto en español
+
+**Qué pedir:**
+
+- “**Incluye texto en español exacto:** ‘[ESCRIBE EL TEXTO LITERAL, con tildes]’.”
+- “Colócalo en **área libre**, sobre fondo desenfocado, **sin cubrir rostros**.”
+- “Tipografía **sans legible**, **sin efectos 3D**, **sin sombras excesivas**.”
+- “**No traduzcas ni modifiques** el texto. No inventes palabras.”
+
+**Qué evitar:**
+
+- Frases largas. Máx **5–7 palabras** por bloque.
+- Acentos en palabras compuestas raras para el modelo.
+- Justificar centrado con varias líneas; mejor **una línea corta**.
+- Poner texto sobre zonas de alto detalle (vello, rejillas, letreros del fondo).
+
+**Si sale mal:** no pidas “corrige el texto”. **Regenera** con el texto acortado y el área de colocación definida (“esquina inferior izquierda sobre fondo liso”).
+
+---
+
+## 4) Cuándo ChatGPT es mejor/peor que un modelo de imagen “normal”
+
+**Mejor para anuncios cuando:**
+
+- Necesitas **coherencia de identidad** a partir de una foto real del cliente.
+- Requieres **edición contextual** (insertar producto en local real, cambiar fondo manteniendo cara/ropa).
+- Quieres **iterar rápido** con instrucciones en lenguaje natural y control de texto en escena.
+- Necesitas **variaciones controladas** del mismo personaje/escenario.
+
+**Peor cuando:**
+
+- Necesitas **texto largo y perfecto** en la imagen (sigue fallando con frases largas).
+- Requieres **manos perfectas**, objetos delgados múltiples o escenas con mucha gente en movimiento.
+- Buscas **estilo ilustrado/3D** muy específico o efectos cinematográficos extremos.
+- Necesitas **latencia mínima** en generación masiva.
+
+**Cuándo usarlo:** piezas con rostro real del cliente, locales reconocibles, productos simples, encuadres medios/cercanos.  
+**Cuándo no:** UGC con manos en primer plano, primeros planos de cockpit/ventana con paisaje, escenas con multitudes.
+
+---
+
+## 5) Qué más pedirle a ChatGPT para ahorrar trabajo
+
+- **Guion de 15–30s** con gancho, beneficio, prueba social y CTA para WhatsApp.
+- **Copys cortos** para primario, encabezado y descripción del anuncio (con variantes A/B).
+- **Texto para subtítulos SRT** sincronizado al guion, con frases cortas y sin jerga.
+- **Brief visual** por escena: plano, duración, movimiento de cámara, elemento focal.
+- **Checklist de cumplimiento** Meta (texto en imagen, claims, salud/finanzas, etc.).
+- **Ideas de hooks** locales (Sonora/municipio) y objeciones frecuentes con respuestas.
+- **Estructura de campaña**: conjuntos, audiencias frías/cálidas, presupuesto sugerido por objetivo.
+- **Naming** de archivos y carpetas para entrega al cliente.
+- ** prompts negativos** para tus generadores (qué evitar en cada escena).
+
+---
+
+## 6) Errores comunes y cómo corregir sin reiniciar
+
+- **Cambia la cara/edad:** Re-adjunta referencia + “conserva identidad exacta. No rejuvenezcas.”
+- **Ropa distinta:** Describe prenda con color y corte + “no cambies ropa”.
+- **Fondo con gente moviéndose o elementos extraños:** “Fondo limpio, sin transeúntes, sin vehículos en movimiento.”
+- **Texto inventado o sin tildes:** Acorta texto, define zona de colocación, pide “texto literal exacto”.
+- **Iluminación irreale:** Especifica “luz natural suave, sombras suaves, colores naturales”.
+- **Exceso de perfección/Plástico:** “Piel natural, poros visibles leves, sin suavizado excesivo.”
+- **Composición con texto tapado:** “Deja margen superior e inferior libre para texto. Nada sobre el rostro.”
+
+---
+
+# PARTE 2 — TRUCOS PARA QUE EL VIDEO HECHO CON IA SEA ACEPTADO
+
+## 7) Por qué Meta rechaza/castiga un anuncio con IA
+
+**Política escrita (lo que dice la norma):**
+
+- Contenido que **confunde** sobre hechos, identidad o eventos reales.
+- **Manipulación de personas reales** (deepfakes), uso no autorizado de imagen/voz.
+- **Claims engañosos**, promesas irreales, contenido sensible prohibido.
+- **Falta de etiquetado** cuando la política exige “Made with AI”.
+
+**Filtro automático (señales técnicas que detecta):**
+
+- Artefactos visuales: parpadeo de dientes, manos extra, dedos que cambian, texturas que “fluyen”.
+- Movimiento no natural: cabello/ropa que se deforma, ojos que se mueven raro, piel líquida.
+- Incongruencias de física/luz: sombras que no coinciden, reflejos imposibles.
+- Audio desincronizado o voces robóticas sin variación.
+- Cortes bruscos entre real e IA sin transición.
+
+---
+
+## 8) Producción para que pase como creíble y no sea castigado
+
+- **Mezcla real + IA:** abre y cierra con **material real** del negocio (local, producto, cliente).
+- **Planos cortos:** 1.5 a 3.5 s por plano. Evita tomas largas donde se note deriva.
+- **Movimiento de cámara limitado:** paneos lentos, travelling suave, sin zooms bruscos.
+- **Granulado ligero:** añade **film grain sutil** para unificar real e IA.
+- **Iluminación coherente:** misma temperatura de color en todo el spot.
+- **Sonido ambiente real:** capas de room tone, pasos, ambiente del local bajo la música.
+- **Imperfecciones controladas:** pequeños desenfoques de movimiento, viñeteo leve.
+- **Evita** según tu experiencia con MiniMax H3: gente caminando, manos visibles en primer plano, cockpit con ventana y paisaje, varios objetos delgados juntos, fondos con gente en movimiento.
+
+---
+
+## 9) ¿Declarar contenido generado con IA?
+
+**Sí, declara cuando:**
+
+- Hay **rostros sintéticos** o **voz clonada** que parece real.
+- El anuncio **simula testimonio** de persona real.
+- Meta te lo pide explícitamente en el flujo de subida.
+
+**No es obligatorio declarar cuando:**
+
+- Es **estilización visual** sin personas identificables ni voz sintética realista.
+- Usas IA solo para **fondos, transiciones, retoques** y el sujeto es real.
+
+**Impacto en calificación:** declarar no baja la calificación por sí mismo; **mejora la confianza** y reduce riesgo de rechazo posterior. Lo que baja la calificación es baja calidad percibida, incoherencia y señales de manipulación.
+
+---
+
+## 10) Señales que delatan IA ante el público
+
+- Manos mal formadas o que cambian de dedos entre fotogramas.
+- Ojos sin parpadeo natural, mirada “vacía”, pupilas irregulares.
+- Piel demasiado lisa o con reflejos líquidos; cabello que se funde con fondo.
+- Objetos que se duplican/desaparecen; texturas que “fluyen”.
+- Audio robótico, sin respiraciones, sin pausas naturales.
+- Escenas imposibles de reproducir en el negocio real.
+
+---
+
+## 11) Combinar real y generado para subir calificación
+
+**Estructura recomendada 20–30 s:**
+
+- **0–3 s (Real):** Hook con toma real del local/producto. Texto grande y claro.
+- **3–10 s (Real 60% / IA 40%):** Cliente real hablando o siendo atendido. Inserta **B-roll con IA** de producto en uso, detalles macro.
+- **10–20 s (Mixto):** Beneficios con **gráficos simples** y 1–2 planos de IA de ambiente (sin manos, sin multitudes).
+- **20–28 s (Real):** Prueba social real (foto/testimonio) + CTA a WhatsApp.
+- **28–30 s (Real):** Cierre con logo real y dirección/teléfono.
+
+**Regla de mezcla:** **mínimo 40% de material real** en anuncios con rostro de cliente.  
+**Nunca generes con IA:** manos en primer plano, testimonios falsos con cara real, precios/promos que no existan, documentos oficiales.
+
+---
+
+## 12) LISTA DE REVISIÓN FINAL (≤12 puntos) antes de subir a Meta
+
+1. Identidad correcta: cara/ropa del cliente sin cambios.
+2. Texto en imagen corto, legible, sin errores de tildes.
+3. Sin manos mal formadas ni artefactos visibles.
+4. Iluminación y color coherentes en todo el video.
+5. Sonido ambiente + música balanceados; sin desincronía labial.
+6. Subtítulos presentes, frases cortas, ortografía correcta.
+7. Primer y último plano con material real del negocio.
+8. Duración de planos 1.5–3.5 s; sin movimientos bruscos.
+9. Granulado leve y misma relación de aspecto requerida.
+10. CTA claro a WhatsApp, sin promesas irreales.
+11. Etiquetado de IA cuando aplique (rostro/voz sintética).
+12. Previsualización en móvil: legible sin sonido y con sonido bajo.
+
+¿Quieres que te deje esta checklist como plantilla imprimible y un prompt maestro rellenable en un solo bloque para copiar/pegar con tus clientes de Sonora?
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-42ssD8arjsrUbediHDo2ei
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_chatgpt_video_ia_20261105/lote.json --tokens 6000
+Duración: 4.6 min  (código 0)
+  glimmer (ap-42ssD8arjsrUbediHDo2ei): $0.187
+Gasto del trabajo: $0.187
+Saldo restante ≈ $-12.35

@@ -1,0 +1,47 @@
+{
+ "paso": "clips",
+ "trabajos": [
+  {
+   "nombre": "K1",
+   "inicio": "A",
+   "fin": "B",
+   "semilla": 3,
+   "prompt": "A single human hand quickly tosses the small coiled wire ball straight up into the air with one flick of the wrist. As the ball flies upward the tight silver wire spiral starts to uncoil like a party blower unrolling, the brass collar and steel struts appear and the folded amber film wings begin to spread. The hand stays open at the bottom of the frame. Photorealistic, the camera is static, the workshop background stays the same. It is a mechanical wire device made of silver nitinol wire, brass and copper parts and amber translucent film, never feathers, never a real bird. Audio: metallic mechanical sounds, no music, no speech."
+  },
+  {
+   "nombre": "K2",
+   "inicio": "B",
+   "fin": "C",
+   "semilla": 3,
+   "prompt": "The mechanical wire bird keeps unrolling in mid-air: the central silver spine wire straightens completely, the small brass collar slides up along the spine like an umbrella runner until it clicks against the stop near the head, and the two steel struts push both wing wires fully open, the amber film wings stretch flat. The hand drops away out of the bottom of the frame. The bird hovers in the center. Photorealistic, the camera is static, the workshop background stays the same. It is a mechanical wire device made of silver nitinol wire, brass and copper parts and amber translucent film, never feathers, never a real bird. Audio: metallic mechanical sounds, no music, no speech."
+  },
+  {
+   "nombre": "K3",
+   "inicio": "C",
+   "fin": "C",
+   "semilla": 3,
+   "prompt": "The mechanical wire bird hovers in place and flaps both amber film wings up and down quickly and repeatedly, many times, both wings move together symmetrically, driven by the small copper crank and connecting rods at the head while the brass flywheel spins. The body stays in the center. Mechanical clicking rhythm. Photorealistic, the camera is static, the workshop background stays the same. It is a mechanical wire device made of silver nitinol wire, brass and copper parts and amber translucent film, never feathers, never a real bird. Audio: metallic mechanical sounds, no music, no speech."
+  },
+  {
+   "nombre": "K3b",
+   "inicio": "C",
+   "fin": "D",
+   "semilla": 5,
+   "prompt": "The mechanical wire bird hovers in place and flaps both amber film wings up and down quickly and repeatedly, several full beats, both wings move together symmetrically, driven by the small copper crank and connecting rods at the head while the brass flywheel spins, ending with both wings raised high in a V. Photorealistic, the camera is static, the workshop background stays the same. It is a mechanical wire device made of silver nitinol wire, brass and copper parts and amber translucent film, never feathers, never a real bird. Audio: metallic mechanical sounds, no music, no speech."
+  },
+  {
+   "nombre": "K4",
+   "inicio": "C",
+   "fin": "E",
+   "semilla": 3,
+   "prompt": "The mechanical wire bird stops flapping. The brass collar slides back down the spine, the steel struts collapse and both amber film wings fold closed, then the silver spine wire starts to curl up from the tail into a spiral coil like a party blower rolling back up, pulling the folded wings with it. It slowly sinks a little. Photorealistic, the camera is static, the workshop background stays the same. It is a mechanical wire device made of silver nitinol wire, brass and copper parts and amber translucent film, never feathers, never a real bird. Audio: metallic mechanical sounds, no music, no speech."
+  },
+  {
+   "nombre": "K5",
+   "inicio": "E",
+   "fin": "F",
+   "semilla": 3,
+   "prompt": "The silver nitinol spine keeps rolling up into a tight spiral, wrapping the folded amber wings, the flywheel and the brass collar inside, until the whole mechanical bird becomes a compact wire ball again; the ball drops down and a human hand rises from the bottom of the frame and catches it softly in the open palm. Photorealistic, the camera is static, the workshop background stays the same. It is a mechanical wire device made of silver nitinol wire, brass and copper parts and amber translucent film, never feathers, never a real bird. Audio: metallic mechanical sounds, no music, no speech."
+  }
+ ]
+}

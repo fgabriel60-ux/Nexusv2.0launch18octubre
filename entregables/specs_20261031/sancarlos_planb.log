@@ -1,0 +1,50 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-neMEC9jv6F8rTJu2nb8T38
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma 4C1_aereo_v
+toma 4C2_alberca_v
+toma 4C3_sala_v
+toma 4C4_cocina_v
+toma 4C5_recamara_v
+toma 4C6_bano_v
+toma CP1_fachada_v
+toma CP2_atardecer_v
+toma CP3_terraza_v
+toma CP4_vestibulo_v
+toma CP5_sala_v
+toma CP6_cocina_v
+toma CP7_recamara_v
+guardado 4C1_aereo_v.mp4
+guardado 4C2_alberca_v.mp4
+guardado 4C3_sala_v.mp4
+guardado 4C4_cocina_v.mp4
+guardado 4C5_recamara_v.mp4
+guardado 4C6_bano_v.mp4
+guardado CP1_fachada_v.mp4
+guardado CP2_atardecer_v.mp4
+guardado CP3_terraza_v.mp4
+guardado CP4_vestibulo_v.mp4
+guardado CP5_sala_v.mp4
+guardado CP6_cocina_v.mp4
+guardado CP7_recamara_v.mp4
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-neMEC9jv6F8rTJu2nb8T38
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261031/sancarlos_planb.json
+Duración: 21.0 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.115
+  glimmer (ap-P8TJVkciAauOY8ghMM1sS5): $0.261
+  glimmer (ap-QJAA3vzVxshZ7oXiHPe8oB): $0.383
+  glimmer (ap-aNAyrxXo62YbIlsBav7Otg): $0.109
+  escenas-carlos (ap-neMEC9jv6F8rTJu2nb8T38): $0.842
+  musica-villa (ap-wfuy41adtPrV4hvTRIeRrh): $0.053
+Gasto del trabajo: $1.764
+Saldo restante ≈ $14.56

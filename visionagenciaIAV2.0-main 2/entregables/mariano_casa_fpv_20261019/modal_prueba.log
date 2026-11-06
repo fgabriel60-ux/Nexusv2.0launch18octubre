@@ -1,0 +1,33 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-qzN6sPw7EFrPY2mM6kbNup
+Building image im-cyr2uq7xbf86MrUQ5XaZG9
+
+=> Step 0: FROM base
+
+=> Step 1: RUN python -m pip install pillow requests
+Looking in indexes: http://pypi-mirror.modal.local:5555/simple
+Requirement already satisfied: pillow in /usr/local/lib/python3.12/site-packages (13.0.0)
+Requirement already satisfied: requests in /usr/local/lib/python3.12/site-packages (2.34.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/site-packages (from requests) (3.5.2)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/site-packages (from requests) (3.20)
+Requirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.12/site-packages (from requests) (2.8.0)
+Requirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.12/site-packages (from requests) (2026.7.22)
+
+[notice] A new release of pip is available: 25.1.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+Saving image...
+Image saved, took 1.56s
+
+Built image im-cyr2uq7xbf86MrUQ5XaZG9 in 3.38s
+
+
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/mariano_casa_fpv_20261019/mariano_casa_modal.py
+└── ✓ Created Function clips.
+clip E1 /datos/siena/out/mariano_casa_fpv/E1_00001_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/clips/E1.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-qzN6sPw7EFrPY2mM6kbNup

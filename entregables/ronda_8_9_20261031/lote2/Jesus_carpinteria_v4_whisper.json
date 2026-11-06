@@ -1,0 +1,395 @@
+[
+  {
+    "text": " Buscas puertas o cocinas en Mazatlán.",
+    "start": 0.0,
+    "end": 2.68,
+    "words": [
+      {
+        "word": " Buscas",
+        "start": 0.0,
+        "end": 0.6
+      },
+      {
+        "word": " puertas",
+        "start": 0.6,
+        "end": 1.06
+      },
+      {
+        "word": " o",
+        "start": 1.06,
+        "end": 1.28
+      },
+      {
+        "word": " cocinas",
+        "start": 1.28,
+        "end": 1.68
+      },
+      {
+        "word": " en",
+        "start": 1.68,
+        "end": 1.86
+      },
+      {
+        "word": " Mazatlán.",
+        "start": 1.86,
+        "end": 2.68
+      }
+    ]
+  },
+  {
+    "text": " Soy Jesús Carpintero.",
+    "start": 2.92,
+    "end": 4.76,
+    "words": [
+      {
+        "word": " Soy",
+        "start": 2.92,
+        "end": 3.06
+      },
+      {
+        "word": " Jesús",
+        "start": 3.06,
+        "end": 3.52
+      },
+      {
+        "word": " Carpintero.",
+        "start": 3.52,
+        "end": 4.76
+      }
+    ]
+  },
+  {
+    "text": " Puertas de parota desde $7,000 pesos con marco y vistas y",
+    "start": 5.0,
+    "end": 9.2,
+    "words": [
+      {
+        "word": " Puertas",
+        "start": 5.0,
+        "end": 5.32
+      },
+      {
+        "word": " de",
+        "start": 5.32,
+        "end": 5.56
+      },
+      {
+        "word": " parota",
+        "start": 5.56,
+        "end": 5.92
+      },
+      {
+        "word": " desde",
+        "start": 5.92,
+        "end": 6.26
+      },
+      {
+        "word": " $7",
+        "start": 6.26,
+        "end": 6.58
+      },
+      {
+        "word": ",000",
+        "start": 6.58,
+        "end": 6.82
+      },
+      {
+        "word": " pesos",
+        "start": 6.82,
+        "end": 7.22
+      },
+      {
+        "word": " con",
+        "start": 7.22,
+        "end": 7.48
+      },
+      {
+        "word": " marco",
+        "start": 7.48,
+        "end": 7.88
+      },
+      {
+        "word": " y",
+        "start": 7.88,
+        "end": 8.04
+      },
+      {
+        "word": " vistas",
+        "start": 8.04,
+        "end": 8.8
+      },
+      {
+        "word": " y",
+        "start": 8.8,
+        "end": 9.2
+      }
+    ]
+  },
+  {
+    "text": " cocinas en Melamina hechas a tu medida.",
+    "start": 9.2,
+    "end": 11.42,
+    "words": [
+      {
+        "word": " cocinas",
+        "start": 9.2,
+        "end": 9.66
+      },
+      {
+        "word": " en",
+        "start": 9.66,
+        "end": 9.88
+      },
+      {
+        "word": " Melamina",
+        "start": 9.88,
+        "end": 10.36
+      },
+      {
+        "word": " hechas",
+        "start": 10.36,
+        "end": 10.66
+      },
+      {
+        "word": " a",
+        "start": 10.66,
+        "end": 10.86
+      },
+      {
+        "word": " tu",
+        "start": 10.86,
+        "end": 10.98
+      },
+      {
+        "word": " medida.",
+        "start": 10.98,
+        "end": 11.42
+      }
+    ]
+  },
+  {
+    "text": " Una puerta económica con chapa, bisagras, instalación en",
+    "start": 12.04,
+    "end": 16.12,
+    "words": [
+      {
+        "word": " Una",
+        "start": 12.04,
+        "end": 12.26
+      },
+      {
+        "word": " puerta",
+        "start": 12.26,
+        "end": 12.54
+      },
+      {
+        "word": " económica",
+        "start": 12.54,
+        "end": 13.76
+      },
+      {
+        "word": " con",
+        "start": 13.76,
+        "end": 14.12
+      },
+      {
+        "word": " chapa,",
+        "start": 14.12,
+        "end": 14.5
+      },
+      {
+        "word": " bisagras,",
+        "start": 14.56,
+        "end": 15.18
+      },
+      {
+        "word": " instalación",
+        "start": 15.42,
+        "end": 15.88
+      },
+      {
+        "word": " en",
+        "start": 15.88,
+        "end": 16.12
+      }
+    ]
+  },
+  {
+    "text": " oferta, $3,500 pesos.",
+    "start": 16.12,
+    "end": 18.28,
+    "words": [
+      {
+        "word": " oferta,",
+        "start": 16.12,
+        "end": 16.64
+      },
+      {
+        "word": " $3",
+        "start": 16.66,
+        "end": 17.0
+      },
+      {
+        "word": ",500",
+        "start": 17.0,
+        "end": 17.58
+      },
+      {
+        "word": " pesos.",
+        "start": 17.58,
+        "end": 18.28
+      }
+    ]
+  },
+  {
+    "text": " Y tu cocina en Melamina, $8,000 pesos el metro lineal con",
+    "start": 18.74,
+    "end": 23.6,
+    "words": [
+      {
+        "word": " Y",
+        "start": 18.74,
+        "end": 18.94
+      },
+      {
+        "word": " tu",
+        "start": 18.94,
+        "end": 19.1
+      },
+      {
+        "word": " cocina",
+        "start": 19.1,
+        "end": 19.54
+      },
+      {
+        "word": " en",
+        "start": 19.54,
+        "end": 19.72
+      },
+      {
+        "word": " Melamina,",
+        "start": 19.72,
+        "end": 20.52
+      },
+      {
+        "word": " $8",
+        "start": 21.0,
+        "end": 21.12
+      },
+      {
+        "word": ",000",
+        "start": 21.12,
+        "end": 21.3
+      },
+      {
+        "word": " pesos",
+        "start": 21.3,
+        "end": 21.7
+      },
+      {
+        "word": " el",
+        "start": 21.7,
+        "end": 21.94
+      },
+      {
+        "word": " metro",
+        "start": 21.94,
+        "end": 22.24
+      },
+      {
+        "word": " lineal",
+        "start": 22.24,
+        "end": 23.28
+      },
+      {
+        "word": " con",
+        "start": 23.28,
+        "end": 23.6
+      }
+    ]
+  },
+  {
+    "text": " gabinete alto y bajo.",
+    "start": 23.6,
+    "end": 25.2,
+    "words": [
+      {
+        "word": " gabinete",
+        "start": 23.6,
+        "end": 24.22
+      },
+      {
+        "word": " alto",
+        "start": 24.22,
+        "end": 24.56
+      },
+      {
+        "word": " y",
+        "start": 24.56,
+        "end": 24.82
+      },
+      {
+        "word": " bajo.",
+        "start": 24.82,
+        "end": 25.2
+      }
+    ]
+  },
+  {
+    "text": " Mándame por WhatsApp tus medidas y tu colonia y te",
+    "start": 25.86,
+    "end": 28.94,
+    "words": [
+      {
+        "word": " Mándame",
+        "start": 25.86,
+        "end": 26.24
+      },
+      {
+        "word": " por",
+        "start": 26.24,
+        "end": 26.48
+      },
+      {
+        "word": " WhatsApp",
+        "start": 26.48,
+        "end": 26.9
+      },
+      {
+        "word": " tus",
+        "start": 26.9,
+        "end": 27.24
+      },
+      {
+        "word": " medidas",
+        "start": 27.24,
+        "end": 27.66
+      },
+      {
+        "word": " y",
+        "start": 27.66,
+        "end": 27.94
+      },
+      {
+        "word": " tu",
+        "start": 27.94,
+        "end": 28.2
+      },
+      {
+        "word": " colonia",
+        "start": 28.2,
+        "end": 28.6
+      },
+      {
+        "word": " y",
+        "start": 28.6,
+        "end": 28.74
+      },
+      {
+        "word": " te",
+        "start": 28.74,
+        "end": 28.94
+      }
+    ]
+  }
+]

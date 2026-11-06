@@ -1,0 +1,37 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-rCX49FIIPfIgOdtgGBlFgv
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma SV1_fachada_v
+toma SV2_sala_v
+toma SV3_comedor_v
+toma SV4_cocina_v
+toma SV5_estancia_v
+toma SV6_recamara_v
+toma SV7_terraza_v
+guardado SV1_fachada_v.mp4
+guardado SV2_sala_v.mp4
+guardado SV3_comedor_v.mp4
+guardado SV4_cocina_v.mp4
+guardado SV5_estancia_v.mp4
+guardado SV6_recamara_v.mp4
+guardado SV7_terraza_v.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-rCX49FIIPfIgOdtgGBlFgv
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261031/mariano_salvia_premium.json
+Duración: 9.3 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.049
+  glimmer (ap-aNAyrxXo62YbIlsBav7Otg): $0.120
+  glimmer (ap-fsiYcNbTI2llyK97UeVI47): $0.168
+  escenas-carlos (ap-rCX49FIIPfIgOdtgGBlFgv): $0.359
+Gasto del trabajo: $0.696
+Saldo restante ≈ $14.05

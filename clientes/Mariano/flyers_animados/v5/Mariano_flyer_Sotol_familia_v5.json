@@ -1,0 +1,32 @@
+{
+  "salida": "Mariano_flyer_Sotol_familia_v5.mp4",
+  "video_origen": "Mariano_flyer_Sotol_familia_v2.mp4",
+  "pico_AAC_dBFS": -3.2,
+  "muestras_recortadas_>=0.99": 0,
+  "eventos": [
+    {
+      "t": 0.1,
+      "tipo": "whoosh",
+      "muestra": "whoosh_3115_fast_transitions_swoosh.mp3",
+      "sobre_musica_dB": 31.3
+    },
+    {
+      "t": 1.0,
+      "tipo": "ding",
+      "muestra": "ding_586_attention_bell_ding.mp3",
+      "sobre_musica_dB": 19.0
+    },
+    {
+      "t": 1.0,
+      "tipo": "riser",
+      "muestra": "riser_790_cinematic_trailer_riser.mp3",
+      "sobre_musica_dB": 20.7
+    },
+    {
+      "t": 1.7,
+      "tipo": "clic",
+      "muestra": "clic_2568_cool_interface_click_tone.mp3",
+      "sobre_musica_dB": 7.2
+    }
+  ]
+}

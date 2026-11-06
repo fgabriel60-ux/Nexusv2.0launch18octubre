@@ -1,0 +1,138 @@
+{
+  "validacion": {
+    "tested_ads": 0,
+    "tested_campaigns": 0,
+    "mae_per_1000": null,
+    "baseline_mae_per_1000": null,
+    "text_model_enabled": false,
+    "splits": [],
+    "note": "Validación temporal de tasa de resultados, no de subasta ni de intervalos. El texto solo modifica la tasa si supera al promedio por al menos 5%, con ≥8 anuncios y ≥3 campañas de prueba."
+  },
+  "avisos": [
+    "Los rangos P10–P90 son resultados del escenario; no son intervalos de confianza calibrados para Facebook.",
+    "La subasta, recuperación, afinidad, fatiga y calidad de ejecución contienen supuestos editables.",
+    "El parecido entre textos no demuestra que una idea cause mejores resultados. Falta observar el anuncio producido.",
+    "Las conversiones atribuidas se simulan por impresión, separadas de los clics; no se presupone que todas procedan de clics.",
+    "Las métricas son por costo por resultado; ROAS usa el ticket medio histórico fijo y no se usa para elegir la referencia.",
+    "No se ordenan las ideas como ganadoras: el modelo textual todavía no supera la referencia en validación. Diferencias numéricas pueden ser ruido Monte Carlo.",
+    "Escenario exploratorio autorizado con solo dos anuncios: no permite validar diferencias entre propuestas ni predecir que se repetirá el resultado histórico."
+  ],
+  "resultados": [
+    {
+      "guion": "ACTUAL (historia)",
+      "texto": "Aprendi a reparar en el taller de mi papa con prueba y error. Un carro no se arregla con piezas caras, se arregla con quien entiende. Por eso no cambio partes al azar. Te digo que tiene y te lo dejo andando. Manda foto por WhatsApp y te paso el precio hoy.",
+      "conversaciones": {
+        "p10": 71.0,
+        "median": 93.0,
+        "p90": 127.0
+      },
+      "costo": {
+        "p10": 7.610772439296417,
+        "median": 10.39310441830882,
+        "p90": 13.613326358119599
+      },
+      "evidencia": "Base común: no hay evidencia suficiente para diferenciar esta idea",
+      "vecinos": [
+        {
+          "ad_id": "120252656552890651",
+          "campaign_id": "120251563208660651",
+          "similarity": 0.285,
+          "idea": "Texto principal: vacío (caption de Instagram vacío). Video vertical de 15.8 s, solo música, sin voz (sin segmentos de habla detectados). 0–3 s: mujer de blusa azul en oficina con libreros, texto «Facebook dice, lo más importante es quien vende tu producto». 3–5 s: mujer de traje "
+        },
+        {
+          "ad_id": "120251563209080651",
+          "campaign_id": "120251563208660651",
+          "similarity": 0.192,
+          "idea": "Texto principal: vacío (el anuncio se publicó sin texto; caption de Instagram vacío y la publicación de Facebook solo muestra el título). Visual: pieza cuadrada negra/naranja «TU MARCA MERECE VENDER. Nosotros creamos la campaña. Tú recibes los clientes.» Tarjetas: «Por solo $500 "
+        }
+      ]
+    },
+    {
+      "guion": "A · Antes de pagar",
+      "texto": "Te quieren cambiar medio carro? Antes de pagar, escuchame. Hay talleres que cambian piezas hasta atinarle, y tu pagas cada intento. Yo primero encuentro la falla. Aqui un carro se arregla entendiendolo, no cambiandole todo. Mandame por WhatsApp una foto o un audio del ruido, y hoy te digo que tiene y cuanto cuesta.",
+      "conversaciones": {
+        "p10": 71.0,
+        "median": 93.0,
+        "p90": 127.0
+      },
+      "costo": {
+        "p10": 7.610772439296417,
+        "median": 10.39310441830882,
+        "p90": 13.613326358119599
+      },
+      "evidencia": "Base común: no hay evidencia suficiente para diferenciar esta idea",
+      "vecinos": [
+        {
+          "ad_id": "120252656552890651",
+          "campaign_id": "120251563208660651",
+          "similarity": 0.273,
+          "idea": "Texto principal: vacío (caption de Instagram vacío). Video vertical de 15.8 s, solo música, sin voz (sin segmentos de habla detectados). 0–3 s: mujer de blusa azul en oficina con libreros, texto «Facebook dice, lo más importante es quien vende tu producto». 3–5 s: mujer de traje "
+        },
+        {
+          "ad_id": "120251563209080651",
+          "campaign_id": "120251563208660651",
+          "similarity": 0.216,
+          "idea": "Texto principal: vacío (el anuncio se publicó sin texto; caption de Instagram vacío y la publicación de Facebook solo muestra el título). Visual: pieza cuadrada negra/naranja «TU MARCA MERECE VENDER. Nosotros creamos la campaña. Tú recibes los clientes.» Tarjetas: «Por solo $500 "
+        }
+      ]
+    },
+    {
+      "guion": "B · Ese ruido",
+      "texto": "Ese ruido no se va a quitar solo, y cada semana sale mas caro. Grabalo con tu celular y mandamelo por WhatsApp. Yo lo escucho y te digo que es, antes de que toques un peso. Soy Pancho, mecanico. Te digo que tiene, cuanto cuesta, y te lo dejo andando.",
+      "conversaciones": {
+        "p10": 71.0,
+        "median": 93.0,
+        "p90": 127.0
+      },
+      "costo": {
+        "p10": 7.610772439296417,
+        "median": 10.39310441830882,
+        "p90": 13.613326358119599
+      },
+      "evidencia": "Base común: no hay evidencia suficiente para diferenciar esta idea",
+      "vecinos": [
+        {
+          "ad_id": "120252656552890651",
+          "campaign_id": "120251563208660651",
+          "similarity": 0.286,
+          "idea": "Texto principal: vacío (caption de Instagram vacío). Video vertical de 15.8 s, solo música, sin voz (sin segmentos de habla detectados). 0–3 s: mujer de blusa azul en oficina con libreros, texto «Facebook dice, lo más importante es quien vende tu producto». 3–5 s: mujer de traje "
+        },
+        {
+          "ad_id": "120251563209080651",
+          "campaign_id": "120251563208660651",
+          "similarity": 0.283,
+          "idea": "Texto principal: vacío (el anuncio se publicó sin texto; caption de Instagram vacío y la publicación de Facebook solo muestra el título). Visual: pieza cuadrada negra/naranja «TU MARCA MERECE VENDER. Nosotros creamos la campaña. Tú recibes los clientes.» Tarjetas: «Por solo $500 "
+        }
+      ]
+    },
+    {
+      "guion": "C · La regla del taller",
+      "texto": "En mi taller hay una regla: si no sabes que tiene el carro, no le cambies nada. Asi trabajo. Primero encuentro la falla, luego te digo el precio, y solo cambio lo que de verdad falla. Tu decides con el precio en la mano. Manda foto por WhatsApp y hoy mismo te paso el precio.",
+      "conversaciones": {
+        "p10": 71.0,
+        "median": 93.0,
+        "p90": 127.0
+      },
+      "costo": {
+        "p10": 7.610772439296417,
+        "median": 10.39310441830882,
+        "p90": 13.613326358119599
+      },
+      "evidencia": "Base común: no hay evidencia suficiente para diferenciar esta idea",
+      "vecinos": [
+        {
+          "ad_id": "120252656552890651",
+          "campaign_id": "120251563208660651",
+          "similarity": 0.309,
+          "idea": "Texto principal: vacío (caption de Instagram vacío). Video vertical de 15.8 s, solo música, sin voz (sin segmentos de habla detectados). 0–3 s: mujer de blusa azul en oficina con libreros, texto «Facebook dice, lo más importante es quien vende tu producto». 3–5 s: mujer de traje "
+        },
+        {
+          "ad_id": "120251563209080651",
+          "campaign_id": "120251563208660651",
+          "similarity": 0.223,
+          "idea": "Texto principal: vacío (el anuncio se publicó sin texto; caption de Instagram vacío y la publicación de Facebook solo muestra el título). Visual: pieza cuadrada negra/naranja «TU MARCA MERECE VENDER. Nosotros creamos la campaña. Tú recibes los clientes.» Tarjetas: «Por solo $500 "
+        }
+      ]
+    }
+  ]
+}

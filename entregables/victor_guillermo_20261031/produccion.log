@@ -1,0 +1,22 @@
+Generada Victor_toma1.wav
+Generada Victor_toma0.wav
+Generada Victor_toma3.wav
+Generada Victor_toma2.wav
+Generada Guillermo_toma0.wav
+Generada Guillermo_toma1.wav
+Generada Guillermo_toma3.wav
+Generada Guillermo_toma2.wav
+Victor 0 0.996415770609319  Eres constructora o desarrollador. En Cervilín hacemos limpieza de obra fina para empresas.  Retiramos polvo, cemento y restos de pintura.  Limpiamos ventanas y pisos con personal uniformado, capacitado y supervisado.  Tu obra lista para entregar solicita una propuesta por WhatsApp.  Dinos qué tipo de inmueble y cuántos metros cuadrados.
+Victor 1 0.998211091234347  Eres constructora o desarrollador, en servilina hacemos limpieza de obra fina para empresas.  Retiramos polvo, cemento y restos de pintura.  Limpiamos ventanas y pisos con personal uniformado, capacitado y supervisado.  Tu obra lista para entregar. Solicita una propuesta por WhatsApp.  Dinos que tipo de inmueble y cuantos metros cuadrados.
+Victor 2 0.996415770609319  ¿Eres constructora o desarrollador?  En Servilín hacemos limpieza de obra fina para empresas.  Retiramos polvo, cemento y restos de pintura.  Limpiemos ventanas y pisos con personal uniformado, capacitado y supervisado.  ¿Tu obra lista para entregar?  Solicita una propuesta por WhatsApp.  Dinos qué tipo de inmueble y cuántos metros cuadrados.
+Victor 3 1.0  ¿Eres constructora o desarrollador?  En Servilín hacemos limpieza de obra fina para empresas.  Retiramos polvo, cemento y restos de pintura.  Limpiamos ventanas y pisos con personal uniformado, capacitado y supervisado.  ¿Tu obra lista para entregar?  ¿Solicita una propuesta por WhatsApp?  Dinos qué tipo de inmueble y cuántos metros cuadrados.
+FINAL clientes/Victor/video/Servilin_obra_fina_v6.mp4 22.548277000000002  ¿Eres constructora o desarrollador?  En Cervilín hacemos limpieza de obra fina para empresas.  Retiramos polvo, cemento y restos de pintura.  Limpiamos ventanas y pisos con personal uniformado, capacitado y supervisado.  ¿Tu obra lista para entregar?  ¿Solicita una propuesta por WhatsApp?  Dinos qué tipo de inmueble y cuántos metros cuadrados.
+Guillermo 0 0.9666666666666667  Tu casa necesita saguán. En Puebla, Proyectos Metálicos Vicens hace saguanes a la medida.  Cuidamos los detalles desde el armado hasta el acabado. Más de 15 años de experiencia.  Mándanos por WhatsApp una foto, las medidas y tu colonia para cotizar tu saguán.
+Guillermo 1 0.9  ¿Su casa necesita saguán?  En Puebla, Proyectos Metálicos Vicens hace saguanes a la medida.  Cuidamos los detalles desde el armado hasta el acabado.  Más de 15 años de experiencia.  Mándanos por WhatsApp una foto, las medidas y tu colonia para cotizar tu saguán.
+Guillermo 2 0.9021479713603818  Nunca se me cita saguán, en Puebla proyectos metálicos Vicens hace saguanes a la medida.  Cuidamos los detalles desde el armado hasta el acabado.  Más de 15 años de experiencia, mándanos por whatsapp una foto, las medidas y tu colonia  para cotizar tu saguán.
+Guillermo 3 0.6778042959427207  Tu casa necesita saguay en Puebla, proyectos metálicos, bicensas y saguandes a la medida.  Cuidamos los detalles desde el armado hasta el acabado.  Más de 15 años de experiencia, mánanos por whatsapp una foto, las medidas y tu colonia para cotizar tu saguam.
+Traceback (most recent call last):
+  File "/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/producir.py", line 31, in <module>
+    p=D/f"{j['n']}_toma{i}.wav";s=tr(p,j['text']);said=' '.join(x['text'] for x in s);score=difflib.SequenceMatcher(None,norm(j['text']),norm(said)).ratio();results.append(dict(path=str(p),segments=s,said=said,match=score));print(j['n'],i,score,said,flush=True)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Ninguna toma exacta: Guillermo

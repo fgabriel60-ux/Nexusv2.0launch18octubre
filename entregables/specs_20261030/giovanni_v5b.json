@@ -1,0 +1,31 @@
+{
+ "carpeta": "clientes/Giovanni/video_v5_20261030",
+ "salida": "clientes/Giovanni/video_v5_20261030/salida",
+ "semilla": 29,
+ "refs": {
+  "cara": "clientes/lote_30oct/refs/giovanni_cara.png",
+  "arco": "clientes/Giovanni/video_v4_20261030/arco_wikimedia_ccbysa4.jpg"
+ },
+ "cuadros": {
+  "GB5": [
+   [
+    "cara",
+    "arco"
+   ],
+   "Edita la PRIMERA foto SIN cambiar a la persona: conserva EXACTAMENTE la misma cara, los mismos rasgos, el mismo tono de piel, el mismo bigote canoso SIN barba en la barbilla, el mismo cabello canoso corto, el mismo traje azul marino, la misma corbata, la misma pose con los brazos cruzados y el mismo encuadre de medio cuerpo. Quita todo el texto y el fondo rojo. El fondo ahora es EXACTAMENTE el paisaje REAL de la segunda imagen: el mar turquesa real y EL ARCO de Cabo San Lucas COMPLETO y bien reconocible (la roca con el hueco del arco), visible a un lado de él, detrás de su hombro, como una fotografía real tomada desde una lancha o un mirador frente al Arco; la persona ocupa la parte baja y central y el Arco se ve completo arriba a un lado, sin edificios inventados, sin castillos, sin fantasía. Foto realista vertical 9:16, luz natural de día.",
+   "castillo, cúpulas, edificios inventados, fantasía, otra persona, barba, arco tapado, solo cielo, roca recortada, persona pegada"
+  ]
+ },
+ "voces": {
+  "G2a": "clientes/lote_30oct/voz/G2a.wav"
+ },
+ "tomas": [
+  [
+   "G2a",
+   "GB5",
+   "Vertical realistic shot, ONE continuous shot with NO camera cuts and NO zoom change: the SAME man from the first frame (gray short hair, gray mustache, NAVY BLUE suit, dark tie, arms crossed) talks to the camera in Spanish with natural lip movement exactly matching the speech, small head movements. He keeps exactly the same face, the same navy suit and the same gray hair during the whole video; do not change his clothes, do not change his hair color, do not replace him with another person. El Arco of Cabo San Lucas stays behind him. Static camera. No text.",
+   8.92,
+   "G2a"
+  ]
+ ]
+}

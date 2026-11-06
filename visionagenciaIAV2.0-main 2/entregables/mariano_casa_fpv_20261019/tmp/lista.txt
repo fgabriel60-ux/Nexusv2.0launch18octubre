@@ -1,0 +1,8 @@
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/tmp/s0.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/tmp/s1.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/tmp/s2.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/tmp/s3.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/tmp/s4.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/tmp/s5.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/tmp/s6.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/tmp/s7.mp4'

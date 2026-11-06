@@ -1,0 +1,1939 @@
+Reading additional input from stdin...
+OpenAI Codex v0.166.0
+--------
+workdir: /workspaces/Nexusv2.0launch18octubre
+model: gpt-6.1-sol
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: low
+reasoning summaries: none
+session id: 01a1add9-1325-7f50-9bda-3ce34870be56
+--------
+user
+Haz 2 anuncios para un fotógrafo de XV años, con una identidad visual muy específica. Trabaja en
+/workspaces/Nexusv2.0launch18octubre.
+
+LEE PRIMERO ESTE ARCHIVO, es la guía y manda sobre todo:
+  entregables/glimmer_identidad_manuel_20261105/IDENTIDAD_MANUEL.md
+
+Lo esencial de esa guía, para que no te pierdas:
+- Idea central: que la mamá sienta que su hija será recordada COMO EN UNA PELÍCULA, no como en un
+  video de fiesta.
+- Paleta, exactamente estos cuatro: Crepúsculo #0B132B (fondo principal, azul noche de cine),
+  Dorado Cálido #D4A373 (acento y detalles), Arena #E8DFCA (bloques de texto, cálido sin ser rosa),
+  Verde Bosque #2F3E2E (apoyo, guiño al vestido verde de su reel).
+- PROHIBIDO el rosa y el fucsia: es lo primero que usa todo el mundo en XV y lo vuelve genérico.
+  Prohibido también el negro puro, el amarillo neón, el azul marino con verde esmeralda y el
+  blanco cálido con terracota: esos son de otros clientes y de la agencia.
+- Tipografía: titular en Playfair Display Bold o Black, serifa elegante de portada de película.
+  Subtítulos y etiquetas en Montserrat SemiBold. Cuerpo en Source Sans 3.
+- La foto debe verse cinematográfica, con luz de atardecer cálida, no de estudio.
+
+EL CLIENTE
+Manuel, fotógrafo y videógrafo de XV años. Su marca se llama Hunab Ku. Trabaja Nogales, Sonora y
+el sur de Arizona. Sus teléfonos: +1 (520) 313-6941 y 631 126 5175. Se agenda por WhatsApp.
+Su logo real está en: clientes/Manuel_fotografia/logo/logo_nuevo_sin_fondo.png
+Úsalo discreto, en una esquina, no gigante.
+
+Formato 1080x1350 los dos. Guárdalos en entregables/anuncios_imagen_20261104/v5_identidad/
+
+1) MANUEL_v5_recuerdo.png
+   Foto: una quinceañera mexicana con vestido largo verde, en exterior, luz dorada de atardecer
+   detrás de ella pero NO a contraluz duro: luz lateral cálida que le ilumine la cara. De pie,
+   tranquila, con las MANOS ATRÁS o los brazos cruzados; nunca las manos abiertas sobre el vestido,
+   que es la pose que peor sale. Plano entero o tres cuartos. Fondo de campo abierto desenfocado.
+   Titular: Que la recuerden como en una película
+   Apoyo: Fotografía y video de XV con tratamiento cinematográfico
+   Pie discreto: Hunab Ku · Nogales, Sonora y sur de Arizona
+   Botón en Dorado Cálido: Aparta tu fecha por WhatsApp
+
+2) MANUEL_v5_fecha.png
+   Foto: la misma quinceañera, ahora en plano medio corto, de tres cuartos, mirando fuera de
+   cámara con gesto sereno, misma luz dorada de atardecer. Que se vea la textura del vestido.
+   Titular: Las mejores fechas se apartan antes
+   Apoyo: Dime la fecha de tus XV y te digo si está libre
+   Dos datos cortos: Nogales y sur de Arizona · Video y fotografía
+   Pie: WhatsApp 631 126 5175 · +1 (520) 313-6941
+   Botón en Dorado Cálido: Preguntar por mi fecha
+
+REGLAS:
+- Esos teléfonos son datos reales, escríbelos tal cual. No inventes precios ni paquetes.
+- Texto perfecto en español con acentos.
+- La muchacha tiene que verse real: piel con textura y poros, nada de piel de plástico, manos
+  escondidas, tela con pliegues reales, sombras en una sola dirección.
+- Nada de rosa en ningún elemento, ni en el vestido, ni en flores, ni en el texto.
+- Márgenes de 80 px, nada pegado al borde.
+Cuando termines dime qué quedó en cada ruta y cómo cumpliste la regla de oro de la guía.
+codex
+Voy a leer la guía de identidad y las notas de Carlos, y usaré la habilidad de imágenes para crear los dos anuncios con la misma quinceañera.
+exec
+/bin/bash -lc 'cat entregables/glimmer_identidad_manuel_20261105/IDENTIDAD_MANUEL.md; cat /vol/claude-config/codex/contexto_carlos.md; cat /home/codespace/.codex/skills/.system/imagegen/SKILL.md' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+Perfecto. Aquí tienes una guía lista para convertir en prompt, concreta y sin inventar datos que no diste.
+
+# 1) IDEA CENTRAL
+
+“Que la mamá sienta que su hija será recordada como en una película, no como en un video de fiesta.”
+
+# 2) PALETA
+
+Usa 4 colores. Todos con sentido para piel latina, vestido verde del reel y luz de atardecer.
+
+- **Crepúsculo #0B132B** — fondo principal. Azul noche profundo que evoca cine y noche de gala. Da contraste y elegancia.
+- **Dorado Cálido #D4A373** — acento y detalles. Remite a luz de atardecer y a un recuerdo precioso que perdura.
+- **Arena #E8DFCA** — fondo secundario / áreas de texto. Suave, cálido, femenino sin ser rosa. Hace legible el texto sobre oscuro.
+- **Verde Bosque #2F3E2E** — apoyo. Hace guiño al vestido verde del reel y ancla la paleta a la naturaleza del norte de Sonora/Arizona.
+
+**Qué NO usar y por qué**
+
+- **Rosa fuerte / fucsia.** Es lo primero que todos usan en XV y vuelve genérico. Reemplázalo por **Arena #E8DFCA** para suavidad y **Dorado Cálido #D4A373** para feminidad con clase.
+- **Negro puro #000000.** Enaltece lo “barato”. Mejor **Crepúsculo #0B132B**.
+- **Amarillo neón.** Es de la agencia, no del cliente.
+- **Azul marino + verde esmeralda.** Es del cliente de autos BYD.
+- **Blanco cálido + terracota.** Es del cliente inmobiliario.
+
+# 3) TIPOGRAFÍA
+
+Carácter: editorial cinematográfica, limpia y legible. Titular con presencia, texto con calidez.
+
+- **Titular:** *Playfair Display* en Bold / Black. Serifa elegante, aire de portada de película.
+- **Subtítulo / etiquetas:** *Montserrat* SemiBold. Sans geométrica, moderna y clara.
+- **Cuerpo:** *Source Sans 3* Regular / Medium. Muy legible en móvil.
+
+**Tamaños para 1080x1350**
+
+- Titular: **72–86 px**, interletraje –10 a –20.
+- Subtítulo / etiqueta: **36–44 px**.
+- Cuerpo: **28–34 px**, interlineado 1.35–1.45.
+- CTA: **34–40 px**, negrita.
+
+**Letra manuscrita:** No como base. Solo un toque opcional y mínimo para firmas o detalles, nunca para titular ni información clave. Evita cursivas infantiles.
+
+# 4) TRATAMIENTO DE LA FOTO
+
+**Cómo debe verse**
+
+- **Luz:** natural de atardecer, cálida y lateral. Piel suave, brillos controlados, sombras largas. Nada de flash frontal.
+- **Color:** contraste bajo-medio, negros ricos, piel natural, verdes presentes pero no saturados. Grano fino tipo película.
+- **Fondo:** exteriores reales de Nogales/Sonora y sur de Arizona: cielo al atardecer, arquitectura sencilla, naturaleza discreta. Sin salones recargados ni globos.
+- **Quinceañera:** mirada a cámara o fuera de cámara en movimiento, vestido fluido, manos naturales, expresiones reales. Evita poses forzadas.
+- **Siempre:** una foto grande, de medio cuerpo a plano americano, con espacio negativo para texto. Incluir sutil vignette y un leve halation en luces altas.
+- **Nunca:** fondos de estudio con ciclorama, luces duras, overlays de corazones, glitter, bordes blancos tipo “reel de boda barato”, texto sobre caras.
+
+**Cinematográfico y no “estudio barato”**
+
+- Luz natural + hora dorada.
+- Enfoque selectivo, bokeh suave.
+- Grading cálido en sombras, magentas muy contenidos en luces.
+- Composición con líneas limpias y espacio para respirar.
+
+# 5) COMPOSICIÓN 1080x1350
+
+- **Foto:** 70–80% del alto. Ocupa ancho completo. Sujeto ubicado en tercio inferior o lateral dejando **área limpia superior** para texto.
+- **Bloque de texto:** 20–30% en la parte superior o inferior según el espacio negativo de la foto. Máximo 3 líneas.
+- **Jerarquía visual:** Foto → Titular → Subtítulo corto → CTA.
+- **Margen de seguridad:** 80 px en todos los lados.
+- **CTA:** botón o barra sólida en **Dorado Cálido #D4A373** con texto en **Crepúsculo #0B132B**. Texto: “Agenda tu fecha por WhatsApp”.
+
+# 6) TONO DEL TEXTO
+
+- **Tratamiento:** de **tú** con mamá; cercano, respetuoso, sin empalagoso.
+- **Usa:** recuerdo, película, luz natural, atardecer, fecha, confianza, cuidado del detalle.
+- **Evita:** “fiesta”, “show”, “impactante”, “increíble”, emojis, mayúsculas a lo largo, jerga de influencer.
+- **Tres titulares de ejemplo, 6 a 8 palabras:**
+
+  1. “Tu hija, una película que dura toda la vida.”
+  2. “Luz de atardecer para un recuerdo eterno.”
+  3. “Quince años contados como cine, no como fiesta.”
+
+# 7) DIFERENCIACIÓN
+
+- **vs Autos BYD:** ellos son azul marino + verde esmeralda y fotografía urbana a plena luz. Manuel es **Crepúsculo + Dorado Cálido**, con luz de atardecer y narrativa cinematográfica.
+- **vs Inmobiliario:** ellos son blanco cálido + terracota y fachadas con luz de Baja. Manuel es noche elegante + dorado, con retrato humano y emoción.
+- **vs Estilo agencia:** la agencia es negro con amarillo neón. Manuel no usa neón; su noche es azul profundo y su acento es dorado cálido.
+
+---
+
+## REGLA DE ORO
+
+**Si la imagen no se siente como una escena de película iluminada al atardecer, con piel real y espacio para respirar, no es de Manuel.**  
+Rompe todo lo demás antes que eso.
+cat: /vol/claude-config/codex/contexto_carlos.md: No such file or directory
+---
+name: "imagegen"
+description: "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas."
+---
+
+# Image Generation Skill
+
+Generates or edits images for the current project (for example website assets, game assets, UI mockups, product mockups, wireframes, logo design, photorealistic images, or infographics).
+
+## Top-level modes and rules
+
+This skill has exactly two top-level modes:
+
+- **Default built-in tool mode (preferred):** built-in `image_gen` tool for image generation, editing, and transparent-image requests. Does not require `OPENAI_API_KEY`.
+- **Fallback CLI mode:** `scripts/image_gen.py` CLI. Use when the user explicitly asks for or confirms the CLI/API/model path. Requires `OPENAI_API_KEY`.
+
+Within CLI fallback, the CLI exposes three subcommands:
+
+- `generate`
+- `edit`
+- `generate-batch`
+
+Rules:
+- Use the built-in `image_gen` tool by default for normal image generation and editing requests.
+- Do not switch to CLI fallback for ordinary quality, size, or file-path control.
+- For transparent images, ask built-in `image_gen` for a transparent background and preserve the generated alpha.
+- Never silently switch from built-in `image_gen` or CLI `gpt-image-2` to CLI `gpt-image-1.5`; ask the user first unless they explicitly requested `gpt-image-1.5`.
+- The word `batch` by itself does not mean CLI fallback. If the user asks for many assets or says to batch-generate assets without explicitly asking for CLI/API/model controls, stay on the built-in path and issue one built-in call per requested asset or variant.
+- If the built-in tool fails or is unavailable, tell the user the CLI fallback exists and that it requires `OPENAI_API_KEY`. Proceed only if the user explicitly asks for that fallback.
+- If the user explicitly asks for CLI mode, use the bundled `scripts/image_gen.py` workflow. Do not create one-off SDK runners.
+- Never modify `scripts/image_gen.py`. If something is missing, ask the user before doing anything else.
+
+Built-in save-path policy:
+- In built-in tool mode, Codex saves generated images under `$CODEX_HOME/*` by default.
+- Do not describe or rely on OS temp as the default built-in destination.
+- Do not describe or rely on a destination-path argument (if any) on the built-in `image_gen` tool. If a specific location is needed, generate first and then move or copy the selected output from `$CODEX_HOME/generated_images/...`.
+- Save-path precedence in built-in mode:
+  1. If the user names a destination, move or copy the selected output there.
+  2. If the image is meant for the current project, move or copy the final selected image into the workspace before finishing.
+  3. If the image is only for preview or brainstorming, render it inline; the underlying file can remain at the default `$CODEX_HOME/*` path.
+- Never leave a project-referenced asset only at the default `$CODEX_HOME/*` path.
+- Do not overwrite an existing asset unless the user explicitly asked for replacement; otherwise create a sibling versioned filename such as `hero-v2.png` or `item-icon-edited.png`.
+
+Shared prompt guidance for both modes lives in `references/prompting.md` and `references/sample-prompts.md`.
+
+Fallback-only docs/resources for CLI mode:
+- `references/cli.md`
+- `references/image-api.md`
+- `references/codex-network.md`
+- `scripts/image_gen.py`
+
+## When to use
+- Generate a new image (concept art, product shot, cover, website hero)
+- Generate a new image using one or more reference images for style, composition, or mood
+- Edit an existing image (inpainting, lighting or weather transformations, background replacement, object removal, compositing, transparent background)
+- Produce many assets or variants for one task
+
+## When not to use
+- Extending or matching an existing SVG/vector icon set, logo system, or illustration library inside the repo
+- Creating simple shapes, diagrams, wireframes, or icons that are better produced directly in SVG, HTML/CSS, or canvas
+- Making a small project-local asset edit when the source file already exists in an editable native format
+- Any task where the user clearly wants deterministic code-native output instead of a generated bitmap
+
+## Decision tree
+
+Think about two separate questions:
+
+1. **Intent:** is this a new image or an edit of an existing image?
+2. **Execution strategy:** is this one asset or many assets/variants?
+
+Intent:
+- If the user wants to modify an existing image while preserving parts of it, treat the request as **edit**.
+- If the user provides images only as references for style, composition, mood, or subject guidance, treat the request as **generate**.
+- If the user provides no images, treat the request as **generate**.
+
+Built-in edit semantics:
+- Built-in edit mode is for images already visible in the conversation context, such as attached images or images generated earlier in the thread.
+- If the user wants to edit a local image file with the built-in tool, first load it with built-in `view_image` tool so the image is visible in the conversation context, then proceed with the built-in edit flow.
+- Do not promise arbitrary filesystem-path editing through the built-in tool.
+- If a local file still needs direct file-path control, masks, or other explicit CLI-only parameters, use the explicit CLI fallback only when the user asks for it.
+- For edits, preserve invariants aggressively and save non-destructively by default.
+
+Execution strategy:
+- In the built-in default path, produce many assets or variants by issuing one `image_gen` call per requested asset or variant.
+- In the CLI fallback path, use the CLI `generate-batch` subcommand only when the user explicitly chose CLI mode and needs many prompts/assets.
+- For many distinct assets, do not use `n` as a substitute for separate prompts. `n` is for variants of one prompt; distinct assets need distinct built-in calls or distinct CLI `generate-batch` jobs.
+
+Assume the user wants a new image unless they clearly ask to change an existing one.
+
+## Workflow
+1. Decide the top-level mode: built-in by default, including transparent-output requests; fallback CLI only if explicitly requested or confirmed.
+2. Decide the intent: `generate` or `edit`.
+3. Decide whether the output is preview-only or meant to be consumed by the current project.
+4. Decide the execution strategy: single asset vs repeated built-in calls vs CLI `generate-batch`.
+5. Collect inputs up front: prompt(s), exact text (verbatim), constraints/avoid list, and any input images.
+6. For every input image, label its role explicitly:
+   - reference image
+   - edit target
+   - supporting insert/style/compositing input
+7. If the edit target is only on the local filesystem and you are staying on the built-in path, inspect it with `view_image` first so the image is available in conversation context.
+8. If the user asked for a photo, illustration, sprite, product image, banner, or other explicitly raster-style asset, use `image_gen` rather than substituting SVG/HTML/CSS placeholders. If the request is for an icon, logo, or UI graphic that should match existing repo-native SVG/vector/code assets, prefer editing those directly instead.
+9. Augment the prompt based on specificity:
+   - If the user's prompt is already specific and detailed, normalize it into a clear spec without adding creative requirements.
+   - If the user's prompt is generic, add tasteful augmentation only when it materially improves output quality.
+10. Use the built-in `image_gen` tool by default.
+11. For transparent-output requests, ask built-in `image_gen` for a transparent background and preserve the generated alpha channel.
+12. Inspect outputs and validate: subject, style, composition, text accuracy, and invariants/avoid items.
+13. Iterate with a single targeted change, then re-check.
+14. For preview-only work, render the image inline; the underlying file may remain at the default `$CODEX_HOME/generated_images/...` path.
+15. For project-bound work, move or copy the selected artifact into the workspace and update any consuming code or references. Never leave a project-referenced asset only at the default `$CODEX_HOME/generated_images/...` path.
+16. For batches or multi-asset requests, persist every requested deliverable final in the workspace unless the user explicitly asked to keep outputs preview-only. Discarded variants do not need to be kept unless requested.
+17. If the user explicitly chooses or confirms the CLI fallback, then use the fallback-only docs for model, quality, size, `input_fidelity`, masks, output format, output paths, and network setup.
+18. Always report the final saved path(s) for any workspace-bound asset(s), plus the final prompt or prompt set and whether the built-in tool or fallback CLI mode was used.
+
+## Transparent image requests
+
+Ask built-in `image_gen` for a genuinely transparent background and preserve its alpha.
+
+## Prompt augmentation
+
+Reformat user prompts into a structured, production-oriented spec. Make the user's goal clearer and more actionable, but do not blindly add detail.
+
+Treat this as prompt-shaping guidance, not a closed schema. Use only the lines that help, and add a short extra labeled line when it materially improves clarity.
+
+### Specificity policy
+
+Use the user's prompt specificity to decide how much augmentation is appropriate:
+
+- If the prompt is already specific and detailed, preserve that specificity and only normalize/structure it.
+- If the prompt is generic, you may add tasteful augmentation when it will materially improve the result.
+
+Allowed augmentations:
+- composition or framing hints
+- polish level or intended-use hints
+- practical layout guidance
+- reasonable scene concreteness that supports the stated request
+
+Not allowed augmentations:
+- extra characters or objects that are not implied by the request
+- brand names, slogans, palettes, or narrative beats that are not implied
+- arbitrary side-specific placement unless the surrounding layout supports it
+
+## Use-case taxonomy (exact slugs)
+
+Classify each request into one of these buckets and keep the slug consistent across prompts and references.
+
+Generate:
+- photorealistic-natural — candid/editorial lifestyle scenes with real texture and natural lighting.
+- product-mockup — product/packaging shots, catalog imagery, merch concepts.
+- ui-mockup — app/web interface mockups and wireframes; specify the desired fidelity.
+- infographic-diagram — diagrams/infographics with structured layout and text.
+- scientific-educational — classroom explainers, scientific diagrams, and learning visuals with required labels and accuracy constraints.
+- ads-marketing — campaign concepts and ad creatives with audience, brand position, scene, and exact tagline/copy.
+- productivity-visual — slide, chart, workflow, and data-heavy business visuals.
+- logo-brand — logo/mark exploration, vector-friendly.
+- illustration-story — comics, children’s book art, narrative scenes.
+- stylized-concept — style-driven concept art, 3D/stylized renders.
+- historical-scene — period-accurate/world-knowledge scenes.
+
+Edit:
+- text-localization — translate/replace in-image text, preserve layout.
+- identity-preserve — try-on, person-in-scene; lock face/body/pose.
+- precise-object-edit — remove/replace a specific element (including interior swaps).
+- lighting-weather — time-of-day/season/atmosphere changes only.
+- background-extraction — transparent background / clean cutout. Ask built-in `image_gen` for actual transparency.
+- style-transfer — apply reference style while changing subject/scene.
+- compositing — multi-image insert/merge with matched lighting/perspective.
+- sketch-to-render — drawing/line art to photoreal render.
+
+## Shared prompt schema
+
+Use the following labeled spec as shared prompt scaffolding for both top-level modes:
+
+```text
+Use case: <taxonomy slug>
+Asset type: <where the asset will be used>
+Primary request: <user's main prompt>
+Input images: <Image 1: role; Image 2: role> (optional)
+Scene/backdrop: <environment>
+Subject: <main subject>
+Style/medium: <photo/illustration/3D/etc>
+Composition/framing: <wide/close/top-down; placement>
+Lighting/mood: <lighting + mood>
+Color palette: <palette notes>
+Materials/textures: <surface details>
+Text (verbatim): "<exact text>"
+Constraints: <must keep/must avoid>
+Avoid: <negative constraints>
+```
+
+Notes:
+- `Asset type` and `Input images` are prompt scaffolding, not dedicated CLI flags.
+- `Scene/backdrop` refers to the visual setting. It is not the same as the fallback CLI `background` parameter, which controls output transparency behavior.
+- Fallback-only execution notes such as `Quality:`, `Input fidelity:`, masks, output format, and output paths belong in the CLI path only. Do not treat them as built-in `image_gen` tool arguments.
+
+Augmentation rules:
+- Keep it short.
+- Add only the details needed to improve the prompt materially.
+- For edits, explicitly list invariants (`change only X; keep Y unchanged`).
+- If any critical detail is missing and blocks success, ask a question; otherwise proceed.
+
+## Examples
+
+### Generation example (hero image)
+```text
+Use case: product-mockup
+Asset type: landing page hero
+Primary request: a minimal hero image of a ceramic coffee mug
+Style/medium: clean product photography
+Composition/framing: wide composition with usable negative space for page copy if needed
+Lighting/mood: soft studio lighting
+Constraints: no logos, no text, no watermark
+```
+
+### Edit example (invariants)
+```text
+Use case: precise-object-edit
+Asset type: product photo background replacement
+Primary request: replace only the background with a warm sunset gradient
+Constraints: change only the background; keep the product and its edges unchanged; no text; no watermark
+```
+
+## Prompting best practices
+- Structure prompt as scene/backdrop -> subject -> details -> constraints.
+- Include intended use (ad, UI mock, infographic) to set the mode and polish level.
+- Use camera/composition language for photorealism.
+- Only use SVG/vector stand-ins when the user explicitly asked for vector output or a non-image placeholder.
+- Quote exact text and specify typography + placement.
+- For tricky words, spell them letter-by-letter and require verbatim rendering.
+- For multi-image inputs, reference images by index and describe how they should be used.
+- For edits, repeat invariants every iteration to reduce drift.
+- Iterate with single-change follow-ups.
+- If the prompt is generic, add only the extra detail that will materially help.
+- If the prompt is already detailed, normalize it instead of expanding it.
+- For CLI fallback only, see `references/cli.md` and `references/image-api.md` for model, `quality`, `input_fidelity`, masks, output format, and output-path guidance.
+- For transparent images, ask built-in `image_gen` for actual transparency and preserve its alpha.
+
+More principles shared by both modes: `references/prompting.md`.
+Copy/paste specs shared by both modes: `references/sample-prompts.md`.
+
+## Guidance by asset type
+Asset-type templates (website assets, game assets, wireframes, logo) are consolidated in `references/sample-prompts.md`.
+
+## gpt-image-2 guidance for CLI fallback
+
+The fallback CLI defaults to `gpt-image-2`.
+
+- Use `gpt-image-2` for new CLI/API workflows unless the user confirms a different model.
+- CLI `gpt-image-2` does not support `background=transparent`; ask before using `gpt-image-1.5` unless the user explicitly requested that model.
+- `gpt-image-2` always uses high fidelity for image inputs; do not set `input_fidelity` with this model.
+- `gpt-image-2` supports `quality` values `low`, `medium`, `high`, and `auto`.
+- Use `quality low` for fast drafts, thumbnails, and quick iterations. Use `medium`, `high`, or `auto` for final assets, dense text, diagrams, identity-sensitive edits, or high-resolution outputs.
+- Square images are typically fastest to generate. Use `1024x1024` for fast square drafts.
+- If the user asks for 4K-style output, use `3840x2160` for landscape or `2160x3840` for portrait.
+- `gpt-image-2` size may be `auto` or `WIDTHxHEIGHT` if all constraints hold: max edge `<= 3840px`, both edges multiples of `16px`, long-to-short ratio `<= 3:1`, total pixels between `655,360` and `8,294,400`.
+
+Popular `gpt-image-2` sizes:
+- `1024x1024` square
+- `1536x1024` landscape
+- `1024x1536` portrait
+- `2048x2048` 2K square
+- `2048x1152` 2K landscape
+- `3840x2160` 4K landscape
+- `2160x3840` 4K portrait
+- `auto`
+
+## Fallback CLI mode only
+
+### Temp and output conventions
+These conventions apply only to the CLI fallback. They do not describe built-in `image_gen` output behavior.
+- Use `tmp/imagegen/` for intermediate files (for example JSONL batches); delete them when done.
+- Write final artifacts under `output/imagegen/`.
+- Use `--out` or `--out-dir` to control output paths; keep filenames stable and descriptive.
+
+### Dependencies
+Prefer `uv` for dependency management in this repo.
+
+Required Python package:
+```bash
+uv pip install openai
+```
+
+Optional for image inspection and downscaling:
+```bash
+uv pip install pillow
+```
+
+Portability note:
+- If you are using the installed skill outside this repo, install dependencies into that environment with its package manager.
+- In uv-managed environments, `uv pip install ...` remains the preferred path.
+
+### Environment
+- `OPENAI_API_KEY` must be set for live API calls.
+- Do not ask the user for `OPENAI_API_KEY` when using the built-in `image_gen` tool.
+- Never ask the user to paste the full key in chat. Ask them to set it locally and confirm when ready.
+
+If the key is missing, give the user these steps:
+1. Create an API key in the OpenAI platform UI: https://platform.openai.com/api-keys
+2. Set `OPENAI_API_KEY` as an environment variable in their system.
+3. Offer to guide them through setting the environment variable for their OS/shell if needed.
+
+If installation is not possible in this environment, tell the user which dependency is missing and how to install it into their active environment.
+
+### Script-mode notes
+- CLI commands + examples: `references/cli.md`
+- API parameter quick reference: `references/image-api.md`
+- Network approvals / sandbox settings for CLI mode: `references/codex-network.md`
+
+## Reference map
+- `references/prompting.md`: shared prompting principles for both modes.
+- `references/sample-prompts.md`: shared copy/paste prompt recipes for both modes.
+- `references/cli.md`: fallback-only CLI usage via `scripts/image_gen.py`.
+- `references/image-api.md`: fallback-only API/CLI parameter reference.
+- `references/codex-network.md`: fallback-only network/sandbox troubleshooting for CLI mode.
+- `scripts/image_gen.py`: fallback-only CLI implementation. Use only when the user explicitly chooses or confirms CLI mode.
+
+exec
+/bin/bash -lc "ls /vol/claude-config/projects/---modal-volumes-vo-N6gOPxHfXSf5HzbsmuqjJ3-workspaces-Nexusv2-0launch18octubre/memory/; rg --files -g AGENTS.md -g '*Playfair*' -g '*Montserrat*' -g '*SourceSans*'" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+ls: cannot access '/vol/claude-config/projects/---modal-volumes-vo-N6gOPxHfXSf5HzbsmuqjJ3-workspaces-Nexusv2-0launch18octubre/memory/': No such file or directory
+visionagenciaIAV2.0-main 2/AGENTS.md
+visionagenciaIAV2.0-main 2/entregables/cinthia_payan_logo_20261027/fuentes/PlayfairDisplay.ttf
+visionagenciaIAV2.0-main 2/entregables/modelos_modal/fuentes/Montserrat.ttf
+clientes/_productor/fuentes/PlayfairDisplay[wght].ttf
+clientes/_productor/fuentes/PlayfairDisplay-Italic[wght].ttf
+AGENTS.md
+visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/fuentes/Montserrat.ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/fuentes/Montserrat.ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/fuentes/PlayfairDisplay[wght].ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/fuentes/PlayfairDisplay-Italic[wght].ttf
+
+exec
+/bin/bash -lc "cat AGENTS.md; ls -l clientes/Manuel_fotografia/logo/logo_nuevo_sin_fondo.png; rg --files -g '*MEMORY.md' -g '*contexto_carlos*'; ls entregables/anuncios_imagen_20261104/v5_identidad" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+# Instrucciones para ChatGPT (Codex) en el workspace de Carlos
+
+Tienes acceso COMPLETO a este workspace (Modal, sandbox de Carlos): archivos, red, terminal, WhatsApp, Modal (GPU) y Glimmer (la IA de Meta). No digas que no tienes acceso: úsalo. Lee primero `/vol/claude-config/codex/contexto_carlos.md` (negocio, método, clientes). Responde en español, corto, para WhatsApp.
+
+
+## Lo que Carlos pide siempre (memoria de Claude)
+Antes de cualquier tarea lee TODAS las notas de `/vol/claude-config/projects/---modal-volumes-vo-N6gOPxHfXSf5HzbsmuqjJ3-workspaces-Nexusv2-0launch18octubre/memory/` (empieza por MEMORY.md). Son las reglas, preferencias y correcciones que Carlos le ha dado a Claude durante semanas: método, calidad, cómo calificar, a quién escribir, límites de gasto, cuentas y clientes. Síguelas igual que Claude. Si aprendes una regla nueva de Carlos, agrégala como nota nueva en esa carpeta (un archivo por regla, con el mismo formato) y su línea en MEMORY.md.
+
+
+## Manual de producción
+Para hacer videos tú solo (cuando Claude no esté) sigue `MANUAL_CHATGPT.md` (raíz): referencias, escenas con Qwen + MiniMax H3, ahorro de GPU, voz Fish, armado, Glimmer y estado de clientes.
+
+## Preguntarle a Claude
+Si necesitas algo que solo Claude sabe (por qué se decidió algo, dónde está un archivo, cómo se hizo un video), pregunta con `herramientas/preguntar_claude.sh "pregunta"`. Claude responde con su memoria y el workspace (solo lectura). Gasta uso de Claude: máximo 5 preguntas al día, cortas, y primero busca en la memoria y en los archivos.
+
+## Herramientas
+- **WhatsApp (WaAPI):** `python3 -c "import sys;sys.path.insert(0,'herramientas');from wa import accion; ..."`
+  - `accion('send-message',{'chatId':ID,'message':txt})`, `accion('fetch-messages',{'chatId':ID,'limit':20})`, `accion('get-chats',{})`, `accion('download-media',{'messageId':MID})` → `['data']['data']['media']['url']`.
+  - Mandar video/imagen a Carlos: `python3 herramientas/enviar_seguro.py RUTA "texto"`. Chat de Carlos: `44522318905388@lid`.
+  - Chats de clientes: José `257883358937112@lid`, Guillermo `256998142660619@lid`, Alberto `121135308009543@lid`, Giovanni `147832891793521@lid`, Iván `72125973008625@lid`, Rubén `25112875143230@lid`, Lisbeth `161641681395864@lid`, Víctor `244250780389552@lid`, Tatuador `250053667119335@lid`, Andrés `248292160077914@lid`, Jesús Puertas `77185511633028@lid`.
+- **Calificar un video con Glimmer (IA de Meta):** escribe `entregables/glimmer_evaluador/anuncios_<id>.json` = `[{"nombre":"CLIENTE_vX","video":"/ruta/absoluta.mp4","cliente":"datos reales del negocio"}]`, luego encola en la fila (corre sola):
+  `echo "python3 entregables/glimmer_evaluador/evaluar.py entregables/glimmer_evaluador/anuncios_<id>.json entregables/glimmer_evaluador/<id> && GASTO_PERFIL=carlosfavelajeje python3 gasto_modal.py run entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/<id>/lote.json --tokens 4500 > entregables/glimmer_evaluador/<id>/glimmer.log 2>&1" > entregables/fila/pendientes/<AAAAMMDD_HHMM>_<cliente>.sh`
+  Resultado: en `glimmer.log`, lo que sigue a `assistant to=user` (CALIFICACIÓN TOTAL, NOTAS, QUÉ LO FRENA, VEREDICTO). Tarda ~6-10 min. Estado de la fila: `tail entregables/fila/fila.log`.
+- **Calificaciones existentes:** `entregables/glimmer_evaluador/*/glimmer.log`.
+- **Formato de calificación para clientes:** `entregables/glimmer_evaluador/mensaje_calificacion.py` (`mensaje(nombre, hoy, proyectada, funciona, falta, pauta, hecho)`).
+- **Voz clonada (Fish Audio):** clave en `$FISH_API_KEY`; POST `https://api.fish.audio/v1/tts` con `{"text","format":"wav","reference_id":ID}` y header `model: s2-pro` o `s1`. Genera 4 tomas y elige la que Whisper (`faster_whisper`, modelo `medium`) transcriba igual al guion. IDs: José `74cae190c2c84b0caaca073f42f5de54`, Carlos `1f679152b5d64c09a8e8eeecd3eb5424`, Doctora `1cbf187942e14e2789215b6374e8323c`, Rubén `22eb1ea2a6ce44c882d721aea1003766`, Iván `2e7509fae4af43c0b4166202aeff3918`.
+- **Armadores de video (ffmpeg, sin GPU):** José `clientes/Jose/armado_20261029/armar_jose_v9.py` (voces por frase en `voz_v8/sN_0.mp3`, borra `tmp_v9c` si cambias voz), Guillermo `clientes/Guillermo/far12_v1/armar_far12_v3.py`, Doctora `clientes/Alberto/video/armar_implantes_ref.py --version X --tomas v6`, Iván `clientes/Ivan/video_v5_20261030/armar_ivan_v5.py`, Rubén `clientes/Ruben_Quiropraxia/video_v3/armar_ruben_v3.py`.
+- **GPU (escenas nuevas Qwen/MiniMax):** solo con `GASTO_PERFIL=carlosfavelajeje python3 gasto_modal.py run clientes/_escenas_carlos/escenas_carlos_modal.py::cuadros|animar --spec SPEC.json`, encolado en `entregables/fila_escenas/pendientes/`. Cuenta carlosfavelajeje: $30 de crédito, tope $28 (vigía activo); consulta antes de gastar.
+
+## Reglas (obligatorias)
+1. Escribir o mandar algo a un CLIENTE solo si Carlos lo pide en ese mensaje; si no, todo va primero a Carlos.
+2. Cada video que mandes lleva su calificación de Glimmer: separa **actual** (la que Glimmer dio al video) de **proyectada** (la que daría con los cambios). Nunca inventes calificaciones ni resultados.
+3. No borres archivos de clientes; versiona (v9c → v9d). No toques `.vol`, credenciales ni `gasto_modal.py`.
+4. Antes de dar algo por hecho, verifícalo (escucha con Whisper, revisa el video, lee el log). Si algo falla, dilo.
+5. Calidad: caras parecidas a la persona real, lugares reales, voz bien pronunciada, sin promesas de salud.
+6. Al terminar, responde a Carlos con: qué hiciste, rutas de los videos, y qué falta.
+
+
+## Cuando Claude se acabe (uso semanal agotado)
+Tú tomas el relevo completo:
+1. Revisa `buzon/fila_encargos.log` y `buzon/para_nexus2/`: los encargos que sigan ahí (no movidos a `buzon/hecho/`) están pendientes. Lee cada uno completo (y sus actualizaciones al final) y continúalo sin repetir lo ya hecho: revisa archivos nuevos del cliente, la fila de GPU y lo que ya se le mandó a Carlos.
+2. Un trabajo pesado a la vez: el sandbox tiene 1 CPU y 4 GB; con varios procesos en paralelo se cae.
+3. Glimmer rápido para guiones y revisiones: `https://carlosfavelajeje--glimmer-chat-glimmer-web.us-east.modal.run/chat` (POST `{"mensajes":[{"rol":"user","texto":"...","fotos":[base64]}],"tokens":4500}`, header `x-clave` = CLAVE del secreto Modal `glimmer-chat`). Calificación formal: la fila de `entregables/glimmer_evaluador/`.
+4. Meta Ads: tú no tienes Windsor. Deja el video final, miniatura, texto del anuncio y segmentación en `buzon/para_nexus/` y dile a Carlos que lo suba él en el Administrador de anuncios (o que lo haga Claude cuando vuelva).
+5. Prospectos nuevos («¡Hola! Quiero más información»): responde con el mensaje de la calificación de Facebook (solo lanzamos con 8+; ejemplos reales: limpieza 33 mensajes a $1.39, impermeabilización 18 mensajes a $2.87) y pide giro/ciudad, 3 fotos o videos, precio o promoción y un reel de referencia. Estamos en Sonora y trabajamos 100% en línea con todo México.
+-rw-rw-rw- 1 codespace codespace 297382 Oct 27 22:56 clientes/Manuel_fotografia/logo/logo_nuevo_sin_fondo.png
+MARIANO_v5_benjamina.png
+MARIANO_v5_modelos.png
+RAFAEL_v5_ahorro.png
+RAFAEL_v5_prueba.png
+VISTA_CONJUNTA.jpg
+produccion.json
+prompts_finales.json
+
+codex
+La guía pone por encima de todo la sensación de una escena de película al atardecer. Mantendré luz lateral en el rostro, piel natural, vestido verde bosque y espacio para respirar, con el logo discreto. Las rutas de contexto y memoria de `/vol/claude-config/` no existen en este entorno; sí pude leer la guía y el AGENTS.md del proyecto.
+exec
+/bin/bash -lc 'which magick; which convert; ls -td /home/codespace/.codex/generated_images/* 2>/dev/null | head -3' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+/home/codespace/.codex/generated_images/01a1adba-7159-73d1-8223-338b8b8e3f03
+/home/codespace/.codex/generated_images/01a1ada5-9964-7ce1-97bc-68cc687e7385
+/home/codespace/.codex/generated_images/01a1ad9e-67df-7d62-a074-d8ff07c4268b
+
+exec
+/bin/bash -lc 'command -v ffmpeg; rg --files /home/codespace/.codex/generated_images | tail -5; git status --short' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+/home/codespace/.local/bin/ffmpeg
+/home/codespace/.codex/generated_images/01a1ad2b-acbc-7453-a1b2-727b5349eae3/exec-b8c2b8f9-9701-4ac1-9a8d-9d5d10c02e9b.png
+/home/codespace/.codex/generated_images/01a1ad2b-acbc-7453-a1b2-727b5349eae3/exec-94b5da22-b02d-4e59-86e3-afa31155602c.png
+/home/codespace/.codex/generated_images/01a1ad2b-acbc-7453-a1b2-727b5349eae3/exec-524184cd-60cb-4365-8306-b545be3b5486.png
+/home/codespace/.codex/generated_images/01a1ad2e-4550-71e3-b31a-28dfec05d59a/exec-d9689e01-9dc0-4f41-ac5d-4e55228c7190.png
+/home/codespace/.codex/generated_images/01a1ad2e-4550-71e3-b31a-28dfec05d59a/exec-5df32d29-7e26-4360-bd9d-aaf01f4c86f9.png
+AM .gitignore
+A  clientes/Giovanni/whatsapp/del_cliente/20260929_181801_image.jpg
+A  clientes/Giovanni/whatsapp/del_cliente/20260929_184419_image.jpg
+A  clientes/Giovanni/whatsapp/del_cliente/20260929_185312_image.jpg
+A  clientes/Giovanni/whatsapp/del_cliente/20260929_185537_image.jpg
+A  clientes/Giovanni/whatsapp/del_cliente/20260929_185538_image.jpg
+A  clientes/Giovanni/whatsapp/del_cliente/20260929_193639_image.jpg
+A  clientes/Giovanni/whatsapp/del_cliente/20260929_194651_image.jpg
+A  clientes/Giovanni/whatsapp/del_cliente/20261015_185446_image.jpg
+A  clientes/Giovanni/whatsapp/hechos_por_mi/20260929_181849_image.jpg
+A  clientes/Giovanni/whatsapp/hechos_por_mi/20260929_183956_image.jpg
+A  clientes/Giovanni/whatsapp/hechos_por_mi/20260929_183958_image.jpg
+A  clientes/Giovanni/whatsapp/hechos_por_mi/20260929_184000_image.jpg
+A  clientes/Giovanni/whatsapp/hechos_por_mi/20260929_185629_image.jpg
+A  clientes/Giovanni/whatsapp/hechos_por_mi/20260929_192113_image.jpg
+A  clientes/Giovanni/whatsapp/hechos_por_mi/20260929_192117_image.jpg
+A  clientes/Giovanni/whatsapp/hechos_por_mi/20260929_192119_image.jpg
+A  clientes/Giovanni/whatsapp/hechos_por_mi/20261001_173159_image.jpg
+A  clientes/Giovanni/whatsapp/hechos_por_mi/20261001_181213_image.jpg
+A  clientes/Giovanni/whatsapp/hechos_por_mi/20261001_181654_image.jpg
+A  clientes/Giovanni/whatsapp/hechos_por_mi/20261014_160434_image.jpg
+A  clientes/Guillermo/whatsapp/del_cliente/20261013_160737_image.jpg
+A  clientes/Guillermo/whatsapp/del_cliente/20261013_160743_image.jpg
+A  clientes/Guillermo/whatsapp/del_cliente/20261013_161348_image.jpg
+A  clientes/Guillermo/whatsapp/del_cliente/20261014_144252_image.jpg
+A  clientes/Guillermo/whatsapp/del_cliente/20261014_173433_image.jpg
+A  clientes/Guillermo/whatsapp/del_cliente/20261015_155645_image.jpg
+A  clientes/Guillermo/whatsapp/del_cliente/20261015_160418_image.jpg
+A  clientes/Guillermo/whatsapp/del_cliente/20261015_161138_image.jpg
+A  clientes/Guillermo/whatsapp/del_cliente/20261015_161240_image.jpg
+A  clientes/Guillermo/whatsapp/del_cliente/20261015_162719_image.jpg
+A  clientes/Guillermo/whatsapp/del_cliente/20261015_162945_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261013_160716_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261013_163031_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261014_170457_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261014_173746_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261014_175320_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261015_143124_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261015_143827_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261015_150645_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261015_153738_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261015_161257_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261015_161947_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261015_162741_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261015_163031_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261015_200306_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261016_162739_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261016_203930_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261017_145202_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261018_100104_image.jpg
+A  clientes/Guillermo/whatsapp/hechos_por_mi/20261018_100349_image.jpg
+A  clientes/Ivan/video/I1_cuarto_primer_cuadro.png
+A  clientes/Ivan/video/I2_patio_primer_cuadro.png
+A  clientes/Ivan/video/I3_sala_primer_cuadro.png
+A  clientes/Ivan/video/I4_oficina_primer_cuadro.png
+A  clientes/Ivan/video/I5_jardin_primer_cuadro.png
+A  clientes/Ivan/video/I6_pasillo_primer_cuadro.png
+AD clientes/Ivan/video/__pycache__/ivan_modal.cpython-314.pyc
+AM clientes/Ivan/video/armar_ivan.py
+A  clientes/Ivan/video/ivan_modal.py
+A  clientes/Ivan/video/modal.log
+A  clientes/Ivan/video/voz/vendedor.mp3
+A  clientes/Ivan/whatsapp/del_cliente/20261014_160441_image.jpg
+A  clientes/Ivan/whatsapp/del_cliente/20261016_122210_image.jpg
+A  clientes/Ivan/whatsapp/del_cliente_19oct/2043_0.jpg
+A  clientes/Ivan/whatsapp/del_cliente_19oct/2043_1.jpg
+A  clientes/Ivan/whatsapp/del_cliente_19oct/2043_2.jpg
+A  clientes/Ivan/whatsapp/del_cliente_19oct/2043_3.jpg
+A  clientes/Ivan/whatsapp/del_cliente_19oct/2043_4.jpg
+A  clientes/Ivan/whatsapp/del_cliente_19oct/2043_5.jpg
+A  clientes/Ivan/whatsapp/del_cliente_19oct/2043_6.jpg
+A  clientes/Ivan/whatsapp/del_cliente_19oct/2124_10.jpg
+A  clientes/Ivan/whatsapp/del_cliente_19oct/2124_11.jpg
+A  clientes/Ivan/whatsapp/del_cliente_19oct/2124_7.jpg
+A  clientes/Ivan/whatsapp/del_cliente_19oct/2124_8.jpg
+A  clientes/Ivan/whatsapp/del_cliente_19oct/2124_9.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261014_161443_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261014_170729_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261014_171906_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261014_172815_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261014_173351_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261015_124859_video_f.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261015_124922_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261015_125007_video_f.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261015_131422_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261015_131724_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261015_140931_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261015_200444_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261016_190227_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261016_190232_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261016_190237_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261016_190943_image.jpg
+A  clientes/Ivan/whatsapp/hechos_por_mi/20261018_100621_image.jpg
+A  clientes/Jeremias/RESUMEN_PARA_META.md
+A  clientes/Jeremias/whatsapp/20261019/130848_01_JER_image.jpg
+A  clientes/Jeremias/whatsapp/20261019/130848_02_JER_image.jpg
+A  clientes/Jeremias/whatsapp/20261019/130848_03_JER_image.jpg
+A  clientes/Jeremias/whatsapp/20261019/130848_04_JER_image.jpg
+A  clientes/Jeremias/whatsapp/20261019/130937_05_YO_ptt.ogg
+A  clientes/Jeremias/whatsapp/20261019/132440_06_YO_ptt.ogg
+A  clientes/Jeremias/whatsapp/20261019/132940_07_YO_ptt.ogg
+A  clientes/Jeremias/whatsapp/del_cliente/01.jpg
+A  clientes/Jeremias/whatsapp/del_cliente/02.jpg
+A  clientes/Jeremias/whatsapp/del_cliente/03.jpg
+A  clientes/Jeremias/whatsapp/del_cliente/04.jpg
+A  clientes/Jeremias/whatsapp/del_cliente/05.jpg
+A  clientes/Jeremias/whatsapp/del_cliente/06.jpg
+A  clientes/Jeremias/whatsapp/del_cliente/07.jpg
+A  clientes/Jeremias/whatsapp/del_cliente/08.jpg
+A  clientes/Jeremias/whatsapp/del_cliente/09.jpg
+A  clientes/Jeremias/whatsapp/del_cliente/10.jpg
+A  clientes/Jose/whatsapp/hechos_por_mi/20260928_184247_image.jpg
+A  clientes/Jose/whatsapp/hechos_por_mi/20260928_195233_image.jpg
+A  clientes/Jose/whatsapp/hechos_por_mi/20260928_200957_image.jpg
+A  clientes/Jose/whatsapp/hechos_por_mi/20260929_124030_image.jpg
+A  clientes/Jose/whatsapp/hechos_por_mi/20260929_125522_image.jpg
+A  clientes/Jose/whatsapp/hechos_por_mi/20261001_102157_image.jpg
+A  clientes/Lisbeth/whatsapp/del_cliente/20261013_143945_image.jpg
+A  clientes/Lisbeth/whatsapp/del_cliente/20261013_144140_document.pdf
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261007_195634_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261009_134451_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261009_134553_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261009_134820_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261009_135049_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261009_135207_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261009_135314_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261009_135330_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261009_135650_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261009_140016_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261009_142049_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261014_170905_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261014_172628_image.jpg
+A  clientes/Lisbeth/whatsapp/hechos_por_mi/20261017_192826_image.jpg
+A  clientes/Manuel_fotografia/ESTRATEGIA_META.md
+A  clientes/Manuel_fotografia/whatsapp/del_cliente/20261016_175437_image.jpg
+A  clientes/Manuel_fotografia/whatsapp/hechos_por_mi/20261016_145532_image.jpg
+A  clientes/Manuel_fotografia/whatsapp/hechos_por_mi/20261016_181806_image.jpg
+A  clientes/Mariano/whatsapp/del_cliente/20261016_125556_image.jpg
+A  clientes/Mariano/whatsapp/del_cliente/20261017_175111_image.jpg
+A  clientes/Mariano/whatsapp/hechos_por_mi/20261012_184830_image.jpg
+A  clientes/Mariano/whatsapp/hechos_por_mi/20261012_202654_image.jpg
+A  clientes/Mariano/whatsapp/hechos_por_mi/20261012_210445_image.jpg
+A  clientes/Mariano/whatsapp/hechos_por_mi/20261013_143743_image.jpg
+A  clientes/Mariano/whatsapp/hechos_por_mi/20261013_210019_image.jpg
+A  clientes/Mariano/whatsapp/hechos_por_mi/20261013_210153_image.jpg
+A  clientes/Mariano/whatsapp/hechos_por_mi/20261014_155222_image.jpg
+A  clientes/Uriel/ESTRATEGIA_REEL_CULTURA_SIN_INTERMEDIARIOS.md
+A  clientes/Uriel/flyer_1_empresa_con_orden.jpg
+A  clientes/Uriel/flyer_v2_crecer_sin_depender.jpg
+A  clientes/Uriel/imagen_3_1080x1350.jpg
+A  clientes/Uriel/imagen_4_1080x1350.jpg
+A  clientes/Victor/whatsapp/del_cliente/20261012_162953_image.jpg
+A  clientes/Victor/whatsapp/del_cliente/20261012_185005_image.jpg
+A  clientes/Victor/whatsapp/del_cliente/20261015_124027_image.jpg
+A  clientes/Victor/whatsapp/del_cliente/20261015_124040_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261012_160725_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261012_161426_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261012_161823_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261012_162658_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261012_164048_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261012_185141_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261012_185142_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261013_143609_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261014_132758_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261014_153340_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261014_171654_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261014_181423_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261015_123644_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261015_123928_image.jpg
+A  clientes/Victor/whatsapp/hechos_por_mi/20261015_163232_image.jpg
+AD clientes/XV/__pycache__/armar_xv.cpython-314.pyc
+AD clientes/XV/__pycache__/musica_fiesta_modal.cpython-314.pyc
+AD clientes/XV/__pycache__/musica_modal.cpython-314.pyc
+AD clientes/XV/__pycache__/xv_cuadro.cpython-314.pyc
+AD clientes/XV/__pycache__/xv_frames.cpython-314.pyc
+AD clientes/XV/__pycache__/xv_frames_ia.cpython-314.pyc
+AD clientes/XV/__pycache__/xv_frames_real.cpython-314.pyc
+A  clientes/XV/__pycache__/xv_modal.cpython-314.pyc
+AD clientes/XV/__pycache__/xv_v4_modal.cpython-314.pyc
+A  clientes/XV/armar_xv.py
+A  clientes/XV/armar_xv_v2.py
+A  clientes/XV/armar_xv_v3.py
+A  clientes/XV/armar_xv_v4.py
+A  clientes/XV/frames_real/base_1_heroe.png
+A  clientes/XV/frames_real/base_2_pista.png
+A  clientes/XV/frames_real/base_3_xv.png
+A  clientes/XV/frames_real/base_4_amigas.png
+A  clientes/XV/frames_real/base_5_robot.png
+A  clientes/XV/frames_real/base_6_familia.png
+A  clientes/XV/frames_real/base_7_retrato.png
+A  clientes/XV/frames_real/base_8_detalle.png
+A  clientes/XV/frames_real/comparativa_ia.png
+A  clientes/XV/frames_real/comparativa_lut.png
+A  clientes/XV/frames_real/comparativa_real.png
+A  clientes/XV/frames_real/ia_1_heroe_s5.png
+A  clientes/XV/frames_real/ia_1_heroe_s9.png
+A  clientes/XV/frames_real/ia_2_pista_s5.png
+A  clientes/XV/frames_real/ia_2_pista_s9.png
+A  clientes/XV/frames_real/ia_3_xv_s5.png
+A  clientes/XV/frames_real/ia_3_xv_s9.png
+A  clientes/XV/frames_real/ia_4_amigas_s5.png
+A  clientes/XV/frames_real/ia_4_amigas_s9.png
+A  clientes/XV/frames_real/ia_5_robot_s5.png
+A  clientes/XV/frames_real/ia_5_robot_s9.png
+A  clientes/XV/frames_real/ia_6_familia_s5.png
+A  clientes/XV/frames_real/ia_6_familia_s9.png
+A  clientes/XV/frames_real/ia_7_retrato_s5.png
+A  clientes/XV/frames_real/ia_7_retrato_s9.png
+A  clientes/XV/frames_real/ia_8_detalle_s5.png
+A  clientes/XV/frames_real/ia_8_detalle_s9.png
+A  clientes/XV/frames_real/lut_1_heroe.png
+A  clientes/XV/frames_real/lut_2_pista.png
+A  clientes/XV/frames_real/lut_3_xv.png
+A  clientes/XV/frames_real/lut_4_amigas.png
+A  clientes/XV/frames_real/lut_5_robot.png
+A  clientes/XV/frames_real/lut_6_familia.png
+A  clientes/XV/frames_real/qwen_1_heroe.png
+A  clientes/XV/frames_real/qwen_2_pista.png
+A  clientes/XV/frames_real/qwen_3_xv.png
+A  clientes/XV/frames_real/qwen_4_amigas.png
+A  clientes/XV/frames_real/qwen_5_robot.png
+A  clientes/XV/frames_real/qwen_6_familia.png
+A  clientes/XV/frames_real/ref_cara.jpg
+A  clientes/XV/luts/1_heroe.cube
+A  clientes/XV/luts/2_pista.cube
+A  clientes/XV/luts/3_xv.cube
+A  clientes/XV/luts/4_amigas.cube
+A  clientes/XV/luts/5_robot.cube
+A  clientes/XV/luts/6_familia.cube
+A  clientes/XV/modal_S1.log
+A  clientes/XV/modal_S2.log
+A  clientes/XV/modal_S2cuadro.log
+A  clientes/XV/modal_S3.log
+A  clientes/XV/modal_S4.log
+A  clientes/XV/modal_S5.log
+A  clientes/XV/modal_frames/base_baile.png
+A  clientes/XV/modal_frames/base_corona.png
+A  clientes/XV/modal_frames/base_robot.png
+A  clientes/XV/modal_frames/base_salon.png
+A  clientes/XV/modal_frames/cand_1_C6801_50.png
+A  clientes/XV/modal_frames/cand_2_C6801_65.png
+A  clientes/XV/modal_frames/cand_3_C6801_140.png
+A  clientes/XV/modal_frames/cand_4_C6801_170.png
+A  clientes/XV/modal_frames/cand_5_C6755_35.png
+A  clientes/XV/modal_frames/cand_6_C6755_10.png
+A  clientes/XV/modal_frames/cand_7_C6771_10.png
+A  clientes/XV/modal_frames/cand_8_C6752_30.png
+A  clientes/XV/modal_frames/comparativa_frames.png
+A  clientes/XV/modal_frames/gen_baile_s11.png
+A  clientes/XV/modal_frames/gen_baile_s22.png
+A  clientes/XV/modal_frames/gen_corona_s11.png
+A  clientes/XV/modal_frames/gen_corona_s22.png
+A  clientes/XV/modal_frames/gen_robot_s11.png
+A  clientes/XV/modal_frames/gen_robot_s22.png
+A  clientes/XV/modal_frames/gen_salon_s11.png
+A  clientes/XV/modal_frames/gen_salon_s22.png
+A  clientes/XV/modal_musica.log
+A  clientes/XV/modal_tomas/S1_primer_cuadro.png
+A  clientes/XV/modal_tomas/S2_base.png
+A  clientes/XV/modal_tomas/S2_primer_cuadro.png
+A  clientes/XV/modal_tomas/S2_salon.png
+A  clientes/XV/modal_tomas/S3_primer_cuadro.png
+A  clientes/XV/modal_tomas/S4_base.png
+A  clientes/XV/modal_tomas/S4_primer_cuadro.png
+A  clientes/XV/modal_tomas/S5_base.png
+A  clientes/XV/modal_tomas/S5_primer_cuadro.png
+A  clientes/XV/modal_v4.log
+A  clientes/XV/musica_fiesta_modal.py
+A  clientes/XV/musica_modal.py
+A  clientes/XV/musica_suave_s7.wav
+A  clientes/XV/xv_cuadro.py
+A  clientes/XV/xv_frames.py
+A  clientes/XV/xv_frames_ia.py
+A  clientes/XV/xv_frames_real.py
+A  clientes/XV/xv_modal.py
+A  clientes/XV/xv_v2.log
+A  clientes/XV/xv_v3.log
+A  clientes/XV/xv_v4_modal.py
+A  clientes/_bajar_whatsapp.py
+AD clientes/_remote_modal/__pycache__/remoto.cpython-314.pyc
+A  clientes/_remote_modal/remoto.py
+A  report.csv
+A  report_err.txt
+AD "visionagenciaIAV2.0-main 2/.gitignore"
+A  "visionagenciaIAV2.0-main 2/AGENTS.md"
+A  "visionagenciaIAV2.0-main 2/DOCUMENTO_PARA_GPT6_ASTRA.md"
+A  "visionagenciaIAV2.0-main 2/PARA_CLAUDE_METRICAS_ANDROMEDA.md"
+A  "visionagenciaIAV2.0-main 2/README.md"
+A  "visionagenciaIAV2.0-main 2/RESPUESTA_CLAUDE_DATOS_FACEBOOK_PARA_ASTRA.md"
+A  "visionagenciaIAV2.0-main 2/RESPUESTA_CLAUDE_METRICAS_ANDROMEDA.md"
+AD "visionagenciaIAV2.0-main 2/benchmark_viewport_codespace.log"
+A  "visionagenciaIAV2.0-main 2/blender-addon/spline_audio_addon.py"
+A  "visionagenciaIAV2.0-main 2/codigo verificacion descargas/checar-fecha.sh"
+A  "visionagenciaIAV2.0-main 2/codigo verificacion descargas/chequeo-disco.sh"
+A  "visionagenciaIAV2.0-main 2/codigo verificacion descargas/diagnostico.sh"
+A  "visionagenciaIAV2.0-main 2/codigo verificacion descargas/diagnostico2.sh"
+A  "visionagenciaIAV2.0-main 2/codigo verificacion descargas/diagnostico3.sh"
+A  "visionagenciaIAV2.0-main 2/codigo verificacion descargas/diagnostico4.sh"
+A  "visionagenciaIAV2.0-main 2/codigo verificacion descargas/instalar-navegadores.sh"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_anuncio_swipefile_20260911/ANUNCIO_PRUEBELO_CARTA.pdf"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_anuncio_swipefile_20260911/ANUNCIO_PRUEBELO_v2_CARTA.pdf"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_anuncio_swipefile_20260911/anuncio_gptimage2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_anuncio_swipefile_20260911/anuncio_v2_numero.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_anuncio_swipefile_20260911/enviar_v2_carlos.py"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_anuncio_swipefile_20260911/recibo_envio_v2_carlos.json"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/CARTEL_BENEFICIOS_CARTA.pdf"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/cartel_beneficios.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/fuentes/Cormorant.ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/fuentes/Montserrat.ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/fuentes/RobotoCondensed.ttf"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/original_jesus_RarAmore_CARTEL_carta.pdf"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/recibo_envio_carlos.json"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/recibo_envio_carlos_v2.json"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/recibo_envio_pdfs_jesus.json"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_cartilago_20261013/armar_manos.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_cartilago_20261013/armar_video.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_cartilago_20261013/cartilago_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_cartilago_20261013/manos_modal.py"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_hoja_pague_despues_20260911/HOJA_PAGUE_DESPUES_CARTA.pdf"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_hoja_pague_despues_20260911/HOJA_PAGUE_DESPUES_v2_CARTA.pdf"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_hoja_pague_despues_20260911/HOJA_PAGUE_DESPUES_v3_CARTA.pdf"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_hoja_pague_despues_20260911/HOJA_PAGUE_DESPUES_v4_CARTA.pdf"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_hoja_pague_despues_20260911/hoja_gptimage2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_hoja_pague_despues_20260911/hoja_v2_precio.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_hoja_pague_despues_20260911/hoja_v3_ingredientes_balsamo.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_hoja_pague_despues_20260911/hoja_v4_modo_de_uso.py"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_hoja_pague_despues_20260911/recibo_envio_carlos_v3.json"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_hoja_pague_despues_20260911/recibo_envio_jesus.json"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_hoja_pague_despues_20260911/recibo_envio_modo_de_uso.json"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/AUDIOS_TARDE_TRANSCRITOS.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/AUDIOS_TRANSCRITOS.txt"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/CARTEL_CAPSULAS_v4_CARTA.pdf"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/HILO_360SALUD.txt"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/HOJA_BALSAMO_v5_CARTA.pdf"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/__pycache__/leer_chat.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/110954_JESUS_36s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/111017_JESUS_9s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/111025_JESUS_3s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/111429_CARLOS_2s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/111900_JESUS_8s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/112126_JESUS_30s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/112158_JESUS_7s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/112217_JESUS_9s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/112258_JESUS_14s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/112905_JESUS_26s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/113449_CARLOS_4s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/115356_JESUS_22s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/115429_CARLOS_3s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/131816_CARLOS_6s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/131820_JESUS_18s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/131840_JESUS_11s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/131945_CARLOS_5s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/133441_JESUS_23s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/133930_JESUS_12s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/133957_JESUS_5s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/134026_CARLOS_21s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/134305_JESUS_81s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/134331_JESUS_21s.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/audios/134535_CARLOS_29s.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/bajar_audios.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/bajar_imagenes.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/bajar_y_transcribir.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/bajar_y_transcribir_nuevos.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/cartel_v4_productos.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/crudo_mensajes.json"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/crudo_mensajes_nuevos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/enviar_whatsapp.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/extraer_hoy.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/hoja_v5_productos.py"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/imagenes/112148_JESUS_document.pdf"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/imagenes/112233_JESUS_document.pdf"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/leer_chat.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/probar_endpoints.py"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/recibo_envio.json"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/recibo_envio_duo.json"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_pedido_jesus_20260917/recortar_productos.py"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_videos_20261012/ESTRATEGIA_META_RarAmore.md"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_videos_20261012/enviar_jesus.py"
+AD "visionagenciaIAV2.0-main 2/entregables/360salud_videos_20261012/recibo_envio.json"
+A  "visionagenciaIAV2.0-main 2/entregables/360salud_videos_20261012/voz_videos.py"
+A  "visionagenciaIAV2.0-main 2/entregables/MENSAJE_PARA_ASTRA_CRECIMIENTO.md"
+A  "visionagenciaIAV2.0-main 2/entregables/RESPUESTA_ASTRA_CRECIMIENTO.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/SOLICITUD_A_CLAUDE_DATOS_FACEBOOK.md"
+A  "visionagenciaIAV2.0-main 2/entregables/broquelito_20261013/broquelito_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/broquelito_20261013/instagram/perfil.json"
+A  "visionagenciaIAV2.0-main 2/entregables/broquelito_20261013/instagram/urls.json"
+A  "visionagenciaIAV2.0-main 2/entregables/cadena_fin.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/caminando_20261013/armar_horseman.py"
+A  "visionagenciaIAV2.0-main 2/entregables/caminando_20261013/caminando_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/caminando_20261013/voz_omar_s1.py"
+A  "visionagenciaIAV2.0-main 2/entregables/campana_ganadora_facebook_20260916/METRICAS_CAMPANA_GANADORA.md"
+AD "visionagenciaIAV2.0-main 2/entregables/carlos_selfie_20261020/__pycache__/carlos_selfie_modal.cpython-314.pyc"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_selfie_20261020/armar_selfie.py"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_selfie_20261020/carlos_selfie_modal.py"
+AD "visionagenciaIAV2.0-main 2/entregables/carlos_selfie_20261020/clips.log"
+AD "visionagenciaIAV2.0-main 2/entregables/carlos_selfie_20261020/cuadros.log"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_storytelling_20261013/armar_story.py"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_storytelling_20261013/story_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_storytelling_20261013/voz.py"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/armar_v3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/armar_v4.py"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/armar_v5.py"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/armar_video.py"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/carlos_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/escucha_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/prospectos/A_QUIEN_MANDARLO.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/prospectos/LISTA_2.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/prospectos/MENSAJE_PROSPECTOS.txt"
+AD "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/referencia/LISBETH_231116_YO.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/referencia/LISBETH_231134_YO.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/referencia/LISBETH_231157_YO.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/tmp_v5/aud_lista.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/voz.py"
+A  "visionagenciaIAV2.0-main 2/entregables/estaticos_13oct/estaticos.py"
+A  "visionagenciaIAV2.0-main 2/entregables/facebook_ads_para_andromeda_20260916/RESULTADO_SIMULACION.md"
+A  "visionagenciaIAV2.0-main 2/entregables/facebook_ads_para_andromeda_20260916/VALIDACION.md"
+A  "visionagenciaIAV2.0-main 2/entregables/facebook_ads_para_andromeda_20260916/construir_entregables.py"
+A  "visionagenciaIAV2.0-main 2/entregables/facebook_ads_para_andromeda_20260916/creativos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/facebook_ads_para_andromeda_20260916/facebook_ads_enriched.json"
+AD "visionagenciaIAV2.0-main 2/entregables/facebook_ads_para_andromeda_20260916/facebook_ads_normalizado.csv"
+AD "visionagenciaIAV2.0-main 2/entregables/facebook_ads_para_andromeda_20260916/facebook_ads_normalizado_agrupado.csv"
+A  "visionagenciaIAV2.0-main 2/entregables/facebook_ads_para_andromeda_20260916/facebook_ads_raw.json"
+A  "visionagenciaIAV2.0-main 2/entregables/facebook_ads_para_andromeda_20260916/ideas_mariano_y_flyers.json"
+A  "visionagenciaIAV2.0-main 2/entregables/facebook_ads_para_andromeda_20260916/informe_simulacion_mariano_flyers.json"
+A  "visionagenciaIAV2.0-main 2/entregables/facebook_ads_para_andromeda_20260916/resumen_construccion.json"
+A  "visionagenciaIAV2.0-main 2/entregables/facebook_ads_para_andromeda_20260916/simular_mariano_y_flyers.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/anegocios_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/anegocios_modal_v3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/armar_fernando.py"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/clips.log"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/clips_v3.log"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/cuadros.log"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/cuadros_v3.log"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/flyer_fernando.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/flyer_fernando_v2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/intro_paquete.py"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/mostrador_cadena2.log"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/mostrador_clips.log"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/mostrador_escena.log"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/mostrador_modal.py"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/mostrador_s0.log"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/mostrador_s4.log"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_ad.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_flujo.py"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_mostrador.log"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_mostrador.py"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_mostrador_v2.log"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_mostrador_v2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_showcase.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_v3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_v3_proceso.py"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_v4.log"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_v4.py"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_v5A.log"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_v5A.py"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_v5B.log"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/render_v5B.py"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/sitio/home.html"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/sitio/home.txt"
+AD "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/sitio/portada.webp"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_ad.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_ad/tiempos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_fernando.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_flujo.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_flujo/tiempos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_showcase.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_showcase/tiempos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_v3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_v3/tiempos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_v4.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_v4/tiempos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_v5a.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_v5a/tiempos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_v5b.py"
+A  "visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/voz_v5b/tiempos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/giovanni_20261014/armar_giovanni.py"
+AD "visionagenciaIAV2.0-main 2/entregables/giovanni_20261014/clips.log"
+AD "visionagenciaIAV2.0-main 2/entregables/giovanni_20261014/cuadros.log"
+A  "visionagenciaIAV2.0-main 2/entregables/giovanni_20261014/giovanni_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/giovanni_20261014/voz/voz_id.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/giovanni_20261014/voz_giovanni.py"
+A  "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/AUDIOS_TRANSCRITOS.txt"
+AM "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/CAMPANA_META.md"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1010_230208_GUILLERMO.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1010_230423_GUILLERMO.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1010_230431_CARLOS.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1011_202518_CARLOS.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1011_202557_GUILLERMO.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1011_202702_CARLOS.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1011_202805_GUILLERMO.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1011_203015_CARLOS.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1011_205223_GUILLERMO.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1011_205704_CARLOS.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1012_170036_GUILLERMO.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1012_182209_CARLOS.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1012_182427_GUILLERMO.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1012_182648_CARLOS.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1012_182754_CARLOS.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1012_182922_GUILLERMO.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/audios/1012_183027_CARLOS.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/guillermo_20261012/crudo_mensajes.json"
+A  "visionagenciaIAV2.0-main 2/entregables/historial_comparable_20260916/00_RESPUESTA_A_ASTRA.md"
+A  "visionagenciaIAV2.0-main 2/entregables/historial_comparable_20260916/02_exportacion_original_nueva.json"
+AD "visionagenciaIAV2.0-main 2/entregables/historial_comparable_20260916/03_historial_simulador.csv"
+AD "visionagenciaIAV2.0-main 2/entregables/historial_comparable_20260916/03b_sanaas_pendiente_propiedad.csv"
+A  "visionagenciaIAV2.0-main 2/entregables/historial_comparable_20260916/04_equivalencias_contexto.md"
+AD "visionagenciaIAV2.0-main 2/entregables/historial_comparable_20260916/05_inventario_contextos.csv"
+A  "visionagenciaIAV2.0-main 2/entregables/historial_comparable_20260916/_fuente/q11_instagram_media.json"
+A  "visionagenciaIAV2.0-main 2/entregables/historial_comparable_20260916/_fuente/q12_horas_dias_con_cambio.json"
+A  "visionagenciaIAV2.0-main 2/entregables/historial_comparable_20260916/_fuente/q13_contexto_whatsapp_agregado.json"
+AD "visionagenciaIAV2.0-main 2/entregables/iglesia_gracia_de_dios_20260914/VOLANTE_GRACIA_DE_DIOS_v1_CARTA.pdf"
+AD "visionagenciaIAV2.0-main 2/entregables/iglesia_gracia_de_dios_20260914/VOLANTE_GRACIA_DE_DIOS_v2_CARTA.pdf"
+AD "visionagenciaIAV2.0-main 2/entregables/iglesia_gracia_de_dios_20260914/recibo_envio_carlos.json"
+AD "visionagenciaIAV2.0-main 2/entregables/iglesia_gracia_de_dios_20260914/recibo_envio_carlos_v2.json"
+AD "visionagenciaIAV2.0-main 2/entregables/iglesia_gracia_de_dios_20260914/ref_anterior_iglesia_diana.pdf"
+A  "visionagenciaIAV2.0-main 2/entregables/iglesia_gracia_de_dios_20260914/volante_gptimage2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/iglesia_gracia_de_dios_20260914/volante_v2_ajuste.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/CONTINUAR_ASTRA_ANIMACION.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/ESTADO.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/ESTADO_ANIMACION_DIENTES.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/INSTALAR_EN_MAC.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/INSTRUCCION_ASTRA_ANIMACION_DIENTES.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/MENSAJE_PARA_ASTRA.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/PLAN_PARA_CLAUDE.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/RESPUESTA_ASTRA.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/RESPUESTA_ASTRA_ANIMACION.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/RESPUESTA_ASTRA_ANIMACION_2.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/SEGUIMIENTO_ASTRA_CAMARA_MODELOS.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/TRANSFERENCIA_MAC.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/ajustar_seccion.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/animacion_dientes/aplicar_animacion.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/animacion_dientes/aplicar_y_guardar_mac.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/animacion_dientes/captura_mac.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/animacion_dientes/inventario_antes.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/animacion_dientes/mac_antes_aplicar.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/animacion_dientes/probar_local.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/animacion_dientes/render_ligero.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/animacion_dientes/resultado_mac.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/animacion_dientes/verificacion_local.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/aplicar_estilo_mac.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/construir.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/crear_closeup.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/estilo_hoja.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/extraer_rostro.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/final_alberto.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fondo_cierre_gpt.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fuentes/Alegreya-Italic.ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fuentes/CrimsonPro-Italic.ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fuentes/Literata-Italic.ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fuentes/Merriweather-Italic.ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fuentes/NotoSerif-Italic.ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fuentes/SourceSerif4-Italic.ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/ALTERNATIVAS_A_GENJUTSU.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/LEEME_PASO_A_PASO.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/PROMPT_TRAMO_A.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/PROMPT_TRAMO_B.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/TRAMO_A/PROMPT_TRAMO_A.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/TRAMO_B/PROMPT_TRAMO_B.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/armar_paquete.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/cejas_10.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/correr_ltx_y_avisar.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/correr_ltx_y_avisar.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/enviar_paquete.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/enviar_paquete_whatsapp.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/generar_frames.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/generar_frames.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/ltx_depth_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/lucy_restyle_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/minimax_edit_job.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/prueba_ltx.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/prueba_ltx_control.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/prueba_lucy.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/prueba_lucy_restyle.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/prueba_minimax.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/prueba_minimax_edit.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/recibo_alternativas.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/recibo_ltx.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/recibo_prompt_papa.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/recibo_reenvio_tramoB.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/recibo_whatsapp.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/reenviar_tramo_B_corregido.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/render_movimiento.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_20260915/resultado_frames.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/genjutsu_ilimitado_20260917/REVISION_REPO_GENJUTSU_UNLIMITED.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_estilo_hoja/gpt_estilo_hoja.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_estilo_hoja/job_1.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_estilo_hoja/job_150.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_estilo_hoja/recibo_whatsapp.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_estilo_hoja/respuesta_estado.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_transicion/gpt_solo_dientes_v4.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_transicion/gpt_transicion.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_transicion/gpt_transicion_v2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_transicion/gpt_transicion_v3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_transicion/job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_transicion/job_v2.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_transicion/job_v3.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/gpt_transicion/job_v4.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/integrar_modelo_hoja.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/REJA_5S.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/RESULTADO_FINAL.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/_montaje/lista.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/correr_7_tramos.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/correr_con_blender.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/correr_seedance.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/estado_7_tramos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/estado_blender.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/generar_cuadros_reja5s.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/montaje_final.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/montaje_final.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/prueba_motioncontrol_t6.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/prueba_ref2video_t5.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/prueba_seedance_t3.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/recibo_ref2video.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/recibo_seedance.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/recibo_seedance_res.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/recibo_t1.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/recibo_whatsapp_reja.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_7_tramos_20260917/resultado_cuadros.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_por_pedazos_20260917/estado_prueba.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_por_pedazos_20260917/prueba.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_por_pedazos_20260917/prueba_03_a_04.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_transicion/estado_clip1.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_transicion/estado_clip2.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_transicion/estado_clip3.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_transicion/kling_transicion.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/kling_transicion/montar_transicion.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mac_estilo/resultado.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/ESTADO.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/abierto_mac.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/abrir_mejorado_mac.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/aplicar_mac.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/backup_mac.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/backup_mac.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/bridge.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/build.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/build_local.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/cpu_final_cpu.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/cpu_preview_cpu.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/enviar_render_whatsapp.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/estado_actual_mac.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/estado_actual_mac.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/export_mac.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/export_mac.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/frames_clave.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/imagen_prompt.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/inventory.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/inventory_local.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/mejorar.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/modal_cpu_final.log"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/modal_cpu_preview.log"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/modal_cpu_upload.log"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/modal_eevee_upload.log"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/modal_get.log"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/modal_upload.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/montar_video.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/preview_v1_gpu.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/recibo_render_whatsapp.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/render_faltantes.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/render_faltantes_local.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/render_local.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/render_local.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/render_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/render_modal_cpu.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/render_modal_eevee.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/render_v3.log"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/resultado_mac.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/verificacion.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/verificacion_mac.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/mejora_sticker/verificar_mac.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/modelo_3d_hoja/aligerar_glb.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/modelo_3d_hoja/estado_hunyuan.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/modelo_3d_hoja/estado_trellis.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/modelo_3d_hoja/generar_3d_hoja.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/modelo_3d_hoja/revisar_glb.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/preparar_malla.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/probar_estilo_local.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/probar_modelo_local.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/rostro_assets/CHICA_ROSTRO.mtl"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/rostro_assets/CHICA_ROSTRO.obj"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/rostro_assets/FUENTES.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/rostro_assets/LICENSE_MEDIAPIPE.txt"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/rostro_assets/canonical_face_model.obj"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/rostro_assets/face_mesh.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/rostro_assets/landmarks.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/fuentes/Montserrat.ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/fuentes/PlayfairDisplay-Italic[wght].ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/fuentes/PlayfairDisplay[wght].ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/fuentes/RobotoCondensed.ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/muestras_estilos.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/muestras_v2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/subs_implante.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/subs_rpn.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_adictiva_20260917/GUION_NUEVO.md"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_adictiva_20260917/cortar_en_segmentos.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_adictiva_20260917/probar_cierres.py"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_adictiva_20260917/recibo_whatsapp_final.json"
+AD "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_adictiva_20260917/recibo_whatsapp_voces.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_adictiva_20260917/segmentos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_adictiva_20260917/tiempos_adictiva.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_adictiva_20260917/tiempos_final.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_adictiva_20260917/voz_adictiva.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_adictiva_20260917/voz_final_cierre.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_adictiva_20260917/voz_palabras_agenda.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_fish/IMPLANTE_VOZ_35s_nota.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_fish/poner_voz_blender.py"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_fish/recibo_alberto.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_fish/recibo_alberto_nota_voz.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_fish/recibo_alberto_reenvio.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_fish/tiempos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/implante_dental/voz_fish/voz_implante.py"
+AD "visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/__pycache__/jeremias_modal.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/clips.log"
+AD "visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/cuadros.log"
+AD "visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/cuadros2.log"
+AD "visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/cuadros3.log"
+AD "visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/cuadros4.log"
+A  "visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/jeremias_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/lista.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/voz.py"
+A  "visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/voz/palabras.json"
+A  "visionagenciaIAV2.0-main 2/entregables/jose_20261014/armar_jose.py"
+A  "visionagenciaIAV2.0-main 2/entregables/jose_20261014/armar_retargeting.py"
+AD "visionagenciaIAV2.0-main 2/entregables/jose_20261014/c23.log"
+AD "visionagenciaIAV2.0-main 2/entregables/jose_20261014/c3.log"
+AD "visionagenciaIAV2.0-main 2/entregables/jose_20261014/c3b.log"
+AD "visionagenciaIAV2.0-main 2/entregables/jose_20261014/clips.log"
+AD "visionagenciaIAV2.0-main 2/entregables/jose_20261014/clips23.log"
+AD "visionagenciaIAV2.0-main 2/entregables/jose_20261014/clips3b.log"
+AD "visionagenciaIAV2.0-main 2/entregables/jose_20261014/cuadros.log"
+A  "visionagenciaIAV2.0-main 2/entregables/jose_20261014/jose_modal.py"
+AD "visionagenciaIAV2.0-main 2/entregables/jose_20261014/retarget.log"
+AD "visionagenciaIAV2.0-main 2/entregables/jose_20261014/retarget2.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/__pycache__/armar_v6.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/__pycache__/armar_v7.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/__pycache__/armar_v8.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/__pycache__/lisbeth_modal_v14.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/__pycache__/lisbeth_modal_v15.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/__pycache__/lisbeth_modal_v16.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/__pycache__/mapa_lib.cpython-314.pyc"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v10.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v11.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v15.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v16.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v17.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v18.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v19.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v4.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v5.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v6.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v7.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v8.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v9.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/armar_v9b.py"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/clips_v10.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/clips_v11.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/clips_v5.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/clips_v9.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/cuadros_v10.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/cuadros_v11.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/cuadros_v11b.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/cuadros_v11c.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/cuadros_v12.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/cuadros_v13.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/cuadros_v14.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/cuadros_v5.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/cuadros_v9.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/cuadros_v9b.log"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/lisbeth_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/lisbeth_modal_v10.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/lisbeth_modal_v11.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/lisbeth_modal_v12.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/lisbeth_modal_v13.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/lisbeth_modal_v14.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/lisbeth_modal_v15.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/lisbeth_modal_v16.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/lisbeth_modal_v5.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/lisbeth_modal_v9.py"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/lotes/Peniel.pdf"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/mapa_lib.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/render_v9b_parte1.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/tmp_v16/lista.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/tmp_v17/lista.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/tmp_v18/lista.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/tmp_v19/lista.txt"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/v10.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/v11.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/v6.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/v7.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/v8.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/v9.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/v9b.log"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/v9b_p1.log"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/voz_lisbeth_v7.py"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/voz_lisbeth_v8.py"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/voz_real/LISBETH_1.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/voz_real/LISBETH_2.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/voz_real/voz_id_fish.txt"
+AD "visionagenciaIAV2.0-main 2/entregables/logo_mariano_20260915/LOGO_C_BAJA_HOMES_VECTOR.svg"
+A  "visionagenciaIAV2.0-main 2/entregables/logo_mariano_20260915/estado_A.json"
+A  "visionagenciaIAV2.0-main 2/entregables/logo_mariano_20260915/estado_B.json"
+A  "visionagenciaIAV2.0-main 2/entregables/logo_mariano_20260915/estado_C.json"
+A  "visionagenciaIAV2.0-main 2/entregables/logo_mariano_20260915/generar_logo.py"
+AD "visionagenciaIAV2.0-main 2/entregables/logo_mariano_20260915/recibo_whatsapp.json"
+A  "visionagenciaIAV2.0-main 2/entregables/marco_anilox/GUION_ORIGINAL_22ago.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/marco_anilox/blender/anilox_closeup.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marco_anilox/blender/armar_borrador.sh"
+A  "visionagenciaIAV2.0-main 2/entregables/marco_anilox/blender/puente.py"
+AD "visionagenciaIAV2.0-main 2/entregables/marco_anilox/blender/render_borrador.log"
+A  "visionagenciaIAV2.0-main 2/entregables/marco_anilox/blender/render_borrador_local.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marco_anilox/blender/render_modal_anilox.py"
+AD "visionagenciaIAV2.0-main 2/entregables/marco_anilox/blender/sonda.out"
+A  "visionagenciaIAV2.0-main 2/entregables/marco_anilox/blender/sonda.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marco_anilox/chat_18597342646479.json"
+A  "visionagenciaIAV2.0-main 2/entregables/marco_anilox/chat_59597100449919.json"
+A  "visionagenciaIAV2.0-main 2/entregables/marco_anilox/leer_chat.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/ESTRATEGIA_Y_STORYBOARD.md"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/GUION_PARA_MARCOS.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/GUION_VOZ.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/armar_video.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/explorar_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/explorar_resultado.json"
+AD "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/media/marcos_voz_1012_2022.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/media/marcos_voz_1012_2324.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/media/marcos_voz_1013_0155.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/v_chica/armar_video.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/v_chica/ortega_chica_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/v_chica/voz.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/v_marcos/armar_video.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/v_marcos/ortega_marcos_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/v_marcos/voz.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/video_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/voces/es_MX-ald-medium.onnx.json"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/voces/es_MX-claude-high.onnx.json"
+A  "visionagenciaIAV2.0-main 2/entregables/marcos_ortega_20261012/voz_fish.py"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_atardecer_20261019/__pycache__/atardecer_modal.cpython-314.pyc"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_atardecer_20261019/atardecer_modal.py"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_atardecer_20261019/clips.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_atardecer_20261019/cuadros.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/__pycache__/mariano_casa_modal.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/armar.log"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/armar.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/armar_sync.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/armar_sync2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/armar_v2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/mariano_casa_modal.py"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/modal_e7.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/modal_fix.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/modal_prueba.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/modal_resto.log"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/tmp/lista.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/tmp_sync/lista.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/tmp_sync2/lista.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/tmp_v2/lista.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/voz.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/voz/palabras.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/voz/palabras2.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/voz2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/voz_palabras.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/voz_palabras2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/ESTADO_FLYER2.md"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/ESTADO_FLYERS.md"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/ESTADO_KLING_5S.md"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/enviar_a_mariano.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/enviar_flyer_original_whatsapp.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/enviar_flyer_whatsapp.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/enviar_texto_animado_whatsapp.py"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/envio_mariano.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer2.log"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer2_job.json"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer3.log"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer3_job.json"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer4.log"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer4_job.json"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer5.log"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer5_job.json"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer6.log"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer6_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer_5s.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer_5s_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer_endframe.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer_texto_endframe.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/kling_flyer_texto_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/quitar_texto.py"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/recibo_flyer2_whatsapp.json"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/recibo_flyer3_whatsapp.json"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/recibo_flyer6_whatsapp.json"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/recibo_flyers45_whatsapp.json"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/recibo_whatsapp_flyer.json"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/recibo_whatsapp_original.json"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/recibos_mariano.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/rehacer_audio.py"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/rehacer_audio1.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/rehacer_audio2.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/rehacer_audio3.log"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/sfx_flyer1_v2_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/sfx_flyer2_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/sfx_flyer2_v2_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/sfx_flyer3_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/sfx_flyer3_v2_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/sfx_flyer4_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/sfx_flyer5_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/sfx_flyer6_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_flyers_kling_20260915/sfx_flyer_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_gancho_20261019/gancho_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/armar_v3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/armar_v4.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/armar_video.py"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/armv4.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/audios/48AE47.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/audios/48AE47.ogg.txt"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/audios/71F9CB.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/audios/71F9CB.ogg.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/mariano_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/mariano_v3_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/mariano_v4_modal.py"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/modal_clips_v3b.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/modal_clips_v4.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/modal_clips_v4b.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/modal_cuadros_v3b.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/modal_cuadros_v4.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/modal_cuadros_v4b.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/modal_cuadros_v4c.log"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/modal_cuadros_v4d.log"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/referencia/helicoptero.mp4.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/referencia/mariano_sanmarino.mp4.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_helicoptero_20261013/voz.py"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_hoja_20261019/__pycache__/hoja_modal.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_hoja_20261019/hoja.log"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_hoja_20261019/hoja_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_perfil_20261013/perfil_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_video_whatsapp_20261012/mid.txt"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/__pycache__/vizcaino_modal.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/__pycache__/vizcaino_v2_modal.cpython-314.pyc"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/armar_preliminar.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/armar_v2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/filtro_premium.sh"
+AD "visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/referencia/mariano_0310.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/tmp/lista.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/tmp_v2/lista.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/vizcaino_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/vizcaino_v2_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/voz.py"
+AD "visionagenciaIAV2.0-main 2/entregables/modelos_modal/__pycache__/bajar_flux.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/modelos_modal/__pycache__/bajar_glimmer.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/modelos_modal/__pycache__/bajar_h3.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/modelos_modal/__pycache__/bajar_qwen_image_edit_2511.cpython-314.pyc"
+AD "visionagenciaIAV2.0-main 2/entregables/modelos_modal/__pycache__/glimmer_modal.cpython-314.pyc"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/bajar_flux.py"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/bajar_glimmer.py"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/bajar_h3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/bajar_qwen_image.py"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/bajar_qwen_image_edit_2511.py"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/componer_estaticos.py"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/estaticos_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/fondos_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/fuentes/Anton-Regular.ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/fuentes/BebasNeue-Regular.ttf"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/fuentes/Montserrat.ttf"
+AM "visionagenciaIAV2.0-main 2/entregables/modelos_modal/glimmer_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/glm_image_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/horseman.py"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/lote_glm.json"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/lote_prueba.json"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/lote_todos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/modelos_modal/textos_estaticos.py"
+A  "visionagenciaIAV2.0-main 2/entregables/nogales_heroica_maya/GUION_NOGALES_HEROICA.md"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/AUDIOS_TRANSCRITOS.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/armar_v3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/armar_v4.py"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/armar_video.py"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/chatgpt_pack/PROMPTS_OMAR_CHATGPT.md"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/crudo_mensajes.json"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/ejemplo/TRANSCRIPCION_EJEMPLO.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/estaticos.py"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/estaticos2.py"
+AD "visionagenciaIAV2.0-main 2/entregables/omar_20261013/media/1010_190422_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/omar_20261013/media/1011_035205_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/omar_20261013/media/1011_035656_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/omar_20261013/media/1011_041625_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/omar_20261013/media/1011_041639_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/omar_20261013/media/1012_033444_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/omar_20261013/media/1012_182515_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/omar_20261013/media/1012_182838_CARLOS_ptt.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/omar_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/omar_v2_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/omar_v4_modal.py"
+AD "visionagenciaIAV2.0-main 2/entregables/omar_20261013/voz/OMAR_012905_OMAR.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/omar_20261013/voz/OMAR_013730_OMAR.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/voz_omar.py"
+A  "visionagenciaIAV2.0-main 2/entregables/omar_20261013/voz_omar_v4.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/_manda_stride_v4.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/guion_andromeda/GUION_PANCHO.md"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/guion_andromeda/resultado_simulacion.json"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/guion_andromeda/simular_guiones_pancho.py"
+AD "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/kling.log"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/kling_pancho.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/kling_pancho_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/kling_pancho_v2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/kling_pancho_v2_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/kling_pancho_v3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/kling_pancho_v3_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/lipsync_pancho.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/lipsync_pancho_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/lipsync_pancho_v2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/lipsync_pancho_v3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/lipsync_pancho_v3_job.json"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/palabras.json"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/kling_5s/subs_horseman.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/stride_pancho_taller.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/stride_pancho_taller_v2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/stride_pancho_taller_v3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/stride_pancho_taller_v4.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/stride_pancho_taller_v5.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/stride_pancho_taller_v6.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/voz_guion_A/APRENDIZAJES_MAYA.md"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/voz_guion_A/tiempos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/pancho/voz_guion_A/voz_pancho_A.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pantallas_led_20261019/musica.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pantallas_led_20261019/voz.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pantallas_led_20261019/voz2.py"
+A  "visionagenciaIAV2.0-main 2/entregables/pantallas_led_20261019/voz3.py"
+A  "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/ESTADO.md"
+AD "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/TARJETA_GRACIELA.pdf"
+AD "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/audio_papa.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/audio_papa_2.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/bigote.py"
+A  "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/charros_revolucionarios.py"
+A  "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/diseno_madera.py"
+AD "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/recibo_bigote.json"
+AD "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/recibo_charros.json"
+AD "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/recibo_tarjeta.json"
+A  "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/tarjeta_graciela.py"
+AD "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/transcripcion.txt"
+AD "visionagenciaIAV2.0-main 2/entregables/papa_audio_trabajo_20260915/transcripcion_2.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/propuesta_agencia_20260916/ENCARGO_PARA_CLAUDE.md"
+A  "visionagenciaIAV2.0-main 2/entregables/propuesta_agencia_20260916/PROPUESTA_Y_RESULTADO.md"
+A  "visionagenciaIAV2.0-main 2/entregables/propuesta_agencia_20260916/auditoria.json"
+A  "visionagenciaIAV2.0-main 2/entregables/propuesta_agencia_20260916/entrada_motor.json"
+A  "visionagenciaIAV2.0-main 2/entregables/propuesta_agencia_20260916/probar_propuesta.py"
+A  "visionagenciaIAV2.0-main 2/entregables/propuesta_agencia_20260916/propuesta.json"
+A  "visionagenciaIAV2.0-main 2/entregables/propuesta_agencia_20260916/resultado_motor.json"
+A  "visionagenciaIAV2.0-main 2/entregables/referencia_subs_virales_20260918/_busqueda_rpn.json"
+A  "visionagenciaIAV2.0-main 2/entregables/referencia_subs_virales_20260918/_ig_rpn.json"
+A  "visionagenciaIAV2.0-main 2/entregables/referencia_subs_virales_20260918/_muestra_item.json"
+A  "visionagenciaIAV2.0-main 2/entregables/referencia_subs_virales_20260918/bajar.sh"
+A  "visionagenciaIAV2.0-main 2/entregables/referencia_subs_virales_20260918/bajar_apify.py"
+A  "visionagenciaIAV2.0-main 2/entregables/referencia_subs_virales_20260918/buscar_apify.py"
+A  "visionagenciaIAV2.0-main 2/entregables/referencia_subs_virales_20260918/encontrados.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/01_campana_ganadora.md"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/02_historial_original.json"
+AD "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/02_historial_original_diario.csv"
+AD "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/03_historial_simulador.csv"
+AD "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/04_creativos.csv"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/05_calidad_y_faltantes.md"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/06_prospectos_whatsapp.md"
+AD "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/06_prospectos_whatsapp_anonimo.csv"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/cambios_segmentacion_durante_entrega.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/construir.py"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/creativo_principal.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/descargas_creativos_log.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/descripciones_visuales.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/q10_compras_y_contactos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/q1_metricas_diarias.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/q2_configuracion_creativos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/q3_ubicaciones_ganadora.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/q4_historial_cambios_junio.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/q5_cambios_segmentacion_2026.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/q6_totales_periodo_video_y_ganadora.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/q7_cambios_presupuesto.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/q8_textos_por_asset.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/q9_historial_2024.json"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/_fuente/resumen_construccion.json"
+AD "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/extras/cambios_presupuesto_2026.csv"
+AD "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/extras/cambios_segmentacion_2026.csv"
+AD "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/extras/compras_marcadas_en_chat.csv"
+AD "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/extras/historial_2024_diario.csv"
+A  "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/extras/resumen_construccion.json"
+AD "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/extras/totales_periodo_ganador_y_video.csv"
+AD "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/extras/ubicaciones_anuncio_ganador.csv"
+AD "visionagenciaIAV2.0-main 2/entregables/solicitud_datos_facebook_20260916/recibo_whatsapp.json"
+A  "visionagenciaIAV2.0-main 2/entregables/subtitulos_referencia_DdMLGBcMTEM/GUIA_REPLICACION.md"
+A  "visionagenciaIAV2.0-main 2/entregables/tarjeta_graciela_redisenada_20260916/PROMPT.md"
+A  "visionagenciaIAV2.0-main 2/entregables/tarjeta_graciela_redisenada_20260916/PROMPT_GPT_IMAGE_2.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/tarjeta_graciela_redisenada_20260916/gpt_image_2_job.json"
+AD "visionagenciaIAV2.0-main 2/entregables/tarjeta_graciela_redisenada_20260916/recibo_whatsapp_carlos.json"
+A  "visionagenciaIAV2.0-main 2/entregables/uriel_caos_20261019/voz.py"
+A  "visionagenciaIAV2.0-main 2/entregables/variantes_campana_20260917/ANUNCIOS_Y_RESULTADOS.md"
+A  "visionagenciaIAV2.0-main 2/entregables/variantes_campana_20260917/corridas.json"
+A  "visionagenciaIAV2.0-main 2/entregables/variantes_campana_20260917/resumen.json"
+A  "visionagenciaIAV2.0-main 2/entregables/variantes_campana_20260917/simular.py"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/CAMPANA_SERVILIN.md"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/PROMPTS_CHATGPT_SERVILIN.md"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/bajar_reenviados.py"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/bajar_y_transcribir.py"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/crudo_mensajes.json"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/estaticos_reales.py"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/flyers_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/log.txt"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_112236_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_112714_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_113553_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_114512_VICTOR_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_114701_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_114836_VICTOR_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_114925_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_115730_VICTOR_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_115808_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_120106_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_122653_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_122808_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_122811_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_130054_VICTOR_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_132647_CARLOS_ptt.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media/1012_135608_CARLOS_audio.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/media_0113/victor_voz_0152.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/reenviados/012_audio.ogg"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/reenviados/013_audio.ogg"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/reenviados/AUDIOS_TRANSCRITOS.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/reenviados/INDICE.txt"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/reenviados/crudo.json"
+AD "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/reescalado/__pycache__/reescalar_modal.cpython-314.pyc"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/reescalado/reescalar_modal.py"
+A  "visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/servilin_modal.py"
+?? .claude/
+?? AGENTS.md
+?? HANDOFF_20261101_codespace.md
+?? HANDOFF_CLAUDE_666.md
+?? MANUAL_CHATGPT.md
+?? MEMORIA_SISTEMA.md
+?? __pycache__/
+?? armar_tablero.py
+?? atencion_modal.py
+?? auto_aplicar_modal.py
+?? buzon/
+?? clientes/Alberto/
+?? clientes/Andres_Construccion/
+?? clientes/Blanca/
+?? clientes/Carlos_Nexus/
+?? clientes/Cinthia_Payan/
+?? clientes/Cocinetas8124167384/
+?? clientes/Contratista6561300006/
+?? clientes/Fernando/
+?? clientes/Fumigador449/
+?? clientes/Generadores5554615710/
+?? clientes/Giovanni/anuncios_v2_20261029/
+?? clientes/Giovanni/glimmer_101010_20261028/
+?? clientes/Giovanni/video_v2_20261030/
+?? clientes/Giovanni/video_v3_20261030/
+?? clientes/Giovanni/video_v4_20261030/
+?? clientes/Giovanni/video_v5_20261030/
+?? clientes/Giovanni/video_v6_20261031/
+?? clientes/Giovanni/whatsapp/hechos_por_mi/20261028_142956_image.jpg
+?? clientes/Giovanni/whatsapp/hechos_por_mi/20261028_142957_image.jpg
+?? clientes/Giovanni/whatsapp/hechos_por_mi/20261028_142958_image.jpg
+?? clientes/Giovanni/whatsapp/hechos_por_mi/20261028_143029_image.jpg
+?? clientes/Guillermo/cambios_20261030/
+?? clientes/Guillermo/far12_v1/
+?? clientes/Guillermo/far12_v9_precios/
+?? clientes/Guillermo/fotos_nuevas_20261101/
+?? clientes/Guillermo/glimmer_caso_exito_20261029/
+?? clientes/Guillermo/obrero_20261029/
+?? clientes/Guillermo/pixar_v2_20261030/
+?? clientes/Guillermo/pixar_v3_20261030/
+?? clientes/Guillermo/pixar_v4_20261030/
+?? clientes/Guillermo/pixar_v5_20261030/
+?? clientes/Guillermo/techo_20261029/
+?? clientes/Guillermo/video/
+?? clientes/Guillermo/whatsapp/audios/
+?? clientes/Guillermo/whatsapp/del_cliente/20261022_164359_image.jpg
+?? clientes/Guillermo/whatsapp/del_cliente/20261022_164400_image.jpg
+?? clientes/Guillermo/whatsapp/del_cliente/20261022_170425_image.jpg
+?? clientes/Guillermo/whatsapp/del_cliente/20261022_170426_image.jpg
+?? clientes/Guillermo/whatsapp/del_cliente/20261022_170427_image.jpg
+?? clientes/Guillermo/whatsapp/del_cliente/20261022_170428_image.jpg
+?? clientes/Guillermo/whatsapp/del_cliente/20261022_170524_image.jpg
+?? clientes/Guillermo/whatsapp/del_cliente/20261022_170712_image.jpg
+?? clientes/Guillermo/whatsapp/del_cliente/20261022_170717_image.jpg
+?? clientes/Guillermo/whatsapp/del_cliente/20261022_170743_image.jpg
+?? clientes/Guillermo/whatsapp/del_cliente/20261022_170744_image.jpg
+?? clientes/Guillermo/whatsapp/del_cliente/20261022_180224_AC9884_ptt.ogg
+?? clientes/Guillermo/whatsapp/del_cliente/obras/
+?? clientes/Ignacio/
+?? clientes/Israel/
+?? clientes/Ivan/video/armar_ivan_v3.py
+?? clientes/Ivan/video/armar_ivan_v4.py
+?? clientes/Ivan/video/referencia/
+?? clientes/Ivan/video/v4/
+?? clientes/Ivan/video/voz/vendedor_palabras.json
+?? clientes/Ivan/video/voz_real/
+?? clientes/Ivan/video_v5_20261030/
+?? clientes/Ivan/whatsapp/30oct/
+?? clientes/Jeremias/whatsapp/20261021/
+?? clientes/JesusRarAmore/
+?? clientes/Jesus_Puertas/
+?? clientes/Jesus_RIMO/
+?? clientes/Jose/armado_20261029/
+?? clientes/Jose/glimmer_20261028/
+?? clientes/Jose/obrero_salida/
+?? clientes/Jose/obrero_v2_20261029/
+?? clientes/Jose/obrero_v3_20261029/
+?? clientes/Jose/obrero_v4_20261030/
+?? clientes/Jose/obrero_v6_20261030/
+?? clientes/Jose/obrero_v9_20261030/
+?? clientes/Jose/referencia_20261030/
+?? clientes/Jose/whatsapp/del_cliente/
+?? clientes/Lisbeth/referencia/
+?? clientes/Lisbeth/video/
+?? clientes/Lisbeth/whatsapp/20261021/
+?? clientes/Lisbeth/whatsapp/22_231302_el_image.jpg
+?? clientes/Lisbeth/whatsapp/24_200210_el_image.jpg
+?? clientes/Lisbeth/whatsapp/24_200211_el_image.jpg
+?? clientes/Lisbeth/whatsapp/24_200328_el_image.jpg
+?? clientes/Lisbeth/whatsapp/24_200329_el_image.jpg
+?? clientes/Lisbeth/whatsapp/24_200401_el_image.jpg
+?? clientes/Lisbeth/whatsapp/24_200402_el_image.jpg
+?? clientes/Lisbeth/whatsapp/24_200403_el_image.jpg
+?? clientes/Lisbeth/whatsapp/24_200404_el_image.jpg
+?? clientes/Lisbeth/whatsapp/24_200405_el_image.jpg
+?? clientes/Lisbeth/whatsapp/24_200406_el_image.jpg
+?? clientes/Lisbeth/whatsapp/24_200407_el_image.jpg
+?? clientes/Lisbeth/whatsapp/24_200408_el_image.jpg
+?? clientes/Lisbeth/whatsapp/29_232857_el_image.jpg
+?? clientes/Lisbeth/whatsapp/29_232857_image.jpg
+?? clientes/Lisbeth/whatsapp/del_cliente/20261022_161302_image.jpg
+?? clientes/Lisbeth/whatsapp/nuevas_1024/
+?? clientes/Manuel_fotografia/ESCENAS_REFERENCIA_GIO_XV.md
+?? clientes/Manuel_fotografia/PLAN_VIDEO_MUSICAL_XV.md
+?? clientes/Manuel_fotografia/glimmer_101010_20261029/
+?? clientes/Manuel_fotografia/logo/
+?? clientes/Mariano/anuncios/
+?? clientes/Mariano/flyers_animados/
+?? clientes/Mariano/flyers_recibidos/
+?? clientes/Mariano/fotos/
+?? clientes/Mariano/gancho_rapel/
+?? clientes/Mariano/referencia/
+?? clientes/Mariano/video/
+?? clientes/Mariano/whatsapp/del_cliente/20261021_151100_flyer_benjamina.jpg
+?? clientes/Micropigmentacion6861607879/
+?? clientes/PistasBaile/
+?? clientes/Rafael_BYD/
+?? clientes/Ruben_Quiropraxia/
+?? clientes/Tatuador9983316522/
+?? clientes/VeronicaArguelles/
+?? clientes/Victor/FILTRO_EMPLEO.md
+?? clientes/Victor/video/
+?? clientes/Victor/whatsapp/anuncios_activos/
+?? clientes/Victor/whatsapp/imagenes_nuevas/
+?? clientes/Victor/whatsapp/nuevas/
+?? clientes/XV/armar_xv_v10.py
+?? clientes/XV/armar_xv_v11.py
+?? clientes/XV/armar_xv_v13.py
+?? clientes/XV/armar_xv_v14.py
+?? clientes/XV/armar_xv_v15.py
+?? clientes/XV/armar_xv_v16.py
+?? clientes/XV/armar_xv_v17.py
+?? clientes/XV/armar_xv_v18.py
+?? clientes/XV/armar_xv_v19.py
+?? clientes/XV/armar_xv_v21.py
+?? clientes/XV/armar_xv_v5.py
+?? clientes/XV/armar_xv_v6.py
+?? clientes/XV/armar_xv_v8.py
+?? clientes/XV/final/
+?? clientes/XV/referencia/
+?? clientes/XV/tmp_v21/
+?? clientes/XV/v5/
+?? clientes/XV/v7/
+?? clientes/XV/v8/
+?? clientes/XV/voz_manuel/
+?? clientes/_escenas_carlos/
+?? clientes/_productor/
+?? clientes/_remote_modal/nexus_claude.py
+?? clientes/ganchos_lisbeth_mariano_modal.py
+?? clientes/lote_30oct/
+?? clientes/lote_lisbeth_fernando_modal.py
+?? entregables/
+?? entregas_para_carlos/
+?? gasto_modal.py
+?? gastos_carlosfavelajeje.jsonl
+?? gastos_charlyfavela666.jsonl
+?? gastos_fgabriel60.jsonl
+?? gpt.sh
+?? herramientas/
+?? iniciar_claude_modal.sh
+?? modelos_modal/
+?? nexus3.py
+?? nexus3.py.bak_20261105
+?? nexus_666.py
+?? nexus_charly4.py
+?? nexus_claude_modal.py
+?? nexus_jeje.py
+?? nexus_jeje.py.bak_202611010839
+?? obrero_qwen_modal.py
+?? prioridades_modal.py
+?? prospectos/
+?? proyectos/
+?? puente_chatgpt.py
+?? tablero_modal.py
+?? tablero_modal.py.bak_20261105
+?? vigia_clientes_modal.py
+?? vigilante.log
+?? vigilante_645.log
+?? vigilante_666.log
+?? vigilar_645.py
+?? "visionagenciaIAV2.0-main 2/entregables/cinthia_payan_logo_20261027/"
+?? "visionagenciaIAV2.0-main 2/entregables/glimmer_consultas_20261020/"
+?? "visionagenciaIAV2.0-main 2/entregables/modelos_modal/qwen_productor_modal.py"
+
+codex
+El primer anuncio ya tiene la escena de atardecer y las manos ocultas. Ahora crearé el segundo usando esa imagen como referencia para conservar el rostro, el vestido y la luz; después revisaré textos, teléfonos y márgenes en los archivos finales.
+apply patch
+patch: completed
+/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v5_identidad/MANUEL_prompts.json
+diff --git a/entregables/anuncios_imagen_20261104/v5_identidad/MANUEL_prompts.json b/entregables/anuncios_imagen_20261104/v5_identidad/MANUEL_prompts.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..0c5a716235ba41030b138c59b8a126bcc510dbe2
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v5_identidad/MANUEL_prompts.json
+@@ -0,0 +1,4 @@
++{
++  "herramienta": "image_gen integrada",
++  "recuerdo": "Use case: ads-marketing. Create finished premium Spanish portrait advertisement, 1080x1350 aspect ratio 4:5. Brand Hunab Ku, Mexican quinceañera photography. Input image is the REAL logo, use that exact logo discreetly small at upper right inset at least 80px (roughly 170px wide), never make it giant, do not invent a different logo.\nGolden rule: image must feel like a beautiful cinematic film scene at sunset with real textured skin and breathing space. A realistic Mexican fifteen-year-old girl, age-appropriate, dark brown long gently wavy hair, natural makeup, wearing an elegant long forest green #2F3E2E quinceañera dress with real fabric folds. Three-quarter length or full body, standing calmly, BOTH HANDS BEHIND HER BACK entirely hidden. Girl placed on right/lower part, face unobscured by copy. Soft warm sunset SIDE LIGHT illuminates face clearly, NOT hard backlight. Blurred open Sonoran countryside with muted grasses and distant hills. One consistent shadow direction, natural pores, fine film grain, no plastic smoothing. Large cinematic photograph occupying 75 percent of canvas height. Plenty of upper negative space grading seamlessly into solid Crepúsculo #0B132B.\nGraphic palette exactly Crepúsculo #0B132B background, Dorado Cálido #D4A373 accents and CTA, Arena #E8DFCA lettering, Verde Bosque #2F3E2E support/dress. No pink, fuchsia, neon yellow, pure black graphic elements, emerald, terracotta, flowers, balloons, hearts, glitter. Natural skin color allowed.\nElegant editorial film-poster typography: headline Playfair Display Bold 78px equivalent, support Montserrat SemiBold 38px, footer Source Sans 3 29px, CTA Montserrat bold 36px. ALL copy and logo within 80px safe margin on all sides. Do not place any text over face. Headline upper left across three lines: \"Que la recuerden\" / \"como en una\" / \"película\". Exact supporting text nearby clearly legible across two lines: \"Fotografía y video de XV con\" / \"tratamiento cinematográfico\". Lower footer exact: \"Hunab Ku · Nogales, Sonora y sur de Arizona\". Bottom gold solid CTA rectangle (not touching edge) with deep twilight text EXACT: \"Aparta tu fecha por WhatsApp\". Footer above CTA. Elegant understated restrained design, photographic storytelling first. All accents must be perfect. No additional copy."
++}
+
+exec
+/bin/bash -lc 'ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0 /home/codespace/.codex/generated_images/01a1add9-1325-7f50-9bda-3ce34870be56/exec-5058995d-2da7-4de1-955f-b0e5731fc3c9.png' in /workspaces/Nexusv2.0launch18octubre
+ exited 127 in 0ms:
+/bin/bash: line 1: ffprobe: command not found
+
+exec
+/bin/bash -lc "ffmpeg -hide_banner -i /home/codespace/.codex/generated_images/01a1add9-1325-7f50-9bda-3ce34870be56/exec-5058995d-2da7-4de1-955f-b0e5731fc3c9.png -vf 'scale=1010:1250:flags=lanczos,pad=1080:1350:35:50:color=0x0B132B' -frames:v 1 -threads 1 entregables/anuncios_imagen_20261104/v5_identidad/MANUEL_v5_recuerdo.png" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 208ms:
+Input #0, png_pipe, from '/home/codespace/.codex/generated_images/01a1add9-1325-7f50-9bda-3ce34870be56/exec-5058995d-2da7-4de1-955f-b0e5731fc3c9.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1092x1440, 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'entregables/anuncios_imagen_20261104/v5_identidad/MANUEL_v5_recuerdo.png':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown, progressive), 1080x1350, q=2-31, 200 kb/s, 25 fps, 25 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 png
+[image2 @ 0x2e1a4e00] The specified filename 'entregables/anuncios_imagen_20261104/v5_identidad/MANUEL_v5_recuerdo.png' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0x2e1a4e00] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0x2e1a3b00] video:2258KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.145x    
+
+exec
+/bin/bash -lc "ffmpeg -hide_banner -loglevel error -i /home/codespace/.codex/generated_images/01a1add9-1325-7f50-9bda-3ce34870be56/exec-23032c8c-1f4a-450f-a820-7b6d938647a2.png -vf 'scale=1010:1250:flags=lanczos,pad=1080:1350:35:50:color=0x0B132B' -frames:v 1 -threads 1 -update 1 entregables/anuncios_imagen_20261104/v5_identidad/MANUEL_v5_fecha.png" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 215ms:
+codex
+Listos los dos PNG en **1080×1350**:
+
+- [MANUEL_v5_recuerdo.png](/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v5_identidad/MANUEL_v5_recuerdo.png): retrato amplio, manos ocultas y mensaje del recuerdo cinematográfico.
+- [MANUEL_v5_fecha.png](/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v5_identidad/MANUEL_v5_fecha.png): misma quinceañera en plano cercano, textura del vestido y ambos teléfonos revisados.
+
+La **regla de oro** se refleja en la luz cálida lateral sobre el rostro, piel con textura, campo desenfocado y espacio para respirar. Sin rosa ni fucsia.
+
+Generados con la herramienta integrada; dejé los prompts en `MANUEL_prompts.json`, en la misma carpeta.
+tokens used
+30,318
+Listos los dos PNG en **1080×1350**:
+
+- [MANUEL_v5_recuerdo.png](/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v5_identidad/MANUEL_v5_recuerdo.png): retrato amplio, manos ocultas y mensaje del recuerdo cinematográfico.
+- [MANUEL_v5_fecha.png](/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v5_identidad/MANUEL_v5_fecha.png): misma quinceañera en plano cercano, textura del vestido y ambos teléfonos revisados.
+
+La **regla de oro** se refleja en la luz cálida lateral sobre el rostro, piel con textura, campo desenfocado y espacio para respirar. Sin rosa ni fucsia.
+
+Generados con la herramienta integrada; dejé los prompts en `MANUEL_prompts.json`, en la misma carpeta.

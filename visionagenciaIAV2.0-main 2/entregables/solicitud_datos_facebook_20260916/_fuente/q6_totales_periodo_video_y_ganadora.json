@@ -1,0 +1,29 @@
+{
+ "nota": "Totales del periodo sin desglose diario (alcance \u00fanico real). Transcrito de respuesta en l\u00ednea.",
+ "result": [
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-08-01",
+   "spend": 966.63,
+   "impressions": 6904,
+   "reach": 3610,
+   "frequency": 1.9125,
+   "link_clicks": 157,
+   "clicks": 209,
+   "conversaciones_iniciadas": 84,
+   "primera_respuesta": 83
+  },
+  {
+   "ad_id": "120252656552890651",
+   "periodo": "2026-06-17..2026-08-01",
+   "spend": 615.92,
+   "impressions": 6646,
+   "reach": 4468,
+   "frequency": 1.4875,
+   "link_clicks": 37,
+   "clicks": 66,
+   "conversaciones_iniciadas": 20,
+   "primera_respuesta": 20
+  }
+ ]
+}

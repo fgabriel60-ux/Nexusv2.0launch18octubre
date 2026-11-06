@@ -1,0 +1,1 @@
+GASTO_PERFIL=fgabriel60 python3 gasto_modal.py run clientes/_escenas_carlos/escenas_carlos_modal.py::cuadros --spec entregables/specs_20261030/mariano_spiderman_r3.json > entregables/specs_20261030/mariano_spiderman_r3.log 2>&1

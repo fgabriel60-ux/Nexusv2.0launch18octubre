@@ -1,0 +1,38 @@
+{
+ "nota": "Agregado de los 48 chats de contactos «Prospecto» del WhatsApp de Carlos (WAAPI, 2026-09-16). Solo campos de ctwaContext y conteo de textos repetidos ≥3 veces en el primer mensaje entrante (botones automáticos). Sin nombres, teléfonos ni mensajes libres.",
+ "result": {
+  "chats_con_ctwaContext": 38,
+  "por_anuncio": {
+   "120251563209080651": {
+    "chats": 35,
+    "sourceApp": {
+     "facebook": 28,
+     "instagram": 7
+    },
+    "title": "Chatea en Messenger",
+    "greetingMessageBody": "¡Hola! ¿Cómo podemos ayudarte?",
+    "automatedGreetingMessageShown": false,
+    "mediaType": 1,
+    "sourceUrl": {
+     "https://fb.me/9cZ4VDTsZ": 20,
+     "https://www.instagram.com/p/DZuCLsTDCCe/": 7,
+     "https://fb.me/i88XNolJ8": 6
+    },
+    "primer_mensaje_entrante_repetido": {
+     "Quiero más información sobre el negocio.": 19,
+     "Quiero más información sobre el anuncio.": 12
+    },
+    "otros_primeros_mensajes": 4
+   },
+   "120251557968510651": {
+    "chats": 3,
+    "sourceApp": {
+     "facebook": 2,
+     "instagram": 1
+    },
+    "title": "Chatea en Messenger",
+    "greetingMessageBody": "¡Hola! ¿Cómo podemos ayudarte?"
+   }
+  }
+ }
+}

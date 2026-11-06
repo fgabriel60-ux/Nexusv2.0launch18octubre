@@ -1,0 +1,393 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-U5Raog6N1DQv5dszpYU9ts
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:03<1:17:00,  3.22s/it]
+[1ALoading weights:   0%|          | 3/1436 [00:03<21:36,  1.11it/s]  
+[1ALoading weights:   0%|          | 5/1436 [00:03<11:22,  2.10it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:03<09:22,  2.54it/s]
+[1ALoading weights:   1%|          | 12/1436 [00:03<03:07,  7.58it/s]
+[1ALoading weights:   1%|          | 16/1436 [00:03<02:13, 10.61it/s]
+[1ALoading weights:   1%|▏         | 19/1436 [00:04<02:24,  9.83it/s]
+[1ALoading weights:   2%|▏         | 23/1436 [00:04<01:46, 13.27it/s]
+[1ALoading weights:   2%|▏         | 27/1436 [00:04<01:29, 15.68it/s]
+[1ALoading weights:   2%|▏         | 30/1436 [00:04<01:42, 13.69it/s]
+[1ALoading weights:   3%|▎         | 38/1436 [00:05<00:59, 23.38it/s]
+[1ALoading weights:   3%|▎         | 42/1436 [00:05<01:22, 16.82it/s]
+[1ALoading weights:   3%|▎         | 49/1436 [00:05<01:01, 22.70it/s]
+[1ALoading weights:   4%|▎         | 53/1436 [00:06<01:20, 17.08it/s]
+[1ALoading weights:   4%|▍         | 61/1436 [00:06<01:07, 20.25it/s]
+[1ALoading weights:   5%|▍         | 65/1436 [00:06<01:01, 22.14it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:06<01:06, 20.68it/s]
+[1ALoading weights:   5%|▌         | 74/1436 [00:06<00:50, 26.73it/s]
+[1ALoading weights:   5%|▌         | 78/1436 [00:07<01:15, 17.88it/s]
+[1ALoading weights:   6%|▌         | 86/1436 [00:07<00:51, 26.04it/s]
+[1ALoading weights:   6%|▋         | 90/1436 [00:07<01:13, 18.31it/s]
+[1ALoading weights:   7%|▋         | 97/1436 [00:07<01:04, 20.65it/s]
+[1ALoading weights:   7%|▋         | 101/1436 [00:08<01:00, 21.99it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:08<01:00, 21.92it/s]
+[1ALoading weights:   8%|▊         | 109/1436 [00:08<00:50, 26.12it/s]
+[1ALoading weights:   8%|▊         | 113/1436 [00:08<01:00, 21.96it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:08<01:06, 19.90it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:08<00:48, 26.83it/s]
+[1ALoading weights:   9%|▉         | 126/1436 [00:09<01:10, 18.68it/s]
+[1ALoading weights:   9%|▉         | 135/1436 [00:09<00:44, 28.97it/s]
+[1ALoading weights:  10%|▉         | 140/1436 [00:09<01:03, 20.48it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:10<00:54, 23.84it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:10<01:04, 19.76it/s]
+[1ALoading weights:  11%|█         | 160/1436 [00:10<00:52, 24.30it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:10<01:04, 19.66it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:11<00:51, 24.62it/s]
+[1ALoading weights:  12%|█▏        | 175/1436 [00:11<01:06, 18.88it/s]
+[1ALoading weights:  13%|█▎        | 182/1436 [00:11<00:50, 24.86it/s]
+[1ALoading weights:  13%|█▎        | 186/1436 [00:12<01:11, 17.53it/s]
+[1ALoading weights:  14%|█▎        | 195/1436 [00:12<00:47, 26.09it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:12<01:02, 19.83it/s]
+[1ALoading weights:  14%|█▍        | 206/1436 [00:12<00:50, 24.13it/s]
+[1ALoading weights:  15%|█▍        | 210/1436 [00:13<01:08, 17.91it/s]
+[1ALoading weights:  15%|█▍        | 215/1436 [00:13<00:57, 21.34it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:13<00:49, 24.69it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:13<01:01, 19.62it/s]
+[1ALoading weights:  16%|█▌        | 230/1436 [00:14<00:59, 20.44it/s]
+[1ALoading weights:  16%|█▌        | 233/1436 [00:14<00:57, 20.89it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:14<00:56, 21.25it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:14<00:47, 25.25it/s]
+[1ALoading weights:  17%|█▋        | 247/1436 [00:14<01:03, 18.83it/s]
+[1ALoading weights:  18%|█▊        | 253/1436 [00:14<00:48, 24.29it/s]
+[1ALoading weights:  18%|█▊        | 257/1436 [00:15<00:56, 20.96it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:15<00:59, 19.91it/s]
+[1ALoading weights:  19%|█▊        | 266/1436 [00:15<00:44, 26.36it/s]
+[1ALoading weights:  19%|█▉        | 270/1436 [00:15<01:06, 17.46it/s]
+[1ALoading weights:  19%|█▉        | 276/1436 [00:16<00:50, 22.82it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:16<00:46, 24.81it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:16<00:56, 20.21it/s]
+[1ALoading weights:  20%|██        | 290/1436 [00:16<00:44, 25.65it/s]
+[1ALoading weights:  20%|██        | 294/1436 [00:17<01:01, 18.55it/s]
+[1ALoading weights:  21%|██        | 301/1436 [00:17<00:45, 25.08it/s]
+[1ALoading weights:  21%|██        | 305/1436 [00:17<00:52, 21.68it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:17<00:55, 20.42it/s]
+[1ALoading weights:  22%|██▏       | 314/1436 [00:17<00:51, 21.97it/s]
+[1ALoading weights:  22%|██▏       | 317/1436 [00:17<00:49, 22.75it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:18<00:53, 20.71it/s]
+[1ALoading weights:  23%|██▎       | 327/1436 [00:18<00:37, 29.33it/s]
+[1ALoading weights:  23%|██▎       | 331/1436 [00:18<00:57, 19.25it/s]
+[1ALoading weights:  24%|██▎       | 338/1436 [00:18<00:49, 22.37it/s]
+[1ALoading weights:  24%|██▎       | 341/1436 [00:19<00:48, 22.49it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:19<00:53, 20.24it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:19<00:40, 26.52it/s]
+[1ALoading weights:  25%|██▍       | 355/1436 [00:19<00:54, 19.76it/s]
+[1ALoading weights:  25%|██▌       | 362/1436 [00:19<00:39, 27.46it/s]
+[1ALoading weights:  25%|██▌       | 366/1436 [00:20<00:56, 18.90it/s]
+[1ALoading weights:  26%|██▌       | 373/1436 [00:20<00:41, 25.84it/s]
+[1ALoading weights:  26%|██▋       | 377/1436 [00:20<00:49, 21.59it/s]
+[1ALoading weights:  27%|██▋       | 381/1436 [00:20<00:48, 21.58it/s]
+[1ALoading weights:  27%|██▋       | 386/1436 [00:20<00:40, 25.80it/s]
+[1ALoading weights:  27%|██▋       | 390/1436 [00:21<00:57, 18.10it/s]
+[1ALoading weights:  28%|██▊       | 398/1436 [00:21<00:39, 26.25it/s]
+[1ALoading weights:  28%|██▊       | 402/1436 [00:21<00:54, 18.97it/s]
+[1ALoading weights:  28%|██▊       | 407/1436 [00:21<00:45, 22.73it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:22<00:39, 25.62it/s]
+[1ALoading weights:  29%|██▉       | 416/1436 [00:22<00:49, 20.56it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:22<00:40, 25.07it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:22<00:49, 20.51it/s]
+[1ALoading weights:  30%|███       | 436/1436 [00:23<00:39, 25.48it/s]
+[1ALoading weights:  31%|███       | 439/1436 [00:23<00:50, 19.92it/s]
+[1ALoading weights:  31%|███       | 446/1436 [00:23<00:38, 25.82it/s]
+[1ALoading weights:  31%|███▏      | 450/1436 [00:24<00:53, 18.51it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:24<00:38, 25.61it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:24<00:47, 20.66it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:24<00:37, 25.85it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:25<00:45, 21.13it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:25<00:37, 25.66it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:25<00:44, 21.16it/s]
+[1ALoading weights:  34%|███▍      | 495/1436 [00:25<00:39, 23.55it/s]
+[1ALoading weights:  35%|███▍      | 498/1436 [00:26<00:49, 18.87it/s]
+[1ALoading weights:  35%|███▌      | 504/1436 [00:26<00:38, 24.15it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:26<00:34, 26.66it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:26<00:43, 21.15it/s]
+[1ALoading weights:  36%|███▌      | 518/1436 [00:26<00:33, 27.05it/s]
+[1ALoading weights:  36%|███▋      | 522/1436 [00:27<00:48, 18.79it/s]
+[1ALoading weights:  37%|███▋      | 530/1436 [00:27<00:34, 26.57it/s]
+[1ALoading weights:  37%|███▋      | 534/1436 [00:27<00:47, 18.98it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:27<00:33, 26.55it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:28<00:41, 21.40it/s]
+[1ALoading weights:  39%|███▊      | 554/1436 [00:28<00:33, 26.47it/s]
+[1ALoading weights:  39%|███▉      | 558/1436 [00:28<00:44, 19.62it/s]
+[1ALoading weights:  39%|███▉      | 565/1436 [00:28<00:34, 25.00it/s]
+[1ALoading weights:  40%|███▉      | 569/1436 [00:29<00:38, 22.32it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:29<00:41, 21.05it/s]
+[1ALoading weights:  40%|████      | 575/1436 [00:29<00:39, 22.02it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:29<00:31, 26.96it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:29<00:42, 20.19it/s]
+[1ALoading weights:  41%|████      | 591/1436 [00:29<00:29, 28.58it/s]
+[1ALoading weights:  41%|████▏     | 595/1436 [00:30<00:43, 19.35it/s]
+[1ALoading weights:  42%|████▏     | 601/1436 [00:30<00:40, 20.48it/s]
+[1ALoading weights:  42%|████▏     | 605/1436 [00:30<00:36, 22.61it/s]
+[1ALoading weights:  42%|████▏     | 608/1436 [00:30<00:39, 20.85it/s]
+[1ALoading weights:  43%|████▎     | 615/1436 [00:31<00:28, 28.48it/s]
+[1ALoading weights:  43%|████▎     | 619/1436 [00:31<00:42, 19.20it/s]
+[1ALoading weights:  44%|████▍     | 629/1436 [00:31<00:26, 30.85it/s]
+[1ALoading weights:  45%|████▌     | 653/1436 [00:31<00:11, 66.37it/s]
+[1ALoading weights:  47%|████▋     | 676/1436 [00:31<00:07, 98.44it/s]
+[1ALoading weights:  49%|████▊     | 698/1436 [00:31<00:05, 123.58it/s]
+[1ALoading weights:  51%|█████▏    | 736/1436 [00:31<00:04, 174.38it/s]
+[1ALoading weights:  54%|█████▎    | 770/1436 [00:32<00:03, 210.68it/s]
+[1ALoading weights:  56%|█████▌    | 806/1436 [00:32<00:02, 248.29it/s]
+[1ALoading weights:  59%|█████▊    | 842/1436 [00:32<00:02, 275.49it/s]
+[1ALoading weights:  61%|██████    | 878/1436 [00:32<00:01, 294.73it/s]
+[1ALoading weights:  64%|██████▎   | 912/1436 [00:32<00:01, 305.41it/s]
+[1ALoading weights:  67%|██████▋   | 956/1436 [00:32<00:01, 340.96it/s]
+[1ALoading weights:  69%|██████▉   | 994/1436 [00:32<00:01, 348.53it/s]
+[1ALoading weights:  72%|███████▏  | 1030/1436 [00:32<00:01, 349.55it/s]
+[1ALoading weights:  74%|███████▍  | 1066/1436 [00:32<00:01, 346.90it/s]
+[1ALoading weights:  77%|███████▋  | 1106/1436 [00:32<00:00, 361.14it/s]
+[1ALoading weights:  80%|███████▉  | 1143/1436 [00:33<00:00, 352.36it/s]
+[1ALoading weights:  82%|████████▏ | 1182/1436 [00:33<00:00, 359.81it/s]
+[1ALoading weights:  85%|████████▍ | 1219/1436 [00:33<00:00, 355.20it/s]
+[1ALoading weights:  87%|████████▋ | 1255/1436 [00:33<00:00, 352.76it/s]
+[1ALoading weights:  90%|████████▉ | 1292/1436 [00:33<00:00, 354.20it/s]
+[1ALoading weights:  93%|█████████▎| 1330/1436 [00:33<00:00, 345.23it/s]
+[1ALoading weights:  95%|█████████▌| 1365/1436 [00:33<00:00, 346.56it/s]
+[1ALoading weights:  97%|█████████▋| 1400/1436 [00:33<00:00, 343.03it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:33<00:00, 42.37it/s] 
+[transformers] Both `max_new_tokens` (=6000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## guillermo_caso_exito
+ to=selfEres estratega de contenido y anuncios para negocios en México. Da SOLO la respuesta final en español, sin mostrar razonamiento.
+TAREA: propón UNA idea de video de CASO DE ÉXITO (15-35 s, 9:16) con Guillermo para que Carlos consiga clientes de más valor (subir su ICP, no sólo de $500) y que a la vez hable de que "esto se logra con IA" SIN decir cuál. Entrega: (1) el ICP que subirías y por qué, (2) 3 ganchos de 0-3 s y el mejor, (3) guion palabra por palabra, quién habla (Carlos con su voz / voz clonada de Guillermo), tabla de escenas (#, segundos, qué se ve, texto en pantalla exacto, voz), usando fotos y obras reales de Guillermo y a Carlos (foto/Pixar) donde convenga, (4) cómo decir lo barato que le sale a Carlos hacerlos ($500 por 4 videos) SIN que suene a "barato de mala calidad" y sin atraer sólo a clientes de $500, (5) CTA exacto y 2-3 preguntas de precalificación por WhatsApp que filtren por valor, (6) qué NO decir (incluye no revelar herramientas, no prometer resultados no medidos, políticas de Meta), (7) cómo conseguir y mostrar la prueba real cuando Guillermo tenga cifras, y (8) calificación honesta x/10 de Confianza, Claridad y Mensajes calificados.
+Sólo propón lo que se puede producir con las capacidades de abajo.
+
+We need to output only final answer in Spanish. Provide sections as requested.
+
+We must not reveal tools. Must not invent numbers for Guillermo. Can mention need to measure.
+
+We need ICP to raise: owners of high-ticket trades: herrería, pérgolas, techos, construcción, remodelación, abogados, clínicas, etc. Why: ticket alto, ciclo de venta por WhatsApp, necesidad de confianza visual.
+
+3 hooks 0-3s and best.
+
+Script word for word, who speaks (Carlos with his voice / cloned voice of Guillermo). Table of scenes # seconds what is seen, text on screen exact, voice.
+
+Use photos and works real of Guillermo and Carlos (photo/Pixar) where convenient.
+
+How to say cheap $500 per 4 videos without sounding cheap quality and not attract only $500 clients.
+
+CTA exact and 2-3 prequalification questions via WhatsApp that filter by value.
+
+What NOT to say.
+
+How to get and show real proof when Guillermo has figures.
+
+Honest rating x/10 of Confianza, Claridad y Mensajes calificados.
+
+Only propose what can be produced with capabilities.
+
+We must ensure no invented numbers for Guillermo. Can reference his urgency: one week without quoting.
+
+We can use real data from other clients? The prompt mentions cost per message $13.76 etc for a client, and José 80 messages $6.43. Could use as social proof? The video is case of success with Guillermo. Might be okay to show other real reports as proof of method, but case is Guillermo. Might be okay to show "Reportes reales de mis clientes" as in image. But must not invent numbers for Guillermo.
+
+We can propose video structure: start with Carlos Pixar character saying "No negocios sin volantes..." etc. Use existing assets.
+
+We need to ensure production capabilities: Qwen-Image-Edit, MiniMax H3, Fish Audio, real footage, ffmpeg editing, text overlay, music.
+
+We should propose using real photos of Guillermo's works (pérgolas, techos). Use cloned voice of Guillermo for testimonial lines from WhatsApp transcripts. Use Carlos voice for narration.
+
+Provide table.
+
+Let's craft.
+
+ICP: Dueños de negocios de servicios especializados con ticket promedio > $15,000 MXN y venta por cotización vía WhatsApp: herrería/pérgolas/tectos, construcción/remodelación, impermeabilización, carpintería de alta gama, clínicas dentales/estéticas, despachos legales. Why: margen para invertir en ads, necesitan confianza visual, no dependen de volumen.
+
+Hooks:
+1. "Llevo una semana sin cotizar y esto cambió todo"
+2. "No salí en cámara y ya tengo mensajes pidiendo cotización"
+3. "Mi primera prueba con IA se ve muy muy muy fregón"
+Best: #1 or #2? Probably "Llevo una semana sin cotizar y esto cambió todo" - urgency.
+
+Script word for word.
+
+We need 15-35 s. Let's aim 28 s.
+
+Scene table.
+
+We need text on screen exact.
+
+Voice: Carlos with his voice / cloned voice of Guillermo.
+
+We can have Guillermo cloned voice saying his own words from transcript: "Ya llevo una semana sin cotizar. Ya quiero seguir agarrando". And "Se ve muy muy muy fregón". Carlos voice narrates.
+
+We must not reveal tools.
+
+How to say cheap: frame as "sistema" not price. $500 por 4 videos is costo de producción, no incluye pauta. Es inversión fija mensual para tener contenido constante, no costo por video. Enfocar en valor: estrategia + volantes + video, etc. Use "solo si te gusta la estrategia" etc.
+
+CTA exact: "Comenta «VIDEO» y te mando el link de tu llamada gratis" or similar. Maybe "Comenta «COTIZAR» y te envío el link de tu llamada gratis de 10 min". Use exact.
+
+Prequalification questions: 1) ¿Cuál es el ticket promedio de tu servicio y cuánto inviertes hoy en publicidad? 2) ¿Tienes fotos reales de tus obras/proyectos terminados? 3) ¿Tu venta se cierra por WhatsApp con cotización?
+
+What NOT to say: no nombrar IA específicas, no prometer resultados, no decir "garantizado", no inventar cifras de Guillermo, no decir "Meta AI calificó", no usar música con derechos.
+
+How to get proof: when campaign runs, capture screenshot of Meta Ads Manager with costo por mensaje, CTR, mensajes entrantes, and WhatsApp conversations anonymized, with date. Use screen recording with overlay.
+
+Rating: Confianza 7/10, Claridad 8/10, Mensajes calificados 6/10? Need honest.
+
+Provide final answer.
+
+Make sure only Spanish.
+
+No reasoning.
+
+Let's produce structured output with headings.
+
+Ensure table columns: #, Segundos, Qué se ve, Texto en pantalla exacto, Voz.
+
+Provide guion palabra por palabra.
+
+Maybe separate guion then table.
+
+Let's craft final.
+
+Potential script:
+
+0-3s hook: Guillermo cloned voice: "Ya llevo una semana sin cotizar." Visual: foto real de obra de Guillermo con zoom in.
+
+Then Carlos voice: "Guillermo es herrero y pérgolas. No quería salir en cámara."
+
+etc.
+
+We need to mention "esto se logra con IA" without saying which.
+
+Use Carlos Pixar character.
+
+Let's design 7 scenes ~4 sec each = 28 sec.
+
+Scene 1: 0-3s
+Qué se ve: Foto real de pérgola de Guillermo, animada con MiniMax push-in, overlay de Carlos Pixar pequeño.
+Texto en pantalla: "Llevo una semana sin cotizar"
+Voz: Guillermo clonada: "Ya llevo una semana sin cotizar."
+
+Scene 2: 3-7s
+Qué se ve: Montaje de fotos reales de obras de Guillermo (techo, cortina metálica) con transición whoosh.
+Texto: "Herrero / Pérgolas / Techos"
+Voz: Carlos: "Guillermo hace pérgolas, techos y herrería. No quería salir en cámara."
+
+Scene 3: 7-11s
+Qué se ve: Carlos Pixar en su escritorio, con pantalla de computadora.
+Texto: "No negocios sin volantes"
+Voz: Carlos: "Le armamos estrategia, volantes y su primer video."
+
+Scene 4: 11-15s
+Qué se ve: Clip animado de foto de obra con efecto fuego? Maybe show before/after? Use Qwen edit to clean.
+Texto: "Se ve muy muy muy fregón"
+Voz: Guillermo clonada: "Se ve muy muy muy fregón."
+
+Scene 5: 15-20s
+Qué se ve: Pantalla de "Lo que te armamos" con toggles encendidos.
+Texto: "Tu estrategia ON / Tus volantes ON"
+Voz: Carlos: "Todo con fotos reales de sus obras y su voz clonada. Se logra con IA."
+
+Scene 6: 20-25s
+Qué se ve: Carlos Pixar señalando.
+Texto: "4 videos al mes por $500"
+Voz: Carlos: "Te entrego cuatro videos al mes por quinientos pesos, para que siempre tengas contenido fresco."
+
+Scene 7: 25-28s
+Qué se ve: CTA card.
+Texto: "Comenta «VIDEO» y te mando el link de tu llamada gratis"
+Voz: Carlos: "Comenta VIDEO y te mando el link de tu llamada gratis."
+
+Make sure text exact.
+
+We need to include how to say cheap without sounding cheap: frame as sistema de producción, costo fijo de contenido, no de calidad.
+
+Provide CTA exact.
+
+Prequalification questions.
+
+What NOT to say.
+
+How to get proof.
+
+Rating.
+
+Let's produce final answer concise but complete.
+
+Ensure no mention of tools names.
+
+Use Spanish.
+
+Let's output.assistant to=user**1. ICP que subirías y por qué**
+
+Dueños de negocios de servicio especializado con ticket promedio > $15,000 MXN y venta por cotización vía WhatsApp: herrería / pérgolas / techos / zaguanes / cortinas metálicas, construcción y remodelación, impermeabilización, carpintería de alta gama, clínicas dentales/estéticas y despachos legales.
+
+Por qué: margen para invertir en pauta, ciclo de venta corto por mensaje, necesitan confianza visual de obra real y no dependen de volumen. El caso de Guillermo valida el dolor “una semana sin cotizar” y la solución sin exponerse en cámara.
+
+**2. Ganchos 0-3 s**
+
+1. “Ya llevo una semana sin cotizar. Ya quiero seguir agarrando.”
+2. “No salí en cámara y mi primera prueba se ve muy muy muy fregón.”
+3. “Herrero, pérgolas y techos. Sin volantes no hay negocios.”
+
+Mejor: 1. “Ya llevo una semana sin cotizar. Ya quiero seguir agarrando.” Urgencia real de Guillermo + identificación inmediata.
+
+**3. Guion palabra por palabra y tabla de escenas**
+
+Voz: Carlos con su voz real / Guillermo con voz clonada a partir de sus audios de WhatsApp.
+
+*Guion completo:*
+“Ya llevo una semana sin cotizar. Ya quiero seguir agarrando. Guillermo hace pérgolas, techos y herrería. No quería salir en cámara. Le armamos estrategia, volantes y su primer video. Se ve muy muy muy fregón. Todo con fotos reales de sus obras y su voz clonada. Se logra con IA. Te entrego cuatro videos al mes por quinientos pesos, para que siempre tengas contenido fresco. Comenta VIDEO y te mando el link de tu llamada gratis.”
+
+Tabla 9:16 28 s
+
+1. 0-3 s | Foto real de pérgola de Guillermo animada con push-in MiniMax. Superposición pequeña de Carlos Pixar. | Texto en pantalla exacto: Llevo una semana sin cotizar | Voz Guillermo clonada: “Ya llevo una semana sin cotizar.”
+2. 3-7 s | Montaje de fotos reales de obras de Guillermo: techo, cortina metálica, puerta. Transición whoosh. | Texto en pantalla exacto: Herrero / Pérgolas / Techos | Voz Carlos: “Guillermo hace pérgolas, techos y herrería. No quería salir en cámara.”
+3. 7-11 s | Carlos Pixar en escritorio con monitor de montañas. | Texto en pantalla exacto: No negocios sin volantes | Voz Carlos: “Le armamos estrategia, volantes y su primer video.”
+4. 11-15 s | Clip animado de foto de obra con limpieza de texto por Qwen-Image-Edit. | Texto en pantalla exacto: Se ve muy muy muy fregón | Voz Guillermo clonada: “Se ve muy muy muy fregón.”
+5. 15-20 s | Card “LO QUE TE ARMAMOS” con toggles encendidos. | Texto en pantalla exacto: Tu estrategia ON / Tus volantes ON | Voz Carlos: “Todo con fotos reales de sus obras y su voz clonada. Se logra con IA.”
+6. 20-25 s | Carlos Pixar señalando a cámara. | Texto en pantalla exacto: 4 videos al mes por $500 | Voz Carlos: “Te entrego cuatro videos al mes por quinientos pesos, para que siempre tengas contenido fresco.”
+7. 25-28 s | Fondo de escritorio de Carlos, CTA. | Texto en pantalla exacto: Comenta «VIDEO» y te mando el link de tu llamada gratis | Voz Carlos: “Comenta VIDEO y te mando el link de tu llamada gratis.”
+
+**4. Cómo decir lo barato sin sonar barato**
+
+No es “barato”, es sistema de producción. Mensaje: “$500 al mes es el costo fijo de producción de 4 videos. No es pauta. Es para que nunca te quedes sin contenido fresco para probar. La inversión en anuncios la defines tú, desde $50 diarios. Cobro lo mismo porque la producción corre con IA a partir de tus fotos reales, no porque baje la calidad.”
+
+Se muestra como paquete: Estrategia + volantes + video. Opción “solo si te gusta la estrategia” $346 pesos al mes. Se evita comparar precio con valor de obra.
+
+**5. CTA exacto y precalificación WhatsApp**
+
+CTA exacto en pantalla y voz: Comenta «VIDEO» y te mando el link de tu llamada gratis
+
+Preguntas de precalificación por WhatsApp:
+1. ¿Cuál es el ticket promedio de tu servicio y cuánto inviertes hoy al mes en publicidad?
+2. ¿Tienes fotos reales de tus obras/proyectos terminados para usar en los videos?
+3. ¿Tu venta se cierra por WhatsApp con cotización?
+
+**6. Qué NO decir**
+
+No revelar herramientas ni decir Meta AI, Qwen, MiniMax, Fish Audio. Solo “se logra con IA”.
+No prometer resultados ni inventar cifras de Guillermo. No hay cifras aún.
+No decir “garantizado”, “cifras aseguradas” ni “CTR excelente”.
+No usar música con derechos. No mostrar datos de clientes sin autorización.
+No prometer salida en cámara si el cliente no quiere.
+
+**7. Prueba real cuando Guillermo tenga cifras**
+
+Cuando la campaña corra, capturar con fecha:
+Screenshot de Meta Ads Manager con gasto, mensajes entrantes, costo por mensaje y CTR.
+Captura de WhatsApp Business con conversaciones entrantes anonimizadas.
+Video corto de pantalla con el reporte real y voz de Carlos explicando métricas.
+Publicar como “Reportes reales de mis clientes” con nombre de negocio autorizado y fecha.
+
+**8. Calificación honesta**
+
+Confianza 7/10. Caso real y urgencia auténtica, pero sin cifras aún.
+Claridad 8/10. Mensaje directo, sin tecnicismos.
+Mensajes calificados 6/10. Filtra por ticket y fotos, pero el CTA abierto puede traer leads de $500 si no se refuerza la precalificación en el primer mensaje.
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-U5Raog6N1DQv5dszpYU9ts

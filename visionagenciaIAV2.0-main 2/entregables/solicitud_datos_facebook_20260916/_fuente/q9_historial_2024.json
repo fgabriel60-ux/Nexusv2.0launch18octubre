@@ -1,0 +1,159 @@
+{
+ "nota": "Historial anterior a 2026 (consulta 2024-01-01..2025-12-31). Solo hubo entrega en julio 2024. conv=None: Meta no reportó la acción (con impresiones > 0 equivale a 0 conversaciones). Configuración ACTUAL, no necesariamente la de entrega.",
+ "metricas_diarias": [
+  {
+   "date": "2024-07-15",
+   "ad_id": "120212618691170651",
+   "campaign_id": "120212618690920651",
+   "campaign": "[07/15/2024] Promoting https://facebook.com/61550960271359",
+   "objective": "MESSAGES",
+   "opt": "CONVERSATIONS",
+   "spend": 18.36,
+   "impressions": 198,
+   "reach": 193,
+   "clicks": 3,
+   "link_clicks": 1,
+   "conv": null
+  },
+  {
+   "date": "2024-07-15",
+   "ad_id": "120212620616600651",
+   "campaign_id": "120212620616290651",
+   "campaign": "[15/07/2024] Promoción de https://facebook.com/61550960271359",
+   "objective": "MESSAGES",
+   "opt": "CONVERSATIONS",
+   "spend": 26.41,
+   "impressions": 549,
+   "reach": 397,
+   "clicks": 3,
+   "link_clicks": 3,
+   "conv": null
+  },
+  {
+   "date": "2024-07-16",
+   "ad_id": "120212620616600651",
+   "campaign_id": "120212620616290651",
+   "campaign": "[15/07/2024] Promoción de https://facebook.com/61550960271359",
+   "objective": "MESSAGES",
+   "opt": "CONVERSATIONS",
+   "spend": 102.03,
+   "impressions": 1507,
+   "reach": 885,
+   "clicks": 13,
+   "link_clicks": 3,
+   "conv": null
+  },
+  {
+   "date": "2024-07-17",
+   "ad_id": "120212620616600651",
+   "campaign_id": "120212620616290651",
+   "campaign": "[15/07/2024] Promoción de https://facebook.com/61550960271359",
+   "objective": "MESSAGES",
+   "opt": "CONVERSATIONS",
+   "spend": 101.79,
+   "impressions": 1562,
+   "reach": 949,
+   "clicks": 8,
+   "link_clicks": 5,
+   "conv": null
+  },
+  {
+   "date": "2024-07-18",
+   "ad_id": "120212620616600651",
+   "campaign_id": "120212620616290651",
+   "campaign": "[15/07/2024] Promoción de https://facebook.com/61550960271359",
+   "objective": "MESSAGES",
+   "opt": "CONVERSATIONS",
+   "spend": 99.88,
+   "impressions": 1410,
+   "reach": 897,
+   "clicks": 13,
+   "link_clicks": 8,
+   "conv": null
+  },
+  {
+   "date": "2024-07-19",
+   "ad_id": "120212620616600651",
+   "campaign_id": "120212620616290651",
+   "campaign": "[15/07/2024] Promoción de https://facebook.com/61550960271359",
+   "objective": "MESSAGES",
+   "opt": "CONVERSATIONS",
+   "spend": 6.65,
+   "impressions": 104,
+   "reach": 91,
+   "clicks": 0,
+   "link_clicks": null,
+   "conv": null
+  }
+ ],
+ "configuracion": [
+  {
+   "ad_id": "120212618691170651",
+   "object_type": "SHARE",
+   "body": "Te ayudamos a llevar tu negocio de la mejor forma a tus clientes!",
+   "title": "Vision Agencia",
+   "call_to_action_type": "MESSAGE_PAGE",
+   "adset_destination_type": "MESSAGING_MESSENGER_WHATSAPP",
+   "adset_targeting": {
+    "age_max": 65,
+    "age_min": 18,
+    "genders": [
+     0
+    ],
+    "geo_locations": {
+     "countries": [
+      "MX"
+     ],
+     "location_types": [
+      "home",
+      "recent"
+     ]
+    },
+    "targeting_optimization": "expansion_all",
+    "publisher_platforms": [
+     "facebook",
+     "instagram"
+    ]
+   },
+   "campaign_daily_budget": 10000,
+   "effective_status": "CAMPAIGN_PAUSED"
+  },
+  {
+   "ad_id": "120212620616600651",
+   "object_type": "SHARE",
+   "body": "Te ayudamos a llevar tu negocio de la mejor forma a tus clientes!",
+   "title": "Vision Agencia",
+   "call_to_action_type": "MESSAGE_PAGE",
+   "adset_destination_type": "MESSAGING_MESSENGER_WHATSAPP",
+   "adset_targeting": {
+    "age_max": 65,
+    "age_min": 18,
+    "genders": [
+     0
+    ],
+    "geo_locations": {
+     "location_types": [
+      "home",
+      "recent"
+     ],
+     "neighborhoods": [
+      {
+       "key": "2844903",
+       "country": "MX",
+       "name": "Nogales Centro",
+       "region": "Sonora",
+       "region_id": "2530"
+      }
+     ]
+    },
+    "targeting_optimization": "expansion_all",
+    "publisher_platforms": [
+     "facebook",
+     "instagram"
+    ]
+   },
+   "campaign_daily_budget": 10000,
+   "effective_status": "CAMPAIGN_PAUSED"
+  }
+ ]
+}

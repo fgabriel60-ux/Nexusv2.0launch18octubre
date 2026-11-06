@@ -1,0 +1,37 @@
+{
+ "filas_csv": 56,
+ "anuncios_csv": 18,
+ "campanas_csv": 8,
+ "objetivos_csv": {
+  "messages": 16,
+  "leads": 15,
+  "traffic": 25
+ },
+ "filas_totales_extraidas": 216,
+ "anuncios_totales": 56,
+ "creativos_con_texto": 25,
+ "creativos_totales": 56,
+ "excluidas": {
+  "sin entrega ese día (0 impresiones)": {
+   "filas": 6,
+   "anuncios": 3
+  },
+  "objetivo OUTCOME_ENGAGEMENT sin mapeo seguro": {
+   "filas": 40,
+   "anuncios": 9
+  },
+  "objetivo MESSAGES con optimización POST_ENGAGEMENT": {
+   "filas": 4,
+   "anuncios": 1
+  },
+  "sin texto del creativo, no se puede describir la idea": {
+   "filas": 67,
+   "anuncios": 24
+  },
+  "objetivo LINK_CLICKS con optimización CONVERSATIONS": {
+   "filas": 43,
+   "anuncios": 4
+  }
+ },
+ "ceros_explicitos_por_accion_ausente": 31
+}

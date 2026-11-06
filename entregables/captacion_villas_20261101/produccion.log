@@ -1,0 +1,16 @@
+[0;93m2026-11-01 07:56:28.468914067 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:07/VMBUS:01/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+toma 1 0.9346 ¿Rentas una villa? Mira como convertimos tus fotos en un recorrido premio. Usamos la IA de Facebook para revisar tu anuncio y buscamos que llegue a 8 de 10 antes de lanzarlo. Aplícalo antes que tu competencia. Videos y estrategia por $500 pesos al mes, pauta aparte. Escribe mi villa y tu ciudad por WhatsApp.
+toma 2 0.9623 Retas una villa, mira como convertimos tus fotos en un recorrido premium. Usamos la IA de Facebook para revisar tu anuncio y buscamos que llegue a 8 de 10 antes de lanzarlo. Aplícalo antes que tu competencia, videos y estrategia por 500 pesos al mes, pauta aparte. Escríbeme Villa y tu ciudad por WhatsApp.
+toma 3 0.9434 rentas una villa, mira como convertimos tus fotos en un recorrido premium, usamos la IA de Facebook para revisar tu anuncio y buscamos que llegue a 8 de 10 antes de lanzarlo, aplícalo antes que tu competencia, videos y estrategias por 500 pesos al mes, pauta aparta, escríbeme villa y tu ciudad por whatsapp.
+toma 4 0.8762 ¿Rentas una villa? Mira como convertimos tus fotos en un recorrido premio, usamos la IA de Facebook para revisar tu anuncio y buscamos que llegue a 8 de 10 antes de lanzarlo. Aplícalo antes que tu competencia, videos y estrategia por 500 pesos al mes, pauta a par. Escríbeme DJ Tuxedad por WhatsApp.
+Traceback (most recent call last):
+  File "/workspaces/Nexusv2.0launch18octubre/entregables/captacion_villas_20261101/producir.py", line 114, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/workspaces/Nexusv2.0launch18octubre/entregables/captacion_villas_20261101/producir.py", line 112, in main
+    else:choice,model=voice(script)
+                      ~~~~~^^^^^^^^
+  File "/workspaces/Nexusv2.0launch18octubre/entregables/captacion_villas_20261101/producir.py", line 40, in voice
+    if choice['coincidencia']<.98:raise RuntimeError('La voz no coincide con el guion. Revisar tomas_whisper.json antes de montar.')
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: La voz no coincide con el guion. Revisar tomas_whisper.json antes de montar.

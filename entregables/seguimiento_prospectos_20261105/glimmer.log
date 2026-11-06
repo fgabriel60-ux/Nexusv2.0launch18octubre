@@ -1,0 +1,267 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-zBj2uQTIvT2vaUWWmFcMpp
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<31:40,  1.32s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:02<34:38,  1.45s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:02<13:43,  1.74it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:03<10:32,  2.26it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:03<08:26,  2.82it/s]
+[1ALoading weights:   1%|          | 12/1436 [00:03<02:58,  7.99it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:03<01:53, 12.45it/s]
+[1ALoading weights:   1%|▏         | 20/1436 [00:03<01:44, 13.56it/s]
+[1ALoading weights:   2%|▏         | 27/1436 [00:04<01:14, 18.85it/s]
+[1ALoading weights:   2%|▏         | 30/1436 [00:04<01:25, 16.42it/s]
+[1ALoading weights:   3%|▎         | 36/1436 [00:04<01:01, 22.79it/s]
+[1ALoading weights:   3%|▎         | 40/1436 [00:04<00:58, 24.02it/s]
+[1ALoading weights:   3%|▎         | 43/1436 [00:04<01:17, 18.00it/s]
+[1ALoading weights:   3%|▎         | 50/1436 [00:05<01:04, 21.60it/s]
+[1ALoading weights:   4%|▎         | 53/1436 [00:05<01:01, 22.57it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:05<01:03, 21.82it/s]
+[1ALoading weights:   4%|▍         | 61/1436 [00:05<00:51, 26.76it/s]
+[1ALoading weights:   5%|▍         | 65/1436 [00:05<01:03, 21.73it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:05<01:06, 20.47it/s]
+[1ALoading weights:   5%|▌         | 74/1436 [00:06<00:49, 27.56it/s]
+[1ALoading weights:   5%|▌         | 78/1436 [00:06<01:15, 18.07it/s]
+[1ALoading weights:   6%|▌         | 86/1436 [00:06<00:50, 26.93it/s]
+[1ALoading weights:   6%|▋         | 90/1436 [00:06<01:08, 19.57it/s]
+[1ALoading weights:   7%|▋         | 97/1436 [00:07<00:50, 26.60it/s]
+[1ALoading weights:   7%|▋         | 102/1436 [00:07<01:05, 20.21it/s]
+[1ALoading weights:   8%|▊         | 110/1436 [00:07<00:47, 28.19it/s]
+[1ALoading weights:   8%|▊         | 115/1436 [00:07<01:03, 20.73it/s]
+[1ALoading weights:   8%|▊         | 121/1436 [00:08<00:50, 25.85it/s]
+[1ALoading weights:   9%|▉         | 126/1436 [00:08<01:06, 19.70it/s]
+[1ALoading weights:   9%|▉         | 132/1436 [00:08<00:53, 24.50it/s]
+[1ALoading weights:   9%|▉         | 136/1436 [00:08<00:49, 26.17it/s]
+[1ALoading weights:  10%|▉         | 140/1436 [00:09<01:01, 21.00it/s]
+[1ALoading weights:  10%|█         | 145/1436 [00:09<00:51, 25.31it/s]
+[1ALoading weights:  10%|█         | 149/1436 [00:09<00:59, 21.78it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:09<01:00, 21.09it/s]
+[1ALoading weights:  11%|█         | 157/1436 [00:09<01:01, 20.88it/s]
+[1ALoading weights:  11%|█         | 161/1436 [00:09<00:56, 22.69it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:10<00:55, 22.93it/s]
+[1ALoading weights:  12%|█▏        | 169/1436 [00:10<00:56, 22.23it/s]
+[1ALoading weights:  12%|█▏        | 173/1436 [00:10<00:51, 24.36it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:10<00:53, 23.47it/s]
+[1ALoading weights:  13%|█▎        | 182/1436 [00:10<00:52, 23.74it/s]
+[1ALoading weights:  13%|█▎        | 185/1436 [00:10<00:51, 24.44it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:11<00:52, 23.59it/s]
+[1ALoading weights:  13%|█▎        | 193/1436 [00:11<00:42, 29.23it/s]
+[1ALoading weights:  14%|█▎        | 197/1436 [00:11<01:04, 19.07it/s]
+[1ALoading weights:  14%|█▍        | 202/1436 [00:11<00:51, 23.91it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:11<00:41, 29.25it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:12<00:55, 21.86it/s]
+[1ALoading weights:  15%|█▌        | 217/1436 [00:12<00:46, 25.97it/s]
+[1ALoading weights:  15%|█▌        | 221/1436 [00:12<00:52, 22.96it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:12<00:56, 21.47it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:12<00:43, 27.70it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:13<00:55, 21.70it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:13<00:45, 26.29it/s]
+[1ALoading weights:  17%|█▋        | 247/1436 [00:13<00:58, 20.44it/s]
+[1ALoading weights:  18%|█▊        | 254/1436 [00:13<00:43, 26.88it/s]
+[1ALoading weights:  18%|█▊        | 258/1436 [00:14<01:01, 19.03it/s]
+[1ALoading weights:  19%|█▊        | 266/1436 [00:14<00:42, 27.41it/s]
+[1ALoading weights:  19%|█▉        | 271/1436 [00:14<00:55, 21.00it/s]
+[1ALoading weights:  19%|█▉        | 277/1436 [00:14<00:44, 26.13it/s]
+[1ALoading weights:  20%|█▉        | 282/1436 [00:15<00:58, 19.85it/s]
+[1ALoading weights:  20%|██        | 289/1436 [00:15<00:50, 22.62it/s]
+[1ALoading weights:  20%|██        | 293/1436 [00:15<00:47, 24.09it/s]
+[1ALoading weights:  21%|██        | 297/1436 [00:15<00:48, 23.66it/s]
+[1ALoading weights:  21%|██        | 302/1436 [00:15<00:47, 23.81it/s]
+[1ALoading weights:  21%|██        | 305/1436 [00:16<00:47, 23.91it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:16<00:49, 22.61it/s]
+[1ALoading weights:  22%|██▏       | 314/1436 [00:16<00:46, 24.08it/s]
+[1ALoading weights:  22%|██▏       | 317/1436 [00:16<00:57, 19.53it/s]
+[1ALoading weights:  23%|██▎       | 325/1436 [00:16<00:38, 28.68it/s]
+[1ALoading weights:  23%|██▎       | 329/1436 [00:17<00:46, 23.92it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:17<00:49, 22.14it/s]
+[1ALoading weights:  24%|██▎       | 338/1436 [00:17<00:44, 24.58it/s]
+[1ALoading weights:  24%|██▎       | 341/1436 [00:17<00:44, 24.42it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:17<00:48, 22.48it/s]
+[1ALoading weights:  24%|██▍       | 350/1436 [00:17<00:36, 29.90it/s]
+[1ALoading weights:  25%|██▍       | 354/1436 [00:18<00:53, 20.41it/s]
+[1ALoading weights:  25%|██▌       | 361/1436 [00:18<00:38, 28.12it/s]
+[1ALoading weights:  25%|██▌       | 365/1436 [00:18<00:46, 23.24it/s]
+[1ALoading weights:  26%|██▌       | 369/1436 [00:18<00:47, 22.55it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:18<00:40, 26.38it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:19<00:49, 21.41it/s]
+[1ALoading weights:  27%|██▋       | 385/1436 [00:19<00:50, 21.01it/s]
+[1ALoading weights:  27%|██▋       | 389/1436 [00:19<00:44, 23.60it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:19<00:47, 21.78it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:19<00:36, 28.06it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:20<00:47, 21.71it/s]
+[1ALoading weights:  29%|██▊       | 411/1436 [00:20<00:35, 29.26it/s]
+[1ALoading weights:  29%|██▉       | 415/1436 [00:20<00:50, 20.26it/s]
+[1ALoading weights:  29%|██▉       | 418/1436 [00:20<00:47, 21.58it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:20<00:36, 27.51it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:21<00:47, 21.25it/s]
+[1ALoading weights:  30%|███       | 435/1436 [00:21<00:34, 28.78it/s]
+[1ALoading weights:  31%|███       | 439/1436 [00:21<00:50, 19.61it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:21<00:37, 26.43it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:22<00:45, 21.86it/s]
+[1ALoading weights:  32%|███▏      | 455/1436 [00:22<00:43, 22.51it/s]
+[1ALoading weights:  32%|███▏      | 461/1436 [00:22<00:41, 23.36it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:22<00:45, 21.43it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:23<00:36, 26.71it/s]
+[1ALoading weights:  33%|███▎      | 475/1436 [00:23<00:47, 20.13it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:23<00:35, 26.92it/s]
+[1ALoading weights:  34%|███▍      | 487/1436 [00:23<00:45, 20.81it/s]
+[1ALoading weights:  34%|███▍      | 493/1436 [00:23<00:35, 26.55it/s]
+[1ALoading weights:  35%|███▍      | 497/1436 [00:24<00:41, 22.87it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:24<00:43, 21.48it/s]
+[1ALoading weights:  35%|███▌      | 506/1436 [00:24<00:33, 27.78it/s]
+[1ALoading weights:  36%|███▌      | 510/1436 [00:24<00:46, 20.01it/s]
+[1ALoading weights:  36%|███▌      | 517/1436 [00:24<00:35, 26.16it/s]
+[1ALoading weights:  36%|███▋      | 521/1436 [00:25<00:47, 19.23it/s]
+[1ALoading weights:  37%|███▋      | 526/1436 [00:25<00:40, 22.29it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:25<00:31, 28.32it/s]
+[1ALoading weights:  37%|███▋      | 536/1436 [00:25<00:40, 22.22it/s]
+[1ALoading weights:  38%|███▊      | 543/1436 [00:26<00:30, 29.12it/s]
+[1ALoading weights:  38%|███▊      | 547/1436 [00:26<00:42, 20.80it/s]
+[1ALoading weights:  39%|███▊      | 554/1436 [00:26<00:31, 27.98it/s]
+[1ALoading weights:  39%|███▉      | 559/1436 [00:26<00:41, 20.94it/s]
+[1ALoading weights:  39%|███▉      | 563/1436 [00:27<00:38, 22.65it/s]
+[1ALoading weights:  40%|███▉      | 569/1436 [00:27<00:45, 19.24it/s]
+[1ALoading weights:  40%|████      | 578/1436 [00:27<00:30, 28.42it/s]
+[1ALoading weights:  41%|████      | 583/1436 [00:27<00:38, 21.93it/s]
+[1ALoading weights:  41%|████      | 589/1436 [00:28<00:36, 23.00it/s]
+[1ALoading weights:  41%|████▏     | 593/1436 [00:28<00:34, 24.79it/s]
+[1ALoading weights:  42%|████▏     | 597/1436 [00:28<00:35, 23.78it/s]
+[1ALoading weights:  42%|████▏     | 603/1436 [00:28<00:27, 29.92it/s]
+[1ALoading weights:  42%|████▏     | 607/1436 [00:28<00:40, 20.40it/s]
+[1ALoading weights:  43%|████▎     | 613/1436 [00:29<00:31, 26.38it/s]
+[1ALoading weights:  43%|████▎     | 617/1436 [00:29<00:44, 18.34it/s]
+[1ALoading weights:  44%|████▍     | 629/1436 [00:29<00:24, 32.33it/s]
+[1ALoading weights:  46%|████▌     | 658/1436 [00:29<00:10, 73.56it/s]
+[1ALoading weights:  48%|████▊     | 690/1436 [00:29<00:06, 113.00it/s]
+[1ALoading weights:  50%|█████     | 722/1436 [00:29<00:04, 152.99it/s]
+[1ALoading weights:  53%|█████▎    | 762/1436 [00:30<00:03, 202.59it/s]
+[1ALoading weights:  56%|█████▌    | 800/1436 [00:30<00:02, 242.03it/s]
+[1ALoading weights:  59%|█████▊    | 842/1436 [00:30<00:02, 283.89it/s]
+[1ALoading weights:  61%|██████    | 876/1436 [00:30<00:01, 294.57it/s]
+[1ALoading weights:  64%|██████▎   | 912/1436 [00:30<00:01, 309.51it/s]
+[1ALoading weights:  66%|██████▋   | 954/1436 [00:30<00:01, 330.05it/s]
+[1ALoading weights:  69%|██████▉   | 994/1436 [00:30<00:01, 336.45it/s]
+[1ALoading weights:  72%|███████▏  | 1029/1436 [00:30<00:01, 334.27it/s]
+[1ALoading weights:  74%|███████▍  | 1067/1436 [00:30<00:01, 341.23it/s]
+[1ALoading weights:  78%|███████▊  | 1116/1436 [00:30<00:00, 373.05it/s]
+[1ALoading weights:  80%|████████  | 1154/1436 [00:31<00:00, 359.76it/s]
+[1ALoading weights:  83%|████████▎ | 1191/1436 [00:31<00:00, 351.56it/s]
+[1ALoading weights:  86%|████████▌ | 1228/1436 [00:31<00:00, 355.47it/s]
+[1ALoading weights:  89%|████████▊ | 1272/1436 [00:31<00:00, 379.24it/s]
+[1ALoading weights:  91%|█████████▏| 1311/1436 [00:31<00:00, 364.85it/s]
+[1ALoading weights:  94%|█████████▍| 1348/1436 [00:31<00:00, 351.99it/s]
+[1ALoading weights:  97%|█████████▋| 1388/1436 [00:31<00:00, 358.81it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:31<00:00, 45.09it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## PLAN_SEGUIMIENTO
+Perfecto. Aquí tienes un plan concreto, sin inventar datos, usando solo lo que me diste.
+
+# 1) ORDEN DE ATAQUE
+
+1. **CASER EMPEÑOS (Pachuca)** — Prioridad 1. Tiene muestra v2 con su local real, está activo y contestando. Solo faltan dos confirmaciones pequeñas (sábados y autorización de teléfono). Probabilidad de cierre alta y esfuerzo bajo.
+2. **JARDÍN DE EVENTOS (Homau)** — Prioridad 2. Muestra hecha, calificación actual 4/10 y proyectada 8.5. Dolor claro y mejora grande por mostrar. Falta cerrar con fecha y alcance.
+3. **REFRIS CDMX (SERTEC)** — Prioridad 3. Dos muestras hechas, sin calificar. Está caliente pero sin ancla numérica. Hay que calificar y anclar valor rápido.
+4. **PACHUCA (flyer)** — Prioridad 4. Flyer actual 3/10, proyectada 8. Dolor visible y ganancia clara. No hay muestra aún, pero el anzuelo es fuerte. Ideal para muestra rápida y cierre.
+5. **PLEIADIAN BREWING** — Prioridad 5. Tenemos datos y fotos de Instagram. Negocio local con horarios definidos. Buen candidato para muestra rápida y cierre por temporada.
+6. **SANICK (consultorio médico)** — Prioridad 6. Tenemos fotos y referencia, pero sin muestra y sector regulado. Requiere cuidado de redacción y activos. Se deja después de los anteriores.
+
+# 2) MENSAJE EXACTO PARA CADA UNO (listo para pegar)
+
+**CASER EMPEÑOS**  
+Buen día. Quedó lista la v2 con su local real. Para dejarla lista para publicar solo necesito confirmar si abre sábados y su autorización para mostrar teléfono. Con eso le dejo el anuncio en 8/10 y lo programamos. ¿Me confirma esos dos puntos hoy?
+
+**JARDÍN DE EVENTOS (Homau)**  
+Buen día. Su muestra pasó de 4/10 a 8.5/10 en la proyección. Le puedo dejar el anuncio final con ese nivel y arrancar pauta a WhatsApp cuando usted decida. ¿Le parece que lo dejamos en 8/10 y definimos fecha de inicio?
+
+**REFRIS CDMX (SERTEC)**  
+Buen día. Ya revisé sus dos muestras. Hoy les pongo calificación y le muestro la versión a 8/10 con su marca. Así ve el antes y después con números. ¿Le envío la calificación y la propuesta cerrada?
+
+**PACHUCA (flyer)**  
+Buen día. Su flyer actual está en 3/10 y se puede llevar a 8/10. Le preparo una muestra gratis con su oferta y su imagen real para que compare. Si le gusta, arrancamos. ¿Le armo la muestra?
+
+**PLEIADIAN BREWING**  
+Buen día. Vi sus horarios mar–sáb 5pm–12am y su material de Instagram. Le armo una muestra gratis de anuncio a 8/10 para atraer visitas en semana y fines. ¿Le preparo la muestra con su logo y fotos reales?
+
+**SANICK**  
+No escribir todavía. Antes hay que preparar una muestra pequeña con redacción apta para salud y sin promesas médicas, usando sus fotos y referencia. Con eso sí se escribe.
+
+# 3) EL RITMO Y SECUENCIA DE TOQUES
+
+Regla base: 3 toques en 10 días hábiles y luego pausa.
+
+- Día 0: mensaje de valor con propuesta clara y pregunta cerrada.
+- Día +3 hábiles si no responde: aporte nuevo, no repetir. Ejemplo: dato de mejora, mini antes/después, o pregunta de preferencia.
+- Día +7 hábiles si no responde: último toque con salida elegante y puerta abierta.
+- Día +10 hábiles sin respuesta: se pausa y se mueve al tablero frío.
+
+Qué cambia en cada toque:
+
+1. Toque 1: propuesta + pedido concreto.
+2. Toque 2: prueba social breve (solo números que me diste) + opción A/B.
+3. Toque 3: permiso para pausar y dejar material listo.
+
+Fines de semana no se cuenta como hábiles. Si el prospecto responde en cualquier momento, se reinicia la secuencia a partir de su última respuesta.
+
+# 4) LA PALANCA QUE MÁS CIERRA Y CÓMO USARLA
+
+- **La que más cierra:** la muestra gratis con calificación actual vs proyectada a 8/10. Es tangible, reduce riesgo y muestra diferencia.
+- **Lo que estamos usando mal:** soltar precio o resultados de $1.39 y $2.87 antes de que el prospecto vea su propia muestra con nota. Eso enfría.
+
+Orden correcto en la conversación:
+
+1. Muestra gratis + calificación actual y proyectada.
+2. Validación rápida del prospecto (autorizaciones, horarios, teléfono).
+3. Resultados reales como refuerzo después de que pide costos: “En casos similares hemos llegado a $1.39 por mensaje en limpieza y $2.87 en impermeabilización”.
+4. Precio y arranque solo al final, cuando ya dijo “sí” a la muestra y al nivel 8/10.
+
+# 5) LOS QUE NO TIENEN MUESTRA (13 de 16)
+
+Escribir primero para los que tienen dolor claro y activos suficientes. Hacer muestra inmediata solo cuando:
+
+- El prospecto responde interés, o
+- Tienes activos mínimos (logo/fotos/horarios/oferta) y el dolor es evidente (como PACHUCA flyer 3/10).
+
+Para los 10 del tablero con 5 a 6/10 y sin muestra nueva, mejor un mensaje corto pidiendo 1 activo clave y confirmando interés antes de gastar tiempo de producción. Así evitas trabajar gratis para quien no compra.
+
+# 6) CÓMO NO QUEMARLOS
+
+Errores que queman:
+
+- Repetir el mismo mensaje con otras palabras.
+- Pedir decisiones grandes sin antes mostrar la muestra.
+- Hablar de precio antes de valor percibido.
+- Mensajes largos y sin pregunta cerrada.
+- Escribir en fines de semana o fuera de horario laboral del negocio.
+
+Señales para soltar:
+
+- Tres toques sin respuesta en 10 días hábiles.
+- Respuestas evasivas recurrentes sin avanzar en autorizaciones.
+- Pide descuento antes de ver muestra.
+- Desaparece después de pedirle un dato simple dos veces.
+
+Si ves dos de esas señales, pausa y regresa en 3 semanas con un nuevo activo o temporada.
+
+¿Quieres que te deje también los textos exactos del toque 2 y toque 3 para cada uno de los 6?
+Stopping app - local entrypoint completed.
+[modal-client] 2026-11-05T19:45:02+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-zBj2uQTIvT2vaUWWmFcMpp
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/seguimiento_prospectos_20261105/lote.json --tokens 4500
+Duración: 3.3 min  (código 0)
+  glimmer (ap-kWT0fhFAJrFzrXM01SS7f5): $0.060
+  glimmer (ap-zBj2uQTIvT2vaUWWmFcMpp): $0.131
+Gasto del trabajo: $0.191
+Saldo restante ≈ $-11.62

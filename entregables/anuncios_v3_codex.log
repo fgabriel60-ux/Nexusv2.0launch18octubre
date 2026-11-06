@@ -1,0 +1,1883 @@
+Reading additional input from stdin...
+OpenAI Codex v0.166.0
+--------
+workdir: /workspaces/Nexusv2.0launch18octubre
+model: gpt-6.1-sol
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: low
+reasoning summaries: none
+session id: 01a1ad72-5216-7361-bc22-8467227fec3b
+--------
+user
+Rehaz 8 anuncios de imagen aplicando una guía de diseño que acabamos de recibir. Trabaja dentro de
+/workspaces/Nexusv2.0launch18octubre.
+
+PRIMERO LEE ESTOS TRES ARCHIVOS, son la base del trabajo:
+1. entregables/glimmer_manual_ia_20261105/MANUAL_IA_Y_DISENO.md
+   Es la guía. Te importan la PARTE 2 (cómo deben verse las personas hechas con IA) y la PARTE 3
+   (composición, tipografía, jerarquía y los errores que bajan la calificación). Síguela al pie.
+2. entregables/glimmer_imagenes_20261104/prioridad/Mariano.md
+3. entregables/glimmer_imagenes_20261104/prioridad/Rafael.md
+   De ahí sacas los ángulos de venta y los textos. No inventes precios, datos ni resultados: si
+   un dato falta, deja el anuncio sin ese dato en vez de inventarlo.
+
+LOS ANUNCIOS QUE HAY HOY (míralos, son los que hay que superar):
+  entregables/anuncios_imagen_20261104/anuncios_v2/MARIANO_A1_tres_casas.jpg
+  entregables/anuncios_imagen_20261104/anuncios_v2/MARIANO_A2_recorrido.jpg
+  entregables/anuncios_imagen_20261104/anuncios_v2/MARIANO_B1_benjamina_precio.jpg
+  entregables/anuncios_imagen_20261104/anuncios_v2/MARIANO_B2_cita.jpg
+  entregables/anuncios_imagen_20261104/anuncios_v2/RAFAEL_1A_prueba_manejo.jpg
+  entregables/anuncios_imagen_20261104/anuncios_v2/RAFAEL_1B_subete.jpg
+  entregables/anuncios_imagen_20261104/anuncios_v2/RAFAEL_2A_asesor.jpg
+  entregables/anuncios_imagen_20261104/anuncios_v2/RAFAEL_2B_whatsapp.jpg
+
+FOTOS REALES que debes usar para que sean ELLOS y no otra persona:
+  Mariano: clientes/Mariano/fotos/mariano_luz_final.png
+           casas: clientes/Mariano/anuncios/refs/benjamina_fachada.jpg
+                  clientes/Mariano/anuncios/refs/salvia_fachada.jpg
+                  clientes/Mariano/anuncios/refs/bugambilia_calle.jpg
+  Rafael:  clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg  (su polo real)
+           clientes/Rafael_BYD/refs/rafael_cara.jpg
+           auto: clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg
+
+GUARDA LOS NUEVOS AQUÍ, con estos nombres:
+  entregables/anuncios_imagen_20261104/v3_glimmer/MARIANO_v3_A1.png
+  entregables/anuncios_imagen_20261104/v3_glimmer/MARIANO_v3_A2.png
+  entregables/anuncios_imagen_20261104/v3_glimmer/MARIANO_v3_B1.png
+  entregables/anuncios_imagen_20261104/v3_glimmer/MARIANO_v3_B2.png
+  entregables/anuncios_imagen_20261104/v3_glimmer/RAFAEL_v3_1A.png
+  entregables/anuncios_imagen_20261104/v3_glimmer/RAFAEL_v3_1B.png
+  entregables/anuncios_imagen_20261104/v3_glimmer/RAFAEL_v3_2A.png
+  entregables/anuncios_imagen_20261104/v3_glimmer/RAFAEL_v3_2B.png
+
+LO QUE LA GUÍA EXIGE Y HOY NO SE ESTÁ CUMPLIENDO, aplícalo en los ocho:
+- Formato vertical 4:5, 1080x1350.
+- Arriba, en el 10% de la imagen: nombre del negocio y ciudad, chiquito y discreto.
+- El titular va en la zona media-baja, MÁXIMO 6 a 8 palabras, en negritas y grande (72 a 96 px).
+- Una sola línea de apoyo, máximo 10 palabras (36 a 44 px).
+- Máximo 3 viñetas, cortas, con palomita (28 a 32 px).
+- Botón verde de WhatsApp en la banda inferior, con 8 a 10% de margen abajo.
+- El texto no debe cubrir más del 40% de la imagen.
+- Máximo 3 colores: uno de la marca, uno de acento y neutros. El verde solo para el botón.
+- Contraste alto: texto blanco sobre fondo oscuro, o negro sobre claro. Nada de letra delgada ni
+  degradados en el texto.
+- El orden de lectura tiene que ser: marca → titular → precio o prueba → viñetas → botón.
+- Nada importante pegado a los bordes, se corta en el feed.
+- Las personas tienen que verse reales: piel con textura, manos correctas o escondidas, ropa con
+  arrugas, sombras en una sola dirección. Nada de piel de plástico ni sonrisa de catálogo.
+- El texto perfectamente escrito en español, con acentos, sin letras inventadas.
+- Sin logotipos de marcas que no sean del cliente.
+
+Cuando termines, dime qué quedó en cada ruta y, en dos renglones por anuncio, qué cambiaste
+respecto al de la versión anterior.
+codex
+Voy a leer la guía, los textos y las notas de contexto; después revisaré los anuncios actuales y las fotos reales para rehacer los ocho.
+
+exec
+/bin/bash -lc 'cat entregables/glimmer_manual_ia_20261105/MANUAL_IA_Y_DISENO.md entregables/glimmer_imagenes_20261104/prioridad/Mariano.md entregables/glimmer_imagenes_20261104/prioridad/Rafael.md' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+**PARTE 1 — LA IMAGEN DE LA MUJER EN EL TAXI**
+
+**1. Calificación por rubro y qué le falta para 10/10**
+
+* **Relevancia / Promesa clara:** 8/10. “SABES QUIÉN TE LLEVA / Ruta y chofer en tiempo real” es claro. Le falta anclar la promesa a Nogales y a la instalación por WhatsApp en el mismo golpe visual.
+* **Prueba / Credibilidad:** 7/10. Mapa en vivo en el móvil ayuda, pero no hay precio visible, ni sello de “precio fijo”, ni primer viaje. Sin prueba tangible de precio/seguridad.
+* **Diferenciación vs competencia:** 7/10. “Ves al chofer y al taxi en vivo” diferencia, pero no se contrasta con taxis de sitio/Uber/Didi ni con el miedo nocturno.
+* **Claridad de oferta / CTA:** 7/10. CTA “Pide tu taxi por WhatsApp” está bien, pero no se entiende en 1 segundo que la app se instala desde el navegador/WhatsApp sin tienda.
+* **Diseño / Legibilidad móvil:** 8/10. Jerarquía correcta, contraste suficiente. El texto inferior ocupa mucho y el logo de WhatsApp compite con el titular.
+* **Calidad de imagen / Realismo:** 6/10. Persona con IA: piel muy lisa, reflejos de ventana poco creíbles, manos y correa con pequeñas incoherencias. Fondo nocturno con bokeh exagerado.
+* **TOTAL: 7.2/10**
+
+Para llegar a **10/10** le falta exactamente:
+
+* Mostrar **precio fijo visible** en el mismo frame o en el primer segundo del video.
+* **Primer viaje con beneficio** visible: “Primer viaje $60” o “Prueba sin riesgo”.
+* **Botón de emergencia** como ícono visible y texto corto: “Botón de pánico”.
+* **Explicar en 3 palabras** que se instala por WhatsApp sin tienda: “Se instala por WhatsApp” + microcopy “Sin App Store/Play Store”.
+* **Prueba local**: sello “Nogales, Sonora” + elemento reconocible de la ciudad en el fondo, no genérico.
+* **Realismo de la persona**: piel, manos, reflejos y proporciones corregidos para que no se lea como IA.
+* **Menos texto en bloque**, más iconos. Máximo 12 palabras en titular, 6 en sub.
+
+**2. Guion de video 15-20s a partir de esa imagen**
+
+**Primeros 3 segundos — detalle**
+
+* **0:00-0:03**  
+  *Visual:* Primer plano del móvil en mano de la mujer dentro del taxi nocturno. En pantalla se ve el mapa con el auto en movimiento y el pin de destino. Luz cálida del interior. Corte rápido a rostro tranquilo de la mujer mirando la ruta.  
+  *Voz:* “En Nogales, sabes quién te lleva.”  
+  *Texto en pantalla:* “SABES QUIÉN TE LLEVA” grande, abajo en pequeño “Amy VIP Taxi • Nogales”.
+
+* **0:03-0:07**  
+  *Visual:* Plano medio de la mujer con cinturón, sonríe levemente. Sobreimpresión del mapa con línea azul y el ícono del taxi moviéndose.  
+  *Voz:* “Con Amy VIP ves la ruta y al chofer en tiempo real.”  
+  *Texto:* “Ruta y chofer en vivo”.
+
+* **0:07-0:11**  
+  *Visual:* Corte a detalle del móvil: aparece la ficha del chofer con foto, nombre y calificación. Luego ícono de botón rojo de emergencia.  
+  *Voz:* “Tienes datos del conductor y botón de emergencia.”  
+  *Texto:* “Chofer verificado • Botón de pánico”.
+
+* **0:11-0:15**  
+  *Visual:* Pantalla del móvil muestra precio fijo $80 y “Primer viaje $60”. Mano toca “Confirmar”.  
+  *Voz:* “Precio fijo por zona. Primer viaje desde $60.”  
+  *Texto:* “Precio fijo antes de pedir • Primer viaje $60”.
+
+* **0:15-0:18**  
+  *Visual:* Plano amplio del interior del taxi, calle de Nogales de noche por la ventana. Logo de WhatsApp aparece.  
+  *Voz:* “Se instala por WhatsApp, sin tienda de apps.”  
+  *Texto:* “Se instala por WhatsApp”.
+
+* **0:18-0:20**  
+  *Visual:* CTA verde fijo en parte baja.  
+  *Voz:* “Pide tu taxi por WhatsApp, Amy VIP Taxi Nogales.”  
+  *Texto:* “Pide tu taxi por WhatsApp”.
+
+**3. Qué cambiar en la imagen para que aguante el video sin deformarse**
+
+* **Encuadre:** Deja margen superior e inferior. La mujer debe estar centrada en tercio izquierdo, mirando hacia el centro para permitir push-in suave. Evita recorte de cabeza/hombros.
+* **Pose:** Manos visibles pero simples: sostiene el móvil con ambas manos o apoya el codo. Evita dedos cruzados. Cinturón visible pero sin tensar la tela de forma antinatural.
+* **Luz:** Luz práctica del tablero + luz de calle entrando por ventana. Evita brillos especulares en cara y pantalla. Mantén exposición uniforme para que no parpadee al animar.
+* **Fondo:** Ventana con bokeh controlado, sin peatones que se muevan mucho. Si hay gente afuera, que esté desenfocada y estática.
+* **Taxis/objetos:** No hay taxis detrás en esta imagen; el fondo es calle nocturna. Mantén el auto interior estático, sin reflejos móviles que rompan la coherencia.
+* **Área segura:** Deja banda inferior libre para textos/CTA. No pongas elementos importantes a menos de 10% de los bordes.
+
+---
+
+**PARTE 2 — PERSONAS HECHAS CON IA, MANUAL OPERATIVO**
+
+**4. Qué hace que una persona IA se vea REAL y no falsa**
+
+* **Piel:** Pide “piel con poros visibles, textura natural, micro imperfecciones sutiles, sub-surface scattering”. Evita “piel perfecta, porcelana, sin poros, ultra smooth”.
+* **Ojos:** “Iris con detalle, reflejo corneal pequeño y natural, párpados con arrugas finas, pestañas irregulares”. Evita “ojos grandes simétricos, mirada vacía, brillo plástico”.
+* **Dientes / boca:** Si se ve boca, “dientes con pequeñas variaciones de tono, encías naturales”. Evita sonrisa perfecta de anuncio dental.
+* **Pelo:** “Fibras individuales visibles, mechones con dirección natural, raíces con variación de tono”. Evita pelo con volumen perfecto y sin flyaways.
+* **Manos:** “Proporciones anatómicas correctas, uñas cortas naturales, venas sutiles, piel con arrugas”. Evita manos con 6 dedos, uñas enormes, piel de plástico.
+* **Proporciones cuerpo:** “Proporciones humanas reales, hombros- cintura-cadera coherentes”. Evita cuello largo, torso estirado.
+* **Ropa:** “Tela con arrugas naturales, pliegues coherentes con gravedad, costuras visibles”. Evita ropa sin pliegues o con patrones que se rompen.
+* **Sombras:** “Sombras suaves y dirección de luz coherente, oclusión de contacto”. Evita sombras flotantes o múltiples direcciones de luz.
+* **Imperfecciones:** Añade “ligera asimetría facial, expresión relajada no forzada”.
+
+Prompt útil: “fotografía realista, 35mm, luz natural, piel con textura, imperfecciones sutiles, manos anatómicas correctas, ropa con arrugas naturales, sombras coherentes”.
+
+**5. Poses y encuadres que SIEMPRE fallan y reemplazo**
+
+* **Manos a la vista:** Fallan por dedos extra/faltantes. Reemplazo: manos parcialmente ocultas, sosteniendo objeto grande, o vista de muñeca hacia arriba.
+* **Caminar / piernas en movimiento:** Se rompe en video. Reemplazo: persona parada, sentada, o caminata congelada en 1 frame con cámara estática.
+* **Objetos delgados juntos:** Lentes, barandas, ramas se fusionan. Reemplazo: aumenta separación, desenfoque selectivo, o elimina uno de los elementos.
+* **Mirada directa a cámara con ojos muy abiertos:** Se ve falso. Reemplazo: mirada en 3/4, dirección de mirada ligeramente fuera de cámara.
+* **Primeros planos extremos de cara:** Revela artefactos. Reemplazo: plano medio, foco en acción con móvil.
+* **Extremidades al borde del frame:** Se cortan mal. Reemplazo: deja margen de seguridad 10%.
+* **Expresiones exageradas:** Sonrisa perfecta, cejas simétricas. Reemplazo: microexpresión relajada.
+
+**6. Qué aguanta bien el paso a video y qué se cae**
+
+* **Aguanta:** Push-in lento, paneo suave, parallax de capas, parpadeo sutil, movimiento de tela leve, reflejos en pantalla con animación de UI.
+* **Se cae:** Cambios rápidos de pose, gestos de manos, cabello que fluye, gente caminando en fondo, texto dentro de la escena que se deforma, luces intermitentes fuertes, humo/niebla densa.
+* **Fondos:** Con mucha gente en movimiento se cae. Usa fondo desenfocado o estático.
+* **Texto en escena:** No renderices texto dentro de la imagen IA; añádelo en post.
+
+**7. Mantener la misma persona en varias escenas**
+
+* Usa **seed fijo** + descripción base idéntica de rasgos: edad aproximada, tono de piel, color de ojos, corte de pelo, accesorios.
+* Mantén **misma iluminación** y **misma cámara** descrita en prompt.
+* Genera todas las variantes en un mismo lote con prompt base + acción específica.
+* Referencia visual: guarda una imagen base y usa “same person as reference, consistent facial features”.
+
+**8. Errores que delatan IA a primera vista**
+
+* Manos irreales, dedos extra o fusionados.
+* Ojos sin reflejo o con reflejo duplicado.
+* Piel plástica, sin poros, con halo de suavizado.
+* Pelo con “aura” brillante y sin mechones sueltos.
+* Ropa sin arrugas o con patrones que se rompen en pliegues.
+* Sombras en dirección contradictoria.
+* Dientes perfectos y simétricos.
+* Proporciones faciales desalineadas, nariz/mentón flotando.
+* Fondo con geometría imposible, ventanas que no cuadran.
+
+---
+
+**PARTE 3 — DISEÑO PUBLICITARIO PARA NEGOCIO LOCAL MEXICANO**
+
+**9. Composición de anuncio de imagen que vende**
+
+* **Arriba 10%:** Logo/marca pequeño + localización “Amy VIP Taxi • Nogales”.
+* **Centro 60%:** Visual principal con persona/escena. Deja espacio negativo a un lado para texto.
+* **Titular:** En zona media-baja, máximo 6-8 palabras, grande y en negrita.
+* **Sub:** 1 línea, máximo 10 palabras.
+* **Precio:** Cercano al titular, en número grande. Ej. “Ciudad $80 • Locales desde $60”.
+* **Bullets:** Máximo 3, con iconos verdes, texto corto.
+* **CTA:** Banda inferior fija, botón verde con texto de acción. Deja margen inferior 8-10%.
+* **Espacio libre:** No cubras más del 40% del área con texto. Respeta márgenes.
+
+**10. Tipografía y color**
+
+* **Tipografía:** Sans grotesk legible en móvil. Tamaños: Titular 72-96px en 1080x1350, sub 36-44px, bullets 28-32px.
+* **Contraste:** Relación mínimo 4.5:1. Fondo oscuro = texto blanco; fondo claro = texto negro/azul marino.
+* **Colores:** 1 color de marca + 1 de acento + neutros. Verde WhatsApp para CTA, evita más de 3 colores.
+* **No se lee:** Fuentes delgadas, sombras múltiples, degradados en texto, colores pastel sobre fondo claro.
+
+**11. Jerarquía visual**
+
+Orden de lectura: **Marca → Promesa/Titular → Prueba/Precio → Beneficios con checks → CTA**.
+Se logra con: tamaño descendente, peso negrita para titular, color de acento solo en CTA y checks, posición en “Z” o “F” según layout.
+
+**12. Errores de diseño que más bajan calificación**
+
+1. Texto excesivo / bloque denso.
+2. Falta de contraste, texto ilegible en móvil.
+3. CTA poco visible o con texto genérico.
+4. Sin precio o promesa clara en el primer vistazo.
+5. Imagen con persona IA poco creíble.
+6. Más de 4 colores y tipografías mixtas.
+7. Elementos importantes en bordes, se cortan en feed.
+8. No se entiende la oferta en 2 segundos.
+
+**13. Imagen vs primer frame de video**
+
+* **Imagen:** Puede ser más estática, texto completo permitido, composición simétrica.
+* **Primer frame de video:** Debe funcionar sin texto superpuesto pesado; la historia empieza en movimiento. Texto mínimo, solo titular corto. Deja espacio para que el motion no tape elementos clave. El primer frame debe prometer lo que el video cumple en 3s. Evita texto pequeño que no se lea al reproducir sin sonido.
+
+¿Quieres que te entregue el prompt exacto para regenerar la foto de la mujer con correcciones de realismo y encuadre seguro para video, y el texto final optimizado para el creativo?
+# Mariano · 2 ángulos + static ads + guion (Glimmer, 4 nov 2026)
+
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo A — “Recorrido real de las 3 casas”
+- A quién le habla y qué le duele: Familias que buscan casa propia en Rosarito y les duele no saber qué hay de verdad en Vizcaíno Residencial y comparar opciones rápido.
+- Promesa concreta con dato real: Ver en un solo video las 3 casas que Mariano muestra: Bugambilia, Benjamina y Salvia, con acceso controlado, plaza comercial, pádel y área de juegos.
+- Por qué baja el costo por mensaje en su giro: Es contenido de valor que el algoritmo de Meta premia; atrae tráfico calificado y luego convierte a WhatsApp.
+- Prueba real que lo respalda: Videos reales de Bugambilia, Benjamina y Salvia grabados por Mariano. [FALTA: fotos/vídeo del acceso controlado, plaza comercial, pádel y área de juegos para mostrarlos en el anuncio]
+
+Ángulo B — “Precio de entrada real en Benjamina”
+- A quién le habla y qué le duele: Compradores primerizos en Rosarito que necesitan un precio de entrada claro y verificable.
+- Promesa concreta con dato real: Benjamina desde 2.8M.
+- Por qué baja el costo por mensaje en su giro: Oferta clara y específica reduce curiosidad y sube intención de compra; el mensaje llega a quien puede decidir.
+- Prueba real que lo respalda: Flyer de Benjamina que Mariano ya tiene. [FALTA: confirmación por escrito de que 2.8M es precio vigente de preventa/venta y condiciones; foto real del frente de Benjamina sin texto para animar]
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio 1 — Ángulo A
+- Qué se ve y de dónde sale la foto: Collage con 3 fotos reales de Mariano: Bugambilia, Benjamina y Salvia. Generado con Qwen a partir de sus fotos reales, fondo limpio, sin texto incrustado.
+- Titular en pantalla: “3 casas en Vizcaíno”
+- Línea de apoyo: “Bugambilia · Benjamina · Salvia”
+- Formato: 4:5. Botón de WhatsApp abajo a la derecha.
+- Texto primario: “Recorre las 3 casas de Vizcaíno Residencial con Mariano. Acceso controlado, plaza comercial, pádel y área de juegos. Escríbeme por WhatsApp.”
+- Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 8/10. Le falta para 10: foto real del acceso controlado, plaza comercial, pádel y área de juegos para usar como prueba visual.
+
+Anuncio 2 — Ángulo B
+- Qué se ve y de dónde sale la foto: Foto real del frente de Benjamina sin texto, recortada sobre color. Generada con Qwen a partir del flyer de Benjamina que Mariano ya tiene.
+- Titular en pantalla: “Benjamina desde 2.8M”
+- Línea de apoyo: “Vizcaíno Residencial, Rosarito”
+- Formato: 4:5. Botón de WhatsApp abajo a la derecha.
+- Texto primario: “Benjamina en Vizcaíno Residencial desde 2.8M. Información real con Mariano. Escríbeme por WhatsApp.”
+- Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: confirmación escrita de precio vigente y condiciones; foto real exterior de Benjamina sin texto.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Ángulo A)
+
+- “Hola, soy Mariano en Vizcaíno Residencial.” → De pie frente a la entrada del residencial. Se ve la calle y letrero del fraccionamiento atrás. Celular vertical a la altura del pecho, luz de día. 4 s.
+- “Hoy te muestro 3 casas reales: Bugambilia, Benjamina y Salvia.” → Caminando lento hacia la primera casa. Se ve fachada. 5 s.
+- “Aquí está Bugambilia.” → Parado frente a Bugambilia, muestra fachada con mano. 4 s.
+- “Seguimos con Benjamina, desde 2.8M.” → Frente a Benjamina, muestra frente. 5 s.
+- “Y esta es Salvia.” → Frente a Salvia, muestra fachada. 4 s.
+- “Acceso controlado, plaza comercial, pádel y área de juegos.” → Plano abierto del área común que se pueda ver. 4 s.
+- “Escríbeme por WhatsApp y te paso fotos y precios.” → Cierre mirando a cámara, sonrisa. 4 s.
+
+Cómo grabarlo: vertical 9:16, celular a la altura del pecho, luz natural de frente, sin sol de contraluz, audio claro sin viento, cortes cada 3-5 s. Duración total 25-30 s.
+
+Qué NO debe decir: no prometer tiempos de entrega, no dar garantías, no inventar precios de Bugambilia ni Salvia, no decir “el más barato” ni “inversión segura”.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE ESTO CALIFIQUE 10
+
+- Foto real del frente de Benjamina sin texto, en buena luz, para titular “Benjamina desde 2.8M”.
+- Foto real del frente de Bugambilia y Salvia sin texto.
+- Video corto con dron del acceso controlado, plaza comercial, cancha de pádel y área de juegos, sin viento.
+- Confirmación escrita de que “Benjamina desde 2.8M” es precio vigente y condiciones básicas.
+- Logo de Mariano en PNG con fondo transparente.
+- Autorización para usar su voz clonada y sus videos reales en anuncios.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+
+- Segmentación: Radio 25 km alrededor de Rosarito, Baja California; también Tijuana y Playas de Rosarito. Edad 28-55. Intereses: bienes raíces, compra de casa, vivir en Rosarito, familias, construcción, bienes raíces en Baja California.
+- Presupuesto diario estimado: $300 a $600 MXN para probar los 2 anuncios y el video de recorrido, con optimización a mensajes de WhatsApp.
+# Rafael · 2 ángulos + static ads + guion (Glimmer, 4 nov 2026)
+
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo 1 — “Prueba de manejo hoy”
+- A quién le habla y qué le duele: A quien busca auto nuevo en México y le duele perder tiempo con cotizaciones vagas y citas que no concretan.
+- Promesa concreta con dato real: “Agenda tu prueba de manejo hoy con Rafael en la agencia BYD.” [FALTA: nombre de agencia/ciudad y horario real de pruebas]
+- Por qué baja el costo por mensaje: Oferta clara de acción inmediata y local; el mensaje llega a quien ya está en modo decisión y pide WhatsApp para agendar.
+- Prueba real que lo respalda: [FALTA: foto suya a la altura de los ojos con uniforme/credencial visible en la agencia y foto del auto que ofrece; testimonio de cliente con nombre y ciudad]
+
+Ángulo 2 — “Asesor real, respuesta real”
+- A quién le habla y qué le duele: A quien le duele hablar con bots o vendedores que no responden rápido por WhatsApp.
+- Promesa concreta con dato real: “Habla por WhatsApp con Rafael, asesor BYD, y te responde hoy.” [FALTA: horario real de atención por WhatsApp]
+- Por qué baja el costo por mensaje: La oferta es de contacto humano inmediato; Meta premia claridad de acción y confianza del anunciante.
+- Prueba real que lo respalda: [FALTA: captura de WhatsApp Business con nombre visible “Rafael · autos BYD” y foto de perfil suya; foto suya en la agencia con el auto]
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio A — Ángulo “Prueba de manejo hoy”
+- Qué se ve y de dónde sale la foto: Rafael de pie junto a un BYD, encuadre medio, fondo limpio de la agencia. Foto suya que debe mandar. Si no hay, generada con Qwen-Image-Edit a partir de su foto real recortando fondo y manteniendo su rostro/ropa.
+- Titular en pantalla: “Prueba de manejo hoy”
+- Línea de apoyo: “Agenda por WhatsApp con Rafael”
+- Formato: 4:5. Botón de WhatsApp abajo a la derecha, logo BYD discreto arriba izquierda.
+- Texto primario: “Quieres probar un BYD hoy. Escríbele a Rafael por WhatsApp y agenda tu prueba de manejo.” Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: oferta comercial del mes escrita por él, 2 tomas suyas a la altura de los ojos, y prueba visible de agencia/ciudad.
+
+Anuncio B — Ángulo “Asesor real, respuesta real”
+- Qué se ve y de dónde sale la foto: Primer plano de Rafael sonriendo, a la altura de los ojos, con un BYD desenfocado atrás. Foto suya que debe mandar. Alternativa: generada con Qwen-Image-Edit a partir de su foto real, fondo limpio de agencia.
+- Titular en pantalla: “Asesor real por WhatsApp”
+- Línea de apoyo: “Respuesta el mismo día”
+- Formato: 9:16. Botón de WhatsApp centrado inferior, sin cubrir rostro.
+- Texto primario: “Habla ahora con Rafael, asesor BYD. Te atiende por WhatsApp y coordina tu visita.” Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: horario real de atención, foto de perfil de WhatsApp Business visible y mención de agencia/ciudad.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Prueba de manejo hoy)
+
+- “Hola, soy Rafael, asesor BYD.” → Cámara vertical, celular a la altura de los ojos, selfie. Rafael de pie frente al auto, puerta abierta, agencia atrás. 4 s.
+- “Si buscas un auto nuevo, agenda tu prueba de manejo hoy.” → Misma toma, señala el auto con la mano. 5 s.
+- “Escríbeme por WhatsApp y te confirmo horario.” → Acercarse un paso a cámara, gesto a WhatsApp. 5 s.
+- “Estoy en la agencia, te espero.” → Cámara se mueve a plano medio mostrando logo BYD/agencia atrás. 5 s.
+- “Te mando información clara y sin vueltas.” → Sonrisa, mirada a cámara. 4 s.
+
+Cómo grabarlo: vertical 9:16, celular a la altura de los ojos, a 1 metro de distancia. Luz natural de frente, sin contraluz. Ruido bajo, sin música. Cada frase en una toma corta. Total 20-25 s.
+
+Qué NO debe decir: no prometer precio, mensualidad, bono, garantía ni tiempo de entrega; no decir “el mejor” ni “el más barato”; no usar textos en la grabación.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE ESTO CALIFIQUE 10
+
+- Oferta comercial del mes escrita por él, con palabras exactas que quiere usar en el anuncio.
+- 2 tomas nuevas con el celular a la altura de los ojos: una de cuerpo completo junto al auto en la agencia, otra primer plano sonriendo; fondo limpio, luz de día.
+- Nombre exacto de la agencia BYD y ciudad.
+- Horario real de atención por WhatsApp.
+- Foto de perfil de WhatsApp Business y captura que muestre el nombre “Rafael · autos BYD”.
+- Una foto nítida del modelo BYD que está promoviendo ahora, tomada por él en la agencia, sin textos pegados.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+
+- Ciudad o radio: [FALTA: ciudad y radio en km de la agencia]. Sugerencia inicial: radio 15-30 km alrededor de la agencia.
+- Edad: 28-55.
+- Intereses: autos nuevos, BYD, híbridos/eléctricos, concesionarios de autos, prueba de manejo, financiamiento automotriz.
+- Presupuesto diario en pesos: rango estimado $250-$450 MXN para iniciar y buscar mensajes calificados por WhatsApp, con optimización a “Mensajes” y ventana de aprendizaje de 7 días.
+
+exec
+/bin/bash -lc 'cat /vol/claude-config/codex/contexto_carlos.md; cat /vol/claude-config/projects/---modal-volumes-vo-N6gOPxHfXSf5HzbsmuqjJ3-workspaces-Nexusv2-0launch18octubre/memory/MEMORY.md' in /workspaces/Nexusv2.0launch18octubre
+ exited 1 in 0ms:
+cat: /vol/claude-config/codex/contexto_carlos.md: No such file or directory
+cat: /vol/claude-config/projects/---modal-volumes-vo-N6gOPxHfXSf5HzbsmuqjJ3-workspaces-Nexusv2-0launch18octubre/memory/MEMORY.md: No such file or directory
+
+exec
+/bin/bash -lc 'cat /home/codespace/.codex/skills/.system/imagegen/SKILL.md' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+---
+name: "imagegen"
+description: "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas."
+---
+
+# Image Generation Skill
+
+Generates or edits images for the current project (for example website assets, game assets, UI mockups, product mockups, wireframes, logo design, photorealistic images, or infographics).
+
+## Top-level modes and rules
+
+This skill has exactly two top-level modes:
+
+- **Default built-in tool mode (preferred):** built-in `image_gen` tool for image generation, editing, and transparent-image requests. Does not require `OPENAI_API_KEY`.
+- **Fallback CLI mode:** `scripts/image_gen.py` CLI. Use when the user explicitly asks for or confirms the CLI/API/model path. Requires `OPENAI_API_KEY`.
+
+Within CLI fallback, the CLI exposes three subcommands:
+
+- `generate`
+- `edit`
+- `generate-batch`
+
+Rules:
+- Use the built-in `image_gen` tool by default for normal image generation and editing requests.
+- Do not switch to CLI fallback for ordinary quality, size, or file-path control.
+- For transparent images, ask built-in `image_gen` for a transparent background and preserve the generated alpha.
+- Never silently switch from built-in `image_gen` or CLI `gpt-image-2` to CLI `gpt-image-1.5`; ask the user first unless they explicitly requested `gpt-image-1.5`.
+- The word `batch` by itself does not mean CLI fallback. If the user asks for many assets or says to batch-generate assets without explicitly asking for CLI/API/model controls, stay on the built-in path and issue one built-in call per requested asset or variant.
+- If the built-in tool fails or is unavailable, tell the user the CLI fallback exists and that it requires `OPENAI_API_KEY`. Proceed only if the user explicitly asks for that fallback.
+- If the user explicitly asks for CLI mode, use the bundled `scripts/image_gen.py` workflow. Do not create one-off SDK runners.
+- Never modify `scripts/image_gen.py`. If something is missing, ask the user before doing anything else.
+
+Built-in save-path policy:
+- In built-in tool mode, Codex saves generated images under `$CODEX_HOME/*` by default.
+- Do not describe or rely on OS temp as the default built-in destination.
+- Do not describe or rely on a destination-path argument (if any) on the built-in `image_gen` tool. If a specific location is needed, generate first and then move or copy the selected output from `$CODEX_HOME/generated_images/...`.
+- Save-path precedence in built-in mode:
+  1. If the user names a destination, move or copy the selected output there.
+  2. If the image is meant for the current project, move or copy the final selected image into the workspace before finishing.
+  3. If the image is only for preview or brainstorming, render it inline; the underlying file can remain at the default `$CODEX_HOME/*` path.
+- Never leave a project-referenced asset only at the default `$CODEX_HOME/*` path.
+- Do not overwrite an existing asset unless the user explicitly asked for replacement; otherwise create a sibling versioned filename such as `hero-v2.png` or `item-icon-edited.png`.
+
+Shared prompt guidance for both modes lives in `references/prompting.md` and `references/sample-prompts.md`.
+
+Fallback-only docs/resources for CLI mode:
+- `references/cli.md`
+- `references/image-api.md`
+- `references/codex-network.md`
+- `scripts/image_gen.py`
+
+## When to use
+- Generate a new image (concept art, product shot, cover, website hero)
+- Generate a new image using one or more reference images for style, composition, or mood
+- Edit an existing image (inpainting, lighting or weather transformations, background replacement, object removal, compositing, transparent background)
+- Produce many assets or variants for one task
+
+## When not to use
+- Extending or matching an existing SVG/vector icon set, logo system, or illustration library inside the repo
+- Creating simple shapes, diagrams, wireframes, or icons that are better produced directly in SVG, HTML/CSS, or canvas
+- Making a small project-local asset edit when the source file already exists in an editable native format
+- Any task where the user clearly wants deterministic code-native output instead of a generated bitmap
+
+## Decision tree
+
+Think about two separate questions:
+
+1. **Intent:** is this a new image or an edit of an existing image?
+2. **Execution strategy:** is this one asset or many assets/variants?
+
+Intent:
+- If the user wants to modify an existing image while preserving parts of it, treat the request as **edit**.
+- If the user provides images only as references for style, composition, mood, or subject guidance, treat the request as **generate**.
+- If the user provides no images, treat the request as **generate**.
+
+Built-in edit semantics:
+- Built-in edit mode is for images already visible in the conversation context, such as attached images or images generated earlier in the thread.
+- If the user wants to edit a local image file with the built-in tool, first load it with built-in `view_image` tool so the image is visible in the conversation context, then proceed with the built-in edit flow.
+- Do not promise arbitrary filesystem-path editing through the built-in tool.
+- If a local file still needs direct file-path control, masks, or other explicit CLI-only parameters, use the explicit CLI fallback only when the user asks for it.
+- For edits, preserve invariants aggressively and save non-destructively by default.
+
+Execution strategy:
+- In the built-in default path, produce many assets or variants by issuing one `image_gen` call per requested asset or variant.
+- In the CLI fallback path, use the CLI `generate-batch` subcommand only when the user explicitly chose CLI mode and needs many prompts/assets.
+- For many distinct assets, do not use `n` as a substitute for separate prompts. `n` is for variants of one prompt; distinct assets need distinct built-in calls or distinct CLI `generate-batch` jobs.
+
+Assume the user wants a new image unless they clearly ask to change an existing one.
+
+## Workflow
+1. Decide the top-level mode: built-in by default, including transparent-output requests; fallback CLI only if explicitly requested or confirmed.
+2. Decide the intent: `generate` or `edit`.
+3. Decide whether the output is preview-only or meant to be consumed by the current project.
+4. Decide the execution strategy: single asset vs repeated built-in calls vs CLI `generate-batch`.
+5. Collect inputs up front: prompt(s), exact text (verbatim), constraints/avoid list, and any input images.
+6. For every input image, label its role explicitly:
+   - reference image
+   - edit target
+   - supporting insert/style/compositing input
+7. If the edit target is only on the local filesystem and you are staying on the built-in path, inspect it with `view_image` first so the image is available in conversation context.
+8. If the user asked for a photo, illustration, sprite, product image, banner, or other explicitly raster-style asset, use `image_gen` rather than substituting SVG/HTML/CSS placeholders. If the request is for an icon, logo, or UI graphic that should match existing repo-native SVG/vector/code assets, prefer editing those directly instead.
+9. Augment the prompt based on specificity:
+   - If the user's prompt is already specific and detailed, normalize it into a clear spec without adding creative requirements.
+   - If the user's prompt is generic, add tasteful augmentation only when it materially improves output quality.
+10. Use the built-in `image_gen` tool by default.
+11. For transparent-output requests, ask built-in `image_gen` for a transparent background and preserve the generated alpha channel.
+12. Inspect outputs and validate: subject, style, composition, text accuracy, and invariants/avoid items.
+13. Iterate with a single targeted change, then re-check.
+14. For preview-only work, render the image inline; the underlying file may remain at the default `$CODEX_HOME/generated_images/...` path.
+15. For project-bound work, move or copy the selected artifact into the workspace and update any consuming code or references. Never leave a project-referenced asset only at the default `$CODEX_HOME/generated_images/...` path.
+16. For batches or multi-asset requests, persist every requested deliverable final in the workspace unless the user explicitly asked to keep outputs preview-only. Discarded variants do not need to be kept unless requested.
+17. If the user explicitly chooses or confirms the CLI fallback, then use the fallback-only docs for model, quality, size, `input_fidelity`, masks, output format, output paths, and network setup.
+18. Always report the final saved path(s) for any workspace-bound asset(s), plus the final prompt or prompt set and whether the built-in tool or fallback CLI mode was used.
+
+## Transparent image requests
+
+Ask built-in `image_gen` for a genuinely transparent background and preserve its alpha.
+
+## Prompt augmentation
+
+Reformat user prompts into a structured, production-oriented spec. Make the user's goal clearer and more actionable, but do not blindly add detail.
+
+Treat this as prompt-shaping guidance, not a closed schema. Use only the lines that help, and add a short extra labeled line when it materially improves clarity.
+
+### Specificity policy
+
+Use the user's prompt specificity to decide how much augmentation is appropriate:
+
+- If the prompt is already specific and detailed, preserve that specificity and only normalize/structure it.
+- If the prompt is generic, you may add tasteful augmentation when it will materially improve the result.
+
+Allowed augmentations:
+- composition or framing hints
+- polish level or intended-use hints
+- practical layout guidance
+- reasonable scene concreteness that supports the stated request
+
+Not allowed augmentations:
+- extra characters or objects that are not implied by the request
+- brand names, slogans, palettes, or narrative beats that are not implied
+- arbitrary side-specific placement unless the surrounding layout supports it
+
+## Use-case taxonomy (exact slugs)
+
+Classify each request into one of these buckets and keep the slug consistent across prompts and references.
+
+Generate:
+- photorealistic-natural — candid/editorial lifestyle scenes with real texture and natural lighting.
+- product-mockup — product/packaging shots, catalog imagery, merch concepts.
+- ui-mockup — app/web interface mockups and wireframes; specify the desired fidelity.
+- infographic-diagram — diagrams/infographics with structured layout and text.
+- scientific-educational — classroom explainers, scientific diagrams, and learning visuals with required labels and accuracy constraints.
+- ads-marketing — campaign concepts and ad creatives with audience, brand position, scene, and exact tagline/copy.
+- productivity-visual — slide, chart, workflow, and data-heavy business visuals.
+- logo-brand — logo/mark exploration, vector-friendly.
+- illustration-story — comics, children’s book art, narrative scenes.
+- stylized-concept — style-driven concept art, 3D/stylized renders.
+- historical-scene — period-accurate/world-knowledge scenes.
+
+Edit:
+- text-localization — translate/replace in-image text, preserve layout.
+- identity-preserve — try-on, person-in-scene; lock face/body/pose.
+- precise-object-edit — remove/replace a specific element (including interior swaps).
+- lighting-weather — time-of-day/season/atmosphere changes only.
+- background-extraction — transparent background / clean cutout. Ask built-in `image_gen` for actual transparency.
+- style-transfer — apply reference style while changing subject/scene.
+- compositing — multi-image insert/merge with matched lighting/perspective.
+- sketch-to-render — drawing/line art to photoreal render.
+
+## Shared prompt schema
+
+Use the following labeled spec as shared prompt scaffolding for both top-level modes:
+
+```text
+Use case: <taxonomy slug>
+Asset type: <where the asset will be used>
+Primary request: <user's main prompt>
+Input images: <Image 1: role; Image 2: role> (optional)
+Scene/backdrop: <environment>
+Subject: <main subject>
+Style/medium: <photo/illustration/3D/etc>
+Composition/framing: <wide/close/top-down; placement>
+Lighting/mood: <lighting + mood>
+Color palette: <palette notes>
+Materials/textures: <surface details>
+Text (verbatim): "<exact text>"
+Constraints: <must keep/must avoid>
+Avoid: <negative constraints>
+```
+
+Notes:
+- `Asset type` and `Input images` are prompt scaffolding, not dedicated CLI flags.
+- `Scene/backdrop` refers to the visual setting. It is not the same as the fallback CLI `background` parameter, which controls output transparency behavior.
+- Fallback-only execution notes such as `Quality:`, `Input fidelity:`, masks, output format, and output paths belong in the CLI path only. Do not treat them as built-in `image_gen` tool arguments.
+
+Augmentation rules:
+- Keep it short.
+- Add only the details needed to improve the prompt materially.
+- For edits, explicitly list invariants (`change only X; keep Y unchanged`).
+- If any critical detail is missing and blocks success, ask a question; otherwise proceed.
+
+## Examples
+
+### Generation example (hero image)
+```text
+Use case: product-mockup
+Asset type: landing page hero
+Primary request: a minimal hero image of a ceramic coffee mug
+Style/medium: clean product photography
+Composition/framing: wide composition with usable negative space for page copy if needed
+Lighting/mood: soft studio lighting
+Constraints: no logos, no text, no watermark
+```
+
+### Edit example (invariants)
+```text
+Use case: precise-object-edit
+Asset type: product photo background replacement
+Primary request: replace only the background with a warm sunset gradient
+Constraints: change only the background; keep the product and its edges unchanged; no text; no watermark
+```
+
+## Prompting best practices
+- Structure prompt as scene/backdrop -> subject -> details -> constraints.
+- Include intended use (ad, UI mock, infographic) to set the mode and polish level.
+- Use camera/composition language for photorealism.
+- Only use SVG/vector stand-ins when the user explicitly asked for vector output or a non-image placeholder.
+- Quote exact text and specify typography + placement.
+- For tricky words, spell them letter-by-letter and require verbatim rendering.
+- For multi-image inputs, reference images by index and describe how they should be used.
+- For edits, repeat invariants every iteration to reduce drift.
+- Iterate with single-change follow-ups.
+- If the prompt is generic, add only the extra detail that will materially help.
+- If the prompt is already detailed, normalize it instead of expanding it.
+- For CLI fallback only, see `references/cli.md` and `references/image-api.md` for model, `quality`, `input_fidelity`, masks, output format, and output-path guidance.
+- For transparent images, ask built-in `image_gen` for actual transparency and preserve its alpha.
+
+More principles shared by both modes: `references/prompting.md`.
+Copy/paste specs shared by both modes: `references/sample-prompts.md`.
+
+## Guidance by asset type
+Asset-type templates (website assets, game assets, wireframes, logo) are consolidated in `references/sample-prompts.md`.
+
+## gpt-image-2 guidance for CLI fallback
+
+The fallback CLI defaults to `gpt-image-2`.
+
+- Use `gpt-image-2` for new CLI/API workflows unless the user confirms a different model.
+- CLI `gpt-image-2` does not support `background=transparent`; ask before using `gpt-image-1.5` unless the user explicitly requested that model.
+- `gpt-image-2` always uses high fidelity for image inputs; do not set `input_fidelity` with this model.
+- `gpt-image-2` supports `quality` values `low`, `medium`, `high`, and `auto`.
+- Use `quality low` for fast drafts, thumbnails, and quick iterations. Use `medium`, `high`, or `auto` for final assets, dense text, diagrams, identity-sensitive edits, or high-resolution outputs.
+- Square images are typically fastest to generate. Use `1024x1024` for fast square drafts.
+- If the user asks for 4K-style output, use `3840x2160` for landscape or `2160x3840` for portrait.
+- `gpt-image-2` size may be `auto` or `WIDTHxHEIGHT` if all constraints hold: max edge `<= 3840px`, both edges multiples of `16px`, long-to-short ratio `<= 3:1`, total pixels between `655,360` and `8,294,400`.
+
+Popular `gpt-image-2` sizes:
+- `1024x1024` square
+- `1536x1024` landscape
+- `1024x1536` portrait
+- `2048x2048` 2K square
+- `2048x1152` 2K landscape
+- `3840x2160` 4K landscape
+- `2160x3840` 4K portrait
+- `auto`
+
+## Fallback CLI mode only
+
+### Temp and output conventions
+These conventions apply only to the CLI fallback. They do not describe built-in `image_gen` output behavior.
+- Use `tmp/imagegen/` for intermediate files (for example JSONL batches); delete them when done.
+- Write final artifacts under `output/imagegen/`.
+- Use `--out` or `--out-dir` to control output paths; keep filenames stable and descriptive.
+
+### Dependencies
+Prefer `uv` for dependency management in this repo.
+
+Required Python package:
+```bash
+uv pip install openai
+```
+
+Optional for image inspection and downscaling:
+```bash
+uv pip install pillow
+```
+
+Portability note:
+- If you are using the installed skill outside this repo, install dependencies into that environment with its package manager.
+- In uv-managed environments, `uv pip install ...` remains the preferred path.
+
+### Environment
+- `OPENAI_API_KEY` must be set for live API calls.
+- Do not ask the user for `OPENAI_API_KEY` when using the built-in `image_gen` tool.
+- Never ask the user to paste the full key in chat. Ask them to set it locally and confirm when ready.
+
+If the key is missing, give the user these steps:
+1. Create an API key in the OpenAI platform UI: https://platform.openai.com/api-keys
+2. Set `OPENAI_API_KEY` as an environment variable in their system.
+3. Offer to guide them through setting the environment variable for their OS/shell if needed.
+
+If installation is not possible in this environment, tell the user which dependency is missing and how to install it into their active environment.
+
+### Script-mode notes
+- CLI commands + examples: `references/cli.md`
+- API parameter quick reference: `references/image-api.md`
+- Network approvals / sandbox settings for CLI mode: `references/codex-network.md`
+
+## Reference map
+- `references/prompting.md`: shared prompting principles for both modes.
+- `references/sample-prompts.md`: shared copy/paste prompt recipes for both modes.
+- `references/cli.md`: fallback-only CLI usage via `scripts/image_gen.py`.
+- `references/image-api.md`: fallback-only API/CLI parameter reference.
+- `references/codex-network.md`: fallback-only network/sandbox troubleshooting for CLI mode.
+- `scripts/image_gen.py`: fallback-only CLI implementation. Use only when the user explicitly chooses or confirms CLI mode.
+
+exec
+/bin/bash -lc "rg --files -g '*MEMORY.md' -g '*contexto_carlos*' -g 'AGENTS.md'; ls entregables/anuncios_imagen_20261104; cat entregables/glimmer_imagenes_20261104/prioridad/Rafael.md; which magick convert" in /workspaces/Nexusv2.0launch18octubre
+ exited 1 in 0ms:
+visionagenciaIAV2.0-main 2/AGENTS.md
+AGENTS.md
+RESUMEN_CALIFICACIONES.md
+RESUMEN_CALIFICACIONES_V2.md
+__pycache__
+anuncios
+anuncios_v2
+armar_anuncios.py
+calificaciones
+calificaciones_v2
+calificar.log
+calificar_portal.py
+calificar_portal_v2.py
+calificar_v2.log
+calificar_v2b.log
+codex
+codex_texto
+cuadros
+cuadros.log
+cuadros_fix.log
+hojas
+mandar_a_clientes.py
+mandar_una_por_una.py
+spec_fix.json
+spec_mariano_rafael.json
+v3_glimmer
+# Rafael · 2 ángulos + static ads + guion (Glimmer, 4 nov 2026)
+
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo 1 — “Prueba de manejo hoy”
+- A quién le habla y qué le duele: A quien busca auto nuevo en México y le duele perder tiempo con cotizaciones vagas y citas que no concretan.
+- Promesa concreta con dato real: “Agenda tu prueba de manejo hoy con Rafael en la agencia BYD.” [FALTA: nombre de agencia/ciudad y horario real de pruebas]
+- Por qué baja el costo por mensaje: Oferta clara de acción inmediata y local; el mensaje llega a quien ya está en modo decisión y pide WhatsApp para agendar.
+- Prueba real que lo respalda: [FALTA: foto suya a la altura de los ojos con uniforme/credencial visible en la agencia y foto del auto que ofrece; testimonio de cliente con nombre y ciudad]
+
+Ángulo 2 — “Asesor real, respuesta real”
+- A quién le habla y qué le duele: A quien le duele hablar con bots o vendedores que no responden rápido por WhatsApp.
+- Promesa concreta con dato real: “Habla por WhatsApp con Rafael, asesor BYD, y te responde hoy.” [FALTA: horario real de atención por WhatsApp]
+- Por qué baja el costo por mensaje: La oferta es de contacto humano inmediato; Meta premia claridad de acción y confianza del anunciante.
+- Prueba real que lo respalda: [FALTA: captura de WhatsApp Business con nombre visible “Rafael · autos BYD” y foto de perfil suya; foto suya en la agencia con el auto]
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio A — Ángulo “Prueba de manejo hoy”
+- Qué se ve y de dónde sale la foto: Rafael de pie junto a un BYD, encuadre medio, fondo limpio de la agencia. Foto suya que debe mandar. Si no hay, generada con Qwen-Image-Edit a partir de su foto real recortando fondo y manteniendo su rostro/ropa.
+- Titular en pantalla: “Prueba de manejo hoy”
+- Línea de apoyo: “Agenda por WhatsApp con Rafael”
+- Formato: 4:5. Botón de WhatsApp abajo a la derecha, logo BYD discreto arriba izquierda.
+- Texto primario: “Quieres probar un BYD hoy. Escríbele a Rafael por WhatsApp y agenda tu prueba de manejo.” Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: oferta comercial del mes escrita por él, 2 tomas suyas a la altura de los ojos, y prueba visible de agencia/ciudad.
+
+Anuncio B — Ángulo “Asesor real, respuesta real”
+- Qué se ve y de dónde sale la foto: Primer plano de Rafael sonriendo, a la altura de los ojos, con un BYD desenfocado atrás. Foto suya que debe mandar. Alternativa: generada con Qwen-Image-Edit a partir de su foto real, fondo limpio de agencia.
+- Titular en pantalla: “Asesor real por WhatsApp”
+- Línea de apoyo: “Respuesta el mismo día”
+- Formato: 9:16. Botón de WhatsApp centrado inferior, sin cubrir rostro.
+- Texto primario: “Habla ahora con Rafael, asesor BYD. Te atiende por WhatsApp y coordina tu visita.” Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: horario real de atención, foto de perfil de WhatsApp Business visible y mención de agencia/ciudad.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Prueba de manejo hoy)
+
+- “Hola, soy Rafael, asesor BYD.” → Cámara vertical, celular a la altura de los ojos, selfie. Rafael de pie frente al auto, puerta abierta, agencia atrás. 4 s.
+- “Si buscas un auto nuevo, agenda tu prueba de manejo hoy.” → Misma toma, señala el auto con la mano. 5 s.
+- “Escríbeme por WhatsApp y te confirmo horario.” → Acercarse un paso a cámara, gesto a WhatsApp. 5 s.
+- “Estoy en la agencia, te espero.” → Cámara se mueve a plano medio mostrando logo BYD/agencia atrás. 5 s.
+- “Te mando información clara y sin vueltas.” → Sonrisa, mirada a cámara. 4 s.
+
+Cómo grabarlo: vertical 9:16, celular a la altura de los ojos, a 1 metro de distancia. Luz natural de frente, sin contraluz. Ruido bajo, sin música. Cada frase en una toma corta. Total 20-25 s.
+
+Qué NO debe decir: no prometer precio, mensualidad, bono, garantía ni tiempo de entrega; no decir “el mejor” ni “el más barato”; no usar textos en la grabación.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE ESTO CALIFIQUE 10
+
+- Oferta comercial del mes escrita por él, con palabras exactas que quiere usar en el anuncio.
+- 2 tomas nuevas con el celular a la altura de los ojos: una de cuerpo completo junto al auto en la agencia, otra primer plano sonriendo; fondo limpio, luz de día.
+- Nombre exacto de la agencia BYD y ciudad.
+- Horario real de atención por WhatsApp.
+- Foto de perfil de WhatsApp Business y captura que muestre el nombre “Rafael · autos BYD”.
+- Una foto nítida del modelo BYD que está promoviendo ahora, tomada por él en la agencia, sin textos pegados.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+
+- Ciudad o radio: [FALTA: ciudad y radio en km de la agencia]. Sugerencia inicial: radio 15-30 km alrededor de la agencia.
+- Edad: 28-55.
+- Intereses: autos nuevos, BYD, híbridos/eléctricos, concesionarios de autos, prueba de manejo, financiamiento automotriz.
+- Presupuesto diario en pesos: rango estimado $250-$450 MXN para iniciar y buscar mensajes calificados por WhatsApp, con optimización a “Mensajes” y ventana de aprendizaje de 7 días.
+
+exec
+/bin/bash -lc "python - <<'PY'
+from PIL import Image,ImageOps,ImageDraw
+from pathlib import Path
+paths=list(Path('entregables/anuncios_imagen_20261104/anuncios_v2').glob('*.jpg'))
+paths += [Path(p) for p in ['clientes/Mariano/fotos/mariano_luz_final.png','clientes/Mariano/anuncios/refs/benjamina_fachada.jpg','clientes/Mariano/anuncios/refs/salvia_fachada.jpg','clientes/Mariano/anuncios/refs/bugambilia_calle.jpg','clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg','clientes/Rafael_BYD/refs/rafael_cara.jpg','clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg']]
+canvas=Image.new('RGB',(1200,((len(paths)+3)//4)*360),'#ddd')
+d=ImageDraw.Draw(canvas)
+for i,p in enumerate(paths):
+ im=Image.open(p); im.thumbnail((290,320)); x=(i%4)*300; y=(i//4)*360; canvas.paste(im,(x,y)); d.text((x,y+322),p.name[:36],fill='black')
+canvas.save('/tmp/contacto.jpg')
+PY" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 630ms:
+codex
+La guía deja pendientes la vigencia del precio de Benjamina y la ciudad y horarios de Rafael. Omitiré esos datos y las promesas de atención “hoy”. Usaré la habilidad imagegen con las fotos de referencia para conservar sus rasgos y ropa.
+
+Las notas de `/vol/claude-config/` no están disponibles en este entorno; sí pude leer los tres archivos del encargo.
+
+exec
+/bin/bash -lc "cat AGENTS.md; ls -la entregables/anuncios_imagen_20261104/v3_glimmer; rg -n 'ciudad|Hermosillo|Nogales|Tijuana|agencia' clientes/Rafael_BYD --glob '*.md' --glob '*.json'" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+# Instrucciones para ChatGPT (Codex) en el workspace de Carlos
+
+Tienes acceso COMPLETO a este workspace (Modal, sandbox de Carlos): archivos, red, terminal, WhatsApp, Modal (GPU) y Glimmer (la IA de Meta). No digas que no tienes acceso: úsalo. Lee primero `/vol/claude-config/codex/contexto_carlos.md` (negocio, método, clientes). Responde en español, corto, para WhatsApp.
+
+
+## Lo que Carlos pide siempre (memoria de Claude)
+Antes de cualquier tarea lee TODAS las notas de `/vol/claude-config/projects/---modal-volumes-vo-N6gOPxHfXSf5HzbsmuqjJ3-workspaces-Nexusv2-0launch18octubre/memory/` (empieza por MEMORY.md). Son las reglas, preferencias y correcciones que Carlos le ha dado a Claude durante semanas: método, calidad, cómo calificar, a quién escribir, límites de gasto, cuentas y clientes. Síguelas igual que Claude. Si aprendes una regla nueva de Carlos, agrégala como nota nueva en esa carpeta (un archivo por regla, con el mismo formato) y su línea en MEMORY.md.
+
+
+## Manual de producción
+Para hacer videos tú solo (cuando Claude no esté) sigue `MANUAL_CHATGPT.md` (raíz): referencias, escenas con Qwen + MiniMax H3, ahorro de GPU, voz Fish, armado, Glimmer y estado de clientes.
+
+## Preguntarle a Claude
+Si necesitas algo que solo Claude sabe (por qué se decidió algo, dónde está un archivo, cómo se hizo un video), pregunta con `herramientas/preguntar_claude.sh "pregunta"`. Claude responde con su memoria y el workspace (solo lectura). Gasta uso de Claude: máximo 5 preguntas al día, cortas, y primero busca en la memoria y en los archivos.
+
+## Herramientas
+- **WhatsApp (WaAPI):** `python3 -c "import sys;sys.path.insert(0,'herramientas');from wa import accion; ..."`
+  - `accion('send-message',{'chatId':ID,'message':txt})`, `accion('fetch-messages',{'chatId':ID,'limit':20})`, `accion('get-chats',{})`, `accion('download-media',{'messageId':MID})` → `['data']['data']['media']['url']`.
+  - Mandar video/imagen a Carlos: `python3 herramientas/enviar_seguro.py RUTA "texto"`. Chat de Carlos: `44522318905388@lid`.
+  - Chats de clientes: José `257883358937112@lid`, Guillermo `256998142660619@lid`, Alberto `121135308009543@lid`, Giovanni `147832891793521@lid`, Iván `72125973008625@lid`, Rubén `25112875143230@lid`, Lisbeth `161641681395864@lid`, Víctor `244250780389552@lid`, Tatuador `250053667119335@lid`, Andrés `248292160077914@lid`, Jesús Puertas `77185511633028@lid`.
+- **Calificar un video con Glimmer (IA de Meta):** escribe `entregables/glimmer_evaluador/anuncios_<id>.json` = `[{"nombre":"CLIENTE_vX","video":"/ruta/absoluta.mp4","cliente":"datos reales del negocio"}]`, luego encola en la fila (corre sola):
+  `echo "python3 entregables/glimmer_evaluador/evaluar.py entregables/glimmer_evaluador/anuncios_<id>.json entregables/glimmer_evaluador/<id> && GASTO_PERFIL=carlosfavelajeje python3 gasto_modal.py run entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/<id>/lote.json --tokens 4500 > entregables/glimmer_evaluador/<id>/glimmer.log 2>&1" > entregables/fila/pendientes/<AAAAMMDD_HHMM>_<cliente>.sh`
+  Resultado: en `glimmer.log`, lo que sigue a `assistant to=user` (CALIFICACIÓN TOTAL, NOTAS, QUÉ LO FRENA, VEREDICTO). Tarda ~6-10 min. Estado de la fila: `tail entregables/fila/fila.log`.
+- **Calificaciones existentes:** `entregables/glimmer_evaluador/*/glimmer.log`.
+- **Formato de calificación para clientes:** `entregables/glimmer_evaluador/mensaje_calificacion.py` (`mensaje(nombre, hoy, proyectada, funciona, falta, pauta, hecho)`).
+- **Voz clonada (Fish Audio):** clave en `$FISH_API_KEY`; POST `https://api.fish.audio/v1/tts` con `{"text","format":"wav","reference_id":ID}` y header `model: s2-pro` o `s1`. Genera 4 tomas y elige la que Whisper (`faster_whisper`, modelo `medium`) transcriba igual al guion. IDs: José `74cae190c2c84b0caaca073f42f5de54`, Carlos `1f679152b5d64c09a8e8eeecd3eb5424`, Doctora `1cbf187942e14e2789215b6374e8323c`, Rubén `22eb1ea2a6ce44c882d721aea1003766`, Iván `2e7509fae4af43c0b4166202aeff3918`.
+- **Armadores de video (ffmpeg, sin GPU):** José `clientes/Jose/armado_20261029/armar_jose_v9.py` (voces por frase en `voz_v8/sN_0.mp3`, borra `tmp_v9c` si cambias voz), Guillermo `clientes/Guillermo/far12_v1/armar_far12_v3.py`, Doctora `clientes/Alberto/video/armar_implantes_ref.py --version X --tomas v6`, Iván `clientes/Ivan/video_v5_20261030/armar_ivan_v5.py`, Rubén `clientes/Ruben_Quiropraxia/video_v3/armar_ruben_v3.py`.
+- **GPU (escenas nuevas Qwen/MiniMax):** solo con `GASTO_PERFIL=carlosfavelajeje python3 gasto_modal.py run clientes/_escenas_carlos/escenas_carlos_modal.py::cuadros|animar --spec SPEC.json`, encolado en `entregables/fila_escenas/pendientes/`. Cuenta carlosfavelajeje: $30 de crédito, tope $28 (vigía activo); consulta antes de gastar.
+
+## Reglas (obligatorias)
+1. Escribir o mandar algo a un CLIENTE solo si Carlos lo pide en ese mensaje; si no, todo va primero a Carlos.
+2. Cada video que mandes lleva su calificación de Glimmer: separa **actual** (la que Glimmer dio al video) de **proyectada** (la que daría con los cambios). Nunca inventes calificaciones ni resultados.
+3. No borres archivos de clientes; versiona (v9c → v9d). No toques `.vol`, credenciales ni `gasto_modal.py`.
+4. Antes de dar algo por hecho, verifícalo (escucha con Whisper, revisa el video, lee el log). Si algo falla, dilo.
+5. Calidad: caras parecidas a la persona real, lugares reales, voz bien pronunciada, sin promesas de salud.
+6. Al terminar, responde a Carlos con: qué hiciste, rutas de los videos, y qué falta.
+
+
+## Cuando Claude se acabe (uso semanal agotado)
+Tú tomas el relevo completo:
+1. Revisa `buzon/fila_encargos.log` y `buzon/para_nexus2/`: los encargos que sigan ahí (no movidos a `buzon/hecho/`) están pendientes. Lee cada uno completo (y sus actualizaciones al final) y continúalo sin repetir lo ya hecho: revisa archivos nuevos del cliente, la fila de GPU y lo que ya se le mandó a Carlos.
+2. Un trabajo pesado a la vez: el sandbox tiene 1 CPU y 4 GB; con varios procesos en paralelo se cae.
+3. Glimmer rápido para guiones y revisiones: `https://carlosfavelajeje--glimmer-chat-glimmer-web.us-east.modal.run/chat` (POST `{"mensajes":[{"rol":"user","texto":"...","fotos":[base64]}],"tokens":4500}`, header `x-clave` = CLAVE del secreto Modal `glimmer-chat`). Calificación formal: la fila de `entregables/glimmer_evaluador/`.
+4. Meta Ads: tú no tienes Windsor. Deja el video final, miniatura, texto del anuncio y segmentación en `buzon/para_nexus/` y dile a Carlos que lo suba él en el Administrador de anuncios (o que lo haga Claude cuando vuelva).
+5. Prospectos nuevos («¡Hola! Quiero más información»): responde con el mensaje de la calificación de Facebook (solo lanzamos con 8+; ejemplos reales: limpieza 33 mensajes a $1.39, impermeabilización 18 mensajes a $2.87) y pide giro/ciudad, 3 fotos o videos, precio o promoción y un reel de referencia. Estamos en Sonora y trabajamos 100% en línea con todo México.
+total 8
+drwxrwxrwx+  2 codespace codespace 4096 Nov  5 20:41 .
+drwxrwxrwx+ 12 codespace codespace 4096 Nov  5 20:41 ..
+clientes/Rafael_BYD/icp_rafael_20261101.md:14:- Recorre diariamente 20-50 km en ciudad; valora ahorro en combustible y mantenimiento.
+clientes/Rafael_BYD/icp_rafael_20261101.md:27:- Postventa cercana: agencia o taller en Azcapotzalco / Naucalpan, refacciones disponibles.
+
+codex
+El primer diseño ya salió con las tres fachadas de referencia y una jerarquía más clara. Estoy trabajando las variantes de recorrido y cita; en Rafael usaré su polo oscuro real y quitaré los logotipos ajenos.
+
+exec
+/bin/bash -lc "python -c 'from PIL import Image; im=Image.open(\"/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-3f4c4e82-e925-497d-9b9d-056a1c66a127.png\"); im.thumbnail((720,900)); im.save(\"/tmp/A1.png\")'" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 323ms:
+exec
+/bin/bash -lc "python -c 'from PIL import Image; im=Image.open(\"/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-fedbce63-fae2-45f6-8dab-5e3ec3a8ddfd.png\"); im.thumbnail((720,900)); im.save(\"/tmp/MARIANO_v3_A2.png\")'" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 305ms:
+codex
+Las primeras variantes ya tienen menos texto, titulares más grandes y las casas como protagonistas. Ajustaré la tipografía y los márgenes en el armado final para asegurar los 1080×1350 y el espacio inferior del botón.
+
+exec
+/bin/bash -lc "python -c 'import cairosvg; print(cairosvg.__version__)'; fc-list | head -8" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 1786ms:
+2.9.1
+/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf: DejaVu Serif:style=Bold
+/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf: DejaVu Sans Mono:style=Book
+/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf: DejaVu Sans:style=Book
+/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf: DejaVu Sans Mono:style=Oblique
+/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf: DejaVu Sans:style=Bold
+/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf: DejaVu Sans Mono:style=Bold Oblique
+/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf: DejaVu Sans Mono:style=Bold
+/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf: DejaVu Serif:style=Book
+
+codex
+Las variantes de Rafael ya usan su polo oscuro de referencia, sin el emblema verde de la versión anterior. Mantengo los dos enfoques —prueba de manejo y contacto con el asesor— sin prometer horarios ni respuestas en el día. Ahora reviso los ocho y cierro el armado.
+
+apply patch
+patch: completed
+/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+diff --git a/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py b/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..432431f44faca46eccc81bd7219076a99dc2c8b3
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+@@ -0,0 +1,61 @@
++"""Tipografía vectorial en postproducción sobre fotografías creadas con imagegen.
++Ejecutar desde esta carpeta: python armar_v3.py
++"""
++import base64, json, shutil
++from pathlib import Path
++from html import escape
++import cairosvg
++from PIL import ImageFont, Image
++
++ROOT = Path(__file__).resolve().parent
++NAVY = '#0B1D35'
++COPY = {
++ 'MARIANO_v3_A1': (['3 casas en','Vizcaíno'],80,'Bugambilia · Benjamina · Salvia',['Recorrido con Mariano','Compara las tres opciones'],'Pide el recorrido por WhatsApp'),
++ 'MARIANO_v3_A2': (['Conoce las casas','por dentro'],80,'Recorre Vizcaíno Residencial con Mariano',['Bugambilia, Benjamina y Salvia','Compara tus opciones'],'Pide el recorrido por WhatsApp'),
++ 'MARIANO_v3_B1': (['Conoce tu próxima','casa: Benjamina'],72,'Consulta precio y disponibilidad con Mariano',['Vizcaíno Residencial','Recorrido de la casa'],'Consulta por WhatsApp'),
++ 'MARIANO_v3_B2': (['Agenda tu visita','a Benjamina'],80,'Conoce la casa con Mariano',['Consulta disponibilidad','Pregunta por el precio vigente'],'Agenda por WhatsApp'),
++ 'RAFAEL_v3_1A': (['Agenda tu prueba','de manejo'],76,'Coordina tu visita con Rafael',['Atención por WhatsApp','Confirma el horario'],'Agenda por WhatsApp'),
++ 'RAFAEL_v3_1B': (['Súbete y conoce','tu próximo BYD'],78,'Agenda tu prueba de manejo con Rafael',['Consulta disponibilidad','Coordina tu horario'],'Pide tu prueba por WhatsApp'),
++ 'RAFAEL_v3_2A': (['Habla con Rafael,','asesor BYD'],76,'Información para elegir tu próximo auto',['Versiones y disponibilidad','Coordina tu visita'],'Escríbele por WhatsApp'),
++ 'RAFAEL_v3_2B': (['Pregunta por tu','BYD por WhatsApp'],72,'Consulta versiones y disponibilidad con Rafael',['Información del auto','Agenda tu visita'],'Escríbele a Rafael por WhatsApp'),
++}
++
++def text(x,y,s,size,weight='bold'):
++ font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans'+('-Bold' if weight=='bold' else '')+'.ttf',size)
++ assert font.getlength(s) <= 864, (s,font.getlength(s))
++ return f'<text x="{x}" y="{y}" fill="white" font-family="DejaVu Sans" font-weight="{weight}" font-size="{size}">{escape(s)}</text>'
++
++def main():
++ (ROOT/'fuentes').mkdir(exist_ok=True)
++ (ROOT/'editables').mkdir(exist_ok=True)
++ manifest=json.loads((ROOT/'produccion.json').read_text())
++ for row in manifest['imagenes']:
++  name=row['id']; src=Path(row['path'])
++  saved=ROOT/'fuentes'/f'{name}_imagegen.png'
++  if src.exists() and src!=saved: shutil.copy2(src,saved)
++  data=base64.b64encode(saved.read_bytes()).decode()
++  headline,size,support,bullets,cta=COPY[name]
++  assert len(' '.join(headline).split())<=8 and len(support.split())<=10
++  brand='MARIANO · VIZCAÍNO RESIDENCIAL' if name.startswith('MARIANO') else 'RAFAEL · ASESOR BYD'
++  svg=f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1350" viewBox="0 0 1080 1350">
++  <defs><clipPath id="hero"><rect y="135" width="1080" height="605"/></clipPath></defs>
++  <rect width="1080" height="1350" fill="{NAVY}"/>
++  <image x="0" y="-25" width="1080" height="1350" preserveAspectRatio="none" xlink:href="data:image/png;base64,{data}" clip-path="url(#hero)"/>
++  '''
++  svg+=text(108,58,brand,28)
++  if name.startswith('MARIANO'): svg+=text(108,99,'Rosarito, B.C.',24,'normal')
++  svg+=text(108,825,headline[0],size)+text(108,912,headline[1],size)
++  svg+=text(108,974,support,36,'normal')
++  for y,bullet in zip([1030,1077],bullets):
++   svg+=f'<path d="M111 {y-12} l8 8 l16 -19" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>'
++   svg+=text(150,y,bullet,30,'normal')
++  svg+='<rect x="108" y="1140" width="864" height="90" rx="22" fill="#087F3C"/>'
++  svg+='<g transform="translate(137 1157)" fill="none" stroke="white" stroke-width="3.4"><path d="M6 48 l3 -11 a23 23 0 1 1 9 9 Z"/><path d="M20 13 q-8 5 3 18 q10 11 17 4 l-7 -6 l-4 3 q-7 -3 -9 -10 l4 -3 Z"/></g>'
++  svg+=text(210,1197,cta,36)
++  svg+='</svg>'
++  (ROOT/'editables'/f'{name}.svg').write_text(svg)
++  cairosvg.svg2png(bytestring=svg.encode(),write_to=str(ROOT/f'{name}.png'))
++  with Image.open(ROOT/f'{name}.png') as im: assert im.size==(1080,1350)
++  print(name,'1080x1350 OK')
++
++if __name__=='__main__': main()
+
+exec
+/bin/bash -lc "python - <<'PY'
+from PIL import Image,ImageDraw
+from pathlib import Path
+ps=list(Path('/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b').glob('*.png'))
+out=Image.new('RGB',(1600,((len(ps)+3)//4)*530),'#ddd');d=ImageDraw.Draw(out)
+for i,p in enumerate(ps):
+ im=Image.open(p); im.thumbnail((390,500)); x=i%4*400;y=i//4*530;out.paste(im,(x,y));d.text((x,y+500),p.name[:15],fill='black')
+out.save('/tmp/generadas.jpg')
+PY" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 491ms:
+apply patch
+patch: completed
+/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json
+diff --git a/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py b/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..432431f44faca46eccc81bd7219076a99dc2c8b3
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+@@ -0,0 +1,61 @@
++"""Tipografía vectorial en postproducción sobre fotografías creadas con imagegen.
++Ejecutar desde esta carpeta: python armar_v3.py
++"""
++import base64, json, shutil
++from pathlib import Path
++from html import escape
++import cairosvg
++from PIL import ImageFont, Image
++
++ROOT = Path(__file__).resolve().parent
++NAVY = '#0B1D35'
++COPY = {
++ 'MARIANO_v3_A1': (['3 casas en','Vizcaíno'],80,'Bugambilia · Benjamina · Salvia',['Recorrido con Mariano','Compara las tres opciones'],'Pide el recorrido por WhatsApp'),
++ 'MARIANO_v3_A2': (['Conoce las casas','por dentro'],80,'Recorre Vizcaíno Residencial con Mariano',['Bugambilia, Benjamina y Salvia','Compara tus opciones'],'Pide el recorrido por WhatsApp'),
++ 'MARIANO_v3_B1': (['Conoce tu próxima','casa: Benjamina'],72,'Consulta precio y disponibilidad con Mariano',['Vizcaíno Residencial','Recorrido de la casa'],'Consulta por WhatsApp'),
++ 'MARIANO_v3_B2': (['Agenda tu visita','a Benjamina'],80,'Conoce la casa con Mariano',['Consulta disponibilidad','Pregunta por el precio vigente'],'Agenda por WhatsApp'),
++ 'RAFAEL_v3_1A': (['Agenda tu prueba','de manejo'],76,'Coordina tu visita con Rafael',['Atención por WhatsApp','Confirma el horario'],'Agenda por WhatsApp'),
++ 'RAFAEL_v3_1B': (['Súbete y conoce','tu próximo BYD'],78,'Agenda tu prueba de manejo con Rafael',['Consulta disponibilidad','Coordina tu horario'],'Pide tu prueba por WhatsApp'),
++ 'RAFAEL_v3_2A': (['Habla con Rafael,','asesor BYD'],76,'Información para elegir tu próximo auto',['Versiones y disponibilidad','Coordina tu visita'],'Escríbele por WhatsApp'),
++ 'RAFAEL_v3_2B': (['Pregunta por tu','BYD por WhatsApp'],72,'Consulta versiones y disponibilidad con Rafael',['Información del auto','Agenda tu visita'],'Escríbele a Rafael por WhatsApp'),
++}
++
++def text(x,y,s,size,weight='bold'):
++ font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans'+('-Bold' if weight=='bold' else '')+'.ttf',size)
++ assert font.getlength(s) <= 864, (s,font.getlength(s))
++ return f'<text x="{x}" y="{y}" fill="white" font-family="DejaVu Sans" font-weight="{weight}" font-size="{size}">{escape(s)}</text>'
++
++def main():
++ (ROOT/'fuentes').mkdir(exist_ok=True)
++ (ROOT/'editables').mkdir(exist_ok=True)
++ manifest=json.loads((ROOT/'produccion.json').read_text())
++ for row in manifest['imagenes']:
++  name=row['id']; src=Path(row['path'])
++  saved=ROOT/'fuentes'/f'{name}_imagegen.png'
++  if src.exists() and src!=saved: shutil.copy2(src,saved)
++  data=base64.b64encode(saved.read_bytes()).decode()
++  headline,size,support,bullets,cta=COPY[name]
++  assert len(' '.join(headline).split())<=8 and len(support.split())<=10
++  brand='MARIANO · VIZCAÍNO RESIDENCIAL' if name.startswith('MARIANO') else 'RAFAEL · ASESOR BYD'
++  svg=f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1350" viewBox="0 0 1080 1350">
++  <defs><clipPath id="hero"><rect y="135" width="1080" height="605"/></clipPath></defs>
++  <rect width="1080" height="1350" fill="{NAVY}"/>
++  <image x="0" y="-25" width="1080" height="1350" preserveAspectRatio="none" xlink:href="data:image/png;base64,{data}" clip-path="url(#hero)"/>
++  '''
++  svg+=text(108,58,brand,28)
++  if name.startswith('MARIANO'): svg+=text(108,99,'Rosarito, B.C.',24,'normal')
++  svg+=text(108,825,headline[0],size)+text(108,912,headline[1],size)
++  svg+=text(108,974,support,36,'normal')
++  for y,bullet in zip([1030,1077],bullets):
++   svg+=f'<path d="M111 {y-12} l8 8 l16 -19" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>'
++   svg+=text(150,y,bullet,30,'normal')
++  svg+='<rect x="108" y="1140" width="864" height="90" rx="22" fill="#087F3C"/>'
++  svg+='<g transform="translate(137 1157)" fill="none" stroke="white" stroke-width="3.4"><path d="M6 48 l3 -11 a23 23 0 1 1 9 9 Z"/><path d="M20 13 q-8 5 3 18 q10 11 17 4 l-7 -6 l-4 3 q-7 -3 -9 -10 l4 -3 Z"/></g>'
++  svg+=text(210,1197,cta,36)
++  svg+='</svg>'
++  (ROOT/'editables'/f'{name}.svg').write_text(svg)
++  cairosvg.svg2png(bytestring=svg.encode(),write_to=str(ROOT/f'{name}.png'))
++  with Image.open(ROOT/f'{name}.png') as im: assert im.size==(1080,1350)
++  print(name,'1080x1350 OK')
++
++if __name__=='__main__': main()
+diff --git a/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json b/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..d9f6d5c27466c378244c825febc849e48ac96fbe
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json
+@@ -0,0 +1,106 @@
++{
++  "herramienta": "image_gen integrada; composición y tipografía SVG en postproducción",
++  "prompt_base": "Use case: ads-marketing, identity-preserve. Create a polished finished Spanish advertisement, vertical 4:5 intended 1080x1350. Strict layout coordinates relative to 1080x1350: top small brand at x108 y60 in top 10%; editorial photographic hero y135-740 (60% image), medium portrait not extreme closeup, photo subjects must match the attached actual people and properties EXACTLY, not stock replacements. Lower solid dark navy panel y740-1350. Large WHITE bold grotesk headline at x108 y770, 80px equivalent, max two lines. One support line 38px equivalent beneath headline, max10 words. Then specified short WHITE check bullets 30px. Wide green WhatsApp button x108 y1140 width864 height88; bottom edge at y1228 leaving122px safe bottom margin. Button white bold text plus simple WhatsApp icon. All text correct Spanish accents exact specified text, no invented letters. Total text occupies less40%. Palette navy/white/neutrals, green ONLY in button, no other colored graphic accents. No unrelated brand logos anywhere, remove clothing brand emblems. No fabricated testimonial or price. Photographic skin pores, fine wrinkles, natural imperfect skin, asymmetric relaxed expression, no beauty smoothing, real folded fabric, coherent single source shadows; hands concealed or anatomically correct; preserve identity. No text on photographed scene except actual BYD emblem on car when relevant. Designed premium editorial clarity and generous negative space, strong hierarchy brand>headline>support>checks>button. Do not show placement instructions. ",
++  "variantes": [
++    {
++      "id": "MARIANO_v3_A2",
++      "refs": [
++        "clientes/Mariano/fotos/mariano_luz_final.png",
++        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg"
++      ],
++      "spec": "Hero: Mariano same exact real face and blue checked blazer as ref1, waist-up, at right side of actual Benjamina ref2, natural sunlit scene, hands outside crop, avoid extreme face. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\" with city \"Rosarito, B.C.\". Headline \"Conoce las casas\\npor dentro\". Support \"Recorre Vizcaíno Residencial con Mariano\". Two checks \"Bugambilia, Benjamina y Salvia\" and \"Compara tus opciones\". CTA \"Pide el recorrido por WhatsApp\". No price."
++    },
++    {
++      "id": "MARIANO_v3_B1",
++      "refs": [
++        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg",
++        "clientes/Mariano/fotos/mariano_luz_final.png"
++      ],
++      "spec": "Hero primarily actual exact Benjamina facade ref1, preserve architecture; small portrait of Mariano ref2 in corner of hero only, real face blue blazer. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\", city \"Rosarito, B.C.\". Headline \"Conoce tu próxima\\ncasa: Benjamina\". Support \"Consulta precio y disponibilidad con Mariano\". Two checks \"Vizcaíno Residencial\" and \"Recorrido de la casa\". CTA \"Consulta por WhatsApp\". No price at all because current price unconfirmed; do not write 2.8M."
++    },
++    {
++      "id": "MARIANO_v3_B2",
++      "refs": [
++        "clientes/Mariano/fotos/mariano_luz_final.png",
++        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg"
++      ],
++      "spec": "Hero Mariano same exact real face blue checked blazer, standing at open entrance of actual Benjamina reference2, relaxed expression with hands hidden behind lower frame. Preserve house. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\", city \"Rosarito, B.C.\". Headline \"Agenda tu visita\\na Benjamina\". Support \"Conoce la casa con Mariano\". Two checks \"Consulta disponibilidad\" and \"Pregunta por el precio vigente\". CTA \"Agenda por WhatsApp\". No prices."
++    },
++    {
++      "id": "RAFAEL_v3_1A",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero Rafael next to actual exact WHITE BYD front of car ref3 in that showroom. Face identity from refs1 and2; clothing MUST be dark charcoal textured short sleeve polo from ref1, NOT navy polo with green emblem from ref2. No emblem on polo. Hands hidden behind car. Natural medium portrait, eye-level. Brand \"RAFAEL · ASESOR BYD\" no city because not verified, do not invent city or agency name. Headline \"Agenda tu prueba\\nde manejo\". Support \"Coordina tu visita con Rafael\". Two checks \"Atención por WhatsApp\" and \"Confirma el horario\". CTA \"Agenda por WhatsApp\". No same-day claim, price, finance."
++    },
++    {
++      "id": "RAFAEL_v3_1B",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero actual Rafael same exact face refs1/2 wearing real dark charcoal textured polo ref1 NO CLOTHING LOGO, next to open driver door of white BYD ref3, relaxed portrait with hands concealed. Preserve car design and actual showroom. Eye-level natural editorial photograph. Brand \"RAFAEL · ASESOR BYD\" no unverified city. Headline \"Súbete y conoce\\ntu próximo BYD\". Support \"Agenda una prueba de manejo con Rafael\". Two checks \"Consulta disponibilidad\" and \"Coordina tu horario\". CTA \"Pide tu prueba por WhatsApp\". No unverified promises."
++    },
++    {
++      "id": "RAFAEL_v3_2A",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero actual same Rafael reference face, waist-up candid eye-level portrait not closeup, real textured charcoal polo from ref1 no logos; actual white BYD ref3 visible at left behind him. Natural textured skin and hair, no exaggerated smile. Brand \"RAFAEL · ASESOR BYD\", omit unverified city. Headline \"Habla con Rafael,\\nasesor BYD\". Support \"Información para elegir tu próximo auto\". Two checks \"Versiones y disponibilidad\" and \"Coordina tu visita\". CTA \"Escríbele por WhatsApp\". No response speed claims or prices."
++    },
++    {
++      "id": "RAFAEL_v3_2B",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero actual same Rafael face refs1/2 and real charcoal textured polo ref1 with NO LOGO, medium waist-up by exact white car ref3 in showroom, hands outside crop; no fake phone screens or testimonials. Brand \"RAFAEL · ASESOR BYD\", omit city as unknown. Headline \"Pregunta por tu\\nBYD por WhatsApp\". Support \"Consulta versiones y disponibilidad con Rafael\". Two checks \"Información del auto\" and \"Agenda tu visita\". CTA \"Escríbele a Rafael por WhatsApp\". No same day response guarantees, no price."
++    }
++  ],
++  "imagenes": [
++    {
++      "id": "MARIANO_v3_A1",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-3f4c4e82-e925-497d-9b9d-056a1c66a127.png"
++    },
++    {
++      "id": "MARIANO_v3_A2",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-fedbce63-fae2-45f6-8dab-5e3ec3a8ddfd.png"
++    },
++    {
++      "id": "MARIANO_v3_B1",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-291f94c9-a524-445b-b07d-3ac2c4eab40e.png"
++    },
++    {
++      "id": "MARIANO_v3_B2",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-5895f293-34ba-433b-8132-5f35c72af3e1.png"
++    },
++    {
++      "id": "RAFAEL_v3_1A",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-e1996d99-a826-494e-aea3-0b48fb519312.png"
++    },
++    {
++      "id": "RAFAEL_v3_1B",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-75d44f9c-7250-46ec-9162-0d5dc15a739e.png"
++    },
++    {
++      "id": "RAFAEL_v3_2A",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-6c268290-becc-472c-b73a-9d0195319756.png"
++    },
++    {
++      "id": "RAFAEL_v3_2B",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-7b6779e0-14cd-4606-84b2-65790136758d.png"
++    }
++  ],
++  "notas": [
++    "Precio 2.8M omitido: vigencia no confirmada en Mariano.md.",
++    "Ciudad de Rafael omitida: no confirmada en Rafael.md.",
++    "Sin promesa de atención o prueba hoy.",
++    "No se ha solicitado una nueva calificación de Glimmer."
++  ]
++}
+
+exec
+/bin/bash -lc 'python entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 3203ms:
+MARIANO_v3_A1 1080x1350 OK
+MARIANO_v3_A2 1080x1350 OK
+MARIANO_v3_B1 1080x1350 OK
+MARIANO_v3_B2 1080x1350 OK
+RAFAEL_v3_1A 1080x1350 OK
+RAFAEL_v3_1B 1080x1350 OK
+RAFAEL_v3_2A 1080x1350 OK
+RAFAEL_v3_2B 1080x1350 OK
+
+exec
+/bin/bash -lc "python - <<'PY'
+from PIL import Image,ImageDraw
+from pathlib import Path
+ps=sorted(Path('entregables/anuncios_imagen_20261104/v3_glimmer').glob('*.png'));o=Image.new('RGB',(1440,900),'#ddd')
+for i,p in enumerate(ps):
+ im=Image.open(p);im.thumbnail((360,450));o.paste(im,(i%4*360,i//4*450))
+o.save('/tmp/finales.jpg')
+PY" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 369ms:
+codex
+La revisión detectó que el recorte del armado cortaba la parte superior de la cabeza de Rafael. Estoy corrigiendo ese encuadre. Los ocho ya tienen tamaño exacto, texto compuesto en postproducción y 120 px libres debajo del botón.
+
+apply patch
+patch: completed
+/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+diff --git a/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py b/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..7b22aaa0c61b63ce3b913ed0994d4f440eeb238d
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+@@ -0,0 +1,63 @@
++"""Tipografía vectorial en postproducción sobre fotografías creadas con imagegen.
++Ejecutar desde esta carpeta: python armar_v3.py
++"""
++import base64, json, shutil
++from pathlib import Path
++from html import escape
++import cairosvg
++from PIL import ImageFont, Image
++
++ROOT = Path(__file__).resolve().parent
++NAVY = '#0B1D35'
++COPY = {
++ 'MARIANO_v3_A1': (['3 casas en','Vizcaíno'],80,'Bugambilia · Benjamina · Salvia',['Recorrido con Mariano','Compara las tres opciones'],'Pide el recorrido por WhatsApp'),
++ 'MARIANO_v3_A2': (['Conoce las casas','por dentro'],80,'Recorre Vizcaíno Residencial con Mariano',['Bugambilia, Benjamina y Salvia','Compara tus opciones'],'Pide el recorrido por WhatsApp'),
++ 'MARIANO_v3_B1': (['Conoce tu próxima','casa: Benjamina'],72,'Consulta precio y disponibilidad con Mariano',['Vizcaíno Residencial','Recorrido de la casa'],'Consulta por WhatsApp'),
++ 'MARIANO_v3_B2': (['Agenda tu visita','a Benjamina'],80,'Conoce la casa con Mariano',['Consulta disponibilidad','Pregunta por el precio vigente'],'Agenda por WhatsApp'),
++ 'RAFAEL_v3_1A': (['Agenda tu prueba','de manejo'],76,'Coordina tu visita con Rafael',['Atención por WhatsApp','Confirma el horario'],'Agenda por WhatsApp'),
++ 'RAFAEL_v3_1B': (['Súbete y conoce','tu próximo BYD'],78,'Agenda tu prueba de manejo con Rafael',['Consulta disponibilidad','Coordina tu horario'],'Pide tu prueba por WhatsApp'),
++ 'RAFAEL_v3_2A': (['Habla con Rafael,','asesor BYD'],76,'Información para elegir tu próximo auto',['Versiones y disponibilidad','Coordina tu visita'],'Escríbele por WhatsApp'),
++ 'RAFAEL_v3_2B': (['Pregunta por tu','BYD por WhatsApp'],72,'Consulta versiones y disponibilidad con Rafael',['Información del auto','Agenda tu visita'],'Escríbele a Rafael por WhatsApp'),
++}
++
++def text(x,y,s,size,weight='bold'):
++ font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans'+('-Bold' if weight=='bold' else '')+'.ttf',size)
++ assert font.getlength(s) <= 864, (s,font.getlength(s))
++ return f'<text x="{x}" y="{y}" fill="white" font-family="DejaVu Sans" font-weight="{weight}" font-size="{size}">{escape(s)}</text>'
++
++def main():
++ (ROOT/'fuentes').mkdir(exist_ok=True)
++ (ROOT/'editables').mkdir(exist_ok=True)
++ manifest=json.loads((ROOT/'produccion.json').read_text())
++ for row in manifest['imagenes']:
++  name=row['id']; src=Path(row['path'])
++  saved=ROOT/'fuentes'/f'{name}_imagegen.png'
++  if src.exists() and src!=saved: shutil.copy2(src,saved)
++  data=base64.b64encode(saved.read_bytes()).decode()
++  headline,size,support,bullets,cta=COPY[name]
++  assert len(' '.join(headline).split())<=8 and len(support.split())<=10
++  brand='MARIANO · VIZCAÍNO RESIDENCIAL' if name.startswith('MARIANO') else 'RAFAEL · ASESOR BYD'
++  photo_y=80 if name.startswith('RAFAEL') else -25
++  svg=f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1350" viewBox="0 0 1080 1350">
++  <defs><clipPath id="hero"><rect y="135" width="1080" height="605"/></clipPath></defs>
++  <rect width="1080" height="1350" fill="{NAVY}"/>
++  <image x="0" y="{photo_y}" width="1080" height="1350" preserveAspectRatio="none" xlink:href="data:image/png;base64,{data}" clip-path="url(#hero)"/>
++  '''
++  if name.startswith('RAFAEL'): svg+=f'<rect x="0" y="135" width="650" height="65" fill="{NAVY}"/>'
++  svg+=text(108,58,brand,28)
++  if name.startswith('MARIANO'): svg+=text(108,99,'Rosarito, B.C.',24,'normal')
++  svg+=text(108,825,headline[0],size)+text(108,912,headline[1],size)
++  svg+=text(108,974,support,36,'normal')
++  for y,bullet in zip([1030,1077],bullets):
++   svg+=f'<path d="M111 {y-12} l8 8 l16 -19" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>'
++   svg+=text(150,y,bullet,30,'normal')
++  svg+='<rect x="108" y="1140" width="864" height="90" rx="22" fill="#087F3C"/>'
++  svg+='<g transform="translate(137 1157)" fill="none" stroke="white" stroke-width="3.4"><path d="M6 48 l3 -11 a23 23 0 1 1 9 9 Z"/><path d="M20 13 q-8 5 3 18 q10 11 17 4 l-7 -6 l-4 3 q-7 -3 -9 -10 l4 -3 Z"/></g>'
++  svg+=text(210,1197,cta,36)
++  svg+='</svg>'
++  (ROOT/'editables'/f'{name}.svg').write_text(svg)
++  cairosvg.svg2png(bytestring=svg.encode(),write_to=str(ROOT/f'{name}.png'))
++  with Image.open(ROOT/f'{name}.png') as im: assert im.size==(1080,1350)
++  print(name,'1080x1350 OK')
++
++if __name__=='__main__': main()
+diff --git a/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json b/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..d9f6d5c27466c378244c825febc849e48ac96fbe
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json
+@@ -0,0 +1,106 @@
++{
++  "herramienta": "image_gen integrada; composición y tipografía SVG en postproducción",
++  "prompt_base": "Use case: ads-marketing, identity-preserve. Create a polished finished Spanish advertisement, vertical 4:5 intended 1080x1350. Strict layout coordinates relative to 1080x1350: top small brand at x108 y60 in top 10%; editorial photographic hero y135-740 (60% image), medium portrait not extreme closeup, photo subjects must match the attached actual people and properties EXACTLY, not stock replacements. Lower solid dark navy panel y740-1350. Large WHITE bold grotesk headline at x108 y770, 80px equivalent, max two lines. One support line 38px equivalent beneath headline, max10 words. Then specified short WHITE check bullets 30px. Wide green WhatsApp button x108 y1140 width864 height88; bottom edge at y1228 leaving122px safe bottom margin. Button white bold text plus simple WhatsApp icon. All text correct Spanish accents exact specified text, no invented letters. Total text occupies less40%. Palette navy/white/neutrals, green ONLY in button, no other colored graphic accents. No unrelated brand logos anywhere, remove clothing brand emblems. No fabricated testimonial or price. Photographic skin pores, fine wrinkles, natural imperfect skin, asymmetric relaxed expression, no beauty smoothing, real folded fabric, coherent single source shadows; hands concealed or anatomically correct; preserve identity. No text on photographed scene except actual BYD emblem on car when relevant. Designed premium editorial clarity and generous negative space, strong hierarchy brand>headline>support>checks>button. Do not show placement instructions. ",
++  "variantes": [
++    {
++      "id": "MARIANO_v3_A2",
++      "refs": [
++        "clientes/Mariano/fotos/mariano_luz_final.png",
++        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg"
++      ],
++      "spec": "Hero: Mariano same exact real face and blue checked blazer as ref1, waist-up, at right side of actual Benjamina ref2, natural sunlit scene, hands outside crop, avoid extreme face. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\" with city \"Rosarito, B.C.\". Headline \"Conoce las casas\\npor dentro\". Support \"Recorre Vizcaíno Residencial con Mariano\". Two checks \"Bugambilia, Benjamina y Salvia\" and \"Compara tus opciones\". CTA \"Pide el recorrido por WhatsApp\". No price."
++    },
++    {
++      "id": "MARIANO_v3_B1",
++      "refs": [
++        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg",
++        "clientes/Mariano/fotos/mariano_luz_final.png"
++      ],
++      "spec": "Hero primarily actual exact Benjamina facade ref1, preserve architecture; small portrait of Mariano ref2 in corner of hero only, real face blue blazer. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\", city \"Rosarito, B.C.\". Headline \"Conoce tu próxima\\ncasa: Benjamina\". Support \"Consulta precio y disponibilidad con Mariano\". Two checks \"Vizcaíno Residencial\" and \"Recorrido de la casa\". CTA \"Consulta por WhatsApp\". No price at all because current price unconfirmed; do not write 2.8M."
++    },
++    {
++      "id": "MARIANO_v3_B2",
++      "refs": [
++        "clientes/Mariano/fotos/mariano_luz_final.png",
++        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg"
++      ],
++      "spec": "Hero Mariano same exact real face blue checked blazer, standing at open entrance of actual Benjamina reference2, relaxed expression with hands hidden behind lower frame. Preserve house. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\", city \"Rosarito, B.C.\". Headline \"Agenda tu visita\\na Benjamina\". Support \"Conoce la casa con Mariano\". Two checks \"Consulta disponibilidad\" and \"Pregunta por el precio vigente\". CTA \"Agenda por WhatsApp\". No prices."
++    },
++    {
++      "id": "RAFAEL_v3_1A",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero Rafael next to actual exact WHITE BYD front of car ref3 in that showroom. Face identity from refs1 and2; clothing MUST be dark charcoal textured short sleeve polo from ref1, NOT navy polo with green emblem from ref2. No emblem on polo. Hands hidden behind car. Natural medium portrait, eye-level. Brand \"RAFAEL · ASESOR BYD\" no city because not verified, do not invent city or agency name. Headline \"Agenda tu prueba\\nde manejo\". Support \"Coordina tu visita con Rafael\". Two checks \"Atención por WhatsApp\" and \"Confirma el horario\". CTA \"Agenda por WhatsApp\". No same-day claim, price, finance."
++    },
++    {
++      "id": "RAFAEL_v3_1B",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero actual Rafael same exact face refs1/2 wearing real dark charcoal textured polo ref1 NO CLOTHING LOGO, next to open driver door of white BYD ref3, relaxed portrait with hands concealed. Preserve car design and actual showroom. Eye-level natural editorial photograph. Brand \"RAFAEL · ASESOR BYD\" no unverified city. Headline \"Súbete y conoce\\ntu próximo BYD\". Support \"Agenda una prueba de manejo con Rafael\". Two checks \"Consulta disponibilidad\" and \"Coordina tu horario\". CTA \"Pide tu prueba por WhatsApp\". No unverified promises."
++    },
++    {
++      "id": "RAFAEL_v3_2A",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero actual same Rafael reference face, waist-up candid eye-level portrait not closeup, real textured charcoal polo from ref1 no logos; actual white BYD ref3 visible at left behind him. Natural textured skin and hair, no exaggerated smile. Brand \"RAFAEL · ASESOR BYD\", omit unverified city. Headline \"Habla con Rafael,\\nasesor BYD\". Support \"Información para elegir tu próximo auto\". Two checks \"Versiones y disponibilidad\" and \"Coordina tu visita\". CTA \"Escríbele por WhatsApp\". No response speed claims or prices."
++    },
++    {
++      "id": "RAFAEL_v3_2B",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero actual same Rafael face refs1/2 and real charcoal textured polo ref1 with NO LOGO, medium waist-up by exact white car ref3 in showroom, hands outside crop; no fake phone screens or testimonials. Brand \"RAFAEL · ASESOR BYD\", omit city as unknown. Headline \"Pregunta por tu\\nBYD por WhatsApp\". Support \"Consulta versiones y disponibilidad con Rafael\". Two checks \"Información del auto\" and \"Agenda tu visita\". CTA \"Escríbele a Rafael por WhatsApp\". No same day response guarantees, no price."
++    }
++  ],
++  "imagenes": [
++    {
++      "id": "MARIANO_v3_A1",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-3f4c4e82-e925-497d-9b9d-056a1c66a127.png"
++    },
++    {
++      "id": "MARIANO_v3_A2",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-fedbce63-fae2-45f6-8dab-5e3ec3a8ddfd.png"
++    },
++    {
++      "id": "MARIANO_v3_B1",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-291f94c9-a524-445b-b07d-3ac2c4eab40e.png"
++    },
++    {
++      "id": "MARIANO_v3_B2",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-5895f293-34ba-433b-8132-5f35c72af3e1.png"
++    },
++    {
++      "id": "RAFAEL_v3_1A",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-e1996d99-a826-494e-aea3-0b48fb519312.png"
++    },
++    {
++      "id": "RAFAEL_v3_1B",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-75d44f9c-7250-46ec-9162-0d5dc15a739e.png"
++    },
++    {
++      "id": "RAFAEL_v3_2A",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-6c268290-becc-472c-b73a-9d0195319756.png"
++    },
++    {
++      "id": "RAFAEL_v3_2B",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-7b6779e0-14cd-4606-84b2-65790136758d.png"
++    }
++  ],
++  "notas": [
++    "Precio 2.8M omitido: vigencia no confirmada en Mariano.md.",
++    "Ciudad de Rafael omitida: no confirmada en Rafael.md.",
++    "Sin promesa de atención o prueba hoy.",
++    "No se ha solicitado una nueva calificación de Glimmer."
++  ]
++}
+
+exec
+/bin/bash -lc 'python entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 3304ms:
+MARIANO_v3_A1 1080x1350 OK
+MARIANO_v3_A2 1080x1350 OK
+MARIANO_v3_B1 1080x1350 OK
+MARIANO_v3_B2 1080x1350 OK
+RAFAEL_v3_1A 1080x1350 OK
+RAFAEL_v3_1B 1080x1350 OK
+RAFAEL_v3_2A 1080x1350 OK
+RAFAEL_v3_2B 1080x1350 OK
+
+exec
+/bin/bash -lc "python - <<'PY'
+from PIL import Image
+from pathlib import Path
+ps=sorted(Path('entregables/anuncios_imagen_20261104/v3_glimmer').glob('RAFAEL*.png'));o=Image.new('RGB',(1440,450),'#ddd')
+for i,p in enumerate(ps):
+ im=Image.open(p);im.thumbnail((360,450));o.paste(im,(i*360,0))
+o.save('/tmp/rafael_final.jpg')
+PY" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 200ms:
+exec
+/bin/bash -lc 'git status --short -- entregables/anuncios_imagen_20261104/v3_glimmer' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+?? entregables/anuncios_imagen_20261104/v3_glimmer/
+
+exec
+/bin/bash -lc "cp '/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-3a089d87-a24a-4d71-ab1b-02cbc6bc2513.png' entregables/anuncios_imagen_20261104/v3_glimmer/fuentes/RAFAEL_hero_sin_texto.png" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+apply patch
+patch: completed
+/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+diff --git a/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py b/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..4b093933cdd1e1b5b112099e0d630b84356f1f20
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+@@ -0,0 +1,67 @@
++"""Tipografía vectorial en postproducción sobre fotografías creadas con imagegen.
++Ejecutar desde esta carpeta: python armar_v3.py
++"""
++import base64, json, shutil
++from pathlib import Path
++from html import escape
++import cairosvg
++from PIL import ImageFont, Image
++
++ROOT = Path(__file__).resolve().parent
++NAVY = '#0B1D35'
++COPY = {
++ 'MARIANO_v3_A1': (['3 casas en','Vizcaíno'],80,'Bugambilia · Benjamina · Salvia',['Recorrido con Mariano','Compara las tres opciones'],'Pide el recorrido por WhatsApp'),
++ 'MARIANO_v3_A2': (['Conoce las casas','por dentro'],80,'Recorre Vizcaíno Residencial con Mariano',['Bugambilia, Benjamina y Salvia','Compara tus opciones'],'Pide el recorrido por WhatsApp'),
++ 'MARIANO_v3_B1': (['Conoce tu próxima','casa: Benjamina'],72,'Consulta precio y disponibilidad con Mariano',['Vizcaíno Residencial','Recorrido de la casa'],'Consulta por WhatsApp'),
++ 'MARIANO_v3_B2': (['Agenda tu visita','a Benjamina'],80,'Conoce la casa con Mariano',['Consulta disponibilidad','Pregunta por el precio vigente'],'Agenda por WhatsApp'),
++ 'RAFAEL_v3_1A': (['Agenda tu prueba','de manejo'],76,'Coordina tu visita con Rafael',['Atención por WhatsApp','Confirma el horario'],'Agenda por WhatsApp'),
++ 'RAFAEL_v3_1B': (['Súbete y conoce','tu próximo BYD'],78,'Agenda tu prueba de manejo con Rafael',['Consulta disponibilidad','Coordina tu horario'],'Pide tu prueba por WhatsApp'),
++ 'RAFAEL_v3_2A': (['Habla con Rafael,','asesor BYD'],76,'Información para elegir tu próximo auto',['Versiones y disponibilidad','Coordina tu visita'],'Escríbele por WhatsApp'),
++ 'RAFAEL_v3_2B': (['Pregunta por tu','BYD por WhatsApp'],72,'Consulta versiones y disponibilidad con Rafael',['Información del auto','Agenda tu visita'],'Escríbele a Rafael por WhatsApp'),
++}
++
++def text(x,y,s,size,weight='bold'):
++ font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans'+('-Bold' if weight=='bold' else '')+'.ttf',size)
++ assert font.getlength(s) <= 864, (s,font.getlength(s))
++ return f'<text x="{x}" y="{y}" fill="white" font-family="DejaVu Sans" font-weight="{weight}" font-size="{size}">{escape(s)}</text>'
++
++def main():
++ (ROOT/'fuentes').mkdir(exist_ok=True)
++ (ROOT/'editables').mkdir(exist_ok=True)
++ manifest=json.loads((ROOT/'produccion.json').read_text())
++ for row in manifest['imagenes']:
++  name=row['id']; src=Path(row['path'])
++  saved=ROOT/'fuentes'/f'{name}_imagegen.png'
++  if src.exists() and src!=saved: shutil.copy2(src,saved)
++  data=base64.b64encode(saved.read_bytes()).decode()
++  headline,size,support,bullets,cta=COPY[name]
++  assert len(' '.join(headline).split())<=8 and len(support.split())<=10
++  brand='MARIANO · VIZCAÍNO RESIDENCIAL' if name.startswith('MARIANO') else 'RAFAEL · ASESOR BYD'
++  photo_y=-25
++  photo_tag=f'<image x="0" y="{photo_y}" width="1080" height="1350" preserveAspectRatio="none" xlink:href="data:image/png;base64,{data}" clip-path="url(#hero)"/>'
++  if name.startswith('RAFAEL'):
++   clean=base64.b64encode((ROOT/'fuentes'/'RAFAEL_hero_sin_texto.png').read_bytes()).decode()
++   x,y,w,h=(-108,110,1188,668) if name.endswith('2A') else (0,135,1080,605)
++   photo_tag=f'<image x="{x}" y="{y}" width="{w}" height="{h}" preserveAspectRatio="xMidYMid slice" xlink:href="data:image/png;base64,{clean}" clip-path="url(#hero)"/>'
++  svg=f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1350" viewBox="0 0 1080 1350">
++  <defs><clipPath id="hero"><rect y="135" width="1080" height="605"/></clipPath></defs>
++  <rect width="1080" height="1350" fill="{NAVY}"/>
++  {photo_tag}
++  '''
++  svg+=text(108,58,brand,28)
++  if name.startswith('MARIANO'): svg+=text(108,99,'Rosarito, B.C.',24,'normal')
++  svg+=text(108,825,headline[0],size)+text(108,912,headline[1],size)
++  svg+=text(108,974,support,36,'normal')
++  for y,bullet in zip([1030,1077],bullets):
++   svg+=f'<path d="M111 {y-12} l8 8 l16 -19" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>'
++   svg+=text(150,y,bullet,30,'normal')
++  svg+='<rect x="108" y="1140" width="864" height="90" rx="22" fill="#087F3C"/>'
++  svg+='<g transform="translate(137 1157)" fill="none" stroke="white" stroke-width="3.4"><path d="M6 48 l3 -11 a23 23 0 1 1 9 9 Z"/><path d="M20 13 q-8 5 3 18 q10 11 17 4 l-7 -6 l-4 3 q-7 -3 -9 -10 l4 -3 Z"/></g>'
++  svg+=text(210,1197,cta,36)
++  svg+='</svg>'
++  (ROOT/'editables'/f'{name}.svg').write_text(svg)
++  cairosvg.svg2png(bytestring=svg.encode(),write_to=str(ROOT/f'{name}.png'))
++  with Image.open(ROOT/f'{name}.png') as im: assert im.size==(1080,1350)
++  print(name,'1080x1350 OK')
++
++if __name__=='__main__': main()
+diff --git a/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json b/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..d9f6d5c27466c378244c825febc849e48ac96fbe
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json
+@@ -0,0 +1,106 @@
++{
++  "herramienta": "image_gen integrada; composición y tipografía SVG en postproducción",
++  "prompt_base": "Use case: ads-marketing, identity-preserve. Create a polished finished Spanish advertisement, vertical 4:5 intended 1080x1350. Strict layout coordinates relative to 1080x1350: top small brand at x108 y60 in top 10%; editorial photographic hero y135-740 (60% image), medium portrait not extreme closeup, photo subjects must match the attached actual people and properties EXACTLY, not stock replacements. Lower solid dark navy panel y740-1350. Large WHITE bold grotesk headline at x108 y770, 80px equivalent, max two lines. One support line 38px equivalent beneath headline, max10 words. Then specified short WHITE check bullets 30px. Wide green WhatsApp button x108 y1140 width864 height88; bottom edge at y1228 leaving122px safe bottom margin. Button white bold text plus simple WhatsApp icon. All text correct Spanish accents exact specified text, no invented letters. Total text occupies less40%. Palette navy/white/neutrals, green ONLY in button, no other colored graphic accents. No unrelated brand logos anywhere, remove clothing brand emblems. No fabricated testimonial or price. Photographic skin pores, fine wrinkles, natural imperfect skin, asymmetric relaxed expression, no beauty smoothing, real folded fabric, coherent single source shadows; hands concealed or anatomically correct; preserve identity. No text on photographed scene except actual BYD emblem on car when relevant. Designed premium editorial clarity and generous negative space, strong hierarchy brand>headline>support>checks>button. Do not show placement instructions. ",
++  "variantes": [
++    {
++      "id": "MARIANO_v3_A2",
++      "refs": [
++        "clientes/Mariano/fotos/mariano_luz_final.png",
++        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg"
++      ],
++      "spec": "Hero: Mariano same exact real face and blue checked blazer as ref1, waist-up, at right side of actual Benjamina ref2, natural sunlit scene, hands outside crop, avoid extreme face. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\" with city \"Rosarito, B.C.\". Headline \"Conoce las casas\\npor dentro\". Support \"Recorre Vizcaíno Residencial con Mariano\". Two checks \"Bugambilia, Benjamina y Salvia\" and \"Compara tus opciones\". CTA \"Pide el recorrido por WhatsApp\". No price."
++    },
++    {
++      "id": "MARIANO_v3_B1",
++      "refs": [
++        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg",
++        "clientes/Mariano/fotos/mariano_luz_final.png"
++      ],
++      "spec": "Hero primarily actual exact Benjamina facade ref1, preserve architecture; small portrait of Mariano ref2 in corner of hero only, real face blue blazer. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\", city \"Rosarito, B.C.\". Headline \"Conoce tu próxima\\ncasa: Benjamina\". Support \"Consulta precio y disponibilidad con Mariano\". Two checks \"Vizcaíno Residencial\" and \"Recorrido de la casa\". CTA \"Consulta por WhatsApp\". No price at all because current price unconfirmed; do not write 2.8M."
++    },
++    {
++      "id": "MARIANO_v3_B2",
++      "refs": [
++        "clientes/Mariano/fotos/mariano_luz_final.png",
++        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg"
++      ],
++      "spec": "Hero Mariano same exact real face blue checked blazer, standing at open entrance of actual Benjamina reference2, relaxed expression with hands hidden behind lower frame. Preserve house. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\", city \"Rosarito, B.C.\". Headline \"Agenda tu visita\\na Benjamina\". Support \"Conoce la casa con Mariano\". Two checks \"Consulta disponibilidad\" and \"Pregunta por el precio vigente\". CTA \"Agenda por WhatsApp\". No prices."
++    },
++    {
++      "id": "RAFAEL_v3_1A",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero Rafael next to actual exact WHITE BYD front of car ref3 in that showroom. Face identity from refs1 and2; clothing MUST be dark charcoal textured short sleeve polo from ref1, NOT navy polo with green emblem from ref2. No emblem on polo. Hands hidden behind car. Natural medium portrait, eye-level. Brand \"RAFAEL · ASESOR BYD\" no city because not verified, do not invent city or agency name. Headline \"Agenda tu prueba\\nde manejo\". Support \"Coordina tu visita con Rafael\". Two checks \"Atención por WhatsApp\" and \"Confirma el horario\". CTA \"Agenda por WhatsApp\". No same-day claim, price, finance."
++    },
++    {
++      "id": "RAFAEL_v3_1B",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero actual Rafael same exact face refs1/2 wearing real dark charcoal textured polo ref1 NO CLOTHING LOGO, next to open driver door of white BYD ref3, relaxed portrait with hands concealed. Preserve car design and actual showroom. Eye-level natural editorial photograph. Brand \"RAFAEL · ASESOR BYD\" no unverified city. Headline \"Súbete y conoce\\ntu próximo BYD\". Support \"Agenda una prueba de manejo con Rafael\". Two checks \"Consulta disponibilidad\" and \"Coordina tu horario\". CTA \"Pide tu prueba por WhatsApp\". No unverified promises."
++    },
++    {
++      "id": "RAFAEL_v3_2A",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero actual same Rafael reference face, waist-up candid eye-level portrait not closeup, real textured charcoal polo from ref1 no logos; actual white BYD ref3 visible at left behind him. Natural textured skin and hair, no exaggerated smile. Brand \"RAFAEL · ASESOR BYD\", omit unverified city. Headline \"Habla con Rafael,\\nasesor BYD\". Support \"Información para elegir tu próximo auto\". Two checks \"Versiones y disponibilidad\" and \"Coordina tu visita\". CTA \"Escríbele por WhatsApp\". No response speed claims or prices."
++    },
++    {
++      "id": "RAFAEL_v3_2B",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero actual same Rafael face refs1/2 and real charcoal textured polo ref1 with NO LOGO, medium waist-up by exact white car ref3 in showroom, hands outside crop; no fake phone screens or testimonials. Brand \"RAFAEL · ASESOR BYD\", omit city as unknown. Headline \"Pregunta por tu\\nBYD por WhatsApp\". Support \"Consulta versiones y disponibilidad con Rafael\". Two checks \"Información del auto\" and \"Agenda tu visita\". CTA \"Escríbele a Rafael por WhatsApp\". No same day response guarantees, no price."
++    }
++  ],
++  "imagenes": [
++    {
++      "id": "MARIANO_v3_A1",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-3f4c4e82-e925-497d-9b9d-056a1c66a127.png"
++    },
++    {
++      "id": "MARIANO_v3_A2",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-fedbce63-fae2-45f6-8dab-5e3ec3a8ddfd.png"
++    },
++    {
++      "id": "MARIANO_v3_B1",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-291f94c9-a524-445b-b07d-3ac2c4eab40e.png"
++    },
++    {
++      "id": "MARIANO_v3_B2",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-5895f293-34ba-433b-8132-5f35c72af3e1.png"
++    },
++    {
++      "id": "RAFAEL_v3_1A",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-e1996d99-a826-494e-aea3-0b48fb519312.png"
++    },
++    {
++      "id": "RAFAEL_v3_1B",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-75d44f9c-7250-46ec-9162-0d5dc15a739e.png"
++    },
++    {
++      "id": "RAFAEL_v3_2A",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-6c268290-becc-472c-b73a-9d0195319756.png"
++    },
++    {
++      "id": "RAFAEL_v3_2B",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-7b6779e0-14cd-4606-84b2-65790136758d.png"
++    }
++  ],
++  "notas": [
++    "Precio 2.8M omitido: vigencia no confirmada en Mariano.md.",
++    "Ciudad de Rafael omitida: no confirmada en Rafael.md.",
++    "Sin promesa de atención o prueba hoy.",
++    "No se ha solicitado una nueva calificación de Glimmer."
++  ]
++}
+
+exec
+/bin/bash -lc 'python entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 3513ms:
+MARIANO_v3_A1 1080x1350 OK
+MARIANO_v3_A2 1080x1350 OK
+MARIANO_v3_B1 1080x1350 OK
+MARIANO_v3_B2 1080x1350 OK
+RAFAEL_v3_1A 1080x1350 OK
+RAFAEL_v3_1B 1080x1350 OK
+RAFAEL_v3_2A 1080x1350 OK
+RAFAEL_v3_2B 1080x1350 OK
+
+exec
+/bin/bash -lc "python - <<'PY'
+from PIL import Image,ImageDraw
+from pathlib import Path
+root=Path('entregables/anuncios_imagen_20261104/v3_glimmer');ps=sorted(root.glob('*.png'));o=Image.new('RGB',(1440,960),'#ddd');d=ImageDraw.Draw(o)
+for i,p in enumerate(ps):
+ im=Image.open(p);assert im.size==(1080,1350);im.thumbnail((360,450));x=i%4*360;y=i//4*480;o.paste(im,(x,y));d.text((x+20,y+454),p.stem,fill='black')
+o.save(root/'VISTA_CONJUNTA.jpg')
+PY" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 349ms:
+exec
+/bin/bash -lc "python - <<'PY'
+from pathlib import Path
+import json
+p=Path('entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json'); j=json.loads(p.read_text()); j['variantes'].insert(0,{'id':'MARIANO_v3_A1','spec':'Tríptico de Benjamina, Salvia y Bugambilia con retrato de Mariano; titular 3 casas en Vizcaíno; apoyo Bugambilia · Benjamina · Salvia; checks Recorrido con Mariano / Compara las tres opciones; CTA Pide el recorrido por WhatsApp.'});j['foto_final_rafael']='fuentes/RAFAEL_hero_sin_texto.png';j['verificacion']={'formato':'8 PNG RGB, 1080x1350','titulares':'72 a 80 px, hasta 8 palabras','apoyo':'36 px, hasta 10 palabras','vinetas':'2 por anuncio, 30 px','boton':'y1140 a1230; margen inferior120px (8.89%)','color_texto':'blanco sobre #0B1D35','boton_color':'#087F3C; contraste blanco aproximado5.1:1','revision':'Visual de los ocho finales; SVG conserva texto exacto en español','limitaciones':'Ciudad de Rafael y vigencia del precio de Benjamina sin confirmar; omitidas. Fotografías recompuestas con IA a partir de las referencias.'};p.write_text(json.dumps(j,ensure_ascii=False,indent=2))
+PY" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+apply patch
+patch: completed
+/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v3_glimmer/LEEME.md
+diff --git a/entregables/anuncios_imagen_20261104/v3_glimmer/LEEME.md b/entregables/anuncios_imagen_20261104/v3_glimmer/LEEME.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..bddf65f63d6fa3d0631b74b1d4aff57e0e18874d
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v3_glimmer/LEEME.md
+@@ -0,0 +1,20 @@
++# Ocho anuncios v3
++
++Finales: MARIANO_v3_A1.png, MARIANO_v3_A2.png, MARIANO_v3_B1.png, MARIANO_v3_B2.png, RAFAEL_v3_1A.png, RAFAEL_v3_1B.png, RAFAEL_v3_2A.png, RAFAEL_v3_2B.png.
++
++Todos son 1080×1350. Fotografías recompuestas con la herramienta imagegen integrada a partir de las referencias reales; tipografía final vectorial añadida después. Los textos, tamaños y márgenes están definidos en armar_v3.py. Los editables SVG incluyen sus fotografías. Fuentes conserva las generaciones sin borrar los originales.
++
++VISTA_CONJUNTA.jpg muestra los ocho finales. produccion.json conserva instrucciones, referencias y verificación. Para reconstruir: ejecutar python armar_v3.py desde cualquier directorio; requiere Pillow y CairoSVG.
++
++Cambios respecto de v2:
++
++- Mariano A1: tres fachadas diferenciadas en un tríptico y retrato de Mariano. Se quitaron los precios adicionales sin respaldo en la guía y se aumentó la jerarquía.
++- Mariano A2: plano medio con identidad y saco de referencia, frente a Benjamina. Titular de recorrido más corto, dos viñetas y CTA separado.
++- Mariano B1: Benjamina conserva el protagonismo y aparece Mariano. Se omitió $2.8M porque el documento pide confirmar vigencia y condiciones.
++- Mariano B2: cita enfocada específicamente en Benjamina. Precio no confirmado sustituido por consulta de precio vigente; márgenes y botón corregidos.
++- Rafael 1A: identidad y polo oscuro de la referencia real, auto blanco de referencia. Se retiraron el emblema ajeno y la promesa de disponibilidad inmediata.
++- Rafael 1B: retrato medio y vehículo como contexto, sin gesto ni mano sobre la puerta. Se conserva la invitación a probar el auto con horario por coordinar.
++- Rafael 2A: se sustituyó el primer plano extremo por plano medio con textura natural y auto visible. Se quitó el mensaje de bot y se priorizó contacto con el asesor.
++- Rafael 2B: se eliminó el teléfono con pantalla negra y el polo con logotipo ajeno. Se priorizaron consulta de versiones, disponibilidad y WhatsApp.
++
++Falta confirmar la ciudad de Rafael, horarios y precio vigente de Benjamina para incorporar esos datos. No se ha solicitado nueva calificación de Glimmer; no se atribuye ninguna puntuación a estos anuncios.
+diff --git a/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py b/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..4b093933cdd1e1b5b112099e0d630b84356f1f20
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v3_glimmer/armar_v3.py
+@@ -0,0 +1,67 @@
++"""Tipografía vectorial en postproducción sobre fotografías creadas con imagegen.
++Ejecutar desde esta carpeta: python armar_v3.py
++"""
++import base64, json, shutil
++from pathlib import Path
++from html import escape
++import cairosvg
++from PIL import ImageFont, Image
++
++ROOT = Path(__file__).resolve().parent
++NAVY = '#0B1D35'
++COPY = {
++ 'MARIANO_v3_A1': (['3 casas en','Vizcaíno'],80,'Bugambilia · Benjamina · Salvia',['Recorrido con Mariano','Compara las tres opciones'],'Pide el recorrido por WhatsApp'),
++ 'MARIANO_v3_A2': (['Conoce las casas','por dentro'],80,'Recorre Vizcaíno Residencial con Mariano',['Bugambilia, Benjamina y Salvia','Compara tus opciones'],'Pide el recorrido por WhatsApp'),
++ 'MARIANO_v3_B1': (['Conoce tu próxima','casa: Benjamina'],72,'Consulta precio y disponibilidad con Mariano',['Vizcaíno Residencial','Recorrido de la casa'],'Consulta por WhatsApp'),
++ 'MARIANO_v3_B2': (['Agenda tu visita','a Benjamina'],80,'Conoce la casa con Mariano',['Consulta disponibilidad','Pregunta por el precio vigente'],'Agenda por WhatsApp'),
++ 'RAFAEL_v3_1A': (['Agenda tu prueba','de manejo'],76,'Coordina tu visita con Rafael',['Atención por WhatsApp','Confirma el horario'],'Agenda por WhatsApp'),
++ 'RAFAEL_v3_1B': (['Súbete y conoce','tu próximo BYD'],78,'Agenda tu prueba de manejo con Rafael',['Consulta disponibilidad','Coordina tu horario'],'Pide tu prueba por WhatsApp'),
++ 'RAFAEL_v3_2A': (['Habla con Rafael,','asesor BYD'],76,'Información para elegir tu próximo auto',['Versiones y disponibilidad','Coordina tu visita'],'Escríbele por WhatsApp'),
++ 'RAFAEL_v3_2B': (['Pregunta por tu','BYD por WhatsApp'],72,'Consulta versiones y disponibilidad con Rafael',['Información del auto','Agenda tu visita'],'Escríbele a Rafael por WhatsApp'),
++}
++
++def text(x,y,s,size,weight='bold'):
++ font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans'+('-Bold' if weight=='bold' else '')+'.ttf',size)
++ assert font.getlength(s) <= 864, (s,font.getlength(s))
++ return f'<text x="{x}" y="{y}" fill="white" font-family="DejaVu Sans" font-weight="{weight}" font-size="{size}">{escape(s)}</text>'
++
++def main():
++ (ROOT/'fuentes').mkdir(exist_ok=True)
++ (ROOT/'editables').mkdir(exist_ok=True)
++ manifest=json.loads((ROOT/'produccion.json').read_text())
++ for row in manifest['imagenes']:
++  name=row['id']; src=Path(row['path'])
++  saved=ROOT/'fuentes'/f'{name}_imagegen.png'
++  if src.exists() and src!=saved: shutil.copy2(src,saved)
++  data=base64.b64encode(saved.read_bytes()).decode()
++  headline,size,support,bullets,cta=COPY[name]
++  assert len(' '.join(headline).split())<=8 and len(support.split())<=10
++  brand='MARIANO · VIZCAÍNO RESIDENCIAL' if name.startswith('MARIANO') else 'RAFAEL · ASESOR BYD'
++  photo_y=-25
++  photo_tag=f'<image x="0" y="{photo_y}" width="1080" height="1350" preserveAspectRatio="none" xlink:href="data:image/png;base64,{data}" clip-path="url(#hero)"/>'
++  if name.startswith('RAFAEL'):
++   clean=base64.b64encode((ROOT/'fuentes'/'RAFAEL_hero_sin_texto.png').read_bytes()).decode()
++   x,y,w,h=(-108,110,1188,668) if name.endswith('2A') else (0,135,1080,605)
++   photo_tag=f'<image x="{x}" y="{y}" width="{w}" height="{h}" preserveAspectRatio="xMidYMid slice" xlink:href="data:image/png;base64,{clean}" clip-path="url(#hero)"/>'
++  svg=f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1350" viewBox="0 0 1080 1350">
++  <defs><clipPath id="hero"><rect y="135" width="1080" height="605"/></clipPath></defs>
++  <rect width="1080" height="1350" fill="{NAVY}"/>
++  {photo_tag}
++  '''
++  svg+=text(108,58,brand,28)
++  if name.startswith('MARIANO'): svg+=text(108,99,'Rosarito, B.C.',24,'normal')
++  svg+=text(108,825,headline[0],size)+text(108,912,headline[1],size)
++  svg+=text(108,974,support,36,'normal')
++  for y,bullet in zip([1030,1077],bullets):
++   svg+=f'<path d="M111 {y-12} l8 8 l16 -19" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>'
++   svg+=text(150,y,bullet,30,'normal')
++  svg+='<rect x="108" y="1140" width="864" height="90" rx="22" fill="#087F3C"/>'
++  svg+='<g transform="translate(137 1157)" fill="none" stroke="white" stroke-width="3.4"><path d="M6 48 l3 -11 a23 23 0 1 1 9 9 Z"/><path d="M20 13 q-8 5 3 18 q10 11 17 4 l-7 -6 l-4 3 q-7 -3 -9 -10 l4 -3 Z"/></g>'
++  svg+=text(210,1197,cta,36)
++  svg+='</svg>'
++  (ROOT/'editables'/f'{name}.svg').write_text(svg)
++  cairosvg.svg2png(bytestring=svg.encode(),write_to=str(ROOT/f'{name}.png'))
++  with Image.open(ROOT/f'{name}.png') as im: assert im.size==(1080,1350)
++  print(name,'1080x1350 OK')
++
++if __name__=='__main__': main()
+diff --git a/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json b/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..d9f6d5c27466c378244c825febc849e48ac96fbe
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v3_glimmer/produccion.json
+@@ -0,0 +1,106 @@
++{
++  "herramienta": "image_gen integrada; composición y tipografía SVG en postproducción",
++  "prompt_base": "Use case: ads-marketing, identity-preserve. Create a polished finished Spanish advertisement, vertical 4:5 intended 1080x1350. Strict layout coordinates relative to 1080x1350: top small brand at x108 y60 in top 10%; editorial photographic hero y135-740 (60% image), medium portrait not extreme closeup, photo subjects must match the attached actual people and properties EXACTLY, not stock replacements. Lower solid dark navy panel y740-1350. Large WHITE bold grotesk headline at x108 y770, 80px equivalent, max two lines. One support line 38px equivalent beneath headline, max10 words. Then specified short WHITE check bullets 30px. Wide green WhatsApp button x108 y1140 width864 height88; bottom edge at y1228 leaving122px safe bottom margin. Button white bold text plus simple WhatsApp icon. All text correct Spanish accents exact specified text, no invented letters. Total text occupies less40%. Palette navy/white/neutrals, green ONLY in button, no other colored graphic accents. No unrelated brand logos anywhere, remove clothing brand emblems. No fabricated testimonial or price. Photographic skin pores, fine wrinkles, natural imperfect skin, asymmetric relaxed expression, no beauty smoothing, real folded fabric, coherent single source shadows; hands concealed or anatomically correct; preserve identity. No text on photographed scene except actual BYD emblem on car when relevant. Designed premium editorial clarity and generous negative space, strong hierarchy brand>headline>support>checks>button. Do not show placement instructions. ",
++  "variantes": [
++    {
++      "id": "MARIANO_v3_A2",
++      "refs": [
++        "clientes/Mariano/fotos/mariano_luz_final.png",
++        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg"
++      ],
++      "spec": "Hero: Mariano same exact real face and blue checked blazer as ref1, waist-up, at right side of actual Benjamina ref2, natural sunlit scene, hands outside crop, avoid extreme face. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\" with city \"Rosarito, B.C.\". Headline \"Conoce las casas\\npor dentro\". Support \"Recorre Vizcaíno Residencial con Mariano\". Two checks \"Bugambilia, Benjamina y Salvia\" and \"Compara tus opciones\". CTA \"Pide el recorrido por WhatsApp\". No price."
++    },
++    {
++      "id": "MARIANO_v3_B1",
++      "refs": [
++        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg",
++        "clientes/Mariano/fotos/mariano_luz_final.png"
++      ],
++      "spec": "Hero primarily actual exact Benjamina facade ref1, preserve architecture; small portrait of Mariano ref2 in corner of hero only, real face blue blazer. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\", city \"Rosarito, B.C.\". Headline \"Conoce tu próxima\\ncasa: Benjamina\". Support \"Consulta precio y disponibilidad con Mariano\". Two checks \"Vizcaíno Residencial\" and \"Recorrido de la casa\". CTA \"Consulta por WhatsApp\". No price at all because current price unconfirmed; do not write 2.8M."
++    },
++    {
++      "id": "MARIANO_v3_B2",
++      "refs": [
++        "clientes/Mariano/fotos/mariano_luz_final.png",
++        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg"
++      ],
++      "spec": "Hero Mariano same exact real face blue checked blazer, standing at open entrance of actual Benjamina reference2, relaxed expression with hands hidden behind lower frame. Preserve house. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\", city \"Rosarito, B.C.\". Headline \"Agenda tu visita\\na Benjamina\". Support \"Conoce la casa con Mariano\". Two checks \"Consulta disponibilidad\" and \"Pregunta por el precio vigente\". CTA \"Agenda por WhatsApp\". No prices."
++    },
++    {
++      "id": "RAFAEL_v3_1A",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero Rafael next to actual exact WHITE BYD front of car ref3 in that showroom. Face identity from refs1 and2; clothing MUST be dark charcoal textured short sleeve polo from ref1, NOT navy polo with green emblem from ref2. No emblem on polo. Hands hidden behind car. Natural medium portrait, eye-level. Brand \"RAFAEL · ASESOR BYD\" no city because not verified, do not invent city or agency name. Headline \"Agenda tu prueba\\nde manejo\". Support \"Coordina tu visita con Rafael\". Two checks \"Atención por WhatsApp\" and \"Confirma el horario\". CTA \"Agenda por WhatsApp\". No same-day claim, price, finance."
++    },
++    {
++      "id": "RAFAEL_v3_1B",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero actual Rafael same exact face refs1/2 wearing real dark charcoal textured polo ref1 NO CLOTHING LOGO, next to open driver door of white BYD ref3, relaxed portrait with hands concealed. Preserve car design and actual showroom. Eye-level natural editorial photograph. Brand \"RAFAEL · ASESOR BYD\" no unverified city. Headline \"Súbete y conoce\\ntu próximo BYD\". Support \"Agenda una prueba de manejo con Rafael\". Two checks \"Consulta disponibilidad\" and \"Coordina tu horario\". CTA \"Pide tu prueba por WhatsApp\". No unverified promises."
++    },
++    {
++      "id": "RAFAEL_v3_2A",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero actual same Rafael reference face, waist-up candid eye-level portrait not closeup, real textured charcoal polo from ref1 no logos; actual white BYD ref3 visible at left behind him. Natural textured skin and hair, no exaggerated smile. Brand \"RAFAEL · ASESOR BYD\", omit unverified city. Headline \"Habla con Rafael,\\nasesor BYD\". Support \"Información para elegir tu próximo auto\". Two checks \"Versiones y disponibilidad\" and \"Coordina tu visita\". CTA \"Escríbele por WhatsApp\". No response speed claims or prices."
++    },
++    {
++      "id": "RAFAEL_v3_2B",
++      "refs": [
++        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
++        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
++        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
++      ],
++      "spec": "Hero actual same Rafael face refs1/2 and real charcoal textured polo ref1 with NO LOGO, medium waist-up by exact white car ref3 in showroom, hands outside crop; no fake phone screens or testimonials. Brand \"RAFAEL · ASESOR BYD\", omit city as unknown. Headline \"Pregunta por tu\\nBYD por WhatsApp\". Support \"Consulta versiones y disponibilidad con Rafael\". Two checks \"Información del auto\" and \"Agenda tu visita\". CTA \"Escríbele a Rafael por WhatsApp\". No same day response guarantees, no price."
++    }
++  ],
++  "imagenes": [
++    {
++      "id": "MARIANO_v3_A1",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-3f4c4e82-e925-497d-9b9d-056a1c66a127.png"
++    },
++    {
++      "id": "MARIANO_v3_A2",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-fedbce63-fae2-45f6-8dab-5e3ec3a8ddfd.png"
++    },
++    {
++      "id": "MARIANO_v3_B1",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-291f94c9-a524-445b-b07d-3ac2c4eab40e.png"
++    },
++    {
++      "id": "MARIANO_v3_B2",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-5895f293-34ba-433b-8132-5f35c72af3e1.png"
++    },
++    {
++      "id": "RAFAEL_v3_1A",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-e1996d99-a826-494e-aea3-0b48fb519312.png"
++    },
++    {
++      "id": "RAFAEL_v3_1B",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-75d44f9c-7250-46ec-9162-0d5dc15a739e.png"
++    },
++    {
++      "id": "RAFAEL_v3_2A",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-6c268290-becc-472c-b73a-9d0195319756.png"
++    },
++    {
++      "id": "RAFAEL_v3_2B",
++      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-7b6779e0-14cd-4606-84b2-65790136758d.png"
++    }
++  ],
++  "notas": [
++    "Precio 2.8M omitido: vigencia no confirmada en Mariano.md.",
++    "Ciudad de Rafael omitida: no confirmada en Rafael.md.",
++    "Sin promesa de atención o prueba hoy.",
++    "No se ha solicitado una nueva calificación de Glimmer."
++  ]
++}
+
+codex
+Listos los **8 PNG en 1080×1350**, revisados visualmente. [Ver los ocho juntos](/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v3_glimmer/VISTA_CONJUNTA.jpg).
+
+Cada archivo quedó en la ruta solicitada:
+
+- [MARIANO_v3_A1.png](entregables/anuncios_imagen_20261104/v3_glimmer/MARIANO_v3_A1.png)  
+  Tres fachadas diferenciadas y retrato de Mariano. Quité precios adicionales y simplifiqué la lectura.
+
+- [MARIANO_v3_A2.png](entregables/anuncios_imagen_20261104/v3_glimmer/MARIANO_v3_A2.png)  
+  Plano medio frente a Benjamina. Titular de recorrido más grande, dos viñetas y botón separado.
+
+- [MARIANO_v3_B1.png](entregables/anuncios_imagen_20261104/v3_glimmer/MARIANO_v3_B1.png)  
+  Benjamina como protagonista, acompañada por Mariano. Omití $2.8M porque falta confirmar su vigencia.
+
+- [MARIANO_v3_B2.png](entregables/anuncios_imagen_20261104/v3_glimmer/MARIANO_v3_B2.png)  
+  Invitación concreta a visitar Benjamina. Sustituí el precio pendiente por consulta y corregí márgenes.
+
+- [RAFAEL_v3_1A.png](entregables/anuncios_imagen_20261104/v3_glimmer/RAFAEL_v3_1A.png)  
+  Rafael con su polo oscuro de referencia y el BYD blanco. Eliminé el logotipo ajeno y reforcé la invitación a agendar.
+
+- [RAFAEL_v3_1B.png](entregables/anuncios_imagen_20261104/v3_glimmer/RAFAEL_v3_1B.png)  
+  Encuadre con manos ocultas y rostro completo. Conservé el enfoque de prueba, con horario por coordinar.
+
+- [RAFAEL_v3_2A.png](entregables/anuncios_imagen_20261104/v3_glimmer/RAFAEL_v3_2A.png)  
+  Cambié el primer plano extremo por plano medio con auto visible. Prioricé el contacto con Rafael y reduje texto.
+
+- [RAFAEL_v3_2B.png](entregables/anuncios_imagen_20261104/v3_glimmer/RAFAEL_v3_2B.png)  
+  Eliminé el teléfono con pantalla negra y el emblema ajeno. Enfoqué el mensaje en versiones, disponibilidad y WhatsApp.
+
+Falta confirmar ciudad y horarios de Rafael, y precio vigente de Benjamina; quedaron omitidos. No tienen una nueva calificación de Glimmer.
+tokens used
+60,703
+Listos los **8 PNG en 1080×1350**, revisados visualmente. [Ver los ocho juntos](/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v3_glimmer/VISTA_CONJUNTA.jpg).
+
+Cada archivo quedó en la ruta solicitada:
+
+- [MARIANO_v3_A1.png](entregables/anuncios_imagen_20261104/v3_glimmer/MARIANO_v3_A1.png)  
+  Tres fachadas diferenciadas y retrato de Mariano. Quité precios adicionales y simplifiqué la lectura.
+
+- [MARIANO_v3_A2.png](entregables/anuncios_imagen_20261104/v3_glimmer/MARIANO_v3_A2.png)  
+  Plano medio frente a Benjamina. Titular de recorrido más grande, dos viñetas y botón separado.
+
+- [MARIANO_v3_B1.png](entregables/anuncios_imagen_20261104/v3_glimmer/MARIANO_v3_B1.png)  
+  Benjamina como protagonista, acompañada por Mariano. Omití $2.8M porque falta confirmar su vigencia.
+
+- [MARIANO_v3_B2.png](entregables/anuncios_imagen_20261104/v3_glimmer/MARIANO_v3_B2.png)  
+  Invitación concreta a visitar Benjamina. Sustituí el precio pendiente por consulta y corregí márgenes.
+
+- [RAFAEL_v3_1A.png](entregables/anuncios_imagen_20261104/v3_glimmer/RAFAEL_v3_1A.png)  
+  Rafael con su polo oscuro de referencia y el BYD blanco. Eliminé el logotipo ajeno y reforcé la invitación a agendar.
+
+- [RAFAEL_v3_1B.png](entregables/anuncios_imagen_20261104/v3_glimmer/RAFAEL_v3_1B.png)  
+  Encuadre con manos ocultas y rostro completo. Conservé el enfoque de prueba, con horario por coordinar.
+
+- [RAFAEL_v3_2A.png](entregables/anuncios_imagen_20261104/v3_glimmer/RAFAEL_v3_2A.png)  
+  Cambié el primer plano extremo por plano medio con auto visible. Prioricé el contacto con Rafael y reduje texto.
+
+- [RAFAEL_v3_2B.png](entregables/anuncios_imagen_20261104/v3_glimmer/RAFAEL_v3_2B.png)  
+  Eliminé el teléfono con pantalla negra y el emblema ajeno. Enfoqué el mensaje en versiones, disponibilidad y WhatsApp.
+
+Falta confirmar ciudad y horarios de Rafael, y precio vigente de Benjamina; quedaron omitidos. No tienen una nueva calificación de Glimmer.

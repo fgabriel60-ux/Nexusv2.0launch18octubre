@@ -1,0 +1,18 @@
+Eres estratega de anuncios de Meta (Facebook/Instagram) para negocios en México. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento.
+
+CLIENTE: José, dueño de GRUPO JR, impermeabilización de techos en Puebla y alrededores.
+Datos reales: sellador + 2 capas de poliuretano acrílico afibratado; calidad industrial; blanco que rebota el sol (techo más fresco); 12 años de vida útil; desde $150 por m²; 10% de descuento en más de 100 m²; lema «que llueva». Su anuncio previo «Puede llover» dio 80 mensajes a $6.43 por conversación (CTR 3.91%). Los clientes llegan por WhatsApp y a veces dudan hasta que platican; Carlos (agencia) quiere que el video los convenza ANTES de escribir para que lleguen mensajes calificados.
+VIDEO DE REFERENCIA (imagen adjunta, 24 cuadros del video de 32 s): un personaje animado estilo Pixar habla a cámara con la voz del dueño, subtítulos palabra por palabra con la palabra activa en amarillo, y tarjetas de datos reales que aparecen en pantalla (antes/ahora, resultados, oferta). Estructura: gancho con un dato fuerte → problema (adivinar) → solución clara → prueba con cifras → oferta/precio → CTA por WhatsApp.
+IDEA: replicar ese formato para José con SU voz clonada, personaje animado de José, y tarjetas con SU información: el proceso de impermeabilizado (limpieza y sellador, primera capa, segunda capa, curado), el material, el precio desde $150/m² y el descuento, y sus 80 mensajes a $6.43. José mandó más información propia y cambios por otro canal; solo usa los datos de arriba y marca [CONFIRMAR] donde falte algo.
+TAREA: 1) Guion hablado de 25-30 s (máx. 75 palabras), frase por frase, con la tarjeta de pantalla que acompaña cada frase (texto exacto, ≤ 8 palabras por tarjeta). 2) Gancho de los primeros 3 s que nombre al dueño de casa o negocio con techo. 3) Cierre con CTA único por WhatsApp. 4) Qué NO decir (sin garantías ni cifras inventadas; no prometer lo que Facebook rechaza). 5) Califica el guion de 1 a 10 en: gancho 3 s, claridad de la oferta, confianza, calidad visual, CTA y mensajes calificados; y corrige lo que baje de 9 hasta que todo llegue al menos a 9.
+
+CAPACIDADES DE PRODUCCIÓN DE VIDEO (lo que SÍ podemos hacer; propón solo mejoras viables con esto):
+- Cuadros nuevos con Qwen-Image-Edit-2511 a partir de fotos REALES del cliente (su cara, su ropa, sus casas): poses, encuadres, hora del día (día/atardecer/noche), quitar textos.
+- Animación imagen→video con MiniMax H3 (clips de ~5 s, vertical 704x1280): movimiento de cámara (push-in, dolly, dron, órbita), primer y último cuadro fijados (ej. salto de un techo y aterrizaje), labios sincronizados con la voz clonada. Rostros y manos pueden deformarse con movimientos bruscos; el texto generado dentro del video sale inventado, por eso todo texto va en capa aparte.
+- Voz clonada del asesor (Fish Audio) por frase, con guion exacto; podemos cambiar palabras, orden y velocidad.
+- Tomas reales del cliente (recorridos con celular de cada modelo de casa, fachadas, caballos en la calle, canchas de pádel, vista al mar desde la azotea).
+- Edición con ffmpeg: cortes al ritmo, velocidad (cámara rápida/lenta), whoosh y transiciones con desenfoque, punch-in/zoom, color, viñeta.
+- Texto en capa exacta: subtítulos virales palabra por palabra (Playfair), tarjetas de precio, botón de WhatsApp, logotipos y datos reales. No inventamos precios ni datos.
+- Música propia sintetizada (beat con riser y drop) y efectos (whoosh, golpe, boom, clic).
+- Formato 9:16 para Reels/Stories, 15-35 s, H.264 720p.
+NO podemos: tomas reales nuevas con dron, grabar al asesor en persona, usar música con derechos, ni datos/precios que el cliente no haya dado.

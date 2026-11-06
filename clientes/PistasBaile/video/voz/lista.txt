@@ -1,0 +1,3 @@
+file '/workspaces/Nexusv2.0launch18octubre/clientes/PistasBaile/whatsapp/del_cliente/1023_212710_ptt.ogg'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/PistasBaile/whatsapp/del_cliente/1024_003126_ptt.ogg'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/PistasBaile/whatsapp/del_cliente/1024_003358_ptt.ogg'

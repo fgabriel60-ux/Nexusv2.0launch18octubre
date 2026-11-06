@@ -1,0 +1,382 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fabelagabriel645/main/ap-Np2fxegpQoI4KY5PAx9e6S
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/modelos_modal/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:03<1:14:35,  3.12s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:03<14:56,  1.60it/s]  
+[1ALoading weights:   0%|          | 6/1436 [00:03<10:08,  2.35it/s]
+[1ALoading weights:   1%|          | 13/1436 [00:03<03:24,  6.94it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:03<02:48,  8.44it/s]
+[1ALoading weights:   1%|▏         | 20/1436 [00:04<02:23,  9.84it/s]
+[1ALoading weights:   2%|▏         | 26/1436 [00:04<01:30, 15.52it/s]
+[1ALoading weights:   2%|▏         | 30/1436 [00:04<01:49, 12.87it/s]
+[1ALoading weights:   3%|▎         | 38/1436 [00:04<01:07, 20.69it/s]
+[1ALoading weights:   3%|▎         | 43/1436 [00:05<01:22, 16.87it/s]
+[1ALoading weights:   3%|▎         | 47/1436 [00:05<01:13, 18.91it/s]
+[1ALoading weights:   4%|▎         | 52/1436 [00:05<01:03, 21.79it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:05<01:17, 17.87it/s]
+[1ALoading weights:   4%|▍         | 61/1436 [00:05<01:01, 22.44it/s]
+[1ALoading weights:   5%|▍         | 65/1436 [00:06<01:10, 19.45it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:06<01:13, 18.49it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:06<00:56, 23.92it/s]
+[1ALoading weights:   6%|▌         | 79/1436 [00:06<01:13, 18.53it/s]
+[1ALoading weights:   6%|▌         | 86/1436 [00:07<00:52, 25.88it/s]
+[1ALoading weights:   6%|▋         | 90/1436 [00:07<01:14, 17.97it/s]
+[1ALoading weights:   7%|▋         | 96/1436 [00:07<00:58, 22.92it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:07<00:53, 25.09it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:08<01:07, 19.66it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:08<00:52, 25.23it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:08<01:05, 20.08it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:08<01:00, 21.81it/s]
+[1ALoading weights:   9%|▊         | 125/1436 [00:09<01:10, 18.57it/s]
+[1ALoading weights:   9%|▉         | 134/1436 [00:09<00:45, 28.35it/s]
+[1ALoading weights:  10%|▉         | 138/1436 [00:09<01:05, 19.70it/s]
+[1ALoading weights:  10%|▉         | 143/1436 [00:09<00:59, 21.74it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:09<00:50, 25.68it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:10<01:05, 19.61it/s]
+[1ALoading weights:  11%|█         | 157/1436 [00:10<01:01, 20.76it/s]
+[1ALoading weights:  11%|█         | 161/1436 [00:10<00:57, 22.33it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:10<01:01, 20.81it/s]
+[1ALoading weights:  12%|█▏        | 168/1436 [00:10<00:53, 23.76it/s]
+[1ALoading weights:  12%|█▏        | 171/1436 [00:11<00:55, 22.97it/s]
+[1ALoading weights:  12%|█▏        | 174/1436 [00:11<01:13, 17.26it/s]
+[1ALoading weights:  13%|█▎        | 182/1436 [00:11<00:47, 26.55it/s]
+[1ALoading weights:  13%|█▎        | 186/1436 [00:11<01:08, 18.35it/s]
+[1ALoading weights:  13%|█▎        | 193/1436 [00:11<00:48, 25.74it/s]
+[1ALoading weights:  14%|█▎        | 197/1436 [00:12<00:56, 21.76it/s]
+[1ALoading weights:  14%|█▍        | 201/1436 [00:12<00:56, 22.01it/s]
+[1ALoading weights:  14%|█▍        | 205/1436 [00:12<00:49, 24.94it/s]
+[1ALoading weights:  15%|█▍        | 209/1436 [00:12<00:56, 21.54it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:12<01:01, 19.80it/s]
+[1ALoading weights:  15%|█▌        | 219/1436 [00:13<00:49, 24.42it/s]
+[1ALoading weights:  15%|█▌        | 222/1436 [00:13<01:05, 18.44it/s]
+[1ALoading weights:  16%|█▌        | 228/1436 [00:13<00:48, 24.88it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:13<00:46, 25.93it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:14<00:59, 20.13it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:14<00:45, 26.08it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:14<00:57, 20.54it/s]
+[1ALoading weights:  18%|█▊        | 254/1436 [00:14<00:51, 22.74it/s]
+[1ALoading weights:  18%|█▊        | 257/1436 [00:15<01:03, 18.45it/s]
+[1ALoading weights:  19%|█▊        | 266/1436 [00:15<00:41, 27.88it/s]
+[1ALoading weights:  19%|█▉        | 270/1436 [00:15<01:00, 19.29it/s]
+[1ALoading weights:  19%|█▉        | 277/1436 [00:15<00:44, 25.83it/s]
+[1ALoading weights:  20%|█▉        | 281/1436 [00:16<00:53, 21.58it/s]
+[1ALoading weights:  20%|█▉        | 285/1436 [00:16<00:53, 21.67it/s]
+[1ALoading weights:  20%|██        | 288/1436 [00:16<00:51, 22.36it/s]
+[1ALoading weights:  20%|██        | 293/1436 [00:16<01:04, 17.81it/s]
+[1ALoading weights:  21%|██        | 301/1436 [00:16<00:42, 26.55it/s]
+[1ALoading weights:  21%|██        | 305/1436 [00:17<01:01, 18.40it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:17<00:42, 26.47it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:17<00:51, 21.61it/s]
+[1ALoading weights:  23%|██▎       | 328/1436 [00:17<00:42, 26.08it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:18<00:52, 21.18it/s]
+[1ALoading weights:  23%|██▎       | 336/1436 [00:18<00:46, 23.47it/s]
+[1ALoading weights:  24%|██▎       | 340/1436 [00:18<00:43, 25.30it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:18<00:55, 19.84it/s]
+[1ALoading weights:  24%|██▍       | 347/1436 [00:18<00:51, 21.18it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:19<00:42, 25.42it/s]
+[1ALoading weights:  25%|██▍       | 356/1436 [00:19<00:55, 19.50it/s]
+[1ALoading weights:  25%|██▌       | 361/1436 [00:19<00:44, 24.40it/s]
+[1ALoading weights:  25%|██▌       | 365/1436 [00:19<01:02, 17.24it/s]
+[1ALoading weights:  26%|██▌       | 373/1436 [00:20<00:41, 25.75it/s]
+[1ALoading weights:  26%|██▋       | 377/1436 [00:20<00:59, 17.87it/s]
+[1ALoading weights:  27%|██▋       | 383/1436 [00:20<00:46, 22.86it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:20<00:39, 26.63it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:21<00:49, 20.98it/s]
+[1ALoading weights:  28%|██▊       | 398/1436 [00:21<00:39, 26.44it/s]
+[1ALoading weights:  28%|██▊       | 402/1436 [00:21<00:55, 18.59it/s]
+[1ALoading weights:  29%|██▊       | 410/1436 [00:21<00:39, 26.19it/s]
+[1ALoading weights:  29%|██▉       | 414/1436 [00:22<00:53, 19.22it/s]
+[1ALoading weights:  29%|██▉       | 421/1436 [00:22<00:39, 25.71it/s]
+[1ALoading weights:  30%|██▉       | 426/1436 [00:22<00:52, 19.37it/s]
+[1ALoading weights:  30%|███       | 433/1436 [00:22<00:39, 25.11it/s]
+[1ALoading weights:  30%|███       | 437/1436 [00:23<00:46, 21.67it/s]
+[1ALoading weights:  31%|███       | 441/1436 [00:23<00:45, 21.71it/s]
+[1ALoading weights:  31%|███       | 446/1436 [00:23<00:46, 21.51it/s]
+[1ALoading weights:  31%|███▏      | 449/1436 [00:23<00:45, 21.86it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:23<00:46, 21.16it/s]
+[1ALoading weights:  32%|███▏      | 456/1436 [00:23<00:40, 23.94it/s]
+[1ALoading weights:  32%|███▏      | 461/1436 [00:24<00:43, 22.67it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:24<00:44, 21.65it/s]
+[1ALoading weights:  33%|███▎      | 469/1436 [00:24<00:36, 26.62it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:24<00:36, 26.28it/s]
+[1ALoading weights:  33%|███▎      | 475/1436 [00:24<00:50, 18.91it/s]
+[1ALoading weights:  34%|███▎      | 483/1436 [00:24<00:32, 29.70it/s]
+[1ALoading weights:  34%|███▍      | 487/1436 [00:25<00:48, 19.70it/s]
+[1ALoading weights:  34%|███▍      | 494/1436 [00:25<00:35, 26.49it/s]
+[1ALoading weights:  35%|███▍      | 498/1436 [00:25<00:49, 18.91it/s]
+[1ALoading weights:  35%|███▌      | 506/1436 [00:25<00:34, 26.73it/s]
+[1ALoading weights:  36%|███▌      | 511/1436 [00:26<00:44, 20.72it/s]
+[1ALoading weights:  36%|███▌      | 518/1436 [00:26<00:34, 26.42it/s]
+[1ALoading weights:  36%|███▋      | 522/1436 [00:26<00:46, 19.52it/s]
+[1ALoading weights:  37%|███▋      | 530/1436 [00:26<00:33, 26.67it/s]
+[1ALoading weights:  37%|███▋      | 535/1436 [00:27<00:43, 20.59it/s]
+[1ALoading weights:  38%|███▊      | 539/1436 [00:27<00:38, 23.03it/s]
+[1ALoading weights:  38%|███▊      | 545/1436 [00:27<00:37, 23.93it/s]
+[1ALoading weights:  38%|███▊      | 549/1436 [00:27<00:37, 23.62it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:28<00:33, 26.38it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:28<00:41, 21.00it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:28<00:32, 26.44it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:28<00:40, 21.43it/s]
+[1ALoading weights:  40%|████      | 578/1436 [00:29<00:37, 23.18it/s]
+[1ALoading weights:  40%|████      | 581/1436 [00:29<00:43, 19.45it/s]
+[1ALoading weights:  41%|████      | 589/1436 [00:29<00:31, 27.09it/s]
+[1ALoading weights:  41%|████▏     | 593/1436 [00:29<00:36, 23.36it/s]
+[1ALoading weights:  42%|████▏     | 596/1436 [00:29<00:38, 21.91it/s]
+[1ALoading weights:  42%|████▏     | 602/1436 [00:30<00:36, 22.65it/s]
+[1ALoading weights:  42%|████▏     | 605/1436 [00:30<00:36, 22.81it/s]
+[1ALoading weights:  42%|████▏     | 608/1436 [00:30<00:37, 21.83it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:30<00:29, 27.70it/s]
+[1ALoading weights:  43%|████▎     | 619/1436 [00:30<00:41, 19.77it/s]
+[1ALoading weights:  44%|████▍     | 634/1436 [00:31<00:20, 39.75it/s]
+[1ALoading weights:  46%|████▋     | 666/1436 [00:31<00:08, 88.55it/s]
+[1ALoading weights:  48%|████▊     | 690/1436 [00:31<00:06, 116.28it/s]
+[1ALoading weights:  50%|█████     | 718/1436 [00:31<00:04, 149.91it/s]
+[1ALoading weights:  52%|█████▏    | 748/1436 [00:31<00:03, 185.18it/s]
+[1ALoading weights:  55%|█████▌    | 795/1436 [00:31<00:02, 256.77it/s]
+[1ALoading weights:  57%|█████▋    | 825/1436 [00:31<00:02, 267.64it/s]
+[1ALoading weights:  60%|██████    | 864/1436 [00:31<00:01, 286.96it/s]
+[1ALoading weights:  63%|██████▎   | 898/1436 [00:31<00:01, 298.69it/s]
+[1ALoading weights:  66%|██████▌   | 942/1436 [00:32<00:01, 337.86it/s]
+[1ALoading weights:  68%|██████▊   | 978/1436 [00:32<00:01, 330.71it/s]
+[1ALoading weights:  71%|███████   | 1020/1436 [00:32<00:01, 353.57it/s]
+[1ALoading weights:  74%|███████▎  | 1057/1436 [00:32<00:01, 351.70it/s]
+[1ALoading weights:  76%|███████▌  | 1093/1436 [00:32<00:01, 341.55it/s]
+[1ALoading weights:  79%|███████▉  | 1132/1436 [00:32<00:00, 353.20it/s]
+[1ALoading weights:  81%|████████▏ | 1168/1436 [00:32<00:00, 350.50it/s]
+[1ALoading weights:  84%|████████▍ | 1206/1436 [00:32<00:00, 358.82it/s]
+[1ALoading weights:  87%|████████▋ | 1243/1436 [00:32<00:00, 353.48it/s]
+[1ALoading weights:  89%|████████▉ | 1282/1436 [00:32<00:00, 364.01it/s]
+[1ALoading weights:  92%|█████████▏| 1319/1436 [00:33<00:00, 363.76it/s]
+[1ALoading weights:  95%|█████████▍| 1358/1436 [00:33<00:00, 357.45it/s]
+[1ALoading weights:  97%|█████████▋| 1394/1436 [00:33<00:00, 349.21it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:33<00:00, 42.99it/s] 
+[transformers] Both `max_new_tokens` (=7000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## giovanni_101010
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) para negocios en México. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento.
+
+CLIENTE... TAREA:
+1) Califica la CAMPAÑA con cada precio por separado...
+2) Califica cada anuncio adjunto (1 a 5) con una línea y di cuál lanzar primero y qué corregir (políticas de Meta en servicios legales).
+3) Entrega UN GUION para video 10/10/10...
+4) Calificación honesta final...
+
+We need output in Spanish, only final answer. No reasoning.
+
+We must comply with policy. This is advertising for legal services. That's allowed. No disallowed content. It's fine.
+
+We need to give ratings, recommendations. Must not invent Meta figures? Can estimate with disclaimer.
+
+We need to ensure we don't make false claims. The ads mention 15 days. Meta rejects promises of timeframe in legal services. So we must note correction.
+
+We need to give script with 3 hooks, choose best, script 25-35s word for word with cloned voice, table of scenes (#, seconds, what is seen, on-screen text exact, voice). CTA exact. 2-3 prequalification questions for WhatsApp (include one filter by price). What NOT to say.
+
+Use only real data. Price recommended? Client had many messages but no contracts at $18k. Market standard $20k. Likely price 1 attracts low intent, price anchoring. Might recommend $20k with "precio único sin sorpresas" and emphasize value. Could recommend $18k as hook but clarify? The task says evaluate both. Probably recommend Precio 2 $20,000 because market standard and filters price-sensitive. But also could recommend $18,000 as entry but with prequalification.
+
+We need to give rating for campaign with each price: Confianza, Claridad de la oferta, Mensajes calificados. x/10.
+
+Also rate each ad 1-5 with one line and which to launch first and what to correct.
+
+Then script for price recommended.
+
+Also final honest rating of plan.
+
+We must ensure we don't invent data not given. We can use data given: >90 divorcios resueltos, >15 años experiencia, 90% voluntarios, precio único sin sorpresas, discreción total, respuesta rápida por WhatsApp 624 136 33 28, tiempos varían según juzgado.
+
+No mention of 15 days? That's in ad B but we should not use. The script should not promise timeframe.
+
+We must not say "resultados en 15 días". Avoid.
+
+Production capabilities: we can use Qwen-Image-Edit, MiniMax H3, voice clone, real footage, ffmpeg editing, text overlay, music.
+
+We need to deliver final answer only.
+
+Make structured.
+
+Probably use headings.
+
+Ensure Spanish.
+
+Let's craft.
+
+1) Calificación campaña Precio 1 $18,000:
+Confianza 6/10, Claridad 7/10, Mensajes calificados 4/10. Reason: atrae curiosidad pero historial muestra mensajes sin contratación, posible percepción de "barato = poco serio" o filtro de precio bajo.
+
+Precio 2 $20,000:
+Confianza 8/10, Claridad 8/10, Mensajes calificados 7/10. Aligns with market, filters.
+
+Recommend Precio 2.
+
+2) Califica anuncios:
+1: ... etc.
+
+Ad 1 (Tu familia merece un cierre en paz, $18k): ...
+Ad 2 (Tu tiempo merece menos trámites, 15 días desde $20k): ...
+Ad 3 (Tu tranquilidad merece un proceso claro, desde $18k): ...
+Ad 4 (rojo con cara, $18k, WhatsApp): ...
+Ad 5 (rojo con cara, $18k, WhatsApp): ...
+
+Which to launch first? Probably ad 4 or 5 with face, price único sin sorpresas, WhatsApp visible, but need remove price promise? It's okay. Need correct policy: no guarantee of outcome, no timeframe. Ad 2 mentions 15 días -> reject.
+
+Also need disclaimer "Los tiempos varían según el juzgado." Already present.
+
+Meta policy for legal services: no personal attributes? Might be okay. Avoid "Tu familia merece..." maybe okay. Avoid implying guaranteed result.
+
+Recommend launch ad 4 first with corrections: remove "voluntario desde" ambiguity? Keep.
+
+3) Guion 10/10/10 for price recommended ($20,000). Provide 3 hooks 0-3s, choose best.
+
+Hook options:
+1. "Divorcio en Los Cabos sin ir al juzgado. Yo soy el Lic. Giovanni Pulido."
+2. "Más de 90 divorcios resueltos en Los Cabos. Trámite 100% en línea."
+3. "Precio único sin sorpresas para divorcio voluntario."
+
+Choose best: maybe hook 2 for confianza.
+
+Script 25-35s word for word.
+
+Need table scenes.
+
+Let's design ~30 seconds.
+
+Scene 1 0-3s: hook.
+Scene 2 3-8s...
+etc.
+
+Provide voice text exact.
+
+CTA exact: "Escríbenos por WhatsApp 624 136 33 28. Te respondo hoy."
+
+Prequalification questions:
+1. ¿Es divorcio voluntario de mutuo acuerdo?
+2. ¿Viven ambos en Los Cabos, BCS o el matrimonio se celebró aquí?
+3. ¿Su presupuesto para el trámite es desde $20,000 con precio único sin sorpresas?
+
+What NOT to say: no prometer días, no garantizar sentencia, no decir "rápido" como promesa, no usar "sin pleitos" como garantía, no mencionar 15 días.
+
+4) Calificación honesta final del plan: Confianza 9/10, Claridad 9/10, Mensajes calificados 8/10. Falta para 10/10: prueba A/B con creativo sin cara vs con cara, y landing de WhatsApp con respuestas rápidas automatizadas.
+
+Make sure output is concise but complete.
+
+We must not show reasoning. Just final answer.
+
+Let's produce final answer in Spanish.
+
+Ensure we don't invent cifras de Meta. If estimate, say estimado.
+
+Provide ratings x/10.
+
+Let's output.
+
+Potential nuance: The client said with $18k received many messages but nobody hired. So price 1 leads to low quality messages.
+
+Recommend price 2.
+
+If we recommend price 2, script should mention $20,000 desde? The data says price 2 is divorcio voluntario desde $20,000. Use that.
+
+But also "precio único sin sorpresas". Could be conflict. Maybe use "desde $20,000 precio único sin sorpresas". Acceptable.
+
+Make sure script uses only real data.
+
+We can mention >90 divorcios resueltos, >15 años experiencia, 90% voluntarios, trámite en línea, proceso 100% legal, Los Cabos BCS, discreción total.
+
+No mention of 15 days.
+
+Provide table columns: #, Segundos, Qué se ve, Texto en pantalla exacto, Voz.
+
+Let's craft ~6 scenes.
+
+Scene 1 0-3s: close up face of Giovanni with push-in. Text: "DIVORCIOS EN LÍNEA LOS CABOS". Voice: "Soy el Lic. Giovanni Pulido, abogado en Los Cabos."
+
+Scene 2 3-8s: laptop icon + footage of sea view. Text: "TRÁMITE 100% EN LÍNEA". Voice: "Llevo más de 15 años y más de 90 divorcios resueltos, el 90% voluntarios."
+
+Scene 3 8-14s: shield icon. Text: "DISCRECIÓN TOTAL". Voice: "Buscamos el acuerdo, con total confidencialidad y proceso 100% legal."
+
+Scene 4 14-22s: price card. Text: "DIVORCIO VOLUNTARIO DESDE $20,000 PRECIO ÚNICO SIN SORPRESAS". Voice: "Divorcio voluntario desde $20,000, precio único sin sorpresas."
+
+Scene 5 22-28s: WhatsApp button. Text: "ESCRÍBENOS POR WHATSAPP 624 136 33 28". Voice: "Escríbeme por WhatsApp al 624 136 33 28, te respondo hoy."
+
+Scene 6 28-32s: location. Text: "LOS CABOS BCS". Voice: "Los tiempos varían según el juzgado."
+
+CTA exact: "Escríbenos por WhatsApp 624 136 33 28."
+
+Prequalification questions.
+
+What NOT to say.
+
+Final rating.
+
+Let's produce final answer.
+
+Make sure no extra reasoning.
+
+Output in Spanish.
+
+Let's deliver.assistant to=user**1) Calificación de campaña por precio**
+
+**PRECIO 1 - divorcio voluntario desde $18,000 MXN**
+* Relevancia/calidad esperada: media-baja. Atrae clic por precio bajo.
+* CTR estimado: alto. Costo por mensaje estimado: bajo.
+* Confianza 6/10. Claridad de la oferta 7/10. Mensajes calificados 4/10.
+Historial real: muchos mensajes por WhatsApp y nadie contrató. Precio por debajo de mercado genera curiosidad y objeción de calidad / filtro de intención baja.
+
+**PRECIO 2 - divorcio voluntario desde $20,000 MXN**
+* Relevancia/calidad esperada: media-alta. Alineado a lo que el cliente dice que es estándar de mercado.
+* CTR estimado: medio. Costo por mensaje estimado: medio.
+* Confianza 8/10. Claridad de la oferta 8/10. Mensajes calificados 7/10.
+Filtra precio sensible y encaja con cierres por referido previos. Conviene Precio 2. Si se quiere probar $18,000, usarlo solo como gancho de entrada con precalificación estricta de precio.
+
+**2) Calificación anuncios 1 a 5**
+
+1. *Tu familia merece un cierre en paz - azul/dorado $18,000 voluntario.* Buena estructura, discreción y respuesta rápida. Falta cara y WhatsApp visible. Precio $18,000 con historial de no cierre.
+2. *Tu tiempo merece menos trámites - azul/dorado resultados en 15 días desde $20,000.* Promesa de plazo “15 días” y “resultados en 15 días”. Riesgo de rechazo en Meta por servicios legales. No lanzar.
+3. *Tu tranquilidad merece un proceso claro - azul/dorado desde $18,000 precio claro.* Mensaje de experiencia y +15 años. Precio $18,000. Sin WhatsApp visible.
+4. *Rojo con cara real, sello precio único sin sorpresas, WhatsApp 624 136 33 28, voluntario desde $18,000.* Mejor confianza por rostro real, CTA de WhatsApp claro y sello. Precio $18,000.
+5. *Rojo con cara real, sello precio único sin sorpresas, WhatsApp 624 136 33 28, voluntario desde $18,000.* Similar a 4 con layout distinto. Buena legibilidad.
+
+Lanzar primero el 4 con correcciones de política: quitar cualquier alusión a plazo, mantener “Los tiempos varían según el juzgado.”, no prometer “sin pleitos” como garantía, evitar personal attributes de dolor. Usar Precio 2 $20,000 en la versión final.
+
+**3) Guion video 10/10/10 - Precio recomendado $20,000**
+
+Ganchos 0-3 s:
+A. “Divorcio en Los Cabos sin ir al juzgado. Soy el Lic. Giovanni Pulido.”
+B. “Más de 90 divorcios resueltos en Los Cabos. Trámite 100% en línea.”
+C. “Precio único sin sorpresas para divorcio voluntario.”
+
+Mejor gancho: B.
+
+Guion 30 s con voz clonada de Giovanni
+
+Tabla de escenas
+1. 0-3 s | Primer plano rostro Giovanni, push-in suave. | Texto en pantalla: DIVORCIOS EN LÍNEA LOS CABOS | Voz: “Más de 90 divorcios resueltos en Los Cabos. Trámite 100% en línea.”
+2. 3-8 s | Toma real vista al mar desde azotea + laptop animada. | Texto: TRÁMITE EN LÍNEA PROCESO 100% LEGAL | Voz: “Soy el Lic. Giovanni Pulido, abogado con más de 15 años de experiencia.”
+3. 8-14 s | Icono escudo con animación. | Texto: DISCRECIÓN TOTAL | Voz: “Buscamos el acuerdo en el divorcio con total confidencialidad.”
+4. 14-22 s | Tarjeta precio sobre fondo oscuro. | Texto: DIVORCIO VOLUNTARIO DESDE $20,000 PRECIO ÚNICO SIN SORPRESAS | Voz: “Divorcio voluntario desde $20,000, precio único sin sorpresas.”
+5. 22-28 s | Botón WhatsApp verde con número. | Texto: ESCRÍBENOS POR WHATSAPP 624 136 33 28 | Voz: “Escríbeme por WhatsApp al 624 136 33 28, te respondo hoy.”
+6. 28-32 s | Pin de ubicación + logo. | Texto: LOS CABOS BCS | Voz: “Los tiempos varían según el juzgado.”
+
+CTA exacto: “Escríbenos por WhatsApp 624 136 33 28.”
+
+Preguntas de precalificación WhatsApp:
+1. ¿Es divorcio voluntario de mutuo acuerdo?
+2. ¿El matrimonio se celebró en Los Cabos, BCS o ambos viven aquí?
+3. ¿Su presupuesto es desde $20,000 con precio único sin sorpresas?
+
+Qué NO decir: No prometer días ni “rápido” como garantía, no decir “resultados en 15 días”, no garantizar sentencia ni “sin pleitos” como promesa, no inventar datos.
+
+Si fuera Precio 1 $18,000: cambiar solo la tarjeta de precio a “DIVORCIO VOLUNTARIO DESDE $18,000 PRECIO ÚNICO SIN SORPRESAS” y la línea de voz correspondiente, manteniendo el resto.
+
+**4) Calificación honesta final del plan**
+Confianza 9/10. Claridad de la oferta 9/10. Mensajes calificados por WhatsApp 8/10.
+Falta para 10/10: respuestas rápidas automatizadas en WhatsApp con las 3 preguntas de precalificación y un creativo A/B cara vs sin cara con métricas de mensajes calificados vs contratados.
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-28T21:00:00+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/fabelagabriel645/main/ap-Np2fxegpQoI4KY5PAx9e6S

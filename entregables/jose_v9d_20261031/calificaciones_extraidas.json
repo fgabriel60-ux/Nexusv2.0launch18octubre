@@ -1,0 +1,280 @@
+[
+  {
+    "log": "entregables/glimmer_evaluador/20261030/glimmer.log",
+    "contexto": [
+      "nombre \"POLIURETANO ACRÍLICO 12 AÑOS\" y \"PRIMARIO FIBRATADO ELÁSTICO\", genera claridad del sistema y confianza técnica.",
+      "nombre Grupo Joárez en audio 37.0-44.0s vs Grupo JR en negocio. Arreglo viable: regrabar voz clonada con guion exacto \"Contáct",
+      "NEGOCIO: Jesús, carpintero en Mazatlán, Sinaloa. Puertas de parota (desde $7,000-$7,500 con marco y vistas) y puerta económica $3,500 con chapa, bisagras e instalación; cocinas en melamina $8,000 por metro li"
+    ],
+    "actual": "5",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 5/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030b/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Lic. Giovanni Pulido, abogado en Los Cabos, BCS. Divorcio voluntario desde $20,000, precio único; trámite 100% en línea; más de 90 divorcios resueltos; más de 15 años de experiencia; confidencialidad",
+      "NEGOCIO: José, Grupo JR, impermeabilización de azoteas en Puebla. Sistema: primario fibratado elástico + poliuretano acrílico (12 años). Desde $150 por m² según su tarjeta. WhatsApp 221 573 3127.",
+      "nombre a Grupo JR y poner gancho de dolor en 0.1-3s, insertar tomas reales del cliente."
+    ],
+    "actual": "4",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 4/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030b/glimmer.log",
+    "contexto": [
+      "nombre a Grupo JR y poner gancho de dolor en 0.1-3s, insertar tomas reales del cliente.",
+      "NEGOCIO: Jesús, carpintero en Mazatlán, Sinaloa. Puertas de parota desde $7,000 con marco y vistas; puerta económica $3,500 con chapa, bisagras e instalación; cocinas en melamina $8,000 por metro lineal (alto",
+      "nombre propio genera relevancia local inmediata."
+    ],
+    "actual": "6",
+    "veredicto": "VEREDICTO: «Subir con cambios», calificación proyectada 8/10 con rostro de Jesús, animación de imágenes reales y CTA visual coherente.",
+    "respuesta": "CALIFICACIÓN TOTAL: 6/10\nNOTAS: Gancho 6/10 · Oferta 9/10 · Confianza 4/10 · Claridad 8/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 8/10\nPOR QUÉ FUNCIONA:\n- 0.0-4.7s: “Buscas puertas o cocinas en Mazatlán. Soy Jesús Carpintero.” Ubicación + nombre propio genera relevancia local inmediata.\n- 4.7-11.8s: tarjeta “PUERTA DE PAROTA · DESDE $7,000 con marco y vistas” visible desde 5.7s con imagen real de puerta. Precio claro desde el inicio de la oferta.\n- 11.8-18.6s: “Una puerta económica con chapa, bisagras, instalación en oferta $3,500 pesos”. Precio de entrada que baja barrera y empuja a escribir.\n- 25.5-30.4s: “Mándame por WhatsApp tus medidas y tu colonia y te cotizo hoy mismo.” CTA con acción concreta que califica al que escribe.\nQUÉ LO FRENA:\n- 0.0-4.7s: 5 cuadros repetidos de la misma puerta sin rostro de Jesús. Arreglo viable: crear 1 cuadro nuevo con foto real de Jesús en obra/taller con Qwen-Image-Edit y animarlo ~5s con MiniMax H3 push-in, manteniendo la voz clonada. Sube confianza.\n- 4.7-25.5s: imágenes estáticas sin movimiento y sin prueba de trabajo en Mazatlán. Arreglo viable: animar con MiniMax H3 clips de ~5s push-in/dolly sobre las fotos reales de puerta de parota, puerta económica y cocina en melamina, con texto en capa aparte. Mejora retención visual.\n- 25.5-30.4s: fondo de roperos desconecta del mensaje de puertas/cocinas y no hay elemento visual de WhatsApp. Arreglo viable: mantener CTA de voz y texto, pero cambiar fondo a animación de cocina o puerta real del cliente y mantener tarjeta “WHATSAPP · TE COTIZO HOY Medidas y tu colonia” en capa.\nVEREDICTO: «Subir con cambios», calificación proyectada 8/10 con rostro de Jesús, animación de imágenes reales y CTA visual coherente.\nStopping app - local entrypoint completed.\nRunner terminated.\n✓ App completed. View run at \nhttps://modal.com/apps/charlyfavela666/main/ap-IwRksWmfpTow3KLXuoz7XV\n\n== Reporte Modal charlyfavela666 ==\nTrabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261030b/lote.json --tokens 3000\nDuración: 14.0 min  (código 0)\n  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.080\n  glimmer (ap-IwRksWmfpTow3KLXuoz7XV): $0.591\nGasto del trabajo: $0.671\nSaldo restante ≈ $22.43\n"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030c/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Tatuador en el centro de Cancún (998 331 6522). Diseños únicos y personalizados: japonés, anime, realismo, black and gray, fineline. Sesiones desde $1,000, cotización según diseño, atiende hasta tard"
+    ],
+    "actual": "7",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 7/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030c/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Tatuador en el centro de Cancún (998 331 6522). Diseños únicos y personalizados: japonés, anime, realismo, black and gray, fineline. Sesiones desde $1,000, cotización según diseño, atiende hasta tard",
+      "NEGOCIO: Rubén, Alineación Alphabiótica en Zinacantepec y Metepec (no masaje, no truena huesos; tracción suave). Dolor de cuello, espalda, ciática, adormecimiento, estrés. Sesión $300. WhatsApp 722 313 9882. "
+    ],
+    "actual": "6",
+    "veredicto": "VEREDICTO: «Subir con cambios», calificación proyectada 8/10",
+    "respuesta": "CALIFICACIÓN TOTAL: 6/10\nNOTAS: Gancho 6/10 · Oferta 8/10 · Confianza 7/10 · Claridad 7/10 · Calidad visual 5/10 · Políticas de Meta 4/10 · Mensajes baratos 7/10 · Mensajes calificados 7/10\nPOR QUÉ FUNCIONA:\n- 0.0-3.7s “Hola, soy Rubén en Sinacantepec y Metepec” + rostro fijo de Rubén en 0.5s-3.7s presenta quién es y dónde, ancla local inmediata para Zinacantepec/Metepec.\n- 3.7-7.1s “Aquí no damos masaje ni tronamos huesos” con texto en pantalla en 3.7s-4.7s elimina objeción principal y diferencia la alineación alfabiótica.\n- 14.1s-18.3s paciente real con andadera y texto CUELLO • ESPALDA • CIÁTICA • ESTRÉS muestra dolor real y califica al público con los mismos síntomas que se nombran en 13.4-19.3s.\n- 22.2-27.9s “Sesión 300 pesos. Escríbeme por WhatsApp…” + tarjetas 22.5s-27.7s con SESIÓN $300 • ESCRÍBEME POR WHATSAPP y cierre 28.8s-30.8s con Alineación Alphabiótica, Sesión $300, Zinacantepec • Metepec, Agenda por WhatsApp 722 313 9882 deja precio, canal y contacto claros para mensaje.\nQUÉ LO FRENA:\n- 0.5s-13.1s 13 cuadros seguidos del mismo plano de Rubén de pie sin movimiento genera fatiga y abandono temprano. Arreglo viable: animar esos fotogramas con MiniMax H3 push-in/dolly suave de ~5 s manteniendo primer y último cuadro fijados y texto en capa aparte.\n- 19.3-22.2s audio “Los cambios se sienten desde la primera sesión” + texto DESDE LA PRIMERA SESIÓN en 19.3s-21.4s es afirmación de resultado que eleva riesgo de rechazo por políticas de salud de Meta. Arreglo viable: regrabar con voz clonada la frase por una descripción de experiencia sin garantía y mantener el resto del guion.\n- 0.0-3.7s audio dice “Sinacantepec” mientras las tarjetas finales 28.8s-30.8s y el negocio son Zinacantepec • Metepec. Arreglo viable: regrabar con voz clonada la locución corrigiendo a Zinacantepec para coherencia con el texto en capa.\nVEREDICTO: «Subir con cambios», calificación proyectada 8/10\nStopping app - local entrypoint completed.\nRunner terminated.\n✓ App completed. View run at \nhttps://modal.com/apps/charlyfavela666/main/ap-DZKPWStZ1FsD3yDHlRTmd9\n\n== Reporte Modal charlyfavela666 ==\nTrabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261030c/lote.json --tokens 3000\nDuración: 9.9 min  (código 0)\n  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.028\n  escenas-carlos (ap-1jbxSJ6tPg9aXuZVLA7Wrr): $0.041\n  escenas-carlos (ap-92li9GjwRfHkqusWfVHf4F): $0.322\n  glimmer (ap-DZKPWStZ1FsD3yDHlRTmd9): $0.415\nGasto del trabajo: $"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030d/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Jesús, carpintero en Mazatlán. Puerta de parota desde $7,000 con marco y vistas; puerta económica $3,500 con chapa, bisagras e instalación; cocina en melamina $8,000 por metro lineal. Cotiza por What",
+      "nombre personal + proceso en taller genera identificación inmediata en Mazatlán."
+    ],
+    "actual": "7",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 7/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030d/glimmer.log",
+    "contexto": [
+      "nombre personal + proceso en taller genera identificación inmediata en Mazatlán.",
+      "nombre propio, relevancia inmediata para Mazatlán.",
+      "NEGOCIO: Lic. Giovanni Pulido, abogado en Los Cabos, BCS. Divorcio voluntario desde $20,000, precio único; trámite 100% en línea; más de 90 divorcios resueltos; más de 15 años de experiencia; confidencialidad"
+    ],
+    "actual": "6",
+    "veredicto": "VEREDICTO: «Subir con cambios», calificación proyectada 8.5/10 con texto en capa corregido, número de WhatsApp visible completo y voz corregida.",
+    "respuesta": "CALIFICACIÓN TOTAL: 6/10\nNOTAS: Gancho 6/10 · Oferta 7/10 · Confianza 7/10 · Claridad 4/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 6/10\nPOR QUÉ FUNCIONA:\n* 0.0-5.0s “Más de 90 divorcios resueltos en los cabos trámite 100% en línea” + tarjeta +90 DIVORCIOS RESUELTOS En Los Cabos - Trámite 100% en línea filtra a quien busca divorcio en Los Cabos y en línea.\n* 5.0-9.6s Nombre y “abogado con más de 15 años de experiencia” + tarjetas GIOVANNI / PULIDO / MÁS / DE / EXPERIENCIA refuerza autoridad local.\n* 14.0-19.0s “Divorcio voluntario desde 20.000 pesos, precio único sin sorpresas” + tarjetas $20,000 / PESOS / SIN / SORPRESAS califica por precio y elimina objeción de costos ocultos.\n* 26.6-29.6s Tarjeta final negra con LIC. GIOVANNI PULIDO ABOGADO EN LOS CABOS, DIVORCIO VOLUNTARIO DESDE $20,000 Precio único · sin sorpresas Trámite 100% en línea · Confidencial + Escribeme por WhatsApp 624 136 3328 consolida oferta y CTA.\nQUÉ LO FRENA:\n* 0.5-9.5s Texto palabra por palabra DE / RESUELTOS / CABOS / % / LÍNEA y GIOVANNI / PULIDO / MÁS / DE / EXPERIENCIA dificulta lectura rápida. Arreglo viable: mantener los mismos cuadros y reemplazar el texto en capa por frases completas con subtítulos virales palabra por palabra.\n* 19.5-25.6s Número de WhatsApp fragmentado POR / AL / 136 / 3328 / 3328 / TIEMPOS / EL genera fricción para escribir. Arreglo viable: desde 19.5s mantener fondo oficina y mostrar en capa fija WHATSAPP 624 136 3328 + subtítulo, sin romper el número.\n* 5.0-9.6s Audio dice “licenciado y ovani pulido”. Arreglo viable: re-clonar voz con Fish Audio por frase con guion correcto “licenciado Giovanni Pulido, abogado con más de 15 años de experiencia”.\nVEREDICTO: «Subir con cambios», calificación proyectada 8.5/10 con texto en capa corregido, número de WhatsApp visible completo y voz corregida.\nStopping app - local entrypoint completed.\nRunner terminated.\n✓ App completed. View run at \nhttps://modal.com/apps/charlyfavela666/main/ap-5ZxE2vYkNtP20zVa4OaXG5\n\n== Reporte Modal charlyfavela666 ==\nTrabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261030d/lote.json --tokens 4000\nDuración: 11.5 min  (código 0)\n  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.052\n  glimmer (ap-5ZxE2vYkNtP20zVa4OaXG5): $0.484\n  escenas-carlos (ap-XY3ss8OhmkFLdtQjuvDwka): $0.212\n  escenas-carlos (ap-y2ZXLY0n1mivRM48tSrJPb): $0.329\nGasto del trabajo: $1.078\nSaldo restante ≈ $7.27\n"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030e/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Andrés, contratista de construcción y remodelación (656 130 0006, Ciudad Juárez [CONFIRMAR]). Obra negra, tablaroca, baños, albercas, locales. Muestra con escenas de obra generadas estilo reel @massa",
+      "nombre comercial confirmados."
+    ],
+    "actual": "6",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 6/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030f/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Rubén, Alineación Alphabiótica en Zinacantepec y Metepec (no masaje, no truena huesos; tracción suave y puntos específicos). Dolor de cuello, espalda, ciática, adormecimiento, estrés. Sesión $300. Wh",
+      "nombre de localidad mal dicho en audio. Arreglo: regrabar esa frase con voz clonada diciendo \"Zinacantepec y Metepec\" y actualizar subtítulo en capa."
+    ],
+    "actual": "7",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 7/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030g/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Veneers Dental, Dra. Ángeles, Nogales, Sonora (Av. Álvaro Obregón 695). Implante dental desde $12,500. WhatsApp 631 165 1910. Otros precios: brackets $3,000, tomografía $1,500, placas acrílicas $5,00"
+    ],
+    "actual": "7",
+    "veredicto": "VEREDICTO: «Subir con cambios», calificación proyectada 8.5/10",
+    "respuesta": "CALIFICACIÓN TOTAL: 7/10\nNOTAS: Gancho 7/10 · Oferta 8/10 · Confianza 6/10 · Claridad 7/10 · Calidad visual 7/10 · Políticas de Meta 8/10 · Mensajes baratos 7/10 · Mensajes calificados 6/10\nPOR QUÉ FUNCIONA:\n- 0.6s “¿Te falta un” + 2.8s “No lo dejes así.” abre con dolor directo de pieza faltante y urgencia sin prometer resultado.\n- 5.0s “el hueso” con animación 3D de reabsorción ósea visualiza la consecuencia y justifica la acción.\n- 12.9s “La solución es un implante dental:” nombra la solución en el momento de interés.\n- 25.2s “$12,500” y 26.3s “$12,500 pesos.” ancla precio desde $12,500 y corona va aparte, información clara para decisión.\n- 31.9s tarjeta final “IMPLANTE DENTAL Raíz de titanio - anestesia local DESDE $12,500 MXN La corona va aparte WhatsApp 631 165 1910 Av. Álvaro Obregón 695 - Nogales, Son.” entrega marca, precio, contacto y ubicación en un solo cuadro para escribir.\nQUÉ LO FRENA:\n- 22.9s “Aquí en Veneers” / 23.5s “tu implante”. La mención de marca llega tarde y la frase de audio en la transcripción “¿A quién venir dental?” genera confusión. Arreglo viable: regrabar con Fish Audio la frase a “Aquí en Veneers Dental” y mantener la capa de texto y logo desde 22.9s.\n- 19.6s “Se coloca con anestesia” vs transcripción “amistecía local”. Incoherencia audio-texto. Arreglo viable: regrabar la frase con voz clonada correcta y actualizar la capa de subtítulo a “anestesia local”.\n- Precio visible recién a 25.2s. Arreglo viable: con edición ffmpeg insertar una tarjeta de precio “DESDE $12,500 MXN” en capa aparte a partir de 12.8s, sin modificar audio, para calificar antes.\nVEREDICTO: «Subir con cambios», calificación proyectada 8.5/10\nStopping app - local entrypoint completed.\nRunner terminated.\n✓ App completed. View run at \nhttps://modal.com/apps/charlyfavela666/main/ap-lXLcYSbg1wkVpBpoRA6UV3\n\n== Reporte Modal charlyfavela666 ==\nTrabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261030g/lote.json --tokens 4500\nDuración: 5.3 min  (código 0)\n  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.031\n  glimmer (ap-lXLcYSbg1wkVpBpoRA6UV3): $0.221\n  escenas-carlos (ap-qbFKTHFs5NYmeZxUvdWr2H): $0.244\nGasto del trabajo: $0.496\nSaldo restante ≈ $4.56\n"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030h/glimmer.log",
+    "contexto": [
+      "NEGOCIO: José, Grupo JR, impermeabilización de azoteas en Puebla. Poliuretano acrílico 12 años + primario fibratado elástico. Desde $150/m², sellador + 2 capas. WhatsApp 221 573 3127. Video Pixar con un obrer",
+      "nombre/voz que baja confianza. Arreglo viable: regrabar frase con Fish Audio con guion exacto \"En Grupo JR lo resolvemos\" y mantener texto en capa."
+    ],
+    "actual": "6",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 6/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030i/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Adrián, tatuador en el centro de Cancún (998 331 6522). Diseños únicos y personalizados; sesiones desde $1,000; atiende hasta tarde. Hard cut edit SOLO con su material real (sin IA en su persona, él "
+    ],
+    "actual": "6",
+    "veredicto": "VEREDICTO: «Subir con cambios», calificación proyectada 8/10",
+    "respuesta": "CALIFICACIÓN TOTAL: 6/10\nNOTAS: Gancho 7/10 · Oferta 6/10 · Confianza 6/10 · Claridad 7/10 · Calidad visual 7/10 · Políticas de Meta 9/10 · Mensajes baratos 8/10 · Mensajes calificados 5/10\nPOR QUÉ FUNCIONA:\n- 0.4s-1.9s ¿TU PRÓXIMO TATUAJE? sobre pecho real genera identificación inmediata y abre curiosidad.\n- 6.4s brazo con ilustración a color y 10.1s TU IDEA muestran variedad de estilos y personalización, invita a imaginar su propio diseño.\n- 16.9s CENTRO DE CANCÚN y 19.1s TE ATIENDO HASTA TARDE reducen fricción de ubicación y horario.\n- 19.9s-22.1s tarjeta final con DISEÑO ÚNICO Y PERSONALIZADO, Sesiones desde $1,000, Estudio profesional - centro de Cancún y WhatsApp 998 331 6522 da CTA claro para escribir.\nQUÉ LO FRENA:\n- 0.4s-1.9s repite el mismo plano de pecho con el mismo texto 3 veces. Arreglo viable: con edición ffmpeg recortar a 1 impacto y pasar a variedad de estilos en 1.1s-1.9s.\n- 2.6s-5.6s QUE SEA ÚNICO se repite 5 veces sobre proceso sin mostrar resultado final. Arreglo viable: reemplazar 2 de esos cortes por planos terminados ya existentes y mantener el ritmo musical.\n- 19.9s la tarjeta de precio/WhatsApp llega tarde y se repite idéntica 4 veces. Arreglo viable: con texto en capa mover la primera aparición a 17.6s y mantener 1 versión hasta 22.1s para dar tiempo de lectura y clic.\nVEREDICTO: «Subir con cambios», calificación proyectada 8/10\nStopping app - local entrypoint completed.\nRunner terminated.\n✓ App completed. View run at \nhttps://modal.com/apps/charlyfavela666/main/ap-adtY58Ol4VWF5nRA0db3zr\n\n== Reporte Modal charlyfavela666 ==\nTrabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261030i/lote.json --tokens 4500\nDuración: 4.1 min  (código 0)\n  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.014\n  glimmer (ap-adtY58Ol4VWF5nRA0db3zr): $0.170\n  escenas-carlos (ap-i68ecSjphq2Ak0uaeR9tm9): $0.303\nGasto del trabajo: $0.487\nSaldo restante ≈ $3.02\n"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030j/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Víctor · Servilin: servicio de limpieza y mantenimiento PARA EMPRESAS (oficinas, plantas, bodegas, obras, fraccionamientos), personal uniformado, capacitado y supervisado. NO es vacante de empleo (an"
+    ],
+    "actual": "7",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 7/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030j/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Víctor · Servilin: servicio de limpieza y mantenimiento PARA EMPRESAS (oficinas, plantas, bodegas, obras, fraccionamientos), personal uniformado, capacitado y supervisado. NO es vacante de empleo (an",
+      "NEGOCIO: Víctor · Servilin: servicio de limpieza y mantenimiento PARA EMPRESAS (oficinas, plantas, bodegas, obras, fraccionamientos), personal uniformado, capacitado y supervisado. NO es vacante de empleo (an"
+    ],
+    "actual": "6",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 6/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030j/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Víctor · Servilin: servicio de limpieza y mantenimiento PARA EMPRESAS (oficinas, plantas, bodegas, obras, fraccionamientos), personal uniformado, capacitado y supervisado. NO es vacante de empleo (an",
+      "NEGOCIO: Víctor · Servilin: servicio de limpieza y mantenimiento PARA EMPRESAS (oficinas, plantas, bodegas, obras, fraccionamientos), personal uniformado, capacitado y supervisado. NO es vacante de empleo (an",
+      "NEGOCIO: Víctor · Servilin: servicio de limpieza y mantenimiento PARA EMPRESAS (oficinas, plantas, bodegas, obras, fraccionamientos), personal uniformado, capacitado y supervisado. NO es vacante de empleo (an"
+    ],
+    "actual": "7",
+    "veredicto": "VEREDICTO: «Subir con cambios», calificación proyectada 8.5/10",
+    "respuesta": "CALIFICACIÓN TOTAL: 7/10\nNOTAS: Gancho 7/10 · Oferta 6/10 · Confianza 8/10 · Claridad 7/10 · Calidad visual 7/10 · Políticas de Meta 9/10 · Mensajes baratos 8/10 · Mensajes calificados 7/10\nPOR QUÉ FUNCIONA:\n- 0.0s-1.6s “NO ES OFERTA DE EMPLEO” + “SOLO EMPRESAS - NO ES VACANTE” + sellos REPSE ISO STPS filtra solicitantes de trabajo y deja claro B2B desde el primer segundo.\n- 2.7s-4.9s “¿ADMINISTRAS UNA PLANTA, OFICINA O BODEGA?” identifica al decisor y genera identificación inmediata con el público objetivo.\n- 6.0s-10.4s “DEJA DE BATALLAR NOSOTROS NOS ENCARGAMOS” con escena de supervisión con tablet muestra el dolor de personal de limpieza y la solución de servicio.\n- 24.7s-32.4s cierre SERVILIN LIMPIEZA Y MANTENIMIENTO PLANTAS - OFICINAS - BODEGAS con botón “SOLICITA UNA PROPUESTA POR WHATSAPP” y pregunta “¿QUÉ TIPO DE INMUEBLE Y CUÁNTOS M²?” CTA específico que obliga a calificar.\nQUÉ LO FRENA:\n- 0.0s-1.6s gancho estático oscuro con solo texto puede perder retención en los primeros 3s. Arreglo viable: animar con MiniMax H3 push-in suave sobre el cuadro y mantener texto en capa con whoosh de entrada.\n- 14.8s-18.1s y 15.9s-18.1s repetición de la misma escena de limpieza de ventanas sin variación. Arreglo viable: editar con ffmpeg para cortar repeticiones y sustituir un clip por toma real del cliente de recorrido con celular de planta/oficina/bodega.\n- 24.7s-32.4s cierre estático 8s sin movimiento. Arreglo viable: animar con MiniMax H3 movimiento de cámara lento sobre el fondo y mantener la tarjeta SERVILIN y el CTA en capa de texto.\nVEREDICTO: «Subir con cambios», calificación proyectada 8.5/10\nStopping app - local entrypoint completed.\nRunner terminated.\n✓ App completed. View run at \nhttps://modal.com/apps/charlyfavela666/main/ap-THVThm1nMLZfpafcAOqM5u\n\n== Reporte Modal charlyfavela666 ==\nTrabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261030j/lote.json --tokens 4500\nDuración: 16.3 min  (código 0)\n  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.066\n  glimmer (ap-THVThm1nMLZfpafcAOqM5u): $0.689\n  escenas-carlos (ap-TYkR0XY3CplBaMv4q1q9SZ): $0.362\n  escenas-carlos (ap-fzPqVaDV3KMbCFoabjW6vP): $0.322\n  victor-videos-pub (ap-uyqRfDKlYz1xo8Gigh9dq8): $0.000\nGasto del trabajo: $1.440\nSaldo restante ≈ $1.78\n"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030k/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Manuel · Hunab Ku Fotografía: fotografía y video de XV años. Precio [CONFIRMAR]. Objetivo: mensajes por WhatsApp de mamás/papás que organizan XV años."
+    ],
+    "actual": "5",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 5/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030k/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Manuel · Hunab Ku Fotografía: fotografía y video de XV años. Precio [CONFIRMAR]. Objetivo: mensajes por WhatsApp de mamás/papás que organizan XV años.",
+      "NEGOCIO: Iván · Fumicam: fumigación y control de plagas (termitas, cucarachas, etc.). Zona y precio [CONFIRMAR]. Campaña ya corrió; los mensajes no se convierten en servicios. Objetivo: mensajes calificados c"
+    ],
+    "actual": "4",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 4/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030k/glimmer.log",
+    "contexto": [
+      "nombre del consultor.",
+      "nombre del programa y consultor.",
+      "nombre y programa en los primeros 3 segundos."
+    ],
+    "actual": "3",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 3/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030k/glimmer.log",
+    "contexto": [
+      "nombre del consultor y programa.",
+      "nombre y programa en los primeros 3 segundos.",
+      "NEGOCIO: Video de la AGENCIA (Carlos, Visión Agencia) usando el caso de Guillermo (herrería en Puebla: zaguanes, cortinas, puertas y pérgolas): 4 videos al mes por $500, llamada gratis."
+    ],
+    "actual": "6",
+    "veredicto": "VEREDICTO: «Subir con cambios», calificación proyectada 8/10",
+    "respuesta": "CALIFICACIÓN TOTAL: 6/10\nNOTAS: Gancho 6/10 · Oferta 8/10 · Confianza 7/10 · Claridad 5/10 · Calidad visual 7/10 · Políticas de Meta 8/10 · Mensajes baratos 7/10 · Mensajes calificados 5/10\nPOR QUÉ FUNCIONA:\n- 0.5s: personaje con casco mirando celular con texto YA ME URGE VOLVER A COTIZAR... YA QUIERO SEGUIR AGARRANDO → dolor inmediato de quien vende, genera identificación rápida.\n- 4.6s: cambio a camisa blanca sonriendo con texto GUILLERMO HACE ZAGUANES, CORTINAS, PUERTAS Y PÉRGOLAS → caso real en Puebla, prueba social local y nicho claro.\n- 8.7s: señalando con texto LE HICIMOS SU ESTRATEGIA, SUS VOLANTES Y SU PRIMER VIDEO → muestra qué se entrega y da autoridad de agencia.\n- 11.7s: pulgar arriba con texto ¡SE VE MUY, MUY FREGÓN, EH! → validación del cliente, refuerza confianza.\n- 24.0s: en oficina con texto 4 VIDEOS AL MES POR $500 → oferta simple y memorable.\nQUÉ LO FRENA:\n- 0.5s-3.6s y 4.6s-7.7s: el audio de la transcripción no coincide con el texto en pantalla, ej. “seguir agarrándose” vs “SEGUIR AGARRANDO” y “sabones” vs “ZAGUANES, CORTINAS, PUERTAS Y PÉRGOLAS”. Arreglo viable: regrabar voz clonada con el guion exacto del texto en capa y mantener subtítulos palabra por palabra.\n- 27.1s-30.1s: CTA es “COMENTA EL VIDEO Y TE MANDO EL LINK DE TU LLAMADA GRATIS”, no invita a WhatsApp y pide comentario. Arreglo viable: cambiar texto en capa y voz clonada a CTA de WhatsApp con frase exacta aprobada, ej. “Escríbeme por WhatsApp y te mando el link de tu llamada gratis”.\n- 19.9s-23.0s: frase “QUIERO QUE ME LLEGUE EL MENSAJE, COTIZAR Y CERRAR” es confusa y no alinea con mensajes calificados. Arreglo viable: reemplazar voz y texto por beneficio claro con guion exacto, ej. “Quiero que te lleguen mensajes que cotizan y cierran”.\nVEREDICTO: «Subir con cambios», calificación proyectada 8/10\nStopping app - local entrypoint completed.\nRunner terminated.\n✓ App completed. View run at \nhttps://modal.com/apps/fgabriel60/main/ap-k1TWb7022udE33npzce7L3\n\n== Reporte Modal fgabriel60 ==\nTrabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261030k/lote.json --tokens 4500\nDuración: 16.0 min  (código 0)\n  escenas-carlos (ap-6g8Zev7VByp1wxg7snmfzD): $0.530\n  glimmer (ap-k1TWb7022udE33npzce7L3): $0.669\n  escenas-carlos (ap-MSivehrAJRVflE3F0fYKpf): $0.255\nGasto del trabajo: $1.455\nSaldo restante ≈ $4.05\n"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030l/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Lic. Giovanni Pulido, abogado en Los Cabos, BCS. Divorcio voluntario desde $20,000, precio único; trámite 100% en línea; más de 90 divorcios resueltos; más de 15 años de experiencia; confidencialidad"
+    ],
+    "actual": "6",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 6/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030l/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Lic. Giovanni Pulido, abogado en Los Cabos, BCS. Divorcio voluntario desde $20,000, precio único; trámite 100% en línea; más de 90 divorcios resueltos; más de 15 años de experiencia; confidencialidad",
+      "NEGOCIO: José, Grupo JR, impermeabilización de azoteas en Puebla. Poliuretano acrílico 12 años + primario fibratado elástico. Desde $150/m², sellador + 2 capas. WhatsApp 221 573 3127. Video Pixar con un obrer"
+    ],
+    "actual": "6.5",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 6.5/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030l/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Lic. Giovanni Pulido, abogado en Los Cabos, BCS. Divorcio voluntario desde $20,000, precio único; trámite 100% en línea; más de 90 divorcios resueltos; más de 15 años de experiencia; confidencialidad",
+      "NEGOCIO: José, Grupo JR, impermeabilización de azoteas en Puebla. Poliuretano acrílico 12 años + primario fibratado elástico. Desde $150/m², sellador + 2 capas. WhatsApp 221 573 3127. Video Pixar con un obrer",
+      "NEGOCIO: Veneers Dental, Dra. Ángeles, Nogales, Sonora (Av. Álvaro Obregón 695). Implante dental desde $12,500 (corona aparte). WhatsApp 631 165 1910. Video: la doctora hablando a cámara (voz clonada) con bur"
+    ],
+    "actual": "6",
+    "veredicto": "VEREDICTO: «Subir con cambios», calificación proyectada 8/10",
+    "respuesta": "CALIFICACIÓN TOTAL: 6/10\nNOTAS: Gancho 6/10 · Oferta 8/10 · Confianza 6/10 · Claridad 4/10 · Calidad visual 7/10 · Políticas de Meta 8/10 · Mensajes baratos 8/10 · Mensajes calificados 5/10\nPOR QUÉ FUNCIONA:\n- 12.9s: aparece la tarjeta “IMPLANTE DENTAL DESDE $12,500 MXN” junto al subtítulo “La solución es un implante dental:”. Precio visible desde el segundo 13 y oferta clara.\n- 14.0s-16.2s: gráfico 3D de raíz de titanio con textos “una raíz de titanio” / “que se coloca dentro del hueso”. Explica el procedimiento y baja objeción.\n- 21.8s: subtítulo “y la corona va aparte.” deja el alcance del precio sin ambigüedad.\n- 30.7s-33.0s: card final con “IMPLANTE DENTAL Raíz de titanio - anestesia local DESDE $12,500 MXN La corona va aparte”, WhatsApp 631 165 1910 y Av. Álvaro Obregón 695 - Nogales, Son. CTA accionable con datos reales.\nQUÉ LO FRENA:\n- 0.0-2.8s: la transcripción indica “¿Prefalco un diente? No lo dejes así.” mientras en pantalla a 0.6s se lee “¿Te falta un”. Incoherencia audio-texto. Arreglo viable: regrabar la frase con Fish Audio con el guion exacto y re-sincronizar subtítulos palabra por palabra.\n- 18.0-22.0s: transcripción dice “Se coloca con amistecía local y la corona va a parte.” El subtítulo en 19.6s muestra “anestesia”. Error de voz clonada. Arreglo viable: reemplazar el audio 18.0-22.0s por voz clonada correcta “Se coloca con anestesia local y la corona va aparte.” manteniendo el mismo visual.\n- 10.6s: cuadro con la doctora desenfocada interrumpe la continuidad. Arreglo viable: cortar el fotograma con ffmpeg o sustituirlo por un cuadro limpio generado con Qwen-Image-Edit-2511 a partir de foto real con misma pose.\nVEREDICTO: «Subir con cambios», calificación proyectada 8/10\nStopping app - local entrypoint completed.\nRunner terminated.\n✓ App completed. View run at \nhttps://modal.com/apps/fgabriel60/main/ap-3RVnOV6S9ENBHyeFw3jBg3\n\n== Reporte Modal fgabriel60 ==\nTrabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261030l/lote.json --tokens 4500\nDuración: 21.6 min  (código 0)\n  glimmer (ap-3RVnOV6S9ENBHyeFw3jBg3): $0.717\n  escenas-carlos (ap-MSivehrAJRVflE3F0fYKpf): $0.114\n  escenas-carlos (ap-Xy6l6N7Rkr4ixEmcO2Qrqx): $0.609\n  escenas-carlos (ap-cIlwHf102ZQvSLCwEr9Zj1): $0.066\nGasto del trabajo: $1.506\nSaldo restante ≈ $2.28\n"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030m/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Iván · Fumicam: fumigación y control de plagas (cucarachas, alacranes, chinches, pulgas, termitas) en casas, clínicas, oficinas y negocios de Cuernavaca y CDMX. Precio [CONFIRMAR]. CTA: WhatsApp con ",
+      "nombre correcto y sincronizar labios con MiniMax."
+    ],
+    "actual": "6",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 6/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030n/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Víctor · Servilin: servicio de limpieza y mantenimiento PARA EMPRESAS (oficinas, plantas, bodegas, obras, fraccionamientos), personal uniformado, capacitado y supervisado. NO es vacante de empleo (an"
+    ],
+    "actual": "7",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 7/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030n/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Víctor · Servilin: servicio de limpieza y mantenimiento PARA EMPRESAS (oficinas, plantas, bodegas, obras, fraccionamientos), personal uniformado, capacitado y supervisado. NO es vacante de empleo (an",
+      "NEGOCIO: Víctor · Servilin: servicio de limpieza y mantenimiento PARA EMPRESAS (oficinas, plantas, bodegas, obras, fraccionamientos), personal uniformado, capacitado y supervisado. NO es vacante de empleo (an"
+    ],
+    "actual": "6",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 6/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261030o/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Guillermo · Proyectos Metálicos Vicens, herrería en Puebla, +15 años: zaguanes, cortinas metálicas, puertas de herrería, portones, pérgolas y celosías, techos y naves. WhatsApp 231 231 1066, CTA «COT"
+    ],
+    "actual": "6.5",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 6.5/10"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261031a/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Guillermo · Proyectos Metálicos Vicens, herrería en Puebla, +15 años: zaguanes, cortinas metálicas, puertas de herrería, portones, pérgolas y celosías, techos y naves. WhatsApp 231 231 1066, CTA «COT"
+    ],
+    "actual": "7.5",
+    "veredicto": "VEREDICTO: Subir con cambios, calificación proyectada 8.6/10",
+    "respuesta": "CALIFICACIÓN TOTAL: 7.5/10\nNOTAS: Gancho 6/10 · Oferta 7/10 · Confianza 8/10 · Claridad 8/10 · Calidad visual 8/10 · Políticas de Meta 10/10 · Mensajes baratos 7/10 · Mensajes calificados 6/10\nPOR QUÉ FUNCIONA:\n- 0.3s: primer plano de instalación de zaguán con texto “ZAGUANES A LA MEDIDA EN PUEBLA” y “LA OBSESIÓN POR LOS DETALLES” posiciona servicio y localidad en el primer segundo.\n- 4.1s-4.7s: pérgola/techo terminado con estructura verde y lámina muestra acabado real y variedad de servicio más allá del zaguán.\n- 5.8s: inicio del bloque “LOS RESULTADOS” con zaguán negro y tarjeta “ZAGUANES A la medida de tu casa” + “Escribe COTIZAR - 231 231 1066” da transición clara a prueba y CTA visible.\n- 9.6s-11.3s: puerta de herrería en primer plano con tarjeta “PUERTAS DE HERRERÍA Seguridad y estilo” comunica beneficio tangible.\n- 14.1s-16.3s: cierre con “PROYECTOS METÁLICOS VICENS PUEBLA +15 AÑOS DE EXPERIENCIA” y WhatsApp 231 231 1066 refuerza marca, experiencia y contacto repetido.\nQUÉ LO FRENA:\n- 0.3s-2.5s: abre con proceso sin problema/beneficio declarado y sin gancho de necesidad. Arreglo viable: reemplazar el primer clip por animación imagen→video con push-in sobre fachada terminada real y subtítulo palabra por palabra con voz clonada del asesor con guion aprobado, manteniendo el ritmo.\n- 5.8s-8.0s: CTA “Escribe COTIZAR - 231 231 1066” es genérico y no cualifica. Arreglo viable: añadir en capa de texto en 6.3s “Solo Puebla y alrededores” junto al CTA existente, con edición de texto en capa.\n- 14.1s-16.3s: cierre negro con 5 tarjetas idénticas estáticas 2.2s cada una genera caída de retención. Arreglo viable: animar el cierre con MiniMax H3 push-in suave sobre foto real de obra terminada y reducir a 2 variaciones de tarjeta con texto en capa.\nVEREDICTO: Subir con cambios, calificación proyectada 8.6/10\nStopping app - local entrypoint completed.\nRunner terminated.\n✓ App completed. View run at \nhttps://modal.com/apps/fgabriel60/main/ap-2Cil9TanKmsqs2nDYZh9OR\n\n== Reporte Modal fgabriel60 ==\nTrabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261031a/lote.json --tokens 4500\nDuración: 5.1 min  (código 0)\n  glimmer (ap-2Cil9TanKmsqs2nDYZh9OR): $0.208\nGasto del trabajo: $0.208\nSaldo restante ≈ $1.50\n"
+  },
+  {
+    "log": "entregables/glimmer_evaluador/20261031b/glimmer.log",
+    "contexto": [
+      "NEGOCIO: Guillermo · Proyectos Metálicos Vicens, herrería en Puebla, +15 años: zaguanes, cortinas metálicas, puertas de herrería, portones, pérgolas y celosías, techos y naves. WhatsApp 231 231 1066, CTA «COT"
+    ],
+    "actual": "6.5",
+    "veredicto": "",
+    "respuesta": "CALIFICACIÓN TOTAL: 6.5/10"
+  }
+]

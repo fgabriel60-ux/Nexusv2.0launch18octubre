@@ -1,0 +1,31 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-ggclfnLvzUikzJTSDW4vMP
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma S1_v6
+toma S2_v6
+toma S3_v6
+toma S4_v6
+toma S5_v6
+guardado S1_v6.mp4
+guardado S2_v6.mp4
+guardado S3_v6.mp4
+guardado S4_v6.mp4
+guardado S5_v6.mp4
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-30T19:46:42+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-ggclfnLvzUikzJTSDW4vMP
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261030/doctora_v6.json
+Duración: 19.9 min  (código 0)
+  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.058
+  escenas-carlos (ap-ggclfnLvzUikzJTSDW4vMP): $0.961
+Gasto del trabajo: $1.019
+Saldo restante ≈ $6.09

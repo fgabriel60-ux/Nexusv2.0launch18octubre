@@ -1,0 +1,498 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-1ZHX8yG65YFVb7cu7iOdia
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:00<20:09,  1.19it/s]
+[1ALoading weights:   0%|          | 2/1436 [00:01<21:23,  1.12it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:02<07:33,  3.16it/s]
+[1ALoading weights:   1%|          | 16/1436 [00:02<01:49, 13.00it/s]
+[1ALoading weights:   1%|▏         | 20/1436 [00:02<01:37, 14.52it/s]
+[1ALoading weights:   2%|▏         | 27/1436 [00:02<01:06, 21.19it/s]
+[1ALoading weights:   2%|▏         | 31/1436 [00:02<01:05, 21.52it/s]
+[1ALoading weights:   3%|▎         | 40/1436 [00:02<00:43, 32.00it/s]
+[1ALoading weights:   3%|▎         | 45/1436 [00:02<00:46, 30.03it/s]
+[1ALoading weights:   4%|▎         | 51/1436 [00:03<00:40, 34.09it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:03<00:41, 32.97it/s]
+[1ALoading weights:   4%|▍         | 64/1436 [00:03<00:34, 39.44it/s]
+[1ALoading weights:   5%|▍         | 69/1436 [00:03<00:39, 35.04it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:03<00:33, 40.19it/s]
+[1ALoading weights:   6%|▌         | 81/1436 [00:03<00:37, 35.66it/s]
+[1ALoading weights:   6%|▌         | 88/1436 [00:04<00:33, 40.07it/s]
+[1ALoading weights:   6%|▋         | 93/1436 [00:04<00:37, 35.58it/s]
+[1ALoading weights:   7%|▋         | 98/1436 [00:04<00:37, 35.94it/s]
+[1ALoading weights:   7%|▋         | 102/1436 [00:04<00:40, 32.56it/s]
+[1ALoading weights:   8%|▊         | 110/1436 [00:04<00:34, 38.78it/s]
+[1ALoading weights:   8%|▊         | 115/1436 [00:04<00:37, 35.42it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:04<00:29, 44.12it/s]
+[1ALoading weights:   9%|▉         | 129/1436 [00:05<00:34, 38.30it/s]
+[1ALoading weights:   9%|▉         | 136/1436 [00:05<00:30, 42.22it/s]
+[1ALoading weights:  10%|▉         | 141/1436 [00:05<00:35, 36.62it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:05<00:31, 41.50it/s]
+[1ALoading weights:  11%|█         | 153/1436 [00:05<00:36, 35.31it/s]
+[1ALoading weights:  11%|█         | 158/1436 [00:05<00:34, 36.71it/s]
+[1ALoading weights:  11%|█▏        | 162/1436 [00:06<00:38, 32.90it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:06<00:28, 44.90it/s]
+[1ALoading weights:  12%|█▏        | 177/1436 [00:06<00:33, 38.10it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:06<00:28, 43.54it/s]
+[1ALoading weights:  13%|█▎        | 189/1436 [00:06<00:33, 37.53it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [00:06<00:28, 42.83it/s]
+[1ALoading weights:  14%|█▍        | 201/1436 [00:07<00:33, 37.35it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:07<00:29, 41.58it/s]
+[1ALoading weights:  15%|█▍        | 213/1436 [00:07<00:33, 36.93it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:07<00:28, 42.11it/s]
+[1ALoading weights:  16%|█▌        | 225/1436 [00:07<00:32, 36.93it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:07<00:28, 42.10it/s]
+[1ALoading weights:  17%|█▋        | 237/1436 [00:07<00:32, 36.82it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:08<00:28, 41.32it/s]
+[1ALoading weights:  17%|█▋        | 249/1436 [00:08<00:33, 35.80it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:08<00:27, 42.28it/s]
+[1ALoading weights:  18%|█▊        | 261/1436 [00:08<00:31, 37.01it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:08<00:27, 42.70it/s]
+[1ALoading weights:  19%|█▉        | 273/1436 [00:08<00:30, 37.85it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:08<00:28, 41.17it/s]
+[1ALoading weights:  20%|█▉        | 285/1436 [00:09<00:31, 36.76it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:09<00:27, 42.12it/s]
+[1ALoading weights:  21%|██        | 297/1436 [00:09<00:31, 36.52it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:09<00:27, 41.28it/s]
+[1ALoading weights:  22%|██▏       | 309/1436 [00:09<00:31, 35.39it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:09<00:26, 41.68it/s]
+[1ALoading weights:  22%|██▏       | 321/1436 [00:10<00:30, 35.97it/s]
+[1ALoading weights:  23%|██▎       | 328/1436 [00:10<00:27, 41.03it/s]
+[1ALoading weights:  23%|██▎       | 333/1436 [00:10<00:31, 35.56it/s]
+[1ALoading weights:  24%|██▎       | 339/1436 [00:10<00:28, 38.64it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:10<00:30, 36.08it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:10<00:25, 42.27it/s]
+[1ALoading weights:  25%|██▍       | 357/1436 [00:11<00:28, 37.30it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:11<00:25, 42.15it/s]
+[1ALoading weights:  26%|██▌       | 369/1436 [00:11<00:28, 37.00it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:11<00:25, 42.16it/s]
+[1ALoading weights:  27%|██▋       | 381/1436 [00:11<00:28, 36.58it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:11<00:25, 41.48it/s]
+[1ALoading weights:  27%|██▋       | 393/1436 [00:11<00:28, 36.35it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:12<00:25, 40.95it/s]
+[1ALoading weights:  28%|██▊       | 405/1436 [00:12<00:28, 35.88it/s]
+[1ALoading weights:  28%|██▊       | 409/1436 [00:12<00:29, 34.95it/s]
+[1ALoading weights:  29%|██▉       | 414/1436 [00:12<00:29, 34.64it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:12<00:21, 46.26it/s]
+[1ALoading weights:  30%|██▉       | 429/1436 [00:12<00:25, 39.47it/s]
+[1ALoading weights:  30%|███       | 436/1436 [00:12<00:22, 45.43it/s]
+[1ALoading weights:  31%|███       | 441/1436 [00:13<00:25, 38.59it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:13<00:22, 43.63it/s]
+[1ALoading weights:  32%|███▏      | 453/1436 [00:13<00:26, 37.78it/s]
+[1ALoading weights:  32%|███▏      | 458/1436 [00:13<00:26, 37.30it/s]
+[1ALoading weights:  32%|███▏      | 462/1436 [00:13<00:29, 32.62it/s]
+[1ALoading weights:  33%|███▎      | 470/1436 [00:13<00:24, 38.97it/s]
+[1ALoading weights:  33%|███▎      | 475/1436 [00:14<00:26, 36.41it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:14<00:20, 46.20it/s]
+[1ALoading weights:  34%|███▍      | 489/1436 [00:14<00:23, 39.70it/s]
+[1ALoading weights:  34%|███▍      | 494/1436 [00:14<00:23, 40.12it/s]
+[1ALoading weights:  35%|███▍      | 499/1436 [00:14<00:25, 37.36it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:14<00:20, 46.22it/s]
+[1ALoading weights:  36%|███▌      | 513/1436 [00:14<00:22, 40.21it/s]
+[1ALoading weights:  36%|███▌      | 520/1436 [00:15<00:20, 44.22it/s]
+[1ALoading weights:  37%|███▋      | 525/1436 [00:15<00:23, 38.10it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:15<00:21, 42.59it/s]
+[1ALoading weights:  37%|███▋      | 537/1436 [00:15<00:24, 36.67it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:15<00:20, 43.54it/s]
+[1ALoading weights:  38%|███▊      | 549/1436 [00:15<00:23, 37.00it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:15<00:20, 42.34it/s]
+[1ALoading weights:  39%|███▉      | 561/1436 [00:16<00:23, 36.99it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:16<00:20, 41.53it/s]
+[1ALoading weights:  40%|███▉      | 573/1436 [00:16<00:23, 36.69it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:16<00:20, 41.18it/s]
+[1ALoading weights:  41%|████      | 585/1436 [00:16<00:23, 36.77it/s]
+[1ALoading weights:  41%|████      | 592/1436 [00:16<00:20, 41.89it/s]
+[1ALoading weights:  42%|████▏     | 597/1436 [00:17<00:23, 36.28it/s]
+[1ALoading weights:  42%|████▏     | 604/1436 [00:17<00:19, 42.25it/s]
+[1ALoading weights:  42%|████▏     | 609/1436 [00:17<00:22, 36.47it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:17<00:19, 41.80it/s]
+[1ALoading weights:  43%|████▎     | 621/1436 [00:17<00:22, 36.45it/s]
+[1ALoading weights:  45%|████▍     | 640/1436 [00:17<00:11, 67.41it/s]
+[1ALoading weights:  48%|████▊     | 690/1436 [00:17<00:04, 162.57it/s]
+[1ALoading weights:  51%|█████▏    | 738/1436 [00:18<00:02, 238.94it/s]
+[1ALoading weights:  56%|█████▌    | 802/1436 [00:18<00:01, 336.50it/s]
+[1ALoading weights:  61%|██████    | 874/1436 [00:18<00:01, 434.37it/s]
+[1ALoading weights:  65%|██████▍   | 933/1436 [00:18<00:01, 476.83it/s]
+[1ALoading weights:  70%|██████▉   | 1000/1436 [00:18<00:00, 527.27it/s]
+[1ALoading weights:  74%|███████▍  | 1062/1436 [00:18<00:00, 549.46it/s]
+[1ALoading weights:  79%|███████▉  | 1132/1436 [00:18<00:00, 591.58it/s]
+[1ALoading weights:  83%|████████▎ | 1199/1436 [00:18<00:00, 602.71it/s]
+[1ALoading weights:  88%|████████▊ | 1264/1436 [00:18<00:00, 614.67it/s]
+[1ALoading weights:  92%|█████████▏| 1327/1436 [00:18<00:00, 610.08it/s]
+[1ALoading weights:  97%|█████████▋| 1394/1436 [00:19<00:00, 617.00it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:19<00:00, 75.11it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## RAFAEL_BYD_ESTRATEGIA_20261104
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta un dato, escribe [CONFIRMAR]. No inventes precios, bonos, mensualidades, tiempos de entrega ni garantías.
+
+We need to respond exactly with format:
+
+1) CALIFICACIÓN DEL MATERIAL QUE MANDÓ: X/10 con una línea por rubro: Gancho · Confianza · Calidad visual · Oferta · Claridad · Políticas de Meta · Mensajes baratos · Mensajes calificados. Di qué tomas sirven tal cual, cuáles no, y por qué.
+
+2) ESTRATEGIA PARA LLEGAR A 10 (mínimo 8): 5 a 7 viñetas concretas y accionables con el material que YA tenemos, sin esperar la oferta comercial.
+
+3) GUION A MEJORADO (25-35 s, palabra por palabra, para decir con su voz clonada): tabla de escenas con # · segundos exactos · qué se ve (de sus tomas reales) · texto en pantalla exacto · lo que dice la voz. Termina con el CTA exacto.
+
+4) GUION B NUEVO (25-35 s, palabra por palabra), construido con sus propios ganchos grabados ("gasolina cara" y "autonomía de 1,145 km") y con CTA de PRUEBA DE MANEJO. Misma tabla de escenas.
+
+5) QUÉ DEBE GRABAR ÉL (máximo 4 tomas, una línea cada una, con qué decir y cómo pararse) para subir la calificación lo más rápido posible.
+
+6) SEGMENTACIÓN Y PRESUPUESTO: ubicación, edades, intereses y presupuesto diario mínimo para campaña de mensajes en CDMX norte.
+
+7) 3 PREGUNTAS DE CALIFICACIÓN para WhatsApp (una debe filtrar por capacidad de pago, sin mencionar precios que no tenemos).
+
+8) CALIFICACIÓN PROYECTADA de cada guion si se arma tal cual lo describes, y cuál lanzar primero.
+
+We must use only data given. No invent prices, bonuses, monthly payments, delivery times, warranties.
+
+We have material: 9 videos verticales. List them.
+
+We need rating. Let's assess.
+
+Material sent today 3 Nov.
+
+Videos:
+1) 8.7s él a cámara: "gasolina cara, ¿no te gustaría estrenar un BYD al mejor precio con los mejores bonos?"
+2) 6.2s él a cámara: "¿te gustaría estrenar un BYD?"
+3) 23.5s él a cámara: "tu momento de estrenar ha llegado, ¿te gustaría obtener una autonomía de 1,145 kilómetros? solamente en BYD. Tenemos tecnología..."
+4) 8.3s / 6.0s tomas cortas del auto plateado (frente y 3/4)
+5) 16.3s él presentando: "te presento el nuevo BYD King 2027, híbrido enchufable, motor 1.5, entrega 205 hp"
+6) 11.8s recorrido del auto sin voz
+7) 18.2s "nuestro nuevo King 2027"
+8) 42.9s recorrido largo del auto: exterior, lateral, interior, volante y pantallas BYD
+
+Wait that's 8? It says 9 videos. Maybe 4 is two clips? 8.3s /6.0s = two. So total 9.
+
+2 photos: auto plateado de frente en showroom y interior/volante con dos pantallas.
+
+He wants CTA PRUEBA DE MANEJO.
+
+We need rating per rubric.
+
+Gancho: maybe 7? He has "gasolina cara" good. But no clear hook visual.
+
+Confianza: he appears, but phone on floor contrapicado, maybe low.
+
+Calidad visual: phone, indoor mall, decent but shaky.
+
+Oferta: no prices, mentions "mejor precio con mejores bonos" but no specifics. So low.
+
+Claridad: okay.
+
+Políticas de Meta: no claims false? Autonomía 1,145 km maybe for King? Might be okay but need verify. No price. Should be okay.
+
+Mensajes baratos: maybe high? Not sure.
+
+Mensajes calificados: low because no filter.
+
+Overall rating maybe 6/10? Need X/10. Rule: no launch until 8/10. So rating maybe 6.5.
+
+We need one line per rubric.
+
+Let's propose rating 6/10.
+
+Gancho: 7/10...
+But format says CALIFICACIÓN DEL MATERIAL QUE MANDÓ: X/10 con una línea por rubro: Gancho · Confianza · Calidad visual · Oferta · Claridad · Políticas de Meta · Mensajes baratos · Mensajes calificados.
+
+Maybe give overall X/10 then each rubric line.
+
+Interpretation: give overall score X/10 then list each rubric with score? It says con una línea por rubro. Could be "Gancho: ..." etc.
+
+Probably give overall rating then each rubric line.
+
+Let's do:
+
+CALIFICACIÓN DEL MATERIAL QUE MANDÓ: 6/10
+Gancho: ...
+Confianza: ...
+...
+
+Then say qué tomas sirven tal cual, cuáles no, y por qué.
+
+Tomas que sirven tal cual: video 1 "gasolina cara..." 8.7s, video 3 autonomía 1,145 km 23.5s (corte), video 5 presentación King 2027 16.3s, video 8 recorrido largo 42.9s (cortes), fotos frente e interior.
+
+Tomas que no sirven tal cual: contrapicados con teléfono en piso, tomas sin voz 11.8s, etc.
+
+Need strategy to reach 10 (minimum 8): 5-7 bullet points concrete actionable with material already have, without waiting commercial offer.
+
+We can use Qwen-Image-Edit to improve framing, MiniMax animation, voice clone, subtitles, etc.
+
+Guion A Mejorado 25-35s, table with # · segundos exactos · qué se ve (de sus tomas reales) · texto en pantalla exacto · lo que dice la voz. End with CTA exacto.
+
+Guion A original: «¿Estás listo para comprar un auto eléctrico o híbrido este mes? Soy Rafael Hernández Ortiz, asesor de BYD Azcapotzalco. Manejamos Song Plus, King y Dolphin. Escríbeme por WhatsApp con la palabra BYD.»
+
+Improved version 25-35s.
+
+We need word for word.
+
+We must not invent prices.
+
+CTA exacto? Probably "Escríbeme por WhatsApp para tu PRUEBA DE MANEJO" or "Escríbeme por WhatsApp con la palabra BYD". The request: Pidió que el CTA sea PRUEBA DE MANEJO. So CTA should be PRUEBA DE MANEJO.
+
+Guion A improved should end with CTA exacto. Maybe "Escríbeme por WhatsApp para agendar tu PRUEBA DE MANEJO."
+
+Guion B new 25-35s built with his own hooks "gasolina cara" and "autonomía de 1,145 km" and CTA PRUEBA DE MANEJO.
+
+Table scenes.
+
+We need seconds exact. Sum 25-35s.
+
+Let's design Guion A Mejorado ~30s.
+
+Scene 1: 0-3s: video 1 clip "gasolina cara..."? Or selfie.
+
+Better use his face.
+
+Let's propose:
+
+#1 0-4s: qué se ve: selfie él a cámara (video 1 inicio). Texto en pantalla: "Gasolina cara en Azcapotzalco". Voz: "¿Gasolina cara? Yo soy Rafael Hernández Ortiz, asesor de BYD en Azcapotzalco."
+
+#2 4-10s: qué se ve: toma frente auto plateado (video 4 8.3s). Texto: "Song Plus, King y Dolphin". Voz: "Manejamos Song Plus, King y Dolphin, híbridos enchufables y eléctricos."
+
+#3 10-18s: qué se ve: recorrido interior volante pantallas (video 8). Texto: "Tecnología y autonomía real". Voz: "Con tecnología de BYD y autonomía para tu día a día en Vallejo y Circuito Interior."
+
+#4 18-26s: qué se ve: él dentro del auto selfie (video 3). Texto: "Prueba de manejo sin compromiso". Voz: "Si te interesa estrenar este mes, escríbeme por WhatsApp para tu PRUEBA DE MANEJO."
+
+#5 26-30s: qué se ve: foto auto de frente. Texto: "Rafael Hernández Ortiz · BYD Azcapotzalco · WhatsApp". Voz: "Soy Rafael, te espero por WhatsApp."
+
+Total 30s.
+
+Need exact seconds.
+
+Guion B new 25-35s using his hooks.
+
+Scene 1: 0-5s: video 1 "gasolina cara..." Texto: "¿Te cansas de la gasolina cara?" Voz: "Gasolina cara, ¿no te gustaría estrenar un BYD al mejor precio con los mejores bonos?" (use his exact words)
+
+Scene 2: 5-12s: video 3 autonomy. Texto: "Autonomía de 1,145 kilómetros". Voz: "Tu momento de estrenar ha llegado, ¿te gustaría obtener una autonomía de 1,145 kilómetros? Solamente en BYD."
+
+Scene 3: 12-20s: video 5 King 2027 presentation. Texto: "BYD King 2027 híbrido enchufable". Voz: "Te presento el nuevo BYD King 2027, híbrido enchufable, motor 1.5, entrega 205 hp."
+
+Scene 4: 20-28s: recorrido auto. Texto: "Prueba de manejo en plaza". Voz: "Estoy en el showroom de Azcapotzalco. Escríbeme por WhatsApp para tu PRUEBA DE MANEJO."
+
+Scene 5: 28-32s: selfie. Texto: "Rafael Hernández Ortiz · BYD Azcapotzalco". Voz: "Soy Rafael Hernández Ortiz, te espero."
+
+Need word for word.
+
+Make sure not invent prices.
+
+5) Qué debe grabar él (máximo 4 tomas, una línea cada una, con qué decir y cómo pararse) para subir calificación.
+
+Suggest: toma de pie frente al auto con manos en cintura, etc.
+
+6) Segmentación y presupuesto: ubicación, edades, intereses y presupuesto diario mínimo para campaña de mensajes en CDMX norte.
+
+Use ICP: Azcapotzalco, Vallejo, San Álvaro, Nueva Santa María, Industrial Vallejo. Age 28-50. Interests: autos eléctricos, BYD, ahorro combustible, etc. Budget daily minimum? For Meta messages cheap. Maybe $300-500 MXN daily? Need confirm? Could say [CONFIRMAR] if not known. We have no data on budget. Might need to propose minimum. Could say [CONFIRMAR] for exact budget. But instruction: if falta dato, escribe [CONFIRMAR]. Budget minimum maybe not given. Could propose a range based on best practice? Might be inventing. Safer to say [CONFIRMAR] for presupuesto diario mínimo. But maybe we can suggest a starting point without inventing? Might be considered inventing. The instruction says no invent prices, bonuses, monthly payments, delivery times, warranties. Budget is not those. Could be okay. Might be safe to give a recommendation.
+
+Probably give suggestion: $400 MXN diarios mínimo para empezar a ver mensajes esta semana.
+
+7) 3 preguntas de calificación para WhatsApp (una debe filtrar por capacidad de pago, sin mencionar precios que no tenemos).
+
+Questions: ¿En qué colonia vives/trabajas? ¿Qué modelo te interesa: Song Plus, King o Dolphin? ¿Tienes enganche disponible para iniciar trámite? Or "¿Cuál es tu presupuesto mensual aproximado para auto?" That mentions price? Might be okay. Filter capacity without mentioning prices we don't have. Could ask "¿Ya cuentas con enganche para iniciar trámite de crédito?" That's capacity filter.
+
+8) Calificación proyectada de cada guion si se arma tal cual lo describes, y cuál lanzar primero.
+
+Projected rating: Guion A Mejorado 8.5/10, Guion B Nuevo 9/10. Launch first Guion B.
+
+Need exact format.
+
+Let's produce final answer with sections numbered.
+
+Ensure Spanish clear.
+
+No reasoning.
+
+Make sure not to invent prices.
+
+Check Guion A improved: uses "mejor precio con los mejores bonos"? That mentions bonos but no specifics. Might be okay. But original guion A didn't mention bonos. Might be okay.
+
+Better keep consistent with no invented offer.
+
+Use only data.
+
+The material includes "gasolina cara, ¿no te gustaría estrenar un BYD al mejor precio con los mejores bonos?" That's his words. So we can use.
+
+Autonomía 1,145 km is mentioned.
+
+King 2027 híbrido enchufable motor 1.5 entrega 205 hp is mentioned.
+
+We must not invent other specs.
+
+Make sure CTA exact: PRUEBA DE MANEJO.
+
+Maybe CTA exact: "Escríbeme por WhatsApp para tu PRUEBA DE MANEJO."
+
+Provide table.
+
+Format table: # · segundos exactos · qué se ve · texto en pantalla exacto · lo que dice la voz.
+
+We can use markdown table.
+
+Ensure seconds sum within 25-35.
+
+Let's craft Guion A Mejorado 30s.
+
+Scene 1: 0-4s
+Qué se ve: selfie él a cámara video 1 inicio (corte 0-4s)
+Texto en pantalla: "Gasolina cara en Azcapotzalco"
+Voz: "¿Gasolina cara? Soy Rafael Hernández Ortiz, asesor de BYD en Azcapotzalco."
+
+Scene 2: 4-10s (6s)
+Qué se ve: toma frente auto plateado video 4 8.3s
+Texto: "Song Plus, King y Dolphin"
+Voz: "Manejamos Song Plus, King y Dolphin, híbridos enchufables y eléctricos."
+
+Scene 3: 10-18s (8s)
+Qué se ve: recorrido interior volante y pantallas video 8
+Texto: "Tecnología BYD y prueba de manejo"
+Voz: "Con tecnología BYD y espacio para tu familia o trabajo en Vallejo y Circuito Interior."
+
+Scene 4: 18-26s (8s)
+Qué se ve: él dentro del auto selfie video 3
+Texto: "¿Listo para estrenar este mes?"
+Voz: "Si estás listo para estrenar este mes, escríbeme por WhatsApp para tu PRUEBA DE MANEJO."
+
+Scene 5: 26-30s (4s)
+Qué se ve: foto auto de frente showroom
+Texto: "Rafael Hernández Ortiz · BYD Azcapotzalco · WhatsApp"
+Voz: "Soy Rafael, te espero por WhatsApp."
+
+Total 30s.
+
+Guion B Nuevo 32s.
+
+Scene 1: 0-6s
+Qué se ve: él a cámara video 1 8.7s
+Texto: "Gasolina cara, ¿y si estrenas BYD?"
+Voz: "Gasolina cara, ¿no te gustaría estrenar un BYD al mejor precio con los mejores bonos?"
+
+Scene 2: 6-14s (8s)
+Qué se ve: él a cámara video 3 23.5s (corte)
+Texto: "Autonomía de 1,145 kilómetros"
+Voz: "Tu momento de estrenar ha llegado, ¿te gustaría obtener una autonomía de 1,145 kilómetros? Solamente en BYD."
+
+Scene 3: 14-22s (8s)
+Qué se ve: él presentando King video 5 16.3s
+Texto: "BYD King 2027 híbrido enchufable"
+Voz: "Te presento el nuevo BYD King 2027, híbrido enchufable, motor 1.5, entrega 205 hp."
+
+Scene 4: 22-28s (6s)
+Qué se ve: recorrido exterior lateral auto video 8
+Texto: "Prueba de manejo en plaza Azcapotzalco"
+Voz: "Estoy en el showroom de Azcapotzalco. Escríbeme por WhatsApp para tu PRUEBA DE MANEJO."
+
+Scene 5: 28-32s (4s)
+Qué se ve: selfie él a cámara video 2
+Texto: "Rafael Hernández Ortiz · BYD Azcapotzalco"
+Voz: "Soy Rafael Hernández Ortiz, te espero."
+
+Good.
+
+Now rating material.
+
+Let's give overall 6/10.
+
+Rubros:
+Gancho: 7/10
+Confianza: 5/10
+Calidad visual: 6/10
+Oferta: 3/10
+Claridad: 7/10
+Políticas de Meta: 8/10
+Mensajes baratos: 6/10
+Mensajes calificados: 4/10
+
+Provide one line each.
+
+Then say qué tomas sirven tal cual: video 1, video 3 (corte), video 5, video 8 (cortes), fotos frente e interior.
+
+Cuáles no: tomas contrapicadas con teléfono en piso, recorrido sin voz 11.8s, etc.
+
+Strategy to reach 10 (minimum 8): 5-7 bullet points.
+
+- Recortar y estabilizar...
+- Añadir subtítulos palabra por palabra...
+- Usar voz clonada para unificar...
+- etc.
+
+No wait for offer.
+
+Now segmentación y presupuesto.
+
+Ubicación: radio 10-15 km alrededor de Azcapotzalco, CDMX norte: Azcapotzalco, Gustavo A. Madero norte, Miguel Hidalgo norte, Naucalpan, Tlalnepantla. Colonias específicas: Vallejo, San Álvaro, Nueva Santa María, Industrial Vallejo.
+
+Edades: 28-50.
+
+Intereses: autos eléctricos, híbridos, BYD, ahorro de combustible, autos familiares, etc.
+
+Presupuesto diario mínimo: [CONFIRMAR] or propose $400 MXN. Might be safe to say [CONFIRMAR] because not given. Instruction says if falta dato escribe [CONFIRMAR]. Budget minimum is not given in data. So we should write [CONFIRMAR].
+
+But maybe we can give a recommendation without inventing? Might be considered inventing. Safer to put [CONFIRMAR].
+
+But the prompt asks for presupuesto diario mínimo para campaña de mensajes en CDMX norte. Could be a standard recommendation. Might be okay.
+
+Given instruction: No inventes precios, bonos, mensualidades, tiempos de entrega ni garantías. Budget is not those. So maybe okay.
+
+I'll give a range with disclaimer.
+
+Maybe give [CONFIRMAR] to be safe.
+
+Let's give: Presupuesto diario mínimo: [CONFIRMAR] (sugerencia operativa típica $300-$500 MXN para mensajes).
+
+Hmm.
+
+Better follow instruction strictly: if falta dato, escribe [CONFIRMAR]. We have no data about budget. So write [CONFIRMAR].
+
+Segmentación we have from ICP.
+
+3 preguntas de calificación:
+
+1. ¿En qué colonia vives o trabajas? (filtra zona)
+2. ¿Qué modelo te interesa: Song Plus, King o Dolphin? (filtra interés)
+3. ¿Ya cuentas con enganche para iniciar trámite de crédito? (filtra capacidad de pago sin precio)
+
+Calificación proyectada:
+
+Guion A Mejorado: 8.5/10
+Guion B Nuevo: 9/10
+Lanzar primero Guion B Nuevo.
+
+Provide final answer.
+
+Make sure format exactly as requested.
+
+Let's output with numbered sections.
+
+Ensure Spanish.
+
+No extra reasoning.
+
+Let's produce.assistant to=user1) CALIFICACIÓN DEL MATERIAL QUE MANDÓ: 6/10
+Gancho: 7/10 - “gasolina cara” y “autonomía de 1,145 km” son ganchos reales del asesor.
+Confianza: 5/10 - se ve al asesor, pero varios contrapicados con el teléfono en el piso restan profesionalismo.
+Calidad visual: 6/10 - luz de plaza y showroom aceptable, pero encuadres inestables y tomas sin voz.
+Oferta: 3/10 - se menciona “mejor precio con los mejores bonos” sin datos concretos; hoy no hay oferta comercial.
+Claridad: 7/10 - el mensaje de BYD, modelos y prueba de manejo se entiende.
+Políticas de Meta: 8/10 - sin precios inventados ni promesas prohibidas; usar solo lo grabado.
+Mensajes baratos: 6/10 - gancho de ahorro puede atraer clics, pero falta filtro de zona/modelo.
+Mensajes calificados: 4/10 - no hay preguntas de calificación ni filtro de intención real.
+Sirven tal cual: video 1 “gasolina cara…” 8.
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-1ZHX8yG65YFVb7cu7iOdia
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261104_rafael/lote.json --tokens 4500
+Duración: 5.5 min  (código 0)
+  glimmer (ap-1ZHX8yG65YFVb7cu7iOdia): $0.229
+  nexus3 (ap-ZtSTaaSIs8SrcU1TRgCKhf): $0.028
+Gasto del trabajo: $0.257
+Saldo restante ≈ $21.66

@@ -1,0 +1,30 @@
+bajado 1012_114925_CARLOS_ptt.ogg
+bajado 1012_115730_VICTOR_ptt.ogg
+bajado 1012_115748_VICTOR_image.jpg
+bajado 1012_115808_CARLOS_ptt.ogg
+bajado 1012_120106_CARLOS_ptt.ogg
+bajado 1012_120416_VICTOR_image.jpg
+bajado 1012_120502_CARLOS_image.jpg
+bajado 1012_121914_VICTOR_image.jpg
+bajado 1012_122653_CARLOS_ptt.ogg
+bajado 1012_122808_CARLOS_ptt.ogg
+bajado 1012_122811_CARLOS_ptt.ogg
+bajado 1012_123425_VICTOR_image.jpg
+bajado 1012_123752_VICTOR_image.jpg
+bajado 1012_124015_VICTOR_image.jpg
+bajado 1012_130054_VICTOR_ptt.ogg
+bajado 1012_132647_CARLOS_ptt.ogg
+bajado 1012_133439_CARLOS_image.jpg
+bajado 1012_135608_CARLOS_audio.ogg
+Traceback (most recent call last):
+  File "/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/bajar_y_transcribir.py", line 57, in <module>
+    segs, _ = modelo.transcribe(str(ruta), language='es', vad_filter=True)
+              ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.14/site-packages/faster_whisper/transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "/home/codespace/.python/current/lib/python3.14/site-packages/faster_whisper/audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'

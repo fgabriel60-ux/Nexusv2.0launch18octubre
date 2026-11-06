@@ -1,0 +1,185 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-j3cmEC7OCNRMjAsWGVQ59U
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/fernando_anegocios_20261015/mostrador_modal.py
+├── ✓ Created Function escena.
+└── ✓ Created Function clips.
+/usr/local/lib/python3.12/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+[1ALoading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]
+[1ALoading pipeline components...:  17%|█▋        | 1/6 [00:00<00:00,  6.32it/s]/usr/local/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+[1ALoading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  4.55it/s]
+
+[1A
+[1ALoading weights:   0%|          | 0/729 [00:00<?, ?it/s][A
+
+[1A
+[1ALoading weights:   5%|▍         | 36/729 [00:00<00:02, 321.88it/s][A
+
+[1A
+[1ALoading weights:   9%|▉         | 69/729 [00:00<00:02, 242.20it/s][A
+
+[1A
+[1ALoading weights:  13%|█▎        | 95/729 [00:00<00:02, 222.42it/s][A
+
+[1A
+[1ALoading weights:  16%|█▌        | 118/729 [00:00<00:02, 207.08it/s][A
+
+[1A
+[1ALoading weights:  21%|██▏       | 155/729 [00:00<00:02, 251.14it/s][A
+
+[1A
+[1ALoading weights:  25%|██▍       | 181/729 [00:00<00:02, 234.41it/s][A
+
+[1A
+[1ALoading weights:  29%|██▉       | 215/729 [00:00<00:02, 256.38it/s][A
+
+[1A
+[1ALoading weights:  33%|███▎      | 242/729 [00:01<00:02, 198.51it/s][A
+
+[1A
+[1ALoading weights:  36%|███▌      | 264/729 [00:01<00:02, 194.87it/s][A
+
+[1ALoading weights:  40%|███▉      | 290/729 [00:01<00:02, 208.54it/s][A
+
+[1A
+[1ALoading weights:  50%|████▉     | 364/729 [00:01<00:01, 338.60it/s][A
+
+[1A
+[1ALoading weights:  58%|█████▊    | 426/729 [00:01<00:00, 405.41it/s][A
+
+[1A
+[1ALoading weights:  67%|██████▋   | 486/729 [00:01<00:00, 454.91it/s][A
+
+[1A
+[1ALoading weights:  73%|███████▎  | 534/729 [00:01<00:00, 418.35it/s][A
+
+[1A
+[1ALoading weights:  81%|████████  | 587/729 [00:01<00:00, 447.79it/s][A
+[1ALoading weights: 100%|██████████| 729/729 [00:01<00:00, 390.08it/s]
+
+[1ALoading pipeline components...:  50%|█████     | 3/6 [00:02<00:03,  1.16s/it]
+[1ALoading pipeline components...:  67%|██████▋   | 4/6 [00:03<00:01,  1.02it/s]
+
+[1A
+[1ALoading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+[1A
+[1ALoading checkpoint shards:  20%|██        | 1/5 [00:01<00:07,  1.76s/it][A
+
+[1A
+[1ALoading checkpoint shards:  40%|████      | 2/5 [00:03<00:05,  1.75s/it][A
+
+[1A
+[1ALoading checkpoint shards:  60%|██████    | 3/5 [00:05<00:03,  1.74s/it][A
+
+[1A
+[1ALoading checkpoint shards:  80%|████████  | 4/5 [00:06<00:01,  1.73s/it][A
+
+[1A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.16s/it][ALoading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.42s/it]
+
+[1ALoading pipeline components...:  83%|████████▎ | 5/6 [00:10<00:03,  3.24s/it]
+[1ALoading pipeline components...: 100%|██████████| 6/6 [00:10<00:00,  2.18s/it]
+[1ALoading pipeline components...: 100%|██████████| 6/6 [00:10<00:00,  1.80s/it]
+guidance_scale is passed as 1.0, but ignored since the model is not guidance-distilled.
+
+[1A  0%|          | 0/40 [00:00<?, ?it/s]
+[1A  2%|▎         | 1/40 [00:01<01:06,  1.70s/it]
+[1A  5%|▌         | 2/40 [00:03<01:07,  1.77s/it]
+[1A  8%|▊         | 3/40 [00:05<01:06,  1.79s/it]
+[1A 10%|█         | 4/40 [00:07<01:04,  1.80s/it]
+[1A 12%|█▎        | 5/40 [00:08<01:03,  1.81s/it]
+[1A 15%|█▌        | 6/40 [00:10<01:01,  1.81s/it]
+[1A 18%|█▊        | 7/40 [00:12<00:59,  1.81s/it]
+[1A 20%|██        | 8/40 [00:14<00:58,  1.81s/it]
+[1A 22%|██▎       | 9/40 [00:16<00:56,  1.81s/it]
+[1A 25%|██▌       | 10/40 [00:18<00:54,  1.82s/it]
+[1A 28%|██▊       | 11/40 [00:19<00:52,  1.82s/it]
+[1A 30%|███       | 12/40 [00:21<00:50,  1.82s/it]
+[1A 32%|███▎      | 13/40 [00:23<00:49,  1.82s/it]
+[1A 35%|███▌      | 14/40 [00:25<00:47,  1.82s/it]
+[1A 38%|███▊      | 15/40 [00:27<00:45,  1.82s/it]
+[1A 40%|████      | 16/40 [00:28<00:43,  1.82s/it]
+[1A 42%|████▎     | 17/40 [00:30<00:41,  1.82s/it]
+[1A 45%|████▌     | 18/40 [00:32<00:39,  1.82s/it]
+[1A 48%|████▊     | 19/40 [00:34<00:38,  1.82s/it]
+[1A 50%|█████     | 20/40 [00:36<00:36,  1.82s/it]
+[1A 52%|█████▎    | 21/40 [00:38<00:34,  1.82s/it]
+[1A 55%|█████▌    | 22/40 [00:39<00:32,  1.82s/it]
+[1A 57%|█████▊    | 23/40 [00:41<00:30,  1.82s/it]
+[1A 60%|██████    | 24/40 [00:43<00:29,  1.82s/it]
+[1A 62%|██████▎   | 25/40 [00:45<00:27,  1.82s/it]
+[1A 65%|██████▌   | 26/40 [00:47<00:25,  1.82s/it]
+[1A 68%|██████▊   | 27/40 [00:48<00:23,  1.82s/it]
+[1A 70%|███████   | 28/40 [00:50<00:21,  1.82s/it]
+[1A 72%|███████▎  | 29/40 [00:52<00:20,  1.82s/it]
+[1A 75%|███████▌  | 30/40 [00:54<00:18,  1.82s/it]
+[1A 78%|███████▊  | 31/40 [00:56<00:16,  1.82s/it]
+[1A 80%|████████  | 32/40 [00:58<00:14,  1.82s/it]
+[1A 82%|████████▎ | 33/40 [00:59<00:12,  1.82s/it]
+[1A 85%|████████▌ | 34/40 [01:01<00:10,  1.82s/it]
+[1A 88%|████████▊ | 35/40 [01:03<00:09,  1.82s/it]
+[1A 90%|█████████ | 36/40 [01:05<00:07,  1.82s/it]
+[1A 92%|█████████▎| 37/40 [01:07<00:05,  1.82s/it]
+[1A 95%|█████████▌| 38/40 [01:08<00:03,  1.82s/it]
+[1A 98%|█████████▊| 39/40 [01:10<00:01,  1.82s/it]
+[1A100%|██████████| 40/40 [01:12<00:00,  1.82s/it]
+[1A100%|██████████| 40/40 [01:12<00:00,  1.81s/it]
+cuadro S0 11
+guidance_scale is passed as 1.0, but ignored since the model is not guidance-distilled.
+
+[1A  0%|          | 0/40 [00:00<?, ?it/s]
+[1A  2%|▎         | 1/40 [00:01<01:05,  1.67s/it]
+[1A  5%|▌         | 2/40 [00:03<01:06,  1.76s/it]
+[1A  8%|▊         | 3/40 [00:05<01:06,  1.79s/it]
+[1A 10%|█         | 4/40 [00:07<01:04,  1.80s/it]
+[1A 12%|█▎        | 5/40 [00:08<01:03,  1.81s/it]
+[1A 15%|█▌        | 6/40 [00:10<01:01,  1.81s/it]
+[1A 18%|█▊        | 7/40 [00:12<00:59,  1.81s/it]
+[1A 20%|██        | 8/40 [00:14<00:58,  1.81s/it]
+[1A 22%|██▎       | 9/40 [00:16<00:56,  1.82s/it]
+[1A 25%|██▌       | 10/40 [00:18<00:54,  1.82s/it]
+[1A 28%|██▊       | 11/40 [00:19<00:52,  1.82s/it]
+[1A 30%|███       | 12/40 [00:21<00:50,  1.82s/it]
+[1A 32%|███▎      | 13/40 [00:23<00:49,  1.82s/it]
+[1A 35%|███▌      | 14/40 [00:25<00:47,  1.82s/it]
+[1A 38%|███▊      | 15/40 [00:27<00:45,  1.82s/it]
+[1A 40%|████      | 16/40 [00:28<00:43,  1.82s/it]
+[1A 42%|████▎     | 17/40 [00:30<00:41,  1.82s/it]
+[1A 45%|████▌     | 18/40 [00:32<00:39,  1.82s/it]
+[1A 48%|████▊     | 19/40 [00:34<00:38,  1.82s/it]
+[1A 50%|█████     | 20/40 [00:36<00:36,  1.82s/it]
+[1A 52%|█████▎    | 21/40 [00:38<00:34,  1.82s/it]
+[1A 55%|█████▌    | 22/40 [00:39<00:32,  1.82s/it]
+[1A 57%|█████▊    | 23/40 [00:41<00:30,  1.82s/it]
+[1A 60%|██████    | 24/40 [00:43<00:29,  1.82s/it]
+[1A 62%|██████▎   | 25/40 [00:45<00:27,  1.82s/it]
+[1A 65%|██████▌   | 26/40 [00:47<00:25,  1.82s/it]
+[1A 68%|██████▊   | 27/40 [00:48<00:23,  1.82s/it]
+[1A 70%|███████   | 28/40 [00:50<00:21,  1.82s/it]
+[1A 72%|███████▎  | 29/40 [00:52<00:20,  1.82s/it]
+[1A 75%|███████▌  | 30/40 [00:54<00:18,  1.82s/it]
+[1A 78%|███████▊  | 31/40 [00:56<00:16,  1.82s/it]
+[1A 80%|████████  | 32/40 [00:58<00:14,  1.82s/it]
+[1A 82%|████████▎ | 33/40 [00:59<00:12,  1.82s/it]
+[1A 85%|████████▌ | 34/40 [01:01<00:10,  1.82s/it]
+[1A 88%|████████▊ | 35/40 [01:03<00:09,  1.82s/it]
+[1A 90%|█████████ | 36/40 [01:05<00:07,  1.82s/it]
+[1A 92%|█████████▎| 37/40 [01:07<00:05,  1.82s/it]
+[1A 95%|█████████▌| 38/40 [01:08<00:03,  1.82s/it]
+[1A 98%|█████████▊| 39/40 [01:10<00:01,  1.82s/it]
+[1A100%|██████████| 40/40 [01:12<00:00,  1.82s/it]
+[1A100%|██████████| 40/40 [01:12<00:00,  1.81s/it]
+cuadro S0 12
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/mostrador_cuadros/S0_11
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/fernando_anegocios_20261015/mostrador_cuadros/S0_12
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-j3cmEC7OCNRMjAsWGVQ59U
+fin

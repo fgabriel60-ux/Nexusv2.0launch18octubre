@@ -1,0 +1,287 @@
+Failed to symlink /home/codespace/.config/pulse/602f381997134615bcca20d3532d9bdf-runtime.tmp to /tmp/pulse-PKdhtXMmr18n: Read-only file system
+Failed to symlink /home/codespace/.config/pulse/602f381997134615bcca20d3532d9bdf-runtime.tmp: Read-only file system
+pa_write() failed while trying to wake up the mainloop: Operation not permitted
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Implant_body", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Hueso_trabecular", Modifier: "Normales", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Maxilar_cortical", Modifier: "Normales", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Implant_collar", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Connector_socket", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+Blender 4.0.2
+Read blend: "/workspaces/visionagenciaIAV2.0/entregables/implante_dental/mejora_sticker/DENTAL_STICKER.blend"
+Fra:1 Mem:65.95M (Peak 69.25M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | CHICA_Rostro_completo_3D
+Fra:1 Mem:71.48M (Peak 73.11M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Initializing
+Fra:1 Mem:64.75M (Peak 73.11M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images | Loading CHICA_PIEL_FOTOGRAFICA
+Fra:1 Mem:64.75M (Peak 73.11M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images | Loading ST_CHICA_MEJORADA
+Fra:1 Mem:76.77M (Peak 100.78M) | Time:00:00.29 | Mem:6.00M, Peak:6.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images | Loading ST_SONRISA_FINAL
+Fra:1 Mem:71.06M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Waiting for render to start
+Fra:1 Mem:71.06M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:71.06M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene
+Fra:1 Mem:71.06M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Shaders
+Fra:1 Mem:71.14M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Procedurals
+Fra:1 Mem:71.14M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Background
+Fra:1 Mem:71.14M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Camera
+Fra:1 Mem:71.14M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:71.14M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects
+Fra:1 Mem:71.14M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:71.14M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:71.14M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Particle Systems
+Fra:1 Mem:71.14M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:71.14M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Meshes
+Fra:1 Mem:72.24M (Peak 100.78M) | Time:00:00.38 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:74.28M (Peak 100.78M) | Time:00:00.39 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:74.28M (Peak 100.78M) | Time:00:00.39 | Mem:20.06M, Peak:20.06M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH ST_Lamina_fotografica_continua 1/1 | Building BVH
+Fra:1 Mem:74.28M (Peak 100.78M) | Time:00:00.39 | Mem:22.24M, Peak:22.24M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH ST_Lamina_fotografica_continua 1/1 | Building BVH 0%
+Fra:1 Mem:74.28M (Peak 100.78M) | Time:00:00.41 | Mem:24.39M, Peak:26.57M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:74.28M (Peak 100.78M) | Time:00:00.41 | Mem:24.39M, Peak:26.57M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:74.28M (Peak 100.78M) | Time:00:00.41 | Mem:24.39M, Peak:26.57M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:74.28M (Peak 100.78M) | Time:00:00.41 | Mem:24.39M, Peak:26.57M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:76.74M (Peak 100.78M) | Time:00:00.42 | Mem:24.39M, Peak:26.57M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:76.74M (Peak 100.78M) | Time:00:00.42 | Mem:26.84M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects Flags
+Fra:1 Mem:76.74M (Peak 100.78M) | Time:00:00.42 | Mem:26.84M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:76.74M (Peak 100.78M) | Time:00:00.42 | Mem:26.84M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images
+Fra:1 Mem:70.73M (Peak 100.78M) | Time:00:00.42 | Mem:20.84M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Camera Volume
+Fra:1 Mem:70.73M (Peak 100.78M) | Time:00:00.42 | Mem:20.84M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:70.73M (Peak 100.78M) | Time:00:00.42 | Mem:20.92M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lights
+Fra:1 Mem:70.74M (Peak 100.78M) | Time:00:00.42 | Mem:20.92M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lights | Computing distribution
+Fra:1 Mem:71.27M (Peak 100.78M) | Time:00:00.42 | Mem:21.46M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Integrator
+Fra:1 Mem:72.27M (Peak 100.78M) | Time:00:00.42 | Mem:22.46M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Film
+Fra:1 Mem:72.28M (Peak 100.78M) | Time:00:00.42 | Mem:22.38M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:72.28M (Peak 100.78M) | Time:00:00.42 | Mem:22.46M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Baking
+Fra:1 Mem:72.28M (Peak 100.78M) | Time:00:00.42 | Mem:22.46M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:72.28M (Peak 100.78M) | Time:00:00.42 | Mem:22.46M, Peak:26.84M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 0/64
+Fra:1 Mem:83.68M (Peak 100.78M) | Time:00:01.87 | Remaining:01:31.40 | Mem:33.87M, Peak:33.87M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 1/64
+Fra:1 Mem:83.68M (Peak 100.78M) | Time:00:23.65 | Remaining:01:04.23 | Mem:33.87M, Peak:33.87M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 17/64
+Fra:1 Mem:83.68M (Peak 100.78M) | Time:00:44.55 | Remaining:00:41.45 | Mem:33.87M, Peak:33.87M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 33/64
+Fra:1 Mem:83.68M (Peak 100.78M) | Time:01:00.69 | Remaining:00:20.08 | Mem:33.87M, Peak:33.87M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 48/64
+Fra:1 Mem:88.74M (Peak 100.78M) | Time:01:00.81 | Mem:33.87M, Peak:33.87M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 64/64
+Fra:1 Mem:88.74M (Peak 100.78M) | Time:01:00.81 | Mem:33.87M, Peak:33.87M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Finished
+Saved: '/workspaces/visionagenciaIAV2.0/entregables/implante_dental/mejora_sticker/preview_v2_cpu/frame_0001.png'
+Time: 01:01.79 (Saving: 00:00.96)
+
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Needle", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Needle_hub", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Syringe_barrel", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Syringe_inset", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Plunger", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Needle", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Needle_hub", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Syringe_barrel", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Syringe_inset", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Plunger", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+Fra:265 Mem:67.52M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | ST_Graduacion_06
+Fra:265 Mem:67.56M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | ST_Graduacion_05
+Fra:265 Mem:67.61M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | ST_Graduacion_04
+Fra:265 Mem:67.61M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Needle
+Fra:265 Mem:67.66M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Needle_hub
+Fra:265 Mem:67.72M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Syringe_barrel
+Fra:265 Mem:67.77M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Syringe_inset
+Fra:265 Mem:67.82M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Plunger
+Fra:265 Mem:67.88M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | CHICA_Rostro_completo_3D
+Fra:265 Mem:68.74M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | ST_Graduacion_03
+Fra:265 Mem:68.78M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | ST_Graduacion_02
+Fra:265 Mem:68.82M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | ST_Graduacion_01
+Fra:265 Mem:68.86M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | ST_Graduacion_00
+Fra:265 Mem:68.90M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | ST_Apoyo_pulgar
+Fra:265 Mem:68.94M (Peak 70.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | ST_Apoyo_dedos
+Fra:265 Mem:73.69M (Peak 75.33M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Initializing
+Fra:265 Mem:66.01M (Peak 75.33M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images | Loading CHICA_PIEL_FOTOGRAFICA
+Fra:265 Mem:72.01M (Peak 75.33M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images | Loading ST_CHICA_MEJORADA
+Fra:265 Mem:90.04M (Peak 102.04M) | Time:00:00.25 | Mem:6.00M, Peak:6.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images | Loading ST_SONRISA_FINAL
+Fra:265 Mem:72.32M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Waiting for render to start
+Fra:265 Mem:72.32M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:265 Mem:72.32M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene
+Fra:265 Mem:72.32M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Shaders
+Fra:265 Mem:72.40M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Procedurals
+Fra:265 Mem:72.40M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Background
+Fra:265 Mem:72.40M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Camera
+Fra:265 Mem:72.40M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Meshes Flags
+Fra:265 Mem:72.40M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects
+Fra:265 Mem:72.40M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:265 Mem:72.41M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:265 Mem:72.41M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Particle Systems
+Fra:265 Mem:72.41M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:265 Mem:72.41M (Peak 102.04M) | Time:00:00.34 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Meshes
+Fra:265 Mem:73.68M (Peak 102.04M) | Time:00:00.35 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Computing attributes
+Fra:265 Mem:75.79M (Peak 102.04M) | Time:00:00.35 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:265 Mem:75.79M (Peak 102.04M) | Time:00:00.35 | Mem:20.12M, Peak:20.12M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH ST_Lamina_fotografica_continua 1/1 | Building BVH
+Fra:265 Mem:75.79M (Peak 102.04M) | Time:00:00.35 | Mem:22.31M, Peak:22.31M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH ST_Lamina_fotografica_continua 1/1 | Building BVH 0%
+Fra:265 Mem:75.79M (Peak 102.04M) | Time:00:00.38 | Mem:24.45M, Peak:26.64M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene BVH | Building
+Fra:265 Mem:75.79M (Peak 102.04M) | Time:00:00.38 | Mem:24.45M, Peak:26.64M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene BVH | Building BVH
+Fra:265 Mem:75.79M (Peak 102.04M) | Time:00:00.39 | Mem:25.26M, Peak:26.64M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:265 Mem:75.79M (Peak 102.04M) | Time:00:00.39 | Mem:25.26M, Peak:26.64M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Computing normals
+Fra:265 Mem:78.66M (Peak 102.04M) | Time:00:00.40 | Mem:25.26M, Peak:26.64M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:265 Mem:78.66M (Peak 102.04M) | Time:00:00.40 | Mem:28.13M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects Flags
+Fra:265 Mem:78.66M (Peak 102.04M) | Time:00:00.40 | Mem:28.13M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Primitive Offsets
+Fra:265 Mem:78.66M (Peak 102.04M) | Time:00:00.40 | Mem:28.13M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images
+Fra:265 Mem:72.66M (Peak 102.04M) | Time:00:00.40 | Mem:22.13M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Camera Volume
+Fra:265 Mem:72.66M (Peak 102.04M) | Time:00:00.40 | Mem:22.13M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lookup Tables
+Fra:265 Mem:72.66M (Peak 102.04M) | Time:00:00.40 | Mem:22.21M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lights
+Fra:265 Mem:72.66M (Peak 102.04M) | Time:00:00.40 | Mem:22.21M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lights | Computing distribution
+Fra:265 Mem:73.21M (Peak 102.04M) | Time:00:00.40 | Mem:22.76M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Integrator
+Fra:265 Mem:74.21M (Peak 102.04M) | Time:00:00.40 | Mem:23.76M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Film
+Fra:265 Mem:74.21M (Peak 102.04M) | Time:00:00.40 | Mem:23.68M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lookup Tables
+Fra:265 Mem:74.21M (Peak 102.04M) | Time:00:00.40 | Mem:23.76M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Baking
+Fra:265 Mem:74.21M (Peak 102.04M) | Time:00:00.40 | Mem:23.76M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Device | Writing constant memory
+Fra:265 Mem:74.22M (Peak 102.04M) | Time:00:00.40 | Mem:23.76M, Peak:28.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 0/64
+Fra:265 Mem:85.61M (Peak 102.04M) | Time:00:01.64 | Remaining:01:18.30 | Mem:35.17M, Peak:35.17M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 1/64
+Fra:265 Mem:85.61M (Peak 102.04M) | Time:00:39.53 | Remaining:00:36.75 | Mem:35.17M, Peak:35.17M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 33/64
+Fra:265 Mem:85.61M (Peak 102.04M) | Time:01:00.06 | Remaining:00:19.88 | Mem:35.17M, Peak:35.17M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 48/64
+Fra:265 Mem:90.68M (Peak 102.04M) | Time:01:00.41 | Mem:35.17M, Peak:35.17M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 64/64
+Fra:265 Mem:90.68M (Peak 102.04M) | Time:01:00.41 | Mem:35.17M, Peak:35.17M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Finished
+Saved: '/workspaces/visionagenciaIAV2.0/entregables/implante_dental/mejora_sticker/preview_v2_cpu/frame_0265.png'
+Time: 01:00.58 (Saving: 00:00.17)
+
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Maxilar_cortical", Modifier: "Normales", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Hueso_trabecular", Modifier: "Normales", Enable 'Auto Smooth' in Object Data Properties
+Fra:374 Mem:70.97M (Peak 72.04M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Natural_tooth_0
+Fra:374 Mem:71.57M (Peak 72.04M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Root_0
+Fra:374 Mem:71.60M (Peak 72.04M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Natural_tooth_1
+Fra:374 Mem:72.19M (Peak 72.19M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Root_1
+Fra:374 Mem:72.22M (Peak 72.22M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Natural_tooth_2
+Fra:374 Mem:72.81M (Peak 72.81M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Root_2
+Fra:374 Mem:72.84M (Peak 72.84M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Natural_tooth_3
+Fra:374 Mem:72.96M (Peak 72.96M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_LIGAMENTO_0
+Fra:374 Mem:72.98M (Peak 72.98M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_LIGAMENTO_1
+Fra:374 Mem:73.34M (Peak 73.34M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_LIGAMENTO_2
+Fra:374 Mem:73.44M (Peak 73.44M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_LIGAMENTO_3
+Fra:374 Mem:73.45M (Peak 73.45M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_BORDE_HUESO_CALIDO
+Fra:374 Mem:73.51M (Peak 73.51M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_HUESO_EN_PREPARACION
+Fra:374 Mem:73.61M (Peak 73.61M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_ENCIA_CUATRO_DIENTES
+Fra:374 Mem:73.66M (Peak 73.66M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Root_3
+Fra:374 Mem:73.72M (Peak 73.72M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | CHICA_Rostro_completo_3D
+Fra:374 Mem:74.55M (Peak 74.55M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Hueso_trabecular
+Fra:374 Mem:74.58M (Peak 74.58M) | Time:00:00.61 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Maxilar_cortical
+Fra:374 Mem:79.32M (Peak 80.96M) | Time:00:00.62 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Initializing
+Fra:374 Mem:69.67M (Peak 80.96M) | Time:00:00.62 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images | Loading CHICA_PIEL_FOTOGRAFICA
+Fra:374 Mem:69.67M (Peak 80.96M) | Time:00:00.62 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images | Loading ST_CHICA_MEJORADA
+Fra:374 Mem:93.70M (Peak 105.70M) | Time:00:00.71 | Mem:6.00M, Peak:6.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images | Loading ST_SONRISA_FINAL
+Fra:374 Mem:75.94M (Peak 105.70M) | Time:00:00.80 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Waiting for render to start
+Fra:374 Mem:75.94M (Peak 105.70M) | Time:00:00.80 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:374 Mem:75.94M (Peak 105.70M) | Time:00:00.80 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene
+Fra:374 Mem:75.94M (Peak 105.70M) | Time:00:00.80 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Shaders
+Fra:374 Mem:76.04M (Peak 105.70M) | Time:00:00.80 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Procedurals
+Fra:374 Mem:76.04M (Peak 105.70M) | Time:00:00.80 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Background
+Fra:374 Mem:76.04M (Peak 105.70M) | Time:00:00.80 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Camera
+Fra:374 Mem:76.04M (Peak 105.70M) | Time:00:00.80 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Meshes Flags
+Fra:374 Mem:76.04M (Peak 105.70M) | Time:00:00.80 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects
+Fra:374 Mem:76.04M (Peak 105.70M) | Time:00:00.80 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:374 Mem:76.04M (Peak 105.70M) | Time:00:00.80 | Mem:18.03M, Peak:18.03M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:374 Mem:76.04M (Peak 105.70M) | Time:00:00.80 | Mem:18.03M, Peak:18.03M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Particle Systems
+Fra:374 Mem:76.04M (Peak 105.70M) | Time:00:00.80 | Mem:18.03M, Peak:18.03M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:374 Mem:76.04M (Peak 105.70M) | Time:00:00.80 | Mem:18.03M, Peak:18.03M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Meshes
+Fra:374 Mem:77.93M (Peak 105.70M) | Time:00:00.80 | Mem:18.03M, Peak:18.03M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Computing attributes
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.80 | Mem:18.03M, Peak:18.03M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.80 | Mem:20.37M, Peak:20.37M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AP_Encía_orgánica.003 10/10 | Building BVH
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.80 | Mem:20.37M, Peak:20.37M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_CORONA_ANATOMICA_AP_Natural_tooth_0.001 1/10 | Building BVH
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.80 | Mem:20.80M, Peak:20.80M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_CORONA_ANATOMICA_AP_Natural_tooth_0.001 1/10 | Building BVH 0%
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.80 | Mem:21.03M, Peak:21.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH ST_Lamina_fotografica_continua 9/10 | Building BVH
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.80 | Mem:23.47M, Peak:23.80M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_RAIZ_CONICA_0.001 2/10 | Building BVH
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.80 | Mem:23.50M, Peak:23.80M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_CORONA_ANATOMICA_AP_Natural_tooth_1.001 3/10 | Building BVH
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.81 | Mem:24.43M, Peak:24.76M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_RAIZ_CONICA_1.001 4/10 | Building BVH
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.81 | Mem:24.46M, Peak:24.76M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_CORONA_ANATOMICA_AP_Natural_tooth_2.001 5/10 | Building BVH
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.81 | Mem:26.07M, Peak:26.40M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_RAIZ_CONICA_2.001 6/10 | Building BVH
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.81 | Mem:26.10M, Peak:26.40M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_CORONA_ANATOMICA_AP_Natural_tooth_3.001 7/10 | Building BVH
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.82 | Mem:27.03M, Peak:27.36M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_RAIZ_CONICA_3.001 8/10 | Building BVH
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.83 | Mem:27.84M, Peak:30.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene BVH | Building
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.83 | Mem:27.84M, Peak:30.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene BVH | Building BVH
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.83 | Mem:28.03M, Peak:30.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:374 Mem:80.27M (Peak 105.70M) | Time:00:00.83 | Mem:28.03M, Peak:30.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Computing normals
+Fra:374 Mem:84.51M (Peak 105.70M) | Time:00:00.83 | Mem:28.03M, Peak:30.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:374 Mem:84.51M (Peak 105.70M) | Time:00:00.83 | Mem:32.26M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects Flags
+Fra:374 Mem:84.51M (Peak 105.70M) | Time:00:00.83 | Mem:32.26M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Primitive Offsets
+Fra:374 Mem:84.51M (Peak 105.70M) | Time:00:00.83 | Mem:32.26M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images
+Fra:374 Mem:78.50M (Peak 105.70M) | Time:00:00.83 | Mem:26.26M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Camera Volume
+Fra:374 Mem:78.50M (Peak 105.70M) | Time:00:00.83 | Mem:26.26M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lookup Tables
+Fra:374 Mem:78.50M (Peak 105.70M) | Time:00:00.83 | Mem:26.34M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lights
+Fra:374 Mem:78.51M (Peak 105.70M) | Time:00:00.83 | Mem:26.34M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lights | Computing distribution
+Fra:374 Mem:79.07M (Peak 105.70M) | Time:00:00.83 | Mem:26.91M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Integrator
+Fra:374 Mem:80.07M (Peak 105.70M) | Time:00:00.83 | Mem:27.91M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Film
+Fra:374 Mem:80.08M (Peak 105.70M) | Time:00:00.84 | Mem:27.83M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lookup Tables
+Fra:374 Mem:80.08M (Peak 105.70M) | Time:00:00.84 | Mem:27.91M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Baking
+Fra:374 Mem:80.08M (Peak 105.70M) | Time:00:00.84 | Mem:27.91M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Device | Writing constant memory
+Fra:374 Mem:80.08M (Peak 105.70M) | Time:00:00.84 | Mem:27.91M, Peak:32.26M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 0/64
+Fra:374 Mem:91.48M (Peak 105.70M) | Time:00:01.73 | Remaining:00:56.53 | Mem:39.32M, Peak:39.32M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 1/64
+Fra:374 Mem:91.48M (Peak 105.70M) | Time:00:37.88 | Remaining:00:34.80 | Mem:39.32M, Peak:39.32M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 33/64
+Fra:374 Mem:91.48M (Peak 105.70M) | Time:00:54.46 | Remaining:00:17.87 | Mem:39.32M, Peak:39.32M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 48/64
+Fra:374 Mem:96.54M (Peak 106.66M) | Time:01:08.34 | Mem:39.32M, Peak:39.32M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 64/64
+Fra:374 Mem:96.54M (Peak 106.66M) | Time:01:08.35 | Mem:39.32M, Peak:39.32M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Finished
+Saved: '/workspaces/visionagenciaIAV2.0/entregables/implante_dental/mejora_sticker/preview_v2_cpu/frame_0374.png'
+Time: 01:08.69 (Saving: 00:00.32)
+
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Healing_cap", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Hueso_trabecular", Modifier: "Normales", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Maxilar_cortical", Modifier: "Normales", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Healing_cap", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Connector_socket", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Implant_collar", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Implant_body", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+Fra:740 Mem:67.76M (Peak 67.76M) | Time:00:01.24 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Machined_helical_thread
+Fra:740 Mem:67.76M (Peak 67.76M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Natural_tooth_0
+Fra:740 Mem:68.35M (Peak 68.35M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Root_0
+Fra:740 Mem:68.37M (Peak 68.37M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Natural_tooth_1
+Fra:740 Mem:68.97M (Peak 68.97M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Root_1
+Fra:740 Mem:68.99M (Peak 68.99M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Natural_tooth_2
+Fra:740 Mem:70.63M (Peak 70.63M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_LIGAMENTO_0
+Fra:740 Mem:70.68M (Peak 70.68M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_LIGAMENTO_1
+Fra:740 Mem:70.70M (Peak 70.70M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_LIGAMENTO_2
+Fra:740 Mem:70.72M (Peak 70.72M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_LIGAMENTO_3
+Fra:740 Mem:70.74M (Peak 70.74M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Natural_tooth_3
+Fra:740 Mem:71.35M (Peak 71.35M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Root_3
+Fra:740 Mem:71.36M (Peak 71.36M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_TIEMPO_CICATRIZACION
+Fra:740 Mem:71.41M (Peak 71.41M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AD_ENCIA_CUATRO_DIENTES
+Fra:740 Mem:71.54M (Peak 71.54M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Hueso_trabecular
+Fra:740 Mem:71.57M (Peak 71.57M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Maxilar_cortical
+Fra:740 Mem:71.61M (Peak 71.61M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Healing_cap
+Fra:740 Mem:71.67M (Peak 71.67M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Connector_socket
+Fra:740 Mem:71.72M (Peak 71.72M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Implant_collar
+Fra:740 Mem:71.78M (Peak 71.78M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Synchronizing object | AP_Implant_body
+Fra:740 Mem:71.86M (Peak 71.86M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Initializing
+Fra:740 Mem:66.49M (Peak 71.86M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images | Loading CHICA_PIEL_FOTOGRAFICA
+Fra:740 Mem:72.49M (Peak 72.49M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images | Loading ST_CHICA_MEJORADA
+Fra:740 Mem:90.52M (Peak 102.52M) | Time:00:01.42 | Mem:6.00M, Peak:6.00M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images | Loading ST_SONRISA_FINAL
+Fra:740 Mem:72.76M (Peak 102.52M) | Time:00:01.56 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Waiting for render to start
+Fra:740 Mem:72.77M (Peak 102.52M) | Time:00:01.56 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:740 Mem:72.77M (Peak 102.52M) | Time:00:01.56 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene
+Fra:740 Mem:72.77M (Peak 102.52M) | Time:00:01.56 | Mem:18.01M, Peak:18.01M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Shaders
+Fra:740 Mem:72.86M (Peak 102.52M) | Time:00:01.56 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Procedurals
+Fra:740 Mem:72.86M (Peak 102.52M) | Time:00:01.56 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Background
+Fra:740 Mem:72.86M (Peak 102.52M) | Time:00:01.56 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Camera
+Fra:740 Mem:72.86M (Peak 102.52M) | Time:00:01.56 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Meshes Flags
+Fra:740 Mem:72.86M (Peak 102.52M) | Time:00:01.56 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects
+Fra:740 Mem:72.86M (Peak 102.52M) | Time:00:01.56 | Mem:18.02M, Peak:18.02M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:740 Mem:72.87M (Peak 102.52M) | Time:00:01.56 | Mem:18.03M, Peak:18.03M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:740 Mem:72.87M (Peak 102.52M) | Time:00:01.56 | Mem:18.03M, Peak:18.03M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Particle Systems
+Fra:740 Mem:72.87M (Peak 102.52M) | Time:00:01.56 | Mem:18.03M, Peak:18.03M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:740 Mem:72.87M (Peak 102.52M) | Time:00:01.56 | Mem:18.03M, Peak:18.03M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Meshes
+Fra:740 Mem:74.03M (Peak 102.52M) | Time:00:01.57 | Mem:18.03M, Peak:18.03M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Computing attributes
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.57 | Mem:18.03M, Peak:18.03M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.57 | Mem:18.46M, Peak:18.46M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AP_Encía_orgánica.003 9/9 | Building BVH
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.57 | Mem:18.56M, Peak:18.56M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AP_Encía_orgánica.003 9/9 | Building BVH 0%
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.57 | Mem:18.68M, Peak:18.79M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_RAIZ_CONICA_3.001 8/9 | Building BVH
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.57 | Mem:18.68M, Peak:18.79M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_CORONA_ANATOMICA_AP_Natural_tooth_0.001 1/9 | Building BVH
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.57 | Mem:18.72M, Peak:18.79M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_CORONA_ANATOMICA_AP_Natural_tooth_3.001 7/9 | Building BVH
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.58 | Mem:20.44M, Peak:20.77M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_RAIZ_CONICA_2.001 6/9 | Building BVH
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.58 | Mem:20.11M, Peak:20.77M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_RAIZ_CONICA_0.001 2/9 | Building BVH
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.58 | Mem:20.14M, Peak:20.77M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_CORONA_ANATOMICA_AP_Natural_tooth_2.001 5/9 | Building BVH
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.58 | Mem:20.54M, Peak:20.77M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_CORONA_ANATOMICA_AP_Natural_tooth_1.001 3/9 | Building BVH
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.59 | Mem:21.79M, Peak:22.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Geometry BVH AD_RAIZ_CONICA_1.001 4/9 | Building BVH
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.59 | Mem:21.60M, Peak:22.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene BVH | Building
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.59 | Mem:21.60M, Peak:22.13M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene BVH | Building BVH
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.60 | Mem:23.46M, Peak:24.30M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:740 Mem:74.47M (Peak 102.52M) | Time:00:01.61 | Mem:23.46M, Peak:24.30M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Computing normals
+Fra:740 Mem:77.11M (Peak 102.52M) | Time:00:01.61 | Mem:23.46M, Peak:24.30M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:740 Mem:77.11M (Peak 102.52M) | Time:00:01.61 | Mem:26.10M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Objects Flags
+Fra:740 Mem:77.11M (Peak 102.52M) | Time:00:01.61 | Mem:26.10M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Primitive Offsets
+Fra:740 Mem:77.11M (Peak 102.52M) | Time:00:01.61 | Mem:26.10M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Images
+Fra:740 Mem:71.11M (Peak 102.52M) | Time:00:01.61 | Mem:20.10M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Camera Volume
+Fra:740 Mem:71.11M (Peak 102.52M) | Time:00:01.61 | Mem:20.10M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lookup Tables
+Fra:740 Mem:71.11M (Peak 102.52M) | Time:00:01.61 | Mem:20.18M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lights
+Fra:740 Mem:71.11M (Peak 102.52M) | Time:00:01.61 | Mem:20.18M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lights | Computing distribution
+Fra:740 Mem:71.15M (Peak 102.52M) | Time:00:01.61 | Mem:20.22M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Integrator
+Fra:740 Mem:72.15M (Peak 102.52M) | Time:00:01.61 | Mem:21.22M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Film
+Fra:740 Mem:72.16M (Peak 102.52M) | Time:00:01.61 | Mem:21.14M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Lookup Tables
+Fra:740 Mem:72.16M (Peak 102.52M) | Time:00:01.61 | Mem:21.23M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Baking
+Fra:740 Mem:72.16M (Peak 102.52M) | Time:00:01.61 | Mem:21.23M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Updating Device | Writing constant memory
+Fra:740 Mem:72.16M (Peak 102.52M) | Time:00:01.61 | Mem:21.23M, Peak:26.10M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 0/64
+Fra:740 Mem:83.56M (Peak 102.52M) | Time:00:02.75 | Remaining:01:11.68 | Mem:32.63M, Peak:32.63M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 1/64
+Fra:740 Mem:83.56M (Peak 102.52M) | Time:00:30.60 | Remaining:00:27.23 | Mem:32.63M, Peak:32.63M | CHICA_IMPLANTE_ESTILO_APROBADO, ViewLayer | Sample 33/64

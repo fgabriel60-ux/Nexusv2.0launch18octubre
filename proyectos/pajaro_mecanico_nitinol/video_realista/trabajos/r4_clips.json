@@ -1,0 +1,19 @@
+{
+ "paso": "clips",
+ "trabajos": [
+  {
+   "nombre": "K4c_s11",
+   "inicio": "C",
+   "fin": "E",
+   "semilla": 11,
+   "prompt": "The mechanical wire bird gives one last wing beat and stops. The two steel struts fold and both triangular amber film wings close down flat along the central spine like a closing umbrella. Then the thin straight silver spine wire winds up from the tail into flat tight spiral rings, exactly like a tape measure or a party blower rolling back, the rings grow bigger as they climb toward the head; it stays a thin rigid metal wire, it does not bend like a hose or a spring. It sinks slightly in the air. Photorealistic, the camera is static, the workshop background stays the same. It is a mechanical wire device made of silver nitinol wire, brass and copper parts and amber translucent film, never feathers, never a real bird. Audio: metallic mechanical sounds, no music, no speech."
+  },
+  {
+   "nombre": "K4c_s21",
+   "inicio": "C",
+   "fin": "E",
+   "semilla": 21,
+   "prompt": "The mechanical wire bird gives one last wing beat and stops. The two steel struts fold and both triangular amber film wings close down flat along the central spine like a closing umbrella. Then the thin straight silver spine wire winds up from the tail into flat tight spiral rings, exactly like a tape measure or a party blower rolling back, the rings grow bigger as they climb toward the head; it stays a thin rigid metal wire, it does not bend like a hose or a spring. It sinks slightly in the air. Photorealistic, the camera is static, the workshop background stays the same. It is a mechanical wire device made of silver nitinol wire, brass and copper parts and amber translucent film, never feathers, never a real bird. Audio: metallic mechanical sounds, no music, no speech."
+  }
+ ]
+}

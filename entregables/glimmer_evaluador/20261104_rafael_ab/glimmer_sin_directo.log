@@ -1,0 +1,659 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-qD9PSbcmCvzoMQcljZkrRR
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<31:56,  1.34s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:02<36:24,  1.52s/it]
+[1ALoading weights:   0%|          | 5/1436 [00:03<12:08,  1.96it/s]
+[1ALoading weights:   1%|          | 14/1436 [00:03<03:12,  7.38it/s]
+[1ALoading weights:   1%|▏         | 18/1436 [00:03<02:59,  7.89it/s]
+[1ALoading weights:   2%|▏         | 28/1436 [00:04<01:39, 14.15it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:04<01:40, 13.97it/s]
+[1ALoading weights:   3%|▎         | 37/1436 [00:04<01:20, 17.48it/s]
+[1ALoading weights:   3%|▎         | 41/1436 [00:04<01:26, 16.18it/s]
+[1ALoading weights:   3%|▎         | 44/1436 [00:04<01:20, 17.34it/s]
+[1ALoading weights:   3%|▎         | 49/1436 [00:05<01:03, 21.83it/s]
+[1ALoading weights:   4%|▎         | 53/1436 [00:05<01:14, 18.61it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:05<01:11, 19.23it/s]
+[1ALoading weights:   4%|▍         | 61/1436 [00:05<01:16, 17.99it/s]
+[1ALoading weights:   5%|▍         | 66/1436 [00:06<01:14, 18.38it/s]
+[1ALoading weights:   5%|▌         | 75/1436 [00:06<00:47, 28.44it/s]
+[1ALoading weights:   6%|▌         | 79/1436 [00:06<01:10, 19.38it/s]
+[1ALoading weights:   6%|▌         | 85/1436 [00:06<00:54, 24.87it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:07<01:20, 16.73it/s]
+[1ALoading weights:   7%|▋         | 97/1436 [00:07<00:55, 24.25it/s]
+[1ALoading weights:   7%|▋         | 102/1436 [00:07<01:14, 17.89it/s]
+[1ALoading weights:   8%|▊         | 109/1436 [00:07<00:56, 23.58it/s]
+[1ALoading weights:   8%|▊         | 114/1436 [00:08<01:11, 18.41it/s]
+[1ALoading weights:   8%|▊         | 121/1436 [00:08<01:01, 21.29it/s]
+[1ALoading weights:   9%|▊         | 125/1436 [00:08<00:58, 22.52it/s]
+[1ALoading weights:   9%|▉         | 129/1436 [00:08<00:57, 22.76it/s]
+[1ALoading weights:   9%|▉         | 135/1436 [00:08<00:46, 28.23it/s]
+[1ALoading weights:  10%|▉         | 139/1436 [00:09<01:06, 19.61it/s]
+[1ALoading weights:  10%|█         | 145/1436 [00:09<00:51, 25.25it/s]
+[1ALoading weights:  10%|█         | 149/1436 [00:09<01:12, 17.81it/s]
+[1ALoading weights:  11%|█         | 157/1436 [00:10<00:49, 26.05it/s]
+[1ALoading weights:  11%|█▏        | 162/1436 [00:10<01:05, 19.43it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:10<00:56, 22.57it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:10<00:55, 22.89it/s]
+[1ALoading weights:  13%|█▎        | 181/1436 [00:11<00:49, 25.47it/s]
+[1ALoading weights:  13%|█▎        | 185/1436 [00:11<00:55, 22.43it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:11<01:00, 20.66it/s]
+[1ALoading weights:  14%|█▎        | 194/1436 [00:11<00:47, 26.35it/s]
+[1ALoading weights:  14%|█▍        | 198/1436 [00:12<01:09, 17.71it/s]
+[1ALoading weights:  14%|█▍        | 207/1436 [00:12<00:45, 27.27it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:12<01:04, 18.98it/s]
+[1ALoading weights:  15%|█▌        | 217/1436 [00:12<00:53, 22.67it/s]
+[1ALoading weights:  15%|█▌        | 221/1436 [00:13<01:02, 19.56it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:13<01:05, 18.54it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:13<00:49, 24.43it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:13<01:00, 19.85it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:14<00:47, 25.22it/s]
+[1ALoading weights:  17%|█▋        | 247/1436 [00:14<01:03, 18.73it/s]
+[1ALoading weights:  18%|█▊        | 253/1436 [00:14<00:57, 20.72it/s]
+[1ALoading weights:  18%|█▊        | 257/1436 [00:14<01:05, 18.05it/s]
+[1ALoading weights:  18%|█▊        | 265/1436 [00:15<00:45, 25.47it/s]
+[1ALoading weights:  19%|█▊        | 269/1436 [00:15<01:03, 18.38it/s]
+[1ALoading weights:  19%|█▉        | 277/1436 [00:15<00:44, 26.10it/s]
+[1ALoading weights:  20%|█▉        | 282/1436 [00:16<00:58, 19.59it/s]
+[1ALoading weights:  20%|██        | 289/1436 [00:16<00:45, 25.40it/s]
+[1ALoading weights:  20%|██        | 294/1436 [00:16<00:57, 19.74it/s]
+[1ALoading weights:  21%|██        | 302/1436 [00:16<00:41, 27.10it/s]
+[1ALoading weights:  21%|██▏       | 307/1436 [00:17<00:56, 20.07it/s]
+[1ALoading weights:  22%|██▏       | 314/1436 [00:17<00:42, 26.15it/s]
+[1ALoading weights:  22%|██▏       | 319/1436 [00:17<00:59, 18.88it/s]
+[1ALoading weights:  23%|██▎       | 326/1436 [00:17<00:53, 20.93it/s]
+[1ALoading weights:  23%|██▎       | 330/1436 [00:18<00:58, 18.76it/s]
+[1ALoading weights:  24%|██▎       | 338/1436 [00:18<00:50, 21.95it/s]
+[1ALoading weights:  24%|██▎       | 341/1436 [00:18<01:02, 17.54it/s]
+[1ALoading weights:  24%|██▍       | 349/1436 [00:18<00:44, 24.62it/s]
+[1ALoading weights:  25%|██▍       | 353/1436 [00:19<00:52, 20.64it/s]
+[1ALoading weights:  25%|██▍       | 356/1436 [00:19<00:57, 18.95it/s]
+[1ALoading weights:  25%|██▌       | 362/1436 [00:19<00:43, 24.65it/s]
+[1ALoading weights:  25%|██▌       | 366/1436 [00:20<01:02, 17.22it/s]
+[1ALoading weights:  26%|██▌       | 375/1436 [00:20<00:40, 26.22it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:20<00:56, 18.53it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:20<00:46, 22.77it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:21<00:55, 18.65it/s]
+[1ALoading weights:  28%|██▊       | 397/1436 [00:21<00:46, 22.34it/s]
+[1ALoading weights:  28%|██▊       | 401/1436 [00:21<00:50, 20.53it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:21<00:55, 18.74it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:22<00:44, 23.17it/s]
+[1ALoading weights:  29%|██▉       | 415/1436 [00:22<00:57, 17.72it/s]
+[1ALoading weights:  29%|██▉       | 422/1436 [00:22<00:42, 24.07it/s]
+[1ALoading weights:  30%|██▉       | 426/1436 [00:22<00:59, 16.98it/s]
+[1ALoading weights:  30%|███       | 431/1436 [00:23<00:49, 20.33it/s]
+[1ALoading weights:  30%|███       | 436/1436 [00:23<00:40, 24.55it/s]
+[1ALoading weights:  31%|███       | 440/1436 [00:23<00:53, 18.52it/s]
+[1ALoading weights:  31%|███       | 445/1436 [00:23<00:49, 20.06it/s]
+[1ALoading weights:  31%|███▏      | 449/1436 [00:23<00:45, 21.61it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:24<00:50, 19.42it/s]
+[1ALoading weights:  32%|███▏      | 458/1436 [00:24<00:38, 25.66it/s]
+[1ALoading weights:  32%|███▏      | 462/1436 [00:24<00:56, 17.31it/s]
+[1ALoading weights:  33%|███▎      | 469/1436 [00:24<00:39, 24.19it/s]
+[1ALoading weights:  33%|███▎      | 473/1436 [00:25<00:48, 20.05it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:25<00:51, 18.52it/s]
+[1ALoading weights:  33%|███▎      | 481/1436 [00:25<00:41, 22.77it/s]
+[1ALoading weights:  34%|███▍      | 485/1436 [00:25<00:46, 20.54it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:25<00:49, 18.98it/s]
+[1ALoading weights:  34%|███▍      | 492/1436 [00:25<00:43, 21.57it/s]
+[1ALoading weights:  35%|███▍      | 497/1436 [00:26<00:44, 20.90it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:26<00:47, 19.62it/s]
+[1ALoading weights:  35%|███▌      | 504/1436 [00:26<00:40, 22.83it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:26<00:37, 24.47it/s]
+[1ALoading weights:  36%|███▌      | 511/1436 [00:26<00:53, 17.19it/s]
+[1ALoading weights:  36%|███▌      | 517/1436 [00:27<00:48, 18.98it/s]
+[1ALoading weights:  36%|███▋      | 521/1436 [00:27<00:44, 20.76it/s]
+[1ALoading weights:  36%|███▋      | 524/1436 [00:27<00:43, 21.06it/s]
+[1ALoading weights:  37%|███▋      | 529/1436 [00:27<00:37, 24.38it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:27<00:36, 25.05it/s]
+[1ALoading weights:  37%|███▋      | 535/1436 [00:28<00:53, 16.92it/s]
+[1ALoading weights:  38%|███▊      | 543/1436 [00:28<00:33, 26.80it/s]
+[1ALoading weights:  38%|███▊      | 547/1436 [00:28<00:48, 18.18it/s]
+[1ALoading weights:  38%|███▊      | 552/1436 [00:28<00:38, 22.75it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:28<00:35, 24.65it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:29<00:46, 18.69it/s]
+[1ALoading weights:  39%|███▉      | 565/1436 [00:29<00:46, 18.76it/s]
+[1ALoading weights:  40%|███▉      | 569/1436 [00:29<00:51, 16.92it/s]
+[1ALoading weights:  40%|████      | 578/1436 [00:29<00:31, 26.92it/s]
+[1ALoading weights:  41%|████      | 582/1436 [00:30<00:44, 19.14it/s]
+[1ALoading weights:  41%|████      | 586/1436 [00:30<00:39, 21.72it/s]
+[1ALoading weights:  41%|████      | 592/1436 [00:30<00:32, 26.26it/s]
+[1ALoading weights:  42%|████▏     | 596/1436 [00:30<00:41, 20.41it/s]
+[1ALoading weights:  42%|████▏     | 599/1436 [00:31<00:39, 21.09it/s]
+[1ALoading weights:  42%|████▏     | 605/1436 [00:31<00:46, 17.96it/s]
+[1ALoading weights:  43%|████▎     | 614/1436 [00:31<00:30, 26.71it/s]
+[1ALoading weights:  43%|████▎     | 618/1436 [00:32<00:42, 19.38it/s]
+[1ALoading weights:  44%|████▎     | 626/1436 [00:32<00:29, 27.29it/s]
+[1ALoading weights:  45%|████▌     | 653/1436 [00:32<00:12, 64.97it/s]
+[1ALoading weights:  47%|████▋     | 674/1436 [00:32<00:08, 90.98it/s]
+[1ALoading weights:  49%|████▊     | 700/1436 [00:32<00:05, 123.54it/s]
+[1ALoading weights:  50%|█████     | 725/1436 [00:32<00:04, 151.59it/s]
+[1ALoading weights:  53%|█████▎    | 766/1436 [00:32<00:03, 208.42it/s]
+[1ALoading weights:  56%|█████▌    | 801/1436 [00:32<00:02, 244.03it/s]
+[1ALoading weights:  58%|█████▊    | 832/1436 [00:32<00:02, 260.37it/s]
+[1ALoading weights:  60%|██████    | 865/1436 [00:32<00:02, 273.27it/s]
+[1ALoading weights:  63%|██████▎   | 910/1436 [00:33<00:01, 309.33it/s]
+[1ALoading weights:  66%|██████▋   | 953/1436 [00:33<00:01, 342.48it/s]
+[1ALoading weights:  69%|██████▉   | 989/1436 [00:33<00:01, 330.58it/s]
+[1ALoading weights:  72%|███████▏  | 1034/1436 [00:33<00:01, 344.69it/s]
+[1ALoading weights:  75%|███████▍  | 1074/1436 [00:33<00:01, 342.43it/s]
+[1ALoading weights:  78%|███████▊  | 1120/1436 [00:33<00:00, 366.04it/s]
+[1ALoading weights:  81%|████████  | 1157/1436 [00:33<00:00, 363.75it/s]
+[1ALoading weights:  83%|████████▎ | 1198/1436 [00:33<00:00, 366.22it/s]
+[1ALoading weights:  86%|████████▌ | 1235/1436 [00:33<00:00, 336.66it/s]
+[1ALoading weights:  90%|████████▉ | 1287/1436 [00:34<00:00, 385.81it/s]
+[1ALoading weights:  92%|█████████▏| 1327/1436 [00:34<00:00, 368.93it/s]
+[1ALoading weights:  95%|█████████▌| 1365/1436 [00:34<00:00, 364.97it/s]
+[1ALoading weights:  98%|█████████▊| 1404/1436 [00:34<00:00, 365.05it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:34<00:00, 41.66it/s] 
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## RAFAEL_v5A_guion_nuestro
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+We need to output exactly format specified.
+
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+CÓMO SUBIR CADA NOTA: una línea por CADA rubro de NOTAS (Gancho, Oferta, Confianza, Claridad, Calidad visual, Políticas de Meta, Mensajes baratos, Mensajes calificados), en este formato:
+  <Rubro> X→Y: <el cambio exacto> · <segundo o rango donde va> · <con qué se hace: corte/texto en capa/voz clonada/Qwen-Image-Edit/MiniMax H3/material que debe mandar el cliente>
+  Si un rubro ya está en 8 o más, escribe «ya está, no tocar».
+3 GANCHOS ALTERNATIVOS para los primeros 3 segundos, palabra por palabra, cada uno con la escena que lo acompaña (de lo que YA existe o generable con Qwen/MiniMax) y a quién filtra.
+2 ESCENAS NUEVAS CON IA que más subirían la nota: qué se ve, con qué modelo se hace, qué foto o toma real hace falta de base, y cuántos segundos dura cada una.
+LO MÁS RÁPIDO: de todo lo anterior, los 3 cambios que suben más nota con menos trabajo, en orden.
+
+We need to assess video.
+
+Data: video 17.6 s, 9:16. Transcription: [1.5-6.0s] ¿Estás listo para comprar un auto eléctrico o híbrido este mes? Soy Rafael Hernández Ortiz, [6.0-12.7s] asesor de BYD a Escaposalco. Manejamos Song Plus, King y Dolphin. Escríbeme por WhatsApp con la [12.7-13.7s] palabra BYD.
+
+From frames: first 3 frames 0.3s,0.9s,1.5s show man speaking. Text "¿Listo para estrenar auto?" top. Then 2.1s onward car rear. Subtitles: "¿Estás listo para comprar" etc. At 5.0s "Soy Rafael Hernández Ortiz," etc. At 6.2s etc. At 9.1s car side. Text "Manejamos Song Plus," etc. At 12.0s interior. Text "Escríbeme por WhatsApp con" etc. At 15.0s black screen with contact card.
+
+We need rating.
+
+Let's evaluate criteria:
+
+Gancho: first 3 seconds. 0.3-1.5s man face, text "¿Listo para estrenar auto?" That's okay but generic. No urgency. Maybe 5/10.
+
+Oferta: No offer commercial yet, only test drive motive. Transcription says no offer. So Oferta is weak. Maybe 3/10.
+
+Confianza: Name, role, dealership, WhatsApp, models. Shows car. Maybe 6/10.
+
+Claridad: Clear CTA: write WhatsApp with word BYD. Shows number at end. Maybe 7/10.
+
+Calidad visual: Real footage, but static, some frames repeated. 17.6s with 30 frames. Might be okay. Maybe 6/10.
+
+Políticas de Meta: No claims, no price, no guarantee. Should be fine. Maybe 9/10.
+
+Mensajes baratos: Campaign to WhatsApp with small budget, wants cheap messages. Video is generic, may attract curiosity not qualified. Maybe 5/10.
+
+Mensajes calificados: Asks "¿Estás listo para comprar... este mes?" filters intent. CTA specific word BYD. Might be okay. Maybe 6/10.
+
+Total? Average maybe ~5.8. Let's pick 6/10.
+
+Need notes line: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+
+We need assign numbers.
+
+Let's propose:
+Gancho 5/10
+Oferta 3/10
+Confianza 6/10
+Claridad 7/10
+Calidad visual 6/10
+Políticas de Meta 9/10
+Mensajes baratos 5/10
+Mensajes calificados 6/10
+
+Total maybe 6/10.
+
+POR QUÉ FUNCIONA: 3-5 bullets with second exact.
+
+- 1.5-3.0s: cara del asesor + texto "¿Listo para estrenar auto?" genera identificación local Azcapotzalco y rostro humano, baja fricción para escribir.
+- 5.0-6.0s: aparece "Soy Rafael Hernández Ortiz," con el auto real de fondo, ancla nombre a producto tangible.
+- 9.1-11.5s: plano lateral del King/Dolphin con texto "Manejamos Song Plus, King y Dolphin." muestra inventario real y filtra por modelo.
+- 15.0-17.3s: tarjeta final con nombre, asesor BYD Azcapotzalco, modelos y WhatsApp 55 7386 9438 visible 2.3s, reduce fricción de contacto.
+Maybe 4 bullets.
+
+QUÉ LO FRENA: 1-3 bullets with second exact and concrete fix.
+
+- 0.3-2.1s: gancho genérico "¿Listo para estrenar auto?" sin filtro de compra este mes ni prueba de manejo; cambia texto en capa y voz clonada a "¿Quieres prueba de manejo de BYD este mes en Azcapotzalco?" · 0.3-2.1s · texto en capa + voz clonada.
+- 1.5-6.0s: la voz dice "¿Estás listo para comprar..." pero el motivo real para escribir es prueba de manejo y la oferta llega el 4 nov; falta alinear promesa con CTA. Reescribir frase de voz clonada a "¿Quieres agendar tu prueba de manejo..." · 1.5-6.0s · voz clonada.
+- 6.0-12.7s: "asesor de BYD a Escaposalco" en transcripción tiene error tipográfico; en subtítulos se ve "Azcapotzalco y alrededores". Corregir texto en capa para evitar confusión. · 6.0-7.3s · texto en capa.
+
+VEREDICTO: «Subir con cambios», calificación proyectada con cambios. Maybe 8/10.
+
+CÓMO SUBIR CADA NOTA: one line per rubric.
+
+Format:
+  <Rubro> X→Y: <cambio exacto> · <segundo o rango> · <con qué se hace>
+
+If rubric >=8, write «ya está, no tocar».
+
+Let's craft:
+
+Gancho 5→7: Reemplazar texto inicial por "Prueba de manejo BYD en Azcapotzalco este mes" y voz clonada con pregunta de prueba de manejo · 0.3-2.1s · texto en capa/voz clonada
+
+Oferta 3→5: No inventar oferta; dejar claro que el motivo de contacto es agendar prueba de manejo y que la oferta comercial se manda el 4 nov · 1.5-6.0s y 15.0-17.3s · texto en capa/voz clonada
+
+Confianza 6→7: Añadir microcredencial en tarjeta final "Asesor BYD Azcapotzalco" ya está, pero reforzar con plano del asesor en la agencia con uniforme/placa visible · 0.9-1.5s · Qwen-Image-Edit a partir de foto real del asesor
+
+Claridad 7→8: Unificar CTA: "Escríbeme por WhatsApp con la palabra BYD para agendar tu prueba de manejo" en subtítulos y tarjeta · 12.7-13.7s y 15.0-17.3s · texto en capa/voz clonada
+
+Calidad visual 6→7: Dar movimiento a planos estáticos del auto con push-in suave y corte al ritmo · 2.1-8.5s y 9.1-14.4s · MiniMax H3 imagen→video con primer y último cuadro fijados
+
+Políticas de Meta 9→ya está, no tocar
+
+Mensajes baratos 5→7: Filtrar curiosidad con gancho de prueba de manejo + zona Azcapotzalco y palabra clave BYD · 0.3-3.0s · texto en capa/voz clonada
+
+Mensajes calificados 6→8: Añadir filtro de intención "este mes" y modelo específico en el gancho y en la tarjeta · 1.5-6.0s y 15.0-17.3s · texto en capa/voz clonada
+
+Need ensure each rubric line.
+
+3 GANCHOS ALTERNATIVOS para primeros 3 segundos, palabra por palabra, cada uno con escena que lo acompaña y a quién filtra.
+
+We need three hooks.
+
+Example:
+1. "Prueba de manejo BYD gratis en Azcapotzalco" escena: primer plano del asesor sonriendo en la plaza, texto en capa, etc. Filtra gente de zona que quiere probar.
+
+But must be word for word.
+
+Let's propose:
+
+1. "¿Quieres probar un BYD King hoy en Azcapotzalco?" Escena: plano del asesor a cámara 0.9s con fondo de la agencia, texto en capa. Filtra interesados en prueba inmediata y zona.
+
+2. "Estrena eléctrico o híbrido este mes con BYD Azcapotzalco" Escena: push-in del auto gris con puertas abiertas 2.1s. Filtra compradores con intención de compra este mes.
+
+3. "Agenda tu prueba de manejo BYD Song Plus, King o Dolphin" Escena: interior del auto con tablero visible 12.0s recortado a 0-3s con MiniMax H3. Filtra leads que conocen modelos.
+
+Need word by word.
+
+2 ESCENAS NUEVAS CON IA que más subirían la nota: qué se ve, con qué modelo se hace, qué foto o toma real hace falta de base, y cuántos segundos dura cada una.
+
+Example:
+Escena 1: 3s de órbita alrededor del auto en el piso de exhibición al atardecer. Se hace con MiniMax H3 a partir de foto real del auto en la agencia. Dura 3s.
+
+Escena 2: 2s de primer plano del asesor con placa de BYD Azcapotzalco. Qwen-Image-Edit a partir de foto real del asesor. Dura 2s.
+
+LO MÁS RÁPIDO: 3 cambios que suben más nota con menos trabajo, en orden.
+
+1. Cambiar texto y voz del gancho a prueba de manejo...
+2. Corregir CTA unificado...
+3. Añadir movimiento con MiniMax...
+
+Need ensure format exactly.
+
+The output must be only final answer, in Spanish claro.
+
+Make sure no reasoning shown.
+
+Let's produce final answer with sections headings exactly as requested.
+
+Check format:
+
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: ...
+QUÉ LO FRENA: ...
+VEREDICTO: ...
+CÓMO SUBIR CADA NOTA: ...
+3 GANCHOS ALTERNATIVOS...
+2 ESCENAS NUEVAS CON IA...
+LO MÁS RÁPIDO: ...
+
+Make sure each line for CÓMO SUBIR CADA NOTA starts with two spaces? It says una línea por CADA rubro. Probably bullet with two spaces.
+
+We'll output as:
+
+  Gancho 5→7: ...
+
+Make sure rubros exactly: Gancho, Oferta, Confianza, Claridad, Calidad visual, Políticas de Meta, Mensajes baratos, Mensajes calificados
+
+Use same capitalization.
+
+Let's craft final.
+
+Potential nuance: transcription says "asesor de BYD a Escaposalco." That's typo. Should note.
+
+Also note that video uses voice cloned saying script of agency. We can change words.
+
+Ensure no invented prices.
+
+We must mark [CONFIRMAR] if missing something. Maybe distance? Not needed.
+
+Let's produce final answer.
+
+Make sure POR QUÉ FUNCIONA bullets each señalando segundo exacto.
+
+Use dash or bullet.
+
+We'll use •.
+
+Make sure VEREDICTO includes «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+E.g., VEREDICTO: «Subir con cambios», calificación proyectada 8/10.
+
+CÓMO SUBIR CADA NOTA: each line.
+
+
+
+######## RAFAEL_v5B_sus_tomas
+ to=selfEres estratega de anuncios de Meta... Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+We need to produce exact format.
+
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+CÓMO SUBIR CADA NOTA: una línea por CADA rubro de NOTAS (Gancho, Oferta, Confianza, Claridad, Calidad visual, Políticas de Meta, Mensajes baratos, Mensajes calificados), en este formato:
+  <Rubro> X→Y: <el cambio exacto> · <segundo o rango donde va> · <con qué se hace: corte/texto en capa/voz clonada/Qwen-Image-Edit/MiniMax H3/material que debe mandar el cliente>
+  Si un rubro ya está en 8 o más, escribe «ya está, no tocar».
+3 GANCHOS ALTERNATIVOS para los primeros 3 segundos, palabra por palabra, cada uno con la escena que lo acompaña (de lo que YA existe o generable con Qwen/MiniMax) y a quién filtra.
+2 ESCENAS NUEVAS CON IA que más subirían la nota: qué se ve, con qué modelo se hace, qué foto o toma real hace falta de base, y cuántos segundos dura cada una.
+LO MÁS RÁPIDO: de todo lo anterior, los 3 cambios que suben más nota con menos trabajo, en orden.
+
+We need to evaluate video.
+
+Data: video 34.1 s, 9:16. Transcription times:
+1.1-7.4s gasolina cara, no te gustaría estrenar un BYD al mejor precio con los mejores
+7.4-17.9s bonos? Te presento el nuevo BYD King L2027, un híbrido enchufado. Tengo Sun Plus,
+17.9-24.0s King y Dolphin, híbridos y eléctricos con autonomía de hasta 1145 kilómetros.
+24.0-28.9s Agenda tu prueba de manejo, escríbeme la palabra BYD por WhatsApp y te
+28.9-30.3s enseño el modelo que va contigo.
+
+But subtitles in images: ¿Gasolina cara? at top 0.6s etc. Azcapotzalco y alrededores. BYD King 2027 · 205 hp. Tengo Song Plus, King y Dolphin, híbridos y eléctricos, con autonomía de hasta mil ciento cuarenta y cinco kilómetros. Agenda tu prueba de... Escribeme la palabra BYD por WhatsApp y te enseño el modelo que va contigo.
+
+Note transcription says Sun Plus, but subtitles say Song Plus. Probably typo. Use data.
+
+Business: Rafael Hernández Ortiz, asesor BYD Azcapotzalco. Song Plus, King, Dolphin. WhatsApp 55 7386 9438. Campaign messages to WhatsApp. Video is his real takes with his recorded voice (hook gasoline cara and presentation of King 2027), plus closing with cloned voice and contact card. Follows script of 3 takes agency passed 2 Nov. No commercial offer yet (sent 4 Nov); reason to write is test drive. Do not invent prices.
+
+We need rating.
+
+Let's assess.
+
+Gancho: ¿Gasolina cara? appears 0.6s-5.1s. Good hook for Mexico. But maybe generic. 6/10?
+
+Oferta: No offer commercial yet, only test drive. No price, no bonus. So Oferta low. Maybe 3/10? But objective is qualified messages. Might be okay. Oferta 4/10.
+
+Confianza: Shows advisor face, location Azcapotzalco y alrededores, name card at end with WhatsApp. Real takes. Good. Maybe 7/10.
+
+Claridad: Subtitles clear, call to action "escríbeme la palabra BYD por WhatsApp". Clear. Maybe 8/10.
+
+Calidad visual: Real footage in showroom, some cuts, but some frames show advisor looking up, maybe low angle. Car shots good. Might be 7/10.
+
+Políticas de Meta: No price claims, no misleading. Test drive CTA ok. No prohibited. Maybe 9/10.
+
+Mensajes baratos: Hook gasoline cara is broad, may attract non-buyers. No filter. Might be low. 5/10.
+
+Mensajes calificados: CTA is test drive, mentions models, autonomy. Might qualify somewhat. But no budget filter. 6/10.
+
+Total maybe 6/10.
+
+Need exact format.
+
+We must use only data. If missing something mark [CONFIRMAR]. Possibly autonomy 1145 km - transcription says 1145 kilómetros. Subtitles say mil ciento cuarenta y cinco kilómetros. That's 1145. OK.
+
+BYD King 2027 · 205 hp appears on screen 9.7s etc. Transcription says King L2027. Might be discrepancy. Use data.
+
+We need POR QUÉ FUNCIONA: 3-5 bullets with exact second.
+
+Examples:
+- 0.6-5.1s ¿Gasolina cara? + cara del asesor en showroom → identifica dolor inmediato y genera identificación local.
+- 17.9-24.0s muestra del King gris con puerta abierta y texto "Tengo Song Plus, King y Dolphin, híbridos y eléctricos, con autonomía de hasta mil ciento cuarenta y cinco kilómetros." → prueba social de inventario y beneficio concreto.
+- 31.2-33.5s tarjeta final con nombre Rafael Hernández Ortiz, Asesor BYD Azcapotzalco, WhatsApp 55 7386 9438 y "Agenda tu prueba de manejo Escribe «BYD»" → reduce fricción para escribir.
+
+QUÉ LO FRENA: 1-3 bullets with second and fix.
+
+Potential issues:
+- 1.1-7.4s menciona "al mejor precio con los mejores bonos" pero no hay oferta comercial todavía (se manda 4 nov). Riesgo de expectativa sin sustento y puede confundir. Arreglo: quitar mención a precio/bonos con voz clonada y texto en capa.
+- 7.4-17.9s "BYD King L2027" vs tarjeta "BYD King 2027 · 205 hp". Inconsistencia de nomenclatura. Arreglo: unificar texto en capa.
+- 24.0-30.3s CTA genérico sin filtro de compra. Arreglo: añadir filtro de intención en texto en capa.
+
+VEREDICTO: Subir con cambios, calificación proyectada maybe 8/10.
+
+CÓMO SUBIR CADA NOTA: one line per rubric.
+
+Format:
+  <Rubro> X→Y: <cambio exacto> · <segundo o rango> · <con qué se hace>
+
+If rubric >=8, write "ya está, no tocar".
+
+Let's assign scores:
+
+Gancho 6/10 → 8? Could improve with stronger first 3 sec. Maybe 6→8.
+
+Oferta 3/10 → 5? Can't invent offer. Maybe keep as is but clarify no price. Could be 3→4.
+
+Confianza 7/10 → 8? Maybe add location overlay consistently.
+
+Claridad 8/10 → ya está, no tocar? Maybe 8.
+
+Calidad visual 7/10 → 8? Could improve with push-in.
+
+Políticas de Meta 9/10 → ya está.
+
+Mensajes baratos 5/10 → 7? Add filter.
+
+Mensajes calificados 6/10 → 8?
+
+Need total rating X/10. Maybe 6/10.
+
+Projected with changes maybe 8/10.
+
+Let's craft.
+
+Need 3 GANCHOS ALTERNATIVOS for first 3 seconds, word by word, each with scene that accompanies (from existing or generable with Qwen/MiniMax) and who filters.
+
+Examples:
+1. "Gasolina en 26 pesos y sigues pagando" → escena: primer plano asesor en showroom con texto en capa, corte rápido. Filtra conductores de auto de combustión en CDMX.
+etc.
+
+Must be word by word.
+
+2 ESCENAS NUEVAS CON IA that would raise note: what is seen, with which model, what photo needed, duration.
+
+LO MÁS RÁPIDO: 3 changes that raise most note with least work.
+
+We must ensure not invent prices, times, distances, guarantees. Autonomy 1145 km is given. Can't invent price. Can't invent bonuses.
+
+We must not invent prices. So cannot say "al mejor precio". The transcription says "al mejor precio con los mejores bonos". That's in script. But business says no commercial offer yet. So we should suggest removing that mention.
+
+We must use only data. If missing something mark [CONFIRMAR]. Maybe the exact model name King L2027 vs King 2027. Might need confirm.
+
+We can note [CONFIRMAR] for model year.
+
+Let's produce final answer in Spanish.
+
+Ensure format exactly.
+
+CALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 6/10 · Oferta 3/10 · Confianza 7/10 · Claridad 8/10 · Calidad visual 7/10 · Políticas de Meta 9/10 · Mensajes baratos 5/10 · Mensajes calificados 6/10
+
+POR QUÉ FUNCIONA:
+- 0.6-5.1s ¿Gasolina cara? sobre rostro del asesor en showroom con texto en capa → dolor inmediato y contexto local Azcapotzalco y alrededores.
+- 17.6-24.4s plano del BYD King gris con puerta abierta y subtítulos “Tengo Song Plus, King y Dolphin, híbridos y eléctricos, con autonomía de hasta mil ciento cuarenta y cinco kilómetros.” → muestra inventario real y beneficio medible.
+- 31.2-33.5s tarjeta final con Rafael Hernández Ortiz Asesor BYD Azcapotzalco, WhatsApp 55 7386 9438 y “Agenda tu prueba de manejo Escribe «BYD»” → identidad verificable y fricción baja para escribir.
+
+QUÉ LO FRENA:
+- 1.1-7.4s la voz dice “al mejor precio con los mejores bonos” sin oferta comercial publicada todavía → expectativa sin sustento. Arreglo: reemplazar esa frase por voz clonada con “sin compromiso, agenda tu prueba” y quitar texto de precio/bonos en capa.
+- 7.4-17.9s nomenclatura mixta “BYD King L2027” en voz y “BYD King 2027 · 205 hp” en texto en capa → confusión. Arreglo: unificar texto en capa a la nomenclatura que el cliente confirme [CONFIRMAR] y mantener voz clonada consistente.
+- 24.0-30.3s CTA abierto “escríbeme la palabra BYD” sin filtro de intención → atrae curiosos. Arreglo: añadir en texto en capa “Prueba de manejo en Azcapotzalco” para anclar ubicación e intención.
+
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+
+CÓMO SUBIR CADA NOTA:
+  Gancho 6→8: Reforzar los primeros 3 s con texto en capa “¿Gasolina cara en Azcapotzalco?” y punch-in rápido sobre el rostro del asesor · 0.6-3.0s · texto en capa + edición con ffmpeg punch-in/zoom
+  Oferta 3→4: Eliminar mención a precio/bonos y dejar solo prueba de manejo sin compromiso · 1.1-7.4s · voz clonada con guion exacto + texto en capa
+  Confianza 7→8: Mantener “Azcapotzalco y alrededores” en texto en capa durante toda la presentación del asesor · 1.7-10.8s · texto en capa
+  Claridad 8/10: ya está, no tocar
+  Calidad visual 7→8: Añadir push-in suave en los planos del King para dar dinamismo sin deformar rostro · 17.6-24.4s · MiniMax H3 imagen→video con primer y último cuadro fijados a partir de foto real del King
+  Políticas de Meta 9/10: ya está, no tocar
+  Mensajes baratos 5→7: Añadir filtro de ubicación e intención en el gancho y CTA · 0.6-3.0s y 24.0-28.9s · texto en capa
+  Mensajes calificados 6→8: Reforzar CTA con “Agenda tu prueba de manejo en Azcapotzalco. Escribe BYD” y mostrar tarjeta de contacto con nombre y WhatsApp · 24.0-33.5s · texto en capa + tarjeta final existente
+
+3 GANCHOS ALTERNATIVOS para los primeros 3 segundos:
+1. “¿Sigues pagando gasolina cara en Azcapotzalco?” · Escena: primer plano del asesor en showroom con texto en capa palabra por palabra, corte al 0.6s. Filtra conductores locales con dolor de combustible.
+2. “King híbrido enchufado, prueba de manejo hoy” ·
+
+######## ADRIAN_TATUADOR_grabado_20261103
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+NEGOCIO: Adrián Santana, tatuador en el centro de Cancún (frente al Palacio Municipal), estudio propio con neón. Diseño único y personalizado, sesiones desde $1,000. WhatsApp 998 331 6522. Lo grabó él con su celular siguiendo nuestro guion. Quiere lanzar la campaña de mensajes hoy o mañana; solo lanzamos a partir de 8/10. Ya sabemos que está en 6/10: lo que hace falta es el plan exacto para subirlo.
+Objetivo: campaña de mensajes a WhatsApp con mensajes baratos y CALIFICADOS (gente que sí compra).
+
+VIDEO DEL ANUNCIO (17.3 s, 9:16). Imágenes adjuntas = 30 cuadros repartidos en TODO el video (2 hojas de 15, con el segundo de cada cuadro arriba a la izquierda). Los subtítulos y tarjetas son capas de texto exactas.
+TRANSCRIPCIÓN DE LO QUE SE DICE (con tiempos):
+[  0.1-  8.1s] Buscas un tatuaje en Cancún Centro? Soy Adrián Santana, estoy frente al Palacio Municipal en el centro de Cancún.
+[  8.1- 13.1s] Escríbeme ahora y asegura tu lugar. Las citas se agendan con anticipación, no te quedes fuera.
+
+Responde EXACTAMENTE con este formato:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+CÓMO SUBIR CADA NOTA: una línea por CADA rubro de NOTAS (Gancho, Oferta, Confianza, Claridad, Calidad visual, Políticas de Meta, Mensajes baratos, Mensajes calificados), en este formato:
+  <Rubro> X→Y: <el cambio exacto> · <segundo o rango donde va> · <con qué se hace: corte/texto en capa/voz clonada/Qwen-Image-Edit/MiniMax H3/material que debe mandar el cliente>
+  Si un rubro ya está en 8 o más, escribe «ya está, no tocar».
+3 GANCHOS ALTERNATIVOS para los primeros 3 segundos, palabra por palabra, cada uno con la escena que lo acompaña (de lo que YA existe o generable con Qwen/MiniMax) y a quién filtra.
+2 ESCENAS NUEVAS CON IA que más subirían la nota: qué se ve, con qué modelo se hace, qué foto o toma real hace falta de base, y cuántos segundos dura cada una.
+LO MÁS RÁPIDO: de todo lo anterior, los 3 cambios que suben más nota con menos trabajo, en orden.
+
+CAPACIDADES...
+
+We need to produce answer with exact format.
+
+We need to assess video. From frames: 0.3s to 2.6s man on couch drawing. Text appears at 1.4s "¿BUSCAS UN TATUAJE EN CANCÚN CENTRO?" etc. At 3.2s "SOY ADRIÁN SANTANA,". At 4.9s street sign Azucenas, text "ESTOY FRENTE AL PALACIO MUNICIPAL". At 6.0s etc. At 7.2s "EN EL CENTRO DE CANCÚN." At 7.8s street with tattoo shop sign. At 8.4s shop front. Then 8.9s tattoo chest. Text "ESCRÍBEME AHORA Y ASEGURA TU LUGAR." At 10.1s "LAS CITAS SE AGENDAN". At 11.8s "CON ANTICIPACIÓN,". At 13.0s "NO TE QUEDES FUERA". At 14.7s samurai tattoo. At 15.3s etc showing tattooing scene with text "AGENDA AL DM @adrian.santanaink 'Citas esta Semana'". Wait transcription says Escríbeme ahora... but video shows AGENDA AL DM. There's discrepancy. Transcription says [8.1-13.1s] Escríbeme ahora y asegura tu lugar. Las citas se agendan con anticipación, no te quedes fuera. But frames show AGENDA AL DM @adrian.santanaink "Citas esta Semana". Might be overlay. Use data given. Probably transcription is authoritative? It says subtítulos y tarjetas son capas de texto exactas. Transcription of what is said. So voice says that. Text overlay may be different. We must use only data below. Might note inconsistency? Probably follow transcription for voice, but visual text is from frames. The instruction: Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes... The transcription is given. The video frames show text. Might be okay.
+
+We need rating total X/10. Currently 6/10 per prompt: Ya sabemos que está en 6/10. So CALIFICACIÓN TOTAL: 6/10.
+
+NOTAS: need scores for each. Need to assign. Gancho? Probably low. Oferta? No price shown? Sessions from $1,000 but not in video. So Oferta low. Confianza? maybe medium. Claridad? maybe medium. Calidad visual? phone footage okay. Políticas de Meta? okay. Mensajes baratos? maybe okay. Mensajes calificados? maybe low.
+
+We need to propose improvements using capabilities.
+
+We must not invent prices, times, distances nor guarantees. Sessions from $1,000 is given. Can use that. WhatsApp number given. Can use.
+
+We cannot invent new data. Can use existing.
+
+We need POR QUÉ FUNCIONA: 3-5 bullets with exact second.
+
+QUÉ LO FRENA: 1-3 bullets with second exact and concrete fix.
+
+VEREDICTO: Subir con cambios or No subir? Probably Subir con cambios. Projected rating.
+
+CÓMO SUBIR CADA NOTA: one line per rubric.
+
+Format:
+  <Rubro> X→Y: <cambio exacto> · <segundo o rango donde va> · <con qué se hace...>
+
+If rubric already 8+, write "ya está, no tocar".
+
+We need 8 rubros.
+
+Let's propose scores:
+
+Gancho 4/10
+Oferta 3/10
+Confianza 6/10
+Claridad 6/10
+Calidad visual 6/10
+Políticas de Meta 9/10
+Mensajes baratos 7/10
+Mensajes calificados 5/10
+
+Total 6/10.
+
+Now POR QUÉ FUNCIONA:
+- 1.4-2.6s pregunta directa "¿BUSCAS UN TATUAJE EN CANCÚN CENTRO?" filtra ubicación y necesidad inmediata.
+- 4.9-5.5s señal Azucenas + "ESTOY FRENTE AL PALACIO MUNICIPAL" ancla geográfica real y reduce fricción de búsqueda.
+- 8.9-11.2s primer plano del tatuaje de pecho con lámpara y cerezo muestra trabajo real y calidad artística que genera deseo.
+- 15.3-17.0s escena de trabajo en estudio con texto "AGENDA AL DM @adrian.santanaink 'Citas esta Semana'" muestra proceso activo y canal de contacto.
+
+QUÉ LO FRENA:
+- 0.3-3.7s apertura con hombre en sofá dibujando sin contexto visual de tatuaje ni precio; pierde atención en 3s. Arreglo: reemplazar 0-3s por primer plano del tatuaje terminado con push-in y gancho de ubicación.
+- 8.1-13.1s voz pide "Escríbeme ahora y asegura tu lugar" pero no muestra precio desde $1,000 ni WhatsApp 998 331 6522 en pantalla; la tarjeta final pide DM no WhatsApp. Arreglo: añadir capa de texto con WhatsApp y "sesiones desde $1,000" en 8.1-13.1s.
+- 15.3-17.0s cierre con "AGENDA AL DM @adrian.santanaink" contradice objetivo de mensajes a WhatsApp. Arreglo: cambiar texto en capa a WhatsApp 998 331 6522 y mantener voz.
+
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10.
+
+CÓMO SUBIR CADA NOTA:
+
+Gancho 4→7: Reemplazar 0.0-2.8s por primer plano del tatuaje de pecho con push-in y texto en capa "Tatuaje en Cancún Centro, frente al Palacio" · 0.0-2.8s · con MiniMax H3 animación imagen→video a partir de foto real del tatuaje + texto en capa + voz clonada ajustada.
+
+Oferta 3→7: Añadir tarjeta de oferta real "sesiones desde $1,000 · diseño único y personalizado" · 8.1-10.7s · texto en capa exacta + voz clonada opcional para mantener guion.
+
+Confianza 6→8: Insertar 2s de fachada del estudio con neón y calle real para probar ubicación · 7.8-8.4s · corte con ffmpeg + punch-in + texto en capa "Estudio propio con neón, frente al Palacio Municipal".
+
+Claridad 6→8: Unificar canal de contacto a WhatsApp 998 331 6522 en todo el cierre y eliminar referencia a DM · 14.7-17.3s · texto en capa + voz clonada para frase final.
+
+Calidad visual 6→7: Estabilizar y dar color a tomas de calle 6.0-7.8s y añadir whoosh en transiciones · 4.9-8.4s · edición ffmpeg con color, viñeta y transiciones.
+
+Políticas de Meta 9→9: ya está, no tocar.
+
+Mensajes baratos 7→8: Acortar a 15s eliminando repeticiones de sofá 0.3-3.7s y mantener gancho + prueba social + CTA · 0.0-15.0s · corte con ffmpeg.
+
+Mensajes calificados 5→8: Añadir filtro de ubicación y presupuesto en texto de apertura y CTA con WhatsApp · 0.0-2.8s y 14.7-17.3s · texto en capa + voz clonada.
+
+Now 3 GANCHOS ALTERNATIVOS for first 3 seconds, word by word, each with scene that accompanies (from existing or generable) and who filters.
+
+Need 3 hooks.
+
+Example:
+1. "Tatuaje en Cancún Centro, frente al Palacio" - escena: primer plano del tatuaje de pecho con push-in generado con MiniMax H3 a partir de foto real del tatuaje. Filtra a personas en Cancún Centro buscando tatuador cercano.
+
+2. "¿Quieres un diseño único y personalizado hoy?" - escena: toma real del artista dibujando en tablet en sofá 0.3s con zoom rápido. Filtra a gente que busca diseño personalizado no flash.
+
+3. "Sesiones desde $1,000 en el centro de Cancún" - escena: fachada del estudio con neón 7.8s con dolly in. Filtra por presupuesto y ubicación.
+
+Need word by word.
+
+2 ESCENAS NUEVAS CON IA que más subirían nota: what is seen, with which model, what photo/take real needed as base, and how many seconds each.
+
+Example:
+- Escena de recorrido POV desde la calle Azucenas hasta la fachada del estudio con neón al atardecer. Modelo: MiniMax H3 imagen→video con primer y último cuadro fijados. Base: foto real de la fachada del estudio y toma de calle 7.8s. Duración 4s.
+- Escena de close-up del tatuaje de samurái con órbita lenta mostrando detalle. Modelo: MiniMax H3. Base: foto real del tatuaje de brazo 14.7s. Duración 3s.
+
+LO MÁS RÁPIDO: 3 changes that raise most note with least work, in order.
+
+1. Cambiar texto de cierre de DM a WhatsApp 998 331 6522 en capa 15.3-17.0s.
+2. Añadir tarjeta "sesiones desde $1,000" en 8.1-10.7s con texto en capa.
+3. Reemplazar apertura 0.0-2.8s por primer plano del tatuaje con push-in MiniMax H3.
+
+Need ensure format exactly.
+
+The output must be in Spanish.
+
+Make sure each section headings exactly as requested.
+
+Format:
+
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes bar
+Stopping app - local entrypoint completed.
+[modal-client] 2026-11-04T01:03:16+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-qD9PSbcmCvzoMQcljZkrRR
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261104_rafael_ab/lote.json --tokens 3000
+Duración: 15.1 min  (código 0)
+  nexus3 (ap-ZtSTaaSIs8SrcU1TRgCKhf): $0.070
+  glimmer (ap-qD9PSbcmCvzoMQcljZkrRR): $0.637
+Gasto del trabajo: $0.707
+Saldo restante ≈ $20.87

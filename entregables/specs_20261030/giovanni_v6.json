@@ -1,0 +1,31 @@
+{
+ "carpeta": "clientes/Giovanni/video_v6_20261031",
+ "salida": "clientes/Giovanni/video_v6_20261031/salida",
+ "semilla": 41,
+ "refs": {
+  "cara": "clientes/lote_30oct/refs/giovanni_cara.png",
+  "arco": "clientes/Giovanni/video_v4_20261030/arco_wikimedia_ccbysa4.jpg"
+ },
+ "cuadros": {
+  "GB6": [
+   [
+    "cara",
+    "arco"
+   ],
+   "Fotografía REALISTA vertical 9:16, como tomada con celular por un acompañante, luz natural de mañana: el MISMO hombre de la primera imagen (misma cara, mismo bigote canoso sin barba, mismo cabello canoso corto, mismo traje azul marino, camisa blanca y corbata) va de pie en la cubierta de una lancha real en el mar turquesa de Cabo San Lucas, con una mano apoyada en el barandal de la lancha y la otra mano abierta explicando algo a la cámara, sonriendo con naturalidad, el saco ligeramente movido por el viento, cabello un poco despeinado por la brisa. Detrás de él, a media distancia, EL ARCO de Cabo San Lucas real de la segunda imagen, completo y reconocible. Gotas y reflejos de agua realistas, textura de piel real, sin aspecto de estudio ni recorte. Sin texto.",
+   "brazos cruzados, brazos doblados, pose de estudio, fondo pegado, recorte, ilustración, caricatura, otra persona, cara diferente, barba, texto, letras"
+  ]
+ },
+ "voces": {
+  "G2a": "clientes/lote_30oct/voz/G2a.wav"
+ },
+ "tomas": [
+  [
+   "G2a",
+   "GB6",
+   "Vertical realistic handheld phone shot on a moving boat, gentle natural sway and sea breeze: the SAME man from the first frame, one hand on the boat railing, talks to the camera in Spanish with natural lip movement exactly matching the speech, gesturing naturally with his free hand, his hair and jacket moving slightly in the wind, water sparkling. El Arco of Cabo San Lucas stays behind him. Keep exactly the same face, gray mustache, gray hair and navy suit the whole time; one continuous shot, no cuts, never cross his arms. No text.",
+   8.92,
+   "G2a"
+  ]
+ ]
+}

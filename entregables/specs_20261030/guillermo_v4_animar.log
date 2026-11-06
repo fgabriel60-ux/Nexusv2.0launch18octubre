@@ -1,0 +1,32 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-6g8Zev7VByp1wxg7snmfzD
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma T2_car1
+toma T3_car2
+toma T5_car3
+toma T7_car4
+toma T8_car5
+guardado T2_car1.mp4
+guardado T3_car2.mp4
+guardado T5_car3.mp4
+guardado T7_car4.mp4
+guardado T8_car5.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-6g8Zev7VByp1wxg7snmfzD
+
+== Reporte Modal fgabriel60 ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261030/guillermo_v4.json
+Duración: 18.4 min  (código 0)
+  escenas-carlos (ap-6g8Zev7VByp1wxg7snmfzD): $0.853
+  glimmer (ap-Rr15FV6GoHTIkOHBpEFmM0): $0.270
+  glimmer (ap-k1TWb7022udE33npzce7L3): $0.422
+Gasto del trabajo: $1.545
+Saldo restante ≈ $4.42

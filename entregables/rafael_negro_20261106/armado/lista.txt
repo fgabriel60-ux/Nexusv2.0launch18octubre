@@ -1,0 +1,3 @@
+file '/workspaces/Nexusv2.0launch18octubre/entregables/rafael_negro_20261106/armado/R1_lejos_A_ok.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/entregables/rafael_negro_20261106/armado/R2_lejos_B_ok.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/entregables/rafael_negro_20261106/armado/R3_adentro_ok.mp4'

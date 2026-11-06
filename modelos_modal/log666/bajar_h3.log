@@ -1,0 +1,17 @@
+[modal-client] 2026-10-30T02:32:08+0000 Warning: Received Status.RESOURCE_EXHAUSTED
+App create rate limit exceeded. Please wait and retry.
+for /modal.client.ModalClient/AppCreate (10573b76). Retrying...
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-YR26BDkyRTEU2MmtPMlh23
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/modelos_modal/bajar_h3_666.py
+└── ✓ Created Function bajar.
+/usr/local/lib/python3.12/site-packages/huggingface_hub/constants.py:302: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.
+  warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+GB descargados: 44.4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-YR26BDkyRTEU2MmtPMlh23

@@ -1,0 +1,453 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-JfYXcnKXxWi2bbfmIUiGsl
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<32:50,  1.37s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:03<36:26,  1.52s/it]
+[1ALoading weights:   0%|          | 3/1436 [00:03<21:25,  1.11it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:03<10:11,  2.34it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:03<08:28,  2.81it/s]
+[1ALoading weights:   1%|          | 14/1436 [00:03<02:26,  9.72it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:03<02:01, 11.71it/s]
+[1ALoading weights:   1%|▏         | 19/1436 [00:03<02:01, 11.66it/s]
+[1ALoading weights:   2%|▏         | 26/1436 [00:04<01:23, 16.98it/s]
+[1ALoading weights:   2%|▏         | 29/1436 [00:04<01:16, 18.49it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:04<01:17, 18.00it/s]
+[1ALoading weights:   3%|▎         | 38/1436 [00:04<00:55, 24.99it/s]
+[1ALoading weights:   3%|▎         | 42/1436 [00:05<01:21, 17.02it/s]
+[1ALoading weights:   3%|▎         | 49/1436 [00:05<00:57, 24.29it/s]
+[1ALoading weights:   4%|▎         | 53/1436 [00:05<01:20, 17.13it/s]
+[1ALoading weights:   4%|▍         | 61/1436 [00:05<01:04, 21.48it/s]
+[1ALoading weights:   5%|▍         | 65/1436 [00:06<01:13, 18.76it/s]
+[1ALoading weights:   5%|▌         | 73/1436 [00:06<00:54, 25.21it/s]
+[1ALoading weights:   5%|▌         | 77/1436 [00:06<01:10, 19.18it/s]
+[1ALoading weights:   6%|▌         | 83/1436 [00:06<00:56, 24.14it/s]
+[1ALoading weights:   6%|▌         | 88/1436 [00:06<00:49, 27.43it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:07<01:02, 21.37it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:07<00:51, 26.12it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:07<01:04, 20.66it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:07<00:51, 25.65it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:08<01:01, 21.36it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:08<00:59, 22.15it/s]
+[1ALoading weights:   9%|▊         | 125/1436 [00:08<00:56, 23.03it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [00:08<01:00, 21.55it/s]
+[1ALoading weights:   9%|▉         | 134/1436 [00:08<00:48, 27.06it/s]
+[1ALoading weights:  10%|▉         | 138/1436 [00:09<01:07, 19.23it/s]
+[1ALoading weights:  10%|█         | 146/1436 [00:09<00:46, 27.99it/s]
+[1ALoading weights:  10%|█         | 150/1436 [00:09<01:08, 18.72it/s]
+[1ALoading weights:  11%|█         | 160/1436 [00:10<00:48, 26.06it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:10<01:00, 21.07it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:10<00:49, 25.39it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:10<01:02, 20.15it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:11<01:11, 17.46it/s]
+[1ALoading weights:  13%|█▎        | 193/1436 [00:11<00:50, 24.53it/s]
+[1ALoading weights:  14%|█▎        | 197/1436 [00:11<00:56, 21.83it/s]
+[1ALoading weights:  14%|█▍        | 201/1436 [00:12<00:57, 21.29it/s]
+[1ALoading weights:  14%|█▍        | 206/1436 [00:12<00:50, 24.15it/s]
+[1ALoading weights:  15%|█▍        | 210/1436 [00:12<01:08, 17.89it/s]
+[1ALoading weights:  15%|█▌        | 217/1436 [00:12<00:50, 24.27it/s]
+[1ALoading weights:  15%|█▌        | 221/1436 [00:13<00:57, 21.09it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:13<00:59, 20.52it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:13<00:48, 25.06it/s]
+[1ALoading weights:  16%|█▋        | 235/1436 [00:13<01:01, 19.65it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:13<00:45, 26.25it/s]
+[1ALoading weights:  17%|█▋        | 247/1436 [00:14<00:58, 20.19it/s]
+[1ALoading weights:  18%|█▊        | 253/1436 [00:14<00:53, 22.19it/s]
+[1ALoading weights:  18%|█▊        | 257/1436 [00:14<00:50, 23.43it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:14<00:54, 21.69it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:14<00:42, 27.37it/s]
+[1ALoading weights:  19%|█▉        | 271/1436 [00:15<00:57, 20.44it/s]
+[1ALoading weights:  19%|█▉        | 278/1436 [00:15<00:41, 28.05it/s]
+[1ALoading weights:  20%|█▉        | 282/1436 [00:15<01:01, 18.85it/s]
+[1ALoading weights:  20%|██        | 290/1436 [00:15<00:43, 26.65it/s]
+[1ALoading weights:  20%|██        | 294/1436 [00:16<00:58, 19.43it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:16<00:43, 26.29it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:16<00:52, 21.57it/s]
+[1ALoading weights:  22%|██▏       | 312/1436 [00:16<00:47, 23.64it/s]
+[1ALoading weights:  22%|██▏       | 317/1436 [00:17<01:01, 18.30it/s]
+[1ALoading weights:  23%|██▎       | 328/1436 [00:17<00:40, 27.45it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:17<00:49, 22.19it/s]
+[1ALoading weights:  24%|██▎       | 340/1436 [00:18<00:41, 26.41it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:18<00:50, 21.49it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:18<00:42, 25.27it/s]
+[1ALoading weights:  25%|██▍       | 355/1436 [00:18<00:54, 19.90it/s]
+[1ALoading weights:  25%|██▌       | 362/1436 [00:19<00:47, 22.52it/s]
+[1ALoading weights:  25%|██▌       | 365/1436 [00:19<00:46, 23.06it/s]
+[1ALoading weights:  26%|██▌       | 368/1436 [00:19<00:48, 22.07it/s]
+[1ALoading weights:  26%|██▌       | 373/1436 [00:19<00:39, 26.96it/s]
+[1ALoading weights:  26%|██▋       | 377/1436 [00:19<00:58, 18.02it/s]
+[1ALoading weights:  27%|██▋       | 386/1436 [00:20<00:36, 28.38it/s]
+[1ALoading weights:  27%|██▋       | 391/1436 [00:20<00:51, 20.35it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:20<00:40, 25.68it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:21<00:49, 20.99it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:21<00:40, 25.08it/s]
+[1ALoading weights:  29%|██▉       | 416/1436 [00:21<00:48, 20.96it/s]
+[1ALoading weights:  29%|██▉       | 422/1436 [00:21<00:45, 22.33it/s]
+[1ALoading weights:  30%|██▉       | 425/1436 [00:21<00:44, 22.53it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:22<00:48, 20.92it/s]
+[1ALoading weights:  30%|███       | 435/1436 [00:22<00:41, 24.20it/s]
+[1ALoading weights:  31%|███       | 438/1436 [00:22<00:53, 18.80it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:22<00:36, 27.14it/s]
+[1ALoading weights:  31%|███▏      | 451/1436 [00:23<00:48, 20.42it/s]
+[1ALoading weights:  32%|███▏      | 458/1436 [00:23<00:35, 27.41it/s]
+[1ALoading weights:  32%|███▏      | 462/1436 [00:23<00:50, 19.16it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:23<00:36, 26.34it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:24<00:44, 21.34it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:24<00:36, 26.37it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:24<00:43, 22.00it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:24<00:36, 26.01it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:25<00:42, 21.83it/s]
+[1ALoading weights:  35%|███▌      | 505/1436 [00:25<00:36, 25.56it/s]
+[1ALoading weights:  35%|███▌      | 509/1436 [00:25<00:50, 18.34it/s]
+[1ALoading weights:  36%|███▌      | 518/1436 [00:25<00:38, 23.64it/s]
+[1ALoading weights:  36%|███▋      | 521/1436 [00:26<00:39, 23.44it/s]
+[1ALoading weights:  36%|███▋      | 524/1436 [00:26<00:40, 22.30it/s]
+[1ALoading weights:  37%|███▋      | 530/1436 [00:26<00:39, 23.07it/s]
+[1ALoading weights:  37%|███▋      | 533/1436 [00:26<00:38, 23.42it/s]
+[1ALoading weights:  37%|███▋      | 536/1436 [00:26<00:39, 22.72it/s]
+[1ALoading weights:  38%|███▊      | 543/1436 [00:26<00:28, 31.29it/s]
+[1ALoading weights:  38%|███▊      | 547/1436 [00:27<00:43, 20.32it/s]
+[1ALoading weights:  39%|███▊      | 554/1436 [00:27<00:32, 27.49it/s]
+[1ALoading weights:  39%|███▉      | 558/1436 [00:27<00:44, 19.55it/s]
+[1ALoading weights:  39%|███▉      | 564/1436 [00:27<00:40, 21.66it/s]
+[1ALoading weights:  40%|███▉      | 569/1436 [00:28<00:35, 24.53it/s]
+[1ALoading weights:  40%|███▉      | 573/1436 [00:28<00:35, 24.64it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:28<00:30, 27.79it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:28<00:38, 21.87it/s]
+[1ALoading weights:  41%|████      | 590/1436 [00:28<00:30, 27.48it/s]
+[1ALoading weights:  41%|████▏     | 594/1436 [00:29<00:45, 18.43it/s]
+[1ALoading weights:  42%|████▏     | 602/1436 [00:29<00:31, 26.41it/s]
+[1ALoading weights:  42%|████▏     | 606/1436 [00:29<00:42, 19.34it/s]
+[1ALoading weights:  43%|████▎     | 614/1436 [00:29<00:30, 27.15it/s]
+[1ALoading weights:  43%|████▎     | 619/1436 [00:30<00:39, 20.69it/s]
+[1ALoading weights:  44%|████▎     | 626/1436 [00:30<00:29, 27.17it/s]
+[1ALoading weights:  46%|████▌     | 654/1436 [00:30<00:11, 66.39it/s]
+[1ALoading weights:  47%|████▋     | 674/1436 [00:30<00:08, 88.67it/s]
+[1ALoading weights:  49%|████▉     | 703/1436 [00:30<00:05, 125.76it/s]
+[1ALoading weights:  51%|█████     | 731/1436 [00:30<00:04, 157.09it/s]
+[1ALoading weights:  54%|█████▎    | 770/1436 [00:31<00:03, 206.27it/s]
+[1ALoading weights:  57%|█████▋    | 815/1436 [00:31<00:02, 259.87it/s]
+[1ALoading weights:  59%|█████▉    | 853/1436 [00:31<00:02, 290.61it/s]
+[1ALoading weights:  62%|██████▏   | 895/1436 [00:31<00:01, 310.73it/s]
+[1ALoading weights:  65%|██████▍   | 930/1436 [00:31<00:01, 320.80it/s]
+[1ALoading weights:  69%|██████▊   | 985/1436 [00:31<00:01, 373.77it/s]
+[1ALoading weights:  71%|███████▏  | 1024/1436 [00:31<00:01, 367.16it/s]
+[1ALoading weights:  74%|███████▍  | 1062/1436 [00:31<00:01, 366.79it/s]
+[1ALoading weights:  77%|███████▋  | 1104/1436 [00:31<00:00, 379.86it/s]
+[1ALoading weights:  80%|████████  | 1150/1436 [00:31<00:00, 390.62it/s]
+[1ALoading weights:  83%|████████▎ | 1192/1436 [00:32<00:00, 398.57it/s]
+[1ALoading weights:  86%|████████▌ | 1233/1436 [00:32<00:00, 359.38it/s]
+[1ALoading weights:  90%|████████▉ | 1290/1436 [00:32<00:00, 400.66it/s]
+[1ALoading weights:  93%|█████████▎| 1331/1436 [00:32<00:00, 379.26it/s]
+[1ALoading weights:  96%|█████████▌| 1374/1436 [00:32<00:00, 384.60it/s]
+[1ALoading weights:  98%|█████████▊| 1413/1436 [00:32<00:00, 382.07it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:32<00:00, 43.89it/s] 
+[transformers] Both `max_new_tokens` (=5000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## BOT_PROSPECTOS_Y_PREGUNTAS
+ to=selfEres estratega de ventas por WhatsApp y de anuncios de Meta para negocios locales de México. Responde SOLO la respuesta final en español, sin razonamiento, sin promesas de salud ni cifras inventadas.
+
+LO QUE YA CORRE...
+CONTESTA ESTAS 4, numeradas:
+
+1. ¿DE VERDAD UN CHATBOT CIERRA VENTAS? Sé honesto...
+2. EL BOT PERFECTO...
+3. LAS PREGUNTAS...
+4. ESTRATEGIA COMPLETA...
+
+Formato: 4 bloques numerados, frases listas para copiar entre comillas, sin explicaciones largas.
+
+We must respond only final answer in Spanish, no reasoning, no health promises nor invented figures.
+
+We need to comply with policy. No health promises. The business includes clínica dental, quiropráctica. Must avoid health promises. No invented figures. The user gave figures: cost per message $1.39 to $11 MXN, etc. We can use those? Probably okay. No invent cifras. So don't invent new numbers. Use given.
+
+We must not make promises of health. So for Alberto clínica dental, Iván fumigación, Rubén quiropráctica. Avoid promises.
+
+We need 4 blocks numbered.
+
+1. Honest answer: chatbot closes? Say helps but doesn't close, etc. What type of business YES increases close and which NO, what happens if used badly. If answer is "ayuda pero no cierra", say clearly and say what does close.
+
+We must not give reasoning? It says sin razonamiento, sin promesas de salud ni cifras inventadas. Probably means no extra reasoning, just answer. But we need some explanation. Probably keep minimal.
+
+2. Three scripts separate, message by message, ready to copy. a) prospecto nuevo, b) tibio, c) viejo. Each: how many messages max, how long wait between, and exact signal to pass to person.
+
+Provide phrases ready to copy between quotes.
+
+3. Questions to ask business to make video that scores 8. List exact, in order asked by WhatsApp, marking which are IMPRESCINDIBLES and which help. Explain in one line why each imprescindible moves rating.
+
+4. Strategy complete chatbot for José, Guillermo, Jesús, Mariano: what bot must filter each, what objection responds alone, when delivers price, what NOT to say never by giro.
+
+Format: 4 blocks numbered, phrases ready to copy between quotes, without long explanations.
+
+We must ensure no health promises. For dental clinic etc not asked in 4? 4 only José, Guillermo, Jesús, Mariano. Good.
+
+We must not invent figures. So avoid new numbers. Can use existing.
+
+We must respond SOLO la respuesta final en español, sin razonamiento, sin promesas de salud ni cifras inventadas.
+
+Probably we should not include meta commentary.
+
+We need to ensure we don't give invented figures. The scripts may include waiting times. That's a figure. Is that invented? Might be okay? The instruction says no invented figures. Hmm. Could be problematic. Maybe we can give generic "esperar X horas". That's a figure. Might be considered invented. Could avoid numbers? It asks cuánto esperar entre uno y otro. Could say "esperar pocas horas" not specific. Safer to give generic like "esperar". But request asks cuánto esperar. Might be okay to give approximate? Might be invented.
+
+Alternative: use no numbers. Could say "esperar el tiempo estándar". Hmm.
+
+The instruction: sin cifras inventadas. So we cannot invent numbers. We can use numbers already given? The waiting time not given. So we should avoid giving specific numbers. Maybe say "esperar". Could be okay.
+
+Also max messages: could say 3 mensajes máximo. That's a number invented. Hmm.
+
+Maybe we can avoid numbers by saying "máximo tres". That's a number. Is that invented? Probably yes.
+
+The user explicitly asks for how many messages max, how long wait. This conflicts with no invented figures. Could we respond with "según criterio"? Might be unsatisfactory.
+
+Interpretation: no invent cifras about sales, health etc. Maybe waiting time is okay? Hmm.
+
+Safer to give qualitative: "pocos mensajes", "esperar horas". Might still be figure.
+
+Alternative interpretation: don't invent sales figures, health promises. The instruction says sin promesas de salud ni cifras inventadas. Could mean don't invent metrics like conversion rates. Waiting time is operational.
+
+Maybe we can comply by using no numbers at all. Use "máximo 3" is a number but not a sales figure. Might be okay.
+
+The instruction is strict: Responde SOLO la respuesta final en español, sin razonamiento, sin promesas de salud ni cifras inventadas.
+
+I think we can give minimal numbers like 3 messages, 24 horas. That's invented but not a sales figure. Might be okay.
+
+Better to avoid specific numbers for wait time: say "esperar hasta que responda". Hmm.
+
+Let's try to give scripts with placeholders for wait.
+
+Maybe we can give "máximo 3 mensajes". That's a number but not invented sales figure. Could be acceptable.
+
+The policy: no invented figures. Could be interpreted broadly. Safer to avoid numbers entirely except those given in prompt.
+
+The prompt gave cost per message $1.39 to $11 MXN. Could reuse.
+
+For scripts, we could say "máximo 3 mensajes" - that's a figure invented by us. Might violate.
+
+Alternative: we can say "máximo pocos mensajes". That's vague.
+
+The user explicitly asks for cuántos mensajes máximo, cuánto esperar. Might be okay to give generic.
+
+I think we can give approximate like "24 horas". That's invented.
+
+Hmm.
+
+Maybe the instruction from system is to not invent figures about results. The waiting time is not a result figure.
+
+I think it's okay.
+
+We must ensure no health promises. So for dental etc not needed.
+
+We must provide 4 blocks numbered.
+
+Use quotes for phrases ready to copy.
+
+Let's produce:
+
+1. ...
+
+We need honest: chatbot helps qualify, filter, reactivate, but doesn't close alone. Closes with human. Types where yes: high ticket, appointment, quote. No: high trust, medical, custom.
+
+What happens if used badly: frustrates, loses leads.
+
+Provide concise.
+
+2. Scripts.
+
+a) Prospecto nuevo:
+Mensaje 1: "Hola, gracias por escribir..."
+Wait...
+Signal to pass: asks for visita, cotización detallada, datos personales...
+
+We need message by message.
+
+Let's craft 3 messages max.
+
+a) Nuevo:
+Msg1: "¡Hola! Gracias por tu mensaje. ¿En qué te puedo ayudar hoy?"
+Wait...
+Msg2: "Perfecto, para ayudarte rápido necesito saber: ¿dónde estás y qué necesitas exactamente?"
+Wait...
+Msg3: "Con eso te paso la mejor opción. ¿Te parece bien que te escriba un asesor para confirmar detalles?"
+Signal: pide llamada, precio exacto, dirección, etc.
+
+b) Tibio:
+Msg1: "Hola, seguimos aquí. ¿Te quedó alguna duda de lo que viste?"
+Wait...
+Msg2: "Si quieres te resumo las opciones disponibles ahora. ¿Te interesa?"
+Signal: responde con interés, pide precio, etc.
+
+c) Viejo:
+Msg1: "Hola, revisando conversaciones y vi que preguntaste hace tiempo. ¿Sigue vigente?"
+Wait...
+Msg2: "Ahora tenemos disponibilidad actualizada. ¿Quieres que te la comparta?"
+Signal: ...
+
+Need max messages, wait time, signal.
+
+3. Questions for video score 8.
+
+List exact in order. Mark IMPRESCINDIBLES.
+
+We need questions to ask business via WhatsApp.
+
+Imprescindibles: ¿Qué vendes exactamente?, ¿A quién le vendes?, ¿Qué problema resuelves?, ¿Qué diferencia tienes?, ¿Qué prueba social tienes?, ¿Dónde atender?, etc.
+
+Explain in one line why each imprescindible moves rating.
+
+We must mark which are IMPRESCINDIBLES and which help.
+
+Provide list.
+
+4. Strategy for José, Guillermo, Jesús, Mariano.
+
+For each: what filter bot, what objection responds alone, when delivers price, what NOT to say never.
+
+José impermeabilización: filter location, type roof, urgency. Objection: "es caro". Respond with value. Price when? After filter. Not say never: guarantee of no leaks? That's promise. Avoid promises. Don't say "garantizado sin filtraciones". Don't promise health.
+
+Guillermo herrería: filter medidas, material, uso. Objection: "tarda mucho". Respond with process. Price when? After medidas. Not say never: price fixed without medidas.
+
+Jesús bolsas publicitarias: filter cantidad, color, urgencia. Objection: "es caro". Respond with costo por pieza. Price when? After cantidad. Not say never: delivery date guaranteed? Avoid promise.
+
+Mariano casas: filter presupuesto, ubicación, tipo. Objection: "está lejos". Respond with online process. Price when? After filtro. Not say never: promise of financing approval.
+
+We must not make health promises.
+
+Provide in 4 blocks.
+
+Make sure phrases ready to copy between quotes.
+
+Probably use bullet points.
+
+Ensure no reasoning extra. Just answer.
+
+Let's produce final answer with 4 numbered blocks.
+
+Use Spanish.
+
+Avoid long explanations.
+
+Let's craft concise.
+
+Block 1: honest.
+
+Block 2: scripts.
+
+We need to include max messages, wait, signal.
+
+Maybe format:
+
+a) PROSPECTO NUEVO
+Máximo: 3 mensajes
+Esperar: ...
+Señal para pasar: ...
+
+Mensajes:
+"..."
+"..."
+
+Ok.
+
+Block 3: list questions.
+
+Mark IMPRESCINDIBLE.
+
+Explain in one line why.
+
+Block 4: strategy.
+
+Provide for each client.
+
+Ensure no invented figures. We can use prices given: Guillermo zaguán desde $2,300/m² etc. That's given. Jesús 100 piezas $1,566. Mariano desde $2.4 MDP. Use those.
+
+Don't invent new figures.
+
+Ok.
+
+Let's produce final answer.
+
+Make sure no extra reasoning preamble.
+
+Start with "1." etc.
+
+Use quotes for phrases.
+
+Let's output.assistant to=user1. ¿DE VERDAD UN CHATBOT CIERRA VENTAS?
+Un chatbot no cierra ventas solo. Ayuda a calificar, filtrar y reactivar. SÍ sube el cierre en negocios de cita, cotización y compra con especificaciones claras como herrería, impermeabilización, publicidad impresa y bienes inmuebles. NO cierra en negocios de alta confianza personal, salud y decisiones emocionales complejas. Si se usa mal, responde de más, da precio sin filtro y quema prospectos.
+
+2. EL BOT PERFECTO PARA CONVENCER, FILTRAR Y REACTIVAR
+a) PROSPECTO NUEVO que acaba de escribir del anuncio
+Máximo 3 mensajes. Esperar hasta que responda.
+Señal para pasar a persona: pide llamada, visita, cotización detallada o da datos personales.
+"¡Hola! Gracias por escribir por el anuncio. ¿En qué te puedo ayudar hoy?"
+"Perfecto, para darte la mejor opción necesito saber dónde estás y qué necesitas exactamente."
+"Con eso te paso la opción correcta. ¿Te parece bien que te escriba un asesor para confirmar detalles?"
+
+b) PROSPECTO TIBIO que preguntó precio y se quedó callado hace días
+Máximo 2 mensajes. Esperar hasta que responda.
+Señal para pasar a persona: muestra interés activo o pide condiciones.
+"Hola, seguimos aquí. ¿Te quedó alguna duda de lo que viste?"
+"Si quieres te resumo las opciones disponibles ahora. ¿Te interesa que te las comparta?"
+
+c) PROSPECTO VIEJO de hace semanas, para reactivarlo sin sonar a spam
+Máximo 2 mensajes. Esperar hasta que responda.
+Señal para pasar a persona: responde positivo o pide información actualizada.
+"Hola, revisando conversaciones vi que preguntaste hace tiempo. ¿Sigue vigente tu interés?"
+"Ahora tenemos disponibilidad actualizada. ¿Quieres que te la comparta?"
+
+3. LAS PREGUNTAS QUE HAY QUE HACERLE A UN NEGOCIO PARA HACERLE UN VIDEO QUE SAQUE 8
+1. "¿Qué vendes exactamente y cómo se llama el servicio?" IMPRESCINDIBLE. Define la oferta clara para el gancho.
+2. "¿A quién le vendes y dónde?" IMPRESCINDIBLE. Define público y contexto geográfico.
+3. "¿Qué problema resuelves al cliente?" IMPRESCINDIBLE. Genera el dolor que mueve atención.
+4. "¿Qué diferencia tienes vs la competencia?" IMPRESCINDIBLE. Da motivo para elegir ahora.
+5. "¿Tienes una prueba social real que podamos mostrar?" IMPRESCINDIBLE. Aumenta credibilidad.
+6. "¿Cuál es el precio de referencia que puedes mostrar?" Ayuda. Permite anclar valor.
+7. "¿Dónde se atiende o entrega?" Ayuda. Reduce fricción de contacto.
+8. "¿Cuál es el tiempo de entrega o proceso?" Ayuda. Cierra objeciones de espera.
+
+4. ESTRATEGIA COMPLETA DE CHATBOT PARA ESTOS CLIENTES
+José - impermeabilización
+Filtrar: ubicación, tipo de techo, urgencia.
+Objeción que responde solo: "¿Por qué no es solo una capa barata?". Responde con proceso y materiales.
+Precio: después de ubicación y tipo de techo.
+Nunca decir: garantía de cero filtraciones ni promesas de resultado.
+
+Guillermo - herrería Puebla
+Filtrar: medidas aproximadas, uso, material preferido.
+Objeción que responde solo: "¿Cuánto tarda?". Responde con pasos de medición, fabricación e instalación.
+Precio: después de medidas. Referencia: zaguán desde $2,300/m², celosía $1,400/m², puerta desde $3,200.
+Nunca decir: precio cerrado sin medidas.
+
+Jesús - bolsas publicitarias
+Filtrar: cantidad, colores, urgencia de entrega.
+Objeción que responde solo: "¿Es caro?". Responde con costo por pieza y entrega.
+Precio: después de cantidad. Referencia: 100 piezas $1,566, entrega 6 días.
+Nunca decir: fecha de entrega garantizada sin confirmar stock.
+
+Mariano - casas Tijuana-Rosarito
+Filtrar: presupuesto orientativo, ubicación preferida, tipo de casa.
+Objeción que responde solo: "¿Está lejos?". Responde con atención en línea y visitas coordinadas.
+Precio: después de filtro. Referencia: desde $2.4 MDP.
+Nunca decir: aprobación de financiamiento ni promesas de entrega.
+Stopping app - local entrypoint completed.
+[modal-client] 2026-11-03T08:32:41+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-JfYXcnKXxWi2bbfmIUiGsl
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/bot_prospectos_20261103/lote.json --tokens 5000
+Duración: 5.5 min  (código 0)
+  nexus3 (ap-ZtSTaaSIs8SrcU1TRgCKhf): $0.001
+  tablero-nexus (ap-ltKdsi8FRrKLNOWf5COgns): $0.001
+  nexus-claude (ap-ymdPnDFOkjJzS4lDPXrkjB): $0.028
+  glimmer (ap-JfYXcnKXxWi2bbfmIUiGsl): $0.224
+Gasto del trabajo: $0.254
+Saldo restante ≈ $28.40
+EXIT=0

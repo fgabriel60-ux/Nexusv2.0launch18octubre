@@ -1,0 +1,5 @@
+file 'notas/1022_180224.ogg'
+file 'notas/1023_010224.ogg'
+file 'notas/1023_200623.ogg'
+file 'notas/1023_202214.ogg'
+file 'notas/1023_224703.ogg'

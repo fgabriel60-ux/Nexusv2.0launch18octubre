@@ -1,0 +1,67 @@
+{
+ "carpeta": "contratista_v2_20261030",
+ "salida": "clientes/Contratista6561300006/video_v2/salida",
+ "semilla": 7,
+ "tam": [
+  704,
+  1280
+ ],
+ "listos": {
+  "R1": "clientes/Contratista6561300006/whatsapp/030E5F2B2A54.jpg",
+  "R2": "clientes/Contratista6561300006/whatsapp/3A7A401D8622.jpg",
+  "R3": "clientes/Contratista6561300006/whatsapp/57863B9B440E.jpg",
+  "R4": "clientes/Contratista6561300006/whatsapp/3C6D8459198C.jpg",
+  "R5": "clientes/Contratista6561300006/whatsapp/122C026DFA98.jpg",
+  "R6": "clientes/Contratista6561300006/whatsapp/20B424BCDCE3.jpg"
+ },
+ "tomas": [
+  [
+   "K1_losa",
+   "R1",
+   "Vertical real construction shot: the worker spreads and levels fresh concrete on the slab with a long screed, handheld camera slowly moving. Realistic, keep the exact same place, materials and colors as the photo. No text. Audio: construction ambience, no speech.",
+   4.0,
+   null,
+   null
+  ],
+  [
+   "K2_estructura",
+   "R2",
+   "Vertical real construction shot: a worker welds on the steel beam structure, small sparks, camera tilts up slowly. Realistic, keep the exact same place, materials and colors as the photo. No text. Audio: construction ambience, no speech.",
+   4.0,
+   null,
+   null
+  ],
+  [
+   "K3_excavacion",
+   "R3",
+   "Vertical real construction shot: the worker digs with a shovel, dirt moves, slow dolly in. Realistic, keep the exact same place, materials and colors as the photo. No text. Audio: construction ambience, no speech.",
+   4.0,
+   null,
+   null
+  ],
+  [
+   "K4_cocina",
+   "R4",
+   "Vertical real construction shot: a worker works on the outdoor kitchen under construction, camera slowly pushes in. Realistic, keep the exact same place, materials and colors as the photo. No text. Audio: construction ambience, no speech.",
+   4.0,
+   null,
+   null
+  ],
+  [
+   "K5_alberca",
+   "R5",
+   "Vertical real shot: the finished pool water ripples gently in the sun, slow cinematic orbit. Realistic, keep the exact same place, materials and colors as the photo. No text. Audio: calm water, no speech.",
+   4.0,
+   null,
+   null
+  ],
+  [
+   "K6_local",
+   "R6",
+   "Vertical real shot: slow cinematic dolly forward through the finished bright commercial space. Realistic, keep the exact same place, materials and colors as the photo. No text. Audio: quiet room, no speech.",
+   4.0,
+   null,
+   null
+  ]
+ ]
+}

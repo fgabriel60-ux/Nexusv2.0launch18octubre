@@ -1,0 +1,30 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Viral,Montserrat,52,&H00FFFFFF,&H00241E12,&H96000000,1,1,4,2,2,90,90,150,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.90,Viral,,0,0,0,,¿BUSCAS ¿QUIERES REALISMO,
+Dialogue: 0,0:00:01.10,0:00:01.62,Viral,,0,0,0,,ANIME O JAPONÉS
+Dialogue: 0,0:00:01.62,0:00:02.54,Viral,,0,0,0,,TRADICIONAL EN CANCÚN
+Dialogue: 0,0:00:02.54,0:00:02.94,Viral,,0,0,0,,CENTRO?
+Dialogue: 0,0:00:03.22,0:00:04.12,Viral,,0,0,0,,ADRIÁN SANTANA,
+Dialogue: 0,0:00:04.38,0:00:05.54,Viral,,0,0,0,,ESTOY FRENTE AL
+Dialogue: 0,0:00:05.54,0:00:06.56,Viral,,0,0,0,,PALACIO MUNICIPAL EN
+Dialogue: 0,0:00:06.56,0:00:07.16,Viral,,0,0,0,,EL CENTRO DE
+Dialogue: 0,0:00:07.16,0:00:07.70,Viral,,0,0,0,,CANCÚN.
+Dialogue: 0,0:00:08.22,0:00:09.32,Viral,,0,0,0,,ESCRÍBEME ESCRÍBEME CITA
+Dialogue: 0,0:00:09.32,0:00:09.74,Viral,,0,0,0,,Y TE PASO
+Dialogue: 0,0:00:09.74,0:00:10.70,Viral,,0,0,0,,LA DISPONIBILIDAD DE
+Dialogue: 0,0:00:10.70,0:00:11.60,Viral,,0,0,0,,ESTA SEMANA PARA
+Dialogue: 0,0:00:11.60,0:00:12.22,Viral,,0,0,0,,REALISMO,
+Dialogue: 0,0:00:12.52,0:00:12.92,Viral,,0,0,0,,ANIME,
+Dialogue: 0,0:00:12.84,0:00:13.64,Viral,,0,0,0,,JAPONÉS TRADICIONAL Y
+Dialogue: 0,0:00:13.64,0:00:14.04,Viral,,0,0,0,,LETTERING.

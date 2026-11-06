@@ -1,0 +1,30 @@
+[
+  {
+    "n": "Victor",
+    "id": "fbea5ca5db5946f581a09678ae99f0a2",
+    "text": "¿Eres constructora o desarrollador? En Servilín hacemos limpieza de obra fina para empresas. Retiramos polvo, cemento y restos de pintura. Limpiamos ventanas y pisos con personal uniformado, capacitado y supervisado. Tu obra lista para entregar. Solicita una propuesta por WhatsApp. Dinos qué tipo de inmueble y cuántos metros cuadrados.",
+    "out": "clientes/Victor/video/Servilin_obra_fina_v6b.mp4",
+    "clips": [
+      "O1_piso",
+      "O3_aspirar",
+      "O2_ventanal",
+      "O5_listo"
+    ],
+    "cliente": "Víctor · Servilin. Limpieza de obra fina PARA EMPRESAS, constructoras y desarrolladores. Personal uniformado, capacitado y supervisado. No es vacante. Sin precio confirmado. CTA WhatsApp con tipo de inmueble y m².",
+    "video_final": "/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/clientes/Victor/video/Servilin_obra_fina_v6d.mp4"
+  },
+  {
+    "n": "Guillermo",
+    "id": "4f23cbd3089a4822b50eee260adb48f5",
+    "text": "¿Tu casa necesita zaguán? En Puebla, Proyectos Metálicos Vicens hace zaguanes a la medida. Cuidamos los detalles, desde el armado hasta el acabado. Más de quince años de experiencia. Mándanos por WhatsApp una foto, las medidas y tu colonia para cotizar tu zaguán.",
+    "out": "clientes/Guillermo/far12_v1/Vicens_far12_v4_voz.mp4",
+    "clips": [
+      "H_zaguan_se_arma",
+      "Z1_porton",
+      "H_zaguan_se_arma",
+      "N3_zaguan"
+    ],
+    "cliente": "Guillermo · Proyectos Metálicos Vicens. Herrería en Puebla y alrededores, +15 años. Servicio principal en este anuncio: zaguanes a medida. WhatsApp 231 231 1066. Sin precio confirmado. Guion adaptado de recomendaciones de Glimmer 20261031b: gancho hablado, subtítulos palabra por palabra y un servicio principal. No se presenta como guion literal de Glimmer.",
+    "video_final": "/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/clientes/Guillermo/far12_v1/Vicens_far12_v4b_voz.mp4"
+  }
+]

@@ -1,0 +1,567 @@
+{
+  "status": "ok",
+  "mode": "EXPLORATORIO CON DOS ANUNCIOS",
+  "exploratory_two_ads": true,
+  "context": {
+    "account_id": "684865860329838",
+    "currency": "MXN",
+    "objective": "traffic",
+    "result_type": "conversacion_iniciada",
+    "attribution": "7d_click_1d_view",
+    "placement": "mixed",
+    "audience": "Edad=18 - 65+; Lugar=México"
+  },
+  "rows_used": 18,
+  "ads_used": 2,
+  "rows_excluded": 93,
+  "duplicates_removed": 0,
+  "benchmark": {
+    "scope": "ad",
+    "ad_id": "120251563209080651",
+    "campaign_id": "120251563208660651",
+    "cost_per_result": 11.507500000000002,
+    "results": 84.0,
+    "spend": 966.6300000000001,
+    "ctr": 2.2740440324449596,
+    "cpm": 140.0101390498262,
+    "note": "Referencia retrospectiva provisional; mínimo 20 resultados. La selección de la ganadora puede ser optimista."
+  },
+  "validation": {
+    "tested_ads": 0,
+    "tested_campaigns": 0,
+    "mae_per_1000": null,
+    "baseline_mae_per_1000": null,
+    "text_model_enabled": false,
+    "splits": [],
+    "note": "Validación temporal de tasa de resultados, no de subasta ni de intervalos. El texto solo modifica la tasa si supera al promedio por al menos 5%, con ≥8 anuncios y ≥3 campañas de prueba."
+  },
+  "settings": {
+    "budget": 966.63,
+    "days": 19,
+    "audience_size": 10000.0,
+    "opportunities_per_person": 2.0,
+    "retrieval": 0.65,
+    "competition": 1.0,
+    "market_sigma": 0.45,
+    "fatigue": 0.08,
+    "execution_sigma": 0.35,
+    "bid_multiplier": 1.5,
+    "tolerance": 0.0,
+    "seed": 42,
+    "conversion_delay": 1,
+    "allocation": "equal"
+  },
+  "segments": [
+    {
+      "name": "Audiencia definida",
+      "share": 1.0,
+      "response": 1.0
+    }
+  ],
+  "runs": 600,
+  "ideas": [
+    {
+      "name": "Tu marca merece vender",
+      "text": "Pieza estática cuadrada negra y naranja para Visión Agencia IA. Gancho: TU MARCA MERECE VENDER. Tres tarjetas: Campaña desde $500 al mes; Lista en 4 horas; Video gratis de muestra. Escena: ejemplo visual de un negocio y su anuncio en un teléfono, claramente identificado como muestra, sin testimonios ni cifras de ventas inventadas. Oferta: creamos la campaña de tu marca y un video de muestra gratis. Texto propuesto: Dale a tu negocio una campaña hecha para que te conozcan y te escriban. Por $500 al mes preparamos tu campaña, lista en 4 horas. Primero conoce nuestro trabajo con un video gratis de muestra. Escríbenos MUESTRA y cuéntanos qué vendes. CTA: Enviar mensaje. Hipótesis editorial basada en la oferta histórica; precio, plazo y alcance pendientes de confirmar antes de publicar.",
+      "evidence": "Base común: no hay evidencia suficiente para diferenciar esta idea",
+      "neighbors": [
+        {
+          "ad_id": "120251563209080651",
+          "campaign_id": "120251563208660651",
+          "similarity": 0.582,
+          "idea": "Texto principal: vacío (el anuncio se publicó sin texto; caption de Instagram vacío y la publicación de Facebook solo muestra el título). Visual: pieza cuadrada negra/naranja «TU MARCA MERECE VENDER. Nosotros creamos la campaña. Tú recibes los clientes.» Tarjetas: «Por solo $500 "
+        },
+        {
+          "ad_id": "120252656552890651",
+          "campaign_id": "120251563208660651",
+          "similarity": 0.177,
+          "idea": "Texto principal: vacío (caption de Instagram vacío). Video vertical de 15.8 s, solo música, sin voz (sin segmentos de habla detectados). 0–3 s: mujer de blusa azul en oficina con libreros, texto «Facebook dice, lo más importante es quien vende tu producto». 3–5 s: mujer de traje "
+        }
+      ],
+      "spend": {
+        "p10": 966.5346806556854,
+        "median": 966.579953444842,
+        "p90": 966.6207017805169
+      },
+      "impressions": {
+        "p10": 7474.0,
+        "median": 9770.0,
+        "p90": 13143.0
+      },
+      "clicks": {
+        "p10": 136.0,
+        "median": 171.0,
+        "p90": 232.0
+      },
+      "results": {
+        "p10": 71.0,
+        "median": 93.0,
+        "p90": 127.0
+      },
+      "cpa": {
+        "p10": 7.610772439296417,
+        "median": 10.39310441830882,
+        "p90": 13.613326358119599
+      },
+      "cpc": {
+        "p10": 4.166241809442435,
+        "median": 5.619919160561952,
+        "p90": 7.107147566928657
+      },
+      "ctr": {
+        "p10": 1.06684571769621,
+        "median": 1.818881724569339,
+        "p90": 2.9459241323648104
+      },
+      "roas": null,
+      "zero_result_fraction": 0.0,
+      "scenario_fraction_near_benchmark": 0.7,
+      "stages": {
+        "opportunities": {
+          "p10": 380000.0,
+          "median": 380000.0,
+          "p90": 380000.0
+        },
+        "retrieved": {
+          "p10": 246635.0,
+          "median": 247020.0,
+          "p90": 247387.0
+        },
+        "won": {
+          "p10": 114458.0,
+          "median": 202169.0,
+          "p90": 240076.0
+        },
+        "delivered": {
+          "p10": 7474.0,
+          "median": 9770.0,
+          "p90": 13143.0
+        }
+      }
+    }
+  ],
+  "daily": [
+    {
+      "day": 1,
+      "spend": {
+        "p10": 50.78355606031674,
+        "median": 50.82851288243796,
+        "p90": 50.86466217398382
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 2,
+      "spend": {
+        "p10": 50.78931407847968,
+        "median": 50.833546373556715,
+        "p90": 50.87049089309314
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 9.0
+      },
+      "cumulative_results": {
+        "p10": 5.0,
+        "median": 10.0,
+        "p90": 16.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 3,
+      "spend": {
+        "p10": 50.793326929808956,
+        "median": 50.837665081409526,
+        "p90": 50.875607276782155
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 9.0,
+        "median": 15.0,
+        "p90": 22.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 4,
+      "spend": {
+        "p10": 50.79782228427806,
+        "median": 50.84204355793421,
+        "p90": 50.88037329365434
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 13.0,
+        "median": 20.0,
+        "p90": 29.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 5,
+      "spend": {
+        "p10": 50.80400959073199,
+        "median": 50.848086074495406,
+        "p90": 50.885481136765215
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 17.0,
+        "median": 25.0,
+        "p90": 35.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 6,
+      "spend": {
+        "p10": 50.81057017595806,
+        "median": 50.851955443335285,
+        "p90": 50.891491310410565
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 9.0
+      },
+      "cumulative_results": {
+        "p10": 20.0,
+        "median": 30.0,
+        "p90": 42.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 7,
+      "spend": {
+        "p10": 50.81717652963844,
+        "median": 50.855326379769714,
+        "p90": 50.89581842975343
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 24.0,
+        "median": 34.0,
+        "p90": 49.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 8,
+      "spend": {
+        "p10": 50.82406146270574,
+        "median": 50.861759001245105,
+        "p90": 50.901141887911656
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 28.0,
+        "median": 39.0,
+        "p90": 54.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 9,
+      "spend": {
+        "p10": 50.82804521347278,
+        "median": 50.86590089802271,
+        "p90": 50.905168394159155
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 9.0
+      },
+      "cumulative_results": {
+        "p10": 32.0,
+        "median": 45.0,
+        "p90": 61.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 10,
+      "spend": {
+        "p10": 50.831652010606355,
+        "median": 50.87011588369296,
+        "p90": 50.91031673819106
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 36.0,
+        "median": 49.0,
+        "p90": 68.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 11,
+      "spend": {
+        "p10": 50.83576577932641,
+        "median": 50.874332235545246,
+        "p90": 50.915787356383845
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 9.0
+      },
+      "cumulative_results": {
+        "p10": 40.0,
+        "median": 55.0,
+        "p90": 74.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 12,
+      "spend": {
+        "p10": 50.84204355793421,
+        "median": 50.88092781238259,
+        "p90": 50.92302277076306
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 44.0,
+        "median": 59.0,
+        "p90": 81.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 13,
+      "spend": {
+        "p10": 50.84744639465283,
+        "median": 50.885481136765215,
+        "p90": 50.92857881990152
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 48.0,
+        "median": 64.0,
+        "p90": 87.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 14,
+      "spend": {
+        "p10": 50.851487208734326,
+        "median": 50.89031506268467,
+        "p90": 50.93417109264586
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 52.0,
+        "median": 69.0,
+        "p90": 95.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 15,
+      "spend": {
+        "p10": 50.858935038509486,
+        "median": 50.89720584987907,
+        "p90": 50.942164043660036
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 55.0,
+        "median": 74.0,
+        "p90": 101.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 16,
+      "spend": {
+        "p10": 50.861759001245105,
+        "median": 50.90337373803921,
+        "p90": 50.94748526703816
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 9.0
+      },
+      "cumulative_results": {
+        "p10": 58.0,
+        "median": 78.0,
+        "p90": 106.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 17,
+      "spend": {
+        "p10": 50.86633153203379,
+        "median": 50.90502350640298,
+        "p90": 50.95050007617558
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 63.0,
+        "median": 83.0,
+        "p90": 115.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 18,
+      "spend": {
+        "p10": 50.87032312585621,
+        "median": 50.911840498047205,
+        "p90": 50.95704493901427
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 9.0
+      },
+      "cumulative_results": {
+        "p10": 67.0,
+        "median": 88.0,
+        "p90": 120.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    },
+    {
+      "day": 19,
+      "spend": {
+        "p10": 50.87883745409731,
+        "median": 50.92919096050112,
+        "p90": 50.97549759468273
+      },
+      "results": {
+        "p10": 2.0,
+        "median": 5.0,
+        "p90": 8.0
+      },
+      "cumulative_results": {
+        "p10": 71.0,
+        "median": 93.0,
+        "p90": 127.0
+      },
+      "budget_share": [
+        1.0
+      ]
+    }
+  ],
+  "totals": {
+    "spend": {
+      "p10": 966.5346806556854,
+      "median": 966.579953444842,
+      "p90": 966.6207017805169
+    },
+    "results": {
+      "p10": 71.0,
+      "median": 93.0,
+      "p90": 127.0
+    }
+  },
+  "warnings": [
+    "Los rangos P10–P90 son resultados del escenario; no son intervalos de confianza calibrados para Facebook.",
+    "La subasta, recuperación, afinidad, fatiga y calidad de ejecución contienen supuestos editables.",
+    "El parecido entre textos no demuestra que una idea cause mejores resultados. Falta observar el anuncio producido.",
+    "Las conversiones atribuidas se simulan por impresión, separadas de los clics; no se presupone que todas procedan de clics.",
+    "Las métricas son por costo por resultado; ROAS usa el ticket medio histórico fijo y no se usa para elegir la referencia.",
+    "No se ordenan las ideas como ganadoras: el modelo textual todavía no supera la referencia en validación. Diferencias numéricas pueden ser ruido Monte Carlo.",
+    "Escenario exploratorio autorizado con solo dos anuncios: no permite validar diferencias entre propuestas ni predecir que se repetirá el resultado histórico."
+  ],
+  "version": "0.1.0",
+  "metric": "Costo por conversacion_iniciada"
+}

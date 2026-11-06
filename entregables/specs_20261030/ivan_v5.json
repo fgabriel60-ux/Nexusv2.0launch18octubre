@@ -1,0 +1,30 @@
+{
+ "carpeta": "clientes/Ivan/video_v5_20261030",
+ "salida": "clientes/Ivan/video_v5_20261030/salida",
+ "semilla": 3,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "A0",
+   "F0",
+   "Vertical realistic handheld shot: the pest-control technician in a blue shirt keeps spraying with the backpack sprayer, fine mist visible, natural slow movement, keep the same person, place and clothes exactly as in the first frame. No text. Audio: soft spray sound, no speech.",
+   4.0,
+   null
+  ],
+  [
+   "A1",
+   "F1",
+   "Vertical realistic handheld shot: the pest-control technician in a blue shirt sprays the high corner of the office wall with the backpack sprayer, fine mist visible, natural slow movement, keep the same person, place and clothes exactly as in the first frame. No text. Audio: soft spray sound, no speech.",
+   4.0,
+   null
+  ],
+  [
+   "A2",
+   "F2",
+   "Vertical realistic handheld shot: the pest-control technician in a blue shirt walks down the corridor spraying the baseboards with the backpack sprayer, fine mist visible, natural slow movement, keep the same person, place and clothes exactly as in the first frame. No text. Audio: soft spray sound, no speech.",
+   4.0,
+   null
+  ]
+ ]
+}

@@ -1,0 +1,7 @@
+Herramienta: imagegen integrada.
+Referencia: rostro_assets/CHICA_ALBEDO.png
+Prompt: Use case: identity-preserve. Asset: polished photographic texture for a dental animation. Edit the supplied woman portrait, preserve exact pixel composition, head position, facial landmarks, expression, lips shape and position and the SINGLE missing upper tooth gap, same woman, hair and clothes. Improve sharpness and flattering natural skin texture, gentle warm studio illumination with subtle teal background separation, clean professional dental commercial quality. Keep all facial proportions and camera perspective absolutely unchanged so this texture can replace the original on the same UV mapped mesh. Do not fill the missing tooth. No instruments, text, watermark, new objects. Preserve vertical aspect ratio and full framing. Avoid plastic skin and excessive makeup.
+
+Segunda imagen: CHICA_SONRISA_FINAL.png
+Herramienta: imagegen integrada.
+Prompt: Use case precise-object-edit. Edit only the single missing upper tooth in this woman's smile: fill the gap with one naturally sized ivory tooth matching adjacent teeth, realistic dental implant crown, complete beautiful natural smile. Preserve every other pixel composition and all facial landmarks, face, lips, hair, clothes, background, lighting and skin texture exactly. Same vertical framing, absolutely no other changes. This is the final smile texture of an animation.

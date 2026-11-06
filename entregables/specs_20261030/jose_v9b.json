@@ -1,0 +1,26 @@
+{
+ "carpeta": "jose_v9b_20261030",
+ "salida": "clientes/Jose/obrero_v9_20261030/salida",
+ "semilla": 44,
+ "refs": {
+  "n6": "clientes/Jose/obrero_v9_20261030/salida/P6_terminada.png"
+ },
+ "cuadros": {
+  "P8b_final": [
+   [
+    "n6"
+   ],
+   "Estilo animación 3D tipo Pixar. Toma ABIERTA desde arriba y a lo lejos de la MISMA azotea terminada: la losa es perfectamente plana, lisa y blanca, sin bultos, con pretiles; UN SOLO obrero (el mismo de la imagen, casco blanco GRUPO JR y chaleco azul), pequeño, de pie a un lado sonriendo con la boca cerrada. Casas mexicanas alrededor, volcán nevado tranquilo sin humo, cielo azul. Sin texto.",
+   "dos personas, niño, personaje duplicado, varios obreros, techo de tejas encima de la losa"
+  ]
+ },
+ "tomas": [
+  [
+   "V8b_final",
+   "P8b_final",
+   "Vertical animated shot: slow drone pull-back revealing the whole perfectly flat smooth white finished roof, only one small cartoon worker smiling, calm snowy volcano, no smoke. His mouth stays closed. No text. Audio: soft ambient, no speech.",
+   5.0,
+   null
+  ]
+ ]
+}

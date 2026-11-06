@@ -1,0 +1,91 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-2FhrK94dS3gqiWPKDKk06a
+Building image im-5SuHAjE0wl4j1hY6rV9vBE
+
+=> Step 0: FROM base
+
+=> Step 1: RUN python -m pip install 'huggingface_hub[hf_transfer]'
+Looking in indexes: http://pypi-mirror.modal.local:5555/simple
+Collecting huggingface_hub[hf_transfer]
+  Downloading http://pypi-mirror.modal.local:5555/simple/huggingface-hub/huggingface_hub-2.4.0-py3-none-any.whl.metadata (16 kB)
+WARNING: huggingface-hub 2.4.0 does not provide the extra 'hf-transfer'
+Collecting click<9.0.0,>=8.4.2 (from huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/click/click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting filelock>=3.10.0 (from huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/filelock/filelock-4.2.4-py3-none-any.whl.metadata (2.0 kB)
+Collecting fsspec>=2023.5.0 (from huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/fsspec/fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting hf-xet<2.0.0,>=1.6.0 (from huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/hf-xet/hf_xet-1.7.1-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+Collecting httpx2<3,>=2.0.0 (from huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/httpx2/httpx2-2.16.0-py3-none-any.whl.metadata (10 kB)
+Collecting packaging>=20.9 (from huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/packaging/packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pyyaml>=5.1 (from huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/pyyaml/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting tqdm>=4.42.1 (from huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/tqdm/tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+Collecting typing-extensions>=4.1.0 (from huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/typing-extensions/typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting anyio>=4.10 (from httpx2<3,>=2.0.0->huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/anyio/anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting httpcore2==2.16.0 (from httpx2<3,>=2.0.0->huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/httpcore2/httpcore2-2.16.0-py3-none-any.whl.metadata (27 kB)
+Collecting idna>=3.18 (from httpx2<3,>=2.0.0->huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/idna/idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting truststore>=0.10 (from httpx2<3,>=2.0.0->huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/truststore/truststore-0.10.5-py3-none-any.whl.metadata (4.5 kB)
+Collecting h11>=0.16 (from httpcore2==2.16.0->httpx2<3,>=2.0.0->huggingface_hub[hf_transfer])
+  Downloading http://pypi-mirror.modal.local:5555/simple/h11/h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/huggingface-hub/huggingface_hub-2.4.0-py3-none-any.whl (857 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 857.0/857.0 kB 1.3 GB/s eta 0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/click/click-8.5.0-py3-none-any.whl (125 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/hf-xet/hf_xet-1.7.1-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 835.9 MB/s eta 0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/httpx2/httpx2-2.16.0-py3-none-any.whl (97 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/httpcore2/httpcore2-2.16.0-py3-none-any.whl (85 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/anyio/anyio-4.15.1-py3-none-any.whl (132 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/filelock/filelock-4.2.4-py3-none-any.whl (162 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/fsspec/fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/h11/h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/idna/idna-3.20-py3-none-any.whl (69 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/packaging/packaging-26.3-py3-none-any.whl (129 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/pyyaml/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 1.5 GB/s eta 0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/tqdm/tqdm-4.70.1-py3-none-any.whl (80 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/truststore/truststore-0.10.5-py3-none-any.whl (19 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/typing-extensions/typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Installing collected packages: typing-extensions, truststore, tqdm, pyyaml, packaging, idna, hf-xet, h11, fsspec, filelock, click, httpcore2, anyio, httpx2, huggingface_hub
+
+Successfully installed anyio-4.15.1 click-8.5.0 filelock-4.2.4 fsspec-2026.9.0 h11-0.16.0 hf-xet-1.7.1 httpcore2-2.16.0 httpx2-2.16.0 huggingface_hub-2.4.0 idna-3.20 packaging-26.3 pyyaml-6.0.3 tqdm-4.70.1 truststore-0.10.5 typing-extensions-4.16.0
+
+[notice] A new release of pip is available: 25.1.1 -> 26.2.2
+[notice] To update, run: pip install --upgrade pip
+Saving image...
+Image saved, took 567.51ms
+
+Built image im-5SuHAjE0wl4j1hY6rV9vBE in 3.81s
+
+
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/modelos_modal/bajar_glimmer_666.py
+└── ✓ Created Function bajar.
+/usr/local/lib/python3.12/site-packages/huggingface_hub/constants.py:302: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.
+  warnings.warn(
+
+[1AFetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1AFetching 14 files:   7%|▋         | 1/14 [00:00<00:01,  6.98it/s]
+[1AFetching 14 files:  21%|██▏       | 3/14 [00:00<00:00, 13.04it/s]
+[1AFetching 14 files:  64%|██████▍   | 9/14 [00:00<00:00, 29.32it/s]
+[1AFetching 14 files:  86%|████████▌ | 12/14 [00:04<00:01,  2.00it/s]
+[1AFetching 14 files:  86%|████████▌ | 12/14 [00:20<00:01,  2.00it/s]
+[1AFetching 14 files:  93%|█████████▎| 13/14 [00:40<00:05,  5.61s/it]
+[1AFetching 14 files: 100%|██████████| 14/14 [03:50<00:00, 36.90s/it]
+[1AFetching 14 files: 100%|██████████| 14/14 [03:50<00:00, 16.43s/it]
+GB descargados: 59.6
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-2FhrK94dS3gqiWPKDKk06a

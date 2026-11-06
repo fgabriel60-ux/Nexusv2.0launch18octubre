@@ -1,0 +1,26 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-sAKCbaINJWDmpNN8Zf5lZj
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/_escenas_carlos/escenas_carlos
+│   _modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+├── ✓ Created Function Cuadros.*.
+└── ✓ Created Function gen_tomas.
+toma R1_lejos_A
+toma R2_lejos_B
+toma R3_adentro
+guardado R1_lejos_A.mp4
+guardado R2_lejos_B.mp4
+guardado R3_adentro.mp4
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-sAKCbaINJWDmpNN8Zf5lZj
+
+== Reporte Modal charlyfavela1 ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/rafael_negro_20261106/spec.json
+Duración: 5.8 min  (código 0)
+  escenas-carlos (ap-sAKCbaINJWDmpNN8Zf5lZj): $0.219
+Gasto del trabajo: $0.219
+Saldo restante ≈ $30.00

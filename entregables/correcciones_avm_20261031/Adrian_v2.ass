@@ -1,0 +1,15 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Montserrat,45,&H00FFFFFF,&H00FFFFFF,&H00101010,&H70000000,-1,0,0,0,100,100,1,0,1,3,1,2,50,50,240,1
+Style: Small,Montserrat,27,&H00FFFFFF,&H00FFFFFF,&H00101010,&H70000000,-1,0,0,0,100,100,1,0,1,2,1,8,50,50,90,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.88,Main,,0,0,0,,TU IDEA. TU PIEL.
+Dialogue: 0,0:00:00.00,0:00:18.72,Small,,0,0,0,,ADRIÁN · TATUAJES · CANCÚN
+Dialogue: 0,0:00:02.88,0:00:06.72,Main,,0,0,0,,DISEÑO PERSONALIZADO
+Dialogue: 0,0:00:09.60,0:00:12.48,Main,,0,0,0,,Sesiones desde $1,000
+Dialogue: 0,0:00:15.36,0:00:18.72,Main,,0,0,0,,WHATSAPP 998 331 6522\NEnvía diseño + tamaño + zona del cuerpo

@@ -1,0 +1,38 @@
+[
+  {
+    "intento": 1,
+    "status": "error",
+    "message": "failed to download media",
+    "response_keys": [
+      "data",
+      "links",
+      "status"
+    ],
+    "data_keys": [
+      "status",
+      "message",
+      "instanceId",
+      "explanation",
+      "reason",
+      "detail"
+    ]
+  },
+  {
+    "intento": 2,
+    "status": "error",
+    "message": "failed to download media",
+    "response_keys": [
+      "data",
+      "links",
+      "status"
+    ],
+    "data_keys": [
+      "status",
+      "message",
+      "instanceId",
+      "explanation",
+      "reason",
+      "detail"
+    ]
+  }
+]

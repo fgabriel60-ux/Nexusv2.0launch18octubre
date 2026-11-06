@@ -1,0 +1,89 @@
+{
+ "frases": [
+  {
+   "voz": "¿Te asustaste al ver tus cejas recién hechas? Es normal.",
+   "pantalla": [
+    "CEJAS RECIENTES",
+    "ES NORMAL"
+   ],
+   "toma": {
+    "tipo": "ia",
+    "refs": [
+     "M01"
+    ],
+    "cuadro": "Una mujer con cejas muy oscuras y marcadas mira directamente a la cámara con una expresión de sorpresa o preocupación.",
+    "movimiento": "The camera slowly zooms in on the woman's face, focusing on her eyebrows."
+   },
+   "segundos": 4.4
+  },
+  {
+   "voz": "La especialista en micropigmentación te ayuda a lograr cejas naturales.",
+   "pantalla": [
+    "CEJAS NATURALES",
+    "CON LA ESPECIALISTA"
+   ],
+   "toma": {
+    "tipo": "foto",
+    "clave": "M04"
+   },
+   "segundos": 4.22
+  },
+  {
+   "voz": "Con más de 10 años de experiencia, tu confianza está en buenas manos.",
+   "pantalla": [
+    "EXPERIENCIA",
+    "CONFÍA EN NOSOTROS"
+   ],
+   "toma": {
+    "tipo": "foto",
+    "clave": "M09"
+   },
+   "segundos": 3.88
+  },
+  {
+   "voz": "Mira los resultados reales de nuestras clientes en Mexicali.",
+   "pantalla": [
+    "RESULTADOS REALES",
+    "EN MEXICALI"
+   ],
+   "toma": {
+    "tipo": "foto",
+    "clave": "M12"
+   },
+   "segundos": 3.44
+  },
+  {
+   "voz": "Cada ceja es un diseño personalizado para ti.",
+   "pantalla": [
+    "DISEÑO PERSONALIZADO",
+    "PARA TI"
+   ],
+   "toma": {
+    "tipo": "foto",
+    "clave": "M06"
+   },
+   "segundos": 2.71
+  },
+  {
+   "voz": "Agenda tu cita hoy por WhatsApp.",
+   "pantalla": [
+    "AGENDA TU CITA",
+    "HOY"
+   ],
+   "toma": {
+    "tipo": "foto",
+    "clave": "M23"
+   },
+   "segundos": 2.44
+  }
+ ],
+ "tarjeta": {
+  "nombre": "MICROPIGMENTACIÓN",
+  "subtitulo": "CEJAS · MEXICALI",
+  "linea": "CALZADA CUAUHTÉMOC 876, PROHOGAR",
+  "telefono": "686 160 7879"
+ },
+ "pedir_al_cliente": [
+  "M24"
+ ]
+}

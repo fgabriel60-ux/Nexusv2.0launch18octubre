@@ -1,0 +1,80 @@
+{
+ "carpeta": "clientes/Alberto/video/implantes_v6",
+ "salida": "clientes/Alberto/video/implantes_v6/salida",
+ "semilla": 11,
+ "refs": {
+  "p1": "clientes/Alberto/video/implantes_ref/cuadros/P1a_r1.png",
+  "p2": "clientes/Alberto/video/implantes_ref/cuadros/P2a_r1.png",
+  "cara": "clientes/Alberto/video/implantes_v6/cara_real.png"
+ },
+ "cuadros": {
+  "D1": [
+   [
+    "p1",
+    "cara"
+   ],
+   "Edita la primera imagen: mantén EXACTAMENTE la misma escena (consultorio dental azul, sillón, lámpara), la misma pose, el mismo uniforme negro y el mismo encuadre. Cambia SOLO la cara y el cabello de la doctora para que sea la MISMA MUJER REAL de la segunda imagen: misma forma de cara, mismos ojos, misma nariz, misma boca con labios rojos, misma edad, mismo cabello rubio a la altura de los hombros con fleco de lado, mismos aretes. Foto realista, piel natural. SIN lentes, como en la segunda imagen. Sin texto.",
+   "lentes, gafas, caricatura, texto, letras, manos arriba, cara diferente"
+  ],
+  "D2": [
+   [
+    "p2",
+    "cara"
+   ],
+   "Edita la primera imagen: mantén EXACTAMENTE la misma escena (consultorio dental azul, sillón, lámpara), la misma pose, el mismo uniforme negro y el mismo encuadre. Cambia SOLO la cara y el cabello de la doctora para que sea la MISMA MUJER REAL de la segunda imagen: misma forma de cara, mismos ojos, misma nariz, misma boca con labios rojos, misma edad, mismo cabello rubio a la altura de los hombros con fleco de lado, mismos aretes. Foto realista, piel natural. SIN lentes, como en la segunda imagen. Sin texto.",
+   "lentes, gafas, caricatura, texto, letras, manos arriba, cara diferente"
+  ],
+  "D1L": [
+   [
+    "p1",
+    "cara"
+   ],
+   "Edita la primera imagen: mantén EXACTAMENTE la misma escena (consultorio dental azul, sillón, lámpara), la misma pose, el mismo uniforme negro y el mismo encuadre. Cambia SOLO la cara y el cabello de la doctora para que sea la MISMA MUJER REAL de la segunda imagen: misma forma de cara, mismos ojos, misma nariz, misma boca con labios rojos, misma edad, mismo cabello rubio a la altura de los hombros con fleco de lado, mismos aretes. Foto realista, piel natural. Conserva sus lentes de armazón negro de la primera imagen. Sin texto.",
+   "caricatura, texto, letras, manos arriba, cara diferente"
+  ]
+ },
+ "tomas": [
+  [
+   "S1_v6",
+   "D1",
+   "Vertical medium shot of a female dentist seated in a dark blue dental clinic, she raises one index finger while asking a question to the camera. She speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, calm hand gestures, warm professional expression. Keep her face, blonde hair, red lips, black scrubs and the dark blue dental clinic exactly as in the first frame. Static camera. Realistic. No text. Audio: clear female voice speaking Spanish.",
+   3.4,
+   "S1"
+  ],
+  [
+   "S2_v6",
+   "D2",
+   "Vertical medium close shot of a female dentist explaining something serious to the camera with one open hand. She speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, calm hand gestures, warm professional expression. Keep her face, blonde hair, red lips, black scrubs and the dark blue dental clinic exactly as in the first frame. Static camera. Realistic. No text. Audio: clear female voice speaking Spanish.",
+   8.0,
+   "S2"
+  ],
+  [
+   "S3_v6",
+   "D1",
+   "Vertical medium shot of a female dentist seated in a dark blue dental clinic, explaining with both hands to the camera. She speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, calm hand gestures, warm professional expression. Keep her face, blonde hair, red lips, black scrubs and the dark blue dental clinic exactly as in the first frame. Static camera. Realistic. No text. Audio: clear female voice speaking Spanish.",
+   8.0,
+   "S3"
+  ],
+  [
+   "S4_v6",
+   "D2",
+   "Vertical medium close shot of a female dentist reassuring the viewer with a calm smile. She speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, calm hand gestures, warm professional expression. Keep her face, blonde hair, red lips, black scrubs and the dark blue dental clinic exactly as in the first frame. Static camera. Realistic. No text. Audio: clear female voice speaking Spanish.",
+   4.4,
+   "S4"
+  ],
+  [
+   "S5_v6",
+   "D1",
+   "Vertical medium shot of a female dentist seated in a dark blue dental clinic, inviting the viewer with a warm smile and an open hand. She speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, calm hand gestures, warm professional expression. Keep her face, blonde hair, red lips, black scrubs and the dark blue dental clinic exactly as in the first frame. Static camera. Realistic. No text. Audio: clear female voice speaking Spanish.",
+   8.6,
+   "S5"
+  ]
+ ],
+ "voces": {
+  "S1": "clientes/Alberto/video/voz/ref_S1_44.wav",
+  "S2": "clientes/Alberto/video/voz/ref_S2_44.wav",
+  "S3": "clientes/Alberto/video/voz/ref_S3_44.wav",
+  "S4": "clientes/Alberto/video/voz/ref_S4_44.wav",
+  "S5": "clientes/Alberto/video/implantes_v6/S5_veneers.wav"
+ }
+}

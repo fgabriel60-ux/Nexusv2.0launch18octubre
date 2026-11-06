@@ -1,0 +1,5 @@
+{
+  "id": "6113cd15f4ca4713a6a33c128f68cd9f",
+  "model": "kwaivgi/kling-v2.6-pro/image-to-video",
+  "prompt": "Create a polished 5-second cinematic animation that starts on the clean background and ends EXACTLY on the original flyer. Animate only the original text, logos and icons appearing in sequence, perfectly legible and locked to their exact final positions, with elegant fades, gentle upward motion and a soft light sweep. Keep the exact composition, framing, colours and architecture; subtle parallax and barely moving clouds only. Dark blue flyer with three stacked aerial photos on the right. Reveal order: shield and title first, then the \"\u00daltimos lotes\" headline and price, then the three photos, then the benefit icons and footer last. The final frame must match the end image exactly. No invented words, no spelling changes, no warped or flickering letters, no new objects, people or cars, no camera shake."
+}

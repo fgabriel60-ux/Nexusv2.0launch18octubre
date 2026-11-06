@@ -1,0 +1,31 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-2Pty8QDjjGDb18hWd4BN8R
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/clientes/Alberto/video/implantes_ref_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function cuadros.
+└── ✓ Created Function clips.
+listo S1_r5
+listo S2_r5
+listo S3_r5
+listo S4_r5
+listo S5_r5
+guardado S1_r5
+guardado S2_r5
+guardado S3_r5
+guardado S4_r5
+guardado S5_r5
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-30T16:12:04+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-2Pty8QDjjGDb18hWd4BN8R
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: clientes/Alberto/video/implantes_ref_modal.py --paso clips --version r5
+Duración: 11.2 min  (código 0)
+  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.028
+  alberto-implantes-ref (ap-2Pty8QDjjGDb18hWd4BN8R): $0.530
+Gasto del trabajo: $0.558
+Saldo restante ≈ $19.46

@@ -1,0 +1,615 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-S8DAQ26nOpMBqX1fgsSKz5
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<29:38,  1.24s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:02<32:10,  1.35s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:02<12:44,  1.87it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:02<09:42,  2.46it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:03<07:44,  3.08it/s]
+[1ALoading weights:   1%|          | 14/1436 [00:03<01:56, 12.21it/s]
+[1ALoading weights:   1%|▏         | 18/1436 [00:03<01:59, 11.89it/s]
+[1ALoading weights:   2%|▏         | 26/1436 [00:03<01:09, 20.19it/s]
+[1ALoading weights:   2%|▏         | 30/1436 [00:03<01:23, 16.90it/s]
+[1ALoading weights:   3%|▎         | 38/1436 [00:04<00:54, 25.48it/s]
+[1ALoading weights:   3%|▎         | 43/1436 [00:04<01:11, 19.58it/s]
+[1ALoading weights:   3%|▎         | 50/1436 [00:04<00:59, 23.43it/s]
+[1ALoading weights:   4%|▍         | 54/1436 [00:04<01:05, 21.10it/s]
+[1ALoading weights:   4%|▍         | 63/1436 [00:05<00:44, 30.63it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:05<00:59, 23.12it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:05<00:49, 27.73it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:05<00:58, 23.20it/s]
+[1ALoading weights:   6%|▌         | 85/1436 [00:05<00:50, 26.75it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:06<00:57, 23.63it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:06<00:59, 22.76it/s]
+[1ALoading weights:   7%|▋         | 97/1436 [00:06<00:59, 22.59it/s]
+[1ALoading weights:   7%|▋         | 101/1436 [00:06<00:53, 25.04it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:06<00:57, 23.16it/s]
+[1ALoading weights:   8%|▊         | 110/1436 [00:06<00:43, 30.20it/s]
+[1ALoading weights:   8%|▊         | 114/1436 [00:07<01:04, 20.65it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:07<00:43, 30.30it/s]
+[1ALoading weights:   9%|▉         | 127/1436 [00:07<00:57, 22.58it/s]
+[1ALoading weights:   9%|▉         | 134/1436 [00:07<00:43, 29.72it/s]
+[1ALoading weights:  10%|▉         | 139/1436 [00:08<00:54, 23.80it/s]
+[1ALoading weights:  10%|▉         | 143/1436 [00:08<00:49, 26.19it/s]
+[1ALoading weights:  10%|█         | 149/1436 [00:08<00:57, 22.52it/s]
+[1ALoading weights:  11%|█         | 157/1436 [00:08<00:41, 30.84it/s]
+[1ALoading weights:  11%|█▏        | 162/1436 [00:09<00:53, 23.77it/s]
+[1ALoading weights:  12%|█▏        | 169/1436 [00:09<00:41, 30.33it/s]
+[1ALoading weights:  12%|█▏        | 174/1436 [00:09<00:55, 22.91it/s]
+[1ALoading weights:  13%|█▎        | 182/1436 [00:09<00:46, 26.75it/s]
+[1ALoading weights:  13%|█▎        | 186/1436 [00:10<00:53, 23.21it/s]
+[1ALoading weights:  13%|█▎        | 191/1436 [00:10<00:46, 26.92it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [00:10<00:40, 30.35it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:10<00:51, 24.05it/s]
+[1ALoading weights:  14%|█▍        | 206/1436 [00:10<00:41, 29.39it/s]
+[1ALoading weights:  15%|█▍        | 210/1436 [00:11<01:00, 20.38it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:11<00:42, 28.61it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:11<00:51, 23.51it/s]
+[1ALoading weights:  16%|█▌        | 230/1436 [00:11<00:41, 28.73it/s]
+[1ALoading weights:  16%|█▋        | 234/1436 [00:12<00:59, 20.27it/s]
+[1ALoading weights:  17%|█▋        | 240/1436 [00:12<00:54, 21.97it/s]
+[1ALoading weights:  17%|█▋        | 245/1436 [00:12<00:46, 25.38it/s]
+[1ALoading weights:  17%|█▋        | 249/1436 [00:12<00:47, 25.04it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:12<00:39, 29.97it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:12<00:50, 23.43it/s]
+[1ALoading weights:  19%|█▊        | 266/1436 [00:13<00:45, 25.99it/s]
+[1ALoading weights:  19%|█▊        | 269/1436 [00:13<00:45, 25.82it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:13<00:48, 24.20it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:13<00:37, 31.11it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:13<00:48, 23.89it/s]
+[1ALoading weights:  20%|██        | 291/1436 [00:13<00:35, 31.81it/s]
+[1ALoading weights:  21%|██        | 295/1436 [00:14<00:52, 21.57it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:14<00:39, 28.54it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:14<00:48, 23.38it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:15<00:39, 28.66it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:15<00:48, 22.84it/s]
+[1ALoading weights:  23%|██▎       | 328/1436 [00:15<00:39, 27.76it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:15<00:49, 22.51it/s]
+[1ALoading weights:  24%|██▎       | 340/1436 [00:15<00:39, 27.66it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:16<00:46, 23.26it/s]
+[1ALoading weights:  24%|██▍       | 350/1436 [00:16<00:38, 27.93it/s]
+[1ALoading weights:  25%|██▍       | 354/1436 [00:16<00:50, 21.41it/s]
+[1ALoading weights:  25%|██▌       | 362/1436 [00:16<00:36, 29.18it/s]
+[1ALoading weights:  25%|██▌       | 366/1436 [00:17<00:49, 21.76it/s]
+[1ALoading weights:  26%|██▌       | 375/1436 [00:17<00:38, 27.59it/s]
+[1ALoading weights:  26%|██▋       | 379/1436 [00:17<00:45, 23.41it/s]
+[1ALoading weights:  27%|██▋       | 386/1436 [00:17<00:34, 30.26it/s]
+[1ALoading weights:  27%|██▋       | 391/1436 [00:18<00:44, 23.27it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:18<00:35, 29.47it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:18<00:41, 24.64it/s]
+[1ALoading weights:  29%|██▊       | 410/1436 [00:18<00:39, 25.85it/s]
+[1ALoading weights:  29%|██▉       | 414/1436 [00:19<00:44, 22.76it/s]
+[1ALoading weights:  29%|██▉       | 423/1436 [00:19<00:35, 28.54it/s]
+[1ALoading weights:  30%|██▉       | 427/1436 [00:19<00:42, 23.86it/s]
+[1ALoading weights:  30%|███       | 436/1436 [00:19<00:33, 30.10it/s]
+[1ALoading weights:  31%|███       | 440/1436 [00:19<00:41, 23.91it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:20<00:33, 29.70it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:20<00:40, 24.04it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:20<00:33, 29.01it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:20<00:42, 23.14it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:21<00:34, 28.31it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:21<00:41, 23.19it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:21<00:32, 29.37it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:21<00:39, 23.85it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:21<00:31, 29.62it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:22<00:38, 24.07it/s]
+[1ALoading weights:  35%|███▌      | 506/1436 [00:22<00:31, 29.45it/s]
+[1ALoading weights:  36%|███▌      | 510/1436 [00:22<00:41, 22.29it/s]
+[1ALoading weights:  36%|███▌      | 519/1436 [00:22<00:28, 32.03it/s]
+[1ALoading weights:  36%|███▋      | 524/1436 [00:23<00:37, 24.10it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:23<00:30, 29.41it/s]
+[1ALoading weights:  37%|███▋      | 536/1436 [00:23<00:37, 24.25it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:23<00:28, 30.85it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:24<00:36, 24.58it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:24<00:28, 30.37it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:24<00:36, 24.32it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:24<00:29, 29.57it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:24<00:36, 23.71it/s]
+[1ALoading weights:  40%|████      | 579/1436 [00:25<00:32, 26.72it/s]
+[1ALoading weights:  41%|████      | 583/1436 [00:25<00:37, 22.85it/s]
+[1ALoading weights:  41%|████      | 588/1436 [00:25<00:32, 26.35it/s]
+[1ALoading weights:  41%|████▏     | 593/1436 [00:25<00:42, 19.76it/s]
+[1ALoading weights:  42%|████▏     | 603/1436 [00:26<00:30, 27.41it/s]
+[1ALoading weights:  42%|████▏     | 607/1436 [00:26<00:36, 22.82it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:26<00:28, 29.09it/s]
+[1ALoading weights:  43%|████▎     | 620/1436 [00:26<00:33, 24.04it/s]
+[1ALoading weights:  44%|████▍     | 630/1436 [00:26<00:23, 34.52it/s]
+[1ALoading weights:  46%|████▌     | 664/1436 [00:27<00:09, 85.30it/s]
+[1ALoading weights:  48%|████▊     | 695/1436 [00:27<00:05, 128.65it/s]
+[1ALoading weights:  50%|█████     | 722/1436 [00:27<00:04, 155.02it/s]
+[1ALoading weights:  54%|█████▎    | 770/1436 [00:27<00:03, 221.98it/s]
+[1ALoading weights:  57%|█████▋    | 818/1436 [00:27<00:02, 283.13it/s]
+[1ALoading weights:  60%|██████    | 864/1436 [00:27<00:01, 326.00it/s]
+[1ALoading weights:  63%|██████▎   | 901/1436 [00:27<00:01, 336.19it/s]
+[1ALoading weights:  67%|██████▋   | 956/1436 [00:27<00:01, 386.54it/s]
+[1ALoading weights:  69%|██████▉   | 997/1436 [00:27<00:01, 381.68it/s]
+[1ALoading weights:  73%|███████▎  | 1042/1436 [00:28<00:01, 387.46it/s]
+[1ALoading weights:  76%|███████▌  | 1090/1436 [00:28<00:00, 397.16it/s]
+[1ALoading weights:  79%|███████▉  | 1138/1436 [00:28<00:00, 416.20it/s]
+[1ALoading weights:  82%|████████▏ | 1181/1436 [00:28<00:00, 419.62it/s]
+[1ALoading weights:  85%|████████▌ | 1224/1436 [00:28<00:00, 409.53it/s]
+[1ALoading weights:  89%|████████▉ | 1280/1436 [00:28<00:00, 442.28it/s]
+[1ALoading weights:  92%|█████████▏| 1325/1436 [00:28<00:00, 438.29it/s]
+[1ALoading weights:  95%|█████████▌| 1370/1436 [00:28<00:00, 437.55it/s]
+[1ALoading weights:  98%|█████████▊| 1414/1436 [00:28<00:00, 427.53it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:28<00:00, 49.58it/s] 
+[transformers] Both `max_new_tokens` (=6000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## LISBETH_101010
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes distancias, tiempos, precios ni documentos.
+
+We need to output final answer with sections 1-5 as requested.
+
+We must use only data given. If missing, mark [CONFIRMAR]. Budget daily [CONFIRMAR]. Category special housing ads if applies [CONFIRMAR]. etc.
+
+We need to calibrate video and campaign 1-10 with one line reason based on what is seen and said.
+
+We have video 41.8 s. Transcription exact. Images show: first 4 frames woman in black dress in front of road, then 6s shows location label TOMATLÁN, JALISCO. Then 8s onward map etc. Subtitles word by word. There's card "TERRENOS DESDE 300 M² · ASÍ PODRÍA VERSE · VISUALIZACIÓN" and "A 20 MINUTOS DE LA PLAYA". Not in transcription but note.
+
+We must not invent distances, times, prices nor documents. Transcription says "a 20 minutos de la playa". "A menos de 2 kilómetros tienes el nuevo tecnológico y la nueva central de autobuses". "Está cerca del aeropuerto de Chalaca Tepec y de la presa Cajón de Peña". "Todo con documentos en regla". "no compres promesas". "Ven a conocerlo y escríbeme por WhatsApp."
+
+We need to evaluate confidence, clarity, messages qualified, hook 3s, visual quality, compliance.
+
+Probably confidence low because no proof of documents, no social proof, no real footage? Visual quality maybe 6? Hook 3s? First 4.5s she says "Tomatlán nuestro mesa, es terreno real, míralo desde arriba." Hook maybe weak.
+
+We must give rating now.
+
+Then list prioritized everything missing to reach 10/10/10 separated in (a) changes to video with exact time, exact on-screen text and who does it: editing mine or new take, (b) changes to campaign (audience, budget [CONFIRMAR], placements, special category [CONFIRMAR], prequalification), (c) what to ask Lisbeth (material and concrete data).
+
+Then rewrite final script 30-35 s word by word (keep what she already says well), with on-screen card per phrase (≤8 words), hook 3s, CTA unique and list of what NOT to say (Meta policies, promises, guaranteed appreciation).
+
+Then WhatsApp welcome message exact and 3-4 prequalification questions.
+
+Then verdict: upload now, with changes or not, and projected rating if changes made.
+
+Constraints: Use only data below; if missing mark [CONFIRMAR]. Do not invent distances, times, prices nor documents.
+
+We have price: terrenos desde 300 metros cuadrados. No price monetary. Prices only by WhatsApp. So cannot show price.
+
+We cannot invent distances. Transcription gives distances: 20 minutos de la playa, menos de 2 kilómetros... Está cerca del aeropuerto... etc. We can keep those.
+
+We cannot invent documents. She says "Todo con documentos en regla". That's okay.
+
+We must not invent budget. Mark [CONFIRMAR].
+
+Special category housing ads? For land sales, likely special ad category housing. Need confirm [CONFIRMAR].
+
+We need to propose production viable with capabilities.
+
+Changes to video: need hook 3s. Current hook 0-4.5s. Could cut to 0-3s. Need on-screen text exact. Need to add proof: show real photos, documents? Can't invent. Need to ask Lisbeth for material.
+
+We must not invent new distances/times/prices. So keep existing.
+
+We need to ensure compliance with Meta housing policy: no discriminatory, no guaranteed appreciation, no "no compres promesas" maybe okay? Might be okay.
+
+We need to list what NOT to say: promesas, plusvalía garantizada, etc.
+
+We need to provide exact on-screen card per phrase ≤8 words.
+
+Script 30-35 s. Must conserve what she already says well. We can keep phrases but maybe reorder.
+
+We have transcription times total 41.7s. Need 30-35s. So need to cut some.
+
+We can keep: "Tomatlán, Jalisco. Terreno real, míralo desde arriba." Hook 3s.
+
+Then "Así empieza tu patrimonio. Terrenos desde 300 metros cuadrados con vista a las montañas." That's okay.
+
+"A 20 minutos de la playa." Keep.
+
+"A menos de 2 kilómetros tienes el nuevo tecnológico y la nueva central de autobuses, con el hospital a un lado del tecnológico." That's long.
+
+"La zona ya se está poblando."
+
+"Todo con documentos en regla para que inviertas con tranquilidad."
+
+"Ven a conocerlo y escríbeme por WhatsApp."
+
+We must remove "Está cerca del aeropuerto de Chalaca Tepec y de la presa Cajón de Peña, una zona con mucho potencial." Maybe keep? Could be okay but time.
+
+Also "Y recuerda, no compres promesas." Might be risky? Could keep.
+
+We need word by word script with timestamps? Probably list phrases with time.
+
+Provide tarjeta de pantalla de cada frase ≤8 palabras.
+
+We need to ensure we don't invent distances. The transcription says "A menos de 2 kilómetros tienes el nuevo tecnológico y la nueva central de autobuses, con el hospital a un lado del tecnológico." Keep.
+
+We need to ensure we don't invent price. No price.
+
+We need to propose changes to video with exact time, exact text of screen and who does it: editing mine or new take.
+
+We can propose using Qwen-Image-Edit to create new frames from real photos, animation with MiniMax, etc.
+
+We need to list prioritized TODO.
+
+Let's structure answer.
+
+Section 1: Calificación ahora.
+
+Confianza: ? maybe 5/10. Reason: dice "documentos en regla" pero no muestra escrituras, ni pruebas visuales reales, ni testimonios.
+
+Claridad de la oferta: 6/10? Reason: dice terrenos desde 300 m², vista montañas, 20 min playa, pero no muestra plano de lotes, medidas variables, agua/luz como plus, precio solo por WhatsApp.
+
+Mensajes calificados: 4/10. Reason: CTA genérico "escríbeme por WhatsApp" sin precalificación ni filtro.
+
+Gancho 3s: 4/10. Reason: primer plano 0-4.5s con frase larga y sin texto de impacto inmediato.
+
+Calidad visual: 6/10. Reason: animación dron y mapa, pero primeros planos son estáticos y sin material real del terreno.
+
+Cumplimiento políticas Meta: 6/10. Reason: venta de terrenos activa categoría especial de vivienda [CONFIRMAR] y hay afirmaciones de proximidad que deben verificarse; no hay discriminación explícita pero falta declaración de vivienda.
+
+We need one line reason each.
+
+Section 2: Lista priorizada.
+
+(a) cambios al VIDEO.
+
+We need exact time, exact text on screen, who does it.
+
+We can propose:
+
+0.0-3.0s: Hook. Edit mine: cut to first 3s, add on-screen text "TERRENO REAL EN TOMATLÁN, JALISCO" (≤8 words). Use existing footage of her + push-in animation MiniMax.
+
+3.0-7.0s: etc.
+
+We need to be careful not to invent new data. Use existing transcription.
+
+Maybe propose new take? Can't record new with advisor in person. Can use Qwen-Image-Edit from real photos to change pose/time of day.
+
+We can propose remove "no compres promesas" maybe policy risk.
+
+We need to add proof cards: "TU TERRENO" label already exists. Could add "VISUALIZACIÓN" card already exists.
+
+We need to add CTA unique.
+
+We need to ensure subtitles word by word.
+
+Maybe propose shorten to 32s.
+
+Provide list of changes with timecodes.
+
+(b) cambios a CAMPAÑA.
+
+Público: ... need to ask Lisbeth for budget [CONFIRMAR]. Placements: Reels/Stories 9:16. Category especial de anuncios de vivienda [CONFIRMAR]. Precalificación: formulario de WhatsApp con preguntas.
+
+(c) lo que hay que pedirle a Lisbeth.
+
+Material: fotos reales del terreno, escrituras/constancia de documentos (para archivo, no mostrar datos sensibles), video recorrido celular, plano de lotes con medidas variables, confirmación de agua y luz como plus, confirmación de distancia tiempos, etc. Presupuesto diario [CONFIRMAR]. Confirmar categoría especial.
+
+Section 3: Reescribe guion final 30-35 s palabra por palabra, conserva lo que ella ya dice bien, con tarjeta de pantalla de cada frase ≤8 palabras, gancho 3s, CTA único y lista de lo que NO debe decir.
+
+We need to provide script with timestamps maybe.
+
+Let's craft 32s script.
+
+We need word by word. Use transcription phrases.
+
+Possible script:
+
+0.0-3.0s: "Tomatlán, Jalisco. Terreno real, míralo desde arriba." On-screen card: "TERRENO REAL TOMATLÁN"
+
+3.0-8.0s: "Así empieza tu patrimonio. Terrenos desde 300 metros cuadrados con vista a las montañas." Card: "DESDE 300 M² VISTA MONTAÑAS"
+
+8.0-11.0s: "A 20 minutos de la playa." Card: "A 20 MINUTOS DE LA PLAYA"
+
+11.0-18.0s: "A menos de 2 kilómetros tienes el nuevo tecnológico y la nueva central de autobuses, con el hospital a un lado del tecnológico." Card: "CERCA DE TECNOLÓGICO Y HOSPITAL"
+
+18.0-21.0s: "La zona ya se está poblando." Card: "ZONA QUE YA SE ESTÁ POBLANDO"
+
+21.0-27.0s: "Todo con documentos en regla para que inviertas con tranquilidad." Card: "DOCUMENTOS EN REGLA"
+
+27.0-32.0s: "Ven a conocerlo y escríbeme por WhatsApp." Card: "ESCRÍBEME POR WHATSAPP"
+
+That's about 32s.
+
+We must keep word by word. The original says "Tomatlán nuestro mesa, es terreno real, míralo desde arriba." There's typo "nuestro mesa"? Might be "nuestro...". Keep as is? Probably keep original phrasing. The transcription says "[ 0.0- 4.5s] Tomatlán nuestro mesa, es terreno real, míralo desde arriba." Might be error. Should we keep exactly? Probably keep as given. Might be "Tomatlán, nuestro...". Hmm.
+
+We should keep exact words she says. Use transcription.
+
+Maybe we can keep "Tomatlán, es terreno real, míralo desde arriba." But transcription says "Tomatlán nuestro mesa, es terreno real, míralo desde arriba." Might be a mistake in transcription. We should use as given? Safer to use as given.
+
+We can propose edit to correct? Can't change words? We can use voice clone to change words? Could change words with voice clone. Might be okay to keep.
+
+Better to keep core meaning but use exact transcription? The instruction: reescribe el guion final de 30-35 s palabra por palabra (conserva lo que ella ya dice bien). So we can keep phrases.
+
+Maybe we can keep "Tomatlán, es terreno real, míralo desde arriba." That's close.
+
+We must not invent distances/times/prices. We are using existing.
+
+List of what NOT to say: No promesas de plusvalía garantizada, no rentabilidades aseguradas, no "inversión segura", no discriminación, no "no compres promesas" maybe okay but could be comparative. Meta policy prohibits... Might be okay.
+
+We can list: No decir "zona con mucho potencial", "inviertes con tranquilidad" maybe okay? "inviertes con tranquilidad" is a promise? Might be okay.
+
+Better list: No plusvalía garantizada, no retorno de inversión asegurado, no "oportunidad única", no datos de precio, no documentos específicos sin prueba.
+
+Section 4: Mensaje de bienvenida exacto de WhatsApp y 3-4 preguntas de precalificación.
+
+Welcome message: "¡Hola! Gracias por tu interés en los terrenos en Tomatlán, Jalisco. Soy Lisbeth Ríos. ¿En qué puedo ayudarte?" Something.
+
+Prequalification questions: ¿Cuál es tu presupuesto aproximado? [CONFIRMAR? Can't ask price? Might be okay]. Actually we cannot invent price. But we can ask prequalification: ¿Buscas terreno para construir casa grande con alberca y jardín? ¿Te interesa zona a 20 minutos de la playa? ¿Quieres visita presencial? ¿Cuándo podrías visitar?
+
+We must not invent data. Questions can be generic.
+
+Section 5: Veredicto.
+
+Probably "Subir con cambios". Projected rating if changes made: Confianza 9/10, Claridad 9/10, Mensajes calificados 9/10 etc.
+
+We need to give final rating projected.
+
+Make sure to mark [CONFIRMAR] where missing: presupuesto diario, categoría especial de anuncios de vivienda, maybe confirm distances? Distances are given in transcription, so okay.
+
+Also need confirm if water and electricity as plus is confirmed? Client said water and light as plus. Could be used.
+
+We must not invent distances, times, prices nor documents. So we cannot add new distances.
+
+We must use only data below. The data includes: fraccionamiento de 34 lotes, medidas variables; se puede construir casa grande con alberca y jardín; agua y luz como plus; precios solo por WhatsApp; página Peniel en preparación; presupuesto diario [CONFIRMAR].
+
+We can mention those in what to ask.
+
+We must not invent.
+
+Now produce final answer in Spanish, concise but complete.
+
+We need to ensure we don't show reasoning. Just output final.
+
+Let's craft sections with headings.
+
+Make sure to mark [CONFIRMAR] for budget daily, special category.
+
+Also maybe confirm if "aeropuerto de Chalaca Tepec" spelling? Transcription says Chalaca Tepec. Keep.
+
+Potential policy: housing ads special category requires confirmation.
+
+Now produce final answer.
+
+We need to ensure we don't invent new times. The script times we propose are new. That's okay? We are rewriting script. Times are new but based on existing. Might be okay.
+
+We must ensure on-screen cards ≤8 words.
+
+Let's craft final output.
+
+Probably use bullet points.
+
+Ensure we don't invent price.
+
+Let's produce.
+
+Potential pitfalls: The instruction says "Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes distancias, tiempos, precios ni documentos." So we cannot invent new distances/times. But we are proposing new script times (duration). That's okay? Times of video are production choices, not distances. Might be okay.
+
+But we must not invent distances. So keep distances as given.
+
+We must not invent documents. We can say "documentos en regla" as she says.
+
+We must not invent price. So no price.
+
+We must not invent budget. Mark [CONFIRMAR].
+
+We must not invent special category? Mark [CONFIRMAR].
+
+Now produce final answer.
+
+Let's ensure we include all 5 points.
+
+1) Califica ahora...
+
+2) Lista priorizada...
+
+3) Reescribe guion...
+
+4) Mensaje de bienvenida...
+
+5) Veredicto...
+
+Make sure to separate (a)(b)(c).
+
+Let's craft.
+
+Potential rating numbers:
+
+Confianza 5/10
+Claridad oferta 6/10
+Mensajes calificados 4/10
+Gancho 3s 4/10
+Calidad visual 6/10
+Cumplimiento políticas 6/10
+
+Reason one line each.
+
+Now list changes.
+
+(a) cambios al VIDEO:
+
+- 0.0-3.0s: recorte... edición mía...
+- 3.0-... etc.
+
+We need exact text of screen.
+
+Let's propose:
+
+0.0-3.0s: on-screen "TERRENO REAL TOMATLÁN JALISCO" (4 words). Edit mine: cut first 3s, add push-in MiniMax, subtítulos palabra por palabra.
+
+3.0-8.0s: on-screen "DESDE 300 M² VISTA A MONTAÑAS". Edit mine.
+
+8.0-11.0s: on-screen "A 20 MINUTOS DE LA PLAYA". Edit mine.
+
+11.0-18.0s: on-screen "A MENOS DE 2 KM TECNOLÓGICO HOSPITAL". Edit mine.
+
+18.0-21.0s: on-screen "ZONA QUE YA SE ESTÁ POBLANDO". Edit mine.
+
+21.0-27.0s: on-screen "TODO CON DOCUMENTOS EN REGLA". Edit mine.
+
+27.0-32.0s: on-screen "ESCRÍBEME POR WHATSAPP". Edit mine.
+
+Also remove "Y recuerda, no compres promesas." and "Está cerca del aeropuerto..." to fit time.
+
+We can note removal.
+
+Who does it: edición mía (corte, texto en capa, animación MiniMax). No toma nueva.
+
+Maybe need new take for hook? Could use Qwen-Image-Edit to change hora del día. Could propose new take? Can't record advisor. Could use existing photo.
+
+We can propose use Qwen-Image-Edit to generate close-up from real photo for hook.
+
+Let's propose: 0.0-3.0s toma nueva via Qwen-Image-Edit a partir de foto real de Lisbeth.
+
+Okay.
+
+(b) cambios a CAMPAÑA:
+
+- Público: ... need data.
+- Presupuesto diario [CONFIRMAR]
+- Placements: Reels/Stories 9:16
+- Categoría especial de anuncios de vivienda [CONFIRMAR]
+- Precalificación: formulario WhatsApp con preguntas.
+
+(c) lo que hay que pedirle a Lisbeth:
+
+- Confirmar presupuesto diario [CONFIRMAR]
+- Confirmar categoría especial...
+- Fotos reales del terreno, plano de lotes con medidas variables, evidencia de agua y luz como plus, etc.
+- Autorización para usar voz clonada...
+- etc.
+
+Now script final.
+
+Provide word by word.
+
+Maybe format:
+
+[0.0-3.0s] Tomatlán nuestro mesa, es terreno real, míralo desde arriba. Tarjeta: TERRENO REAL TOMATLÁN JALISCO
+
+But transcription says "Tomatlán nuestro mesa". Might be typo. Keep as is.
+
+Better to keep "Tomatlán, es terreno real, míralo desde arriba." Hmm.
+
+Instruction says conserva lo que ella ya dice bien. Could correct typo? Might be okay to keep original.
+
+I'll keep original transcription words.
+
+Let's list script:
+
+0.0-3.0s: "Tomatlán nuestro mesa, es terreno real, míralo desde arriba." Card: TERRENO REAL TOMATLÁN
+
+3.0-8.5s: "Así empieza tu patrimonio, terrenos desde 300 metros cuadrados con vista a las montañas," Card: DESDE 300 M² VISTA MONTAÑAS
+
+8.5-11.5s: "a 20 minutos de la playa." Card: A 20 MINUTOS DE LA PLAYA
+
+11.5-18.5s: "A menos de 2 kilómetros tienes el nuevo tecnológico y la nueva central de autobuses, con el hospital a un lado del tecnológico." Card: CERCA DE TECNOLÓGICO Y HOSPITAL
+
+18.5-22.0s: "La zona ya se está poblando." Card: ZONA QUE YA SE ESTÁ POBLANDO
+
+22.0-28.0s: "Todo con documentos en regla para que inviertas con tranquilidad." Card: DOCUMENTOS EN REGLA
+
+28.0-33.0s: "Ven a conocerlo y escríbeme por WhatsApp." Card: ESCRÍBEME POR WHATSAPP
+
+Total ~33s.
+
+List what NOT to say: No plusvalía garantizada, no rentabilidad asegurada, no "inversión segura", no promesas de valorización, no datos de precio, no información de documentos específica sin evidencia, no lenguaje discriminatorio.
+
+Now WhatsApp welcome message exact:
+
+"¡Hola! Gracias por escribir sobre los terrenos en Tomatlán, Jalisco. Soy Lisbeth Ríos. ¿En qué puedo ayudarte hoy?"
+
+Prequalification questions:
+
+1. ¿Buscas terreno para construir casa grande con alberca y jardín?
+2. ¿Te interesa la zona a 20 minutos de la playa?
+3. ¿Podrías visitar el terreno en los próximos 15 días?
+4. ¿Prefieres que te envíe información por WhatsApp o llamada?
+
+We must not ask price? Could ask budget approximate but price only by WhatsApp. Might be okay to ask range? Could be prequalification. Might be okay.
+
+But we cannot invent price. Asking budget is okay.
+
+Now verdict: Subir con cambios. Projected rating: Confianza 9/10, Claridad 9/10, Probabilidad mensajes calificados 9/10, Gancho 9/10, Calidad visual 8/10, Cumplimiento 9/10.
+
+Provide final.
+
+Make sure to mark [CONFIRMAR] where needed.
+
+Let's produce final answer in Spanish.
+
+Ensure no reasoning shown.
+
+Let's output.assistant to=user**1) Calificación actual del video y campaña**
+
+* Confianza 5/10. Dice “Todo con documentos en regla” pero no muestra prueba visual ni material real del terreno.
+* Claridad de la oferta 6/10. Se menciona terrenos desde 300 metros cuadrados con vista a las montañas y a 20 minutos de la playa, pero no se muestra plano de lotes, medidas variables, agua y luz como plus ni precio.
+* Mensajes calificados 4/10. CTA genérico “escríbeme por WhatsApp” sin precalificación ni filtro de intención.
+* Gancho 3 s 4/10. El inicio 0-4.5 s es plano estático con frase larga y sin texto de impacto inmediato.
+* Calidad visual 6/10. Hay animación dron/mapa y etiqueta fija TOMATLÁN, JALISCO, pero los primeros planos son estáticos y sin material real del terreno.
+* Cumplimiento de políticas de Meta 6/10. Venta de terrenos activa categoría especial de vivienda [CONFIRMAR]; hay afirmaciones de proximidad que deben verificarse y no hay declaración de vivienda.
+
+**2) Qué falta para 10/10/10**
+
+*a) Cambios al VIDEO. Edición mía salvo lo indicado*
+
+* 0.0-3.0 s Gancho. Edición mía + animación MiniMax push-in. Texto en pantalla: TERRENO REAL TOMATLÁN JALISCO. Subtítulo palabra por palabra con voz clonada de la frase existente.
+* 3.0-8.5 s. Edición mía. Texto en pantalla: DESDE 300 M² VISTA MONTAÑAS. Mantener “Así empieza tu patrimonio, terrenos desde 300 metros cuadrados con vista a las montañas,”
+* 8.5-11.5 s. Edición mía. Texto en pantalla: A 20 MINUTOS DE LA PLAYA. Mantener “a 20 minutos de la playa.”
+* 11.5-18.5 s. Edición mía. Texto en pantalla: A MENOS DE 2 KM TECNOLÓGICO HOSPITAL. Mantener “A menos de 2 kilómetros tienes el nuevo tecnológico y la nueva central de autobuses, con el hospital a un lado del tecnológico.”
+* 18.5-22.0 s. Edición mía. Texto en pantalla: ZONA QUE YA SE ESTÁ POBLANDO. Mantener “La zona ya se está poblando.”
+* 22.0-28.0 s. Edición mía. Texto en pantalla: DOCUMENTOS EN REGLA. Mantener “Todo con documentos en regla para que inviertas con tranquilidad.”
+* 28.0-33.0 s CTA único. Edición mía. Texto en pantalla: ESCRÍBEME POR WHATSAPP. Mantener “Ven a conocerlo y escríbeme por WhatsApp.”
+* Eliminar del corte final: “Está cerca del aeropuerto de Chalaca Tepec y de la presa Cajón de Peña, una zona con mucho potencial.” y “Y recuerda, no compres promesas.” para cumplir 30-35 s y evitar promesas.
+* Opcional viable: generar con Qwen-Image-Edit a partir de foto real de Lisbeth un primer plano atardecer para el gancho 0-3 s. Texto siempre en capa aparte.
+
+*b) Cambios a la CAMPAÑA*
+
+* Público: propietarios/inversionistas interesados en lotes en Jalisco, excluir audiencias amplias sin intención. Segmentación por intereses de bienes raíces y proximidad a Tomatlán.
+* Presupuesto diario [CONFIRMAR].
+* Placements: Reels y Stories 9:16 únicamente, frecuencia capada.
+* Categoría especial de anuncios de vivienda [CONFIRMAR] y declaración de vivienda activada en Meta.
+* Precalificación en WhatsApp con mensaje de bienvenida y 3-4 preguntas obligatorias antes de pasar a Lisbeth.
+* Creatividades A/B con gancho 3 s vs gancho 5 s.
+
+*c) Qué pedirle a Lisbeth*
+
+* Confirmar presupuesto diario [CONFIRMAR] y objetivo de mensajes calificados.
+* Confirmar si aplica categoría especial de anuncios de vivienda [CONFIRMAR].
+* Fotos reales del terreno, fachadas y vista a las montañas para Qwen-Image-Edit.
+* Video recorrido con celular del fraccionamiento de 34 lotes, medidas variables, y tomas de la zona poblada.
+* Confirmación escrita de agua y luz como plus y de que precios son solo por WhatsApp.
+* Autorización para usar voz clonada con guion exacto y uso de su imagen.
+
+**3) Guion final 30-35 s palabra por palabra**
+
+* 0.0-3.0 s “Tomatlán nuestro mesa, es terreno real, míralo desde arriba.” Tarjeta: TERRENO REAL TOMATLÁN JALISCO
+* 3.0-8.5 s “Así empieza tu patrimonio, terrenos desde 300 metros cuadrados con vista a las montañas,” Tarjeta: DESDE 300 M² VISTA MONTAÑAS
+* 8.5-11.5 s “a 20 minutos de la playa.” Tarjeta: A 20 MINUTOS DE LA PLAYA
+* 11.5-18.5 s “A menos de 2 kilómetros tienes el nuevo tecnológico y la nueva central de autobuses, con el hospital a un lado del tecnológico.” Tarjeta: CERCA DE TECNOLÓGICO Y HOSPITAL
+* 18.5-22.0 s “La zona ya se está poblando.” Tarjeta: ZONA QUE YA SE ESTÁ POBLANDO
+* 22.0-28.0 s “Todo con documentos en regla para que inviertas con tranquilidad.” Tarjeta: DOCUMENTOS EN REGLA
+* 28.0-33.0 s “Ven a conocerlo y escríbeme por WhatsApp.” Tarjeta: ESCRÍBEME POR WHATSAPP
+
+Lo que NO debe decir: plusvalía garantizada, rentabilidad asegurada, inversión segura, oportunidad única, datos de precio, información específica de documentos sin evidencia, lenguaje discriminatorio, promesas de valorización.
+
+**4) WhatsApp**
+
+Mensaje de bienvenida exacto:
+“¡Hola! Gracias por escribir sobre los terrenos en Tomatlán, Jalisco. Soy Lisbeth Ríos. ¿En qué puedo ayudarte hoy?”
+
+Preguntas de precalificación:
+1. ¿Buscas terreno para construir casa grande con alberca y jardín?
+2. ¿Te interesa la zona a 20 minutos de
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-30T00:10:51+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-S8DAQ26nOpMBqX1fgsSKz5
+
+== Reporte Modal fgabriel60 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_lisbeth_101010_20261030/lote.json --tokens 6000
+Duración: 8.4 min  (código 0)
+  glimmer (ap-S8DAQ26nOpMBqX1fgsSKz5): $0.351
+  guillermo-techo (ap-fBH2p3HxMI564JALIKFGQd): $0.021
+  jose-v3-obrero (ap-tdqHx6aH2J40E5VKORJvXE): $0.335
+Gasto del trabajo: $0.707
+Saldo restante ≈ $9.40

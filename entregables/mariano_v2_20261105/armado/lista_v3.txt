@@ -1,0 +1,2 @@
+file '/workspaces/Nexusv2.0launch18octubre/entregables/mariano_v2_20261105/armado/v3_cuerpo.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/entregables/mariano_v2_20261105/armado/v3_cierre.mp4'

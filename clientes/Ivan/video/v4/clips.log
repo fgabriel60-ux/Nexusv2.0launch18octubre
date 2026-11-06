@@ -1,0 +1,25 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-Kbb3vwz5n9oTN2pMT7jMl6
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/Ivan/video/v4/ivan_v4_modal.py
+├── ✓ Created Function cuadros.
+└── ✓ Created Function clips.
+clip V1 124 /datos/siena/out/ivan_v4/V1_00001_.mp4
+clip V2 124 /datos/siena/out/ivan_v4/V2_00001_.mp4
+clip V3 124 /datos/siena/out/ivan_v4/V3_00001_.mp4
+clip V4 124 /datos/siena/out/ivan_v4/V4_00001_.mp4
+clip V5 124 /datos/siena/out/ivan_v4/V5_00001_.mp4
+clip V6 124 /datos/siena/out/ivan_v4/V6_00001_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/Ivan/video/v4/clips/V1
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/Ivan/video/v4/clips/V2
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/Ivan/video/v4/clips/V3
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/Ivan/video/v4/clips/V4
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/Ivan/video/v4/clips/V5
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/Ivan/video/v4/clips/V6
+Stopping app - local entrypoint completed.
+Runner terminated.
+[modal-client] 2026-10-22T00:29:27+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-Kbb3vwz5n9oTN2pMT7jMl6
+FIN

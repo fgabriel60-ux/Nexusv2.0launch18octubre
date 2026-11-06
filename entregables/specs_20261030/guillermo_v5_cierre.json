@@ -1,0 +1,19 @@
+{
+ "carpeta": "clientes/Guillermo/pixar_v5_20261030",
+ "salida": "clientes/Guillermo/pixar_v5_20261030/salida",
+ "semilla": 21,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "T9_cierre",
+   "CAR5",
+   "Vertical animated Pixar-style shot: the cartoon man at his desk talks friendly and confidently directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, one inviting open-hand gesture toward the camera. Keep the same character, light stubble beard, outfit and office background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   4.08,
+   "c_cierre"
+  ]
+ ],
+ "voces": {
+  "c_cierre": "clientes/Guillermo/pixar_v5_20261030/voz/c_cierre.wav"
+ }
+}

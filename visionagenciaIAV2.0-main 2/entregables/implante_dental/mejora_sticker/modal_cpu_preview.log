@@ -1,0 +1,17 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-6D3usE7fZFi8A1D7ZrqpbD
+✓ Created objects.
+├── 🔨 Created mount 
+│   /workspaces/visionagenciaIAV2.0/entregables/implante_dental/mejora_sticker/r
+│   ender_modal_cpu.py
+└── 🔨 Created function render.
+{"times": [[1, 3.1]], "samples": 32, "percent": 50}
+{"times": [[265, 2.4]], "samples": 32, "percent": 50}
+{"times": [[374, 5.2]], "samples": 32, "percent": 50}
+{"times": [[740, 4.1]], "samples": 32, "percent": 50}
+{"times": [[950, 5.8]], "samples": 32, "percent": 50}
+{"times": [[1050, 3.5]], "samples": 32, "percent": 50}
+Downloaded /workspaces/visionagenciaIAV2.0/entregables/implante_dental/mejora_sticker/cpu_preview
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-6D3usE7fZFi8A1D7ZrqpbD

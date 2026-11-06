@@ -1,0 +1,5 @@
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/tmp/T1.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/tmp/T1b.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/tmp/T1c.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/tmp/T2.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_vizcaino_20261013/tmp/T4.mp4'

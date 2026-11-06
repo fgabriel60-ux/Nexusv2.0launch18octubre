@@ -1,0 +1,1 @@
+Carlos, 1 nov 2026: el anuncio para dueños de villas debe explicar cómo usamos la IA de Facebook buscando una calificación de 8, y decir «Aplícalo antes que tu competencia». Aplicar a esta pieza. Buscar 8 es una meta, nunca una calificación inventada ni garantía de reservas. Esta indicación prevalece para esta pieza sobre la nota histórica de no mencionar IA de Meta en reels.

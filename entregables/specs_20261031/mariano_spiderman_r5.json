@@ -1,0 +1,61 @@
+{
+ "carpeta": "mariano_spiderman_r5",
+ "salida": "clientes/Mariano/video/spiderman/r5/salida",
+ "semilla": 53,
+ "refs": {
+  "m": "clientes/Mariano/video/hablando_v1/mariano_hook_ref.png",
+  "casa": "clientes/Mariano/video/spiderman/refs/salvia_fachada.png"
+ },
+ "cuadros": {
+  "M1_techo": [
+   [
+    "m",
+    "casa"
+   ],
+   "Foto realista vertical 9:16, plano ABIERTO con lente gran angular desde lejos a la altura del piso, se ve la MISMA casa REAL de la segunda imagen COMPLETA (casa moderna de dos pisos color beige con TECHO PLANO, ventanas con paneles gris oscuro, entrada de concreto con franjas de pasto), cielo azul con nubes y sol, piso de concreto grande en primer plano con sombras largas. el MISMO hombre de la primera imagen (saco azul claro, camisa blanca, jeans, zapatos cafés, ropa normal) de pie PEQUEÑO en la orilla del techo plano, brazos atrás preparándose para saltar.",
+   "texto, letras, disfraz, traje de superhéroe, máscara, casa de dos aguas, techo inclinado, otra casa, dos personas, persona duplicada, borroso, deformado, cuerpo cortado"
+  ],
+  "M2_marometa": [
+   [
+    "m",
+    "casa"
+   ],
+   "Foto realista vertical 9:16, plano ABIERTO con lente gran angular desde lejos a la altura del piso, se ve la MISMA casa REAL de la segunda imagen COMPLETA (casa moderna de dos pisos color beige con TECHO PLANO, ventanas con paneles gris oscuro, entrada de concreto con franjas de pasto), cielo azul con nubes y sol, piso de concreto grande en primer plano con sombras largas. el MISMO hombre de la primera imagen (saco azul claro, camisa blanca, jeans, zapatos cafés, ropa normal) PEQUEÑO en el aire ARRIBA del techo haciendo una marometa hacia atrás (salto mortal), cuerpo DE CABEZA y encogido, rodillas al pecho, saco ondeando, su sombra en el concreto.",
+   "texto, letras, disfraz, traje de superhéroe, máscara, casa de dos aguas, techo inclinado, otra casa, dos personas, persona duplicada, borroso, deformado, cuerpo cortado"
+  ],
+  "M3_cae": [
+   [
+    "m",
+    "casa"
+   ],
+   "Foto realista vertical 9:16, plano ABIERTO con lente gran angular desde lejos a la altura del piso, se ve la MISMA casa REAL de la segunda imagen COMPLETA (casa moderna de dos pisos color beige con TECHO PLANO, ventanas con paneles gris oscuro, entrada de concreto con franjas de pasto), cielo azul con nubes y sol, piso de concreto grande en primer plano con sombras largas. el MISMO hombre de la primera imagen (saco azul claro, camisa blanca, jeans, zapatos cafés, ropa normal) PEQUEÑO en el aire cayendo de pie a media altura de la fachada, piernas juntas, brazos arriba, saco ondeando hacia arriba, su sombra en el concreto acercándose.",
+   "texto, letras, disfraz, traje de superhéroe, máscara, casa de dos aguas, techo inclinado, otra casa, dos personas, persona duplicada, borroso, deformado, cuerpo cortado"
+  ],
+  "M4_aterriza": [
+   [
+    "m",
+    "casa"
+   ],
+   "Foto realista vertical 9:16, plano ABIERTO con lente gran angular desde lejos a la altura del piso, se ve la MISMA casa REAL de la segunda imagen COMPLETA (casa moderna de dos pisos color beige con TECHO PLANO, ventanas con paneles gris oscuro, entrada de concreto con franjas de pasto), cielo azul con nubes y sol, piso de concreto grande en primer plano con sombras largas. el MISMO hombre de la primera imagen (saco azul claro, camisa blanca, jeans, zapatos cafés, ropa normal) más cerca de la cámara, acaba de ATERRIZAR en el concreto muy agachado, piernas abiertas, una mano tocando el piso, mirando a la cámara, polvo del impacto, sombra marcada.",
+   "texto, letras, disfraz, traje de superhéroe, máscara, casa de dos aguas, techo inclinado, otra casa, dos personas, persona duplicada, borroso, deformado, cuerpo cortado"
+  ]
+ },
+ "tomas": [
+  [
+   "MT2_gira",
+   "M2_marometa",
+   "Vertical realistic wide shot, static camera far away at ground level, real modern flat-roof beige house, same man in light blue blazer and jeans. Upside down mid-backflip high above the house, he completes the rotation in the air and falls feet first toward the ground. Fast. No text. Audio: whoosh.",
+   1.8,
+   null,
+   "M3_cae"
+  ],
+  [
+   "MT3_cae",
+   "M3_cae",
+   "Vertical realistic wide shot, static camera far away at ground level, real modern flat-roof beige house, same man in light blue blazer and jeans. He falls fast and lands hard on the concrete in a deep crouch with one hand on the ground, small dust burst. No text. Audio: heavy landing thud.",
+   1.4,
+   null,
+   "M4_aterriza"
+  ]
+ ]
+}

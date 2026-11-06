@@ -1,0 +1,1 @@
+python3 gasto_modal.py run clientes/Alberto/video/implantes_ref_modal.py --paso clips --version r5 > clientes/Alberto/video/implantes_ref_clips_r5.log 2>&1 && python3 clientes/Alberto/video/armar_implantes_ref.py --version 5 --tomas r5 > clientes/Alberto/video/armar_v5.log 2>&1

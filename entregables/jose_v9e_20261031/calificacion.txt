@@ -1,0 +1,15 @@
+CALIFICACIÓN TOTAL: 7/10
+NOTAS: Gancho 7/10 · Oferta 8/10 · Confianza 7/10 · Claridad 6/10 · Calidad visual 8/10 · Políticas de Meta 7/10 · Mensajes baratos 8/10 · Mensajes calificados 8/10
+POR QUÉ FUNCIONA:
+- 0.1-6.1s ¿Se te filtra el agua cuando llueve? En Grupo JR lo resolvemos. Pregunta directa + charco en losa y obrero preocupado genera identificación inmediata en Puebla.
+- 6.1-10.1s Usamos poliuretano acrílico de 12 años más primario fibratado elástico. Se ven cubetas con texto POLIURETANO ACRÍLICO 12 AÑOS y PRIMARIO FIBRATADO ELÁSTICO, da especificidad de producto.
+- 10.1-16.1s Primero el primario para una base sólida. Luego la protección continua sin uniones. Secuencia de rodillo aplicando, muestra proceso creíble y beneficio.
+- 17.0-19.7s Aparece DESDE $150 POR M² Sellador + 2 capas con personaje de pie, ancla precio de forma clara.
+- 20.7-27.1s Cierre fijo con tarjeta GRUPO JR - PUEBLA, Mándanos fotos de tu azotea por WhatsApp y te cotizamos hoy. WhatsApp 221 573 3127 grande y legible. 25.2-27.1s refuerza Desde $150 por m² Sellador + 2 capas y 10% de descuento en más de 100 m², califica tamaño de obra.
+
+QUÉ LO FRENA:
+- 0.5-5.0s Subtitulado palabra por palabra SE EL LLUEVE GRUPO JR RESOLVEMOS dificulta lectura rápida del gancho. Arreglo viable: mantener voz y poner subtítulo completo en capa de texto con Playfair, sin depender de palabras sueltas.
+- 0.5-27.1s Banner fijo SECADO RÁPIDO en todo el video no está en la voz ni en los datos confirmados. Arreglo viable: quitar el banner con Qwen-Image-Edit-2511 o reemplazarlo por texto en capa que sí esté en guion.
+- 17.0-20.1s Precio y WhatsApp aparecen tarde. Arreglo viable: adelantar tarjeta de precio con WhatsApp grande desde ~6s con edición ffmpeg y texto en capa, manteniendo cierre fijo actual.
+
+VEREDICTO: «Subir con cambios», calificación proyectada con los cambios 8/10

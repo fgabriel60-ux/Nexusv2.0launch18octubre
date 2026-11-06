@@ -1,0 +1,33 @@
+{
+ "nota": "Compras registradas dentro de la conversaci\u00f3n (onsite_conversion.purchase: marcadas en Messenger/WhatsApp Business) y contactos. Filas con valor > 0; transcrito de respuesta en l\u00ednea. Ventana 7d_click_1d_view.",
+ "result": [
+  {
+   "date": "2026-05-04",
+   "ad_id": "120248293143300651",
+   "actions_onsite_conversion_purchase": 1,
+   "action_values_onsite_conversion_purchase": 0,
+   "conversions_contact_total": 0
+  },
+  {
+   "date": "2026-06-19",
+   "ad_id": "120251563209080651",
+   "actions_onsite_conversion_purchase": 1,
+   "action_values_onsite_conversion_purchase": 0,
+   "conversions_contact_total": 0
+  },
+  {
+   "date": "2026-08-06",
+   "ad_id": "120253396465670651",
+   "actions_onsite_conversion_purchase": 0,
+   "action_values_onsite_conversion_purchase": 0,
+   "conversions_contact_total": 1
+  },
+  {
+   "date": "2026-08-07",
+   "ad_id": "120253396465670651",
+   "actions_onsite_conversion_purchase": 0,
+   "action_values_onsite_conversion_purchase": 0,
+   "conversions_contact_total": 1
+  }
+ ]
+}

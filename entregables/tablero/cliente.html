@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Mi anuncio · Nexus</title>
+<style>
+:root{--bg:#faf9f7;--panel:#fff;--fg:#1a1a1a;--mut:#6b6b6b;--lin:#e2ddd5;
+      --ok:#1f7a4d;--warn:#b26a00;--bad:#b3261e;--acc:#1f7a4d}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+  --bg:#17181a;--panel:#1f2023;--fg:#ececec;--mut:#9a9a9a;--lin:#32343a;
+  --ok:#4ec98a;--warn:#e0a14a;--bad:#ef6a60;--acc:#4ec98a;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:22px}
+h1{font-size:21px;margin:0 0 4px}
+h2{font-size:17px;margin:0}
+.sub{color:var(--mut);font-size:13.5px;margin:0 0 16px;max-width:65ch}
+.panel{background:var(--panel);border:1px solid var(--lin);border-radius:14px;padding:16px;margin-bottom:14px}
+.cabe{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+video{width:100%;border-radius:12px;background:#000;display:block;max-height:70vh}
+.nota{display:flex;align-items:baseline;gap:10px;margin:2px 0 10px}
+.nota b{font-size:40px;line-height:1}
+.nota span{color:var(--mut);font-size:13.5px}
+.pill{display:inline-block;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600;white-space:nowrap}
+.ok{background:color-mix(in srgb,var(--ok) 15%,transparent);color:var(--ok)}
+.warn{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--warn)}
+.bad{background:color-mix(in srgb,var(--bad) 15%,transparent);color:var(--bad)}
+.gris{background:color-mix(in srgb,var(--fg) 9%,transparent);color:var(--mut)}
+.rub{display:grid;grid-template-columns:minmax(120px,auto) 1fr auto;gap:8px 11px;align-items:center;margin-top:10px}
+.rub .n{font-size:13.5px}
+.barra{height:9px;border-radius:999px;background:color-mix(in srgb,var(--fg) 10%,transparent);overflow:hidden}
+.barra i{display:block;height:100%;border-radius:999px;background:var(--acc)}
+.val{font-size:13px;color:var(--mut);font-variant-numeric:tabular-nums}
+ul.lista{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px}
+ul.lista li{display:flex;gap:10px;align-items:flex-start}
+ul.lista input{margin-top:4px;flex:0 0 auto;width:17px;height:17px;accent-color:var(--acc)}
+ul.lista label{min-width:0;overflow-wrap:anywhere;cursor:pointer}
+.suben{font-size:12px;color:var(--ok);font-weight:600;white-space:nowrap}
+textarea{font:inherit;font-size:15px;width:100%;min-height:96px;padding:11px 12px;border-radius:11px;
+  border:1px solid var(--lin);background:var(--bg);color:var(--fg);resize:vertical}
+button{font:inherit;font-size:14px;padding:9px 15px;border-radius:10px;border:1px solid var(--lin);
+  background:transparent;color:var(--fg);cursor:pointer}
+button:hover{background:color-mix(in srgb,var(--fg) 7%,transparent)}
+button:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+button.pri{border-color:color-mix(in srgb,var(--ok) 60%,transparent);color:var(--ok);font-weight:650}
+.btns{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.aviso{font-size:13.5px;color:var(--mut);margin-top:10px}
+.quote{border-left:3px solid var(--lin);padding-left:11px;color:var(--mut);font-size:13.5px;margin:8px 0 0}
+.hist{font-size:13px;color:var(--mut);border:1px dashed var(--lin);border-radius:10px;padding:9px 11px;margin-top:8px;overflow-wrap:anywhere}
+footer{color:var(--mut);font-size:12.5px;margin-top:18px}
+</style></head><body>
+<div class="wrap" id="wrap">
+  <h1 id="tit">Mi anuncio</h1>
+  <p class="sub" id="intro">Cargando…</p>
+  <div id="cuerpo"></div>
+  <footer>Lo que escribas aquí le llega directo a Claude, el asistente que arma tus videos con Carlos. No se publica nada sin que Carlos lo apruebe.</footer>
+</div>
+<script>
+(function(){
+  var slug = location.pathname.replace(/\/+$/,'').split('/').pop();
+  var k = new URLSearchParams(location.search).get('k') || '';
+  var q = function(u){ return u + (u.indexOf('?')>=0?'&':'?') + 'k=' + encodeURIComponent(k); };
+  var D = null;
+  var el = function(t,c,x){ var e=document.createElement(t); if(c)e.className=c; if(x!=null)e.textContent=x; return e; };
+  var pill = function(t,c){ return el('span','pill '+c,t); };
+  var cls = function(n){ return n>=8?'ok':(n>=6.5?'warn':'bad'); };
+
+  function pinta(){
+    document.getElementById('tit').textContent = D.titulo || ('Anuncio de ' + (D.cliente||''));
+    document.getElementById('intro').textContent = D.intro || '';
+    var C = document.getElementById('cuerpo'); C.textContent='';
+
+    // 1. El video
+    var p1 = el('div','panel');
+    p1.appendChild(el('h2',null,'Tu video de ahorita'));
+    if(D.video){
+      var v=document.createElement('video'); v.controls=true; v.playsInline=true; v.preload='metadata';
+      v.src=q(D.video)+'&v='+encodeURIComponent(D.fecha||'')+(D.calificacion||''); v.style.marginTop='11px'; p1.appendChild(v);
+    }
+    if(D.video_nota) p1.appendChild(el('p','aviso',D.video_nota));
+    C.appendChild(p1);
+
+    // 2. La calificación
+    var p2 = el('div','panel');
+    var cab = el('div','cabe'); cab.appendChild(el('h2',null,'Calificación de Facebook (su IA)'));
+    if(D.fecha) cab.appendChild(pill(D.fecha,'gris'));
+    p2.appendChild(cab);
+    var n = el('div','nota');
+    var b = el('b', null, (D.calificacion!=null? Number(D.calificacion).toFixed(1):'—'));
+    b.style.color = 'var(--' + (cls(D.calificacion)==='ok'?'ok':(cls(D.calificacion)==='warn'?'warn':'bad')) + ')';
+    n.appendChild(b); n.appendChild(el('span',null,'de 10' + (D.proyectada!=null? ' · con los arreglos de abajo llega a ' + Number(D.proyectada).toFixed(1) : '')));
+    p2.appendChild(n);
+    if(D.regla) p2.appendChild(el('p','sub',D.regla));
+    if(D.rubros && D.rubros.length){
+      var g = el('div','rub');
+      D.rubros.forEach(function(r){
+        g.appendChild(el('div','n',r.nombre));
+        var ba = el('div','barra'); var i=document.createElement('i');
+        i.style.width = Math.max(4, Number(r.valor)*10) + '%';
+        if(Number(r.valor) < 6.5) i.style.background='var(--bad)';
+        else if(Number(r.valor) < 8) i.style.background='var(--warn)';
+        ba.appendChild(i); g.appendChild(ba);
+        g.appendChild(el('div','val', Number(r.valor).toFixed(0) + '/10'));
+      });
+      p2.appendChild(g);
+    }
+    if(D.funciona && D.funciona.length){
+      p2.appendChild(el('p','sub','Lo que ya te está funcionando:'));
+      var u=el('ul','lista');
+      D.funciona.forEach(function(f){ var li=el('li'); li.appendChild(el('span',null,'✅')); li.appendChild(el('label',null,f)); u.appendChild(li); });
+      p2.appendChild(u);
+    }
+    C.appendChild(p2);
+
+    // 3. Qué hacer para subir
+    var p3 = el('div','panel');
+    p3.appendChild(el('h2',null,'Para llegar a 8 falta esto'));
+    p3.appendChild(el('p','sub','Marca lo que quieras que hagamos. Lo que marques se manda como orden de trabajo.'));
+    var u3 = el('ul','lista');
+    (D.arreglos||[]).forEach(function(a,i){
+      var li=el('li');
+      var cb=document.createElement('input'); cb.type='checkbox'; cb.id='a'+i; cb.value=a.texto;
+      var lb=el('label',null,a.texto); lb.htmlFor='a'+i;
+      if(a.sube){ var s=el('span','suben',' '+a.sube); lb.appendChild(s); }
+      li.appendChild(cb); li.appendChild(lb); u3.appendChild(li);
+    });
+    p3.appendChild(u3);
+    C.appendChild(p3);
+
+    // 4. Lo que él quiere
+    var p4 = el('div','panel');
+    p4.appendChild(el('h2',null,'¿Qué quieres que le cambiemos?'));
+    p4.appendChild(el('p','sub','Escríbelo como lo dirías por WhatsApp. Si es de un momento del video, dime el segundo.'));
+    var ta=document.createElement('textarea');
+    ta.placeholder='Ej.: en el segundo 10 quítale la cancha y mejor pon la alberca; y que diga "recorrido gratis" desde el principio.';
+    p4.appendChild(ta);
+    var bt=el('div','btns');
+    var apr=el('button','pri'); apr.type='button';
+    apr.textContent='✓ Apruebo, háganlos todos';
+    apr.onclick=function(){
+      apr.disabled=true; av.textContent='Mandando tu aprobación…';
+      fetch(q('/c/'+slug+'/aprobar'),{method:'POST',headers:{'content-type':'application/json'},body:'{}'})
+        .then(function(r){return r.json();})
+        .then(function(j){
+          av.textContent=j.ok
+            ? ('Aprobado ✓ Se van a hacer los '+j.n+' cambios. En cuanto esté el video nuevo aparece aquí mismo con su calificación.')
+            : ('No se pudo: '+(j.error||'error'));
+          apr.disabled=false;
+        })
+        .catch(function(e){ av.textContent='No se pudo: '+e.message; apr.disabled=false; });
+    };
+    bt.appendChild(apr);
+    var env=el('button'); env.type='button'; env.textContent='Mejor pedir otra cosa';
+    var rec=el('button'); rec.type='button'; rec.textContent='Pedir nueva calificación';
+    bt.appendChild(env); bt.appendChild(rec); p4.appendChild(bt);
+    var av=el('p','aviso',''); p4.appendChild(av);
+
+    function mandar(conRecalificar){
+      var marcados=[];
+      u3.querySelectorAll('input:checked').forEach(function(c){ marcados.push(c.value); });
+      var texto=(ta.value||'').trim();
+      if(!texto && !marcados.length && !conRecalificar){ av.textContent='Marca algo o escribe qué quieres cambiar.'; return; }
+      av.textContent='Mandando…';
+      fetch(q('/c/'+slug+'/pedido'),{method:'POST',headers:{'content-type':'application/json'},
+        body:JSON.stringify({texto:texto,arreglos:marcados,recalificar:!!conRecalificar})})
+        .then(function(r){return r.json();})
+        .then(function(j){
+          if(j.ok){
+            av.textContent='Listo, ya le llegó a Claude. Te avisamos por WhatsApp cuando esté el video nuevo con su calificación.';
+            ta.value=''; u3.querySelectorAll('input:checked').forEach(function(c){c.checked=false;});
+          } else { av.textContent='No se pudo: '+(j.error||'error'); }
+        })
+        .catch(function(e){ av.textContent='No se pudo mandar: '+e.message; });
+    }
+    env.onclick=function(){ mandar(false); };
+    rec.onclick=function(){ mandar(true); };
+
+    if(D.aprobado){
+      var ap=el('p','aviso','✓ Aprobaste los cambios el '+D.aprobado+'. Estamos haciéndolos; aquí mismo te aparece el video nuevo con su calificación.');
+      p4.appendChild(ap);
+    }
+    if(D.historial && D.historial.length){
+      p4.appendChild(el('p','sub','Cómo ha ido subiendo:'));
+      D.historial.slice(0,5).forEach(function(h){
+        p4.appendChild(el('div','hist', h.fecha+' · calificación '+(h.calificacion!=null?h.calificacion:'—')+(h.version?' · '+h.version:'')));
+      });
+    }
+    if(D.pedidos && D.pedidos.length){
+      p4.appendChild(el('p','sub','Lo que ya pediste:'));
+      D.pedidos.slice(0,5).forEach(function(x){
+        var h=el('div','hist', x.fecha + ' · ' + (x.texto || (x.arreglos||[]).join(' · ') || 'pediste nueva calificación'));
+        p4.appendChild(h);
+      });
+    }
+    C.appendChild(p4);
+  }
+
+  fetch(q('/c/'+slug+'/datos.json')).then(function(r){
+    if(!r.ok) throw new Error(r.status===401?'La clave del enlace no es correcta.':'No pude cargar tus datos.');
+    return r.json();
+  }).then(function(j){ D=j; pinta(); })
+  .catch(function(e){ document.getElementById('intro').textContent = e.message; });
+})();
+</script></body></html>

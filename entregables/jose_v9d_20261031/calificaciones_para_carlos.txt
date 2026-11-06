@@ -1,0 +1,36 @@
+Calificaciones verificadas en entregables/glimmer_evaluador. Son de cada versión indicada, no del cliente en general. Todas sobre 10.
+
+ACTUALES (video evaluado):
+José v9c: 6.5. v9d: pendiente de evaluación.
+Guillermo campaña FAR12 v3: 6.5 (v2 anterior: 7.5).
+Alberto / Doctora v6c: 6 (v6 anterior: 7).
+Iván Fumicam v5: 6.
+Uriel: 3.
+Víctor: obra fina v5: 7; v2_v5: 6.
+Manuel XV v19: 5.
+Giovanni v5: 6.
+Tatuador hard cut v1: 6 (Pixar v2 anterior: 7).
+Rubén v3: 7.
+Jesús v3: 7.
+Andrés v2: 6.
+Video agencia / caso Guillermo Pixar v3: 6.
+
+PROYECTADAS (si se aplican los cambios; NO son notas obtenidas):
+José v9c: 8.5. No se transfiere a v9d.
+Guillermo FAR12 v3: 8 (v2 anterior: 8.6).
+Alberto / Doctora v6c: 8.
+Iván v5: 8.
+Uriel: 7.
+Víctor obra fina v5: 8.5; v2_v5: 8.
+Manuel: 7.
+Giovanni v5: 8.
+Tatuador hard cut: 8.
+Rubén v3: 8.5.
+Jesús v3: 8.5.
+Andrés v2: 8.
+Video agencia / caso Guillermo Pixar v3: 8.
+
+SIN CALIFICACIÓN ACTUAL VERIFICABLE en esos glimmer.log:
+BD Pro, Israel, Lisbeth, Fernando, Rachel, Mariano, Pleiadian, Sanick y Carpintería Cadena. No tomo las notas del resumen previo como evaluaciones comprobadas.
+
+Fuentes: 20261030d (Jesús), e (Andrés), f (Rubén), i (Tatuador), k (Manuel, Uriel, agencia), l (José, Giovanni, Doctora), m (Iván), n (Víctor), 20261031b (Guillermo). Todas dentro de entregables/glimmer_evaluador/*/glimmer.log. Historial completo: calificaciones_verificadas.json.

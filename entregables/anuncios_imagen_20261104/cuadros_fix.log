@@ -1,0 +1,560 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-1o9AXqIaKKSciQZfbAngCL
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/_escenas_carlos/escenas_carlos
+│   _modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+├── ✓ Created Function Cuadros.*.
+└── ✓ Created Function gen_tomas.
+/usr/local/lib/python3.12/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+[1ALoading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]
+[1ALoading pipeline components...:  17%|█▋        | 1/6 [00:00<00:01,  3.61it/s]
+[1ALoading pipeline components...:  33%|███▎      | 2/6 [00:00<00:01,  2.28it/s]
+
+[1A
+[1ALoading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][A/usr/local/lib/python3.12/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+[1ALoading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]
+[1ALoading pipeline components...:  17%|█▋        | 1/6 [00:00<00:02,  1.84it/s][transformers] Qwen2_5_VLConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. 
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section'}
+
+
+[1A
+[1ALoading weights:   0%|          | 0/729 [00:00<?, ?it/s][A
+
+[1ALoading weights:   4%|▍         | 28/729 [00:00<00:02, 277.52it/s][A
+
+[1A
+[1ALoading weights:   8%|▊         | 59/729 [00:00<00:02, 292.55it/s][A
+
+[1A
+[1ALoading weights:  12%|█▏        | 89/729 [00:00<00:04, 149.74it/s][A
+
+[1A
+[1ALoading weights:  17%|█▋        | 126/729 [00:00<00:03, 198.96it/s][A
+
+
+[1A
+[1ALoading weights:  21%|██        | 152/729 [00:00<00:03, 154.61it/s][A
+[1A
+[1ALoading checkpoint shards:  20%|██        | 1/5 [00:02<00:09,  2.46s/it][A
+
+[1A
+[1ALoading weights:  24%|██▎       | 173/729 [00:01<00:04, 135.80it/s][A
+
+[1A
+[1ALoading weights:  27%|██▋       | 199/729 [00:01<00:03, 160.03it/s][A
+
+[1A
+[1ALoading weights:  30%|███       | 219/729 [00:01<00:03, 159.27it/s][A
+
+[1A
+[1ALoading weights:  33%|███▎      | 238/729 [00:01<00:03, 142.79it/s][A
+
+[1A
+[1ALoading weights:  36%|███▌      | 260/729 [00:01<00:03, 149.92it/s][A
+
+[1A
+[1ALoading weights:  39%|███▉      | 283/729 [00:01<00:02, 164.88it/s][A
+
+[1A
+[1ALoading weights:  41%|████▏     | 302/729 [00:01<00:02, 165.70it/s][A
+
+[1A
+[1ALoading weights:  44%|████▍     | 320/729 [00:01<00:02, 161.02it/s][A
+
+[1ALoading weights:  49%|████▉     | 357/729 [00:02<00:01, 207.60it/s][A
+
+[1A
+[1ALoading weights:  55%|█████▌    | 403/729 [00:02<00:01, 268.26it/s][A
+
+[1A
+[1ALoading weights:  61%|██████▏   | 447/729 [00:02<00:00, 313.67it/s][A
+
+[1A
+[1ALoading weights:  69%|██████▊   | 500/729 [00:02<00:00, 359.13it/s][A
+
+[1A
+[1ALoading weights:  75%|███████▌  | 547/729 [00:02<00:00, 388.16it/s][A
+
+[1A
+[1ALoading weights:  84%|████████▍ | 611/729 [00:02<00:00, 451.17it/s][A
+
+[1A
+[1ALoading weights:  90%|█████████ | 657/729 [00:02<00:00, 449.99it/s][A
+
+[1A
+[1ALoading weights:  98%|█████████▊| 715/729 [00:02<00:00, 477.38it/s][A
+[1ALoading weights: 100%|██████████| 729/729 [00:02<00:00, 258.86it/s]
+
+[1ALoading pipeline components...:  33%|███▎      | 2/6 [00:04<00:09,  2.30s/it]
+
+[1ALoading checkpoint shards:  40%|████      | 2/5 [00:04<00:07,  2.42s/it][A
+[1ALoading pipeline components...:  50%|█████     | 3/6 [00:04<00:04,  1.61s/it]
+[1ALoading pipeline components...:  67%|██████▋   | 4/6 [00:05<00:02,  1.06s/it]
+
+[1ALoading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][A/usr/local/lib/python3.12/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+[1ALoading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s][transformers] Qwen2_5_VLConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. 
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section'}
+
+
+[1A
+[1ALoading weights:   0%|          | 0/729 [00:00<?, ?it/s][A/usr/local/lib/python3.12/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+
+[1A
+[1ALoading weights:   2%|▏         | 16/729 [00:00<00:05, 141.23it/s][A
+[1ALoading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]
+
+
+[1A
+[1ALoading weights:   4%|▍         | 32/729 [00:00<00:05, 123.25it/s][A
+[1ALoading pipeline components...:  17%|█▋        | 1/6 [00:00<00:00,  5.90it/s]
+[1A
+[1ALoading checkpoint shards:  60%|██████    | 3/5 [00:07<00:04,  2.40s/it][A
+
+[1A
+[1ALoading weights:   8%|▊         | 55/729 [00:00<00:04, 158.24it/s][A
+
+[1A
+[1ALoading weights:  10%|▉         | 72/729 [00:00<00:04, 142.10it/s][A
+
+[1A
+[1ALoading weights:  12%|█▏        | 87/729 [00:00<00:04, 141.85it/s][A
+[1ALoading pipeline components...:  33%|███▎      | 2/6 [00:00<00:01,  3.55it/s]
+
+[1ALoading weights:  15%|█▍        | 106/729 [00:00<00:04, 151.68it/s][transformers] Qwen2_5_VLConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. 
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section'}
+[A
+
+[1A
+[1ALoading weights:  18%|█▊        | 130/729 [00:00<00:03, 167.09it/s][A
+
+[1A
+[1ALoading weights:  20%|██        | 147/729 [00:00<00:03, 150.88it/s][A
+
+[1A
+[1ALoading weights:  22%|██▏       | 163/729 [00:01<00:03, 148.41it/s][A
+
+
+[1A
+[1ALoading weights:  25%|██▍       | 182/729 [00:01<00:03, 155.00it/s][A
+[1A
+[1ALoading checkpoint shards:  20%|██        | 1/5 [00:02<00:09,  2.47s/it][A
+
+[1A
+[1ALoading weights:  27%|██▋       | 198/729 [00:01<00:03, 146.46it/s][A
+
+[1A
+[1ALoading weights:  30%|██▉       | 216/729 [00:01<00:03, 150.97it/s][A
+
+[1A
+[1ALoading weights:  32%|███▏      | 232/729 [00:01<00:03, 143.35it/s][A
+
+[1A
+[1ALoading weights:  34%|███▍      | 247/729 [00:01<00:03, 135.23it/s][A
+
+[1A
+[1ALoading weights:  36%|███▌      | 261/729 [00:01<00:04, 115.58it/s][A
+
+[1A
+[1ALoading weights:  41%|████      | 296/729 [00:01<00:02, 168.95it/s][A
+
+[1A
+[1ALoading weights:  44%|████▍     | 323/729 [00:02<00:02, 192.06it/s][A
+
+[1A
+[1ALoading weights:  52%|█████▏    | 380/729 [00:02<00:01, 286.44it/s][A
+
+[1A
+[1ALoading weights:  58%|█████▊    | 421/729 [00:02<00:00, 316.60it/s][A
+
+[1A
+[1ALoading weights:  63%|██████▎   | 461/729 [00:02<00:00, 339.60it/s][A
+
+[1A
+[1ALoading weights:  68%|██████▊   | 497/729 [00:02<00:00, 339.97it/s][A
+
+[1A
+[1ALoading weights:  74%|███████▎  | 536/729 [00:02<00:00, 344.53it/s][A
+
+[1A
+[1ALoading weights:  79%|███████▊  | 573/729 [00:02<00:00, 344.93it/s][A
+
+[1ALoading weights: 100%|██████████| 729/729 [00:02<00:00, 261.51it/s]
+
+[1ALoading pipeline components...:  17%|█▋        | 1/6 [00:03<00:17,  3.48s/it]
+[1A
+[1ALoading checkpoint shards:  80%|████████  | 4/5 [00:09<00:02,  2.40s/it][A
+
+[1A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [00:09<00:00,  1.62s/it][A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [00:09<00:00,  1.97s/it]
+
+[1ALoading pipeline components...:  50%|█████     | 3/6 [00:10<00:14,  4.84s/it]
+[1ALoading pipeline components...:  33%|███▎      | 2/6 [00:04<00:07,  1.96s/it]
+
+[1ALoading pipeline components...:  67%|██████▋   | 4/6 [00:11<00:06,  3.26s/it]
+[1ALoading checkpoint shards:  40%|████      | 2/5 [00:04<00:07,  2.49s/it][A
+[1ALoading pipeline components...:  50%|█████     | 3/6 [00:04<00:03,  1.16s/it][transformers] Qwen2_5_VLConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. 
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section'}
+
+
+[1ALoading pipeline components...:  67%|██████▋   | 4/6 [00:04<00:01,  1.18it/s]
+[1A
+[1ALoading weights:   0%|          | 0/729 [00:00<?, ?it/s][A
+
+
+[1A
+[1ALoading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][A
+[1A
+[1ALoading weights:   0%|          | 0/729 [00:00<?, ?it/s][A
+
+[1A
+[1ALoading weights:   4%|▍         | 29/729 [00:00<00:02, 277.15it/s][A
+
+[1A
+[1ALoading weights:   8%|▊         | 57/729 [00:00<00:03, 198.06it/s][A
+
+[1A
+[1ALoading weights:  11%|█         | 79/729 [00:00<00:03, 164.69it/s][A
+
+[1A
+[1ALoading weights:  14%|█▍        | 104/729 [00:00<00:03, 181.84it/s][A
+
+[1A
+[1ALoading weights:  17%|█▋        | 124/729 [00:00<00:04, 146.70it/s][A
+
+[1A
+[1ALoading weights:  21%|██        | 152/729 [00:00<00:03, 161.17it/s][A
+
+[1A
+[1ALoading weights:  23%|██▎       | 170/729 [00:01<00:03, 146.60it/s][A
+
+[1A
+[1ALoading weights:  27%|██▋       | 196/729 [00:01<00:03, 163.14it/s][A
+
+[1A
+[1ALoading weights:  29%|██▉       | 213/729 [00:01<00:03, 163.67it/s][A
+
+[1A
+[1ALoading weights:  32%|███▏      | 230/729 [00:01<00:03, 151.35it/s][A
+
+[1A
+[1ALoading weights:  34%|███▍      | 250/729 [00:01<00:03, 154.36it/s][A
+
+[1A
+[1ALoading weights:  37%|███▋      | 271/729 [00:01<00:02, 154.94it/s][A
+
+
+[1ALoading weights:  39%|███▉      | 287/729 [00:01<00:03, 145.50it/s]
+[1A
+[1A
+[1ALoading checkpoint shards:  60%|██████    | 3/5 [00:07<00:04,  2.45s/it][A[A
+
+[1A
+[1ALoading weights:  41%|████▏     | 302/729 [00:01<00:03, 136.49it/s][A
+
+[1A
+[1ALoading weights:  45%|████▌     | 330/729 [00:02<00:02, 170.35it/s][A
+
+[1A
+[1ALoading weights:  50%|████▉     | 362/729 [00:02<00:01, 203.87it/s][A
+
+[1A
+[1ALoading weights:  54%|█████▍    | 392/729 [00:02<00:01, 228.75it/s][A
+
+[1A
+[1ALoading weights:  57%|█████▋    | 416/729 [00:02<00:01, 222.12it/s][A
+
+[1A
+[1ALoading weights:  64%|██████▍   | 465/729 [00:02<00:00, 293.57it/s][A
+
+[1ALoading checkpoint shards:  20%|██        | 1/5 [00:02<00:10,  2.57s/it][A
+
+[1A
+[1ALoading weights:  70%|██████▉   | 510/729 [00:02<00:00, 337.03it/s][A
+
+[1A
+[1ALoading weights:  75%|███████▌  | 550/729 [00:02<00:00, 353.89it/s][A
+
+[1A
+[1ALoading weights:  82%|████████▏ | 600/729 [00:02<00:00, 382.67it/s][A
+[1ALoading weights: 100%|██████████| 729/729 [00:02<00:00, 254.06it/s]
+
+[1ALoading pipeline components...: 100%|██████████| 6/6 [00:15<00:00,  2.46s/it]
+[1ALoading pipeline components...: 100%|██████████| 6/6 [00:15<00:00,  2.54s/it]
+
+
+[1A
+[1ALoading checkpoint shards:  80%|████████  | 4/5 [00:09<00:02,  2.43s/it][A
+
+[1A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [00:10<00:00,  1.64s/it][A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [00:10<00:00,  2.00s/it]
+
+[1ALoading pipeline components...:  83%|████████▎ | 5/6 [00:15<00:04,  4.39s/it]
+[1ALoading pipeline components...: 100%|██████████| 6/6 [00:15<00:00,  2.56s/it]
+
+
+[1A
+[1ALoading checkpoint shards:  40%|████      | 2/5 [00:05<00:07,  2.51s/it][A
+
+[1A
+[1ALoading checkpoint shards:  60%|██████    | 3/5 [00:07<00:05,  2.51s/it][A
+
+[1A
+[1ALoading checkpoint shards:  80%|████████  | 4/5 [00:09<00:02,  2.47s/it][A
+
+[1A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [00:10<00:00,  1.66s/it][A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [00:10<00:00,  2.04s/it]
+
+[1ALoading pipeline components...:  83%|████████▎ | 5/6 [00:15<00:04,  4.29s/it]
+[1ALoading pipeline components...: 100%|██████████| 6/6 [00:15<00:00,  2.89s/it]
+[1ALoading pipeline components...: 100%|██████████| 6/6 [00:15<00:00,  2.59s/it]
+modelo cargado
+
+
+[1A
+modelo cargado
+[1ALoading weights:   1%|          | 4/729 [00:32<1:38:22,  8.14s/it][A
+
+[1A
+[1ALoading weights:   5%|▌         | 39/729 [00:36<08:02,  1.43it/s] [Aguidance_scale is passed as 1.0, but ignored since the model is not guidance-distilled.
+
+[1A  0%|          | 0/30 [00:00<?, ?it/s]
+
+[1A
+[1ALoading weights:   7%|▋         | 54/729 [00:37<05:28,  2.06it/s][A
+
+[1A
+[1ALoading weights:   8%|▊         | 56/729 [00:38<05:22,  2.08it/s][Aguidance_scale is passed as 1.0, but ignored since the model is not guidance-distilled.
+
+[1A  0%|          | 0/30 [00:00<?, ?it/s]
+
+[1A
+[1ALoading weights:   8%|▊         | 57/729 [00:39<05:27,  2.05it/s][A
+modelo cargado
+[1A  3%|▎         | 1/30 [00:03<01:43,  3.56s/it]
+
+[1A
+[1ALoading weights:   8%|▊         | 60/729 [00:41<05:54,  1.89it/s][A
+[1A  3%|▎         | 1/30 [00:03<01:41,  3.49s/it]
+
+[1A
+[1ALoading weights:   9%|▉         | 64/729 [00:42<05:10,  2.14it/s][A
+[1A  7%|▋         | 2/30 [00:07<01:41,  3.64s/it]guidance_scale is passed as 1.0, but ignored since the model is not guidance-distilled.
+
+[1A  0%|          | 0/30 [00:00<?, ?it/s]
+
+[1A
+[1ALoading weights:   9%|▉         | 69/729 [00:44<04:52,  2.26it/s][A
+
+[1A
+[1ALoading weights:  12%|█▏        | 91/729 [00:44<01:41,  6.29it/s][A
+
+[1A
+[1ALoading weights:  18%|█▊        | 131/729 [00:44<00:36, 16.40it/s][A
+
+[1A
+[1ALoading weights:  25%|██▍       | 179/729 [00:44<00:16, 32.72it/s][A
+
+[1A
+[1ALoading weights:  29%|██▉       | 212/729 [00:44<00:11, 46.94it/s][A
+
+[1A
+[1ALoading weights:  35%|███▌      | 257/729 [00:45<00:06, 72.26it/s][A
+[1A  7%|▋         | 2/30 [00:07<01:42,  3.66s/it]
+
+[1A
+[1ALoading weights:  40%|███▉      | 289/729 [00:46<00:09, 44.81it/s][A
+[1A 10%|█         | 3/30 [00:11<01:39,  3.70s/it]
+[1A  3%|▎         | 1/30 [00:03<01:39,  3.45s/it]
+
+[1A
+[1ALoading weights:  43%|████▎     | 312/729 [00:48<00:16, 25.94it/s][A
+
+[1A
+[1ALoading weights:  48%|████▊     | 349/729 [00:48<00:09, 38.09it/s][A
+
+[1A
+[1ALoading weights:  58%|█████▊    | 424/729 [00:48<00:04, 72.20it/s][A
+
+[1A
+[1ALoading weights:  71%|███████   | 515/729 [00:48<00:01, 125.96it/s][A
+
+[1A
+[1ALoading weights:  85%|████████▍ | 619/729 [00:48<00:00, 201.98it/s][A
+[1ALoading weights: 100%|██████████| 729/729 [00:49<00:00, 14.86it/s] 
+
+[1ALoading pipeline components...:  67%|██████▋   | 4/6 [00:53<00:33, 16.60s/it]
+[1ALoading pipeline components...:  83%|████████▎ | 5/6 [00:53<00:11, 11.66s/it]
+
+[1A 10%|█         | 3/30 [00:11<01:40,  3.71s/it]
+[1A
+[1ALoading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][A
+[1A 13%|█▎        | 4/30 [00:14<01:36,  3.73s/it]
+[1A  7%|▋         | 2/30 [00:07<01:40,  3.60s/it]
+[1A 13%|█▎        | 4/30 [00:14<01:37,  3.74s/it]
+[1A 17%|█▋        | 5/30 [00:18<01:33,  3.74s/it]
+[1A 10%|█         | 3/30 [00:10<01:38,  3.65s/it]
+[1A 17%|█▋        | 5/30 [00:18<01:33,  3.76s/it]
+[1A 20%|██        | 6/30 [00:22<01:30,  3.76s/it]
+[1A 13%|█▎        | 4/30 [00:14<01:35,  3.68s/it]
+[1A 20%|██        | 6/30 [00:22<01:30,  3.77s/it]
+[1A 17%|█▋        | 5/30 [00:18<01:32,  3.69s/it]
+[1A 23%|██▎       | 7/30 [00:26<01:26,  3.77s/it]
+[1A 23%|██▎       | 7/30 [00:26<01:26,  3.78s/it]
+[1A 20%|██        | 6/30 [00:22<01:28,  3.71s/it]
+[1A 27%|██▋       | 8/30 [00:29<01:22,  3.77s/it]
+[1A 27%|██▋       | 8/30 [00:29<01:23,  3.78s/it]
+[1A 23%|██▎       | 7/30 [00:25<01:25,  3.72s/it]
+[1A 30%|███       | 9/30 [00:33<01:19,  3.78s/it]
+[1A 30%|███       | 9/30 [00:33<01:19,  3.78s/it]
+[1A 27%|██▋       | 8/30 [00:29<01:21,  3.73s/it]
+[1A 33%|███▎      | 10/30 [00:37<01:15,  3.78s/it]
+
+[1A
+[1ALoading checkpoint shards:  20%|██        | 1/5 [00:25<01:40, 25.06s/it][A
+[1A 33%|███▎      | 10/30 [00:37<01:15,  3.79s/it]
+[1A 30%|███       | 9/30 [00:33<01:18,  3.73s/it]
+[1A 37%|███▋      | 11/30 [00:41<01:11,  3.78s/it]
+[1A 37%|███▋      | 11/30 [00:41<01:11,  3.79s/it]
+[1A 33%|███▎      | 10/30 [00:37<01:14,  3.73s/it]
+[1A 40%|████      | 12/30 [00:45<01:08,  3.79s/it]
+[1A 40%|████      | 12/30 [00:45<01:08,  3.79s/it]
+[1A 37%|███▋      | 11/30 [00:40<01:11,  3.74s/it]
+[1A 43%|████▎     | 13/30 [00:48<01:04,  3.79s/it]
+[1A 43%|████▎     | 13/30 [00:48<01:04,  3.79s/it]
+[1A 40%|████      | 12/30 [00:44<01:07,  3.74s/it]
+[1A 47%|████▋     | 14/30 [00:52<01:00,  3.79s/it]
+[1A 47%|████▋     | 14/30 [00:52<01:00,  3.79s/it]
+[1A 43%|████▎     | 13/30 [00:48<01:03,  3.74s/it]
+[1A 50%|█████     | 15/30 [00:56<00:56,  3.80s/it]
+[1A 50%|█████     | 15/30 [00:56<00:56,  3.79s/it]
+[1A 47%|████▋     | 14/30 [00:51<00:59,  3.74s/it]
+[1A 53%|█████▎    | 16/30 [01:00<00:53,  3.80s/it]
+[1A 53%|█████▎    | 16/30 [01:00<00:53,  3.79s/it]
+[1A 50%|█████     | 15/30 [00:55<00:56,  3.74s/it]
+[1A 57%|█████▋    | 17/30 [01:04<00:49,  3.80s/it]
+[1A 57%|█████▋    | 17/30 [01:04<00:49,  3.79s/it]
+[1A 53%|█████▎    | 16/30 [00:59<00:52,  3.75s/it]
+[1A 60%|██████    | 18/30 [01:07<00:45,  3.80s/it]
+[1A 60%|██████    | 18/30 [01:07<00:45,  3.79s/it]
+[1A 57%|█████▋    | 17/30 [01:03<00:48,  3.75s/it]
+[1A 63%|██████▎   | 19/30 [01:11<00:41,  3.80s/it]
+[1A 63%|██████▎   | 19/30 [01:11<00:41,  3.79s/it]
+[1A 60%|██████    | 18/30 [01:06<00:44,  3.75s/it]
+[1A 67%|██████▋   | 20/30 [01:15<00:38,  3.80s/it]
+[1A 67%|██████▋   | 20/30 [01:15<00:37,  3.79s/it]
+[1A 63%|██████▎   | 19/30 [01:10<00:41,  3.75s/it]
+[1A 70%|███████   | 21/30 [01:19<00:34,  3.80s/it]
+[1A 70%|███████   | 21/30 [01:19<00:34,  3.79s/it]
+[1A 67%|██████▋   | 20/30 [01:14<00:37,  3.75s/it]
+[1A 73%|███████▎  | 22/30 [01:23<00:30,  3.80s/it]
+[1A 73%|███████▎  | 22/30 [01:23<00:30,  3.80s/it]
+[1A 70%|███████   | 21/30 [01:18<00:33,  3.75s/it]
+[1A 77%|███████▋  | 23/30 [01:26<00:26,  3.80s/it]
+[1A 77%|███████▋  | 23/30 [01:26<00:26,  3.80s/it]
+[1A 73%|███████▎  | 22/30 [01:21<00:29,  3.75s/it]
+[1A 80%|████████  | 24/30 [01:30<00:22,  3.80s/it]
+[1A 80%|████████  | 24/30 [01:30<00:22,  3.80s/it]
+[1A 77%|███████▋  | 23/30 [01:25<00:26,  3.75s/it]
+[1A 83%|████████▎ | 25/30 [01:34<00:19,  3.80s/it]
+[1A 83%|████████▎ | 25/30 [01:34<00:18,  3.80s/it]
+[1A 80%|████████  | 24/30 [01:29<00:22,  3.75s/it]
+[1A 87%|████████▋ | 26/30 [01:38<00:15,  3.80s/it]
+[1A 87%|████████▋ | 26/30 [01:38<00:15,  3.80s/it]
+[1A 83%|████████▎ | 25/30 [01:33<00:18,  3.75s/it]
+[1A 90%|█████████ | 27/30 [01:42<00:11,  3.80s/it]
+[1A 90%|█████████ | 27/30 [01:42<00:11,  3.80s/it]
+[1A 87%|████████▋ | 26/30 [01:36<00:15,  3.75s/it]
+[1A 93%|█████████▎| 28/30 [01:45<00:07,  3.80s/it]
+[1A 93%|█████████▎| 28/30 [01:45<00:07,  3.80s/it]
+[1A 90%|█████████ | 27/30 [01:40<00:11,  3.75s/it]
+[1A 97%|█████████▋| 29/30 [01:49<00:03,  3.80s/it]
+[1A 97%|█████████▋| 29/30 [01:49<00:03,  3.79s/it]
+[1A 93%|█████████▎| 28/30 [01:44<00:07,  3.75s/it]
+[1A100%|██████████| 30/30 [01:53<00:00,  3.80s/it]
+[1A100%|██████████| 30/30 [01:53<00:00,  3.78s/it]
+cuadro RAF_1A
+
+[1A100%|██████████| 30/30 [01:53<00:00,  3.79s/it]
+[1A100%|██████████| 30/30 [01:53<00:00,  3.78s/it]
+guidance_scale is passed as 1.0, but ignored since the model is not guidance-distilled.
+
+[1A  0%|          | 0/30 [00:00<?, ?it/s]
+cuadro MAR_A2
+guardado MAR_A2.png
+guardado RAF_1A.png
+[1A 97%|█████████▋| 29/30 [01:48<00:03,  3.75s/it]
+[1A  3%|▎         | 1/30 [00:03<01:40,  3.48s/it]
+[1A100%|██████████| 30/30 [01:51<00:00,  3.75s/it]
+[1A100%|██████████| 30/30 [01:51<00:00,  3.73s/it]
+cuadro RAF_2A
+guardado RAF_2A.png
+
+[1A  7%|▋         | 2/30 [00:07<01:42,  3.67s/it]
+[1A 10%|█         | 3/30 [00:11<01:40,  3.73s/it]
+[1A 13%|█▎        | 4/30 [00:14<01:37,  3.76s/it][modal-client] 2026-11-04T22:20:22+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=67.58, time_since_heartbeat_success=67.58, error=ConnectionError('Deadline exceeded'))
+
+[1A 17%|█▋        | 5/30 [00:18<01:34,  3.78s/it]
+
+[1A
+[1ALoading checkpoint shards:  40%|████      | 2/5 [02:04<03:25, 68.63s/it][A
+[1A 20%|██        | 6/30 [00:22<01:30,  3.79s/it]
+[1A 23%|██▎       | 7/30 [00:26<01:27,  3.79s/it]
+[1A 27%|██▋       | 8/30 [00:30<01:23,  3.80s/it]
+[1A 30%|███       | 9/30 [00:33<01:19,  3.80s/it]
+[1A 33%|███▎      | 10/30 [00:37<01:15,  3.80s/it]
+[1A 37%|███▋      | 11/30 [00:41<01:12,  3.80s/it]
+[1A 40%|████      | 12/30 [00:45<01:08,  3.80s/it]
+[1A 43%|████▎     | 13/30 [00:49<01:04,  3.80s/it]
+[1A 47%|████▋     | 14/30 [00:52<01:00,  3.80s/it]
+[1A 50%|█████     | 15/30 [00:56<00:57,  3.80s/it]
+[1A 53%|█████▎    | 16/30 [01:00<00:53,  3.80s/it]
+[1A 57%|█████▋    | 17/30 [01:04<00:49,  3.80s/it]
+[1A 60%|██████    | 18/30 [01:08<00:45,  3.81s/it]
+[1A 63%|██████▎   | 19/30 [01:11<00:41,  3.80s/it]
+[1A 67%|██████▋   | 20/30 [01:15<00:38,  3.80s/it]
+[1A 70%|███████   | 21/30 [01:19<00:34,  3.81s/it]
+[1A 73%|███████▎  | 22/30 [01:23<00:30,  3.81s/it]
+[1A 77%|███████▋  | 23/30 [01:27<00:26,  3.81s/it]
+[1A 80%|████████  | 24/30 [01:30<00:22,  3.81s/it]
+[1A 83%|████████▎ | 25/30 [01:34<00:19,  3.81s/it]
+[1A 87%|████████▋ | 26/30 [01:38<00:15,  3.81s/it]
+[1A 90%|█████████ | 27/30 [01:42<00:11,  3.81s/it]
+[1A 93%|█████████▎| 28/30 [01:46<00:07,  3.81s/it]
+
+[1A
+[1ALoading checkpoint shards:  60%|██████    | 3/5 [03:29<02:32, 76.20s/it][A
+[1A 97%|█████████▋| 29/30 [01:50<00:03,  3.81s/it]
+[1A100%|██████████| 30/30 [01:53<00:00,  3.80s/it]
+[1A100%|██████████| 30/30 [01:53<00:00,  3.79s/it]
+cuadro RAF_2B
+guardado RAF_2B.png
+
+4 cuadros en paralelo · 304 s de reloj
+Stopping app - local entrypoint completed.
+[modal-client] 2026-11-04T22:22:11+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-1o9AXqIaKKSciQZfbAngCL
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::cuadros_par --spec entregables/anuncios_imagen_20261104/spec_fix.json
+Duración: 5.3 min  (código 0)
+  nexus3 (ap-ZtSTaaSIs8SrcU1TRgCKhf): $0.028
+  tablero-nexus (ap-KQvQ59JktJFE9CObPZp2JN): $0.000
+  auto-aplicar-cambios (ap-ce2KU24i3X3cvw0ikPHQxB): $0.000
+  escenas-carlos (ap-1o9AXqIaKKSciQZfbAngCL): $0.841
+Gasto del trabajo: $0.870
+Saldo restante ≈ $8.49

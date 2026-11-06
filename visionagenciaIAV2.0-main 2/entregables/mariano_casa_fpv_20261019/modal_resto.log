@@ -1,0 +1,22 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-LtHkM95D9D1pP2ZxQXtYy2
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/mariano_casa_fpv_20261019/mariano_casa_modal.py
+└── ✓ Created Function clips.
+clip E0 /datos/siena/out/mariano_casa_fpv/E0_00001_.mp4
+clip E2 /datos/siena/out/mariano_casa_fpv/E2_00001_.mp4
+clip E3 /datos/siena/out/mariano_casa_fpv/E3_00001_.mp4
+clip E4 /datos/siena/out/mariano_casa_fpv/E4_00001_.mp4
+clip E5 /datos/siena/out/mariano_casa_fpv/E5_00001_.mp4
+clip E6 /datos/siena/out/mariano_casa_fpv/E6_00001_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/clips/E0.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/clips/E2.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/clips/E3.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/clips/E4.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/clips/E5.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/clips/E6.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-LtHkM95D9D1pP2ZxQXtYy2

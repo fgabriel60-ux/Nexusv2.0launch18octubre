@@ -1,0 +1,47 @@
+Eres estratega de producto y de anuncios de Meta (Facebook/Instagram) para México y Latinoamérica. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento.
+
+PROYECTO: Carlos (agencia Nexus, México) quiere crear una APP PARA PROBARSE ROPA con IA (probador virtual: subes tu foto y ves cómo te queda una prenda). Está en etapa de idea: todavía no tiene nombre, precio ni versión publicada. No inventes datos como si fueran reales; si propones nombre, precio o cifras, márcalos como PROPUESTA.
+
+REFERENCIAS DE INSTAGRAM (imagen 1 y 2 = hojas de 10 cuadros de cada reel, en este orden):
+1. Reel DZd00LrsCGQ de @valuoutfits (71 s, 80624 vistas, 4441 likes). Una chica da reseña de una app para "digitalizar tu clóset para que no digas 'nunca tengo nada que ponerme'". Es el FORMATO que Carlos quiere: chica dando reseña de su app. Comentarios reales:
+  - Love it❤️
+  - La busque en play atore no estaa 😭
+  - Como hago para descargarla para Ecuador? :( me sale no disponible para tu país
+  - Está en argentina?
+  - Como se escribe
+  - Es confiable la App?
+  - Como se llama
+  - Alta
+  - En España no me aparece :(
+  - Nombre de la app
+  - No me sale
+  - Es con internet?
+  - hay que pagar para poder usar la app?
+  - Clueles 😍😁
+  - Una pregunta esta está aplicación en Perú
+2. Reel DJ4nXYLhl8D de @techcrunch (44 s, 68180 vistas): demostración de la herramienta de Google para probarse ropa sobre una foto tuya (Google I/O). Carlos pidió ESTUDIAR LOS COMENTARIOS para crear una estrategia que NO provoque esas respuestas. Comentarios reales:
+  - Outfito is best - Check link in bio❤️🙌
+  - Não entendi
+  - Insane!!
+  - @rodrigonenclares
+  - This looks like a great value meal! The variety of options for AED 35 is impressive. I appreciate the dine-in and takeaway options, too. I'll have to check it out when I'm in Motor City. Thanks for sh
+  - Esto es fantástico 😮😮😮
+  - Result was awful till date ⚰️
+  - 😮
+  - @sarda_angelo scusaci . @tiopepe03
+  - At this stage is Google just copying everyone? @doji_com
+  - Looku did it first. Download on App Store https://apps.apple.com/us/app/looku/id6745373315
+  - What is up with all these fashion outfit tool apps becoming popular right now
+  - You know for sure there are going be a lot of people going commando and taking pics  Obviously google will censor it- but it will happen
+  - My business idea in 2015 came to life!
+  - @doji_com did it first
+
+Lectura de comentarios (para que la uses): en el 1 la gente no encuentra el nombre de la app, no está disponible en su país (Ecuador, Argentina, España, Perú), duda si es confiable, si necesita internet y si es de pago. En el 2 hay spam de competidores (Outfito, Looku, Doji: "lo hizo primero"), "el resultado fue horrible", "Google copia a todos", miedo a fotos sin ropa/privacidad y gente que no entendió.
+
+TAREA A (PRODUCTO). Entrega exactamente:
+1) Propuesta de valor en 1 frase y 3 nombres posibles (PROPUESTA) fáciles de escribir y buscar.
+2) ICP: 2-3 perfiles de cliente ideal (edad, país/ciudad, situación, dolor, qué ya usa, cuánto pagaría), y cuál atacar primero y por qué. Incluye si conviene B2C (usuarias) o B2B (tiendas de ropa/boutiques de Instagram que quieren que sus clientas se prueben la prenda).
+3) Funcionalidades: MVP (máximo 6, en orden de prioridad) y versión 2. Para cada una, qué problema de los comentarios resuelve.
+4) UI/UX: flujo pantalla por pantalla del primer uso (de abrir la app a ver el primer resultado en menos de 60 s), qué va en cada pantalla, cómo manejar privacidad de la foto, qué hacer cuando el resultado sale mal, y 5 reglas de diseño.
+5) Modelo de negocio y precio (PROPUESTA): gratis vs pago, y cómo ganar con tiendas.
+6) Riesgos (privacidad, fotos indebidas, calidad, competencia, políticas de Meta y tiendas de apps) y cómo cubrirlos.

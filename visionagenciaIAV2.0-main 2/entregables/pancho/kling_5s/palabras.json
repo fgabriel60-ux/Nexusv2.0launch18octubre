@@ -1,0 +1,62 @@
+[
+ {
+  "word": "Esta",
+  "start": 0.0,
+  "end": 0.46
+ },
+ {
+  "word": "pieza",
+  "start": 0.46,
+  "end": 0.88
+ },
+ {
+  "word": "te",
+  "start": 0.88,
+  "end": 1.08
+ },
+ {
+  "word": "la",
+  "start": 1.08,
+  "end": 1.24
+ },
+ {
+  "word": "iban",
+  "start": 1.24,
+  "end": 1.5
+ },
+ {
+  "word": "a",
+  "start": 1.5,
+  "end": 1.7
+ },
+ {
+  "word": "cobrar",
+  "start": 1.7,
+  "end": 2.12
+ },
+ {
+  "word": "y",
+  "start": 2.12,
+  "end": 2.6
+ },
+ {
+  "word": "no",
+  "start": 2.6,
+  "end": 2.86
+ },
+ {
+  "word": "era",
+  "start": 2.86,
+  "end": 3.06
+ },
+ {
+  "word": "la",
+  "start": 3.06,
+  "end": 3.36
+ },
+ {
+  "word": "falla.",
+  "start": 3.36,
+  "end": 3.82
+ }
+]

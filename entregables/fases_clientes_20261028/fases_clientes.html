@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fases de clientes · Nexus · 28 oct 2026</title>
+<style>
+:root{--bg:#0f1115;--c:#181b22;--t:#eef0f4;--m:#9aa3b2;--l:#2a2f3a;--a:#f5c542;--ok:#3ecf8e;--w:#ff9f43;--r:#ff6b6b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:15px/1.45 system-ui,sans-serif;padding:16px;max-width:760px;margin-inline:auto}
+h1{font-size:21px;margin:0 0 4px}h2{font-size:17px;margin:26px 0 8px;color:var(--a)}p.s{color:var(--m);margin:0 0 14px;font-size:13px}
+.card{background:var(--c);border:1px solid var(--l);border-radius:12px;padding:12px;margin:10px 0}
+.row{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.n{font-weight:700}.tag{font-size:12px;border-radius:99px;padding:2px 9px;background:var(--l);white-space:nowrap}
+.bar{display:flex;gap:3px;margin:8px 0}.bar i{flex:1;height:7px;border-radius:4px;background:var(--l)}.bar i.on{background:var(--ok)}.bar i.now{background:var(--a)}
+.now-t{color:var(--m);font-size:13px}.next{margin-top:6px}.next b{color:var(--a)}
+.ref{border-color:var(--a)}
+ol.f{padding-left:20px;margin:0}ol.f li{margin:5px 0}
+.leg{font-size:13px;color:var(--m)}
+.r{color:var(--r)}.w{color:var(--w)}
+</style></head><body>
+<h1>Fases de clientes y prospectos</h1>
+<p class="s">28 oct 2026 · armado leyendo los últimos mensajes de cada chat y las carpetas de trabajo. Si algo no cuadra con lo que tú sabes, el chat manda.</p>
+
+<h2>La meta: fase de Guillermo</h2>
+<div class="card ref">
+<div class="row"><span class="n">Guillermo (Vicens · herrería)</span><span class="tag">F5 · reinvierte</span></div>
+<div class="bar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="now"></i></div>
+<div class="now-t">Hizo 4 videos con su voz clonada, Glimmer los calificó 8.2 de promedio, pagó $250 de publicidad, se agotaron el 26 oct, le llegaron mensajes y hoy ya va a pagar otros $500 (le diste tu cuenta de Mercado Pago).</div>
+</div>
+<p class="leg">Las 6 fases: F0 Contacto → F1 Material recibido (fotos, voz, datos) → F2 Video hecho y calificado por Glimmer → F3 Aprobó y dio acceso (página, WhatsApp Business, Facebook) → F4 Pagó y la campaña está corriendo → F5 Ve mensajes reales y reinvierte.</p>
+
+<h2>Dónde está cada quien</h2>
+<div id="lista"></div>
+
+<h2>Pasos para llevar a todos a F5</h2>
+<div class="card"><b>Receta (lo que funcionó con Guillermo)</b>
+<ol class="f">
+<li><b>Pedir lo mínimo:</b> 5-10 fotos reales de sus trabajos, un audio suyo para clonar voz y qué vende.</li>
+<li><b>Video corto con su voz</b> (15-25 s): gancho que nombra al cliente, oferta clara, prueba real, CTA por WhatsApp.</li>
+<li><b>Calificar con Glimmer</b> antes de subir y mostrarle la calificación. Es lo que vuelve el anuncio "seguro" para él.</li>
+<li><b>Acceso el mismo día:</b> pedirle la conexión de Facebook y el WhatsApp Business en una sola llamada (lo que tronó con Jeremías fue tardar en esto).</li>
+<li><b>Cobro chico y claro:</b> $250 de prueba, con el monto y los días estimados por escrito, antes de activar.</li>
+<li><b>Activar y avisar con captura</b> del anuncio corriendo.</li>
+<li><b>A las 48 h:</b> reporte corto (mensajes, costo por mensaje, qué video ganó) y una pregunta: "¿le cerró alguno?".</li>
+<li><b>Pedir la recarga</b> con el dato de sus propios mensajes: "con $500 repetimos lo que ya le trajo gente".</li>
+</ol></div>
+
+<div class="card"><b>Orden sugerido de ataque hoy</b>
+<ol class="f">
+<li>Cobrar lo que está a punto de caer: <b>Victor Servilin</b> (espera su pago), <b>Guillermo</b> ($500).</li>
+<li>Reportar y pedir recarga: <b>Iván</b> y <b>Pistas de Baile</b>.</li>
+<li>Activar ya: <b>Manuel</b>, <b>Giovanni</b> (hoy 12:00).</li>
+<li>Mandar/cerrar video: <b>Alberto</b>, <b>José</b>, <b>Cinthia</b>.</li>
+<li>Destrabar material: <b>Mariano</b>, <b>Blanca</b>, <b>Israel</b>, <b>Generadores</b>.</li>
+<li>Recuperar o dejar en pausa: <b>Lisbeth</b>, <b>Jeremías</b>.</li>
+</ol></div>
+
+<script>
+const D=[
+["Victor · Servilin",3,"F3 · espera pago","Videos v4 listos, quiere un anuncio aparte para servicios de obra fina. Le escribiste «espero su pago» y dijo «sí».","Cobrar el primer presupuesto hoy; subir con la leyenda «no es empleo» (ya tienes FILTRO_EMPLEO.md) y activar."],
+["Iván · Fumigaciones",4,"F4 · pagó $100","Pagó $100 el 22 oct para su anuncio. No vi en el chat un reporte posterior.","Mandarle reporte de mensajes y costo por mensaje, y pedir la recarga con ese número."],
+["Pistas de Baile",4,"F4 · pagó","Pagó el 24 oct (cobro mensual pendiente el 24 nov).","Reporte de resultados y proponer subir presupuesto; agendar el cobro del 24 nov."],
+["Manuel · Fotografía",3,"F3 · listo para activar","Video v18 final aprobado, logo nuevo, ya te agregó como socio. Dijiste «mañana le hago la campaña».","Activar la campaña hoy, cobrar el arranque y mandarle captura. Él pidió que le grabes tus movimientos."],
+["Giovanni Pulido",2,"F3 · en curso","Hoy a las 12 revisan juntos su Facebook. No tiene un número de WhatsApp libre.","Crear WhatsApp Business nuevo o limpiar el vinculado; conectar y cobrar el arranque en la misma llamada."],
+["Alberto · Veneers Dental",2,"F2 · video listo","Video real de la doctora armado (14 s, 720×1280, con subtítulos y tarjeta). Guiones 10/10/10 listos. Le mandaste los clips de muestra.","Enviarle la versión real a Alberto, pedir acceso a la página/WhatsApp de la clínica y cobrar el arranque."],
+["José · Grupo JR",2,"F2 · afinando","Hoy le mandaste un reel de referencia (con proceso). Dijo que le gusta y que te manda detalles.","Recibir sus detalles de proceso, hacer la versión, calificar con Glimmer y mandarla."],
+["Cinthia Payan",1,"F1-F2 · esperando entrega","Hoy te preguntó «cómo va lo que le pedí» y le dijiste «ahorita sale».","Entregarle lo pendiente hoy mismo. Es el cliente con más riesgo de enfriarse por tardanza."],
+["Ignacio · Iglesia",2,"F2 · video estilo reel","Le avisaste el 23 oct que le haces un video tipo reel con audio. Habla de metas de dinero en diciembre.","Mandarle el video, pedir acceso y presupuesto de arranque."],
+["Generadores (Ignacio)",2,"F2 · prototipo, molesto","Prototipo enviado. Escribió «no que 4 horas, igual que todos». Te falta material de su negocio.","Pedirle fotos reales de sus generadores y su voz; entregar versión con fecha clara."],
+["Contratista 656 130 0006",2,"F2 · estrategia aprobada","Tiene estrategia aprobada por Glimmer (24 oct) y video en carpeta.","Mandar el video, pedir acceso, cobrar el arranque."],
+["Israel · SIRLed",1,"F1 · te falta su voz","Le mandaste guion 10/10/10; pidió un guion para leer y grabar.","Pedir su audio ya hoy para clonar o grabar, y cerrar el video."],
+["Mariano",1,"F1 · espera su grabación","Va a grabar con dron («mañana traigo el dron», luego «mañana grabo»).","Recordatorio concreto: lista de 5 tomas y hora límite."],
+["Blanca · Terapia de lenguaje",1,"F1 · ella grabará","El video con IA le pareció falso («los dientes, la boca»). Le diste guion de 25 s para grabarlo.","Pedirle el video grabado; tú lo editas con subtítulos y voz real."],
+["Lisbeth · Inmuebles",3,"F3 · en pausa","Entraste a su Business el 27 oct, pero ella está hospitalizada (asma).","No presionar. Dejar todo listo para activar al volver."],
+["Andrés U · Construcción",1,"F1 · prospecto con fotos","Mandó fotos reales de sus trabajos y aceptó otra voz. Le prometiste un antes/después.","Hacer el video de muestra para mover a F2."],
+["Jeremías · Mueblería Medina",0,"Perdido","El 22 oct dijo «ya olvídelo, muchas vueltas»; contrató a otro por la cuenta publicitaria ligada a otra página.","Cerrado. Aprender: verificar página y cuenta publicitaria antes de prometer."]
+];
+const L=document.getElementById('lista');
+for(const [n,f,t,s,p] of D){
+ const b=[0,1,2,3,4,5].map(i=>`<i class="${i<f?'on':i==f?'now':''}"></i>`).join('');
+ L.insertAdjacentHTML('beforeend',`<div class="card"><div class="row"><span class="n">${n}</span><span class="tag">${t}</span></div><div class="bar">${b}</div><div class="now-t">${s}</div><div class="next"><b>Siguiente:</b> ${p}</div></div>`);
+}
+</script>
+<p class="s" style="margin-top:22px">Sin chat verificado hoy (revisar a mano): Fernando, Uriel, Verónica Arguelles, Micropigmentación 686 160 7879, Fumigador 449, Chiltepinos, XV.</p>
+</body></html>

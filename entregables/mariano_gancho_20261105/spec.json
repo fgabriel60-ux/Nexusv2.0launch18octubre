@@ -1,0 +1,29 @@
+{
+ "carpeta": "entregables/mariano_gancho_20261105",
+ "salida": "entregables/mariano_gancho_20261105/cuadros",
+ "semilla": 21,
+ "ancho": 720,
+ "alto": 1280,
+ "pasos": 30,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "MAR_3",
+   "MAR_rapel_C_quita_arnes",
+   "El hombre se quita el arnés de un tirón rápido y lo deja caer a un lado, con las correas soltándose; movimiento decidido y continuo, sin cambiar de lugar. La cámara no se mueve.",
+   3,
+   null
+  ],
+  [
+   "MAR_4",
+   "MAR_rapel_D_habla",
+   "El hombre habla a la cámara presentando la casa, con movimiento natural de labios, cejas y cabeza, gesto de invitación. Está de pie, quieto, sin caminar ni gesticular con las manos. La cámara se acerca muy despacio.",
+   4,
+   "gancho"
+  ]
+ ],
+ "voces": {
+  "gancho": "clientes/Mariano/gancho_rapel/voz/gancho_t1.wav"
+ }
+}

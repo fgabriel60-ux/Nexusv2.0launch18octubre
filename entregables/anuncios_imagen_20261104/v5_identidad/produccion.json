@@ -1,0 +1,10 @@
+{
+  "herramienta": "image_gen integrada",
+  "guia": "entregables/glimmer_identidad_20261105/IDENTIDAD_VISUAL.md",
+  "prompts": [
+    "Use case: ads-marketing. Create ONE finished Spanish family-focused BYD advisor ad, portrait EXACT 1080x1350 (4:5). Reference image 1 is the actual white BYD Song Plus, preserve its car design and badge; relocate it to a real-looking daytime residential urban street in Azcapotzalco CDMX, front three-quarter slightly low view. Reference image 2 is Rafael: preserve his facial identity faithfully, navy polo with fabric wrinkles, natural skin texture, chest-up small at lower corner of photo, hands outside frame. NO dark studio. Cover license plate with plain neutral rectangle. Layout top 60% airy natural daylight photo, bottom 40% solid navy #0B1F3A information panel; headline may sit in navy header overlay within upper photo to allow LARGE highly readable typography without crowding. All text and essential subjects >=80 pixels from all edges. Navy #0B1F3A, white #FFFFFF, light gray #E6E8EB; ONLY emerald #00A86B for CTA button. Never black background or neon yellow. Headline Plus Jakarta Sans ExtraBold, body Inter. Beautiful clean modern family advertising, no extra text or numbers. Exact copy follows. Center headline, readable clear benefit, large emerald button on navy, footer. Render accents and punctuation perfectly. Headline: \"Menos gasolina, más kilómetros con tu familia\"\nSupport: \"Híbridos y eléctricos BYD · hasta 1,145 km de autonomía\"\nButton: \"Pide tu prueba de manejo\"\nFooter: \"Rafael · Asesor BYD · Azcapotzalco\"",
+    null,
+    null
+  ],
+  "nota": "Escenas adaptadas con IA a partir de las fotos reales de referencia. No son fotografías documentales del exterior."
+}

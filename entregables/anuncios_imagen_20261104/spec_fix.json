@@ -1,0 +1,20 @@
+{
+  "carpeta": "entregables/anuncios_imagen_20261104",
+  "salida": "entregables/anuncios_imagen_20261104/cuadros",
+  "semilla": 77,
+  "ancho": 1024,
+  "alto": 1280,
+  "pasos": 30,
+  "refs": {
+    "mariano": "clientes/Mariano/fotos/mariano_luz_final.png",
+    "benjamina": "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg",
+    "rafael": "clientes/Rafael_BYD/refs/rafael_cara.jpg",
+    "byd": "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
+  },
+  "cuadros": {
+    "MAR_A2": [["mariano", "benjamina"], "Una sola persona: el mismo hombre de la primera foto, misma cara, misma barba, mismo saco azul claro y camisa blanca, de pie en el andador frente a la casa blanca de dos pisos de la segunda foto. Plano medio de la cintura para arriba, mirando a la cámara con sonrisa tranquila. Luz natural de la tarde, cielo azul, fotografía real de celular, vertical.", "dos personas, persona duplicada, gemelo, texto, letreros, cartel, marca de agua, otra cara"],
+    "RAF_1A": [["rafael", "byd"], "Una sola persona: el mismo hombre de la primera foto, misma cara redonda y mismo polo azul marino, de pie junto al auto blanco de la segunda foto dentro del piso de exhibición de una agencia, cuerpo medio, una mano apoyada en el cofre, mirando a la cámara con sonrisa amable. Luz limpia de interior, piso brillante, fotografía real, vertical.", "dos personas, persona duplicada, gemelo, reflejo de persona, texto, logotipos inventados"],
+    "RAF_2A": [["rafael", "byd"], "Una sola persona: el mismo hombre de la primera foto, misma cara y mismo polo azul marino, primer plano a la altura de los ojos, sonriendo natural, y detrás, desenfocado, el mismo auto blanco de la segunda foto dentro de la agencia. Retrato real de celular, luz suave, vertical.", "dos personas, persona duplicada, piel plástica, texto"],
+    "RAF_2B": [["rafael", "byd"], "Una sola persona: el mismo hombre de la primera foto, misma cara y mismo polo azul marino, de pie en el piso de exhibición junto al auto blanco de la segunda foto, con un celular en la mano a la altura del pecho, mirando a la cámara con gesto amable. Plano medio, fotografía real, vertical.", "dos personas, persona duplicada, pantalla con texto, logotipos inventados, manos deformes"]
+  }
+}

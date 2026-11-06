@@ -1,0 +1,67 @@
+{
+ "carpeta": "tatuador_v2_20261030",
+ "salida": "clientes/Tatuador9983316522/video_v2/salida",
+ "semilla": 17,
+ "tam": [
+  704,
+  1280
+ ],
+ "refs": {
+  "cara": "clientes/Tatuador9983316522/whatsapp/1029_180851_el_image.jpg",
+  "estudio": "clientes/Tatuador9983316522/whatsapp/1029_180622_el_image.jpg"
+ },
+ "cuadros": {
+  "S1": [
+   [
+    "cara",
+    "estudio"
+   ],
+   "Foto realista vertical 9:16. El MISMO hombre joven de la primera imagen (misma cara, mismo cabello oscuro, mismos rasgos, misma barba ligera). Está DENTRO de su estudio de tatuajes como el de la segunda imagen (paredes claras con cuadros de tatuajes enmarcados, silla de tatuar, luz de estudio). Lleva camiseta negra sin mangas y guantes negros. De pie hablando a cámara con una mano explicando, plano medio, mirada a cámara. Sin texto."
+  ],
+  "S2": [
+   [
+    "cara",
+    "estudio"
+   ],
+   "Foto realista vertical 9:16. El MISMO hombre joven de la primera imagen (misma cara, mismo cabello oscuro, mismos rasgos, misma barba ligera). Está DENTRO de su estudio de tatuajes como el de la segunda imagen (paredes claras con cuadros de tatuajes enmarcados, silla de tatuar, luz de estudio). Lleva camiseta negra sin mangas y guantes negros. Sentado junto a su máquina de tatuar, hablando a cámara con expresión segura, plano medio-cercano. Sin texto."
+  ],
+  "S3": [
+   [
+    "cara",
+    "estudio"
+   ],
+   "Foto realista vertical 9:16. El MISMO hombre joven de la primera imagen (misma cara, mismo cabello oscuro, mismos rasgos, misma barba ligera). Está DENTRO de su estudio de tatuajes como el de la segunda imagen (paredes claras con cuadros de tatuajes enmarcados, silla de tatuar, luz de estudio). Lleva camiseta negra sin mangas y guantes negros. De pie con los brazos relajados, sonriendo y hablando a cámara, plano medio, cuadros de tatuajes detrás. Sin texto."
+  ]
+ },
+ "voces": {
+  "H1": "clientes/Tatuador9983316522/video_v2/voz/H1.wav",
+  "H2": "clientes/Tatuador9983316522/video_v2/voz/H2.wav",
+  "H3": "clientes/Tatuador9983316522/video_v2/voz/H3.wav"
+ },
+ "tomas": [
+  [
+   "H1",
+   "S1",
+   "Vertical realistic shot: the tattoo artist talks directly to the camera in Spanish with natural lip movement exactly matching the speech, small hand gestures, slow push-in. Keep the same face and studio. No text.",
+   5.9,
+   null,
+   "H1"
+  ],
+  [
+   "H2",
+   "S2",
+   "Vertical realistic shot: the tattoo artist talks to the camera in Spanish with natural lip movement exactly matching the speech, confident, slight head movements. Keep the same face. No text.",
+   6.0,
+   null,
+   "H2"
+  ],
+  [
+   "H3",
+   "S3",
+   "Vertical realistic shot: the tattoo artist smiles and talks to the camera in Spanish with natural lip movement exactly matching the speech, slow push-in. Keep the same face. No text.",
+   6.2,
+   null,
+   "H3"
+  ]
+ ]
+}

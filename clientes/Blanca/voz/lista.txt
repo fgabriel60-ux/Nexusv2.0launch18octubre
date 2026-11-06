@@ -1,0 +1,3 @@
+file 't1.wav'
+file 't2.wav'
+file 't3.wav'

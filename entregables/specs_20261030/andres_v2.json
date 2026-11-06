@@ -1,0 +1,108 @@
+{
+ "carpeta": "andres_v2_20261030",
+ "salida": "clientes/Contratista6561300006/video_v2/salida",
+ "semilla": 11,
+ "refs": {
+  "interior": "clientes/Contratista6561300006/whatsapp/170C11F69708.jpg",
+  "local": "clientes/Contratista6561300006/whatsapp/20B424BCDCE3.jpg",
+  "estructura": "clientes/Contratista6561300006/whatsapp/3A7A401D8622.jpg",
+  "excava": "clientes/Contratista6561300006/whatsapp/57863B9B440E.jpg",
+  "losa": "clientes/Contratista6561300006/whatsapp/030E5F2B2A54.jpg"
+ },
+ "cuadros": {
+  "A1_escalera": [
+   [
+    "interior"
+   ],
+   "Foto REAL vertical 9:16 tomada con celular, estilo reel de obra cinematográfico (como @massa_arquitectos): luz natural, polvo en el aire, colores reales, obra en México. Trabajador mexicano con ropa de trabajo, casco o gorra; la cara no se ve de frente. Mismo tipo de obra, materiales y paredes de block que la imagen de referencia. Sin texto. Toma desde el fondo de un pasillo angosto en obra blanca: un trabajador arriba de una escalera de tijera instala una placa de tablaroca en el techo, la luz entra al fondo."
+  ],
+  "A2_interior": [
+   [
+    "interior"
+   ],
+   "Foto REAL vertical 9:16 tomada con celular, estilo reel de obra cinematográfico (como @massa_arquitectos): luz natural, polvo en el aire, colores reales, obra en México. Trabajador mexicano con ropa de trabajo, casco o gorra; la cara no se ve de frente. Mismo tipo de obra, materiales y paredes de block que la imagen de referencia. Sin texto. Interior en obra negra con placas de tablaroca recargadas en la pared, bultos de cemento en el piso y el techo con juntas de tablaroca a medio resanar."
+  ],
+  "A3_andamio": [
+   [
+    "local"
+   ],
+   "Foto REAL vertical 9:16 tomada con celular, estilo reel de obra cinematográfico (como @massa_arquitectos): luz natural, polvo en el aire, colores reales, obra en México. Trabajador mexicano con ropa de trabajo, casco o gorra; la cara no se ve de frente. Mismo tipo de obra, materiales y paredes de block que la imagen de referencia. Sin texto. Espacio de doble altura en construcción con un andamio tubular alto; un trabajador arriba del andamio trabaja en el techo, vista desde abajo en contrapicado."
+  ],
+  "A4_esmeril": [
+   [
+    "estructura"
+   ],
+   "Foto REAL vertical 9:16 tomada con celular, estilo reel de obra cinematográfico (como @massa_arquitectos): luz natural, polvo en el aire, colores reales, obra en México. Trabajador mexicano con ropa de trabajo, casco o gorra; la cara no se ve de frente. Mismo tipo de obra, materiales y paredes de block que la imagen de referencia. Sin texto. Primer plano de las manos de un trabajador con guantes cortando una pieza de metal con un esmeril, chispas, fondo de obra desenfocado."
+  ],
+  "A5_pala": [
+   [
+    "excava"
+   ],
+   "Foto REAL vertical 9:16 tomada con celular, estilo reel de obra cinematográfico (como @massa_arquitectos): luz natural, polvo en el aire, colores reales, obra en México. Trabajador mexicano con ropa de trabajo, casco o gorra; la cara no se ve de frente. Mismo tipo de obra, materiales y paredes de block que la imagen de referencia. Sin texto. Un trabajador con pantalón de mezclilla y botas mezcla mortero con una pala junto a una pila de block, de cuerpo completo, sol de mediodía."
+  ],
+  "A6_azotea": [
+   [
+    "losa"
+   ],
+   "Foto REAL vertical 9:16 tomada con celular, estilo reel de obra cinematográfico (como @massa_arquitectos): luz natural, polvo en el aire, colores reales, obra en México. Trabajador mexicano con ropa de trabajo, casco o gorra; la cara no se ve de frente. Mismo tipo de obra, materiales y paredes de block que la imagen de referencia. Sin texto. Un trabajador en cuclillas nivela concreto fresco en una losa de azotea con una regla larga, muros de block alrededor, cielo azul."
+  ]
+ },
+ "tomas": [
+  [
+   "K1",
+   "A1_escalera",
+   "The worker on the stepladder lifts and fits the drywall panel into the ceiling, slow push-in down the hallway. Realistic handheld cinematic construction reel, keep the exact same scene, people and colors, natural motion. No text. Audio: construction ambience, no speech.",
+   3.0,
+   null
+  ],
+  [
+   "K2",
+   "A2_interior",
+   "The crouching worker works on the floor, dust rises in the light, slow dolly sideways. Realistic handheld cinematic construction reel, keep the exact same scene, people and colors, natural motion. No text. Audio: construction ambience, no speech.",
+   3.0,
+   null
+  ],
+  [
+   "K3",
+   "A3_andamio",
+   "The worker climbs the tall scaffolding, camera tilts up slowly. Realistic handheld cinematic construction reel, keep the exact same scene, people and colors, natural motion. No text. Audio: construction ambience, no speech.",
+   3.0,
+   null
+  ],
+  [
+   "K4",
+   "A4_esmeril",
+   "The angle grinder cuts the metal, bright sparks fly, close handheld. Realistic handheld cinematic construction reel, keep the exact same scene, people and colors, natural motion. No text. Audio: construction ambience, no speech.",
+   3.0,
+   null
+  ],
+  [
+   "K5",
+   "A5_pala",
+   "The worker shovels and mixes the mortar next to the blocks, dust in the sun. Realistic handheld cinematic construction reel, keep the exact same scene, people and colors, natural motion. No text. Audio: construction ambience, no speech.",
+   3.0,
+   null
+  ],
+  [
+   "K6",
+   "A6_azotea",
+   "The worker levels the fresh concrete with a long screed, slow push-in. Realistic handheld cinematic construction reel, keep the exact same scene, people and colors, natural motion. No text. Audio: construction ambience, no speech.",
+   3.0,
+   null
+  ],
+  [
+   "K7",
+   "F1_alberca",
+   "The pool water ripples gently in the sun, slow cinematic orbit. Realistic handheld cinematic construction reel, keep the exact same scene, people and colors, natural motion. No text. Audio: calm water, no speech.",
+   3.0,
+   null
+  ],
+  [
+   "K8",
+   "F2_local",
+   "Slow cinematic dolly forward through the finished bright commercial space. Realistic handheld cinematic construction reel, keep the exact same scene, people and colors, natural motion. No text. Audio: quiet room, no speech.",
+   3.0,
+   null
+  ]
+ ]
+}

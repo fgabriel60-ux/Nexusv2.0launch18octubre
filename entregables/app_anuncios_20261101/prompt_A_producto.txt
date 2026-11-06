@@ -1,0 +1,22 @@
+Eres estratega de producto SaaS y de anuncios de Meta (Facebook/Instagram) para México y Latinoamérica. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento.
+
+PROYECTO: Carlos (agencia Nexus, Sonora, México) quiere convertir su método en una APP PARA HACER ANUNCIOS CON LA IA DE FACEBOOK «como seguridad de que funciona». Su método real hoy (servicio, no app todavía):
+- Antes de pautar, una IA de Meta (modelo de visión/lenguaje) CALIFICA el video del anuncio del 1 al 10 en: gancho, oferta, confianza, claridad, calidad visual, políticas de Meta, mensajes baratos y mensajes calificados; dice por qué funciona, qué lo frena con segundos exactos, y la calificación proyectada con los cambios. Solo lanza cuando llega a 8+.
+- Produce los videos con IA a partir de fotos reales del cliente (escenas nuevas, animación, voz clonada del dueño, subtítulos, tarjeta con WhatsApp), replicando reels virales de referencia; usa la fórmula 10/10/10 (Confianza, Claridad de oferta, Mensajes calificados).
+- Campañas de Meta a WhatsApp para negocios locales (impermeabilización, herrería, limpieza, dentista, inmobiliarias, autos, rentas vacacionales).
+- Cobra hoy ~$500-1,000 MXN al mes por cliente (PROPUESTA a validar). Meta de Carlos: $10,000 MXN/mes.
+PRUEBAS REALES (no inventes otras):
+- Herrería en Puebla: anuncio calificado 8.2 → mensajes a $4.56 c/u y cerró trabajos.
+- Campaña propia de Carlos: de $13.76 a $5.01 por mensaje al subir la calificación.
+- Limpieza para empresas (CDMX): video con filtro «no es oferta de empleo» → 33 mensajes a $1.39 c/u.
+- Impermeabilización en Puebla: video «sin escurrimientos» → 18 mensajes a $2.87 c/u.
+- Anuncios con 6/10: casi no llegaron mensajes; se pagó por vistas.
+Todavía no tiene nombre, precio de app, ni versión publicada: si propones nombre, precio o cifras, márcalos como PROPUESTA.
+
+TAREA A (PRODUCTO). Entrega exactamente:
+1) Propuesta de valor en 1 frase y 3 nombres (PROPUESTA).
+2) ICP: 2-3 perfiles (negocio local dueño-operador, freelancer/agencia pequeña de marketing, etc.): giro, ciudad, cuánto gasta hoy en anuncios, dolor, qué usa hoy, cuánto pagaría. Cuál atacar primero y por qué.
+3) Funcionalidades: MVP (máximo 6, en orden) y versión 2. Incluye la «calificación antes de gastar» como núcleo, y qué hacer con anuncios que no llegan a 8.
+4) UI/UX: flujo del primer uso (subir video o fotos → calificación → arreglos → lanzar) pantalla por pantalla en menos de 3 minutos; cómo mostrar la calificación para que se entienda y genere confianza; 5 reglas de diseño.
+5) Modelo de negocio y precios (PROPUESTA): suscripción, por calificación, «hecho por nosotros» vs «hazlo tú»; cómo llegar a $10,000 MXN/mes primero.
+6) Riesgos: no somos Meta (no prometer «aprobado por Facebook»), políticas de Meta, calificación ≠ garantía de resultados, privacidad de clientes, dependencia de modelos; cómo cubrirlos con lenguaje honesto.

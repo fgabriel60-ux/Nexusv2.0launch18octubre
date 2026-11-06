@@ -1,0 +1,5 @@
+{
+  "id": "dfcdb287c50a41b5a6300545f1cbb2f2",
+  "model": "wavespeed-ai/minimax-h3/video-edit",
+  "prompt": "Edit this rough grey 3D dental animation into a premium photoreal implant explainer, keeping its exact camera motion, timing and composition. Match the look of the reference images: <Picture 1> is the woman with one missing upper front tooth, <Picture 2> the macro of her mouth, <Picture 3> the anaesthesia step, <Picture 4> the face peeling away like a sticker to reveal the upper jaw section, <Picture 5> the drill preparing the bone. Near-black background with deep teal and warm orange bokeh, bright glossy white enamel, translucent pink gums with a warm luminous edge, porous cream bone with a glowing orange cut edge, satin titanium, soft teal rim light, shallow depth of field. Keep the same woman and the same single gap. Anatomically clean, not gore. No text, no logos, no watermark."
+}

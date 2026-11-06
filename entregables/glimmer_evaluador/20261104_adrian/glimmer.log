@@ -1,0 +1,313 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-p1hqfaMAhZ37Q2MbjwplB3
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:02<51:48,  2.17s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:03<44:55,  1.88s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:03<17:42,  1.35it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:04<13:17,  1.80it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:04<10:23,  2.29it/s]
+[1ALoading weights:   1%|          | 11/1436 [00:04<03:36,  6.59it/s]
+[1ALoading weights:   1%|          | 16/1436 [00:04<02:02, 11.55it/s]
+[1ALoading weights:   1%|▏         | 19/1436 [00:04<02:12, 10.71it/s]
+[1ALoading weights:   2%|▏         | 26/1436 [00:05<01:26, 16.21it/s]
+[1ALoading weights:   2%|▏         | 29/1436 [00:05<01:40, 13.96it/s]
+[1ALoading weights:   3%|▎         | 38/1436 [00:05<01:07, 20.57it/s]
+[1ALoading weights:   3%|▎         | 41/1436 [00:05<01:04, 21.51it/s]
+[1ALoading weights:   3%|▎         | 44/1436 [00:05<01:05, 21.35it/s]
+[1ALoading weights:   3%|▎         | 49/1436 [00:06<01:07, 20.60it/s]
+[1ALoading weights:   4%|▎         | 53/1436 [00:06<01:00, 22.98it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:06<01:03, 21.71it/s]
+[1ALoading weights:   4%|▍         | 59/1436 [00:06<00:59, 23.03it/s]
+[1ALoading weights:   4%|▍         | 64/1436 [00:06<00:49, 27.66it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:06<01:05, 20.81it/s]
+[1ALoading weights:   5%|▌         | 75/1436 [00:07<00:46, 28.99it/s]
+[1ALoading weights:   6%|▌         | 79/1436 [00:07<01:10, 19.28it/s]
+[1ALoading weights:   6%|▌         | 85/1436 [00:07<01:04, 20.80it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:07<00:57, 23.27it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:07<01:00, 22.06it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:08<00:48, 27.45it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:08<01:02, 21.44it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:08<00:51, 25.79it/s]
+[1ALoading weights:   8%|▊         | 115/1436 [00:09<01:07, 19.45it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:09<00:51, 25.57it/s]
+[1ALoading weights:   9%|▉         | 127/1436 [00:09<01:04, 20.29it/s]
+[1ALoading weights:   9%|▉         | 134/1436 [00:09<00:47, 27.13it/s]
+[1ALoading weights:  10%|▉         | 138/1436 [00:10<01:07, 19.15it/s]
+[1ALoading weights:  10%|▉         | 143/1436 [00:10<00:56, 23.06it/s]
+[1ALoading weights:  10%|█         | 147/1436 [00:10<00:54, 23.53it/s]
+[1ALoading weights:  11%|█         | 151/1436 [00:10<01:02, 20.48it/s]
+[1ALoading weights:  11%|█         | 157/1436 [00:10<00:48, 26.56it/s]
+[1ALoading weights:  11%|█         | 161/1436 [00:11<01:11, 17.85it/s]
+[1ALoading weights:  12%|█▏        | 169/1436 [00:11<00:47, 26.47it/s]
+[1ALoading weights:  12%|█▏        | 174/1436 [00:11<01:02, 20.28it/s]
+[1ALoading weights:  12%|█▏        | 179/1436 [00:11<00:54, 23.08it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:11<00:45, 27.25it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:12<00:59, 21.09it/s]
+[1ALoading weights:  13%|█▎        | 193/1436 [00:12<00:49, 25.02it/s]
+[1ALoading weights:  14%|█▎        | 197/1436 [00:12<00:56, 21.98it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:12<00:59, 20.83it/s]
+[1ALoading weights:  14%|█▍        | 207/1436 [00:12<00:50, 24.58it/s]
+[1ALoading weights:  15%|█▍        | 210/1436 [00:13<01:04, 19.12it/s]
+[1ALoading weights:  15%|█▌        | 218/1436 [00:13<00:43, 27.81it/s]
+[1ALoading weights:  15%|█▌        | 222/1436 [00:13<01:02, 19.42it/s]
+[1ALoading weights:  16%|█▌        | 230/1436 [00:13<00:43, 27.90it/s]
+[1ALoading weights:  16%|█▋        | 235/1436 [00:14<00:59, 20.19it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:14<00:45, 25.97it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:14<00:53, 22.01it/s]
+[1ALoading weights:  18%|█▊        | 255/1436 [00:14<00:41, 28.34it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:15<00:55, 21.04it/s]
+[1ALoading weights:  19%|█▊        | 266/1436 [00:15<00:51, 22.60it/s]
+[1ALoading weights:  19%|█▉        | 270/1436 [00:15<00:57, 20.18it/s]
+[1ALoading weights:  19%|█▉        | 278/1436 [00:15<00:42, 27.52it/s]
+[1ALoading weights:  20%|█▉        | 282/1436 [00:16<00:57, 20.22it/s]
+[1ALoading weights:  20%|██        | 289/1436 [00:16<00:42, 26.72it/s]
+[1ALoading weights:  20%|██        | 293/1436 [00:16<01:00, 18.80it/s]
+[1ALoading weights:  21%|██        | 302/1436 [00:16<00:40, 27.72it/s]
+[1ALoading weights:  21%|██▏       | 307/1436 [00:17<00:53, 20.99it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:17<00:42, 26.32it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:17<00:50, 21.97it/s]
+[1ALoading weights:  23%|██▎       | 325/1436 [00:18<00:49, 22.30it/s]
+[1ALoading weights:  23%|██▎       | 329/1436 [00:18<00:57, 19.14it/s]
+[1ALoading weights:  24%|██▎       | 338/1436 [00:18<00:38, 28.72it/s]
+[1ALoading weights:  24%|██▍       | 343/1436 [00:18<00:50, 21.86it/s]
+[1ALoading weights:  24%|██▍       | 350/1436 [00:18<00:38, 28.41it/s]
+[1ALoading weights:  25%|██▍       | 355/1436 [00:19<00:51, 20.85it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:19<00:40, 26.21it/s]
+[1ALoading weights:  26%|██▌       | 368/1436 [00:19<00:49, 21.70it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:20<00:40, 26.39it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:20<00:49, 21.50it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:20<00:40, 26.00it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:20<00:48, 21.43it/s]
+[1ALoading weights:  28%|██▊       | 398/1436 [00:21<00:39, 26.44it/s]
+[1ALoading weights:  28%|██▊       | 402/1436 [00:21<00:52, 19.62it/s]
+[1ALoading weights:  28%|██▊       | 409/1436 [00:21<00:39, 25.91it/s]
+[1ALoading weights:  29%|██▉       | 413/1436 [00:21<00:45, 22.42it/s]
+[1ALoading weights:  29%|██▉       | 417/1436 [00:21<00:45, 22.35it/s]
+[1ALoading weights:  29%|██▉       | 422/1436 [00:22<00:38, 26.50it/s]
+[1ALoading weights:  30%|██▉       | 426/1436 [00:22<00:53, 18.84it/s]
+[1ALoading weights:  30%|███       | 433/1436 [00:22<00:39, 25.22it/s]
+[1ALoading weights:  30%|███       | 437/1436 [00:23<00:56, 17.56it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:23<00:39, 25.27it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:23<00:46, 21.03it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:23<00:38, 25.31it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:24<00:46, 21.01it/s]
+[1ALoading weights:  33%|███▎      | 470/1436 [00:24<00:37, 25.75it/s]
+[1ALoading weights:  33%|███▎      | 474/1436 [00:24<00:51, 18.85it/s]
+[1ALoading weights:  34%|███▎      | 482/1436 [00:24<00:36, 26.46it/s]
+[1ALoading weights:  34%|███▍      | 486/1436 [00:25<00:52, 18.09it/s]
+[1ALoading weights:  34%|███▍      | 490/1436 [00:25<00:46, 20.37it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:25<00:38, 24.35it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:25<00:47, 19.52it/s]
+[1ALoading weights:  35%|███▌      | 503/1436 [00:25<00:46, 20.25it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:26<00:38, 24.23it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:26<00:47, 19.44it/s]
+[1ALoading weights:  36%|███▌      | 517/1436 [00:26<00:38, 23.88it/s]
+[1ALoading weights:  36%|███▋      | 521/1436 [00:26<00:42, 21.36it/s]
+[1ALoading weights:  36%|███▋      | 524/1436 [00:26<00:45, 20.05it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:27<00:34, 26.22it/s]
+[1ALoading weights:  37%|███▋      | 535/1436 [00:27<00:46, 19.26it/s]
+[1ALoading weights:  38%|███▊      | 542/1436 [00:27<00:33, 26.91it/s]
+[1ALoading weights:  38%|███▊      | 546/1436 [00:27<00:47, 18.89it/s]
+[1ALoading weights:  39%|███▊      | 553/1436 [00:28<00:34, 25.62it/s]
+[1ALoading weights:  39%|███▉      | 557/1436 [00:28<00:39, 22.42it/s]
+[1ALoading weights:  39%|███▉      | 561/1436 [00:28<00:40, 21.70it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:28<00:32, 26.34it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:29<00:41, 20.82it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:29<00:33, 25.70it/s]
+[1ALoading weights:  41%|████      | 583/1436 [00:29<00:44, 19.21it/s]
+[1ALoading weights:  41%|████      | 590/1436 [00:29<00:32, 25.83it/s]
+[1ALoading weights:  41%|████▏     | 594/1436 [00:30<00:45, 18.32it/s]
+[1ALoading weights:  42%|████▏     | 601/1436 [00:30<00:33, 25.18it/s]
+[1ALoading weights:  42%|████▏     | 606/1436 [00:30<00:44, 18.59it/s]
+[1ALoading weights:  43%|████▎     | 614/1436 [00:30<00:36, 22.25it/s]
+[1ALoading weights:  43%|████▎     | 618/1436 [00:31<00:42, 19.29it/s]
+[1ALoading weights:  44%|████▍     | 630/1436 [00:31<00:25, 31.25it/s]
+[1ALoading weights:  46%|████▌     | 658/1436 [00:31<00:11, 67.30it/s]
+[1ALoading weights:  48%|████▊     | 684/1436 [00:31<00:07, 98.29it/s]
+[1ALoading weights:  50%|████▉     | 711/1436 [00:31<00:05, 128.03it/s]
+[1ALoading weights:  52%|█████▏    | 743/1436 [00:31<00:04, 165.73it/s]
+[1ALoading weights:  54%|█████▍    | 782/1436 [00:31<00:03, 210.53it/s]
+[1ALoading weights:  57%|█████▋    | 815/1436 [00:32<00:02, 237.74it/s]
+[1ALoading weights:  59%|█████▉    | 850/1436 [00:32<00:02, 253.07it/s]
+[1ALoading weights:  62%|██████▏   | 890/1436 [00:32<00:01, 283.27it/s]
+[1ALoading weights:  64%|██████▍   | 921/1436 [00:32<00:01, 275.45it/s]
+[1ALoading weights:  67%|██████▋   | 960/1436 [00:32<00:01, 289.11it/s]
+[1ALoading weights:  69%|██████▉   | 994/1436 [00:32<00:01, 289.63it/s]
+[1ALoading weights:  71%|███████▏  | 1026/1436 [00:32<00:01, 295.59it/s]
+[1ALoading weights:  74%|███████▎  | 1057/1436 [00:32<00:01, 285.97it/s]
+[1ALoading weights:  76%|███████▌  | 1090/1436 [00:32<00:01, 281.18it/s]
+[1ALoading weights:  78%|███████▊  | 1126/1436 [00:33<00:01, 270.83it/s]
+[1ALoading weights:  81%|████████  | 1162/1436 [00:33<00:00, 283.04it/s]
+[1ALoading weights:  83%|████████▎ | 1191/1436 [00:33<00:00, 281.46it/s]
+[1ALoading weights:  85%|████████▍ | 1220/1436 [00:33<00:00, 280.49it/s]
+[1ALoading weights:  88%|████████▊ | 1258/1436 [00:33<00:00, 304.46it/s]
+[1ALoading weights:  90%|█████████ | 1295/1436 [00:33<00:00, 320.65it/s]
+[1ALoading weights:  92%|█████████▏| 1328/1436 [00:33<00:00, 313.73it/s]
+[1ALoading weights:  95%|█████████▍| 1362/1436 [00:33<00:00, 313.59it/s]
+[1ALoading weights:  98%|█████████▊| 1402/1436 [00:33<00:00, 331.73it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:34<00:00, 42.20it/s] 
+[transformers] Both `max_new_tokens` (=4000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## ADRIAN_TATUADOR_grabado_20261103
+ to=selfEres estratega de anuncios de Meta... Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+We need rating total X/10. Notes: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+
+Provide POR QUÉ FUNCIONA: 3-5 viñetas cortas, each pointing exact second and why makes people write.
+
+QUÉ LO FRENA: 1-3 viñetas with exact second and concrete fix (only viable with capabilities).
+
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+We must use only data given. No invent prices, times, distances nor guarantees.
+
+We have transcription: [0.1-8.1s] Buscas un tatuaje en Cancún Centro? Soy Adrián Santana, estoy frente al Palacio Municipal en el centro de Cancún.
+[8.1-13.1s] Escríbeme ahora y asegura tu lugar. Las citas se agendan con anticipación, no te quedes fuera.
+
+Video 17.3 s, 9:16. Images attached = 30 frames distributed in whole video (2 sheets of 15, with second of each frame top left). Subtitles and cards are exact text layers.
+
+From frames: timestamps: 0.3s,0.9s,1.4s,2.0s,2.6s,3.2s,3.7s,4.3s,4.9s,5.5s,6.0s,6.6s,7.2s,7.8s,8.4s
+Second sheet: 8.9s,9.5s,10.1s,10.7s,11.2s,11.8s,12.4s,13.0s,13.5s,14.1s,14.7s,15.3s,15.8s,16.4s,17.0s
+
+We need evaluate.
+
+Gancho: "¿BUSCAS UN TATUAJE EN CANCÚN CENTRO?" appears at 1.4s,2.0s,2.6s. Good hook. But first frames 0.3-0.9s show man on couch with no text. Might be slow start. Hook appears at 1.4s. Could be okay.
+
+Oferta: Sessions from $1,000 mentioned in business data but not in video transcription nor visible text? Text layers: "¿BUSCAS UN TATUAJE EN CANCÚN CENTRO?" "SOY ADRIÁN SANTANA," "ESTOY FRENTE AL PALACIO MUNICIPAL" "EN EL CENTRO DE CANCÚN." "ESCRÍBEME AHORA Y ASEGURA TU LUGAR." "LAS CITAS SE AGENDAN" "CON ANTICIPACIÓN," "NO TE QUEDES FUERA" "AGENDA AL DM @adrian.santanaink 'Citas esta Semana'". No price shown. Business data says sessions from $1,000. But video does not show price. So oferta is weak. Can't invent price. So Oferta low.
+
+Confianza: Shows location street signs, Palacio Municipal, tattoo shop facade at 7.8s,8.4s. Shows tattoo work on chest 8.9s onward. Shows him working 15.3s onward. Good.
+
+Claridad: Clear message: tattoo in Cancun center, I'm Adrian, in front of Palacio Municipal. Call to action to DM. Might be confusing: says "AGENDA AL DM @adrian.santanaink" but objective is campaign of messages to WhatsApp. WhatsApp number given in business data: 998 331 6522. Video says DM. Inconsistency. Also transcription says "Escríbeme ahora". No WhatsApp mention. So clarity issue.
+
+Calidad visual: First part is static selfie? Man sitting on couch, maybe low movement. Then street shots shaky? Might be phone. Tattoo close-ups good. Overall decent but not professional.
+
+Políticas de Meta: Tattoo is allowed? Meta allows tattoo services. No prohibited content. Should be fine. No before/after? It's just tattoo. Should be okay. No personal attributes? "Buscas un tatuaje..." is okay. No claims.
+
+Mensajes baratos: Hook is local, specific. Might attract qualified? But no price filter, may attract tire kickers. CTA is DM not WhatsApp. Might be mismatch.
+
+Mensajes calificados: Shows location, work quality, urgency "citas se agendan con anticipación". Good.
+
+We need rating total. Want launch only if reaches 8/10. Likely not.
+
+Let's assign scores:
+
+Gancho: 7/10? Appears at 1.4s, text highlighted. Could be 7.
+
+Oferta: 3/10? No price, no differentiation. Sessions from $1,000 not shown. So low.
+
+Confianza: 8/10. Shows location, shop, work.
+
+Claridad: 5/10. CTA says DM @adrian.santanaink but campaign is WhatsApp. Also "Escríbeme ahora" ambiguous.
+
+Calidad visual: 6/10. Mix of static couch and shaky street.
+
+Políticas de Meta: 9/10. No issues.
+
+Mensajes baratos: 6/10. Local hook may be cheap but no price filter.
+
+Mensajes calificados: 7/10. Shows work and urgency.
+
+Total? Average? Maybe 6/10.
+
+Need total X/10. Could be 6/10.
+
+Provide POR QUÉ FUNCIONA: 3-5 bullets with exact second.
+
+Examples:
+- 1.4s-2.6s texto "¿BUSCAS UN TATUAJE EN CANCÚN CENTRO?" con CANCÚN CENTRO resaltado, filtra por ubicación y necesidad inmediata.
+- 4.9s-6.0s "ESTOY FRENTE AL PALACIO MUNICIPAL" sobre señalética Azucenas, prueba de ubicación real en centro.
+- 7.8s-8.4s fachada del estudio con letrero TATTOO, refuerza que es estudio propio profesional.
+- 8.9s-11.2s primer plano del tatuaje de pecho con lámpara y samurái, muestra calidad de diseño único.
+- 15.3s-17.0s Adrián tatuando en estudio con texto "AGENDA AL DM @adrian.santanaink 'Citas esta Semana'", muestra trabajo en vivo y CTA.
+
+QUÉ LO FRENA:
+- 0.3s-1.4s inicio sin texto ni gancho visible, pierde atención primeros segundos. Arreglo: recortar a 1.4s o añadir tarjeta de gancho desde 0.1s con texto en capa.
+- 8.1s-13.1s CTA dice "Escríbeme ahora" y al final "AGENDA AL DM @adrian.santanaink". Campaña es a WhatsApp 998 331 6522. Incoherencia de canal. Arreglo: reemplazar texto en capa por "Escríbeme por WhatsApp 998 331 6522" y cambiar voz clonada a frase exacta con WhatsApp, manteniendo timing.
+- Oferta no muestra precio ni diferenciador. Sesiones desde $1,000 está en datos del negocio pero no aparece en video. No podemos inventar, pero podemos añadir tarjeta de texto en capa con dato real del cliente: "Sesiones desde $1,000". Arreglo viable con texto en capa.
+
+Also maybe no mention of WhatsApp number.
+
+Veredicto: Subir con cambios. Calificación proyectada con cambios maybe 8/10.
+
+Need ensure not invent prices? Business data says sessions from $1,000. So we can use that. It's allowed. No invent.
+
+We must not invent times, distances nor guarantees. We used seconds from frames.
+
+We must mark [CONFIRMAR] if missing something. Maybe we don't know if WhatsApp number is correct? It's given.
+
+We need ensure we don't invent price? It's given.
+
+We must not show reasoning.
+
+Output format exactly:
+
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: ...
+QUÉ LO FRENA: ...
+VEREDICTO: ...
+
+Make sure bullet points short.
+
+Let's craft final answer.
+
+Potential scores:
+Gancho 7/10
+Oferta 4/10
+Confianza 8/10
+Claridad 5/10
+Calidad visual 6/10
+Políticas de Meta 9/10
+Mensajes baratos 6/10
+Mensajes calificados 7/10
+
+Total maybe 6/10.
+
+Could be 6.5 but need integer.
+
+Let's give total 6/10.
+
+Veredicto: «Subir con cambios», calificación proyectada 8/10.
+
+Make sure Spanish clear.
+
+Provide bullets with second exact.
+
+Let's produce.
+
+Ensure no extra commentary.
+
+assistant to=userCALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 7/10 · Oferta 4/10 · Confianza 8/10 · Claridad 5/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 6/10 · Mensajes calificados 7/10
+POR QUÉ FUNCIONA:
+- 1.4s-2.6s “¿BUSCAS UN TATUAJE EN CANCÚN CENTRO?” con CANCÚN CENTRO resaltado, filtra por ubicación y necesidad inmediata.
+- 4.9s-6.0s “ESTOY FRENTE AL PALACIO MUNICIPAL” sobre señalética Azucenas, prueba de ubicación real en centro.
+- 7.8s-8.4s fachada del estudio con letrero TATTOO, refuerza estudio propio en el centro de Cancún.
+- 8.9s-11.2s primer plano del tatuaje de pecho con lámpara y samurái, muestra calidad de diseño único y personalizado.
+- 15.3s-17.0s Adrián tatuando en estudio con texto “AGENDA AL DM @adrian.santanaink ‘Citas esta Semana’”, muestra trabajo en vivo y urgencia.
+QUÉ LO FRENA:
+- 0.3s-1.4s inicio sin texto ni gancho visible, pierde atención inicial. Arreglo viable: recortar inicio a 1.4s o añadir tarjeta de gancho en capa desde 0.1s.
+- 8.1s-13.1s CTA dice “Escríbeme ahora” y el cierre muestra “AGENDA AL DM @adrian.santanaink”. La campaña es a WhatsApp 998 331 6522. Arreglo viable: cambiar texto en capa y voz clonada por frase exacta con WhatsApp y número real.
+- Oferta no muestra precio ni diferenciador. Arreglo viable: añadir en capa de texto el dato real del negocio “Sesiones desde $1,000” sin alterar imágenes.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+Stopping app - local entrypoint completed.
+[modal-client] 2026-11-04T00:11:28+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-p1hqfaMAhZ37Q2MbjwplB3
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261104_adrian/lote.json --tokens 4000
+Duración: 4.9 min  (código 0)
+  nexus3 (ap-ZtSTaaSIs8SrcU1TRgCKhf): $0.025
+  glimmer (ap-p1hqfaMAhZ37Q2MbjwplB3): $0.199
+Gasto del trabajo: $0.224
+Saldo restante ≈ $21.95

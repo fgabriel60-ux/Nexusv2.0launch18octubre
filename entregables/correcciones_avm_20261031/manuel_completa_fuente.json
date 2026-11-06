@@ -1,0 +1,243 @@
+[
+  {
+    "text": " Una quinceañera, un recuerdo que dura. Aquí ves la luz, la sonrisa, el vestido verde.",
+    "start": 1.2400000000000024,
+    "end": 9.22,
+    "words": [
+      {
+        "word": " Una",
+        "start": 1.2400000000000024,
+        "end": 1.9600000000000013
+      },
+      {
+        "word": " quinceañera,",
+        "start": 1.9600000000000013,
+        "end": 2.68
+      },
+      {
+        "word": " un",
+        "start": 3.18,
+        "end": 3.32
+      },
+      {
+        "word": " recuerdo",
+        "start": 3.32,
+        "end": 3.64
+      },
+      {
+        "word": " que",
+        "start": 3.64,
+        "end": 3.86
+      },
+      {
+        "word": " dura.",
+        "start": 3.86,
+        "end": 4.2
+      },
+      {
+        "word": " Aquí",
+        "start": 5.2,
+        "end": 5.34
+      },
+      {
+        "word": " ves",
+        "start": 5.34,
+        "end": 5.66
+      },
+      {
+        "word": " la",
+        "start": 5.66,
+        "end": 5.9
+      },
+      {
+        "word": " luz,",
+        "start": 5.9,
+        "end": 6.24
+      },
+      {
+        "word": " la",
+        "start": 6.94,
+        "end": 7.1
+      },
+      {
+        "word": " sonrisa,",
+        "start": 7.1,
+        "end": 7.74
+      },
+      {
+        "word": " el",
+        "start": 8.34,
+        "end": 8.46
+      },
+      {
+        "word": " vestido",
+        "start": 8.46,
+        "end": 8.82
+      },
+      {
+        "word": " verde.",
+        "start": 8.82,
+        "end": 9.22
+      }
+    ]
+  },
+  {
+    "text": " Después, la entrada, el giro, la emoción del salón. Momentos reales, con un toque cinematográfico.",
+    "start": 10.200000000000001,
+    "end": 20.2,
+    "words": [
+      {
+        "word": " Después,",
+        "start": 10.200000000000001,
+        "end": 10.92
+      },
+      {
+        "word": " la",
+        "start": 11.56,
+        "end": 11.8
+      },
+      {
+        "word": " entrada,",
+        "start": 11.8,
+        "end": 12.12
+      },
+      {
+        "word": " el",
+        "start": 12.98,
+        "end": 13.2
+      },
+      {
+        "word": " giro,",
+        "start": 13.2,
+        "end": 13.64
+      },
+      {
+        "word": " la",
+        "start": 14.06,
+        "end": 14.2
+      },
+      {
+        "word": " emoción",
+        "start": 14.2,
+        "end": 14.56
+      },
+      {
+        "word": " del",
+        "start": 14.56,
+        "end": 14.78
+      },
+      {
+        "word": " salón.",
+        "start": 14.78,
+        "end": 15.54
+      },
+      {
+        "word": " Momentos",
+        "start": 16.06,
+        "end": 16.56
+      },
+      {
+        "word": " reales,",
+        "start": 16.56,
+        "end": 17.62
+      },
+      {
+        "word": " con",
+        "start": 17.72,
+        "end": 17.9
+      },
+      {
+        "word": " un",
+        "start": 17.9,
+        "end": 18.14
+      },
+      {
+        "word": " toque",
+        "start": 18.14,
+        "end": 18.54
+      },
+      {
+        "word": " cinematográfico.",
+        "start": 18.54,
+        "end": 20.2
+      }
+    ]
+  },
+  {
+    "text": " Si quieres algo así para tu hija, escríbenos por WhatsApp y agenda tu fecha.",
+    "start": 20.48,
+    "end": 25.92,
+    "words": [
+      {
+        "word": " Si",
+        "start": 20.48,
+        "end": 20.66
+      },
+      {
+        "word": " quieres",
+        "start": 20.66,
+        "end": 21.02
+      },
+      {
+        "word": " algo",
+        "start": 21.02,
+        "end": 21.38
+      },
+      {
+        "word": " así",
+        "start": 21.38,
+        "end": 21.68
+      },
+      {
+        "word": " para",
+        "start": 21.68,
+        "end": 22.02
+      },
+      {
+        "word": " tu",
+        "start": 22.02,
+        "end": 22.18
+      },
+      {
+        "word": " hija,",
+        "start": 22.18,
+        "end": 23.08
+      },
+      {
+        "word": " escríbenos",
+        "start": 23.56,
+        "end": 23.86
+      },
+      {
+        "word": " por",
+        "start": 23.86,
+        "end": 24.06
+      },
+      {
+        "word": " WhatsApp",
+        "start": 24.06,
+        "end": 24.5
+      },
+      {
+        "word": " y",
+        "start": 24.5,
+        "end": 25.08
+      },
+      {
+        "word": " agenda",
+        "start": 25.08,
+        "end": 25.32
+      },
+      {
+        "word": " tu",
+        "start": 25.32,
+        "end": 25.56
+      },
+      {
+        "word": " fecha.",
+        "start": 25.56,
+        "end": 25.92
+      }
+    ]
+  }
+]

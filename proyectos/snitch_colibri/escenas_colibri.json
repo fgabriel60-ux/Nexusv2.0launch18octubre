@@ -1,0 +1,94 @@
+{
+ "carpeta": "proyectos/snitch_colibri/video",
+ "salida": "proyectos/snitch_colibri/video/cuadros",
+ "semilla": 31,
+ "ancho": 720,
+ "alto": 1280,
+ "pasos": 30,
+ "refs": {
+  "esfera": "proyectos/snitch_colibri/refs/colibri_esfera.png",
+  "alas": "proyectos/snitch_colibri/refs/colibri_alas.png",
+  "mecanismo": "proyectos/snitch_colibri/refs/colibri_mecanismo.png",
+  "taller": "proyectos/snitch_colibri/refs/colibri_taller.png"
+ },
+ "cuadros": {
+  "COL_VUELO": [
+   [
+    "esfera",
+    "alas"
+   ],
+   "La esfera de latón cepillado mate de 6 cm, ligeramente achatada de polo a polo, con un anillo de cobre pulido en el ecuador y grabado fino de circuito electrónico en toda la superficie de la primera foto flotando en el aire a la altura del pecho, con las par de alas de Mylar ámbar translúcido con nervaduras de fibra de carbono negras bien visibles de la segunda foto borrosas por el batido rapidísimo formando dos arcos translúcidos arriba del cuerpo, como un colibrí en vuelo estacionario. Fondo de habitación en penumbra desenfocado, luz de ventana recortando la esfera por un costado, fotografía real con obturador lento en las alas y la esfera nítida, vertical.",
+   "alas nítidas, plumas, pájaro, esfera borrosa, texto, logotipos, dorado espejo"
+  ],
+  "COL_ABRE": [
+   [
+    "esfera",
+    "alas"
+   ],
+   "La misma esfera de latón cepillado mate de 6 cm, ligeramente achatada de polo a polo, con un anillo de cobre pulido en el ecuador y grabado fino de circuito electrónico en toda la superficie de la primera foto con las par de alas de Mylar ámbar translúcido con nervaduras de fibra de carbono negras bien visibles de la segunda foto desplegándose hacia los lados desde la ranura superior, a medio abrir. Fondo negro mate, luz lateral que atraviesa la membrana ámbar y la vuelve iridiscente, macro real, vertical.",
+   "alas de plumas, alas de insecto, texto, caricatura, render 3d"
+  ],
+  "COL_MECANISMO": [
+   [
+    "mecanismo",
+    "taller"
+   ],
+   "El mecanismo de latón de engranajes diminutos de la primera foto, con la corona dentada, la palanca ranurada y los dos tambores unidos por una cinta, dentro de la media cáscara esférica abierta, apoyado en la mesa de taller de la segunda foto junto a un plano técnico impreso. Macro extremo, profundidad de campo corta, luz dura lateral que marca los dientes de los engranajes, fotografía real, vertical.",
+   "engranajes de plástico, reloj de pulsera, texto legible, render 3d"
+  ],
+  "COL_REPOSO": [
+   [
+    "esfera",
+    "taller"
+   ],
+   "La esfera de latón cepillado mate de 6 cm, ligeramente achatada de polo a polo, con un anillo de cobre pulido en el ecuador y grabado fino de circuito electrónico en toda la superficie de la primera foto, cerrada y con las alas plegadas contra el cuerpo, apoyada sobre la mesa de taller de madera de la segunda foto entre un calibrador y unas pinzas finas. Primer plano cenital ligeramente inclinado, luz lateral suave de ventana, reflejos cálidos en el latón cepillado y en el anillo de cobre, fotografía macro real, vertical.",
+   "texto, logotipos, plástico, brillo plano, mano, dorado espejo"
+  ],
+  "COL_MANO": [
+   [
+    "esfera",
+    "alas"
+   ],
+   "La esfera de latón cepillado mate de 6 cm, ligeramente achatada de polo a polo, con un anillo de cobre pulido en el ecuador y grabado fino de circuito electrónico en toda la superficie de la primera foto con las par de alas de Mylar ámbar translúcido con nervaduras de fibra de carbono negras bien visibles de la segunda batiendo, esquivando una mano abierta que intenta atraparla y queda a un palmo, la esfera desviándose hacia arriba. Plano medio, fondo de taller desenfocado, luz de tarde, fotografía real con la mano ligeramente borrosa por el movimiento y la esfera nítida, vertical.",
+   "mano deforme, seis dedos, texto, esfera gigante"
+  ]
+ },
+ "tomas": [
+  [
+   "T1_vuelo",
+   "COL_VUELO",
+   "La esfera flota en el aire manteniéndose a la misma altura, con las alas batiendo tan rápido que solo se ven dos arcos borrosos; el cuerpo oscila mínimamente y deriva un poco hacia la izquierda.",
+   3,
+   null
+  ],
+  [
+   "T2_abre",
+   "COL_ABRE",
+   "Las alas de Mylar ámbar terminan de desplegarse hacia los lados con un movimiento mecánico firme y se quedan extendidas, temblando apenas.",
+   3,
+   null
+  ],
+  [
+   "T3_mecanismo",
+   "COL_MECANISMO",
+   "La corona dentada gira y la palanca ranurada oscila de lado a lado mientras la cinta tira del tambor; macro fijo, solo el mecanismo se mueve.",
+   4,
+   null
+  ],
+  [
+   "T4_reposo",
+   "COL_REPOSO",
+   "La esfera quieta sobre la mesa; la cámara se acerca muy lentamente mientras un reflejo recorre el latón cepillado y el anillo de cobre. Nada más se mueve.",
+   3,
+   null
+  ],
+  [
+   "T5_mano",
+   "COL_MANO",
+   "La mano se cierra para atrapar la esfera y la esfera se desvía hacia arriba justo antes, escapando, y se queda flotando frente a la cámara con las alas borrosas.",
+   4,
+   null
+  ]
+ ],
+ "voces": {}
+}

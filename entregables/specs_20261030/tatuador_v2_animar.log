@@ -1,0 +1,28 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-uxoIOwUREoc3fiFh00IEe5
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma H1
+toma H2
+toma H3
+guardado H1.mp4
+guardado H2.mp4
+guardado H3.mp4
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-30T17:48:02+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-uxoIOwUREoc3fiFh00IEe5
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261030/tatuador_v2.json
+Duración: 11.1 min  (código 0)
+  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.025
+  glimmer (ap-B8k6Nyw1T1n5kLx93xfGzJ): $0.547
+  escenas-carlos (ap-uxoIOwUREoc3fiFh00IEe5): $0.520
+Gasto del trabajo: $1.093
+Saldo restante ≈ $13.63

@@ -1,0 +1,5 @@
+[  0.0-  5.8s] Eres constructora o desarrollador. En Cervilín hacemos limpieza de obra fina para empresas.
+[  5.8-  9.0s] Retiramos polvo, cemento y restos de pintura.
+[  9.0- 14.1s] Limpiamos ventanas y pisos con personal uniformado, capacitado y supervisado.
+[ 14.1- 18.4s] ¿Tu obra lista para entregar? Solicita una propuesta por WhatsApp.
+[ 18.4- 22.0s] Dinos qué tipo de inmueble y cuántos metros cuadrados.

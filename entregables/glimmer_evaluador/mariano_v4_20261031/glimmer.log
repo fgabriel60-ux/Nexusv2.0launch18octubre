@@ -1,0 +1,340 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-QJAA3vzVxshZ7oXiHPe8oB
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octub
+│   re/entregables/glimmer_estrategias_20261029/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:54<21:46:55, 54.64s/it]
+[1ALoading weights:   0%|          | 3/1436 [00:54<5:39:20, 14.21s/it] 
+[1ALoading weights:   0%|          | 5/1436 [00:54<2:45:17,  6.93s/it]
+[1ALoading weights:   0%|          | 7/1436 [00:54<1:35:47,  4.02s/it]
+[1ALoading weights:   1%|          | 16/1436 [00:55<25:50,  1.09s/it] 
+[1ALoading weights:   1%|▏         | 20/1436 [00:55<18:00,  1.31it/s]
+[1ALoading weights:   2%|▏         | 23/1436 [00:57<17:15,  1.36it/s]
+[1ALoading weights:   2%|▏         | 25/1436 [01:04<29:34,  1.26s/it]
+[1ALoading weights:   2%|▏         | 28/1436 [01:13<42:39,  1.82s/it]
+[1ALoading weights:   2%|▏         | 29/1436 [01:47<2:14:33,  5.74s/it]
+[1ALoading weights:   2%|▏         | 33/1436 [01:53<1:34:40,  4.05s/it]
+[1ALoading weights:   2%|▏         | 35/1436 [01:56<1:20:42,  3.46s/it]
+[1ALoading weights:   3%|▎         | 37/1436 [02:01<1:14:07,  3.18s/it]
+[1ALoading weights:   3%|▎         | 39/1436 [02:15<1:37:53,  4.20s/it]
+[1ALoading weights:   3%|▎         | 41/1436 [02:31<2:01:10,  5.21s/it]
+[1ALoading weights:   3%|▎         | 42/1436 [02:52<2:58:51,  7.70s/it]
+[1ALoading weights:   3%|▎         | 43/1436 [02:55<2:37:45,  6.80s/it]
+[1ALoading weights:   3%|▎         | 46/1436 [02:57<1:36:24,  4.16s/it]
+[1ALoading weights:   3%|▎         | 49/1436 [03:02<1:12:22,  3.13s/it]
+[1ALoading weights:   3%|▎         | 50/1436 [03:07<1:20:11,  3.47s/it]
+[1ALoading weights:   4%|▎         | 51/1436 [03:19<1:55:44,  5.01s/it]
+[1ALoading weights:   4%|▎         | 53/1436 [03:33<2:12:18,  5.74s/it]
+[1ALoading weights:   4%|▍         | 54/1436 [03:50<3:02:47,  7.94s/it]
+[1ALoading weights:   4%|▍         | 55/1436 [03:53<2:34:53,  6.73s/it]
+[1ALoading weights:   4%|▍         | 56/1436 [03:53<1:59:26,  5.19s/it]
+[1ALoading weights:   4%|▍         | 58/1436 [03:59<1:38:57,  4.31s/it]
+[1ALoading weights:   4%|▍         | 59/1436 [04:01<1:27:27,  3.81s/it]
+[1ALoading weights:   4%|▍         | 61/1436 [04:03<1:04:06,  2.80s/it]
+[1ALoading weights:   4%|▍         | 62/1436 [04:05<57:44,  2.52s/it]  
+[1ALoading weights:   4%|▍         | 63/1436 [04:17<1:52:03,  4.90s/it]
+[1ALoading weights:   5%|▍         | 65/1436 [04:28<1:54:52,  5.03s/it]
+[1ALoading weights:   5%|▍         | 66/1436 [04:29<1:35:27,  4.18s/it]
+[1ALoading weights:   5%|▌         | 73/1436 [04:31<33:17,  1.47s/it]  
+[1ALoading weights:   5%|▌         | 78/1436 [04:31<19:48,  1.14it/s]
+[1ALoading weights:   6%|▌         | 88/1436 [04:31<09:11,  2.44it/s]
+[1ALoading weights:   6%|▋         | 91/1436 [04:32<09:05,  2.46it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [04:33<05:09,  4.32it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [04:33<04:15,  5.22it/s]
+[1ALoading weights:   8%|▊         | 109/1436 [04:35<06:15,  3.54it/s]
+[1ALoading weights:   8%|▊         | 113/1436 [04:36<04:57,  4.44it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [04:36<04:06,  5.37it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [04:36<02:25,  9.02it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [04:36<02:06, 10.38it/s]
+[1ALoading weights:   9%|▉         | 136/1436 [04:36<01:22, 15.70it/s]
+[1ALoading weights:  10%|▉         | 141/1436 [04:36<01:13, 17.51it/s]
+[1ALoading weights:  10%|█         | 148/1436 [04:36<00:56, 22.66it/s]
+[1ALoading weights:  11%|█         | 153/1436 [04:37<00:54, 23.44it/s]
+[1ALoading weights:  11%|█         | 160/1436 [04:37<00:44, 28.74it/s]
+[1ALoading weights:  11%|█▏        | 165/1436 [04:37<00:46, 27.20it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [04:37<00:37, 33.60it/s]
+[1ALoading weights:  12%|█▏        | 177/1436 [04:37<00:40, 30.98it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [04:37<00:34, 36.32it/s]
+[1ALoading weights:  13%|█▎        | 189/1436 [04:38<00:38, 32.74it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [04:38<00:32, 38.08it/s]
+[1ALoading weights:  14%|█▍        | 201/1436 [04:38<00:36, 34.12it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [04:38<00:31, 38.83it/s]
+[1ALoading weights:  15%|█▍        | 213/1436 [04:38<00:35, 34.35it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [04:38<00:30, 39.94it/s]
+[1ALoading weights:  16%|█▌        | 225/1436 [04:39<00:34, 35.14it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [04:39<00:30, 39.84it/s]
+[1ALoading weights:  17%|█▋        | 237/1436 [04:39<00:34, 35.13it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [04:39<00:29, 40.32it/s]
+[1ALoading weights:  17%|█▋        | 249/1436 [04:39<00:33, 35.09it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [04:39<00:29, 39.93it/s]
+[1ALoading weights:  18%|█▊        | 261/1436 [04:40<00:33, 34.89it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [04:40<00:29, 40.11it/s]
+[1ALoading weights:  19%|█▉        | 273/1436 [04:40<00:33, 34.57it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [04:40<00:28, 40.20it/s]
+[1ALoading weights:  20%|█▉        | 285/1436 [04:40<00:32, 35.11it/s]
+[1ALoading weights:  20%|██        | 292/1436 [04:40<00:28, 40.15it/s]
+[1ALoading weights:  21%|██        | 297/1436 [04:41<00:32, 35.10it/s]
+[1ALoading weights:  21%|██        | 304/1436 [04:41<00:28, 39.28it/s]
+[1ALoading weights:  22%|██▏       | 309/1436 [04:41<00:33, 34.12it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [04:41<00:28, 39.70it/s]
+[1ALoading weights:  22%|██▏       | 321/1436 [04:41<00:31, 34.87it/s]
+[1ALoading weights:  23%|██▎       | 328/1436 [04:41<00:27, 39.82it/s]
+[1ALoading weights:  23%|██▎       | 333/1436 [04:41<00:31, 35.11it/s]
+[1ALoading weights:  24%|██▎       | 340/1436 [04:42<00:27, 39.68it/s]
+[1ALoading weights:  24%|██▍       | 345/1436 [04:42<00:31, 34.40it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [04:42<00:27, 40.05it/s]
+[1ALoading weights:  25%|██▍       | 357/1436 [04:42<00:31, 34.58it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [04:42<00:27, 39.07it/s]
+[1ALoading weights:  26%|██▌       | 369/1436 [04:42<00:31, 33.99it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [04:43<00:27, 38.96it/s]
+[1ALoading weights:  27%|██▋       | 381/1436 [04:43<00:31, 33.62it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [04:43<00:26, 39.50it/s]
+[1ALoading weights:  27%|██▋       | 393/1436 [04:43<00:29, 34.90it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [04:43<00:26, 39.58it/s]
+[1ALoading weights:  28%|██▊       | 405/1436 [04:43<00:30, 33.88it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [04:44<00:26, 38.88it/s]
+[1ALoading weights:  29%|██▉       | 417/1436 [04:44<00:29, 34.00it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [04:44<00:26, 37.79it/s]
+[1ALoading weights:  30%|██▉       | 429/1436 [04:44<00:30, 33.38it/s]
+[1ALoading weights:  30%|███       | 436/1436 [04:44<00:26, 37.64it/s]
+[1ALoading weights:  31%|███       | 441/1436 [04:44<00:29, 33.49it/s]
+[1ALoading weights:  31%|███       | 448/1436 [04:45<00:25, 38.04it/s]
+[1ALoading weights:  32%|███▏      | 453/1436 [04:45<00:29, 33.80it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [04:45<00:24, 39.07it/s]
+[1ALoading weights:  32%|███▏      | 465/1436 [04:45<00:28, 34.42it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [04:45<00:24, 39.42it/s]
+[1ALoading weights:  33%|███▎      | 477/1436 [04:45<00:27, 34.55it/s]
+[1ALoading weights:  33%|███▎      | 481/1436 [04:46<00:28, 33.66it/s]
+[1ALoading weights:  34%|███▍      | 486/1436 [04:46<00:29, 31.85it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [04:46<00:22, 42.34it/s]
+[1ALoading weights:  35%|███▍      | 501/1436 [04:46<00:25, 36.11it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [04:46<00:25, 36.07it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [04:46<00:25, 35.88it/s]
+[1ALoading weights:  36%|███▌      | 520/1436 [04:47<00:20, 43.64it/s]
+[1ALoading weights:  37%|███▋      | 525/1436 [04:47<00:24, 37.74it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [04:47<00:21, 41.10it/s]
+[1ALoading weights:  37%|███▋      | 537/1436 [04:47<00:25, 35.74it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [04:47<00:21, 41.16it/s]
+[1ALoading weights:  38%|███▊      | 549/1436 [04:47<00:24, 35.51it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [04:47<00:21, 40.12it/s]
+[1ALoading weights:  39%|███▉      | 561/1436 [04:48<00:25, 34.97it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [04:48<00:21, 39.50it/s]
+[1ALoading weights:  40%|███▉      | 573/1436 [04:48<00:24, 34.69it/s]
+[1ALoading weights:  40%|████      | 580/1436 [04:48<00:21, 40.38it/s]
+[1ALoading weights:  41%|████      | 585/1436 [04:48<00:23, 35.52it/s]
+[1ALoading weights:  41%|████      | 592/1436 [04:48<00:21, 39.03it/s]
+[1ALoading weights:  42%|████▏     | 597/1436 [04:49<00:24, 34.07it/s]
+[1ALoading weights:  42%|████▏     | 604/1436 [04:49<00:20, 39.94it/s]
+[1ALoading weights:  42%|████▏     | 609/1436 [04:49<00:23, 34.99it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [04:49<00:20, 39.74it/s]
+[1ALoading weights:  43%|████▎     | 621/1436 [04:49<00:23, 34.84it/s]
+[1ALoading weights:  45%|████▍     | 643/1436 [04:49<00:10, 72.60it/s]
+[1ALoading weights:  48%|████▊     | 688/1436 [04:49<00:04, 156.69it/s]
+[1ALoading weights:  51%|█████     | 732/1436 [04:50<00:03, 224.72it/s]
+[1ALoading weights:  55%|█████▌    | 796/1436 [04:50<00:01, 330.13it/s]
+[1ALoading weights:  60%|█████▉    | 856/1436 [04:50<00:01, 397.80it/s]
+[1ALoading weights:  64%|██████▍   | 922/1436 [04:50<00:01, 465.09it/s]
+[1ALoading weights:  69%|██████▉   | 990/1436 [04:50<00:00, 521.47it/s]
+[1ALoading weights:  73%|███████▎  | 1052/1436 [04:50<00:00, 546.69it/s]
+[1ALoading weights:  78%|███████▊  | 1120/1436 [04:50<00:00, 574.65it/s]
+[1ALoading weights:  82%|████████▏ | 1179/1436 [04:50<00:00, 576.16it/s]
+[1ALoading weights:  86%|████████▌ | 1238/1436 [04:50<00:00, 575.44it/s]
+[1ALoading weights:  91%|█████████ | 1308/1436 [04:51<00:00, 611.11it/s]
+[1ALoading weights:  96%|█████████▌| 1374/1436 [04:51<00:00, 613.40it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [04:51<00:00,  4.93it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## MARIANO_SPIDERMAN_v4
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+NEGOCIO: Mariano vende casas... etc.
+
+We need respond EXACTAMENTE con este formato:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+We must use only data given. Transcription times given. Video frames timestamps: 0.6s,1.7s,2.9s,4.0s,5.2s,6.3s,7.4s,8.6s,9.7s,10.9s,12.0s,13.2s,14.3s,15.5s,16.6s,17.8s,18.9s,20.0s,21.2s,22.3s,23.5s,24.6s,25.8s,26.9s,28.1s,29.2s,30.4s,31.5s,32.6s,33.8s.
+
+Transcription says:
+[3.9-5.9s] ¿Buscas casa en Rosarito?
+[5.9-8.9s] Vizcaíno Residencial, mira esto
+[8.9-14.1s] Sotol, desde 1.400.000
+[14.1-17.1s] Llanvilia, desde 2.400.000
+[17.1-20.1s] Benchamina, desde 2.800.000
+[20.1-22.1s] Y Salvia, de 4 recámaras
+[22.1-24.1s] Desde 3.100.000
+[24.1-26.1s] En privada, con cancha de paddle
+[26.1-28.1s] Aceptan Infonavit y crédito hipotecario
+[28.1-30.1s] Escríbeme Vizcaíno por WhatsApp
+[30.1-32.1s] Y agendamos tu visita
+
+Note transcription has typos: Llanvilia vs Bugambilia, Benchamina vs Benjamina. Must use only data? The business data says Bugambilia, Benjamina. The transcription says Llanvilia, Benchamina. Might be error. Should we use transcription? Probably use data given. The instruction: Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios... The transcription is data. Might be conflict. Possibly we should note discrepancy? Might keep as per transcription? The video frames show text: BUGAMBILIA, BENJAMINA. So transcription is inaccurate. Hmm.
+
+We need to evaluate video. Gancho: Spider-Man style salto mortal. Frames 0.6s,1.7s show man falling, shadow. 2.9s arms up. 4.0s crouch with ¿BUSCAS? 5.2s ROSARITO? So hook works.
+
+Oferta: prices shown. Sotol desde $1.4 MDP, Bugambilia desde $2.4 MDP, Benjamina desde $2.8 MDP, Salvia desde $3.1 MDP. Good.
+
+Confianza: aerial views, interior shots, night exterior, Infonavit acceptance.
+
+Claridad: text overlays.
+
+Calidad visual: AI generated? Might be okay.
+
+Políticas de Meta: real estate ads need disclaimer? Might be okay. No prohibited.
+
+Mensajes baratos: hook strong, clear CTA.
+
+Mensajes calificados: price range maybe broad, but CTA specific.
+
+We need rating total X/10.
+
+Let's assign: Gancho 9/10, Oferta 8/10, Confianza 7/10, Claridad 8/10, Calidad visual 7/10, Políticas de Meta 8/10, Mensajes baratos 8/10, Mensajes calificados 7/10. Total? Average? Maybe total 7.8? Need integer? Probably X/10. Could be 7/10.
+
+Let's compute average: (9+8+7+8+7+8+8+7)=62/8=7.75 => 8/10? Might give 7/10.
+
+Better give total 7/10.
+
+NOTAS line format: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+
+POR QUÉ FUNCIONA: 3-5 bullets with second exact.
+
+We can cite 0.6s-2.9s salto mortal, 4.0s-5.2s texto ¿BUSCAS ROSARITO?, 9.7s-10.9s vista aérea con mar, 12.0s-16.6s interiores Sotol/Bugambilia con precios, 26.9s-28.1s aceptan Infonavit y crédito hipotecario, 30.4s CTA Escribe «VIZCAÍNO».
+
+Need second exact. Use timestamps from frames or transcription. Use transcription times for spoken. Might mix.
+
+Let's pick:
+- 0.6s-2.9s gancho Spider-Man con caída y aterrizaje frente a casa real, retiene atención inmediata.
+- 3.9s-5.9s voz «¿Buscas casa en Rosarito?» + texto en pantalla 4.0s ¿BUSCAS? 5.2s ROSARITO? pregunta directa al dolor.
+- 9.7s vista aérea con mar y 24.6s «en PRIVADA» refuerzan ubicación premium y seguridad.
+- 12.0s-13.2s Sotol 2 recámaras DESDE $1.4 MDP y 14.3s-15.5s Bugambilia DESDE $2.4 MDP muestran rango de precio claro.
+- 28.1s-30.1s «Escríbeme Vizcaíno por WhatsApp» + botón verde 30.4s CTA simple y accionable.
+
+QUÉ LO FRENA: 1-3 bullets with second exact and concrete fix viable.
+
+Potential issues:
+- Transcripción dice «Llanvilia» 14.1-17.1s y «Benchamina» 17.1-20.1s pero tarjetas en video muestran BUGAMBILIA y BENJAMINA. Incoherencia audio-texto confunde. Arreglo: regrabar voz clonada con guion exacto «Bugambilia, desde 2.400.000» y «Benjamina, desde 2.800.000» y mantener texto en capa.
+- 8.9s-14.1s audio dice Sotol desde 1.400.000 pero tarjeta muestra SOTOL 2 recámaras DESDE $1.4 MDP. OK.
+- Calidad visual de manos/rostro en salto 0.6s-2.9s puede deformarse. Arreglo: usar MiniMax H3 con primer y último cuadro fijados y movimiento suave, o recortar a cámara rápida con whoosh y punch-in para disimular.
+- Falta filtro de calificación: CTA genérico atrae curiosos. Arreglo viable: añadir en capa de texto a partir de 32.6s pregunta calificadora «¿Enganche desde $...?» No, can't invent price. Could add «Escribe VIZCAÍNO y te envío requisitos Infonavit». That's viable? Might be new text. Could be okay.
+
+We must only propose improvements viable with capabilities. Capabilities include voice clone, text overlay, editing, etc. So we can change voice script, change text overlay, use Qwen-Image-Edit, MiniMax animation.
+
+Maybe issue: 26.1s-28.1s audio says aceptan Infonavit y crédito hipotecario but video shows text at 26.9s aceptan INFONAVIT and 28.1s aceptan INFONAVIT y crédito hipotecario. OK.
+
+Another issue: No proof social, no testimonios. Can't add.
+
+Maybe policy: Real estate ads need "Visualización" disclaimer. Frames show Visualización. Good.
+
+Mensajes calificados low because no pre-calificación. Could add text overlay at 32.6s with bullet list of models and prices to force self-selection.
+
+We need 1-3 bullets.
+
+Let's propose:
+- 14.1s-17.1s audio dice «Llanvilia» vs tarjeta BUGAMBILIA. Arreglo: regrabar frase con voz clonada a «Bugambilia, desde 2.400.000» manteniendo timing.
+- 17.1s-20.1s audio dice «Benchamina» vs tarjeta BENJAMINA. Arreglo: regrabar voz clonada a «Benjamina, desde 2.800.000».
+- 0.6s-2.9s deformación posible en salto. Arreglo: reemplazar clip con animación MiniMax H3 de 5 s con primer cuadro caída y último cuadro aterrizaje, movimiento de cámara push-in suave y texto en capa aparte.
+
+VEREDICTO: «Subir con cambios» y calificación proyectada con cambios. Maybe 8/10 or 9/10.
+
+Let's give total 7/10, projected 9/10.
+
+Make sure format exact.
+
+CALIFICACIÓN TOTAL: 7/10
+NOTAS: Gancho 9/10 · Oferta 8/10 · Confianza 7/10 · Claridad 7/10 · Calidad visual 7/10 · Políticas de Meta 8/10 · Mensajes baratos 8/10 · Mensajes calificados 6/10
+
+POR QUÉ FUNCIONA:
+- 0.6s-2.9s salto mortal estilo Spider-Man y aterrizaje frente a la casa genera pattern interrupt y retención.
+- 3.9s-5.9s «¿Buscas casa en Rosarito?» con texto en pantalla 4.0s ¿BUSCAS? 5.2s ROSARITO? conecta directo con intención.
+- 9.7s-10.9s vista aérea del desarrollo con mar de fondo y 24.6s «en PRIVADA» refuerzan ubicación y plus de seguridad.
+- 12.0s-13.2s Sotol 2 recámaras DESDE $1.4 MDP y 14.3s-16.6s Bugambilia casa de 2 pisos DESDE $2.4 MDP muestran precios claros por modelo.
+- 26.9s-28.1s «aceptan INFONAVIT y crédito hipotecario» + 30.4s CTA «Escríbe VIZCAÍNO» con botón verde reduce fricción a WhatsApp.
+
+QUÉ LO FRENA:
+- 14.1s-17.1s audio dice «Llanvilia, desde 2.400.000» pero tarjetas muestran BUGAMBILIA DESDE $2.4 MDP. Arreglo viable: regrabar con voz clonada la frase exacta «Bugambilia, desde 2.400.000» y mantener texto en capa.
+- 17.1s-20.1s audio dice «Benchamina, desde 2.800.000» pero tarjetas muestran BENJAMINA DESDE $2.8 MDP. Arreglo viable: regrabar con voz clonada «Benjamina, desde 2.800.000».
+- 0.6s-2.9s movimiento brusco de caída puede deformar rostro/manos en animación. Arreglo viable: generar clip de 5 s con MiniMax H3 con primer y último cuadro fijados, cámara push-in suave y añadir whoosh + punch-in en edición.
+
+VEREDICTO: «Subir con cambios», calificación proyectada 9/10
+
+Make sure Spanish clear.
+
+We must not invent prices, times, distances. We used times from transcription and frames. Good.
+
+Check transcription times: 3.9-5.9s ¿Buscas casa en Rosarito? Good.
+
+5.9-8.9s Vizcaíno Residencial, mira esto. Good.
+
+8.9-14.1s Sotol, desde 1.400.000. Good.
+
+14.1-17.1s Llanvilia... we mention.
+
+17.1-20.1s Benchamina...
+
+20.1-22.1s Y Salvia, de 4 recámaras
+
+22.1-24.1s Desde 3.100.000
+
+24.1-26.1s En privada, con cancha de paddle
+
+26.1-28.1s Aceptan Infonavit y crédito hipotecario
+
+28.1-30.1s Escríbeme Vizcaíno por WhatsApp
+
+30.1-32.1s Y agendamos tu visita
+
+We used 30.4s CTA. Frame 30.4s shows Escribe «VIZCAÍNO». Good.
+
+We used 32.6s etc.
+
+Make sure format exactly as requested. The format lines:
+
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas...
+QUÉ LO FRENA: ...
+VEREDICTO: ...
+
+Use bullet points? Probably dash or •. Use viñetas cortas. Probably use - or •.
+
+Ensure no extra reasoning.
+
+Let's output final.assistant to=userCALIFICACIÓN TOTAL: 7/10
+NOTAS: Gancho 9/10 · Oferta 8/10 · Confianza 7/10 · Claridad 7/10 · Calidad visual 7/10 · Políticas de Meta 8/10 · Mensajes baratos 8/10 · Mensajes calificados 6/10
+POR QUÉ FUNCIONA:
+- 0.6s-2.9s salto mortal estilo Spider-Man y aterrizaje frente a la casa real genera pattern interrupt y retención inmediata.
+- 3.9s-5.9s voz “¿Buscas casa en Rosarito?” con texto en pantalla 4.0s ¿BUSCAS? 5.2s ROSARITO? conecta directo con la intención de búsqueda.
+- 5.9s-8.9s “Vizcaíno Residencial, mira esto” + 6.3s VIZCAÍNO 7.4s RESIDENCIAL ancla nombre del desarrollo.
+- 9.7s-10.9s vista aérea del desarrollo con mar de fondo y 24.6s “en PRIVADA” refuerzan ubicación y plus de seguridad.
+- 12.0s-13.2s SOTOL 2 recámaras DESDE $1.4 MDP, 14.3s-15.5s BUGAMBILIA casa de 2 pisos DESDE $2.4 MDP y 17.8s-20.0s BENJAMINA casa de 2 pisos DESDE $2.8 MDP muestran precios claros por modelo.
+- 26.9s-28.1s “aceptan INFONAVIT y crédito hipotecario” baja fricción de financiamiento.
+- 28.1s-30.1s “Escríbeme Vizcaíno por WhatsApp” + 30.4s botón verde Escribe «VIZCAÍNO» CTA simple y accionable.
+QUÉ LO FRENA:
+- 14.1s-17.1s audio dice “Llanvilia, desde 2.400.000” pero las tarjetas muestran BUGAMBILIA DESDE $2.4 MDP. Arreglo viable: regrabar con voz clonada la frase exacta “Bugambilia, desde 2.400.000” manteniendo texto en capa.
+- 17.1s-20.1s audio dice “Benchamina, desde 2.800.000” pero las tarjetas muestran BENJAMINA DESDE $2.8 MDP. Arreglo viable: regrabar con voz clonada “Benjamina, desde 2.800.000”.
+- 0.6s-2.9s movimiento brusco de caída puede deformar rostro/manos en animación. Arreglo viable: generar clip de ~5 s con MiniMax H3 con primer y último cuadro fijados, cámara push-in suave, whoosh y punch-in en edición, texto en capa aparte.
+VEREDICTO: «Subir con cambios», calificación proyectada 9/10
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-QJAA3vzVxshZ7oXiHPe8oB
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/mariano_v4_20261031/lote.json --tokens 4500
+Duración: 9.3 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.056
+  glimmer (ap-DS0APe2r0ss3esYxiEvvsM): $0.014
+  escenas-carlos (ap-LNYAm8RbwJoClsU9X9nhSw): $0.013
+  glimmer (ap-QJAA3vzVxshZ7oXiHPe8oB): $0.383
+  escenas-carlos (ap-neMEC9jv6F8rTJu2nb8T38): $0.254
+  musica-villa (ap-wfuy41adtPrV4hvTRIeRrh): $0.053
+Gasto del trabajo: $0.775
+Saldo restante ≈ $15.84

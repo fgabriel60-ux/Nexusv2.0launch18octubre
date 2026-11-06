@@ -1,0 +1,32 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-1jbxSJ6tPg9aXuZVLA7Wrr
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma T2_car1
+toma T3_car2
+toma T5_car3
+toma T7_car4
+toma T8_car5
+guardado T2_car1.mp4
+guardado T3_car2.mp4
+guardado T5_car3.mp4
+guardado T7_car4.mp4
+guardado T8_car5.mp4
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-1jbxSJ6tPg9aXuZVLA7Wrr
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261030/guillermo_v3.json
+Duración: 13.8 min  (código 0)
+  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.032
+  glimmer (ap-B8k6Nyw1T1n5kLx93xfGzJ): $0.523
+  escenas-carlos (ap-1jbxSJ6tPg9aXuZVLA7Wrr): $0.666
+  glimmer (ap-DZKPWStZ1FsD3yDHlRTmd9): $0.038
+Gasto del trabajo: $1.259
+Saldo restante ≈ $10.51

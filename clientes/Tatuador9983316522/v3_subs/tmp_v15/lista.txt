@@ -1,0 +1,6 @@
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Tatuador9983316522/v3_subs/tmp_v15/r0.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Tatuador9983316522/v3_subs/tmp_v15/r1.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Tatuador9983316522/v3_subs/tmp_v15/r2.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Tatuador9983316522/v3_subs/tmp_v15/r3.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Tatuador9983316522/v3_subs/tmp_v15/r4.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Tatuador9983316522/v3_subs/tmp_v15/r5.mp4'

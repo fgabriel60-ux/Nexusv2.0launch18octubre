@@ -1,0 +1,37 @@
+{
+ "paso": "cuadros",
+ "trabajos": [
+  {
+   "nombre": "r1_C_diag_s5",
+   "refs": [
+    "diagrama_recorte"
+   ],
+   "semilla": 5,
+   "prompt": "Use this technical diagram only as a reference for the parts and their layout. Create a completely new photograph: Photorealistic vertical 9:16 photograph, shot on a full-frame camera with a 85mm lens. a small hand-made mechanical ornithopter bird skeleton, about 24 cm wingspan, with its entire mechanism exposed like a precision watch movement: a straight central spine of thin polished silver nitinol wire from the head to the tail; at the tail a small grey metal funnel-shaped clip; two thin silver nitinol wires sweep back from the head as the leading edges of two wide delta-shaped wings, covered with an almost transparent amber-tinted film membrane with tiny thorn-like spikes along the trailing edge, so every part behind it stays visible; on the spine near the head a small polished brass sliding collar like an umbrella runner, with two thin steel struts hinged to it pushing the wing wires open; the spine passes through a short brass tube with a clearly visible helical spiral groove; at the head a small brass flywheel ring, a tiny copper crank and two thin connecting rods going to the wing wires, small brass gears. Clean steampunk style, polished copper, brass and silver metal, no feathers, no eyes, no animal face, not a real bird. It floats in mid-air in the center of a bright clean workshop, soft warm window light, blurred wooden workbench and tools in the background, shallow depth of field, crisp detailed metal reflections, high-end product photography. No diagram, no labels, no text."
+  },
+  {
+   "nombre": "r1_C_diag_s11",
+   "refs": [
+    "diagrama_recorte"
+   ],
+   "semilla": 11,
+   "prompt": "Use this technical diagram only as a reference for the parts and their layout. Create a completely new photograph: Photorealistic vertical 9:16 photograph, shot on a full-frame camera with a 85mm lens. a small hand-made mechanical ornithopter bird skeleton, about 24 cm wingspan, with its entire mechanism exposed like a precision watch movement: a straight central spine of thin polished silver nitinol wire from the head to the tail; at the tail a small grey metal funnel-shaped clip; two thin silver nitinol wires sweep back from the head as the leading edges of two wide delta-shaped wings, covered with an almost transparent amber-tinted film membrane with tiny thorn-like spikes along the trailing edge, so every part behind it stays visible; on the spine near the head a small polished brass sliding collar like an umbrella runner, with two thin steel struts hinged to it pushing the wing wires open; the spine passes through a short brass tube with a clearly visible helical spiral groove; at the head a small brass flywheel ring, a tiny copper crank and two thin connecting rods going to the wing wires, small brass gears. Clean steampunk style, polished copper, brass and silver metal, no feathers, no eyes, no animal face, not a real bird. It floats in mid-air in the center of a bright clean workshop, soft warm window light, blurred wooden workbench and tools in the background, shallow depth of field, crisp detailed metal reflections, high-end product photography. No diagram, no labels, no text."
+  },
+  {
+   "nombre": "r1_C_lienzo_s5",
+   "refs": [
+    "lienzo"
+   ],
+   "semilla": 5,
+   "prompt": "Replace this whole image with a new photograph: Photorealistic vertical 9:16 photograph, shot on a full-frame camera with a 85mm lens. a small hand-made mechanical ornithopter bird skeleton, about 24 cm wingspan, with its entire mechanism exposed like a precision watch movement: a straight central spine of thin polished silver nitinol wire from the head to the tail; at the tail a small grey metal funnel-shaped clip; two thin silver nitinol wires sweep back from the head as the leading edges of two wide delta-shaped wings, covered with an almost transparent amber-tinted film membrane with tiny thorn-like spikes along the trailing edge, so every part behind it stays visible; on the spine near the head a small polished brass sliding collar like an umbrella runner, with two thin steel struts hinged to it pushing the wing wires open; the spine passes through a short brass tube with a clearly visible helical spiral groove; at the head a small brass flywheel ring, a tiny copper crank and two thin connecting rods going to the wing wires, small brass gears. Clean steampunk style, polished copper, brass and silver metal, no feathers, no eyes, no animal face, not a real bird. It floats in mid-air in the center of a bright clean workshop, soft warm window light, blurred wooden workbench and tools in the background, shallow depth of field, crisp detailed metal reflections, high-end product photography."
+  },
+  {
+   "nombre": "r1_C_lienzo_s23",
+   "refs": [
+    "lienzo"
+   ],
+   "semilla": 23,
+   "prompt": "Replace this whole image with a new photograph: Photorealistic vertical 9:16 photograph, shot on a full-frame camera with a 85mm lens. a small hand-made mechanical ornithopter bird skeleton, about 24 cm wingspan, with its entire mechanism exposed like a precision watch movement: a straight central spine of thin polished silver nitinol wire from the head to the tail; at the tail a small grey metal funnel-shaped clip; two thin silver nitinol wires sweep back from the head as the leading edges of two wide delta-shaped wings, covered with an almost transparent amber-tinted film membrane with tiny thorn-like spikes along the trailing edge, so every part behind it stays visible; on the spine near the head a small polished brass sliding collar like an umbrella runner, with two thin steel struts hinged to it pushing the wing wires open; the spine passes through a short brass tube with a clearly visible helical spiral groove; at the head a small brass flywheel ring, a tiny copper crank and two thin connecting rods going to the wing wires, small brass gears. Clean steampunk style, polished copper, brass and silver metal, no feathers, no eyes, no animal face, not a real bird. It floats in mid-air in the center of a bright clean workshop, soft warm window light, blurred wooden workbench and tools in the background, shallow depth of field, crisp detailed metal reflections, high-end product photography."
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+python3 gasto_modal.py run clientes/Guillermo/pixar_v2_20261030/corregir_gui3_modal.py > clientes/Guillermo/pixar_v2_20261030/modal_gui3.log 2>&1 && python3 clientes/Guillermo/pixar_v2_20261030/armar_pixar_v2.py

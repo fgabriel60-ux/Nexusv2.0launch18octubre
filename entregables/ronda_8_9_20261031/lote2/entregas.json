@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "GIOVANNI_v5b",
+    "video": "clientes/Giovanni/Giovanni_video_v5b.mp4",
+    "cola": "entregables/fila/pendientes/20261031_0840_lote2_20261031_giovanni_v5b.sh",
+    "envio": "ok clientes/Giovanni/Giovanni_video_v5b.mp4",
+    "anterior_actual": 6,
+    "anterior_proyectada": 8,
+    "nota_nueva": "Pendiente"
+  },
+  {
+    "nombre": "ADRIAN_hardcut_v1b",
+    "video": "clientes/Tatuador9983316522/hardcut_v1b/Tatuador_hardcut_v1b.mp4",
+    "cola": "entregables/fila/pendientes/20261031_0841_lote2_20261031_adrian_hardcut_v1b.sh",
+    "envio": "ok clientes/Tatuador9983316522/hardcut_v1b/Tatuador_hardcut_v1b.mp4",
+    "anterior_actual": 6,
+    "anterior_proyectada": 8,
+    "nota_nueva": "Pendiente"
+  },
+  {
+    "nombre": "JESUS_v4",
+    "video": "entregables/jesus_puertas_20261028/Jesus_carpinteria_v4.mp4",
+    "cola": "entregables/fila/pendientes/20261031_0842_lote2_20261031_jesus_v4.sh",
+    "envio": "ok entregables/jesus_puertas_20261028/Jesus_carpinteria_v4.mp4",
+    "anterior_actual": 7,
+    "anterior_proyectada": 8.5,
+    "nota_nueva": "Pendiente"
+  },
+  {
+    "nombre": "VICTOR_v7b",
+    "video": "clientes/Victor/video/Servilin_obra_fina_v7b.mp4",
+    "cola": "entregables/fila/pendientes/20261031_0843_lote2_20261031_victor_v7b.sh",
+    "envio": "ok clientes/Victor/video/Servilin_obra_fina_v7b.mp4",
+    "anterior_actual": 7,
+    "anterior_proyectada": 8,
+    "nota_nueva": "Pendiente"
+  }
+]

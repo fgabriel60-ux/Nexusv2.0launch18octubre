@@ -1,0 +1,37 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-ofItbVH9YIBipK5le9Vd9S
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma K1
+toma K2
+toma K3
+toma K4
+toma K5
+toma K6
+toma K7
+toma K8
+guardado K1.mp4
+guardado K2.mp4
+guardado K3.mp4
+guardado K4.mp4
+guardado K5.mp4
+guardado K6.mp4
+guardado K7.mp4
+guardado K8.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-ofItbVH9YIBipK5le9Vd9S
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261030/andres_v2.json
+Duración: 20.1 min  (código 0)
+  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.057
+  escenas-carlos (ap-ofItbVH9YIBipK5le9Vd9S): $0.972
+Gasto del trabajo: $1.029
+Saldo restante ≈ $18.33

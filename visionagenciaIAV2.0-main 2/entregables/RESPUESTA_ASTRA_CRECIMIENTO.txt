@@ -1,0 +1,947 @@
+OpenAI Codex v0.154.0
+--------
+workdir: /workspaces/visionagenciaIAV2.0
+model: gpt-6-astra
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: low
+reasoning summaries: none
+session id: 01a0a351-4bbf-74c3-81a7-ad070a3cb3a1
+--------
+user
+Astra, soy Claude otra vez. Carlos te pregunta directamente:
+
+> «¿Cómo puedo hacer crecer más mi agencia viendo el contenido que estoy haciendo?»
+
+Solo lectura: no modifiques archivos, no envíes mensajes, no toques Blender. Revisa el contenido real y contéstale a él.
+
+## Dónde ver lo que hace
+
+- `entregables/` — todo lo producido en septiembre 2026, por carpeta y fecha:
+  - Catania para Mariano (asesor inmobiliario, San Marino Residencial, Tijuana): recorrido de casa hecho en Blender →
+    Genjutsu/Kling, gancho con Mariano hablando, subtítulos estilo reel, efectos, música y cierre con su logo nuevo
+    (`catania_mariano_logo_20260915/CATANIA_MARIANO_LOGO_1080.mp4`, `catania_mariano_subs_20260914/`, `catania_genjutsu_20260913/`).
+  - Implante dental (Alberto): hoja de proceso, modelo 3D en Blender, transición Kling, voz Fish (`implante_dental/`).
+  - 360 Salud Óptima (cartel, hoja «pague después», anuncios), iglesia Gracia de Dios (volante), logo de Mariano.
+- `visionagenciaIAv2.0-cripto-sim-y-corte-catania/VisionagenciaIAv2.0-main/clientes/` — clientes (Mariano, 360 salud óptima,
+  Caza Impresos, Vision Agencia, _manuel_arroyo, _stefani), su `estado.json` e historial.
+- `.../clientes/Mariano/LANDING_SAN_MARINO_DATOS.md` — métricas de la landing (373 visitas, 5 % de scroll).
+- `copia para whatsapp/mensaje_prospectos_video_mariano.md` — su oferta actual a prospectos.
+- `DOCUMENTO_PARA_GPT6_ASTRA.md`, `.../PENDIENTES-2026-09-03.md` — panorama del negocio.
+
+## Su posicionamiento (en sus palabras)
+
+- Control total del resultado con IA porque primero se construye el modelo 3D y después se usa la IA; casi nadie lo hace.
+- Las capacidades publicitarias aumentan pero el precio no: **500 pesos al mes por 4 videos, siempre**.
+- «Yo lo logré en Facebook y esa es mi obsesión; necesito más clientes en diferentes nichos para lograrlo.»
+- Busca clientes que de verdad quieran triunfar en Facebook. Él propone y hace todo (guion, 3D, IA, edición).
+
+## Qué necesita de ti
+
+Un plan concreto y honesto, basado en lo que ves en esos archivos (no genérico):
+1. Qué de su contenido es realmente diferencial y cómo mostrarlo para conseguir clientes (portafolio, casos, antes/después del 3D).
+2. Si el precio de 500 pesos/mes por 4 videos es sostenible con el costo y tiempo que ves en cada entrega (modelos,
+   Kling, GPT, horas de Blender); qué ajustar sin romper su promesa de precio fijo.
+3. Qué nichos atacar primero según lo que ya sabe hacer, y cómo prospectar en cada uno.
+4. Qué procesos repetir o automatizar para producir más videos por cliente sin bajar calidad.
+5. Riesgos que ves (dependencia de un cliente, derechos de usar trabajos de clientes como muestra, promesas médicas, etc.).
+6. Las 3 acciones de esta semana con mayor impacto.
+
+Respuesta en español, directa, para Carlos.
+
+warning: Codex could not find bubblewrap on PATH. Install bubblewrap with your OS package manager. See the sandbox prerequisites: https://developers.openai.com/codex/concepts/sandboxing#prerequisites. Codex will use the bundled bubblewrap in the meantime.
+2026-09-15T05:32:35.948770Z ERROR codex_core::shell_snapshot: Shell snapshot validation failed: Snapshot command exited with status exit status: 2: /home/codespace/.codex/shell_snapshots/01a0a351-4bbf-74c3-81a7-ad070a3cb3a1.tmp-1789450355323664392: line 2547: syntax error near unexpected token `('
+
+codex
+Carlos, voy a revisar tus entregas, tu oferta y los datos de la landing para decirte qué vendería, qué repetiría y dónde se está yendo demasiado tiempo. Solo leeré los archivos.
+exec
+/bin/bash -lc "cat 'copia para whatsapp/mensaje_prospectos_video_mariano.md'; cat DOCUMENTO_PARA_GPT6_ASTRA.md; cat visionagenciaIAv2.0-cripto-sim-y-corte-catania/VisionagenciaIAv2.0-main/clientes/Mariano/LANDING_SAN_MARINO_DATOS.md; find entregables -maxdepth 2 -type f -name '*.md'" in /workspaces/visionagenciaIAV2.0
+ succeeded in 103ms:
+# Mensaje para prospectos (junto con el video de Mariano)
+
+Video a mandar: `entregables/catania_mariano_logo_20260915/CATANIA_MARIANO_LOGO_WHATSAPP.mp4`
+
+---
+
+## Versión corta (va con el video)
+
+Hola 👋 Te comparto un video que hicimos en Visión Agencia 🎬
+
+Yo logré triunfar en Facebook y ahora mi obsesión es lograrlo con negocios de diferentes nichos. Por eso busco clientes que de verdad quieran crecer ahí, y pensé en ti.
+
+Hago algo que casi nadie hace con la IA: primero construyo el modelo 3D y después uso la IA. Así tengo control total del resultado, sin sorpresas ni imágenes inventadas.
+
+Las capacidades publicitarias siguen aumentando, pero mi precio no:
+📦 4 videos al mes por $500 pesos, y en Visión Agencia siempre será ese precio.
+
+¿Quieres que tu negocio sea el siguiente en destacar en Facebook? 😁
+
+---
+
+## Versión más completa (si responde o pregunta)
+
+Hola 👋 Te comparto este video que hicimos en Visión Agencia 🏡
+
+Te cuento por qué te escribo: yo lo logré en Facebook y esa es mi obsesión. Ahora quiero lograrlo con negocios de diferentes nichos, y para eso busco clientes que de verdad quieran triunfar.
+
+La mayoría usa la IA "a ver qué sale". Yo no:
+✅ Primero construyo un modelo 3D de lo que se va a mostrar
+✅ Después uso la IA sobre ese modelo, así controlo cada toma y el resultado final
+✅ Recorridos de cámara, subtítulos animados, efectos, música y cierre con tu logo
+✅ Yo propongo y hago todo: guion, 3D, IA y edición
+
+Cada mes la publicidad con IA puede hacer más, pero en Visión Agencia el precio no sube:
+📦 4 videos al mes por $500 pesos. Siempre.
+
+Si tu meta es crecer en serio en Facebook, te preparo una propuesta de tu primer video 🙌
+
+---
+
+Notas:
+- El video lleva el nombre y logo de Mariano; confirma que está de acuerdo en que se use como muestra.
+# Catania — corte fotorrealista por cuarto (contexto para retomar la tarea)
+
+## Quién es el cliente y qué se está haciendo
+
+**Vision Agencia IA** produce contenido de marketing inmobiliario con IA. El cliente
+**Mariano Herrera** es agente en **San Marino Residencial** (zona costa Tijuana–Rosarito)
+y vende 4 modelos de casa: Portofino ($5.2M), **Catania ($5.0M)**, Siena ($4.4M) y
+Brescia ($3.8M). Mariano mandó por WhatsApp clips en video reales de cada casa amueblada.
+
+La tarea actual: convertir el modelo 3D de **Catania** (Blender) en una **imagen fotorrealista
+de corte de casa de muñecas** — la casa entera en corte, los tres niveles + roof garden,
+cada cuarto amueblado y con el acabado real que se ve en los videos de Mariano.
+
+## Por qué no basta una sola generación de IA
+
+Ya se probó (GPT Image edit y Seedream) mandar el corte 3D en gris + una hoja con las fotos
+reales, pidiéndole a la IA que lo vista completo en una sola pasada. Resultado: cada intento
+acierta unos cuartos e inventa otros — un sillón del color equivocado, muebles de un cuarto
+que aparecen en otro, el roof garden confundido con la sala de TV. La IA no tiene forma de
+saber "esta referencia va SOLO en este cuarto" cuando todo llega en una imagen.
+
+**La solución en construcción:** máscara por cuarto (blanco donde se ve ESE cuarto, negro en
+todo lo demás, generada geométricamente desde el propio Blender) + `bria/fibo-edit/genfill`
+(Wavespeed) para vestir cada cuarto por separado usando `mask_image` — así vestir la cocina
+ya no puede mover la recámara. Antes, un ControlNet de aristas (`flux-controlnet-union-pro-2.0`)
+fija la geometría para que la IA no redibuje la planta.
+
+## Dónde vive todo
+
+- **El .blend real**: `catania_LIGERA.blend`, en la Mac de Carlos (`/Users/juancarlos/`),
+  Blender 3.3, motor Workbench, escena `Scene`, view_transform **Filmic**.
+- **El puente**: `https://conectorblender.onrender.com/api/blender/execute` — recibe un
+  string de Python por POST y lo ejecuta DENTRO del Blender de Carlos (tiene que estar
+  abierto con el panel Seedance conectado). Se manda así:
+  ```python
+  import json, urllib.request
+  d = json.dumps({"python": codigo_fuente, "meta": {"tipo": "libre"}}).encode()
+  r = urllib.request.Request("https://conectorblender.onrender.com/api/blender/execute",
+                              data=d, headers={"Content-Type": "application/json"})
+  print(json.loads(urllib.request.urlopen(r, timeout=580).read()))
+  ```
+  El script termina con `responder({...})` para regresar datos (incluyendo imágenes en
+  base64) en la respuesta HTTP. Si Blender no está conectado, responde 503.
+- **Scripts clave** (repo, `clientes/Mariano/blender/`):
+  - `cuartos_camara.py` — diccionario `CUARTOS` (16 cuartos: posición de cámara, hacia
+    dónde mira, lente, descripción) y `limpia()`.
+  - `corte_mascaras.py` — genera `corte_gris.png`, `corte_blanco.png` y una
+    `mascara_<cuarto>.png` por cuarto, deduciendo la silueta de cada cuarto por geometría
+    (cuadrícula de 15 cm + flood-fill + qué cámara de `CUARTOS` cae en cada mancha).
+  - `ESTADO-CATANIA.md` — bitácora larga de todo lo aplicado a la escena (terreno, mar,
+    vecinas, remate al mar, giroscopio del addon, etc.) y trampas ya conocidas.
+- **Referencias reales**: `clientes/Mariano/referencias_3d/ref_1_catania_por_cuarto.jpg`
+  (10 fotos de los clips de Mariano) y `clientes/Mariano/de_whatsapp/video_3sep/` (frames
+  sueltos de roof garden, baños, terraza, comedor).
+- **Wavespeed**: `https://api.wavespeed.ai/api/v3`, llave en `.env` como
+  `WAVESPEED_API_KEY` (no incluida en este documento — vive en un `.env` local, gitignored).
+
+## Los dos bugs que ya se arreglaron (verificado en vivo el 4 sep 2026)
+
+1. **`apunta_muros()` sólo veía 22 de ~158 muros** porque filtraba por nombre
+   (`muro`/`div`). Se cambió a filtrar por geometría: delgado en planta
+   (`min(dx,dy) < 0.40`) y alto (`dz > 1.50`). Confirmado en vivo: ahora detecta **112 muros**
+   y los 14 cuartos (`n1_*`, `pb_*`, más `pa` y `rg` que van juntos) generan mancha.
+2. **Las máscaras salían completamente NEGRAS.** `ob.color = (1,1,1,1)` es lineal, y con
+   `view_transform = 'Filmic'` (el de esta escena) un blanco lineal se aplasta a ~1/255 al
+   guardar el PNG — la máscara no tenía nada que ofrecerle a `genfill`. Fix: dentro de
+   `modo("mascara")`, forzar antes de renderizar:
+   ```python
+   vs = bpy.context.scene.view_settings
+   vs.view_transform = 'Standard'
+   vs.look = 'None'
+   vs.exposure = 0.0
+   vs.gamma = 1.0
+   ```
+   Confirmado en vivo: las 14 máscaras ahora salen a intensidad **1.0 (blanco puro)**.
+
+## Lo que falta — en orden
+
+1. **Partir `pa` de `rg`.** Ahora mismo dan el MISMO área (51.1 m²) porque no hay un muro
+   entre la planta alta cubierta (cocina/sala/comedor) y la terraza descubierta — es una
+   sola mancha en el flood-fill. Sin partirlo, cualquier máscara del roof garden en realidad
+   incluye TODA la planta alta. Idea: además de la cuadrícula en planta, probar si hay techo
+   arriba de cada celda (raycast hacia +Z) — si no hay techo, es `rg`; si lo hay, es `pa`.
+2. **Vestir por cuarto con `genfill`** usando las máscaras ya arregladas. Ese script
+   (`bria/fibo-edit/genfill` vía Wavespeed) todavía no existe — hay que escribirlo,
+   análogo a `corte_fotorrealista.py` pero recibiendo `mask_image` y UNA sola referencia
+   por cuarto (no la hoja completa de 10 fotos).
+3. **Correcciones puntuales ya detectadas** comparando la última generación
+   (`casa_seedream_v2.png`) contra las fotos reales:
+   - **Roof garden**: la referencia real (#17, "ya se ve el mar") es una banca y mesa de
+     madera sobre piso claro, paredes bajas blancas — NO un lounge con sillones y sofá.
+   - **Sala / estancia TV**: el sillón real es curvo, color crema/hueso — ha salido
+     terracota/naranja en las generaciones.
+   - **Segunda recámara**: la referencia real (#19) tiene un cabecero REDONDO color
+     terracota — se ha perdido en las generaciones, sale con ropa de cama lisa.
+   - **Baños, cocina, pasillo y escalera**: Catania NO TIENE video propio de estos
+     espacios (confirmado en `_manda_referencias_catania.py`). Hay que vestirlos con las
+     fotos de **Siena o Brescia** (misma constructora, mismo acabado) — no dejar que la
+     IA los invente sin referencia.
+
+## Qué se necesita para poder trabajar esto
+
+- Blender abierto en la Mac de Carlos, con el panel Seedance conectado (si no, el puente
+  responde 503 "Blender no está conectado").
+- `WAVESPEED_API_KEY` para las llamadas de generación de imagen (`genfill`,
+  `flux-controlnet-union-pro-2.0`).
+- Ojo con la Trampa #2 de `ESTADO-CATANIA.md`: **"Construir/actualizar" del panel del addon
+  rehace la animación de la cámara** — cualquier keyframe puesto a mano sobre
+  `CAM_RECORRIDO` se pierde si se le da a Construir de nuevo.
+# San Marino Residencial — lo que Mariano mandó para la landing
+
+Por WhatsApp el 2026-08-18, contestando lo que se le pidió el 08-16 (se pausó la
+campaña hasta tener esto).
+
+> «Son alrededor de **mil casas** en San Marino Residencial **Tijuana**, y
+> actualmente estamos en **etapa 4** con unas **30 casas listas para la venta**.»
+>
+> «Es un residencial **exclusivo**, con **mucha seguridad**, y un estilo de vida
+> que **no muchos pueden lograr**.»
+>
+> «La **vista al mar** y lo **cerca a la playa** lo hace un buen lugar para
+> **invertir**.»
+
+## Qué resuelve cada dato (marco de Hormozi, que es con el que se midió la fuga)
+
+La página estaba bien en resultado, en tiempo y en esfuerzo. Fallaba en
+**PROBABILIDAD PERCIBIDA** — nada probaba que la casa exista y que la gente
+compre ahí. Estos tres datos son justo eso:
+
+| dato | para qué sirve en la página |
+|---|---|
+| **mil casas, etapa 4** | prueba de que el desarrollo está vivo y ya entregó tres etapas |
+| **30 listas para la venta** | escasez real y verificable, no «últimas casas» inventado |
+| **vista al mar / cerca de la playa** | el resultado, y es lo que el video ya vende |
+| **seguridad / exclusivo** | el miedo que tiene el que compra a distancia |
+| **«buen lugar para invertir»** | abre el segundo comprador: el que no va a vivir ahí |
+
+## Los números que hay que mover (medidos el 2026-08-16)
+
+- 373 visitas · 20 s de promedio · 206 le dieron play al video
+- **5 % de scroll promedio**: casi nadie pasa del primer pantallazo
+
+El primer pantallazo tiene que llevar «etapa 4 · 30 casas listas · vista al mar»,
+no dejarlo para abajo. Lo que está abajo hoy, no se ve.
+
+⚠️ La landing desplegada **no** se sirve desde este repo. Ver
+[[amyvip-app-desplegada-no-es-la-del-repo]] y [[landings-media-nombre-es-md5]]
+antes de editar: cambiar el archivo aquí no cambia lo que ve el cliente.
+entregables/catania_recorrido_corregido_20260912/PLAN_GENJUTSU.md
+entregables/catania_recorrido_corregido_20260912/ESTADO.md
+entregables/catania_eevee_20260908/ESTADO_BREVE.md
+entregables/catania_eevee_20260908/LEEME.md
+entregables/catania_eevee_20260908/RESPUESTA_ASTRA_A_CLAUDE_09sep.md
+entregables/catania_eevee_20260908/REVISION_CLAUDE_09sep_22h_codespace.md
+entregables/catania_eevee_20260908/MENSAJE_PARA_ASTRA_3.md
+entregables/catania_eevee_20260908/MENSAJE_PARA_ASTRA.md
+entregables/catania_eevee_20260908/ARTICULO_ASTRA_OPENAI.md
+entregables/catania_eevee_20260908/MENSAJE_PARA_ASTRA_2.md
+entregables/catania_eevee_20260908/REVISION_CLAUDE_09sep_18h.md
+entregables/catania_casa_eevee_20260910/PARA_ASTRA_pendientes.md
+entregables/catania_casa_eevee_20260910/ESTADO.md
+entregables/MENSAJE_PARA_ASTRA_CRECIMIENTO.md
+entregables/catania_realismo_20260909/ESTADO.md
+entregables/catania_vista_actual_20260909/ESTADO.md
+entregables/implante_dental/PLAN_PARA_CLAUDE.md
+entregables/implante_dental/TRANSFERENCIA_MAC.md
+entregables/implante_dental/MENSAJE_PARA_ASTRA.md
+entregables/implante_dental/ESTADO.md
+entregables/catania_revision_fiel_20260910/PLAN_PARA_CLAUDE.md
+entregables/catania_revision_conjunta_20260909/CARLOS_A_ASTRA_04h35.md
+entregables/catania_revision_conjunta_20260909/ASTRA_AVANCE_PARA_CLAUDE.md
+entregables/catania_revision_conjunta_20260909/claude_mensaje_aliviane.md
+entregables/catania_revision_conjunta_20260909/claude_revision_inicial.md
+entregables/catania_revision_conjunta_20260909/PARA_CLAUDE_APROBACION.md
+entregables/catania_revision_conjunta_20260909/MENSAJE_CASA_COMPLETA_ANGULO.md
+entregables/catania_revision_conjunta_20260909/claude_seguimiento_04h30.md
+entregables/catania_revision_conjunta_20260909/claude_revision_v2.md
+entregables/catania_revision_conjunta_20260909/MENSAJE_ANGULO_CARLOS.md
+entregables/catania_revision_conjunta_20260909/ESTADO.md
+entregables/catania_revision_conjunta_20260909/CLAUDE_APROBACION_V2.md
+entregables/catania_video_eevee_20260910/ESTADO.md
+entregables/subtitulos_referencia_DdMLGBcMTEM/GUIA_REPLICACION.md
+
+exec
+/bin/bash -lc "find entregables/catania_mariano_logo_20260915 entregables/catania_mariano_subs_20260914 entregables/catania_genjutsu_20260913 -maxdepth 2 -type f; find entregables -maxdepth 2 -type f \\( -iname '*.png' -o -iname '*.jpg' \\) | tail -45; find visionagenciaIAv2.0-cripto-sim-y-corte-catania/VisionagenciaIAv2.0-main/clientes -maxdepth 2 -name estado.json" in /workspaces/visionagenciaIAV2.0
+ succeeded in 81ms:
+entregables/catania_mariano_logo_20260915/CATANIA_MARIANO_LOGO_1080.mp4
+entregables/catania_mariano_logo_20260915/CATANIA_MARIANO_LOGO_1080_420.mp4
+entregables/catania_mariano_logo_20260915/LOGO_ENVIADO_A_MARIANO.jpg
+entregables/catania_mariano_logo_20260915/CATANIA_MARIANO_LOGO_WHATSAPP_420.mp4
+entregables/catania_mariano_logo_20260915/poner_logo_final.py
+entregables/catania_mariano_logo_20260915/_descartados_yuv444/CATANIA_MARIANO_LOGO_1080.mp4
+entregables/catania_mariano_logo_20260915/_descartados_yuv444/CATANIA_MARIANO_LOGO_WHATSAPP.mp4
+entregables/catania_mariano_logo_20260915/TARJETA_LOGO_1080x1920.png
+entregables/catania_mariano_logo_20260915/final_playa.jpg
+entregables/catania_mariano_logo_20260915/REVISION_FINAL_LOGO.jpg
+entregables/catania_mariano_logo_20260915/CATANIA_MARIANO_LOGO_WHATSAPP.mp4
+entregables/catania_mariano_subs_20260914/fuentes/PlayfairDisplay[wght].ttf
+entregables/catania_mariano_subs_20260914/fuentes/PlayfairDisplay-Italic[wght].ttf
+entregables/catania_mariano_subs_20260914/recibo_whatsapp.json
+entregables/catania_mariano_subs_20260914/REVISION_SUBS.jpg
+entregables/catania_mariano_subs_20260914/remezclar_audio.py
+entregables/catania_mariano_subs_20260914/subs_difference_sfx.py
+entregables/catania_mariano_subs_20260914/CATANIA_MARIANO_PLAYA_1080.mp4
+entregables/catania_mariano_subs_20260914/diag_full_1.2.png
+entregables/catania_mariano_subs_20260914/CATANIA_MARIANO_SUBS_1080.mp4
+entregables/catania_mariano_subs_20260914/final_C/REV_CLIP2_POSTERIOR_A_MAR.jpg
+entregables/catania_mariano_subs_20260914/final_C/inicio_C_1.5.png
+entregables/catania_mariano_subs_20260914/final_C/fin_C_9.5.png
+entregables/catania_mariano_subs_20260914/final_C/posterior_chica.jpg
+entregables/catania_mariano_subs_20260914/final_C/posterior_720x1280.png
+entregables/catania_mariano_subs_20260914/final_C/CLIP2_POSTERIOR_A_MAR.mp4
+entregables/catania_mariano_subs_20260914/final_C/REV_CLIP1_JARDIN_A_POSTERIOR.jpg
+entregables/catania_mariano_subs_20260914/final_C/estado_clip2.json
+entregables/catania_mariano_subs_20260914/final_C/CLIP1_JARDIN_A_POSTERIOR.mp4
+entregables/catania_mariano_subs_20260914/final_C/kling_final_C.py
+entregables/catania_mariano_subs_20260914/final_C/estado_clip1.json
+entregables/catania_mariano_subs_20260914/CATANIA_MARIANO_PLAYA_WHATSAPP.mp4
+entregables/catania_mariano_subs_20260914/sfx.wav
+entregables/catania_mariano_subs_20260914/enviar_whatsapp.py
+entregables/catania_mariano_subs_20260914/CATANIA_MARIANO_SUBS_WHATSAPP.mp4
+entregables/catania_mariano_subs_20260914/diag_full_8.6.png
+entregables/catania_mariano_subs_20260914/recortar_mariano.py
+entregables/catania_mariano_subs_20260914/mascaras_mariano.npy
+entregables/catania_mariano_subs_20260914/musica/MUSICA_SUAVE_45s.mp3
+entregables/catania_mariano_subs_20260914/musica/musica_estado.json
+entregables/catania_mariano_subs_20260914/musica/generar_musica.py
+entregables/catania_mariano_subs_20260914/musica/musica_playa_estado.json
+entregables/catania_mariano_subs_20260914/musica/generar_musica_playa.py
+entregables/catania_mariano_subs_20260914/musica/MUSICA_PLAYA_45s.mp3
+entregables/catania_mariano_subs_20260914/REVISION_RECORTE.jpg
+entregables/catania_mariano_subs_20260914/transicion_19s/fin_B_2.5.png
+entregables/catania_mariano_subs_20260914/transicion_19s/REVISION_TRANSICION.jpg
+entregables/catania_mariano_subs_20260914/transicion_19s/par.jpg
+entregables/catania_mariano_subs_20260914/transicion_19s/inicio_A_13.5.png
+entregables/catania_mariano_subs_20260914/transicion_19s/kling_transicion_A_B.py
+entregables/catania_mariano_subs_20260914/transicion_19s/transicion_estado.json
+entregables/catania_mariano_subs_20260914/transicion_19s/TRANSICION_A_B_KLING.mp4
+entregables/catania_mariano_subs_20260914/diag_1.2s_base.jpg
+entregables/catania_mariano_subs_20260914/PRUEBA_SUBS.jpg
+entregables/catania_mariano_subs_20260914/diag_1.2s.jpg
+entregables/catania_genjutsu_20260913/MONTAJE/RECORRIDO_BLENDER_COMPLETO_43s.mp4
+entregables/catania_genjutsu_20260913/MONTAJE/VOZ_SINCRONIZADA.m4a
+entregables/catania_genjutsu_20260913/recibos_whatsapp_5216311301667.json
+entregables/catania_genjutsu_20260913/enviar_paquete_whatsapp.py
+entregables/catania_genjutsu_20260913/TRAMO_C_IMAGENES.zip
+entregables/catania_genjutsu_20260913/LEEME_PASO_A_PASO.txt
+entregables/catania_genjutsu_20260913/TRAMO_B_IMAGENES.zip
+entregables/catania_genjutsu_20260913/TRAMO_A_IMAGENES.zip
+entregables/catania_genjutsu_20260913/TRAMO_C/04_fachada_lateral_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_C/03_jardin_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_C/02_terreno_y_mar.png
+entregables/catania_genjutsu_20260913/TRAMO_C/PROMPT_TRAMO_C.txt
+entregables/catania_genjutsu_20260913/TRAMO_C/01_casa_posterior.png
+entregables/catania_genjutsu_20260913/TRAMO_C/05_casa_amueblada.png
+entregables/catania_genjutsu_20260913/TRAMO_C/00_VIDEO_TRAMO_C.mp4
+entregables/catania_genjutsu_20260913/TRAMO_B/08_recamara_abajo_real_2.jpg
+entregables/catania_genjutsu_20260913/TRAMO_B/00_VIDEO_TRAMO_B.mp4
+entregables/catania_genjutsu_20260913/TRAMO_B/10_jardin_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_B/01_casa_sin_muebles.png
+entregables/catania_genjutsu_20260913/TRAMO_B/07_recamara_abajo_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_B/06_medio_bano_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_B/02_casa_amueblada.png
+entregables/catania_genjutsu_20260913/TRAMO_B/05_bano_regadera_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_B/03_recamara_principal_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_B/09_recamara_abajo_real_3.jpg
+entregables/catania_genjutsu_20260913/TRAMO_B/PROMPT_TRAMO_B.txt
+entregables/catania_genjutsu_20260913/TRAMO_B/04_bano_real.jpg
+entregables/catania_genjutsu_20260913/recibos_whatsapp.json
+entregables/catania_genjutsu_20260913/TRAMO_A/PROMPT_TRAMO_A.txt
+entregables/catania_genjutsu_20260913/TRAMO_A/06_sala_medio_real_2.jpg
+entregables/catania_genjutsu_20260913/TRAMO_A/00_VIDEO_TRAMO_A.mp4
+entregables/catania_genjutsu_20260913/TRAMO_A/15_roof_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_A/13_roof_vacio.png
+entregables/catania_genjutsu_20260913/TRAMO_A/10_sala_tv_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_A/12_cocina_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_A/08_sala_comedor_vacia.png
+entregables/catania_genjutsu_20260913/TRAMO_A/04_sala_medio_vacia.png
+entregables/catania_genjutsu_20260913/TRAMO_A/01_casa_sin_muebles.png
+entregables/catania_genjutsu_20260913/TRAMO_A/02_casa_amueblada.png
+entregables/catania_genjutsu_20260913/TRAMO_A/07_escalera_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_A/05_sala_medio_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_A/03_fachada_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_A/14_roof_amueblado.png
+entregables/catania_genjutsu_20260913/TRAMO_A/11_comedor_real.jpg
+entregables/catania_genjutsu_20260913/TRAMO_A/09_sala_comedor_amueblada.png
+entregables/logo_mariano_20260915/LOGO_B_MARIANO_HERRERA_ASESOR.png
+entregables/logo_mariano_20260915/LOGO_A_BAJA_HOMES_BY_MARIANO.png
+entregables/logo_mariano_20260915/LOGO_C_BAJA_HOMES_VECTOR_preview.png
+entregables/catania_seedream5_20260910/02_mapa_cuartos.png
+entregables/catania_seedream5_20260910/05_C_comedor_2_27.jpg
+entregables/catania_seedream5_20260910/04_B_sala_pa_4_31.jpg
+entregables/catania_seedream5_20260910/08_F_sala_6_32.jpg
+entregables/catania_seedream5_20260910/10_H_recamara_ppal_1_22.jpg
+entregables/catania_seedream5_20260910/03_A_h47.jpg
+entregables/catania_seedream5_20260910/01_estructura_blender.png
+entregables/catania_seedream5_20260910/09_G_recamara_3_26.jpg
+entregables/catania_seedream5_20260910/06_D_cocina_1_30.jpg
+entregables/catania_seedream5_20260910/CATANIA_GPT_IMAGE_20260911.png
+entregables/catania_seedream5_20260910/catania_seedream5_20260910.png
+entregables/catania_seedream5_20260910/07_E_recamara_ppal_2_24.jpg
+entregables/catania_vista_actual_20260909/vista_control.png
+entregables/catania_vista_actual_20260909/CATANIA_VISTA_EEVEE.png
+entregables/catania_vista_actual_20260909/vista_previa_eevee.png
+entregables/catania_angulo_gptimage_20260911/BLENDER_VISTA_ACTUAL.png
+entregables/catania_render_kaggle_20260912/HOJA_AVANCE_COMPLETO.jpg
+entregables/catania_render_kaggle_20260912/HOJA_VIDEO_MONTADO.jpg
+entregables/catania_mariano_subs_20260914/REVISION_SUBS.jpg
+entregables/catania_mariano_subs_20260914/diag_full_1.2.png
+entregables/catania_mariano_subs_20260914/diag_full_8.6.png
+entregables/catania_mariano_subs_20260914/REVISION_RECORTE.jpg
+entregables/catania_mariano_subs_20260914/diag_1.2s_base.jpg
+entregables/catania_mariano_subs_20260914/PRUEBA_SUBS.jpg
+entregables/catania_mariano_subs_20260914/diag_1.2s.jpg
+entregables/implante_dental/ROSTRO_PRUEBA_200.png
+entregables/implante_dental/ROSTRO_PRUEBA_620.png
+entregables/implante_dental/PREVIEW_INICIO.png
+entregables/catania_revision_conjunta_20260909/angulo_carlos_claude.png
+entregables/catania_revision_conjunta_20260909/sala_cycles_v1_oscura.png
+entregables/catania_revision_conjunta_20260909/sala_cycles_revision.png
+entregables/subtitulos_referencia_DdMLGBcMTEM/ESTILO_LETRAS.jpg
+entregables/iglesia_gracia_de_dios_20260914/VOLANTE_GRACIA_DE_DIOS_v1_preview.jpg
+entregables/iglesia_gracia_de_dios_20260914/ref_local_y_telefonos.jpg
+entregables/iglesia_gracia_de_dios_20260914/ref_logo_gracia_de_dios.jpg
+entregables/iglesia_gracia_de_dios_20260914/VOLANTE_GRACIA_DE_DIOS_v2.png
+entregables/iglesia_gracia_de_dios_20260914/VOLANTE_GRACIA_DE_DIOS_v1.png
+entregables/iglesia_gracia_de_dios_20260914/ref_anterior_casa_de_oracion.png
+entregables/catania_mariano_logo_20260915/LOGO_ENVIADO_A_MARIANO.jpg
+entregables/catania_mariano_logo_20260915/TARJETA_LOGO_1080x1920.png
+entregables/catania_mariano_logo_20260915/final_playa.jpg
+entregables/catania_mariano_logo_20260915/REVISION_FINAL_LOGO.jpg
+visionagenciaIAv2.0-cripto-sim-y-corte-catania/VisionagenciaIAv2.0-main/clientes/Mariano/estado.json
+visionagenciaIAv2.0-cripto-sim-y-corte-catania/VisionagenciaIAv2.0-main/clientes/Vision Agencia/estado.json
+visionagenciaIAv2.0-cripto-sim-y-corte-catania/VisionagenciaIAv2.0-main/clientes/360* salud optima/estado.json
+
+exec
+/bin/bash -lc 'cat entregables/MENSAJE_PARA_ASTRA_CRECIMIENTO.md; cat visionagenciaIAv2.0-cripto-sim-y-corte-catania/VisionagenciaIAv2.0-main/PENDIENTES-2026-09-03.md' in /workspaces/visionagenciaIAV2.0
+ succeeded in 48ms:
+Astra, soy Claude otra vez. Carlos te pregunta directamente:
+
+> «¿Cómo puedo hacer crecer más mi agencia viendo el contenido que estoy haciendo?»
+
+Solo lectura: no modifiques archivos, no envíes mensajes, no toques Blender. Revisa el contenido real y contéstale a él.
+
+## Dónde ver lo que hace
+
+- `entregables/` — todo lo producido en septiembre 2026, por carpeta y fecha:
+  - Catania para Mariano (asesor inmobiliario, San Marino Residencial, Tijuana): recorrido de casa hecho en Blender →
+    Genjutsu/Kling, gancho con Mariano hablando, subtítulos estilo reel, efectos, música y cierre con su logo nuevo
+    (`catania_mariano_logo_20260915/CATANIA_MARIANO_LOGO_1080.mp4`, `catania_mariano_subs_20260914/`, `catania_genjutsu_20260913/`).
+  - Implante dental (Alberto): hoja de proceso, modelo 3D en Blender, transición Kling, voz Fish (`implante_dental/`).
+  - 360 Salud Óptima (cartel, hoja «pague después», anuncios), iglesia Gracia de Dios (volante), logo de Mariano.
+- `visionagenciaIAv2.0-cripto-sim-y-corte-catania/VisionagenciaIAv2.0-main/clientes/` — clientes (Mariano, 360 salud óptima,
+  Caza Impresos, Vision Agencia, _manuel_arroyo, _stefani), su `estado.json` e historial.
+- `.../clientes/Mariano/LANDING_SAN_MARINO_DATOS.md` — métricas de la landing (373 visitas, 5 % de scroll).
+- `copia para whatsapp/mensaje_prospectos_video_mariano.md` — su oferta actual a prospectos.
+- `DOCUMENTO_PARA_GPT6_ASTRA.md`, `.../PENDIENTES-2026-09-03.md` — panorama del negocio.
+
+## Su posicionamiento (en sus palabras)
+
+- Control total del resultado con IA porque primero se construye el modelo 3D y después se usa la IA; casi nadie lo hace.
+- Las capacidades publicitarias aumentan pero el precio no: **500 pesos al mes por 4 videos, siempre**.
+- «Yo lo logré en Facebook y esa es mi obsesión; necesito más clientes en diferentes nichos para lograrlo.»
+- Busca clientes que de verdad quieran triunfar en Facebook. Él propone y hace todo (guion, 3D, IA, edición).
+
+## Qué necesita de ti
+
+Un plan concreto y honesto, basado en lo que ves en esos archivos (no genérico):
+1. Qué de su contenido es realmente diferencial y cómo mostrarlo para conseguir clientes (portafolio, casos, antes/después del 3D).
+2. Si el precio de 500 pesos/mes por 4 videos es sostenible con el costo y tiempo que ves en cada entrega (modelos,
+   Kling, GPT, horas de Blender); qué ajustar sin romper su promesa de precio fijo.
+3. Qué nichos atacar primero según lo que ya sabe hacer, y cómo prospectar en cada uno.
+4. Qué procesos repetir o automatizar para producir más videos por cliente sin bajar calidad.
+5. Riesgos que ves (dependencia de un cliente, derechos de usar trabajos de clientes como muestra, promesas médicas, etc.).
+6. Las 3 acciones de esta semana con mayor impacto.
+
+Respuesta en español, directa, para Carlos.
+# Dónde quedó todo — 3 sep 2026, noche
+
+## ✅ Cerrado y ENVIADO por WhatsApp
+
+### Librito de Rar~Amore (Ángel, 360 Salud Óptima)
+Lo que pidió hoy 15:32–16:04 y **necesitaba para imprimir hoy**.
+
+- Letras chicas +25 a +40 % (`INGREDIENTES`, `CONTENIDO`, `PEDIDOS WHATSAPP`,
+  «precio normal», `C Á P S U L A S`, `BIENESTAR…`). Las grandes no se movieron.
+- «Extracto» en vez de «Cáscara» · «(Resveratrol)» · se agregó **Boswelia serrata**
+- Se agregó **CADUCIDAD: DIC 2028**
+- Archivos: `RarAmore_librito_CARTA_4up.pdf` (5×10, el que él marcó),
+  `RarAmore_5x8_9_CARTA_6up.pdf`, `RarAmore_5x5_CARTA_10up.pdf`
+- Scripts: `etiqueta_librito_gpt.py` (el 5×10) y `etiqueta_libro.py` (los demás)
+
+**Bug arreglado de paso en `etiqueta_libro.py`**: `dibuja_panel()` repartía el
+sobrante sin comprobar que fuera positivo, así que al crecer la letra los bloques
+se ENCIMABAN sin avisar (el 5×5 salió con «CONTIENE» encima del primer
+ingrediente). Ahora, si no cabe, encoge el panel completo con un factor global.
+
+### Cake topper de Erick (Stefani)
+Tres renders en GPT Image: fondo blanco, montado en pastel y fondo negro.
+`clientes/_stefani/topper_erick/topper_erick_gpt_v{1,2,3}.png` + `topper_erick_gpt.py`.
+Dicen **ERICK** y **4 AÑOS** (su referencia decía 3; el número va repetido tres
+veces en el prompt porque si no lo copia mal). El SVG de 27 capas para Cricut
+sigue siendo el de cortar.
+
+## ⚠️ HECHO PERO SIN REVISAR NI ENVIAR
+
+### Etiquetas de BOTE de 360 (`etiqueta_bote.py`)
+Se generaron `360_KUIRABA30_IMPRENTA_v6.pdf`, `360_RARAMORE30_…` y
+`360_RARAMORE60_…` (164.0 × 66.0 mm, la misma medida de su v5).
+**NO se han visto ni mandado.** Hay que abrirlos y revisarlos antes.
+
+Cómo están hechas: las guirnaldas de oro, el sello «100% NATURAL» y el icono de
+WhatsApp se **recortan de su propio PDF v5** a 600 dpi (`bote_sprites/`), así que
+el arte es idéntico al que ya aprobó y sólo cambia el texto.
+
+Se reacomodó porque con SIETE ingredientes y más grandes ya no cabía como antes:
+izquierda ingredientes + modo de uso, derecha útil para + legales, y al pie
+`CONTENIDO … · CADUCIDAD: DIC 2028`.
+
+### TRES PREGUNTAS ABIERTAS PARA ÁNGEL
+1. **Vitamina D** y **Cáscara de toronja** salieron del librito porque su lista
+   nueva ya no las trae. ¿Regresan?
+2. Su archivo se llama `RARAMORE_VERDE_**60**` pero adentro dice
+   **«CONTENIDO: 30 CÁPSULAS»**. ¿Cuál es?
+3. El **Bálsamo** (`44_…pdf`, 254 × 56 mm) **no se tocó**: es un fotomontaje
+   (bosque, la figura tarahumara, código de barras) y no hay script suyo en el
+   repo — se hizo en el Mac el 24 ago. Para subirle las letras chicas hay que
+   reconstruirlo o parchar encima de su PDF. Falta decidir.
+
+## 🔧 A MEDIAS — Catania
+
+`clientes/Mariano/blender/corte_mascaras.py` (nuevo) ya saca del cuadro 1021:
+`corte_gris.png` y `corte_blanco.png` en `referencias_3d/corte/`.
+
+**Las máscaras por cuarto TODAVÍA NO SIRVEN.** Van dos bugs, uno arreglado:
+
+1. ~~Los muros son de **7 cm** y la cuadrícula de 15, así que preguntando si el
+   CENTRO de la celda caía dentro del muro casi ninguna se marcaba: los 16
+   cuartos daban el nivel entero (52 m²).~~ **Arreglado**: ahora se pregunta si
+   la celda CRUZA el muro.
+2. **Falta**: sólo se apuntan **22 muros** de los ~158 visibles. El filtro por
+   nombre (`muro`/`div`) se queda corto — la casa también parte con `ext_*`,
+   `a2_muro_*`, `esc_*`, `lam_*` y los `pta_*_marco`. Con 22 la planta baja da
+   sólo 2 manchas de 6 cuartos, y la planta alta y la azotea siguen en 1.
+   **Siguiente paso: ampliar `apunta_muros()`** para tomar todo lo que sea
+   delgado (`min(dx,dy) < 0.35`) y alto (`dz > 1.5`) dentro de la casa, en vez
+   de filtrar por nombre.
+
+También quedó guardado `cuartos_camara.py` con `if __name__ == "__main__":`
+para poder importarle `CUARTOS` y `limpia()` sin disparar un render.
+`_tanda_cuartos.sh` no cambia (Blender corre los `-P` como `__main__`).
+
+**El plan completo** (por qué room-by-room y no una sola pasada) está en la
+conversación: ControlNet-union para la geometría → `genfill` con máscara por
+cuarto → un pase de nano-banana-pro/edit-multi para unificar luz. ≈ $0.75.
+
+Blender 3.3.21 está de vuelta en `/tmp/blender-3.3.21-linux-x64/` (se borra al
+reiniciar el Codespace).
+
+## 🆕 NO EMPEZADO — simulador del algoritmo Andrómeda
+
+Lo pidió esta noche: **jalar las métricas de sus anuncios y del anuncio GANADOR
+(el que está desplegado)**, para subir anuncios nuevos y ver cuál puede alcanzar
+esas métricas.
+
+Ya se lo había contado a Ángel por WhatsApp (3 sep 02:04 y 04:10: «ya lo logré»),
+así que hay algo hecho — **primero hay que encontrarlo en el repo**.
+
+Para las métricas de Meta hay **dos conectores MCP ya montados en la sesión**:
+Supermetrics y Windsor.ai. Ése es el camino, no scrapear.
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+from pathlib import Path
+import json
+r=Path('visionagenciaIAv2.0-cripto-sim-y-corte-catania/VisionagenciaIAv2.0-main/clientes')
+for f in r.glob('*/estado.json'):
+ d=json.loads(f.read_text());print(f.parent.name);print(json.dumps(d,ensure_ascii=False)[:9000])
+print('360 entregas')
+for d in Path('entregables').iterdir():
+ if '360' in d.name or 'pague' in d.name:
+  print(d);print([f.name for f in d.iterdir()][:20])
+PY" in /workspaces/visionagenciaIAV2.0
+ succeeded in 79ms:
+Mariano
+{"cliente": "Mariano", "telefono": "5216642334848", "fase_actual": "publicacion", "oferta": null, "unicornio_referencia": null, "guion": {"texto": "[Guion inferido de 6 archivo(s) de audio]", "version": "master"}, "voz": {"clonada": false, "version": null, "banco_voz_default": null, "audio_path": null}, "fotos_referencia": [], "ancla_identidad": {"descripcion_prenda": "saco sport beige claro sin corbata sobre camisa blanca abotonada, jeans azul oscuro con cinturon de piel cafe y reloj plateado en la muneca izquierda, zapatos cafes; nunca traje azul marino de dos piezas ni overol", "descripcion_rostro": null, "nota": "Ropa tomada de sus principales trust/cta, las fotos reales en la oficina de San Marino"}, "escenas": {"hook": {"estado": "aprobada", "path": "character_sheet.png"}, "demo": {"estado": "aprobada", "path": "character_sheet_realista.png"}, "trust": {"estado": "aprobada", "path": "frameA_celular.png"}, "cta": {"estado": "aprobada", "path": "frameB_defrente.png"}}, "video": {"estado": "aprobada", "path": "mariano_hablando_infinitetalk.mp4"}, "publicacion": {"facebook": {"pagina": "Mariano asesor Inmobiliario", "acceso": "Full access (everything except sensitive actions)", "via": "Partner en Business Manager 'Baja Homes by Mariano'", "business_id_vision_agencia": "717004648166977", "page_token": null, "nota": "Acceso de persona, no de sistema: falta Page Access Token para publicar por API"}, "meta_ads": {"cuenta_publicitaria_asignada": false, "nota": "Solo asigno 1 activo (la pagina). Sin ad account no se puede pautar."}, "admin_agregado": true}, "metricas": {"datos": null, "ultima_actualizacion": null}, "historial": [{"ts": "2026-07-21T00:19:47.708Z", "fase": "imagen", "accion": "confirmó primer pago vía WhatsApp (\"listo el primer pago\")"}, {"ts": "2026-07-21T00:19:47.709Z", "fase": "imagen", "accion": "pidió que los ganchos del video sean tipo urgencia"}, {"ts": "2026-07-23T03:01:13.092Z", "fase": "imagen", "accion": "recibido: [image] "}, {"ts": "2026-07-23T03:01:37.686Z", "fase": "imagen", "accion": "recibido: Mañana sale con realismo y con este gancho general para meter las 3 casas y con edición de subtitulos 🫡"}, {"ts": "2026-07-23T03:31:10.894Z", "fase": "imagen", "accion": "recibido: Ok"}, {"ts": "2026-07-23T03:31:30.330Z", "fase": "imagen", "accion": "recibido: que le parece la sugerencia de la IA?"}, {"ts": "2026-07-23T03:32:02.070Z", "fase": "imagen", "accion": "recibido: o lo hacemos como dice usted, no tengo preferencias jeje, con que se vea bien a mi estilo lo sacamos"}, {"ts": "2026-07-23T03:32:17.768Z", "fase": "imagen", "accion": "recibido: Me gusta"}, {"ts": "2026-07-23T03:32:31.642Z", "fase": "imagen", "accion": "recibido: Aah muy bien mañana lo sacamos así entonces 🫡"}, {"ts": "2026-08-04T16:42:00.000Z", "fase": "publicacion", "accion": "Mariano agrego a Vision Agencia como Partner y asigno la pagina 'Mariano asesor Inmobiliario' con acceso total; falta cuenta publicitaria e Instagram"}], "createdAt": "2026-07-21T00:19:22.555Z", "updatedAt": "2026-08-04T18:35:02.848697Z", "stride": {"archivo": "frames/stride_v5.png", "sd": 84.3, "pierna_piso": 129.8, "cuerpo_alto_pct": 76.9, "punto": 0.965, "entre": 6, "criterio": "sd>=50 y pierna-piso>=50; la apertura no decide"}}
+Vision Agencia
+{"cliente": "Vision Agencia", "telefono": null, "fase_actual": "video", "oferta": null, "unicornio_referencia": null, "guion": {"texto": null, "version": null}, "voz": {"clonada": false, "version": null, "banco_voz_default": null, "audio_path": null}, "fotos_referencia": [], "ancla_identidad": {"descripcion_prenda": null, "descripcion_rostro": null}, "escenas": {"hook": {"estado": "pendiente", "path": null}, "demo": {"estado": "pendiente", "path": null}, "trust": {"estado": "pendiente", "path": null}, "cta": {"estado": "pendiente", "path": null}}, "video": {"estado": "pendiente", "path": null}, "publicacion": {"facebook": null, "meta_ads": null, "admin_agregado": false}, "metricas": {"datos": null, "ultima_actualizacion": null}, "historial": [{"ts": "2026-07-06T19:51:32.755Z", "fase": "oferta", "accion": "estado inicial creado (template)"}, {"ts": "2026-07-06T21:15:11.364Z", "fase": "video", "accion": "status real detectado en auditoria: infinitetalk 25s generado, pitch propio, falta pulir"}], "createdAt": "2026-07-06T19:51:32.755Z", "updatedAt": "2026-07-06T21:15:11.364Z"}
+360* salud optima
+{"cliente": "360* salud optima", "telefono": "5216275177203", "fase_actual": "guion_audio", "oferta": null, "unicornio_referencia": null, "guion": {"texto": "[Guion inferido de 5 archivo(s) de audio]", "version": "master"}, "voz": {"clonada": true, "version": "v1_original", "banco_voz_default": null, "audio_path": "audio_original.mp3", "voice_id_1": "pnzuVCUiUy0sudFICMht", "voice_id_2_instagram": "NVnDRE5dMj2Xg2Em1PSO", "voice_id_nuevo_2026_07_28": "VtyEFemPH1Reo3ab2e2x", "nota": "El voice_id anterior (pnzuVCUiUy0sudFICMht) fue borrado de la cuenta y daba 404. Reclonada desde audio_original.mp3 (138s)."}, "fotos_referencia": [], "ancla_identidad": {"descripcion_prenda": null, "descripcion_rostro": null}, "escenas": {"hook": {"estado": "pendiente", "path": null}, "demo": {"estado": "pendiente", "path": null}, "trust": {"estado": "pendiente", "path": null}, "cta": {"estado": "pendiente", "path": null}}, "video": {"estado": "aprobada", "path": "WhatsApp Video 2026-07-23 at 2.53.59 PM.mp4"}, "publicacion": {"facebook": null, "meta_ads": null, "admin_agregado": false}, "metricas": {"datos": null, "ultima_actualizacion": null}, "historial": [{"ts": "2026-07-06T19:51:32.740Z", "fase": "oferta", "accion": "estado inicial creado (template)"}, {"ts": "2026-07-06T21:15:10.905Z", "fase": "imagen", "accion": "status real detectado en auditoria: storyboard e imagen v2 listos, falta armar video final"}, {"ts": "2026-07-07T00:59:50.403Z", "fase": "imagen", "accion": "recibido: Buenas Tardes mi estimado Charlye \nestoy en eso \nAla Brevedad!!!"}, {"ts": "2026-07-07T01:00:10.000Z", "fase": "imagen", "accion": "cliente avisa que esta resolviendo algo de su lado pronto, sin dato nuevo ni pendiente claro de mi parte; no se genero nada, se respondio breve"}, {"ts": "2026-07-24T01:54:30.000Z", "fase": "voz", "accion": "voces clonadas: audio_original (pnzuVCUiUy0sudFICMht) e instagram (NVnDRE5dMj2Xg2Em1PSO)"}, {"ts": "2026-07-28T23:40:00.000Z", "fase": "publicacion", "accion": "voz reclonada como '360 Salud Asesor MX' = VtyEFemPH1Reo3ab2e2x; guiones reescritos sin claims terapeuticos"}, {"ts": "2026-08-04T21:36:00Z", "fase": "imagen", "accion": "ORDEN: 1) Sugerir escenas para las imagenes existentes que ilustren la historia del audio balsamo raramuri. 2) En stride, la persona que salga en video debe tener efecto rayos X (X-ray vision, skeletal/structural view, transparent skin showing inner body, medical imaging aesthetic)."}, {"ts": "2026-08-04T22:26:36.333969+00:00", "fase": "imagen", "accion": "4 escenas sugeridas con prompts de imagen + efecto rayos X para stride. Guardado en escenas_sugeridas.json"}, {"ts": "2026-08-04T23:28:07.272062Z", "fase": "guion_audio", "accion": "Fase corregida por Carlos: estaba en 'imagen' tras la pasada de OpenCode; el trabajo real esta en audio."}], "createdAt": "2026-07-06T19:51:32.740Z", "updatedAt": "2026-08-04T23:28:07.272062Z"}
+360 entregas
+entregables/360salud_hoja_pague_despues_20260911
+['HOJA_PAGUE_DESPUES_v1.png', 'hoja_gptimage2.py', 'HOJA_PAGUE_DESPUES_v2_CARTA.pdf', 'HOJA_PAGUE_DESPUES_v4_CARTA.pdf', 'hoja_v4_modo_de_uso.py', 'HOJA_PAGUE_DESPUES_v2_CARTA.png', 'HOJA_PAGUE_DESPUES_v4_CARTA.png', 'ref_jesus_esquina.jpg', 'HOJA_PAGUE_DESPUES_v4_preview.jpg', 'HOJA_PAGUE_DESPUES_CARTA.pdf', 'recibo_envio_carlos_v3.json', 'HOJA_PAGUE_DESPUES_CARTA.png', 'recibo_envio_modo_de_uso.json', 'HOJA_PAGUE_DESPUES_v3_CARTA.png', 'HOJA_PAGUE_DESPUES_v3_CARTA.pdf', 'hoja_v2_precio.py', 'hoja_v3_ingredientes_balsamo.py', 'HOJA_PAGUE_DESPUES_v2_preview.jpg', 'recibo_envio_jesus.json', 'HOJA_PAGUE_DESPUES_v3_preview.jpg']
+entregables/360salud_cartel_beneficios_20260914
+['fuentes', 'recibo_envio_carlos_v2.json', 'recibo_envio_carlos.json', 'ref_frascos_jesus.jpg', 'CARTEL_BENEFICIOS_CARTA.pdf', 'recibo_envio_pdfs_jesus.json', 'CARTEL_BENEFICIOS_preview.jpg', 'cartel_beneficios.py', 'original_jesus_RarAmore_CARTEL_carta.pdf', 'CARTEL_BENEFICIOS_CARTA.png']
+entregables/360salud_anuncio_swipefile_20260911
+['ANUNCIO_PRUEBELO_v1.png', 'enviar_v2_carlos.py', 'recibo_envio_v2_carlos.json', 'anuncio_gptimage2.py', 'ANUNCIO_PRUEBELO_v2_CARTA.pdf', 'ANUNCIO_PRUEBELO_v1.jpg', 'anuncio_v2_numero.py', 'ANUNCIO_PRUEBELO_CARTA.pdf', 'ANUNCIO_PRUEBELO_v2.png', 'ANUNCIO_PRUEBELO_v2.jpg']
+
+codex
+Veo una diferencia clara: Catania y el implante hacen comprensible algo que una grabación normal no muestra. También veo muchas revisiones por entrega y poca medición comercial registrada. Eso pesa mucho para sostener los cuatro videos por $500.
+exec
+/bin/bash -lc "python3 - <<'PY'
+from pathlib import Path
+for folder in ['entregables/implante_dental','entregables/catania_mariano_subs_20260914']:
+ for p in Path(folder).rglob('*.py'):
+  if p.stat().st_size>150000:continue
+  lines=p.read_text(errors='ignore').splitlines()
+  matches=[l.strip()[:240] for l in lines if any(w in l.lower() for w in ['costo','cost','precio','usd'])]
+  if matches:print(p, '\\n'+'\\n'.join(matches[:6]))
+PY" in /workspaces/visionagenciaIAV2.0
+ succeeded in 132ms:
+web search: 
+web search: site.gob.mx cofepris publicidad suplementos alimenticios no propiedades terapeuticas ...
+exec
+/bin/bash -lc "cat entregables/catania_mariano_logo_20260915/poner_logo_final.py | head -95; find entregables/implante_dental/gpt_estilo_hoja entregables/implante_dental/gpt_transicion -maxdepth 1 -type f -iname '*.png'" in /workspaces/visionagenciaIAV2.0
+ succeeded in 88ms:
+"""Tarjeta final con el logo de Mariano (Carlos: «ponle el logo que le mandé a Mariano al final del video»).
+Logo = propuesta B «MARIANO HERRERA · Asesor Inmobiliario» (la imagen que Carlos mandó a Mariano el 15-09 00:17 UTC);
+se usa el PNG original generado, no la copia comprimida de WhatsApp.
+
+Video base: CATANIA_MARIANO_PLAYA_1080.mp4 (subtítulos, efectos y música de playa). Termina en la vista aérea del mar.
+Tarjeta: fondo del color del logo, logo recortado a su contenido al 88 % del ancho con zoom suave 94→100 %,
+fundido de FUNDIDO s desde el último plano y TARJETA s de duración total. Audio: el del video, rellenado con
+silencio y con salida suave al final.
+Prueba 2: xfade con el PNG dejó el video en yuv444p (High 4:4:4) y no se reproducía en celular/WhatsApp;
+ahora ambas salidas se fuerzan a yuv420p, perfil High.
+Uso: python3 poner_logo_final.py"""
+import os, subprocess
+import numpy as np
+from PIL import Image
+
+AQUI = os.path.dirname(os.path.abspath(__file__))
+VIDEO = os.path.join(AQUI, "..", "catania_mariano_subs_20260914", "CATANIA_MARIANO_PLAYA_1080.mp4")
+LOGO = os.path.join(AQUI, "..", "logo_mariano_20260915", "LOGO_B_MARIANO_HERRERA_ASESOR.png")
+SALIDA = os.path.join(AQUI, "CATANIA_MARIANO_LOGO_1080.mp4")
+WHATSAPP = os.path.join(AQUI, "CATANIA_MARIANO_LOGO_WHATSAPP.mp4")
+W, H, FPS = 1080, 1920, 24
+TARJETA, FUNDIDO, ANCHO = 3.5, 0.8, 0.88
+
+
+def dur(r):
+    return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                          "-of", "csv=p=0", r]).decode())
+
+
+# Logo recortado a su contenido, sobre un lienzo vertical del color de su fondo.
+# Prueba 1: el PNG trae transparencia y convert("RGB") la volvió negra (tarjeta negra, letras invisibles);
+# ahora la transparencia se compone sobre el gris claro de la versión que recibió Mariano.
+GRIS_LOGO = (247, 247, 247)
+crudo = Image.open(LOGO).convert("RGBA")
+im = Image.new("RGB", crudo.size, GRIS_LOGO)
+im.paste(crudo, mask=crudo.split()[3])
+a = np.asarray(im).astype(int)
+fondo = np.array(GRIS_LOGO)
+tinta = np.abs(a - fondo).sum(axis=2) > 40
+ys, xs = np.nonzero(tinta)
+margen = 12
+logo = im.crop((max(0, xs.min() - margen), max(0, ys.min() - margen),
+                min(im.width, xs.max() + margen), min(im.height, ys.max() + margen)))
+ancho = int(W * ANCHO)
+logo = logo.resize((ancho, int(logo.height * ancho / logo.width)), Image.Resampling.LANCZOS)
+lienzo = Image.new("RGB", (W, H), tuple(int(c) for c in fondo))
+lienzo.paste(logo, ((W - logo.width) // 2, (H - logo.height) // 2))
+tarjeta_png = os.path.join(AQUI, "TARJETA_LOGO_1080x1920.png")
+lienzo.save(tarjeta_png)
+
+D = dur(VIDEO)
+total = D + TARJETA - FUNDIDO
+cuadros = int(round(TARJETA * FPS))
+filtro = (
+    "[0:v]fps=%d,format=yuv420p,settb=1/%d[v0];" % (FPS, FPS)
+    # zoom suave 0.94 → 1.00 durante la tarjeta, centrado
+    + "[1:v]loop=loop=%d:size=1:start=0,fps=%d,scale=%d:%d,"
+      "zoompan=z='0.94+0.06*min(on/%d\\,1)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=%dx%d:fps=%d,"
+      "trim=end_frame=%d,format=yuv420p,setsar=1,settb=1/%d[v1];" % (cuadros, FPS, W * 2, H * 2, int(FPS * 1.6), W, H, FPS, cuadros, FPS)
+    + "[v0][v1]xfade=transition=fade:duration=%.2f:offset=%.3f[v];" % (FUNDIDO, D - FUNDIDO)
+    + "[0:a]apad,atrim=0:%.3f,afade=t=out:st=%.3f:d=1.2[a]" % (total, total - 1.2)
+)
+subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", VIDEO, "-i", tarjeta_png, "-filter_complex", filtro,
+                "-map", "[v]", "-map", "[a]", "-t", "%.3f" % total, "-c:v", "libx264", "-pix_fmt", "yuv420p", "-profile:v", "high", "-preset", "slow", "-crf", "18",
+                "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", SALIDA], check=True)
+subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", SALIDA, "-vf", "scale=720:1280,format=yuv420p", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-profile:v", "high", "-crf", "26",
+                "-preset", "slow", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", WHATSAPP], check=True)
+subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "%.2f" % (D - 1.5), "-i", SALIDA, "-vf",
+                "fps=3,scale=180:320,tile=8x2", "-frames:v", "1", os.path.join(AQUI, "REVISION_FINAL_LOGO.jpg")], check=True)
+print("listo", SALIDA, "%.2f s (esperado %.2f)" % (dur(SALIDA), total), "| WhatsApp", os.path.getsize(WHATSAPP) // 1024, "KB")
+entregables/implante_dental/gpt_estilo_hoja/BLENDER_CUADRO_620.png
+entregables/implante_dental/gpt_estilo_hoja/BLENDER_CUADRO_ACTUAL.png
+entregables/implante_dental/gpt_estilo_hoja/GPT2_CUADRO_150_CLOSEUP.png
+entregables/implante_dental/gpt_estilo_hoja/BLENDER_CUADRO_150.png
+entregables/implante_dental/gpt_estilo_hoja/GPT2_CUADRO_1_ROSTRO.png
+entregables/implante_dental/gpt_transicion/GPT2_TRANSICION_CUADRO_749_v2.png
+entregables/implante_dental/gpt_transicion/GPT2_SOLO_DIENTES_ENCIAS_v4.png
+entregables/implante_dental/gpt_transicion/BLENDER_CUADRO_ACTUAL.png
+entregables/implante_dental/gpt_transicion/GPT2_TRANSICION_CUADRO_749.png
+entregables/implante_dental/gpt_transicion/GPT2_TRANSICION_CUADRO_749_v3.png
+
+codex
+Carlos, **tu oportunidad está en convertir lo que ya construiste en un servicio que puedas repetir y medir**. Catania y el implante demuestran una capacidad visual interesante. El riesgo es que cada cliente nuevo te obligue a empezar otra investigación técnica que estás cobrando como producción mensual.
+
+Revisé las secuencias de Catania, el cierre con logo, las imágenes del implante, piezas de 360 y de la iglesia, tu mensaje comercial y los estados de clientes. Hay bastante evidencia de producción; todavía falta evidencia suficiente para atribuirle ventas.
+
+**1. Tu diferencia más fuerte es explicar lo que normalmente no se puede ver.**
+
+En Catania, «le quité una pared» conecta perfectamente el gancho con la demostración: permite entender la distribución de la casa. En el implante, el corte permite entender qué sostiene el diente. Esa idea puede ser el centro de tu agencia:
+
+> **Hacemos videos que muestran por dentro lo que vendes y ayudan a tus clientes a entenderlo.**
+
+El 3D es la prueba de cómo lo haces. Al comprador le importa entender su casa, su tratamiento o su producto.
+
+Cambiaría dos afirmaciones de tu [mensaje actual](</workspaces/visionagenciaIAV2.0/copia para whatsapp/mensaje_prospectos_video_mariano.md>):
+
+- **«Control total, sin imágenes inventadas»** promete demasiado. Tus propias correcciones de muebles y anatomía muestran que la IA todavía cambia cosas. Diría: «Usamos modelos 3D y referencias reales para dirigir las tomas y revisar el resultado».
+- **«Yo triunfé en Facebook»** necesita una prueba concreta: negocio, periodo, inversión y resultado. Si la tienes, úsala. Si todavía no está documentada, abre con el trabajo que puedes mostrar.
+
+Prepararía un portafolio muy pequeño: **Catania como pieza principal y el implante como demostración de otra aplicación**. Para cada uno:
+
+- Problema del cliente.
+- Referencia real → modelo 3D → resultado final.
+- Qué se puede comprender gracias al video.
+- Resultado comercial, cuando exista; mientras tanto, identificarlo como muestra de producción.
+
+Los volantes y logos sirven como servicios complementarios. No les daría el mismo protagonismo: diluyen la diferencia de tu trabajo más fuerte.
+
+**2. Los $500 pueden sostener una producción estandarizada; no cuatro proyectos nuevos como Catania cada mes.**
+
+Tu oferta equivale a **$125 por video**, antes de herramientas, revisiones, atención y tu trabajo.
+
+No encontré una contabilidad consolidada de horas y consumo por entrega. No voy a inventarte cuánto costó Catania. Sí hay evidencia de numerosas versiones, correcciones y problemas técnicos durante varios días; eso no equivale automáticamente a jornadas completas, pero revela un proceso todavía costoso de repetir.
+
+Este ejemplo muestra la sensibilidad al tiempo. **Supongamos**, únicamente para calcular, $100 de herramientas atribuibles al paquete:
+
+| Trabajo total por cliente al mes | Quedan para trabajo, gastos y utilidad | Importe por hora antes de otros gastos |
+|---|---:|---:|
+| 2 horas | $400 | $200 |
+| 4 horas | $400 | $100 |
+| 8 horas | $400 | $50 |
+
+Con 20 clientes serían **$10,000 de ingreso y 80 videos mensuales**. Si cada video exige una hora, ya consumiste 80 horas sin contar ventas ni administración.
+
+Para conservar tu promesa:
+
+- Mantén **cuatro videos por $500** como paquete definido: duración, materiales necesarios, calendario y una ronda consolidada de cambios.
+- Obtén los cuatro videos de una base reutilizable, con cuatro mensajes distintos.
+- Ofrece trabajos especiales opcionales —otra propiedad modelada desde cero, otro procedimiento, una landing— con presupuesto separado y claramente explicado.
+- **Respeta lo ya prometido a clientes actuales.** Si les ofreciste modelado personalizado ilimitado dentro de $500, no puedes convertirlo después en un extra obligatorio sin acordarlo.
+
+La tecnología puede mejorar el paquete con el tiempo. Lo que no puedes prometer a ese precio es una cantidad ilimitada de trabajo humano.
+
+**3. Concentraría la prospección en dos nichos.**
+
+| Prioridad | A quién buscar | Qué mostrar y proponer |
+|---|---|---|
+| **Primero: inmobiliario** | Asesores y equipos que comercialicen varias unidades de un mismo desarrollo | Catania y una serie mensual: distribución, objeción del comprador, característica diferencial y visita |
+| **Segundo: dental** | Clínicas que ya ofrezcan implantes y tengan a alguien que responda consultas | La explicación del implante, revisada por su odontólogo, y una serie de preguntas frecuentes |
+| **Después: cocinas, carpintería e interiores** | Negocios con proyectos visuales y fotografías propias | Aprovechar tu experiencia mostrando espacios; probar demanda antes de construir otra biblioteca |
+
+Durante un mes dedicaría aproximadamente **70 % de la prospección a inmobiliario y 30 % a dental**. Es una propuesta de enfoque, no una predicción de resultados. Abrir diez nichos ahora multiplicaría tus guiones, modelos y revisiones.
+
+Para inmobiliario, una primera conversación podría ser:
+
+> «Vi que anuncias [propiedad]. Con Mariano hicimos este recorrido para explicar la distribución mostrando la casa por dentro. Para tu propiedad propondría empezar por [característica concreta]. Tenemos cuatro videos mensuales por $500; te explico qué incluye.»
+
+Personaliza esa característica. **No regales un video completo para cada prospecto**: una idea de guion y una muestra existente bastan para iniciar la conversación.
+
+También exploraría una colaboración con Caza Impresos: ya conoce negocios que compran comunicación visual. Primero comprobaría interés y margen; no ofrecería comisiones que el paquete todavía no puede absorber.
+
+**4. Tu siguiente mejora comercial es conectar el contenido con una acción medible.**
+
+En Catania, la tarjeta final dedica **3.5 segundos al logo**, según el script. Aprovecharía ese espacio con logo y una instrucción concreta: **«Escribe CATANIA para recibir información y agendar una visita»**. También probaría subtítulos más legibles sobre las paredes claras; algunos cuadros tienen poco contraste.
+
+El anuncio de 360 ya hace algo comercialmente útil: presenta una oferta y explica cómo pedirla y pagar. Ese nivel de claridad debe acompañar también a tus videos más elaborados.
+
+La [landing de Mariano](</workspaces/visionagenciaIAV2.0/visionagenciaIAv2.0-cripto-sim-y-corte-catania/VisionagenciaIAv2.0-main/clientes/Mariano/LANDING_SAN_MARINO_DATOS.md>) registra **373 visitas, 206 reproducciones y 5 % de scroll promedio**, pero son datos del **16 de agosto**. No prueban el rendimiento del video nuevo ni que nadie haya contactado.
+
+Antes de hacer otro recorrido, comprobaría:
+
+- Que esa medición sigue funcionando.
+- Cuántas personas hacen clic en WhatsApp.
+- Cuántas conversaciones son consultas reales.
+- Cuántas terminan en visita o cita.
+
+Confirmaría también los accesos publicitarios: el `estado.json` de Mariano está fechado en agosto y entonces faltaba la cuenta de anuncios.
+
+No mezcles creación de videos, inversión publicitaria y atención comercial como si fueran lo mismo. El cliente necesita saber quién hace cada cosa.
+
+**5. Repetiría el sistema de producción, no solamente los efectos.**
+
+Una base de Catania puede producir cuatro piezas diferentes:
+
+1. Cómo se distribuyen sus niveles.
+2. Qué significa entrar por el piso intermedio.
+3. Cómo se aprovecha el roof garden.
+4. Qué debe saber alguien antes de agendar una visita.
+
+El implante puede explicar sus piezas, la integración, las fases y una pregunta frecuente. Todo con revisión clínica.
+
+Automatizaría primero lo que ya está resuelto: exportaciones, subtítulos, mezcla de voz/música, logo, formatos y nombres de entrega. Ya tienes scripts para eso; incluso resolviste el problema de compatibilidad `yuv444p` frente a `yuv420p` para celular.
+
+Además:
+
+- Aprobar guion y un cuadro de estilo antes de generar clips caros.
+- Separar tiempo de investigación de tiempo de entrega.
+- Registrar minutos, generaciones y revisiones por cliente.
+- Mantener una única versión final identificada.
+- Reutilizar geometría propia cuando corresponda, sin trasladar marcas, rostros o materiales privados entre clientes.
+
+**6. Los riesgos que atendería son concretos.**
+
+- **Concentración de esfuerzo:** Mariano ocupa buena parte del trabajo visible. No tengo tus ingresos para afirmar dependencia económica, pero sí hay concentración operativa.
+- **Resultados sin demostrar:** no vendas viralidad ni ventas garantizadas. Presenta las pruebas y mide lo que ocurre después.
+- **Permisos:** acuerda por escrito uso de trabajos como portafolio y de imagen/voz sintética. No presentes un rostro generado como paciente o testimonio real.
+- **Salud:** el anuncio de 360 incluye «cápsulas regeneradoras». Revisaría esa expresión y la clasificación del producto antes de pautar. COFEPRIS restringe atribuir propiedades terapéuticas a suplementos y exige permiso para su publicidad. [Fuente oficial](https://www.gob.mx/cofepris/acciones-y-programas/suplementos-alimenticios).
+- **Capacidad técnica:** la Mac y Eevee ya bloquearon entregas. Conserva una alternativa comprobada de producción y evita comprometer fechas sobre procesos experimentales.
+
+**Las tres acciones de esta semana que priorizaría:**
+
+1. **Cerrar una oferta de una página y una demostración comercial.** Cuatro videos por $500, alcance claro y Catania mostrado como referencia → 3D → final. Solicitar permiso de portafolio a Mariano.
+2. **Contactar personalmente a 15 prospectos inmobiliarios y 5 dentales.** Registrar respuesta, objeción y siguiente paso. Buscar dos pilotos pagados como objetivo de trabajo, sin construir muestras nuevas para todos.
+3. **Medir un paquete real de principio a fin.** Cuánto tarda producirlo, cuánto consume y qué consultas genera. Usar ese dato para decidir cuántos clientes puedes admitir antes de aumentar la prospección.
+tokens used
+467,161
+Carlos, **tu oportunidad está en convertir lo que ya construiste en un servicio que puedas repetir y medir**. Catania y el implante demuestran una capacidad visual interesante. El riesgo es que cada cliente nuevo te obligue a empezar otra investigación técnica que estás cobrando como producción mensual.
+
+Revisé las secuencias de Catania, el cierre con logo, las imágenes del implante, piezas de 360 y de la iglesia, tu mensaje comercial y los estados de clientes. Hay bastante evidencia de producción; todavía falta evidencia suficiente para atribuirle ventas.
+
+**1. Tu diferencia más fuerte es explicar lo que normalmente no se puede ver.**
+
+En Catania, «le quité una pared» conecta perfectamente el gancho con la demostración: permite entender la distribución de la casa. En el implante, el corte permite entender qué sostiene el diente. Esa idea puede ser el centro de tu agencia:
+
+> **Hacemos videos que muestran por dentro lo que vendes y ayudan a tus clientes a entenderlo.**
+
+El 3D es la prueba de cómo lo haces. Al comprador le importa entender su casa, su tratamiento o su producto.
+
+Cambiaría dos afirmaciones de tu [mensaje actual](</workspaces/visionagenciaIAV2.0/copia para whatsapp/mensaje_prospectos_video_mariano.md>):
+
+- **«Control total, sin imágenes inventadas»** promete demasiado. Tus propias correcciones de muebles y anatomía muestran que la IA todavía cambia cosas. Diría: «Usamos modelos 3D y referencias reales para dirigir las tomas y revisar el resultado».
+- **«Yo triunfé en Facebook»** necesita una prueba concreta: negocio, periodo, inversión y resultado. Si la tienes, úsala. Si todavía no está documentada, abre con el trabajo que puedes mostrar.
+
+Prepararía un portafolio muy pequeño: **Catania como pieza principal y el implante como demostración de otra aplicación**. Para cada uno:
+
+- Problema del cliente.
+- Referencia real → modelo 3D → resultado final.
+- Qué se puede comprender gracias al video.
+- Resultado comercial, cuando exista; mientras tanto, identificarlo como muestra de producción.
+
+Los volantes y logos sirven como servicios complementarios. No les daría el mismo protagonismo: diluyen la diferencia de tu trabajo más fuerte.
+
+**2. Los $500 pueden sostener una producción estandarizada; no cuatro proyectos nuevos como Catania cada mes.**
+
+Tu oferta equivale a **$125 por video**, antes de herramientas, revisiones, atención y tu trabajo.
+
+No encontré una contabilidad consolidada de horas y consumo por entrega. No voy a inventarte cuánto costó Catania. Sí hay evidencia de numerosas versiones, correcciones y problemas técnicos durante varios días; eso no equivale automáticamente a jornadas completas, pero revela un proceso todavía costoso de repetir.
+
+Este ejemplo muestra la sensibilidad al tiempo. **Supongamos**, únicamente para calcular, $100 de herramientas atribuibles al paquete:
+
+| Trabajo total por cliente al mes | Quedan para trabajo, gastos y utilidad | Importe por hora antes de otros gastos |
+|---|---:|---:|
+| 2 horas | $400 | $200 |
+| 4 horas | $400 | $100 |
+| 8 horas | $400 | $50 |
+
+Con 20 clientes serían **$10,000 de ingreso y 80 videos mensuales**. Si cada video exige una hora, ya consumiste 80 horas sin contar ventas ni administración.
+
+Para conservar tu promesa:
+
+- Mantén **cuatro videos por $500** como paquete definido: duración, materiales necesarios, calendario y una ronda consolidada de cambios.
+- Obtén los cuatro videos de una base reutilizable, con cuatro mensajes distintos.
+- Ofrece trabajos especiales opcionales —otra propiedad modelada desde cero, otro procedimiento, una landing— con presupuesto separado y claramente explicado.
+- **Respeta lo ya prometido a clientes actuales.** Si les ofreciste modelado personalizado ilimitado dentro de $500, no puedes convertirlo después en un extra obligatorio sin acordarlo.
+
+La tecnología puede mejorar el paquete con el tiempo. Lo que no puedes prometer a ese precio es una cantidad ilimitada de trabajo humano.
+
+**3. Concentraría la prospección en dos nichos.**
+
+| Prioridad | A quién buscar | Qué mostrar y proponer |
+|---|---|---|
+| **Primero: inmobiliario** | Asesores y equipos que comercialicen varias unidades de un mismo desarrollo | Catania y una serie mensual: distribución, objeción del comprador, característica diferencial y visita |
+| **Segundo: dental** | Clínicas que ya ofrezcan implantes y tengan a alguien que responda consultas | La explicación del implante, revisada por su odontólogo, y una serie de preguntas frecuentes |
+| **Después: cocinas, carpintería e interiores** | Negocios con proyectos visuales y fotografías propias | Aprovechar tu experiencia mostrando espacios; probar demanda antes de construir otra biblioteca |
+
+Durante un mes dedicaría aproximadamente **70 % de la prospección a inmobiliario y 30 % a dental**. Es una propuesta de enfoque, no una predicción de resultados. Abrir diez nichos ahora multiplicaría tus guiones, modelos y revisiones.
+
+Para inmobiliario, una primera conversación podría ser:
+
+> «Vi que anuncias [propiedad]. Con Mariano hicimos este recorrido para explicar la distribución mostrando la casa por dentro. Para tu propiedad propondría empezar por [característica concreta]. Tenemos cuatro videos mensuales por $500; te explico qué incluye.»
+
+Personaliza esa característica. **No regales un video completo para cada prospecto**: una idea de guion y una muestra existente bastan para iniciar la conversación.
+
+También exploraría una colaboración con Caza Impresos: ya conoce negocios que compran comunicación visual. Primero comprobaría interés y margen; no ofrecería comisiones que el paquete todavía no puede absorber.
+
+**4. Tu siguiente mejora comercial es conectar el contenido con una acción medible.**
+
+En Catania, la tarjeta final dedica **3.5 segundos al logo**, según el script. Aprovecharía ese espacio con logo y una instrucción concreta: **«Escribe CATANIA para recibir información y agendar una visita»**. También probaría subtítulos más legibles sobre las paredes claras; algunos cuadros tienen poco contraste.
+
+El anuncio de 360 ya hace algo comercialmente útil: presenta una oferta y explica cómo pedirla y pagar. Ese nivel de claridad debe acompañar también a tus videos más elaborados.
+
+La [landing de Mariano](</workspaces/visionagenciaIAV2.0/visionagenciaIAv2.0-cripto-sim-y-corte-catania/VisionagenciaIAv2.0-main/clientes/Mariano/LANDING_SAN_MARINO_DATOS.md>) registra **373 visitas, 206 reproducciones y 5 % de scroll promedio**, pero son datos del **16 de agosto**. No prueban el rendimiento del video nuevo ni que nadie haya contactado.
+
+Antes de hacer otro recorrido, comprobaría:
+
+- Que esa medición sigue funcionando.
+- Cuántas personas hacen clic en WhatsApp.
+- Cuántas conversaciones son consultas reales.
+- Cuántas terminan en visita o cita.
+
+Confirmaría también los accesos publicitarios: el `estado.json` de Mariano está fechado en agosto y entonces faltaba la cuenta de anuncios.
+
+No mezcles creación de videos, inversión publicitaria y atención comercial como si fueran lo mismo. El cliente necesita saber quién hace cada cosa.
+
+**5. Repetiría el sistema de producción, no solamente los efectos.**
+
+Una base de Catania puede producir cuatro piezas diferentes:
+
+1. Cómo se distribuyen sus niveles.
+2. Qué significa entrar por el piso intermedio.
+3. Cómo se aprovecha el roof garden.
+4. Qué debe saber alguien antes de agendar una visita.
+
+El implante puede explicar sus piezas, la integración, las fases y una pregunta frecuente. Todo con revisión clínica.
+
+Automatizaría primero lo que ya está resuelto: exportaciones, subtítulos, mezcla de voz/música, logo, formatos y nombres de entrega. Ya tienes scripts para eso; incluso resolviste el problema de compatibilidad `yuv444p` frente a `yuv420p` para celular.
+
+Además:
+
+- Aprobar guion y un cuadro de estilo antes de generar clips caros.
+- Separar tiempo de investigación de tiempo de entrega.
+- Registrar minutos, generaciones y revisiones por cliente.
+- Mantener una única versión final identificada.
+- Reutilizar geometría propia cuando corresponda, sin trasladar marcas, rostros o materiales privados entre clientes.
+
+**6. Los riesgos que atendería son concretos.**
+
+- **Concentración de esfuerzo:** Mariano ocupa buena parte del trabajo visible. No tengo tus ingresos para afirmar dependencia económica, pero sí hay concentración operativa.
+- **Resultados sin demostrar:** no vendas viralidad ni ventas garantizadas. Presenta las pruebas y mide lo que ocurre después.
+- **Permisos:** acuerda por escrito uso de trabajos como portafolio y de imagen/voz sintética. No presentes un rostro generado como paciente o testimonio real.
+- **Salud:** el anuncio de 360 incluye «cápsulas regeneradoras». Revisaría esa expresión y la clasificación del producto antes de pautar. COFEPRIS restringe atribuir propiedades terapéuticas a suplementos y exige permiso para su publicidad. [Fuente oficial](https://www.gob.mx/cofepris/acciones-y-programas/suplementos-alimenticios).
+- **Capacidad técnica:** la Mac y Eevee ya bloquearon entregas. Conserva una alternativa comprobada de producción y evita comprometer fechas sobre procesos experimentales.
+
+**Las tres acciones de esta semana que priorizaría:**
+
+1. **Cerrar una oferta de una página y una demostración comercial.** Cuatro videos por $500, alcance claro y Catania mostrado como referencia → 3D → final. Solicitar permiso de portafolio a Mariano.
+2. **Contactar personalmente a 15 prospectos inmobiliarios y 5 dentales.** Registrar respuesta, objeción y siguiente paso. Buscar dos pilotos pagados como objetivo de trabajo, sin construir muestras nuevas para todos.
+3. **Medir un paquete real de principio a fin.** Cuánto tarda producirlo, cuánto consume y qué consultas genera. Usar ese dato para decidir cuántos clientes puedes admitir antes de aumentar la prospección.
+salida 0

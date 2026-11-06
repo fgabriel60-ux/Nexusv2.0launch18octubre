@@ -1,0 +1,10 @@
+{
+ "modelo": "bytedance/seedance-2.0-fast/image-to-video",
+ "id": "84dc837a8e9841a3b55b826205be15e6",
+ "url": "https://d2h7xmz5gqybh9.cloudfront.net/output/77233fb1-3a52-4496-9e0c-6ad16cd6580d.mp4",
+ "saldo": {
+  "antes": 16.86,
+  "despues": 14.36
+ },
+ "costo_real": 2.5
+}

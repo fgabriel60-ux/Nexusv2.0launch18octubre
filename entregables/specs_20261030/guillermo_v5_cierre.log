@@ -1,0 +1,24 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-cIlwHf102ZQvSLCwEr9Zj1
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma T9_cierre
+guardado T9_cierre.mp4
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-30T21:41:49+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-cIlwHf102ZQvSLCwEr9Zj1
+
+== Reporte Modal fgabriel60 ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261030/guillermo_v5_cierre.json
+Duración: 5.0 min  (código 0)
+  glimmer (ap-3RVnOV6S9ENBHyeFw3jBg3): $0.124
+  escenas-carlos (ap-cIlwHf102ZQvSLCwEr9Zj1): $0.163
+  glimmer (ap-jeo3CGUQOhsOIXbyWZQ3yW): $0.087
+Gasto del trabajo: $0.374
+Saldo restante ≈ $2.04

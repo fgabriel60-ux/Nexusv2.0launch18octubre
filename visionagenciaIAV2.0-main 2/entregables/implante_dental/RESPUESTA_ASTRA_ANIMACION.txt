@@ -1,0 +1,681 @@
+2026-09-15T06:03:43.096997Z ERROR codex_core::shell_snapshot: Shell snapshot validation failed: Snapshot command exited with status exit status: 2: /home/codespace/.codex/shell_snapshots/01a0a351-4bbf-74c3-81a7-ad070a3cb3a1.tmp-1789452222509543262: line 2547: syntax error near unexpected token `('
+
+OpenAI Codex v0.154.0
+--------
+workdir: /workspaces/visionagenciaIAV2.0
+model: gpt-6-astra
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: low
+reasoning summaries: none
+session id: 01a0a351-4bbf-74c3-81a7-ad070a3cb3a1
+--------
+user
+Astra, Carlos te pide: **«que aplique la animación de los dientes de forma genial siguiendo el estilo de las imágenes»**.
+Esta vez SÍ estás autorizada a trabajar en el Blender vivo de la Mac por el puente HTTP, con las reglas de abajo.
+
+## Referencias visuales aprobadas (míralas antes de tocar nada)
+
+`entregables/implante_dental/`
+- `gpt_estilo_hoja/GPT2_CUADRO_150_CLOSEUP.png` — close-up de labios y hueco del diente.
+- `gpt_transicion/GPT2_TRANSICION_CUADRO_749_v3.png` — pantalla dividida: labios a la izquierda, línea cian, corte anatómico.
+- `gpt_transicion/GPT2_SOLO_DIENTES_ENCIAS_v4.png` — **destino principal**: solo dientes y encías, sin cara ni línea. Carlos:
+  «la línea se desplazará y desaparecerá, la explicación será sobre solo los dientes y encías».
+- `kling_transicion/CLIP1…, CLIP2…, CLIP3…` — referencia de movimiento de esas transiciones.
+- Hoja de Alberto: `…/clientes/Vision Agencia/veneers_dental/hoja_proceso_implante/hoja_proceso_implante.png`.
+
+## Estilo que debe cumplir
+
+- Exactamente **4 dientes superiores** en el corte: 2 a cada lado del hueco, juntos, cada uno con su raíz visible en el hueso.
+  Carlos se quejó de «dientes de más» y de dientes «tan abiertos».
+- Implante en el hueco con la **punta hacia arriba** dentro del maxilar; en integración, tapón de cicatrización en la encía;
+  después pilar y corona.
+- Hueso marfil poroso con brillo cálido en el borde, encía rosa húmeda con borde luminoso, fondo oscuro turquesa, luz cálida + contraluz turquesa.
+- La cara solo existe al inicio (rostro → close-up). La línea cian cruza, se desplaza a la orilla y **desaparece**; la cara se
+  apaga y el corte queda centrado. Desde ahí, toda la explicación es sobre dientes y encías.
+
+## Tiempos (escena `CHICA_IMPLANTE_ESTILO_APROBADO`, 30 fps, 1050 cuadros)
+
+Marcadores y voz Fish ya colocada (tira `VOZ_FISH_IMPLANTE`, canal 1; frases en `voz_fish/tiempos.json`):
+ROSTRO 1 · CLOSEUP 150 («Este es el espacio») · ANESTESIA 200 · CORTE 360 («Ahora, veamos por dentro») · PREPARACION 420 ·
+IMPLANTE 620 · INTEGRACION 740 · CORONA 865 · SONRISA 1000. La animación debe coincidir con esas frases.
+
+## Estado actual de la escena (lo que hice yo)
+
+- `estilo_hoja.py` v4 aplicado en la sesión viva (materiales, luces, mundo, dientes ensanchados, `AP_Boca_interior`).
+- Voz empaquetada en el secuenciador. Carlos ya guardó `CHICA_IMPLANTE_ESTILO_APROBADO.blend` (incluye la voz); comprobado a las 05:0x UTC, cuadro 560.
+- Modelo 3D Hunyuan (`modelo_3d_hoja/HOJA_PASO5_hunyuan_LIGERO.glb` + `integrar_modelo_hoja.py`) solo probado local; puedes
+  usarlo o descartarlo. Si lo usas, cuida escala, posición del implante y continuidad al entrar/salir.
+- Render Eevee en blanco sin resolver (tu diagnóstico: posible SSR/sombreado/entorno gráfico).
+
+## Reglas (AGENTS.md y lo que ya costó caro)
+
+1. **Primero** guarda una copia de la sesión actual con `bpy.ops.wm.save_as_mainfile(filepath=..., copy=True)` en
+   `~/Desktop/IMPLANTE_DENTAL/` con nombre nuevo (conserva la voz). No sobrescribas archivos existentes.
+2. Captura estado (escena activa, cuadro, visibilidades, shading) y restáuralo en `finally`. Todo dentro de try/except/finally.
+3. Prueba aislada antes de la corrida completa. No dupliques objetos al re-ejecutar (controla nombres/sufijos `.001`).
+4. **Viewport en SOLID. No actives MATERIAL/RENDERED ni lances renders Eevee largos** (bloquearon el puente >10 min).
+   Para verificar, usa capturas OpenGL del viewport o renders Cycles locales en este Codespace (Blender 4.0.2).
+5. No modifiques la escena original `IMPLANTE_DENTAL_CINEMA`.
+6. Al terminar guarda la versión animada como `CHICA_IMPLANTE_ANIMACION_DIENTES.blend` (copia), deja el archivo abierto
+   en esa escena, cuadro 620, y documenta en `entregables/implante_dental/ESTADO_ANIMACION_DIENTES.md` qué cambiaste,
+   qué verificaste (con capturas en esa carpeta) y qué falta.
+
+Contesta a Carlos en español con lo que hiciste, las capturas de verificación y cualquier limitación real.
+
+ERROR: Reconnecting... 2/5
+ERROR: Reconnecting... 3/5
+ERROR: Reconnecting... 4/5
+ERROR: Reconnecting... 5/5
+warning: Falling back from WebSockets to HTTPS transport. stream disconnected before completion: websocket closed by server before response.completed
+codex
+Carlos, voy a sincronizar la animación con la voz y hacer que la cara y la línea cian den paso al corte de cuatro dientes. Primero guardaré una copia con la voz; verificaré los movimientos sin activar Eevee en la Mac.
+exec
+/bin/bash -lc 'cat entregables/implante_dental/voz_fish/tiempos.json; ls /tmp/catania_realismo/bridge.py; cat entregables/implante_dental/integrar_modelo_hoja.py | head -45' in /workspaces/visionagenciaIAV2.0
+ succeeded in 60ms:
+[
+ {
+  "marcador": "ROSTRO",
+  "cuadro": 1,
+  "inicio_s": 0.12,
+  "dura_s": 4.05,
+  "tramo_s": 4.65,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "¿Te falta un diente? Así se reemplaza con un implante, paso a paso."
+ },
+ {
+  "marcador": "CLOSEUP",
+  "cuadro": 150,
+  "inicio_s": 5.09,
+  "dura_s": 1.23,
+  "tramo_s": 1.35,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "Este es el espacio."
+ },
+ {
+  "marcador": "ANESTESIA",
+  "cuadro": 200,
+  "inicio_s": 6.75,
+  "dura_s": 5.01,
+  "tramo_s": 5.01,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "Primero, anestesia local en la encía. No sientes dolor."
+ },
+ {
+  "marcador": "CORTE",
+  "cuadro": 360,
+  "inicio_s": 12.09,
+  "dura_s": 1.68,
+  "tramo_s": 1.68,
+  "tempo": 1.011,
+  "encima": false,
+  "texto": "Ahora, veamos por dentro."
+ },
+ {
+  "marcador": "PREPARACION",
+  "cuadro": 420,
+  "inicio_s": 14.09,
+  "dura_s": 4.34,
+  "tramo_s": 6.35,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "El dentista prepara el hueso con precisión, justo donde estaba la raíz."
+ },
+ {
+  "marcador": "IMPLANTE",
+  "cuadro": 620,
+  "inicio_s": 20.75,
+  "dura_s": 2.61,
+  "tramo_s": 3.68,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "Coloca un tornillo de titanio dentro del hueso."
+ },
+ {
+  "marcador": "INTEGRACION",
+  "cuadro": 740,
+  "inicio_s": 24.75,
+  "dura_s": 3.74,
+  "tramo_s": 3.85,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "Con los meses, el hueso crece a su alrededor y lo fija."
+ },
+ {
+  "marcador": "CORONA",
+  "cuadro": 865,
+  "inicio_s": 28.92,
+  "dura_s": 4.15,
+  "tramo_s": 4.18,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "Encima va el pilar, y una corona del color de tus dientes."
+ },
+ {
+  "marcador": "SONRISA",
+  "cuadro": 1000,
+  "inicio_s": 33.42,
+  "dura_s": 1.23,
+  "tramo_s": 1.38,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "Y vuelves a sonreír."
+ }
+]/tmp/catania_realismo/bridge.py
+"""Mete el modelo 3D generado desde el panel PASO 5 de la hoja (HOJA_PASO5_hunyuan_LIGERO.glb) en la escena
+CHICA_IMPLANTE_ESTILO_APROBADO, para las tomas del corte con pilar y corona.
+
+Antes de exec() debe existir GLB_PATH (ruta local) o GLB_B64 (contenido en base64, para la Mac).
+Orientación medida en las vistas de revisión: alto = Z (dientes arriba), cara del corte hacia -Y.
+La escena usa la arcada SUPERIOR (dientes abajo, implante hacia arriba en x = 0), así que se gira 180°
+sobre Y y se escala ~4.2 (dientes de ~1.0 e implante de ~2.2 como los de Astra).
+Visible de TRAMO[0] a TRAMO[1]: pilar sin corona igual que el panel; la corona de Astra (804+) queda encima.
+En ese tramo se esconden las piezas de Astra que chocan con el modelo (hueso, implante, pilar, encía,
+raíces y dientes cuyo rango en X se cruza). La cara, la línea cian y la corona se conservan.
+Idempotente: si ya existe AP_HOJA_Modelo lo quita y lo vuelve a colocar."""
+import bpy, base64, json, math, os, tempfile
+from mathutils import Vector
+
+ESCENA = 'CHICA_IMPLANTE_ESTILO_APROBADO'
+TRAMO = (765, 934)
+# Prueba 1 (ESCALA 4.2, IMPLANTE_X_LOCAL -0.075): caja 3.03×3.59×3.2 correcta, pero dientes del modelo
+# ~0.55 contra 1.0 de Astra e implante 0.34 a la derecha del hueco → escala ×1.8 y offset medido -0.156.
+# Prueba 2 (ESCALA 7.5, -0.156): tamaño correcto; implante ~0.25 a la izquierda del hueco → -0.123.
+ESCALA = 7.5
+IMPLANTE_X_LOCAL = -0.123   # posición del implante en el modelo sin girar (medida en el render de prueba)
+BORDE_DIENTES_Z = -1.10      # borde de los dientes del modelo en la escena
+FRENTE_Y = -0.35             # cara del corte, a la altura del frente de los dientes de Astra
+if 'responder' not in globals():
+    def responder(d): print(json.dumps(d, ensure_ascii=False))
+
+sc = bpy.data.scenes[ESCENA]
+resultado = {'escena': ESCENA}
+
+
+def llaves_constantes(o):
+    for fc in o.animation_data.action.fcurves:
+        for k in fc.keyframe_points:
+            k.interpolation = 'CONSTANT'
+
+
+def oculto_en(o, f):
+    ad = o.animation_data
+    fc = ad.action.fcurves.find('hide_render') if ad and ad.action else None
+    return bool(round(fc.evaluate(f))) if fc else o.hide_render
+
+
+def esconder_en_tramo(o, a, b):
+    antes_a, despues_b = oculto_en(o, a - 1), oculto_en(o, b + 1)
+    for f, valor in [(a - 1, antes_a), (a, True), (b, True), (b + 1, despues_b)]:
+
+exec
+/bin/bash -lc 'python3 /tmp/catania_realismo/bridge.py /tmp/dental_current.py /tmp/dental_animation_current.json' in /workspaces/visionagenciaIAV2.0
+ succeeded in 4444ms:
+{"scene": "CHICA_IMPLANTE_ESTILO_APROBADO", "file": "/Users/juancarlos/Desktop/IMPLANTE_DENTAL/CHICA_IMPLANTE_ESTILO_APROBADO.blend", "objects": 101, "engine": "BLENDER_EEVEE", "frame": 560, "scenes": [["CHICA_IMPLANTE_ESTILO_APROBADO", 101], ["IMPLANTE_DENTAL_CINEMA", 120], ["Scene", 3]]}
+
+exec
+/bin/bash -lc 'find entregables/implante_dental/kling_transicion -maxdepth 1 -type f; cat /tmp/catania_realismo/bridge.py; cat AGENTS.md' in /workspaces/visionagenciaIAV2.0
+ succeeded in 234ms:
+entregables/implante_dental/kling_transicion/REV_CLIP3_PANTALLA_DIVIDIDA_A_SOLO_DIENTES.jpg
+entregables/implante_dental/kling_transicion/IMPLANTE_TRANSICION_KLING_1080.mp4
+entregables/implante_dental/kling_transicion/montar_transicion.py
+entregables/implante_dental/kling_transicion/kling_transicion.py
+entregables/implante_dental/kling_transicion/CLIP1_CARA_A_CLOSEUP.mp4
+entregables/implante_dental/kling_transicion/REVISION_TRANSICION.jpg
+entregables/implante_dental/kling_transicion/ultimo_cuadro_video_final.png
+entregables/implante_dental/kling_transicion/REV_CLIP2_CLOSEUP_A_PANTALLA_DIVIDIDA.jpg
+entregables/implante_dental/kling_transicion/estado_clip3.json
+entregables/implante_dental/kling_transicion/IMPLANTE_TRANSICION_KLING_WHATSAPP.mp4
+entregables/implante_dental/kling_transicion/REV_CLIP1_CARA_A_CLOSEUP.jpg
+entregables/implante_dental/kling_transicion/estado_clip2.json
+entregables/implante_dental/kling_transicion/hoja_video_final.jpg
+entregables/implante_dental/kling_transicion/CLIP2_CLOSEUP_A_PANTALLA_DIVIDIDA.mp4
+entregables/implante_dental/kling_transicion/estado_clip1.json
+entregables/implante_dental/kling_transicion/CLIP3_PANTALLA_DIVIDIDA_A_SOLO_DIENTES.mp4
+import json, urllib.request, sys, pathlib
+src=pathlib.Path(sys.argv[1]).read_text()
+r=urllib.request.Request('https://conectorblender.onrender.com/api/blender/execute',data=json.dumps({'python':src,'meta':{'tipo':'libre'}}).encode(),headers={'Content-Type':'application/json'})
+try:
+ data=urllib.request.urlopen(r,timeout=580).read().decode()
+ pathlib.Path(sys.argv[2]).write_text(data)
+ parsed=json.loads(data); result=parsed.get('resultado',parsed); print(json.dumps({k:(('<base64 '+str(len(v))+' chars>') if k in ['png','blend_b64','jpg','mp4'] else v) for k,v in result.items()},ensure_ascii=False)[:4500] if isinstance(result,dict) else str(result)[:4500])
+except Exception as e: print(type(e).__name__,str(e));raise
+# AGENTS.md — guía para Codex en este repo
+
+Este repo (`visionagenciaIAV2.0`) es un Codespace de trabajo para **Vision Agencia IA**.
+Codex aquí se enfoca en **modelos de Blender** — específicamente el pipeline de Catania
+(cliente Mariano). Para el resto del negocio (Wavespeed, WhatsApp/Nexus, GitHub multi-cuenta)
+ver `DOCUMENTO_PARA_GPT6_ASTRA.md` en la raíz, que trae el panorama completo.
+
+## Dónde está el trabajo real
+
+El contenido del proyecto vive descomprimido en
+`visionagenciaIAv2.0-cripto-sim-y-corte-catania/VisionagenciaIAv2.0-main/` (no es la raíz
+del repo git). Hay un symlink en `/workspaces/visionagenciaIAv2.0/VisionagenciaIAv2.0-main`
+que apunta ahí — muchos scripts tienen esa ruta en minúsculas hardcodeada (`RAIZ = ...`),
+así que úsala tal cual en vez de la ruta real, o los scripts no van a encontrar su `.env`.
+
+Docs a leer primero:
+- `clientes/Mariano/blender/ESTADO-CATANIA.md` — bitácora larga de todo lo aplicado a la
+  escena 3D y trampas ya conocidas. **Léela antes de tocar la escena** — tiene ~10 "trampas
+  que ya costaron caro" documentadas (Ctrl+Z borra lo que manda el puente, Construir/
+  actualizar rehace la animación de cámara, Workbench ignora el Alpha del nodo, etc.).
+- `PENDIENTES-2026-09-03.md` — pendientes activos de TODOS los clientes, no solo Catania.
+
+## El Blender real NO está en este Codespace
+
+`catania_LIGERA.blend` vive en la Mac de Carlos. Se opera EXCLUSIVAMENTE a través de un
+puente HTTP:
+
+```python
+import json, urllib.request
+d = json.dumps({"python": codigo_fuente, "meta": {"tipo": "libre"}}).encode()
+r = urllib.request.Request("https://conectorblender.onrender.com/api/blender/execute",
+                            data=d, headers={"Content-Type": "application/json"})
+print(json.loads(urllib.request.urlopen(r, timeout=580).read()))
+```
+
+- Si Blender no está abierto con el panel Seedance conectado del lado de Carlos, esto
+  responde **503** `"Blender no está conectado"`. No hay forma de arrancarlo remotamente.
+- El script se ejecuta con `exec()` dentro de la sesión viva de Blender — **no hay
+  `__file__`**, así que no se puede hacer `sys.path.append(os.path.dirname(__file__))`
+  como hacen los `.py` del repo cuando corren via `blender -b -P`. Si un script del repo
+  importa otro (p.ej. `corte_mascaras.py` importa `cuartos_camara.py`), hay que concatenar
+  el código fuente de ambos en el string que se manda, no confiar en el import.
+- No hay ningún archivo compartido entre este Codespace y la Mac de Carlos — todo lo que
+  se necesita leer/escribir del `.blend` tiene que ir en el string de Python (usar
+  `responder({"png": base64...})` para regresar imágenes, como hace `toma_de_carlos.py`).
+
+## REGLA DE ORO: es la sesión de Blender EN VIVO de alguien
+
+No es un archivo batch desechable — es la sesión abierta que Carlos/Mariano puede estar
+viendo en su pantalla en ese momento. Cualquier script que se mande:
+
+1. **Debe capturar el estado antes de tocar nada**: cámara activa (`scene.camera`),
+   frame actual, `hide_render` de los objetos que se vayan a esconder, `scene.display.shading`,
+   `scene.world` (use_nodes/color), `scene.view_settings`, resolución/formato de render.
+2. **Debe envolver todo en try/except/finally** y restaurar ese estado exacto en el
+   `finally`, incluso si algo falla a medio camino.
+3. **Antes de una corrida completa, probar aislado.** Por ejemplo, para verificar un fix de
+   color/shading no hace falta mover la cámara del recorrido ni esconder los ~1000 objetos
+   de `camara_del_corte()` — basta un objeto de prueba temporal frente a la cámara actual,
+   renderizar, medir, borrar el objeto, restaurar shading. Así se prueba sin arriesgar la
+   escena completa.
+4. Para leer un pixel/color de un render: **NO uses `bpy.data.images["Render Result"].pixels`
+   directo** — a veces regresa longitud 0. Guarda con `save_render()` a un temp, cárgalo con
+   `bpy.data.images.load()`, lee `.pixels` de ESA imagen, bórrala con
+   `bpy.data.images.remove()`.
+
+## Estado actual del pipeline de máscaras por cuarto (2026-09-04/05)
+
+Ya arreglado y verificado en vivo:
+- `apunta_muros()` en `corte_mascaras.py` detecta 112 muros (filtro por geometría, no por
+  nombre).
+- El bug de máscaras negras: `modo("mascara")` ahora fuerza
+  `scene.view_settings.view_transform = 'Standard'` (con `look='None'`, `exposure=0`,
+  `gamma=1`) antes de renderizar — si no, un blanco lineal se aplasta a ~1/255 al guardar
+  el PNG porque la escena usa Filmic. Las 14 máscaras ya salen a intensidad 1.0.
+
+Falta:
+1. **Partir `pa` de `rg`** — hoy dan el mismo área (51.1 m²) porque no hay muro entre la
+   planta alta cubierta y la terraza descubierta. Idea: raycast hacia +Z desde cada celda;
+   si pega con techo es `pa`, si no es `rg`.
+2. **Escribir el script de `genfill` por cuarto** (Wavespeed, `bria/fibo-edit/genfill`) —
+   no existe todavía. Debe tomar UNA máscara + UNA referencia específica de ese cuarto
+   (no la hoja completa de 10 fotos, que es lo que causa que la IA mezcle acabados de un
+   cuarto a otro — ver `corte_fotorrealista.py` como ejemplo de lo que NO hacer).
+3. Correcciones puntuales conocidas (contra las fotos reales en
+   `clientes/Mariano/referencias_3d/ref_1_catania_por_cuarto.jpg`): roof garden debe llevar
+   banca/mesa de madera (no sillones lounge ni sofá+TV), el sillón de sala/estancia TV es
+   crema no naranja, la segunda recámara lleva cabecero redondo terracota. Baño/cocina/
+   pasillo/escalera no tienen video propio de Catania — vestir con referencias de Siena o
+   Brescia (misma constructora).
+
+## Credenciales
+
+`WAVESPEED_API_KEY` está en `/workspaces/visionagenciaIAv2.0/VisionagenciaIAv2.0-main/.env`
+(gitignored). No la copies a otros archivos ni la imprimas en logs — Codex corre en este
+mismo Codespace así que puede leer ese `.env` directamente cuando la necesite.
+
+exec
+/bin/bash -lc "cat > /tmp/dental_anim_backup.py <<'PY'
+import bpy,os,time,uuid,base64
+w=bpy.context.window;old=w.scene;s=bpy.data.scenes['CHICA_IMPLANTE_ESTILO_APROBADO']
+frame=s.frame_current;camera=s.camera;shading=[]
+for a in bpy.context.screen.areas:
+ if a.type=='VIEW_3D':shading.append((a.spaces.active,a.spaces.active.shading.type))
+try:
+ dest=os.path.expanduser('~/Desktop/IMPLANTE_DENTAL/ANTES_ANIMACION_DIENTES_'+time.strftime('%Y%m%d_%H%M%S')+'_'+uuid.uuid4().hex[:6]+'.blend')
+ bpy.ops.wm.save_as_mainfile(filepath=dest,copy=True,check_existing=False,compress=True)
+ objects=[]
+ for o in s.objects:
+  objects.append({'name':o.name,'type':o.type,'parent':o.parent.name if o.parent else None,'location':list(o.location),'rotation':list(o.rotation_euler),'scale':list(o.scale),'dimensions':list(o.dimensions),'hide':o.hide_render,'curves':[(c.data_path,c.array_index,len(c.keyframe_points)) for c in o.animation_data.action.fcurves] if o.animation_data and o.animation_data.action else []})
+ seq=[]
+ if s.sequence_editor:
+  for q in s.sequence_editor.sequences_all:
+   seq.append({'name':q.name,'type':q.type,'channel':q.channel,'start':q.frame_final_start,'end':q.frame_final_end,'packed':bool(q.sound.packed_file) if q.type=='SOUND' else None})
+ responder({'backup':dest,'scene':s.name,'frame':frame,'objects':objects,'sequences':seq,'blend_b64':base64.b64encode(open(dest,'rb').read()).decode()})
+except Exception:raise
+finally:
+ w.scene=old;s.camera=camera
+ if s.frame_current"'!=frame:s.frame_set(frame)
+ for space,typ in shading:space.shading.type=typ
+PY
+python3 /tmp/catania_realismo/bridge.py /tmp/dental_anim_backup.py /tmp/dental_anim_backup.json' in /workspaces/visionagenciaIAV2.0
+ succeeded in 12515ms:
+{"backup": "/Users/juancarlos/Desktop/IMPLANTE_DENTAL/ANTES_ANIMACION_DIENTES_20260914_230459_3cfefe.blend", "scene": "CHICA_IMPLANTE_ESTILO_APROBADO", "frame": 560, "objects": [{"name": "AP_Natural_tooth_0", "type": "MESH", "parent": null, "location": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1], "dimensions": [0.9999998807907104, 0.5600000023841858, 1.3299999237060547], "hide": false, "curves": []}, {"name": "AP_Root_0", "type": "MESH", "parent": null, "location": [-2.119999885559082, -0.2800000011920929, 1.7200000286102295], "rotation": [0, 0, 0], "scale": [0.20000000298023224, 0.12999999523162842, 1.159999966621399], "dimensions": [0.4000001847743988, 0.2600000500679016, 2.319999933242798], "hide": false, "curves": [["hide_render", 0, 5], ["hide_viewport", 0, 5]]}, {"name": "AP_Natural_tooth_1", "type": "MESH", "parent": null, "location": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1], "dimensions": [1.0199999809265137, 0.5600000023841858, 1.3299999237060547], "hide": false, "curves": []}, {"name": "AP_Root_1", "type": "MESH", "parent": null, "location": [-1.1200000047683716, -0.2800000011920929, 1.7200000286102295], "rotation": [0, 0, 0], "scale": [0.20000000298023224, 0.12999999523162842, 1.159999966621399], "dimensions": [0.4000001847743988, 0.2600000500679016, 2.319999933242798], "hide": false, "curves": [["hide_render", 0, 5], ["hide_viewport", 0, 5]]}, {"name": "AP_Natural_tooth_2", "type": "MESH", "parent": null, "location": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1], "dimensions": [1, 0.5600000023841858, 1.3299999237060547], "hide": false, "curves": []}, {"name": "AP_Root_2", "type": "MESH", "parent": null, "location": [1.0199999809265137, -0.2800000011920929, 1.7200000286102295], "rotation": [0, 0, 0], "scale": [0.20000000298023224, 0.12999999523162842, 1.159999966621399], "dimensions": [0.4000001847743988, 0.2600000500679016, 2.319999933242798], "hide": false, "curves": [["hide_render", 0, 5], ["hide_viewport", 0, 5]]}, {"name": "AP_Natural_tooth_3", "type": "MESH", "parent": null, "location": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1], "dimensions": [0.9799998998641968, 0.5600000023841858, 1.3299999237060547], "hide": false, "curves": []}, {"name": "AP_Root_3", "type": "MESH", "parent": null, "location": [2.0399999618530273, -0.2800000011920929, 1.7200000286102295], "rotation": [0, 0, 0], "scale": [0.20000000298023224, 0.12999999523162842, 1.159999966621399], "dimensions": [0.4000001847743988, 0.2600000500679016, 2.319999933242798], "hide": false, "curves": [["hide_render", 0, 5], ["hide_viewport", 0, 5]]}, {"name": "AP_IMPLANT_AXIS", "type": "EMPTY", "parent": null, "location": [0, 0, -0.671225905418396], "rotation": [0, 0, -46.423248291015625], "scale": [1, 1, 1], "dimensions": [0, 0, 0], "hide": false, "curves": [["location", 0, 4], ["location", 1, 4], ["location", 2, 4], ["rotation_euler", 0, 2], ["rotation_euler", 1, 2], ["rotation_euler", 2, 2]]}, {"name": "AP_Implant_body", "type": "MESH", "parent": "AP_IMPLANT_AXIS", "location": [0, 0, 1.6299999952316284], "rotation": [0, 0, 0], "scale": [1, 1, 1], "dimensions": [0.42875075340270996, 0.42875075340270996, 2.1600000858306885], "hide": false, "curves": [["hide_render", 0, 5], ["hide_viewport", 0, 5]]}, {"name": "AP_Machined_helical_thread", "type": "CURVE", "parent": "AP_IMPLANT_AXIS", "location": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1], "dimensions": [0.5552671551704407, 0.5535140037536621, 2.1864566802978516], "hide": false, "curves": [["hide_render", 0, 5], ["hide_viewport", 0, 5]]}, {"name": "AP_Implant_collar", "type": "MESH", "parent": "AP_IMPLANT_AXIS", "location": [0, 0, 0.5199999809265137], "rotation": [0, 0, 0], "scale": [1, 1, 1], "dimensions": [0.5, 0.5, 0.1899999976158142], "hide": false, "curves": [["hide_render", 0, 5], ["hide_viewport", 0, 5]]}, {"name": "AP_Connector_socket", "type": "MESH", "parent": "AP_IMPLANT_AXIS", "location": [0, 0, 0.4169999957084656], "rotation": [0, 0, 0], "scale": [1, 1, 1], "dimensions": [0.2199999988079071, 0.2199999988079071, 0.014999999664723873], "hide": false, "curves": [["hide_render", 0, 5], ["hide_viewport", 0, 5]]}, {"name": "AP_Healing_cap", "type": "MESH", "parent": null, "location": [0, 0, 0.38999998569488525], "rotation": [0, 0, 0], "scale": [1, 1, 1], "dimensions": [0.46000000834465027, 0.46000000834465027, 0.18000000715255737], "hide": true, "curves": [["hide_render", 0, 5], ["hide_viewport", 0, 5]]}, {"name": "AP_Abutment", "type": "MESH", "
+
+exec
+/bin/bash -lc "mkdir -p entregables/implante_dental/animacion_dientes
+python3 - <<'PY'
+import json,base64
+from pathlib import Path
+j=json.load(open('/tmp/dental_anim_backup.json'))['resultado'];p=Path('entregables/implante_dental/animacion_dientes');(p/'SESION_ANTES.blend').write_bytes(base64.b64decode(j.pop('blend_b64')));(p/'inventario_antes.json').write_text(json.dumps(j,indent=2))
+print('backup',j['backup']);print('voz',j['sequences'])
+for o in j['objects']:
+ if not o['name'].startswith('AP_Integration'):print(o['name'],o['type'],'parent',o['parent'],'loc',o['location'],'scale',o['scale'])
+PY" in /workspaces/visionagenciaIAV2.0
+ succeeded in 146ms:
+backup /Users/juancarlos/Desktop/IMPLANTE_DENTAL/ANTES_ANIMACION_DIENTES_20260914_230459_3cfefe.blend
+voz [{'name': 'VOZ_FISH_IMPLANTE', 'type': 'SOUND', 'channel': 1, 'start': 1, 'end': 1047, 'packed': True}]
+AP_Natural_tooth_0 MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+AP_Root_0 MESH parent None loc [-2.119999885559082, -0.2800000011920929, 1.7200000286102295] scale [0.20000000298023224, 0.12999999523162842, 1.159999966621399]
+AP_Natural_tooth_1 MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+AP_Root_1 MESH parent None loc [-1.1200000047683716, -0.2800000011920929, 1.7200000286102295] scale [0.20000000298023224, 0.12999999523162842, 1.159999966621399]
+AP_Natural_tooth_2 MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+AP_Root_2 MESH parent None loc [1.0199999809265137, -0.2800000011920929, 1.7200000286102295] scale [0.20000000298023224, 0.12999999523162842, 1.159999966621399]
+AP_Natural_tooth_3 MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+AP_Root_3 MESH parent None loc [2.0399999618530273, -0.2800000011920929, 1.7200000286102295] scale [0.20000000298023224, 0.12999999523162842, 1.159999966621399]
+AP_IMPLANT_AXIS EMPTY parent None loc [0, 0, -0.671225905418396] scale [1, 1, 1]
+AP_Implant_body MESH parent AP_IMPLANT_AXIS loc [0, 0, 1.6299999952316284] scale [1, 1, 1]
+AP_Machined_helical_thread CURVE parent AP_IMPLANT_AXIS loc [0, 0, 0] scale [1, 1, 1]
+AP_Implant_collar MESH parent AP_IMPLANT_AXIS loc [0, 0, 0.5199999809265137] scale [1, 1, 1]
+AP_Connector_socket MESH parent AP_IMPLANT_AXIS loc [0, 0, 0.4169999957084656] scale [1, 1, 1]
+AP_Healing_cap MESH parent None loc [0, 0, 0.38999998569488525] scale [1, 1, 1]
+AP_Abutment MESH parent None loc [0, 0, -1.25] scale [1, 1, 1]
+AP_Definitive_crown MESH parent None loc [0, 0, -1.5] scale [1, 1, 1]
+AP_Anesthesia_rig EMPTY parent None loc [-1.2000000476837158, -1.100000023841858, -0.44999998807907104] scale [1, 1, 1]
+AP_Needle MESH parent AP_Anesthesia_rig loc [0, 0, -0.47999998927116394] scale [1, 1, 1]
+AP_Needle_hub MESH parent AP_Anesthesia_rig loc [0, 0, -1.0499999523162842] scale [1, 1, 1]
+AP_Syringe_barrel MESH parent AP_Anesthesia_rig loc [0, 0, -1.600000023841858] scale [1, 1, 1]
+AP_Syringe_inset MESH parent AP_Anesthesia_rig loc [0, 0, -1.5499999523162842] scale [1, 1, 1]
+AP_Plunger MESH parent AP_Anesthesia_rig loc [0, 0, -2.2200000286102295] scale [1, 1, 1]
+AP_Osteotomy_rig EMPTY parent None loc [0, 0, -3.799999952316284] scale [1, 1, 1]
+AP_Drill_shaft MESH parent AP_Osteotomy_rig loc [0, 0, 1.100000023841858] scale [1, 1, 1]
+AP_Handpiece MESH parent AP_Osteotomy_rig loc [0, 0, -0.6499999761581421] scale [1, 1, 1]
+AP_Drill_flute CURVE parent AP_Osteotomy_rig loc [0, 0, 0] scale [1, 1, 1]
+AP_Drill_flute.001 CURVE parent AP_Osteotomy_rig loc [0, 0, 0] scale [1, 1, 1]
+AP_CAMERA CAMERA parent None loc [0.04508146643638611, -28, 1.2324888706207275] scale [1, 1, 1]
+AP_Key LIGHT parent None loc [-4, -7, 7] scale [1, 1, 1]
+AP_Teal LIGHT parent None loc [4, 2, 5] scale [1, 1, 1]
+AP_Fill LIGHT parent None loc [2, -4, 0] scale [1, 1, 1]
+AP_Top LIGHT parent None loc [-1, 2, 7] scale [1, 1, 1]
+CHICA_Rostro_completo_3D MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+CHICA_Rostro_final_3D MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+CHICA_Rostro_corte_diagonal MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+CHICA_Borde_corte CURVE parent None loc [0, 0, 0] scale [1, 1, 1]
+CHICA_Contexto_cabello_y_cuello MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+CHICA_Contexto_final MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+AP_Diente_distal_0 MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+AP_Diente_distal_1 MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+AP_Diente_distal_2 MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+AP_Encía_orgánica MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+AP_Maxilar_cortical MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+AP_Hueso_trabecular MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+CAM_ROSTRO_PARA_MODELAR CAMERA parent None loc [-1.2999999523162842, -30, 4.800000190734863] scale [1, 1, 1]
+AP_Boca_interior MESH parent None loc [0, 0, 0] scale [1, 1, 1]
+
+codex
+La copia de seguridad ya está guardada y confirmé que contiene la voz empaquetada. Voy a mantener las piezas separadas del modelo actual: así puedo animar la perforación, el tornillo, el tapón y la corona sin introducir dientes adicionales.
+exec
+/bin/bash -lc "cat > /tmp/dental_wipe_probe.py <<'PY'
+import bpy,math,uuid
+from mathutils import Vector
+w=bpy.context.window;old=w.scene;test=None;owned=[];data=[]
+try:
+ src=bpy.data.scenes['CHICA_IMPLANTE_ESTILO_APROBADO'].objects['CHICA_Rostro_completo_3D']
+ test=bpy.data.scenes.new('AD_PRUEBA_'+uuid.uuid4().hex[:6]);w.scene=test
+ face=src.copy();face.data=src.data.copy();face.animation_data_clear();face.hide_viewport=False;face.hide_render=False;face.name='AD_PRUEBA_CARA';test.collection.objects.link(face);owned.append(face);data.append(face.data)
+ for mod in list(face.modifiers):face.modifiers.remove(mod)
+ bpy.ops.mesh.primitive_cube_add(size=1);cut=bpy.context.object;owned.append(cut);data.append(cut.data);cut.scale=(40,50,80);bpy.ops.object.transform_apply(location=False,rotation=False,scale=True);cut.rotation_euler[1]=math.atan(.18)
+ m=face.modifiers.new('PRUEBA_CORTE','BOOLEAN');m.operation='DIFFERENCE';m.solver='EXACT';m.object=cut
+ results=[]
+ for offset in [20,0,-20]:
+  cut.location=(offset+20/math.cos(math.atan(.18)),0,0);bpy.context.view_layer.update();dg=bpy.context.evaluated_depsgraph_get();evaluated=face.evaluated_get(dg);me=evaluated.to_mesh();results.append({'offset':offset,'faces':len(me.polygons)});evaluated.to_mesh_clear()
+ assert results[0]['faces']>0 and results[-1]['faces']==0,results
+ responder({'isolated_wipe_ok':True,'samples':results})
+except Exception:raise
+finally:
+ w.scene=old
+ for ob in owned:bpy.data.objects.remove(ob,do_unlink=True)
+ for me in data:
+  if me.users==0:bpy.data.meshes.remove(me)
+ if test:bpy.data.scenes.remove(test)
+PY
+python3 /tmp/catania_realismo/bridge.py /tmp/dental_wipe_probe.py /tmp/dental_wipe_probe.json" in /workspaces/visionagenciaIAV2.0
+ succeeded in 6424ms:
+{"isolated_wipe_ok": true, "samples": [{"offset": 20, "faces": 880}, {"offset": 0, "faces": 645}, {"offset": -20, "faces": 0}]}
+
+exec
+/bin/bash -lc "cat > entregables/implante_dental/animacion_dientes/aplicar_animacion.py <<'PY'
+\"\"\"Animación dental 35 s. Execute in Blender 3.3/4.x; no renders or saving here.
+All operations scoped to target scene; source scene untouched. Version guard prevents duplication.
+\"\"\"
+import bpy,bmesh,math,json,traceback
+from mathutils import Vector
+VERSION='DIENTES_20260915_v1'
+s=bpy.data.scenes['CHICA_IMPLANTE_ESTILO_APROBADO'];w=bpy.context.window
+prior_scene=w.scene;prior_frame=s.frame_current;prior_camera=s.camera
+prior_render=(s.render.resolution_x,s.render.resolution_y,s.render.resolution_percentage,s.render.image_settings.file_format,s.render.filepath)
+prior_view=(s.view_settings.view_transform,s.view_settings.look,s.view_settings.exposure,s.view_settings.gamma)
+prior_world=s.world
+prior_shading=[(a.spaces.active,a.spaces.active.shading.type) for a in bpy.context.screen.areas if a.type=='VIEW_3D']
+previous={o.name:{'object':o,'data':o.data,'action':o.animation_data.action if o.animation_data else None,'loc':o.location.copy(),'rot':o.rotation_euler.copy(),'scale':o.scale.copy(),'hide':o.hide_render,'hide_viewport':o.hide_viewport,'parent':o.parent} for o in s.objects}
+new_objects=[];new_modifiers=[];success=False
+if 'responder' not in globals():
+ def responder(data):print(json.dumps(data,ensure_ascii=False))
+
+def get(name):
+ ob=s.objects.get(name)
+ if ob is None:raise RuntimeError('Falta objeto '+name)
+ return ob
+
+def action(ob):
+ ob.animation_data_create();ob.animation_data.action=bpy.data.actions.new('AD_'+ob.name)
+
+def key(ob,path,values,linear=False):
+ for frame,value in values:
+  setattr(ob,path,value);ob.keyframe_insert(data_path=path,frame=frame)
+ if ob.animation_data and ob.animation_data.action:
+  for fc in ob.animation_data.action.fcurves:
+   if fc.data_path==path:
+    for k in fc.keyframe_points:
+     k.interpolation='LINEAR' if linear else 'BEZIER';k.handle_left_type='AUTO_CLAMPED';k.handle_right_type='AUTO_CLAMPED'
+
+def vis(ob,start,end=1050):
+ # Visibility changes are CONSTANT; no evaluated fractional booleans.
+ for path in ['hide_render','hide_viewport']:
+  if ob.animation_data and ob.animation_data.action:
+   for fc in list(ob.animation_data.action.fcurves):
+    if fc.data_path==path:ob.animation_data.action.fcurves.remove(fc)
+  for frame,value in sorted(dict([(1,True),(max(1,start-1),True),(start,False),(end,False),(end+1,True)]).items()):
+   setattr(ob,path,value);ob.keyframe_insert(data_path=path,frame=frame)
+  for fc in ob.animation_data.action.fcurves:
+   if fc.data_path==path:
+    for k in fc.keyframe_points:k.interpolation='CONSTANT'
+
+def off(ob):
+ vis(ob,1100,1101)
+
+def mesh_obj(name,verts,faces,material):
+ assert not bpy.data.objects.get(name),name
+ me=bpy.data.meshes.new(name);me.from_pydata(verts,[],faces);me.update();ob=bpy.data.objects.new(name,me);s.collection.objects.link(ob);new_objects.append(ob)
+ if material:me.materials.append(material)
+ return ob
+
+def curve_obj(name,points,radius,material):
+ assert not bpy.data.objects.get(name),name
+ data=bpy.data.curves.new(name,'CURVE');data.dimensions='3D';data.bevel_depth=radius;data.bevel_resolution=3
+ poly=data.splines.new('POLY');poly.points.add(len(points)-1)
+ for p,co in zip(poly.points,points):p.co=(*co,1)
+ ob=bpy.data.objects.new(name,data);s.collection.objects.link(ob);new_objects.append(ob);data.materials.append(material);return ob
+
+try:
+ if s.get('AD_ANIM_VERSION')==VERSION:
+  responder({'already_applied':True,'version':VERSION});success=True
+ else:
+  w.scene=s
+  required=['AP_CAMERA','AP_IMPLANT_AXIS','AP_Osteotomy_rig','AP_Anesthesia_rig','AP_Healing_cap','AP_Abutment','AP_Definitive_crown','CHICA_Rostro_completo_3D','AP_Encía_orgánica','AP_Maxilar_cortical','AP_Hueso_trabecular']
+  for name in required:get(name)
+  # Give changed objects new actions, preserving the old actions for rollback.
+  for ob in list(s.objects):
+   if ob.type"'!='"'LIGHT' and ob.name"'!='"'CAM_ROSTRO_PARA_MODELAR':action(ob)
+  # Exactly four natural teeth in the explanatory section; keep posterior context only in the opening.
+  for i,x in enumerate([-2.04,-1.02,1.02,2.04]):
+   tooth=get('AP_Natural_tooth_'+str(i));tooth.data=tooth.data.copy()
+   xs=[v.co.x for v in tooth.data.vertices];delta=x-(max(xs)+min(xs))/2
+   for v in tooth.data.vertices:v.co.x+=delta
+   tooth.data.update();vis(tooth,1)
+   root=get('AP_Root_'+str(i));root.location=(x,-.28,1.72);vis(root,350)
+  for ob in list(s.objects):
+   if ob.name.startswith('AP_Diente_distal'):vis(ob,1,349)
+   if ob.name.startswith('AP_HOJA_'):off(ob)
+  # One continuous moving geometric cut. The face remains in place and is wiped away.
+  full=get('CHICA_Rostro_completo_3D');vis(full,1,415)
+  for name in ['CHICA_Rostro_final_3D','CHICA_Rostro_corte_diagonal','CHICA_Contexto_final','CHICA_Borde_corte']:
+   if s.objects.get(name):off(s.objects[name])
+  context=get('CHICA_Contexto_cabello_y_cuello');vis(context,1,415)
+  if s.objects.get('AP_Boca_interior'):vis(get('AP_Boca_interior'),1,415)
+  bpy.ops.mesh.primitive_cube_add(size=1);cutter=bpy.context.object;cutter.name='AD_CORTADOR_TRANSICION';new_objects.append(cutter)
+  cutter.scale=(40,50,80);bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
+  angle=math.atan(.18);cutter.rotation_euler[1]=angle;cutter.display_type='WIRE';cutter.hide_render=True;cutter.hide_set(True)
+  offsets=[(1,20),(349,20),(350,8),(360,2),(379,-.9),(396,-4.5),(415,-20),(1050,-20)]
+  key(cutter,'location',[(f,(x+20/math.cos(angle),0,0)) for f,x in offsets])
+  for ob in [full,context]+([get('AP_Boca_interior')] if s.objects.get('AP_Boca_interior') else []):
+   m=ob.modifiers.new('AD_BARRIDO_DIAGONAL','BOOLEAN');m.operation='DIFFERENCE';m.solver='EXACT';m.object=cutter;new_modifiers.append((ob,m))
+   # Cut the smooth surface at render resolution; work viewport remains low subdivision.
+  line=curve_obj('AD_LINEA_CIAN_MOVIL',[(.18*z,-5,z) for z in [-16,18]],.014,bpy.data.materials['AP_Cyan_cutline'])
+  vis(line,350,414);key(line,'location',[(f,(x,0,0)) for f,x in offsets])
+  # Scoped cutaway gingiva: four teeth only, without extra empty distal gum lobes.
+  gum=get('AP_Encía_orgánica');vis(gum,1,349)
+  cutgum=gum.copy();cutgum.data=gum.data.copy();cutgum.name='AD_ENCIA_CUATRO_DIENTES';cutgum.animation_data_clear();s.collection.objects.link(cutgum);new_objects.append(cutgum);action(cutgum)
+  bm=bmesh.new();bm.from_mesh(cutgum.data)
+  for x,n in [(2.68,(1,0,0)),(-2.68,(-1,0,0))]:
+   result=bmesh.ops.bisect_plane(bm,geom=list(bm.verts)+list(bm.edges)+list(bm.faces),dist=.00001,plane_co=Vector((x,0,0)),plane_no=Vector(n),clear_outer=True)
+   edges=[e for e in result['geom_cut'] if isinstance(e,bmesh.types.BMEdge) and e.is_boundary]
+   if edges:bmesh.ops.holes_fill(bm,edges=edges,sides=0)
+  bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));bm.to_mesh(cutgum.data);bm.free();vis(cutgum,350)
+  for name in ['AP_Maxilar_cortical','AP_Hueso_trabecular']:vis(get(name),350)
+  # Fine warm cortical silhouette provides reference-style rim without changing material settings.
+  rim=curve_obj('AD_BORDE_HUESO_CALIDO',[(-3,.07,.66),(-3,.07,2.50),(-2.91,.07,2.79),(-2.69,.07,3.01),(-2.28,.07,3.19),(-1.49,.07,3.46),(0,.07,3.60),(1.49,.07,3.46),(2.28,.07,3.19),(2.69,.07,3.01),(2.91,.07,2.79),(3,.07,2.50),(3,.07,.66)],.012,bpy.data.materials.get('DI_Warm_edge') or bpy.data.materials['AP_Cyan_cutline']);vis(rim,350)
+  # Anesthesia starts with the spoken phrase, approaches gum, pauses, then withdraws.
+  syringe=get('AP_Anesthesia_rig');syringe.rotation_euler=(0,-.55,-.30)
+  key(syringe,'location',[(1,(-1.5,-1.15,-1)),(199,(-1.5,-1.15,-1)),(235,(-.52,-.75,.55)),(305,(-.52,-.75,.55)),(345,(-1.7,-1.3,-1.2))])
+  for ob in s.objects:
+   if ob.parent==syringe:vis(ob,200,347)
+  plunger=get('AP_Plunger');key(plunger,'location',[(200,(0,0,-2.22)),(236,(0,0,-2.22)),(300,(0,0,-2.10)),(347,(0,0,-2.10))])
+  # Preparation: drill enters upward. Bone plug recedes with the drill tip, showing the canal being made.
+  drill=get('AP_Osteotomy_rig')
+  key(drill,'location',[(1,(0,0,-2.6)),(420,(0,0,-2.6)),(445,(0,0,-1.92)),(528,(0,0,.38)),(541,(0,0,.38)),(564,(0,0,-3.7))])
+  key(drill,'rotation_euler',[(420,(0,0,0)),(565,(0,0,32*math.pi))],linear=True)
+  for ob in s.objects:
+   if ob.parent==drill:vis(ob,420,565)
+  bpy.ops.mesh.primitive_cylinder_add(vertices=64,radius=.284,depth=1,location=(0,0,1.77));plug=bpy.context.object;plug.name='AD_HUESO_EN_PREPARACION';new_objects.append(plug);plug.data.materials.append(get('AP_Hueso_trabecular').data.materials[0]);action(plug);vis(plug,350,532)
+  key(plug,'scale',[(350,(1,1,2.26)),(445,(1,1,2.26)),(530,(1,1,.025))])
+  key(plug,'location',[(350,(0,0,1.77)),(445,(0,0,1.77)),(530,(0,0,2.8875))])
+  # Implant: guide to axis, engage and rotate upward. Tip remains superior throughout.
+  implant=get('AP_IMPLANT_AXIS')
+  key(implant,'location',[(1,(0,0,-2.5)),(620,(0,0,-2.5)),(640,(0,0,-2.08)),(704,(0,0,0)),(1050,(0,0,0))])
+  # Rotation and advance share proportional Bezier keys, coherent with screw pitch.
+  key(implant,'rotation_euler',[(620,(0,0,0)),(640,(0,0,-2.5*math.pi)),(704,(0,0,-15*math.pi)),(1050,(0,0,-15*math.pi))])
+  for ob in s.objects:
+   if ob.parent==implant:vis(ob,620)
+  cap=get('AP_Healing_cap');vis(cap,722,878)
+  key(cap,'location',[(722,(0,0,-.28)),(739,(0,0,.39)),(861,(0,0,.39)),(878,(.7,0,-.7))])
+  # Bone growth is anchored in existing bone, not scaled from the world origin.
+  for i,ob in enumerate(sorted([o for o in s.objects if o.name.startswith('AP_Integration')],key=lambda x:x.name)):
+   ob.data=ob.data.copy();anchor=Vector(ob.data.splines[0].points[0].co[:3])
+   for spline in ob.data.splines:
+    for point in spline.points:
+     co=Vector(point.co[:3])-anchor;point.co=(*co,1)
+   ob.location=anchor;vis(ob,742+i);key(ob,'scale',[(742+i,(.001,.001,.001)),(773+i,(1,1,1))])
+  # Abutment and crown enter sequentially, following the same upper-maxilla axis.
+  abut=get('AP_Abutment');vis(abut,880)
+  key(abut,'location',[(1,(0,0,-1.1)),(880,(0,0,-1.1)),(914,(0,0,.26)),(1050,(0,0,.26))])
+  crown=get('AP_Definitive_crown');vis(crown,923)
+  key(crown,'location',[(1,(0,0,-1.65)),(923,(0,0,-1.65)),(977,(0,0,0)),(1050,(0,0,0))])
+  # Camera: portrait into the actual gap, modest orbit around the exposed section, final gentle retreat.
+  cam=get('AP_CAMERA');cam.data=cam.data.copy();cam.data.animation_data_clear();cam.data.type='ORTHO';cam.data.sensor_fit='VERTICAL';cam.data.dof.use_dof=False
+  path=[(1,(-1.3,-32,4.5),(-1.3,0,4.5),25),(105,(-.8,-30,2.8),(-.8,0,2.8),18),(150,(-.25,-28,1.15),(-.25,0,1.15),11.2),(200,(-.45,-28,1.1),(-.2,0,1.1),11.0),(345,(-.3,-28,1.2),(-.1,0,1.2),11.2),(380,(0,-28,1.3),(0,0,1.3),11.6),(420,(.6,-28,2.4),(0,0,1.20),12.0),(528,(1.2,-28,2.9),(0,0,1.2),11.5),(620,(1.5,-28,2.3),(0,0,.4),13.8),(704,(-1.4,-28,3),(0,0,1.2),11.5),(740,(-1.1,-28,2.7),(0,0,1.2),11.3),(860,(-.7,-28,2.4),(0,0,1.2),11.3),(900,(1.1,-28,2.4),(0,0,.8),12.2),(960,(.9,-28,2.2),(0,0,.6),12),(1000,(.5,-28,2.8),(0,0,1.1),11.2),(1050,(.2,-28,2.8),(0,0,1.1),11.8)]
+  for f,loc,target,scale in path:
+   cam.location=loc;cam.rotation_euler=(Vector(target)-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.ortho_scale=scale;cam.keyframe_insert(data_path='location',frame=f);cam.keyframe_insert(data_path='rotation_euler',frame=f);cam.data.keyframe_insert(data_path='ortho_scale',frame=f)
+  for ac in [cam.animation_data.action,cam.data.animation_data.action]:
+   for fc in ac.fcurves:
+    for k in fc.keyframe_points:k.interpolation='BEZIER';k.handle_left_type='AUTO_CLAMPED';k.handle_right_type='AUTO_CLAMPED'
+  # Brief explanatory caption makes the integration interval explicit without altering the Fish recording.
+  font=bpy.data.curves.new('AD_TIEMPO_CICATRIZACION','FONT');font.body='MESES DE CICATRIZACIÓN';font.align_x='CENTER';font.size=.18
+  txt=bpy.data.objects.new('AD_TIEMPO_CICATRIZACION',font);s.collection.objects.link(txt);new_objects.append(txt);font.materials.append(bpy.data.materials.get('DI_Secondary') or bpy.data.materials['AP_Cyan_cutline']);txt.parent=cam;txt.location=(0,-3.8,-7);vis(txt,740,860)
+  # Markers and sequencer sound are intentionally not rebuilt.
+  s['AD_ANIM_VERSION']=VERSION
+  s['AD_ANIM_NOTAS']='Cara y línea desaparecen en f416. Cuatro dientes naturales/raíces; quinta pieza solo al colocar corona. Preparación 420-565; implante 620-704; integración 740-860; pilar 880-914; corona 923-977. Voz existente conservada.'
+  success=True
+  responder({'applied':True,'version':VERSION,'objects':len(s.objects),'new_objects':[o.name for o in new_objects],'voice':[(q.name,q.frame_final_start,q.frame_final_end) for q in s.sequence_editor.sequences_all if q.type=='SOUND']})
+except Exception:
+ # Roll back pointers/actions and poses without replacing the live scene.
+ for ob,m in new_modifiers:
+  if m.name in ob.modifiers:ob.modifiers.remove(m)
+ for name,p in previous.items():
+  ob=p['object'];ob.data=p['data'];ob.parent=p['parent'];ob.animation_data_create();ob.animation_data.action=p['action'];ob.location=p['loc'];ob.rotation_euler=p['rot'];ob.scale=p['scale']
+ for ob in reversed(new_objects):
+  if ob.name in bpy.data.objects:bpy.data.objects.remove(ob,do_unlink=True)
+ responder({'error':traceback.format_exc()});raise
+finally:
+ w.scene=prior_scene;s.camera=prior_camera;s.frame_set(prior_frame)
+ for p in previous.values():p['object'].hide_render=p['hide'];p['object'].hide_viewport=p['hide_viewport']
+ s.render.resolution_x,s.render.resolution_y,s.render.resolution_percentage,s.render.image_settings.file_format,s.render.filepath=prior_render
+ s.view_settings.view_transform,s.view_settings.look,s.view_settings.exposure,s.view_settings.gamma=prior_view
+ s.world=prior_world
+ for space,typ in prior_shading:space.shading.type=typ
+PY" in /workspaces/visionagenciaIAV2.0
+ succeeded in 63ms:
+codex
+La prueba aislada del barrido funcionó: la cara se recorta progresivamente y desaparece por completo. Ya preparé los tiempos para que el tornillo entre al mencionarlo la voz y para que el tapón, el pilar y la corona aparezcan en ese orden. Ahora estoy comprobando los encuadres en una copia local.
+exec
+/bin/bash -lc "cat > entregables/implante_dental/animacion_dientes/probar_local.py <<'PY'
+import bpy,json,os,hashlib
+from pathlib import Path
+base=Path('/workspaces/visionagenciaIAV2.0/entregables/implante_dental/animacion_dientes')
+def fingerprint(s):
+ return [(o.name,o.data.name if o.data else None,tuple(o.location),tuple(o.scale),o.hide_render,o.animation_data.action.name if o.animation_data and o.animation_data.action else None) for o in s.objects]
+original=fingerprint(bpy.data.scenes['IMPLANTE_DENTAL_CINEMA'])
+exec((base/'aplicar_animacion.py').read_text(),globals())
+assert original==fingerprint(bpy.data.scenes['IMPLANTE_DENTAL_CINEMA']),'SOURCE CHANGED'
+s=bpy.data.scenes['CHICA_IMPLANTE_ESTILO_APROBADO'];bpy.context.window.scene=s
+checks=[]
+for frame in [1,150,230,350,380,416,450,550,620,670,704,750,845,900,940,1000,1050]:
+ s.frame_set(frame)
+ visible=[o.name for o in s.objects if not o.hide_render]
+ naturals=[n for n in visible if n.startswith('AP_Natural_tooth')]
+ if frame>=416:
+  assert len(naturals)==4,(frame,naturals)
+  assert not any(n.startswith('CHICA_') for n in visible),(frame,[n for n in visible if n.startswith('CHICA_')])
+  assert not any(n.startswith('AP_Diente_distal') for n in visible)
+  assert 'AD_LINEA_CIAN_MOVIL' not in visible
+  assert all('AP_Root_'+str(i) in visible for i in range(4))
+ if frame<620:assert 'AP_Implant_body' not in visible
+ if 750<=frame<=845:assert 'AP_Healing_cap' in visible and 'AP_Definitive_crown' not in visible
+ checks.append({'frame':frame,'natural_teeth':len(naturals),'roots':len([n for n in visible if n.startswith('AP_Root_')]),'face_visible':[n for n in visible if n.startswith('CHICA_')],'implant':'AP_Implant_body' in visible,'cap':'AP_Healing_cap' in visible,'abutment':'AP_Abutment' in visible,'crown':'AP_Definitive_crown' in visible})
+assert any(q.name=='VOZ_FISH_IMPLANTE' and q.sound.packed_file for q in s.sequence_editor.sequences_all)
+(base/'verificacion_local.json').write_text(json.dumps({'source_unchanged':True,'checks':checks},indent=2))
+s.frame_set(620)
+bpy.ops.wm.save_as_mainfile(filepath=str(base/'ANIMACION_LOCAL_VERIFICADA.blend'),check_existing=False,compress=True)
+s.render.engine='CYCLES';s.cycles.samples=20;s.cycles.use_denoising=False;s.cycles.max_bounces=4;s.render.resolution_percentage=35;s.render.image_settings.file_format='PNG';s.render.use_sequencer=False
+for frame in [380,450,670,790,1000]:
+ s.frame_set(frame);s.render.filepath=str(base/f'VERIFICACION_{frame}.png');bpy.ops.render.render(write_still=True)
+print('LOCAL_VERIFICATION_DONE')
+PY
+blender -b entregables/implante_dental/animacion_dientes/SESION_ANTES.blend -t 6 --python entregables/implante_dental/animacion_dientes/probar_local.py > /tmp/animacion_dientes_local.log 2>&1" in /workspaces/visionagenciaIAV2.0

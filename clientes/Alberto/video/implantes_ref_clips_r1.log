@@ -1,0 +1,22 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fabelagabriel645/main/ap-DuLmnrGJyHQdlzznYn2Qkh
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/Alberto/video/implantes_ref_mo
+│   dal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function cuadros.
+└── ✓ Created Function clips.
+listo S1_r1
+listo S2_r1
+listo S3_r1
+listo S4_r1
+listo S5_r1
+guardado S1_r1
+guardado S2_r1
+guardado S3_r1
+guardado S4_r1
+guardado S5_r1
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/fabelagabriel645/main/ap-DuLmnrGJyHQdlzznYn2Qkh

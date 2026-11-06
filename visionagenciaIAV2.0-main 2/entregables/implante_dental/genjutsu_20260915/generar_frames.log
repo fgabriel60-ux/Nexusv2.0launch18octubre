@@ -1,0 +1,31 @@
+01_rostro_hueco job 3442fc0d802f44ca854694a0b7319934
+04_sticker_revela job 49ee82511a514ff393561703d5682c3c
+02_closeup_espacio job 7971da4738294a88a7583c94a9d68986
+05_preparacion_fresa job 50c92fc9979546bf85f22ebcabffa42f
+03_anestesia job 3330d2bece9d463cbd7e18e1627e7225
+02_closeup_espacio listo
+06_implante_entra job a284838941c54407aa3f70d9d37f3297
+01_rostro_hueco job c66f310c58f34da3bc3b54550e5b6873
+04_sticker_revela job 46bce27d517f492e9b84c0dfac64c395
+03_anestesia job e22fc02f744a4385803868f37113f3ad
+06_implante_entra job 83da27c4f1ed4ac88d4ee27270451acf
+05_preparacion_fresa job d6aa3e82fe0546af9b8b209a63abbbbe
+01_rostro_hueco listo
+04_sticker_revela listo
+07_integracion job 5e1739ce94834ae4a125c2e81feed8f2
+08_pilar_corona job 8fe2920aee994176999fb66979d165f4
+05_preparacion_fresa listo
+09_corona_colocada job 1f9fee1e0d4d4c50b891eaad3fa4528b
+09_corona_colocada listo
+06_implante_entra listo
+10_sonrisa_feliz job 9338926669a24f14a1b223ce54dd9d1c
+03_anestesia listo
+08_pilar_corona listo
+07_integracion listo
+10_sonrisa_feliz listo
+{'01_rostro_hueco': 'ok', '03_anestesia': 'ok', '04_sticker_revela': 'ok', '05_preparacion_fresa': 'ok', '06_implante_entra': 'ok', '07_integracion': 'ok', '08_pilar_corona': 'ok', '09_corona_colocada': 'ok', '10_sonrisa_feliz': 'ok'}
+09_corona_colocada job a4a1ef8331ce4d249a96169621a46383
+04_sticker_revela job 5104ea9bb9ae483296ff72a970ac1b28
+09_corona_colocada listo
+04_sticker_revela listo
+{'04_sticker_revela': 'ok', '09_corona_colocada': 'ok'}

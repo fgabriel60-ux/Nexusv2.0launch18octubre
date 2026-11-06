@@ -1,0 +1,2579 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-mL5A8wJmsMo54i8785eEb3
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/entregables/glimmer_estrategias_20261029/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:03<1:15:16,  3.15s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:03<16:17,  1.46it/s]  
+[1ALoading weights:   0%|          | 6/1436 [00:03<10:09,  2.35it/s]
+[1ALoading weights:   1%|          | 14/1436 [00:03<03:26,  6.89it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:04<02:47,  8.46it/s]
+[1ALoading weights:   1%|▏         | 19/1436 [00:04<02:42,  8.71it/s]
+[1ALoading weights:   2%|▏         | 22/1436 [00:04<02:10, 10.81it/s]
+[1ALoading weights:   2%|▏         | 28/1436 [00:04<01:21, 17.26it/s]
+[1ALoading weights:   2%|▏         | 31/1436 [00:04<01:39, 14.16it/s]
+[1ALoading weights:   2%|▏         | 35/1436 [00:04<01:21, 17.28it/s]
+[1ALoading weights:   3%|▎         | 40/1436 [00:05<01:03, 21.96it/s]
+[1ALoading weights:   3%|▎         | 44/1436 [00:05<01:21, 17.13it/s]
+[1ALoading weights:   4%|▎         | 51/1436 [00:05<01:21, 17.05it/s]
+[1ALoading weights:   4%|▍         | 54/1436 [00:05<01:18, 17.53it/s]
+[1ALoading weights:   4%|▍         | 60/1436 [00:06<00:59, 23.25it/s]
+[1ALoading weights:   4%|▍         | 64/1436 [00:06<00:56, 24.27it/s]
+[1ALoading weights:   5%|▍         | 67/1436 [00:06<01:15, 18.20it/s]
+[1ALoading weights:   5%|▌         | 73/1436 [00:06<01:07, 20.18it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:06<01:05, 20.69it/s]
+[1ALoading weights:   6%|▌         | 79/1436 [00:07<01:09, 19.60it/s]
+[1ALoading weights:   6%|▌         | 87/1436 [00:07<00:45, 29.93it/s]
+[1ALoading weights:   6%|▋         | 91/1436 [00:07<01:10, 19.02it/s]
+[1ALoading weights:   7%|▋         | 98/1436 [00:07<00:52, 25.72it/s]
+[1ALoading weights:   7%|▋         | 102/1436 [00:08<01:13, 18.05it/s]
+[1ALoading weights:   7%|▋         | 107/1436 [00:08<01:09, 19.04it/s]
+[1ALoading weights:   8%|▊         | 113/1436 [00:08<00:55, 23.78it/s]
+[1ALoading weights:   8%|▊         | 117/1436 [00:08<00:57, 23.07it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:08<00:48, 27.12it/s]
+[1ALoading weights:   9%|▉         | 126/1436 [00:09<01:11, 18.32it/s]
+[1ALoading weights:   9%|▉         | 133/1436 [00:09<00:50, 25.78it/s]
+[1ALoading weights:  10%|▉         | 137/1436 [00:09<01:13, 17.58it/s]
+[1ALoading weights:  10%|█         | 145/1436 [00:09<00:50, 25.35it/s]
+[1ALoading weights:  10%|█         | 150/1436 [00:10<01:08, 18.75it/s]
+[1ALoading weights:  11%|█         | 157/1436 [00:10<01:00, 21.16it/s]
+[1ALoading weights:  11%|█         | 161/1436 [00:10<00:56, 22.70it/s]
+[1ALoading weights:  11%|█▏        | 165/1436 [00:11<00:57, 21.93it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:11<00:48, 26.03it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:11<01:01, 20.42it/s]
+[1ALoading weights:  12%|█▏        | 179/1436 [00:11<00:58, 21.56it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:11<00:49, 25.41it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:12<01:03, 19.50it/s]
+[1ALoading weights:  14%|█▎        | 194/1436 [00:12<00:58, 21.31it/s]
+[1ALoading weights:  14%|█▎        | 197/1436 [00:12<00:56, 22.09it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:12<00:57, 21.60it/s]
+[1ALoading weights:  14%|█▍        | 205/1436 [00:12<00:45, 26.94it/s]
+[1ALoading weights:  15%|█▍        | 209/1436 [00:13<01:00, 20.23it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:13<00:58, 20.79it/s]
+[1ALoading weights:  15%|█▌        | 217/1436 [00:13<01:01, 19.92it/s]
+[1ALoading weights:  15%|█▌        | 221/1436 [00:13<00:54, 22.21it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:13<00:57, 20.94it/s]
+[1ALoading weights:  16%|█▌        | 230/1436 [00:13<00:43, 27.71it/s]
+[1ALoading weights:  16%|█▋        | 234/1436 [00:14<01:08, 17.67it/s]
+[1ALoading weights:  17%|█▋        | 241/1436 [00:14<00:48, 24.86it/s]
+[1ALoading weights:  17%|█▋        | 245/1436 [00:14<00:56, 21.16it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:14<01:01, 19.42it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:15<00:46, 25.50it/s]
+[1ALoading weights:  18%|█▊        | 259/1436 [00:15<01:03, 18.64it/s]
+[1ALoading weights:  19%|█▊        | 267/1436 [00:15<00:42, 27.27it/s]
+[1ALoading weights:  19%|█▉        | 271/1436 [00:15<01:00, 19.16it/s]
+[1ALoading weights:  19%|█▉        | 275/1436 [00:16<01:12, 16.08it/s]
+[1ALoading weights:  20%|█▉        | 282/1436 [00:16<00:55, 20.78it/s]
+[1ALoading weights:  20%|██        | 288/1436 [00:16<00:43, 26.21it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:16<00:41, 27.75it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:17<00:55, 20.73it/s]
+[1ALoading weights:  21%|██        | 302/1436 [00:17<00:43, 26.29it/s]
+[1ALoading weights:  21%|██▏       | 306/1436 [00:17<01:01, 18.52it/s]
+[1ALoading weights:  22%|██▏       | 314/1436 [00:17<00:49, 22.62it/s]
+[1ALoading weights:  22%|██▏       | 317/1436 [00:17<00:49, 22.60it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:18<00:52, 21.26it/s]
+[1ALoading weights:  23%|██▎       | 327/1436 [00:18<00:38, 29.08it/s]
+[1ALoading weights:  23%|██▎       | 331/1436 [00:18<00:56, 19.43it/s]
+[1ALoading weights:  23%|██▎       | 335/1436 [00:18<00:51, 21.53it/s]
+[1ALoading weights:  24%|██▎       | 340/1436 [00:18<00:41, 26.22it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:19<00:53, 20.42it/s]
+[1ALoading weights:  24%|██▍       | 347/1436 [00:19<00:50, 21.68it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:19<00:41, 26.05it/s]
+[1ALoading weights:  25%|██▍       | 356/1436 [00:19<00:55, 19.60it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:19<00:43, 24.77it/s]
+[1ALoading weights:  26%|██▌       | 367/1436 [00:20<00:55, 19.20it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:20<00:41, 25.35it/s]
+[1ALoading weights:  26%|██▋       | 379/1436 [00:20<00:54, 19.45it/s]
+[1ALoading weights:  27%|██▋       | 386/1436 [00:20<00:40, 26.22it/s]
+[1ALoading weights:  27%|██▋       | 390/1436 [00:21<00:55, 18.84it/s]
+[1ALoading weights:  28%|██▊       | 397/1436 [00:21<00:41, 24.83it/s]
+[1ALoading weights:  28%|██▊       | 401/1436 [00:21<00:47, 21.99it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:21<00:50, 20.56it/s]
+[1ALoading weights:  29%|██▊       | 411/1436 [00:22<00:44, 23.16it/s]
+[1ALoading weights:  29%|██▉       | 414/1436 [00:22<00:56, 18.22it/s]
+[1ALoading weights:  29%|██▉       | 422/1436 [00:22<00:44, 22.64it/s]
+[1ALoading weights:  30%|██▉       | 425/1436 [00:22<00:45, 22.39it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:22<00:48, 20.70it/s]
+[1ALoading weights:  30%|███       | 434/1436 [00:23<00:36, 27.27it/s]
+[1ALoading weights:  31%|███       | 438/1436 [00:23<00:54, 18.48it/s]
+[1ALoading weights:  31%|███       | 446/1436 [00:23<00:36, 27.22it/s]
+[1ALoading weights:  31%|███▏      | 450/1436 [00:24<00:52, 18.94it/s]
+[1ALoading weights:  32%|███▏      | 459/1436 [00:24<00:34, 28.37it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:24<00:47, 20.49it/s]
+[1ALoading weights:  33%|███▎      | 471/1436 [00:24<00:36, 26.29it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:25<00:48, 19.81it/s]
+[1ALoading weights:  34%|███▎      | 483/1436 [00:25<00:36, 25.81it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:25<00:47, 19.87it/s]
+[1ALoading weights:  34%|███▍      | 494/1436 [00:25<00:38, 24.20it/s]
+[1ALoading weights:  35%|███▍      | 498/1436 [00:26<00:52, 17.95it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:26<00:37, 25.08it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:26<00:44, 20.91it/s]
+[1ALoading weights:  36%|███▌      | 520/1436 [00:27<00:44, 20.76it/s]
+[1ALoading weights:  36%|███▋      | 523/1436 [00:27<00:44, 20.47it/s]
+[1ALoading weights:  37%|███▋      | 529/1436 [00:27<00:35, 25.51it/s]
+[1ALoading weights:  37%|███▋      | 533/1436 [00:27<00:49, 18.25it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:28<00:33, 26.69it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:28<00:40, 21.70it/s]
+[1ALoading weights:  39%|███▊      | 554/1436 [00:28<00:33, 26.30it/s]
+[1ALoading weights:  39%|███▉      | 558/1436 [00:28<00:46, 19.01it/s]
+[1ALoading weights:  39%|███▉      | 566/1436 [00:28<00:32, 26.97it/s]
+[1ALoading weights:  40%|███▉      | 571/1436 [00:29<00:43, 19.96it/s]
+[1ALoading weights:  40%|████      | 578/1436 [00:29<00:38, 22.03it/s]
+[1ALoading weights:  41%|████      | 582/1436 [00:29<00:42, 20.02it/s]
+[1ALoading weights:  41%|████      | 589/1436 [00:30<00:37, 22.61it/s]
+[1ALoading weights:  41%|████▏     | 593/1436 [00:30<00:42, 19.69it/s]
+[1ALoading weights:  42%|████▏     | 599/1436 [00:30<00:34, 24.23it/s]
+[1ALoading weights:  42%|████▏     | 605/1436 [00:31<00:41, 19.94it/s]
+[1ALoading weights:  43%|████▎     | 611/1436 [00:31<00:33, 24.35it/s]
+[1ALoading weights:  43%|████▎     | 617/1436 [00:31<00:39, 20.85it/s]
+[1ALoading weights:  44%|████▎     | 625/1436 [00:31<00:28, 28.48it/s]
+[1ALoading weights:  45%|████▌     | 650/1436 [00:31<00:12, 63.35it/s]
+[1ALoading weights:  47%|████▋     | 674/1436 [00:31<00:08, 92.95it/s]
+[1ALoading weights:  49%|████▉     | 701/1436 [00:31<00:05, 126.86it/s]
+[1ALoading weights:  50%|█████     | 722/1436 [00:32<00:04, 145.30it/s]
+[1ALoading weights:  53%|█████▎    | 765/1436 [00:32<00:03, 207.80it/s]
+[1ALoading weights:  56%|█████▌    | 806/1436 [00:32<00:02, 250.52it/s]
+[1ALoading weights:  59%|█████▉    | 848/1436 [00:32<00:02, 284.99it/s]
+[1ALoading weights:  62%|██████▏   | 890/1436 [00:32<00:01, 317.66it/s]
+[1ALoading weights:  64%|██████▍   | 924/1436 [00:32<00:01, 316.52it/s]
+[1ALoading weights:  67%|██████▋   | 967/1436 [00:32<00:01, 336.22it/s]
+[1ALoading weights:  70%|███████   | 1006/1436 [00:32<00:01, 347.81it/s]
+[1ALoading weights:  73%|███████▎  | 1042/1436 [00:32<00:01, 323.42it/s]
+[1ALoading weights:  76%|███████▌  | 1087/1436 [00:33<00:01, 342.84it/s]
+[1ALoading weights:  78%|███████▊  | 1125/1436 [00:33<00:00, 350.07it/s]
+[1ALoading weights:  81%|████████  | 1166/1436 [00:33<00:00, 358.37it/s]
+[1ALoading weights:  84%|████████▍ | 1203/1436 [00:33<00:00, 353.08it/s]
+[1ALoading weights:  86%|████████▋ | 1239/1436 [00:33<00:00, 350.76it/s]
+[1ALoading weights:  89%|████████▉ | 1280/1436 [00:33<00:00, 359.76it/s]
+[1ALoading weights:  92%|█████████▏| 1318/1436 [00:33<00:00, 365.23it/s]
+[1ALoading weights:  94%|█████████▍| 1355/1436 [00:33<00:00, 345.19it/s]
+[1ALoading weights:  97%|█████████▋| 1392/1436 [00:33<00:00, 340.01it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:34<00:00, 42.23it/s] 
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## COCINETAS_MTY_MUESTRA
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, sin razonamiento. No inventes precios; si falta, [CONFIRMAR].
+PROSPECTO: fabricante de cocinetas y clósets a diseño en Monterrey, Nuevo León. Imagen 2 = 4 fotos REALES de sus trabajos (cocinas en gris oscuro y madera, clóset de madera, barra). Precio desde: [CONFIRMAR]. Nombre del negocio: [CONFIRMAR].
+Imagen 1 = 4 ideas de reels...
+
+Necesito su VIDEO DE MUESTRA para convencerlo (fórmula 10/10/10). Responde: 1) idea elegida y por qué; 2) guion de 20 s con voz de locutor o texto, escena por escena (qué foto suya o qué escena generada, segundos, texto en pantalla ≤5 palabras); 3) gancho de 2 s; 4) CTA; 5) calificación proyectada.
+
+CAPACIDADES...
+
+We must output only final answer in Spanish, no reasoning. Provide idea chosen and why; script 20s with voice or text, scene by scene (which photo or generated scene, seconds, on-screen text ≤5 words); hook 2s; CTA; projected rating.
+
+We must not invent prices; if missing, [CONFIRMAR]. Name of business [CONFIRMAR]. Price from [CONFIRMAR].
+
+We need choose idea. Likely IDEA 2: transformation of small space kitchen. Because prospect is manufacturer of kitchens and closets custom design. Idea 2 shows transformation of small space into dream kitchen. High views 7.5M. Good fit.
+
+Or IDEA 1 outdoor kitchen? Might be less relevant.
+
+Idea 2 is transformation. Use real photos of client's kitchens.
+
+We need 20s script. 10/10/10 formula? Probably 10s hook, 10s body, 10s CTA? But script 20s total. Maybe 10/10/10 is hook 10%? Hmm.
+
+Provide scene by scene with seconds.
+
+We can use Qwen-Image-Edit to create new frames from real photos: remove text, change time of day, etc. Use MiniMax H3 animation.
+
+We need voice cloned.
+
+Provide hook 2s.
+
+CTA.
+
+Projected rating.
+
+Must not invent price. Use [CONFIRMAR].
+
+Provide final answer.
+
+Ensure no reasoning, just final.
+
+Let's craft:
+
+1) Idea elegida: IDEA 2 de @klave.col...
+
+Why: transformation, small space, aligns with custom kitchens/closets, high engagement, etc.
+
+2) Guion 20s:
+
+0-2s gancho...
+2-... etc.
+
+Need scene per seconds, what photo, text on screen ≤5 words.
+
+We have 4 real photos: kitchen with dark brown cabinets and window, kitchen gray, closet wood, bar wood.
+
+We can use them.
+
+Let's propose:
+
+0-2s: clip animated from photo 1 (kitchen gris oscuro) push-in, text "¿Espacio pequeño?" etc.
+
+But hook 2s separate.
+
+Maybe structure:
+
+0-2s Hook
+2-7s...
+etc total 20s.
+
+Provide voice text.
+
+Let's produce concise.
+
+Ensure text on screen ≤5 words.
+
+CTA: "Escríbenos por WhatsApp" etc.
+
+Projected rating: 9/10 etc.
+
+Provide final.
+
+No invent prices.
+
+Let's output.
+
+assistant to=user**1) Idea elegida**
+IDEA 2 · @klave.col · 7,503,961 vistas · 9 s · “Transforma tu hogar en un espacio de ensueño!”
+Por qué: es transformación de espacio pequeño a cocina de ensueño, formato antes/después de 9 s con alta retención. Se alinea 100% con fabricante de cocinetas y clósets a diseño en Monterrey. Permite usar las 4 fotos REALES del prospecto como “antes/después” y generar continuidad con animación imagen→video. Es replicable con nuestras capacidades sin grabar al asesor.
+
+**2) Guion de muestra 20 s – formato 9:16, voz clonada del asesor**
+
+0-2 s GANCHO
+Escena: Foto REAL 1 cocina gris oscuro, animada MiniMax H3 push-in suave, día.
+Voz: “¿Te dijeron que en poco espacio no hay cocina de tus sueños?”
+Texto en pantalla: “Espacio pequeño?”
+
+2-7 s ANTES
+Escena: Foto REAL 3 clóset de madera, animada órbita lenta, atardecer generado con Qwen-Image-Edit.
+Voz: “En Monterrey diseñamos cocinetas y clósets a tu medida.”
+Texto en pantalla: “Cocinetas a diseño”
+
+7-13 s TRANSFORMACIÓN
+Escena: Foto REAL 2 cocina gris, animada dolly-in, texto eliminado con Qwen-Image-Edit.
+Voz: “Mira cómo un rincón se vuelve funcional y elegante.”
+Texto en pantalla: “De vacío a cocina”
+
+13-18 s PRUEBA SOCIAL / PRODUCTO
+Escena: Foto REAL 4 barra madera, animada primer plano con punch-in en edición ffmpeg.
+Voz: “Cocinas en gris oscuro y madera, clósets y barras como estas.”
+Texto en pantalla: “Tus fotos reales”
+
+18-20 s CTA
+Escena: Montaje rápido de las 4 fotos reales con transición desenfoque y viñeta.
+Voz: “Pide tu cotización por WhatsApp.”
+Texto en pantalla: “Cotiza por WhatsApp”
+
+**3) Gancho de 2 s**
+Visual push-in a cocina gris real + texto “Espacio pequeño?” + voz “¿Te dijeron que en poco espacio no hay cocina de tus sueños?”
+
+**4) CTA**
+Texto en capa final + botón WhatsApp animado: “Escríbenos por WhatsApp para tu diseño a medida en Monterrey”. Nombre del negocio: [CONFIRMAR]. Precio desde: [CONFIRMAR].
+
+**5) Calificación proyectada**
+9/10 en retención, 9/10 en relevancia de producto, 8/10 en intención de clic.
+
+######## GUILLERMO_PLAN_FAR12
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento. No inventes precios ni datos; si falta algo, marca [CONFIRMAR].
+NEGOCIO: Guillermo, herrero en Puebla. Quiere promocionar trabajos MÁS ACCESIBLES (no naves grandes): zaguanes, cortinas, puertas y pérgolas. Ya le funcionan anuncios (17 mensajes a $4.56 con video de techos). Imagen 2 = sus trabajos reales (zaguán, cortina, puerta, pérgola negra, casa con pérgola).
+REFERENCIA (imagen 1): reel de @far12 «La obsesión por los detalles»: proceso de herrería en taller (soldadura con chispas, esmeril, medición, ensamblado, pintura con pistola, corte con plasma) y al final «Los resultados»: puertas y portones terminados instalados; cortes de 1 s, texto mínimo, música.
+OBJETIVO: campaña de mensajes a WhatsApp, fórmula 10/10/10 (Confianza, Claridad de la oferta, Mensajes calificados), pauta $250-$500 al mes.
+Da el PLAN COMPLETO: 1) gancho de 0-2 s; 2) lista de 10-12 escenas en orden (qué se ve, segundos, texto en pantalla ≤4 palabras) imitando la referencia pero con SUS productos (zaguán, cortina, puerta, pérgola), qué escenas se generan con IA (taller) y cuáles son sus fotos reales (resultados); 3) voz en off o solo música + textos (qué conviene); 4) oferta y CTA; 5) calificación proyectada.
+CAPACIDADES DE PRODUCCIÓN DE VIDEO...
+
+We need output only final answer in Spanish. No reasoning. Provide plan complete.
+
+Must not invent prices nor data; if missing mark [CONFIRMAR].
+
+We need gancho 0-2s.
+
+List 10-12 scenes in order (what is seen, seconds, text on screen ≤4 words) imitating reference but with his products. Which scenes generated with IA (taller) and which are real photos (results).
+
+Voice off or only music + texts (what is convenient).
+
+Offer and CTA.
+
+Qualification projected.
+
+We must respect capabilities: can generate new frames with Qwen-Image-Edit-2511 from real photos (his face, clothes, houses): poses, framing, time of day, remove texts. Animation image→video with MiniMax H3 clips ~5s vertical 704x1280: camera movement, first/last frame fixed. Lips sync with cloned voice. Faces/hands may deform with abrupt movements; text generated inside video is invented, so all text in separate layer.
+
+Voice cloned from advisor (Fish Audio) per phrase, with exact script; can change words, order, speed.
+
+Real takes from client (tours with cellphone of each house model, facades, horses on street, padel courts, sea view from roof).
+
+Editing with ffmpeg: cuts to rhythm, speed, whoosh and transitions with blur, punch-in/zoom, color, vignette.
+
+Text in exact layer: viral subtitles word by word (Playfair), price cards, WhatsApp button, logos and real data. No invent prices.
+
+Music own synthesized (beat with riser and drop) and effects.
+
+Format 9:16 for Reels/Stories, 15-35 s, H.264 720p.
+
+Cannot: new drone shots, record advisor in person, use copyrighted music, nor data/prices not given.
+
+We need to propose only viable improvements with this.
+
+We must not invent prices. So offer maybe "cotización sin compromiso" etc. No price.
+
+Qualification projected: maybe 10/10/10 formula.
+
+We need to mark [CONFIRMAR] if missing something.
+
+Probably need to confirm budget? Pauta $250-$500 al mes is given.
+
+Maybe need confirm contact info? Could mark [CONFIRMAR] for WhatsApp number.
+
+We should not invent prices. So offer: "Cotización por WhatsApp" etc.
+
+Provide plan.
+
+Make sure text on screen ≤4 words.
+
+Scenes: 1s,2s etc.
+
+We need 10-12 scenes.
+
+Reference has 10s. We can do 12 scenes ~ 20-30s.
+
+We need indicate which scenes are IA generated (taller) and which are real photos (results). Image 2 = his real works: zaguán, cortina, puerta, pérgola negra, casa con pérgola. Actually image 2 shows 5 images: first two are garage roller shutter? maybe cortina, third is puerta, fourth is pérgola, fifth is house with pergola? Let's assume.
+
+We can use real photos for results.
+
+Taller scenes: we can generate with IA using his real photos? We have no workshop photos. Could generate with Qwen-Image-Edit from real photos? Might need his face. Could generate workshop scenes with IA using his face? Might be okay to generate generic workshop with IA? Capability says cuadros nuevos con Qwen-Image-Edit-2511 a partir de fotos REALES del cliente (su cara, su ropa, sus casas). So we can only edit from real photos. We don't have workshop photos. So maybe we cannot generate workshop scenes? Could use animation of his real works with MiniMax to simulate process? Hmm.
+
+Alternative: imitate reference but with his products: process scenes could be generated with IA using his real photos of finished products and transform to workshop? Might be stretching.
+
+Maybe we can use IA to create workshop scenes using his face/ropa? Could be we have no workshop photos. Could we use animation of his real photos to simulate process? Might be okay to say scenes 1-6 are IA generated from his photos (simulated taller) using Qwen-Image-Edit + MiniMax.
+
+We need to be clear.
+
+Better to propose: scenes of process are IA generated using his face/ropa from existing photos, with workshop background generated? But capability says from real photos of client. Could be we can take a photo of him and edit to workshop.
+
+Assume we have at least one photo of Guillermo. Might be okay.
+
+We can mark [CONFIRMAR] if we need workshop photos.
+
+Maybe we can avoid workshop process and focus on transformation of his real works with IA animation to show detail. But reference is process.
+
+Alternative: use real takes of his works with cellphone and animate with MiniMax to simulate process close-ups.
+
+We can propose scenes 1-6: IA generated taller (soldadura, esmeril, medición, ensamblado, pintura, corte plasma) using Qwen-Image-Edit a partir de foto de Guillermo + MiniMax H3. Mark [CONFIRMAR] if no photo of him in taller.
+
+Scenes 7-12: resultados reales from Imagen 2.
+
+Let's craft 12 scenes, each 2-3 seconds? Total 30s.
+
+Reference has 1s per scene. Could do 2s each.
+
+Provide gancho 0-2s: close-up chispas soldadura + texto "Herrería accesible en Puebla".
+
+Voice off or music? Probably solo música + textos for WhatsApp messages, as voice cloned may be okay but risk deformation. Maybe recommend solo música + textos virales palabra por palabra, with CTA final with voice cloned short.
+
+We need formula 10/10/10: Confianza, Claridad de la oferta, Mensajes calificados.
+
+Offer and CTA: "Manda WhatsApp para cotización sin compromiso de zaguán/cortina/puerta/pérgola". No price.
+
+Qualification projected: maybe 10/10/10.
+
+Provide plan complete.
+
+Make sure not invent prices.
+
+Use Spanish.
+
+No reasoning shown.
+
+Output final.
+
+Let's produce structured sections.
+
+1) Gancho 0-2s
+2) Lista escenas
+3) Voz en off o solo música
+4) Oferta y CTA
+5) Calificación proyectada
+
+Ensure text on screen ≤4 words.
+
+Let's craft scenes:
+
+1s (0-2s): IA taller soldadura chispas, texto "Herrería en Puebla"
+2s (2-4s): IA esmeril, texto "Obsesión por detalles"
+3s (4-6s): IA medición, texto "Medición precisa"
+4s (6-8s): IA ensamblado, texto "Ensamblado fuerte"
+5s (8-10s): IA pintura pistola, texto "Acabado pro"
+6s (10-12s): IA corte plasma, texto "Corte limpio"
+7s (12-15s): Foto real cortina enrollable abierta, texto "Cortinas accesibles"
+8s (15-18s): Foto real cortina cerrada, texto "Seguridad y estilo"
+9s (18-21s): Foto real puerta zaguán, texto "Puertas a medida"
+10s (21-24s): Foto real pérgola negra, texto "Pérgolas modernas"
+11s (24-27s): Foto real casa con pérgola, texto "Trabajos reales Puebla"
+12s (27-30s): Collage resultados + botón WhatsApp, texto "Cotiza por WhatsApp"
+
+Need 10-12 scenes. Could be 10.
+
+Maybe keep 10 scenes.
+
+Reference has 10s. Let's do 10 scenes: 1-6 IA process, 7-10 results.
+
+But need zaguanes, cortinas, puertas y pérgolas. Could include all.
+
+Let's do 11 scenes.
+
+Provide seconds.
+
+Indicate IA vs real.
+
+Let's produce final answer.
+
+Make sure not invent prices.
+
+Mark [CONFIRMAR] for WhatsApp number, logo, etc.
+
+Probably need [CONFIRMAR] for nombre del asesor para voz clonada.
+
+Let's add [CONFIRMAR] where needed.
+
+Output only final answer.
+
+Let's produce.assistant to=user**PLAN COMPLETO – Guillermo Herrería Puebla – Campaña Mensajes WhatsApp**
+
+**1) Gancho 0-2 s**
+0-2 s: IA taller. Primer plano chispas de soldadura sobre metal negro, cámara push-in rápido. Texto en pantalla: “Herrería en Puebla”. Sonido: whoosh + golpe metálico + beat con riser.
+
+**2) Secuencia 10-12 escenas – estilo @far12**
+*Proceso = IA generada con Qwen-Image-Edit-2511 a partir de fotos reales del cliente + animación MiniMax H3 704x1280. Resultados = fotos reales de Imagen 2 animadas con MiniMax H3.*
+
+1. 2-4 s – IA taller. Guillermo con equipo de soldar, chispa. Texto: “Obsesión por detalles”. 
+2. 4-6 s – IA taller. Esmerilado de marco. Texto: “Acabado perfecto”. 
+3. 6-8 s – IA taller. Medición con cinta métrica sobre puerta. Texto: “Medición precisa”. 
+4. 8-10 s – IA taller. Ensamblado de perfiles. Texto: “Estructura fuerte”. 
+5. 10-12 s – IA taller. Pintura con pistola sobre metal. Texto: “Pintura pro”. 
+6. 12-14 s – IA taller. Corte con plasma, chispa. Texto: “Corte limpio”. 
+7. 14-17 s – REAL Imagen 2. Cortina enrollable negra abierta en fachada blanca. Animación dolly in. Texto: “Cortinas accesibles”. 
+8. 17-20 s – REAL Imagen 2. Misma cortina cerrada. Texto: “Seguridad y estilo”. 
+9. 20-23 s – REAL Imagen 2. Puerta de zaguán negra con barrotes. Texto: “Puertas a medida”. 
+10. 23-26 s – REAL Imagen 2. Pérgola negra moderna en cochera. Texto: “Pérgolas modernas”. 
+11. 26-29 s – REAL Imagen 2. Casa con pérgola y barandal. Texto: “Trabajos reales Puebla”. 
+12. 29-32 s – REAL collage resultados + overlay botón WhatsApp. Texto: “Cotiza por WhatsApp”.
+
+Nota producción: escenas 1-6 requieren foto real de Guillermo con ropa de trabajo para Qwen-Image-Edit. [CONFIRMAR existencia de foto de taller / rostro para IA]. Texto siempre en capa aparte, subtítulos virales palabra por palabra en Playfair.
+
+**3) Voz en off o solo música + textos**
+Solo música propia sintetizada con beat, riser y drop + efectos whoosh/golpe/clic. 
+Subtítulos virales en capa. 
+Voz clonada de asesor con Fish Audio solo en el cierre de 2 s para CTA: frase corta exacta. [CONFIRMAR nombre del asesor y guion de voz]. Evita voz en todo el reel para no deformar rostro/manos en IA.
+
+**4) Oferta y CTA**
+Oferta: Cotización sin compromiso por WhatsApp para zaguanes, cortinas enrollables, puertas y pérgolas. Enfoque en trabajos más accesibles, no naves grandes.
+CTA en pantalla final + sticker: “Manda WhatsApp ahora”. 
+Botón de mensajes de Meta enlazado a WhatsApp Business. [CONFIRMAR número de WhatsApp y nombre de negocio en el perfil].
+
+**5) Calificación proyectada – fórmula 10/10/10**
+Confianza 10/10: proceso taller + resultados reales de Imagen 2 + fachadas en Puebla.
+Claridad de la oferta 10/10: 4 productos nombrados, enfoque accesible, sin precios inventados.
+Mensajes calificados 10/10: gancho local inmediato, prueba social visual real, CTA único a WhatsApp.
+
+Formato final 9:16, 32 s, H.264 720p, edición ffmpeg con cortes al ritmo, punch-in/zoom, viñeta y color consistente. Pauta $250-$500
+
+######## JOSE_GRIETA
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento. No inventes precios ni datos; si falta algo, marca [CONFIRMAR].
+NEGOCIO: José, Grupo JR, impermeabilización de azoteas en Puebla, poliuretano acrílico 12 años, desde $150/m². Video estilo Pixar con un obrero animado.
+La imagen son 4 escenas nuevas: (1) inicio: el obrero preocupado señala un charco y una grieta en la losa bajo la lluvia; (2) aplica el recubrimiento blanco con rodillo; (3) losa terminada plana y blanca; (4) toma final abierta (salieron dos obreros, uno mini: error).
+El dueño de la agencia dice que la GRIETA del inicio está demasiado grande y no sabe por qué se puso así. ¿Qué debemos mostrar al inicio para que el problema se entienda sin exagerar y sin espantar ni parecer daño estructural? Da: 1) cómo debe verse la escena de inicio (charco, humedad, mancha en el techo de abajo, goteo…), con prompt de imagen en español; 2) cómo debe verse la toma final; 3) guion de 25 s escena por escena con la voz de José; 4) calificación proyectada.
+CAPACIDADES DE PRODUCCIÓN DE VIDEO...
+
+We need output only final answer in Spanish, no reasoning. Provide 1) how scene start should look with prompt image in Spanish; 2) how final shot should look; 3) script 25s scene by scene with voice of José; 4) projected rating.
+
+No invent prices or data; if missing mark [CONFIRMAR]. Business: José, Grupo JR, impermeabilización de azoteas en Puebla, poliuretano acrílico 12 años, desde $150/m². So price is given. 12 years given.
+
+We must not invent prices nor data; if missing mark [CONFIRMAR]. Probably rating projected? Might need data. Could give qualitative rating? Might be [CONFIRMAR] if can't project? Probably can give estimated rating based on best practices. Might be okay.
+
+We must propose only improvements viable with production capabilities.
+
+We need to address the crack too big. Suggest show small fisura, charco, mancha de humedad en plafón interior, goteo leve, etc.
+
+Provide prompt de imagen en español for Qwen-Image-Edit-2511.
+
+Final shot: should be one obrero, not two, no mini. Open shot with volcano background, roof white, obrero with hands on hips confident, maybe logo.
+
+Script 25s scene by scene with voice of José. Need 25 seconds. Probably 4 scenes: 0-5s, 5-12s, 12-20s, 20-25s.
+
+Use voice cloned.
+
+Provide calificación proyectada. Maybe CTR, CPC? Could say [CONFIRMAR] if no data. Might give projected rating 8/10? Might be inventing. Safer to mark [CONFIRMAR] for metrics? The instruction: No inventes precios ni datos; si falta algo, marca [CONFIRMAR]. Calificación proyectada is a data. Might be an estimate. Could give qualitative: Alta intención... Might be okay.
+
+Probably provide a projected rating like 7.5/10 with assumptions. Might be considered inventing data. Hmm.
+
+Maybe we can give calificación proyectada: [CONFIRMAR] because no historical data. Safer.
+
+The instruction says Da SOLO la respuesta final, en español, sin mostrar tu razonamiento. No inventes precios ni datos; si falta algo, marca [CONFIRMAR].
+
+So for calificación proyectada, we could say [CONFIRMAR] due to lack of historical metrics.
+
+Provide sections.
+
+Make sure not to invent prices. Price given: desde $150/m². Use that.
+
+Poliuretano acrílico 12 años.
+
+Business in Puebla.
+
+Provide prompt.
+
+Let's craft answer.
+
+1) Escena de inicio: ... Prompt: "Personaje animado estilo Pixar obrero..."
+
+Need to ensure we use real photos of client? Capabilities: cuadros nuevos con Qwen-Image-Edit-2511 a partir de fotos REALES del cliente (su cara, su ropa, sus casas). So prompt should reference using photo base.
+
+Maybe prompt: "Usando foto base del obrero..."
+
+Provide description.
+
+2) Toma final: single obrero, no duplicate, hands on hips, roof white, volcano background, etc.
+
+3) Guion 25 s escena por escena con voz de José.
+
+Scene 1 (0-6s): voice line.
+
+Scene 2 (6-13s)...
+
+Scene 3 (13-20s)...
+
+Scene 4 (20-25s)...
+
+4) Calificación proyectada: [CONFIRMAR] or give qualitative.
+
+Maybe give projected rating: Alta relevancia, etc. Might be okay.
+
+I'll provide calificación proyectada: [CONFIRMAR] por falta de métricas históricas.
+
+Ensure output only final answer.
+
+No extra reasoning.
+
+Let's produce concise but complete.
+
+Use bullet points.
+
+Make sure Spanish.
+
+Let's output.assistant to=user**1) Escena de inicio - cómo debe verse y prompt de imagen**
+
+Problema creíble sin exagerar ni daño estructural.
+Visual: día nublado suave en Puebla con volcán al fondo. Azotea real del cliente. El obrero animado estilo Pixar, con casco blanco JR y chaleco azul, señala con preocupación una pequeña fisura capilar en la losa. Junto a ella un charco superficial de lluvia con reflejo, no un hueco. En el borde de la azotea se ve una mancha de humedad en el plafón interior y una gota cayendo lenta. No hay grieta grande ni losa rota.
+
+Prompt de imagen en español para Qwen-Image-Edit-2511 a partir de foto real del cliente:
+Usa foto base del obrero del cliente con su cara y su ropa. Personaje animado estilo Pixar 3D, obrero sonriente preocupado, casco blanco con logo JR rojo, chaleco azul con logo JR, pantalón azul y botas negras. De pie en azotea real de Puebla con volcán Popocatépetl al fondo, cielo nublado suave con lluvia ligera. En la losa una pequeña fisura capilar y un charco superficial con reflejo, sin daño estructural. Primer plano de su dedo señalando el charco. Iluminación natural de día nublado, colores limpios, fondo con casas de colores y volcán. Sin texto.
+
+**2) Toma final**
+
+Una sola figura, sin duplicados ni miniatura.
+Visual: plano abierto 9:16 de la azotea terminada blanca y lisa. El mismo obrero animado estilo Pixar de pie al centro con manos en cintura, postura segura y sonrisa. Fondo abierto con volcán nevado, cielo claro de tarde y calle con casas de Puebla. A un lado de la azotea se apilan tejas ordenadas. Cámara push-in suave. Espacio limpio para texto en capa.
+
+Prompt de imagen:
+Usa foto base del obrero del cliente. Personaje animado estilo Pixar 3D, obrero con casco blanco JR, chaleco azul JR, pantalón azul y botas negras, de pie con manos en cintura en azotea blanca terminada y lisa. Fondo abierto con volcán Popocatépetl nevado, cielo claro de tarde, casas de colores de Puebla. Iluminación cálida de atardecer, estilo limpio y amigable. Sin texto, sin duplicados.
+
+**3) Guion 25 s con voz clonada de José**
+
+0-6 s - Escena inicio problema
+Imagen: obrero señala charco y fisura capilar, gota cayendo.
+Voz José: “En Puebla la lluvia encuentra hasta la fisura más pequeña.”
+
+6-13 s - Aplicación
+Imagen: obrero aplica recubrimiento blanco con rodillo, cámara dolly lateral.
+Voz José: “En Grupo JR sellamos tu azotea con poliuretano acrílico de 12 años.”
+
+13-20 s - Resultado
+Imagen: losa terminada plana y blanca, push-in suave.
+Voz José: “Queda lisa, blanca y lista para cualquier temporada.”
+
+20-25 s - Cierre abierto
+Imagen: toma final abierta con obrero seguro y volcán al fondo.
+Voz José: “Grupo JR, impermeabilización de azoteas en Puebla. Desde $150/m².”
+
+Texto en capa aparte: subtítulos palabra por palabra, tarjeta “Poliuretano acrílico 12 años”, “Desde $150/m²”, logo Grupo JR y botón WhatsApp.
+
+**4) Calificación proyectada**
+[CONFIRMAR] No hay métricas históricas del cliente para proyectar CTR/CPC/ROAS con certeza.
+
+######## MARIANO_SPIDERMAN
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento. No inventes precios ni datos; si falta algo, marca [CONFIRMAR].
+NEGOCIO: Mariano, asesor de casas en Vizcaíno Residencial, Playas de Rosarito (privada con vigilancia, cancha de pádel, parque con asadores, casa club). Modelos: Sotol desde $1.4M (2 rec.), Bugambilia desde $2.4M, Benjamina desde $2.8M, Salvia desde $3.1M (4 rec.). Aceptan Infonavit y crédito hipotecario. Tiene su voz clonada.
+REFERENCIA (imagen 1): reel de gancho estilo Spider-Man/superhéroe: el protagonista cae del cielo y aterriza en pose, luego habla a cámara en distintos lugares, cortes rápidos.
+Imagen 2 = su material REAL: foto de Mariano, fachada Salvia, fachada Benjamina, cancha de pádel, calle con un caballo.
+Su audio actual: «¿Buscas casa en Rosarito? Vizcaíno Residencial, ¡mira esto!» · «Sotol, desde 1.4 millones» · «Bugambilia, desde 2.4 millones» · «Benjamina, desde 2.8 millones» · «Y Salvia, de cuatro recámaras, desde 3.1 millones» · «En privada, con cancha de pádel. Aceptan Infonavit y crédito hipotecario» · «Escríbeme Vizcaíno por WhatsApp y agendamos tu visita».
+Da el PLAN COMPLETO 10/10/10: 1) el gancho Spider-Man en 3 tomas de 2-3 s (salto desde el techo de la Salvia, aterrizaje en pose en el camino de entrada, se levanta y habla), con prompts de imagen precisos para que se vea REALISTA y no ridículo; 2) escenas de Mariano HABLANDO (lipsync) en cada lugar que menciona: frente a cada casa, en la cancha de pádel, en la calle; qué frase dice en cada lugar; 3) segundos y texto en pantalla de cada escena; 4) CTA; 5) calificación proyectada.
+CAPACIDADES DE PRODUCCIÓN DE VIDEO (lo que SÍ podemos hacer; propón solo mejoras viables con esto):
+...
+
+We need output final only, in Spanish, no reasoning. Provide plan complete 10/10/10.
+
+We need 1) gancho Spider-Man en 3 tomas 2-3 s with prompts de imagen precisos para que se vea REALISTA y no ridículo.
+
+2) escenas de Mariano HABLANDO (lipsync) en cada lugar que menciona: frente a cada casa, en la cancha de pádel, en la calle; qué frase dice en cada lugar
+
+3) segundos y texto en pantalla de cada escena
+
+4) CTA
+
+5) calificación proyectada
+
+Must not invent prices nor data; if missing mark [CONFIRMAR]. Prices given.
+
+We need use real material: photo of Mariano, facade Salvia, facade Benjamina, cancha de pádel, calle con caballo.
+
+We have models: Sotol, Bugambilia, Benjamina, Salvia. We have facade Salvia and Benjamina images. Need Sotol and Bugambilia? Maybe use same? Could use real footage? Might need confirm. The material real includes fachada Salvia, fachada Benjamina. No Sotol/Bugambilia. Could use tomas reales del cliente (recorridos con celular de cada modelo). So we can assume we have footage. Might need [CONFIRMAR] if not.
+
+We can propose using Qwen-Image-Edit-2511 to generate Mariano in pose.
+
+Prompts precise.
+
+Provide seconds timeline.
+
+Let's design 28-30 sec video.
+
+Structure:
+
+0-1s? Gancho 3 tomas 2-3s each = 6-9s.
+
+Then speaking scenes.
+
+Audio current: phrases.
+
+We need assign phrases to locations.
+
+Possible:
+
+0-3s: salto desde techo Salvia
+3-6s: aterrizaje pose en camino entrada
+6-9s: se levanta y habla a cámara
+
+Then 9-12s: Mariano frente a fachada Salvia? Or Sotol?
+
+Better map:
+
+Frente a cada casa: Sotol, Bugambilia, Benjamina, Salvia.
+
+We have 4 models.
+
+Also cancha de pádel, calle.
+
+We have audio phrases: ¿Buscas casa en Rosarito? Vizcaíno Residencial, ¡mira esto! (intro)
+Sotol desde 1.4 millones
+Bugambilia desde 2.4 millones
+Benjamina desde 2.8 millones
+Y Salvia de cuatro recámaras desde 3.1 millones
+En privada, con cancha de pádel. Aceptan Infonavit y crédito hipotecario
+Escríbeme Vizcaíno por WhatsApp y agendamos tu visita
+
+We need lipsync scenes.
+
+Maybe 7 scenes speaking.
+
+Let's propose timeline 30s.
+
+0-2s: Toma 1 salto
+2-5s: Toma 2 aterrizaje
+5-8s: Toma 3 se levanta y habla: "¿Buscas casa en Rosarito? Vizcaíno Residencial, ¡mira esto!"
+
+8-11s: Mariano frente a fachada Sotol (toma real) dice "Sotol, desde 1.4 millones"
+11-14s: frente a Bugambilia dice "Bugambilia, desde 2.4 millones"
+14-17s: frente a Benjamina dice "Benjamina, desde 2.8 millones"
+17-20s: frente a Salvia dice "Y Salvia, de cuatro recámaras, desde 3.1 millones"
+20-23s: en cancha de pádel dice "En privada, con cancha de pádel. Aceptan Infonavit y crédito hipotecario"
+23-26s: en calle con caballo (o frente a entrada) dice "Escríbeme Vizcaíno por WhatsApp y agendamos tu visita"
+
+Add CTA overlay last 3s.
+
+Need seconds and texto en pantalla.
+
+Provide prompts for gancho.
+
+Prompt for image edit: Use photo real of Mariano, etc.
+
+We need prompts precise for Qwen-Image-Edit-2511.
+
+Provide 3 prompts.
+
+Maybe:
+
+Prompt 1: "Mariano, hombre mexicano de barba, camisa azul clara, jeans, de pie en la azotea plana de la casa modelo Salvia de Vizcaíno Residencial, fachada blanca con detalles grises, cielo azul claro de Rosarito, luz de día, cámara frontal a la altura del pecho, pose de salto hacia adelante, expresión concentrada, realista, misma cara y ropa de la foto de referencia, sin texto, 9:16"
+
+Prompt 2: "Mariano aterrizando en pose de superhéroe en el camino de entrada de concreto con franja de pasto verde de Vizcaíno Residencial, brazos extendidos, piernas abiertas, sombra larga al sol, fachada de casa blanca al fondo, realista, misma cara y ropa, sin texto, 9:16"
+
+Prompt 3: "Mariano de pie en el camino de entrada, se levanta de la pose, mira a cámara sonriendo, mano en el pecho, fondo fachada Salvia, luz natural de día, realista, misma cara y ropa, sin texto, 9:16"
+
+Then animation with MiniMax H3.
+
+Provide seconds and on-screen text.
+
+Let's craft final answer concise but complete.
+
+Need calificación proyectada.
+
+Maybe 8.5/10? Provide.
+
+Ensure no invented prices. Use given.
+
+If missing Sotol/Bugambilia images, mark [CONFIRMAR]. Could say usar tomas reales del cliente; if not available [CONFIRMAR].
+
+We can note [CONFIRMAR] for fachada Sotol y Bugambilia si no hay foto.
+
+Better to mark.
+
+Provide CTA: "Escríbeme Vizcaíno por WhatsApp" + botón.
+
+Provide final plan.
+
+Output only final answer.
+
+Let's produce structured sections.
+
+Ensure Spanish.
+
+No reasoning.
+
+Let's output.assistant to=user**PLAN COMPLETO 10/10/10 – Vizcaíno Residencial – Mariano**
+
+**1) GANCHO SPIDER-MAN 3 TOMAS 2-3s**
+
+*0-2s – Salto desde techo Salvia*
+Prompt Qwen-Image-Edit-2511 a partir de foto real de Mariano + fachada Salvia:
+“Mariano, hombre mexicano de barba, camisa azul clara a cuadros, jeans, de pie en azotea plana de casa modelo Salvia blanca con detalles grises de Vizcaíno Residencial, cielo azul claro de Rosarito, luz de día, cámara frontal a altura de pecho, cuerpo inclinado hacia adelante en inicio de salto, expresión concentrada, realista, misma cara y ropa de referencia, sin texto, 9:16”.
+Animación MiniMax H3 2s: push-in suave, primer y último cuadro fijados, caída hacia cámara.
+
+*2-5s – Aterrizaje en pose*
+Prompt:
+“Mariano aterrizando en pose de superhéroe en camino de entrada de concreto con franja de pasto verde de Vizcaíno Residencial, brazos extendidos hacia atrás, piernas abiertas, sombra larga al sol, fachada blanca al fondo, realista, misma cara y ropa de referencia, sin texto, 9:16”.
+Animación 3s: cámara lenta al impacto, whoosh + golpe.
+
+*5-8s – Se levanta y habla*
+Prompt:
+“Mariano de pie en camino de entrada, se levanta de la pose, mira a cámara sonriendo, mano en el pecho, fondo fachada Salvia, luz natural de día, realista, misma cara y ropa de referencia, sin texto, 9:16”.
+Animación 3s: dolly in leve, lipsync con voz clonada.
+
+**2) ESCENAS DE MARIANO HABLANDO LIPSYNC**
+
+*8-11s – Frente a Sotol*
+Lugar: toma real del cliente de fachada Sotol. [CONFIRMAR disponibilidad de fachada Sotol]
+Frase voz clonada: “Sotol, desde 1.4 millones”
+Lipsync MiniMax H3 3s, push-in.
+
+*11-14s – Frente a Bugambilia*
+Lugar: toma real del cliente de fachada Bugambilia. [CONFIRMAR disponibilidad de fachada Bugambilia]
+Frase: “Bugambilia, desde 2.4 millones”
+
+*14-17s – Frente a Benjamina*
+Lugar: foto real fachada Benjamina de Imagen 2.
+Frase: “Benjamina, desde 2.8 millones”
+
+*17-20s – Frente a Salvia*
+Lugar: foto real fachada Salvia de Imagen 2.
+Frase: “Y Salvia, de cuatro recámaras, desde 3.1 millones”
+
+*20-23s – Cancha de pádel*
+Lugar: foto real cancha de pádel de Imagen 2.
+Frase: “En privada, con cancha de pádel. Aceptan Infonavit y crédito hipotecario”
+
+*23-27s – Calle con caballo / entrada*
+Lugar: foto real calle con caballo de Imagen 2.
+Frase: “Escríbeme Vizcaíno por WhatsApp y agendamos tu visita”
+
+**3) SEGUNDOS Y TEXTO EN PANTALLA**
+
+0-2s: Texto grande “¿Buscas casa en Rosarito?” + “Vizcaíno Residencial” pequeño. Whoosh.
+2-5s: Sin texto, solo impacto.
+5-8s: “¡Mira esto!” + logo Vizcaíno.
+8-11s: Tarjeta precio “SOTOL desde $1.4M • 2 rec.” + subtítulo palabra por palabra.
+11-14s: “BUGAMBILIA desde $2.4M”
+14-17s: “BENJAMINA desde $2.8M”
+17-20s: “SALVIA desde $3.1M • 4 rec.”
+20-23s: “Privada con vigilancia • Cancha de pádel • Parque con asadores • Casa club” + “Aceptan Infonavit y crédito hipotecario”
+23-27s: Subtítulo de la frase + sticker “Escríbeme por WhatsApp”
+
+**4) CTA FINAL 27-30s**
+Pantalla fija con foto de Mariano + fachada Salvia.
+Texto en capa: “Escríbeme VIZCAÍNO por WhatsApp y agendamos tu visita”
+Botón animado WhatsApp, viñeta, beat drop + clic.
+
+**5) CALIFICACIÓN PROYECTADA**
+Gancho: 9/10 – formato Spider-Man replicable con material real.
+Retención: 8/10 – cortes rápidos 2-3s, lipsync correcto.
+Conversión: 9/10 – precios, beneficios y CTA claros, voz clonada del asesor.
+**Puntuación global proyectada: 8.7/10**
+
+Formato 9:16, 28-30s, H.264 720p, música sintetizada con riser/drop, efectos whoosh/golpe/boom, subtítulos virales Playfair, sin texto generado dentro del video.
+
+######## DOCTORA_ESTILO
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento. No inventes precios ni datos; si falta algo, marca [CONFIRMAR].
+NEGOCIO: Veneers Dental Nogales, Dra. Ángeles. Implante desde $12,500 (corona aparte). Reel estilo dental (doctora sentada en consultorio azul, modelos 3D, subtítulos).
+ASÍ HABLA LA DOCTORA en su video real (transcripción literal): «¿Te gustaría mejorar el color, la forma y la separación de tus dientes? Ven con nosotros a Veneers, que te estamos esperando.»
+Guion actual del reel de implantes: «¿Te falta un diente? No lo dejes así.» · «Cuando pierdes una pieza, el hueso de esa zona puede irse perdiendo con el tiempo, y los dientes de al lado se pueden mover.» · «La solución es un implante dental: una raíz de titanio que se coloca dentro del hueso, como una raíz nueva.» · «Se coloca con anestesia local, y la corona va aparte.» · «Aquí en Veneers Dental, tu implante va desde doce mil quinientos pesos. Escríbenos por WhatsApp y agenda tu valoración.»
+Reescribe el guion (5 frases, 25-30 s) para que suene EXACTAMENTE como habla ella: cercana, de tú, con preguntas que invitan, frases cortas, cierre «ven con nosotros… te estamos esperando». Mantén datos reales sin prometer plazos ni resultados médicos. Da también la calificación proyectada 10/10/10 y por qué.
+
+We need output final only in Spanish. Provide rewritten script 5 frases, 25-30 s. Must sound exactly like she speaks: cercana, de tú, con preguntas que invitan, frases cortas, cierre "ven con nosotros… te estamos esperando". Maintain real data without promising timelines nor medical results.
+
+Also give projected rating 10/10/10 and why.
+
+Probably rating is something like Relevancia / Retención / Conversión? 10/10/10.
+
+We need not invent prices nor data; if missing mark [CONFIRMAR]. Price is given: Implante desde $12,500 (corona aparte). So we can use.
+
+We need 5 frases.
+
+Possible script:
+
+1. ¿Te falta un diente y no sabes qué hacer?
+2. ¿Sabías que cuando se pierde una pieza, el hueso de esa zona puede irse perdiendo con el tiempo?
+3. Una opción es el implante dental, una raíz de titanio que se coloca dentro del hueso.
+4. Se coloca con anestesia local y la corona va aparte. Aquí en Veneers Dental, tu implante va desde doce mil quinientos pesos.
+5. ¿Te gustaría recuperar tu sonrisa con seguridad? Ven con nosotros a Veneers, que te estamos esperando.
+
+That's 5 frases? Actually frase 4 is long. Might be okay. Need 5 frases total. Ensure cierre "ven con nosotros… te estamos esperando". The transcripción literal: «¿Te gustaría mejorar el color, la forma y la separación de tus dientes? Ven con nosotros a Veneers, que te estamos esperando.» So cierre should be similar.
+
+Maybe keep 5 sentences.
+
+Let's craft:
+
+¿Te falta un diente? No lo dejes así.
+¿Sabías que al perder una pieza el hueso de esa zona puede irse perdiendo con el tiempo?
+La solución es un implante dental, una raíz de titanio que se coloca dentro del hueso como una raíz nueva.
+Se coloca con anestesia local y la corona va aparte. Aquí en Veneers Dental tu implante va desde doce mil quinientos pesos.
+¿Te gustaría recuperar tu sonrisa con nosotros? Ven con nosotros a Veneers, que te estamos esperando.
+
+That's 5 sentences? Sentence 4 contains two sentences? "Se coloca con anestesia local y la corona va aparte." That's one. "Aquí en Veneers Dental tu implante va desde doce mil quinientos pesos." That's second. So total >5.
+
+Need exactly 5 frases.
+
+Let's make 5 frases:
+
+1. ¿Te falta un diente? No lo dejes así.
+2. ¿Sabías que al perder una pieza el hueso de esa zona puede irse perdiendo con el tiempo?
+3. La solución es un implante dental, una raíz de titanio que se coloca dentro del hueso como una raíz nueva.
+4. Se coloca con anestesia local y la corona va aparte. Aquí en Veneers Dental tu implante va desde doce mil quinientos pesos.
+Wait that's still two clauses but maybe considered one frase? Better keep one sentence per bullet.
+
+Maybe combine price in same sentence as previous? Could be long.
+
+Alternative 5 frases:
+
+1. ¿Te falta un diente? ¿Te gustaría ver qué opciones tienes?
+2. Cuando se pierde una pieza, el hueso de esa zona puede irse perdiendo con el tiempo y los dientes de al lado se pueden mover.
+3. Una opción es el implante dental, una raíz de titanio que se coloca dentro del hueso como una raíz nueva.
+4. Se coloca con anestesia local y la corona va aparte. En Veneers Dental el implante va desde doce mil quinientos pesos.
+5. ¿Te gustaría recuperar tu sonrisa con nosotros? Ven con nosotros a Veneers, que te estamos esperando.
+
+Still 4 is two sentences.
+
+Maybe we can make frase 4: Se coloca con anestesia local, la corona va aparte e implante desde doce mil quinientos pesos en Veneers Dental. That's one sentence.
+
+Let's craft final:
+
+Frase 1: ¿Te falta un diente? No lo dejes así.
+Frase 2: ¿Sabías que al perder una pieza el hueso de esa zona puede irse perdiendo con el tiempo?
+Frase 3: La solución es un implante dental, una raíz de titanio que se coloca dentro del hueso como una raíz nueva.
+Frase 4: Se coloca con anestesia local, la corona va aparte e implante desde doce mil quinientos pesos en Veneers Dental.
+Frase 5: ¿Te gustaría recuperar tu sonrisa con nosotros? Ven con nosotros a Veneers, que te estamos esperando.
+
+That's 5 frases. Good.
+
+Now rating projected 10/10/10 and why.
+
+Probably metrics: Relevancia, Retención, Conversión? Or Claridad, Conexión, CTA? The prompt says calificación proyectada 10/10/10 y por qué. Might be 10/10/10 for something like Voz, Estructura, Cumplimiento.
+
+Maybe give 10/10/10 for Tono de voz / Retención / Intención de acción.
+
+Provide explanation.
+
+We must output only final answer, no reasoning.
+
+Ensure Spanish.
+
+No invent prices. Price used.
+
+No promise plazos ni resultados médicos. We didn't.
+
+Make sure cierre exact "ven con nosotros… te estamos esperando". We have "Ven con nosotros a Veneers, que te estamos esperando." Good.
+
+Maybe keep "Ven con nosotros a Veneers, que te estamos esperando." matches.
+
+Provide script and rating.
+
+Probably format:
+
+GUION REESCRITO (25-30s):
+1...
+...
+
+CALIFICACIÓN PROYECTADA: 10/10/10...
+
+Make sure not show reasoning.
+
+Let's output.
+
+Potential nuance: She speaks with questions inviting. Use "¿Te gustaría...?" Good.
+
+Make sure 5 frases exactly. Count periods.
+
+Frase1: ¿Te falta un diente? No lo dejes así. That's actually two sentences? ¿Te falta un diente? is a question, No lo dejes así. is second. Might be considered two frases. Hmm.
+
+The instruction: Reescribe el guion (5 frases, 25-30 s). So need 5 sentences total.
+
+We need to be careful with punctuation. Maybe each bullet is a frase. Could be 5 sentences.
+
+Let's design 5 sentences:
+
+1. ¿Te falta un diente? No lo dejes así. That's two sentences.
+
+Better make one sentence: ¿Te falta un diente y no sabes qué hacer? That's one.
+
+Let's rework:
+
+1. ¿Te falta un diente y no sabes qué hacer?
+2. ¿Sabías que al perder una pieza el hueso de esa zona puede irse perdiendo con el tiempo?
+3. La solución es un implante dental, una raíz de titanio que se coloca dentro del hueso como una raíz nueva.
+4. Se coloca con anestesia local, la corona va aparte e implante desde doce mil quinientos pesos en Veneers Dental.
+5. ¿Te gustaría recuperar tu sonrisa con nosotros? Ven con nosotros a Veneers, que te estamos esperando.
+
+Sentence 5 contains two sentences? ¿Te gustaría recuperar tu sonrisa con nosotros? Ven con nosotros... That's two sentences. Hmm.
+
+We need cierre "ven con nosotros… te estamos esperando". Could be one sentence: ¿Te gustaría recuperar tu sonrisa con nosotros? Ven con nosotros a Veneers, que te estamos esperando. That's two.
+
+Maybe combine: ¿Te gustaría recuperar tu sonrisa con nosotros? Ven con nosotros a Veneers, que te estamos esperando. That's two sentences but maybe acceptable as one frase with question then statement? Might be considered two.
+
+Alternative: Make sentence 5: Ven con nosotros a Veneers, que te estamos esperando, si te gustaría recuperar tu sonrisa con nosotros. That's awkward.
+
+Better: Keep 5 sentences, last sentence includes the closing phrase. Could be: ¿Te gustaría recuperar tu sonrisa con nosotros? Ven con nosotros a Veneers, que te estamos esperando. That's two sentences.
+
+Maybe the requirement of 5 frases is flexible? Could be 5 ideas.
+
+Maybe we can make sentence 5 be: Ven con nosotros a Veneers, que te estamos esperando, si te gustaría recuperar tu sonrisa con nosotros. That's one sentence.
+
+Let's try:
+
+1. ¿Te falta un diente y no sabes qué hacer?
+2. ¿Sabías que al perder una pieza el hueso de esa zona puede irse perdiendo con el tiempo?
+3. La solución es un implante dental, una raíz de titanio que se coloca dentro del hueso como una raíz nueva.
+4. Se coloca con anestesia local, la corona va aparte e implante desde doce mil quinientos pesos en Veneers Dental.
+5. ¿Te gustaría recuperar tu sonrisa con nosotros? Ven con nosotros a Veneers, que te estamos esperando.
+
+Hmm.
+
+Maybe the instruction counts each bullet as frase, not grammatical sentence. Could be okay.
+
+Alternative approach: Use 5 bullet points each containing maybe multiple sentences but considered one frase.
+
+Probably acceptable.
+
+Maybe better to make 5 sentences total, with last sentence containing both question and closing? Could embed question inside.
+
+Let's try to make 5 sentences:
+
+1. ¿Te falta un diente y no sabes qué hacer?
+2. ¿Sabías que al perder una pieza el hueso de esa zona puede irse perdiendo con el tiempo y los dientes de al lado se pueden mover?
+3. La solución es un implante dental, una raíz de titanio que se coloca dentro del hueso como una raíz nueva.
+4. Se coloca con anestesia local, la corona va aparte y en Veneers Dental el implante va desde doce mil quinientos pesos.
+5. ¿Te gustaría recuperar tu sonrisa con nosotros? Ven con nosotros a Veneers, que te estamos esperando.
+
+Still 5 is two sentences.
+
+Maybe we can make sentence 5: Ven con nosotros a Veneers, que te estamos esperando, si te gustaría recuperar tu sonrisa con nosotros. That's one sentence, includes closing.
+
+Let's do that.
+
+Sentence 5: Ven con nosotros a Veneers, que te estamos esperando, si te gustaría recuperar tu sonrisa con nosotros.
+
+That's a bit unnatural but okay.
+
+Alternative: ¿Te gustaría recuperar tu sonrisa? Ven con nosotros a Veneers, que te estamos esperando. That's two sentences.
+
+Maybe the evaluator won't count strictly.
+
+Given typical output, they'd accept 5 lines.
+
+I'll deliver 5 lines, each line is a frase. Might be okay.
+
+Provide rating.
+
+Let's output final.
+
+Make sure no reasoning shown.
+
+Provide final answer in Spanish.
+
+Let's produce:
+
+GUION REESCRITO 25-30s:
+...
+
+CALIFICACIÓN PROYECTADA 10/10/10...
+
+Ok.
+
+assistant to=user**GUION REESCRITO 25-30 s – voz Dra. Ángeles**
+
+1. ¿Te falta un diente y no sabes qué hacer?
+2. ¿Sabías que al perder una pieza el hueso de esa zona puede irse perdiendo con el tiempo y los dientes de al lado se pueden mover?
+3. La solución es un implante dental, una raíz de titanio que se coloca dentro del hueso como una raíz nueva.
+4. Se coloca con anestesia local, la corona va aparte y en Veneers Dental el implante va desde doce mil quinientos pesos.
+5. Ven con nosotros a Veneers, que te estamos esperando, si te gustaría recuperar tu sonrisa con nosotros.
+
+**Calificación proyectada 10/10/10**
+Voz 10/10: cercana, de tú, preguntas que invitan y cierre fiel a su forma de hablar “Ven con nosotros a Veneers, que te estamos esperando”.
+Retención 10/10: frases cortas, pregunta-hook inicial, problema-consecuencia-solución en 25-30 s con subtítulos y plano de consultorio azul.
+Intención 10/10: datos reales mantenidos – implante desde $12,500, corona aparte, anestesia local – sin prometer plazos ni resultados médicos, CTA conversacional alineada a WhatsApp/valoración.
+
+######## Guillermo
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Herrero en Puebla: zaguanes, cortinas, puertas y pérgolas; ya tiene video Pixar y videos de proceso de techo.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @paulina.skorka · 7,758,973 vistas · texto: Odwilż w natarciu...
+IDEA 2: @mumandhome_ · 3,660,201 vistas · texto: UN PORCHE PARA TODA LA VIDA...
+IDEA 3: @herreria_lo5garcia · 1,274,007 vistas · texto: Milésimas...
+IDEA 4: @islandgal_5homedecor · 1,067,356 vistas · texto: Best addition to our patio!...
+
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Business is herrero in Puebla: zaguanes, cortinas, puertas y pérgolas; already has Pixar video and process videos of roof.
+
+Idea 1: pergola with curtains, flowers, wooden structure. It's pergola decor. Relevant. High views 7.7M. Good aspirational.
+
+Idea 2: Spanish text about porche for life, replacing wooden pergola with iron structure, pine slats, lights, table, etc. Very relevant: iron structure, pergola transformation. Process + result. Good.
+
+Idea 3: measuring metal with tape, welding. It's herreria process. Relevant but maybe too generic? Business already has process videos of roof. Might be redundant.
+
+Idea 4: patio with pergola, modern, flowers. Relevant but similar to idea1.
+
+Probably best are IDEA 2 and IDEA 1. Or IDEA 2 and IDEA 4? Idea 2 is transformation story, very strong for Meta ads. Idea 1 is aesthetic pergola with curtains, shows final result.
+
+Idea 3 is process measuring, but they already have process videos. Might be less.
+
+So choose IDEA 2 and IDEA 1.
+
+Need format exactly:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Need calificación proyectada: X/10. Probably a score. Maybe 8/10? Could be 8.5? Must be X/10. Provide number.
+
+Let's pick ELEGIDAS: 2 y 1
+
+IDEA 2: ... por qué sirve: ... | ADAPTACIÓN: ...
+
+IDEA 1: ...
+
+Provide one line each.
+
+Make sure Spanish breve.
+
+Possibly IDEA 2: por qué sirve: muestra transformación de pérgola de madera a estructura de hierro duradera con antes/después y uso real. ADAPTACIÓN: usar su video de proceso de techo + fotos de pérgolas terminadas con voz en off en español mexicano y texto “Un porche para toda la vida en Puebla”.
+
+IDEA 1: por qué sirve: estética aspiracional de pérgola con cortinas y plantas que genera deseo y guardados. ADAPTACIÓN: montar con sus fotos de pérgolas y zaguanes, cortinas metálicas y plantas, ritmo cálido al atardecer con música suave.
+
+Calificación proyectada: 8.5/10? Maybe 8/10.
+
+Provide exactly format.
+
+Ensure line breaks.
+
+Let's output.
+
+Potential nuance: IDEA 3 is herreria measuring, could be good for authority. But they already have process videos. Idea 2 is more complete story.
+
+Maybe choose IDEA 2 and IDEA 4? Idea 4 is modern pergola with screens. Could be good.
+
+Idea 1 is wooden pergola, not iron. Business is herrero. Idea 1 shows wooden pergola. Might be less aligned. Idea 4 shows modern pergola maybe metal.
+
+Hmm. Idea 1 shows wooden pergola with white curtains. Might be wood, not iron. Business does iron. Idea 2 explicitly mentions iron structure. Idea 4 shows modern pergola with metal roof? Could be aluminum.
+
+Idea 3 is pure herreria.
+
+Maybe best are IDEA 2 and IDEA 3? IDEA 2 is transformation, IDEA 3 is process close-up that builds trust.
+
+The prompt says if alguna no tiene que ver con su negocio, descártala. All seem related.
+
+Business already has video Pixar and videos de proceso de techo. So process video already exists. So IDEA 3 (process measuring) might be redundant.
+
+Idea 1 is aesthetic final result, good for desire.
+
+Idea 2 is transformation + process + final.
+
+Idea 4 is final aesthetic.
+
+Pick 2 and 1.
+
+Provide calificación proyectada: 8/10.
+
+Let's output exactly.
+
+Make sure format:
+
+ELEGIDAS: 2 y 1
+IDEA 2: ... | ADAPTACIÓN: ...
+IDEA 1: ... | ADAPTACIÓN: ...
+CALIFICACIÓN PROYECTADA: 8/10
+
+Ensure one line each.
+
+Let's produce.assistant to=userELEGIDAS: 2 y 1
+IDEA 2: Cuenta transformación de pérgola de madera a estructura de hierro duradera con antes/después y uso real, ideal para confianza y venta en Puebla. | ADAPTACIÓN: Replicar con su proceso de techo y fotos de pérgolas/cortinas terminadas, voz en off local y texto “Un porche para toda la vida”.
+IDEA 1: Estética aspiracional de pérgola con cortinas y plantas que genera deseo, guardados y posiciona el resultado final. | ADAPTACIÓN: Montar con sus fotos de pérgolas, zaguanes y cortinas metálicas al atardecer, ritmo cálido y música suave.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## José
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Grupo JR, impermeabilización de azoteas en Puebla, poliuretano acrílico 12 años, desde $150/m²; ya tiene video Pixar de obrero.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: ...
+IDEA 2: ...
+IDEA 3: ...
+IDEA 4: ...
+
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Business is waterproofing roofs in Puebla, polyurethane acrylic 12 years, from $150/m2; already has Pixar video of worker.
+
+IDEA1: sealant self-leveling polyurethane flows, barrier elastic 100% waterproof. Relevant. Shows product in action.
+
+IDEA2: Chinese invention repairs any crack forever. Relevant to waterproofing, crack repair.
+
+IDEA3: Colors for facades 2026. That's facade paint colors trend. Not directly waterproofing roofs? Could be related to aesthetics but business is waterproofing. Might be less relevant. Could be tangential.
+
+IDEA4: walls with paint peeling due to lack of waterproofing of beams. That's about waterproofing failure, educational. Relevant.
+
+So best two? Probably IDEA1 and IDEA4. IDEA1 shows product action, very visual satisfying. IDEA4 shows problem consequence, educational fear.
+
+IDEA2 also good but maybe similar to IDEA1. IDEA4 is problem awareness.
+
+Alternative IDEA1 and IDEA2 both about product. IDEA4 is about problem.
+
+The business already has Pixar video of worker. So maybe need different angle: product demo and problem education.
+
+Pick IDEA1 and IDEA4.
+
+Or IDEA1 and IDEA2? IDEA2 is "invento chino que repara cualquier grieta para siempre". That's about crack repair, which is core.
+
+IDEA4 is about walls peeling due to lack of waterproofing of vigas baldrames. That's more about walls, not roofs. Might be less direct.
+
+Hmm.
+
+IDEA1 is directly about polyurethane sealant self-leveling. Perfect match.
+
+IDEA2 is about crack repair. Also perfect.
+
+IDEA3 is about facade colors trend. Not waterproofing.
+
+IDEA4 is about waterproofing failure causing paint peeling. Could be good for awareness.
+
+Which two best? Probably IDEA1 (product demo) and IDEA4 (pain point). Or IDEA1 and IDEA2 both product.
+
+The instruction: if some has nothing to do with business, discard. IDEA3 is about colors for facades, not waterproofing. Could be discarded. IDEA4 is about waterproofing failure, relevant.
+
+IDEA2 is about invention to repair cracks forever. That's relevant.
+
+Maybe choose IDEA1 and IDEA2 as both show product satisfaction.
+
+But IDEA4 shows consequence of not waterproofing, good for ads.
+
+Meta ads strategy: need hook, problem, solution. IDEA4 gives problem. IDEA1 gives solution demo.
+
+I think pick IDEA1 and IDEA4.
+
+Provide format exactly:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Need X and Y numbers. Let's pick IDEA 1 and IDEA 4.
+
+ELEGIDAS: 1 y 4
+
+IDEA 1: ... | ADAPTACIÓN: ...
+
+IDEA 4: ... | ADAPTACIÓN: ...
+
+CALIFICACIÓN PROYECTADA: 8/10? Maybe 8.5? Must be X/10. Probably 8/10.
+
+Provide brief.
+
+Make sure one line each.
+
+Let's craft:
+
+IDEA 1: Muestra el efecto satisfactorio y técnico del poliuretano autonivelante, ideal para demostrar calidad y durabilidad. | ADAPTACIÓN: Usamos sus fotos de aplicación en azotea de Puebla con voz en off del obrero Pixar y texto “poliuretano acrílico 12 años desde $150/m²”.
+
+IDEA 4: Genera conciencia del daño por falta de impermeabilización y posiciona a Grupo JR como prevención. | ADAPTACIÓN: Recreamos con sus imágenes de antes/después y el obrero Pixar explicando la falla en vigas y la solución en azoteas.
+
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make sure format exact.
+
+Possibly need IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea...)
+
+Ensure pipe separator.
+
+Return only final answer.
+
+Let's output.assistant to=userELEGIDAS: 1 y 4
+IDEA 1: Muestra el efecto satisfactorio y técnico del poliuretano autonivelante, ideal para demostrar calidad y durabilidad. | ADAPTACIÓN: Usamos sus fotos de aplicación en azotea de Puebla con voz en off del obrero Pixar y texto “poliuretano acrílico 12 años desde $150/m²”.
+IDEA 4: Genera conciencia del daño por falta de impermeabilización y posiciona a Grupo JR como prevención. | ADAPTACIÓN: Recreamos con sus imágenes de antes/después y el obrero Pixar explicando la falla y la solución en azoteas de Puebla.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Giovanni
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Abogado en Los Cabos, divorcio voluntario desde $20,000, trámite en línea; ya tiene video hablando a cámara.
+Estas son 4 ideas de reels...
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas.
+
+IDEA1: Portuguese about being ugly group, woman talking. Not relevant to divorce lawyer? Might be about respect? Could be about women? Not relevant.
+
+IDEA2: Consejo jurídico del día No digas "me estoy comiendo un casado" Mejor di: estoy ejerciendo derecho de usufructo sobre bien ajeno. That's legal humor. Relevant to lawyer, could adapt to divorce.
+
+IDEA3: POV: tengo una conocida que es abogada y cobra barato, ella te va a poder ayudar en el juicio. La "abogada". That's about cheap lawyer meme. Relevant to differentiate price $20k and quality.
+
+IDEA4: Mi matrimonio, mi historia #infidelidad #divorcio #engaño. That's personal story about marriage/divorce. Very relevant.
+
+So best are IDEA 2 and IDEA 3? Or IDEA 3 and IDEA 4? Business is divorce voluntary from $20k, online. IDEA4 is personal story about infidelity/divorce, could be emotional hook. IDEA3 is about cheap lawyer, good for positioning price.
+
+IDEA2 is legal humor, could work but maybe less direct for divorce voluntary.
+
+Maybe IDEA3 and IDEA4 are best. IDEA3 attacks cheap lawyers, positions his service. IDEA4 is storytelling about divorce, high empathy.
+
+IDEA1 is irrelevant (beauty). So discard.
+
+Pick IDEA 3 and IDEA 4.
+
+Need format:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Need calificación proyectada: X/10. Probably a score? Maybe 8/10? Provide one score? It says CALIFICACIÓN PROYECTADA: X/10. Maybe overall? Could be for each? Probably one overall. Might give 8/10.
+
+Let's choose ELEGIDAS: 3 y 4
+
+IDEA 3: por qué sirve: ... | ADAPTACIÓN: ...
+
+IDEA 4: ...
+
+Make brief.
+
+Ensure exact format.
+
+ELEGIDAS: 3 y 4
+IDEA 3: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+IDEA 4: ...
+
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make sure Spanish.
+
+Let's craft:
+
+IDEA 3: Desmonta el mito del abogado barato y genera confianza en precio justo. | ADAPTACIÓN: Usa su video a cámara con texto POV y cortes tipo meme, cerrando con “Divorcio voluntario desde $20,000, trámite en línea en Los Cabos”.
+
+IDEA 4: Conecta emocionalmente con dolor de divorcio e infidelidad, alto CTR. | ADAPTACIÓN: Él narra en cámara su versión profesional de “Mi matrimonio, mi historia” con subtítulos y CTA a consulta online.
+
+Ok.
+
+Return only final answer.
+
+assistant to=userELEGIDAS: 3 y 4
+IDEA 3: Desmonta el mito del abogado barato y posiciona precio justo vs. mala práctica. | ADAPTACIÓN: Video a cámara con formato POV meme y cortes sincronizados, cierre con “Divorcio voluntario desde $20,000, trámite en línea Los Cabos”.
+IDEA 4: Conecta emocional con historias de divorcio/infidelidad y genera empatía y clics. | ADAPTACIÓN: Él habla a cámara en primera persona estilo “Mi matrimonio, mi historia” con subtítulos y CTA a asesoría online.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Víctor
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Servilin, limpieza para empresas (no vacantes); ya tiene videos con alerta «no es oferta de empleo».
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @pancholimpia · 3,317,498 vistas · texto: Hoy te comparto varios de mis trucos favoritos que usamos en Pancho Limpia para salvar el día (y el bolsillo).  Hay mucho más que la mayoría de la gen
+IDEA 2: @multicleaner1259 · 3,221,664 vistas · texto: 🟢 🚽🫧Aromatiza tu baño con este Super tips de Limpieza. • 🟢 Conoce todos los beneficios que te ofrecemos en servicios de LIMPIEZA para: 🔰OFICINAS 🔰CENT
+IDEA 3: @limpiotudepaperu · 3,155,555 vistas · texto: ¿Necesitas Ayuda para la Limpieza de tu Hogar u Oficina? Servicio de Limpieza por Horas de Casas, Departamentos y Oficinas en Lima, Perú Contáctanos h
+IDEA 4: @odeserviciosdelimpieza · 2,443,526 vistas · texto: Para que lo hagan este finde 🥹  ODE servicios de limpieza  #bariloche #limpieza #serviciodelimpieza #reelsinstagram
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas.
+
+IDEA 1: shows a white sugar character cleaning? The images: first row: a white creature cleaning window, then scared by shoe, then blue shirt, then angry at stain. Text "Lo que los químicos caros no quieren que sepas..." "brillantes" "muerto" "Rápido Escribe LIMPIEZA..." This is like Pancho Limpia? Actually Pancho Limpia is the character. Idea 1 is about tricks? The description says Hoy te comparto varios de mis trucos favoritos que usamos en Pancho Limpia para salvar el día (y el bolsillo). So it's a character/trick format.
+
+IDEA 2: toilet, pot with blue soap, blue soap bars, cutting soap. Text about aromatiza tu baño super tips. Green banner Multicleaners. This is DIY soap making. Might be for home.
+
+IDEA 3: women in white coats laughing, then bed with plush toys, then dogs appear. Text "Cuando tienes revisión de apartamento y el dueño no acepta mascotas". This is a meme about hiding pets. Not really cleaning business? It's about cleaning? Might be irrelevant.
+
+IDEA 4: sock under faucet, hand, sock cleaning baseboard, sock cleaning wall. Text "Vengo a mostrarles EL tip". This is a cleaning tip with sock.
+
+Business: Servilin, limpieza para empresas (no vacantes); already has videos with alert "no es oferta de empleo". So B2B cleaning.
+
+We need ideas relevant to business cleaning for companies, not home DIY? Could be tips.
+
+IDEA 1 is about tricks, character, high views. Could adapt to B2B.
+
+IDEA 2 is about DIY soap, maybe not professional.
+
+IDEA 3 is about hiding pets, not relevant to business cleaning. Might be discard.
+
+IDEA 4 is a tip with sock, could be for office cleaning.
+
+Best ideas: IDEA 1 (tricks format, high engagement, character) and IDEA 4 (quick tip, practical, easy to film with staff). IDEA 2 is DIY home, maybe not B2B. IDEA 3 is irrelevant.
+
+Alternatively IDEA 2 could be about aromatiza tu baño super tips for offices. Could adapt.
+
+The business is cleaning for companies, not vacantes. Idea 3 is about apartment inspection, not business.
+
+So pick IDEA 1 and IDEA 4.
+
+Or IDEA 1 and IDEA 2? Idea 2 shows blue soap making, could be about professional products.
+
+The description for IDEA 2: Aromatiza tu baño con este Super tips de Limpieza. Conoce todos los beneficios que te ofrecemos en servicios de LIMPIEZA para: OFICINAS... So it's B2B.
+
+IDEA 4 is tip with sock, maybe too home.
+
+Hmm.
+
+IDEA 1 is character Pancho Limpia, which is a known format. Could be good.
+
+IDEA 2 is about super tip for bathroom and services for offices. Good for B2B.
+
+IDEA 4 is "Vengo a mostrarles EL tip" with sock cleaning baseboards. Could be for offices.
+
+IDEA 3 is meme about pets, not relevant.
+
+Maybe best are IDEA 1 and IDEA 2.
+
+The prompt says if alguna no tiene que ver con su negocio, descártala. IDEA 3 is about hiding pets, not cleaning business? It is cleaning? It's a trick to hide pets before inspection. Might be not relevant to empresa cleaning.
+
+IDEA 1 is about tricks, good.
+
+IDEA 2 is about cleaning tip and services for offices.
+
+IDEA 4 is tip for cleaning with sock, could be for home.
+
+I think IDEA 1 and IDEA 2 are best.
+
+Provide response exactly as format:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Need rating projected. Maybe 8/10.
+
+Pick X=1, Y=2.
+
+IDEA 1: por qué sirve: formato de personaje/trucos con alta retención y tono divertido que humaniza la marca B2B. ADAPTACIÓN: usar a un operario de Servilin como “personaje sal” con voz en off y sus fotos reales de antes/después en oficinas.
+
+IDEA 2: por qué sirve: tip rápido de baño + CTA directo a servicios para oficinas con prueba social. ADAPTACIÓN: mostrar tip profesional de aromatización/desinfección en baños corporativos con material de Servilin y cierre con logo y datos de contacto.
+
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make sure one line each.
+
+Let's output exactly.
+
+Probably need ELEGIDAS: 1 y 2
+
+Ensure format.
+
+Let's produce final.assistant to=userELEGIDAS: 1 y 2
+IDEA 1: Formato de personaje y trucos con alta retención que humaniza la limpieza B2B y genera confianza. | ADAPTACIÓN: Personaje “sal” de Servilin con voz en off propia y escenas reales de antes/después en oficinas con su material y uniforme.
+IDEA 2: Tip rápido de baño + CTA a servicios para oficinas, probado con millones de vistas en nicho. | ADAPTACIÓN: Demostración profesional de aromatización/desinfección en baños corporativos con productos de Servilin y cierre con logo, servicios y contacto B2B.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## BD_Pro
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Renta de pistas de baile iluminadas en Monterrey; ya tiene video antes/después.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @pistaledcali_fannytoro · 5,894,000 vistas · texto: Mi hermosa pasarela acompañando mi pista en espejo Dorado para una espectacular decoración...
+IDEA 2: @scarlethhdez · 3,367,317 vistas · texto: Jajaja.. 🤣 ...
+IDEA 3: @snacmusic · 2,103,342 vistas · texto: ¡Los cuernos están de moda...
+IDEA 4: @criisvergara · 1,015,458 vistas · texto: Una joya!! @emanuelambrocio dándolo todo!!! #baile #pistadebaile #eaea
+
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Business is rental of illuminated dance floors in Monterrey; already has before/after video.
+
+Idea 1: shows wedding venue with mirror dance floor, pasarela, decor. Very relevant. High views 5.8M. Good.
+
+Idea 2: bar with aunt and mom meme. Not relevant to dance floor rental. It's humor about partying at 3am. Not about product.
+
+Idea 3: music/cuernos song. Not relevant.
+
+Idea 4: man dancing on dance floor, "Y EMANUEL ? EN LA PISTA DE BAILE". Relevant to dance floor, shows people dancing. Good.
+
+So choose IDEA 1 and IDEA 4.
+
+Need format exactly:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Probably X is 1, Y is 4. Or order? ELEGIDAS: 1 y 4
+
+IDEA 1: ... | ADAPTACIÓN: ...
+
+IDEA 4: ... | ADAPTACIÓN: ...
+
+CALIFICACIÓN PROYECTADA: X/10
+
+Need a rating projected. Maybe 8/10? Could be 8.5? Probably integer. Let's give 8/10.
+
+Make brief.
+
+IDEA 1: por qué sirve: muestra pista en espejo dorado y pasarela en boda de alto impacto, formato aspiracional que vende decoración premium. ADAPTACIÓN: usar sus fotos antes/después de pista iluminada en Monterrey con texto “Tu boda con pasarela y pista en espejo” y voz en off local.
+
+IDEA 4: por qué sirve: humor + protagonista bailando en pista genera identificación y retención, hashtag #pistadebaile. ADAPTACIÓN: recrear con cliente real “¿Y [nombre]? ¡En la pista de baile!” usando sus clips de evento y música regional.
+
+Provide exactly format.
+
+Ensure Spanish.
+
+No reasoning.
+
+Output final.assistant to=userELEGIDAS: 1 y 4
+IDEA 1: Formato aspiracional de boda con pasarela y pista en espejo dorado que vende lujo y decoración premium con alta retención. | ADAPTACIÓN: Montar con sus fotos antes/después de pista iluminada en Monterrey, texto “Tu pasarela + pista en espejo” y voz en off local mostrando el montaje.
+IDEA 4: Humor identificable con protagonista bailando en pista que genera retención y uso de #pistadebaile. | ADAPTACIÓN: Recrear “¿Y [nombre]? ¡En la pista de baile!” con sus clips de clientes bailando en eventos reales y música regional de Monterrey.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Manuel
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Fotógrafo de XV años (Hunab Ku); ya tiene reel musical.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @brunafoizer · 5,234,764 vistas · texto: Uma das coisas que mais me chamaram a atención na festa de 15 anos do meu filho foi o estilo de look das meninas!   Achei incrível que a grande maioria
+IDEA 2: @michellyandreghetto · 3,050,968 vistas · texto: XV @mariabergaminn  Com surpresa especial! @rickerenner  Parabéns pela linda festa @dramariacristina_ & @willian.bergamin.1   #xvanos #rickerenner
+IDEA 3: @yulbertz · 2,106,165 vistas · texto: CAPÍTULO 2 | El día que Valeri comenzó a soñar sus 15 🥲✨  Uno cree que está preparado para estos momentos… hasta que ve a su hija entrar, mirar cada v
+IDEA 4: @producciones_dangelfilm · 1,321,649 vistas · texto: acompañamos a nuestras princesas en todos esos momentos 😍🥰🥹 #EventosEspeciales #Quinceañera #quinceañeradresses #xvaños2025 #videoparaxv #DetallesÚnic
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Business is photographer of XV years. Already has musical reel.
+
+Idea 1: seems about looks of girls at son's 15? Actually text Portuguese. Images show woman in striped shirt, party, pool, etc. Might be about behind scenes? Could be about style.
+
+Idea 2: XV with surprise special singer Ric... shows girl in pink dress on stage with singer, parents. Text "Ela acreditou que ouviria a voz do Pai." That's emotional surprise. Good for photographer.
+
+Idea 3: "El día que Valeri comenzó a soñar sus 15" shows 15 años de... dress fitting, blue dress, child playing. That's about dress shopping / anticipation. Good for emotional storytelling.
+
+Idea 4: church moments, girl in green dress kneeling, camera filming. That's behind the scenes of photographer/videographer capturing moments. Text "acompañamos a nuestras princesas en todos esos momentos". That's very relevant to photographer.
+
+We need choose 2 best. Probably Idea 3 and Idea 4? Or Idea 2 and Idea 3? Idea 2 is surprise performance, good engagement. Idea 4 is directly about capturing moments, shows photographer at work. Might be best for photographer.
+
+Idea 1 seems about looks, less emotional. Might be less relevant.
+
+Idea 3 is emotional journey, great for connection.
+
+Idea 4 is behind the scenes of coverage, shows value.
+
+Maybe pick IDEA 3 and IDEA 4.
+
+Or IDEA 2 and IDEA 3? Surprise special is high viral.
+
+The business is photographer, already has musical reel. So maybe avoid another musical surprise? Idea 2 is musical surprise. Might be similar.
+
+Idea 4 shows photographer filming in church, very on brand.
+
+Idea 3 shows anticipation/dress fitting, emotional storytelling, good for lead generation.
+
+Thus ELEGIDAS: 3 y 4
+
+Need format exactly:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Provide rating projected? Probably a score out of 10. Maybe 8/10? Provide one number.
+
+We need 1 line why serves, 1 line adaptation.
+
+Make brief.
+
+Let's craft:
+
+ELEGIDAS: 3 y 4
+IDEA 3: Conecta por nostalgia y sueño de XV, alto save y comentarios de mamás. | ADAPTACIÓN: Usar sus fotos de prueba de vestido y sesión previa con voice-over de papá/mamá de Hunab Ku y texto “El día que empezó a soñar sus 15”.
+IDEA 4: Muestra el valor del fotógrafo en momentos íntimos y de fe, genera confianza. | ADAPTACIÓN: Montar secuencia de iglesia/misa con sus tomas de princesa arrodillada, cámara en mano y overlay “acompañamos cada momento” con logo Hunab Ku.
+
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make sure format exact. Probably need CALIFICACIÓN PROYECTADA: X/10
+
+Maybe give 8.5? Use integer.
+
+Let's output exactly as requested.
+
+Ensure Spanish.
+
+No extra reasoning.
+
+assistant to=userELEGIDAS: 3 y 4
+IDEA 3: Conecta por nostalgia y sueño de XV, genera saves y comentarios de mamás. | ADAPTACIÓN: Usar sus fotos de prueba de vestido y sesión previa con voice-over de papá/mamá de Hunab Ku y texto “El día que empezó a soñar sus 15”.
+IDEA 4: Muestra el valor del fotógrafo en momentos íntimos y de fe, genera confianza y autoridad. | ADAPTACIÓN: Montar secuencia de iglesia/misa con sus tomas de princesa arrodillada, cámara en mano y overlay “acompañamos cada momento” con logo Hunab Ku.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Lisbeth
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Venta de 34 lotes en Tomatlán, Jalisco; ya tiene video de ella frente al terreno.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @pepepages · 11,449,398 vistas · texto: 🎬TIRAJE DE PARRILLA  👉 Seguí al experto @jh_arqt que nos cuenta al detalle, cómo se diseña correctamente el tiraje de parrilla evitando que tu casa se
+IDEA 2: @terrenos_en_cuotas_pty · 4,576,446 vistas · texto: Etiqueta la persona que pronto va a salir del closet😁 . . . Etiqueta tambien la que ya salió 😎 . . . Si tu banco no te apoya o no tienes para pagar un
+IDEA 3: @sergey.fko · 3,054,098 vistas · texto: Sigan a @alexdeydr el me enseñó de ventas y superación personal 👍  Este es un hábito que en 10 años te puede hacer millonario, imagina todos los años 
+IDEA 4: @hectorin_jimenez_1 · 2,321,244 vistas · texto: #terrenosbaratos #casasenventa #terrenosenventa #casaseconomicas
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Business is sale of 34 lots in Tomatlán, Jalisco; already has video of her in front of terrain.
+
+IDEA 1: tiraje de parrilla - about fireplace draft. Not relevant to land sales. Could be about construction? Maybe not.
+
+IDEA 2: "Adivina quien será el próximo a SALIR DEL CLOSET" with Trump pointing. Text about bank not supporting. Might be meme format "etiqueta a quien..." Could be adapted to "etiqueta a quien quiere salir del closet de rentar..." Might be about coming out of renting? Could be viral meme format. Might be relevant? It's a meme pointing. Could be used for "etiqueta a quien quiere su terreno". Might be okay.
+
+IDEA 3: "Puedes empezar con terrenos de $100,000" "Busca la manera de generar el ingreso suficiente para hacer este hábito millonario". That's about buying land as habit to become millionaire. Very relevant to land sales. Good.
+
+IDEA 4: "Yo con lo Albañiles cuando voy a grabar los avances de mi casa". Woman filming construction progress. Hashtags terrenos baratos etc. Very relevant: owner showing progress, authentic, relatable. Business already has video of her in front of terrain. This matches.
+
+So best are IDEA 3 and IDEA 4.
+
+IDEA 1 is about chimney, not relevant. IDEA 2 is meme about coming out of closet, maybe not ideal for real estate, could be off-brand.
+
+Thus ELEGIDAS: 3 y 4
+
+Need format:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Provide rating projected? Probably a score out of 10. Maybe 8/10? Provide one number.
+
+We need exactly format. Probably:
+
+ELEGIDAS: 3 y 4
+IDEA 3: ... | ADAPTACIÓN: ...
+IDEA 4: ... | ADAPTACIÓN: ...
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make brief.
+
+IDEA 3 why serves: formato educativo aspiracional sobre hábito millonario con terrenos accesibles, alto CTR en nicho.
+Adaptación: usar su video frente al terreno + voz en off "Puedes empezar con lotes desde $100k en Tomatlán" y mostrar los 34 lotes.
+
+IDEA 4 why serves: humor auténtico de dueña grabando avances, genera confianza y viralidad en construcción/terrenos.
+Adaptación: reutilizar su clip frente al terreno con reacción cómica a albañiles/terreno y texto "Yo con lo albañiles cuando voy a grabar los avances de mi lote".
+
+Provide 1 line each.
+
+Make sure Spanish.
+
+Output only final answer.
+
+Let's produce.assistant to=userELEGIDAS: 3 y 4
+IDEA 3: Formato aspiracional educativo sobre hábito millonario con terrenos accesibles, alto interés y conversión en nicho. | ADAPTACIÓN: Usar su video frente al terreno con voz en off “Puedes empezar con lotes de $100,000 en Tomatlán” y mostrar los 34 lotes disponibles.
+IDEA 4: Humor auténtico de dueña grabando avances, genera confianza y viralidad en construcción/terrenos. | ADAPTACIÓN: Reutilizar su clip frente al terreno con reacción cómica tipo “Yo con lo albañiles cuando voy a grabar los avances de mi lote” y cierre con datos de los 34 lotes.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Alberto
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Veneers Dental Nogales, Dra. Ángeles; implante desde $12,500; ya tiene reel de implantes con la doctora.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @drbenavidesg · 8,743,385 vistas · texto: 👄✨ ¿Qué forma tienen tus labios?  La forma de tus labios influye en el diseño de sonrisa que puede favorecerte más. 🦷✨  👇 Comenta el número que más se
+IDEA 2: @drjaimegallego · 2,011,230 vistas · texto: No te hagas un diseño de sonrisa sin saber esto. ⚠️ Existen 3 tipos de materiales para carillas… y uno de ellos podría arruinarte la sonrisa 😬  Te exp
+IDEA 3: @drnelsonserrano · 1,123,861 vistas · texto: Hoy Zion nos cuenta su experiencia después de realizar su diseño de sonrisa con nosotros. 🙌  Su confianza no llegó por casualidad. Detrás de cada trat
+IDEA 4: @dr.hancelsanchez · 1,110,333 vistas · texto: ❤️❤️❤️❤️hoy nos acompañó una persona que más que una paciente es parte de nuestra familia @yarlenys_vargas   Crear una sonrisa es un paso muy importan
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Business: Veneers Dental Nogales, Dra. Ángeles; implante desde $12,500; ya tiene reel de implantes con la doctora.
+
+Ideas:
+1: ¿Qué forma tienen tus labios? Lip shape influences smile design. Engagement quiz. Good for veneers.
+2: No te hagas un diseño de sonrisa sin saber esto. 3 tipos de materiales para carillas... Educational warning. Good for veneers.
+3: Testimonial Zion experience after smile design. Testimonial.
+4: Patient is family, create smile. Emotional testimonial.
+
+Business already has reel of implants with doctor. So maybe avoid another implant? Implante desde $12,500 is offer. But ideas are about veneers/design.
+
+Idea 1 is high views 8.7M, engagement quiz. Good for lead gen.
+
+Idea 2 is educational about materials, good for authority and objection handling.
+
+Idea 3 testimonial, good but maybe similar to idea 4.
+
+Idea 4 emotional testimonial.
+
+Which two best? Probably IDEA 1 and IDEA 2. Both about veneers design, high engagement, educational. Idea 3 and 4 are testimonials, maybe less scalable? Could pick 1 and 3? Hmm.
+
+Business has veneers and implants. Idea 1 about lip shape and smile design -> perfect for veneers.
+
+Idea 2 about materials for veneers -> perfect.
+
+Idea 3 testimonial about smile design -> good but maybe they already have implant reel, testimonial could be good.
+
+Idea 4 emotional testimonial -> similar.
+
+Pick IDEA 1 and IDEA 2.
+
+Need format:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Need calificación proyectada: X/10. Probably a score? Maybe 8/10? Could be 8.5? Probably integer.
+
+Provide brief.
+
+Let's output:
+
+ELEGIDAS: 1 y 2
+IDEA 1: ... | ADAPTACIÓN: ...
+IDEA 2: ... | ADAPTACIÓN: ...
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make sure exactly format.
+
+Probably need IDEA 1: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea...)
+
+Make sure Spanish.
+
+Let's craft:
+
+IDEA 1: Genera interacción masiva y posiciona el diseño de sonrisa personalizado. | ADAPTACIÓN: Usamos fotos de la Dra. Ángeles y casos reales de Veneers Nogales con overlay de los 12 tipos de labios y CTA “comenta tu número”.
+
+IDEA 2: Educa y desactiva objeciones sobre carillas antes de vender. | ADAPTACIÓN: Voz en off de la Dra. Ángeles con sus propias fotos/clips de consultorio explicando materiales y cerrando con implante desde $12,500.
+
+Calificación proyectada: 8/10
+
+Maybe 9/10? Let's give 8.5? Probably integer.
+
+I'll give 8/10.
+
+Ensure exact format lines.
+
+Probably need ELEGIDAS: 1 y 2
+
+Make sure no extra reasoning.
+
+Output final.assistant to=userELEGIDAS: 1 y 2
+IDEA 1: Genera interacción masiva y posiciona el diseño de sonrisa personalizado según morfología labial. | ADAPTACIÓN: Usamos fotos de la Dra. Ángeles y casos reales de Veneers Nogales con overlay de los 12 tipos de labios y CTA “comenta tu número”.
+IDEA 2: Educa y desactiva objeciones sobre carillas antes de vender, autoridad inmediata. | ADAPTACIÓN: Voz en off de la Dra. Ángeles con sus fotos/clips de consultorio explicando materiales y cierre con implante desde $12,500.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Fernando
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Anegocios, kit de punto de venta $3,500; ya tiene video de capacitación.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @beaacamposr · 47,009,134 vistas · texto: Nueva función de Instagram! Guárdalo y sígueme para más @beaacamposr comenta tips que te gustaría que comparta!! 💛💛👇🏻🔥  #reelstrend #tipsparaemprended
+IDEA 2: @yaircastanedac · 2,926,331 vistas · texto: ⚠️Eres creador de contenido y quieres transferir tus archivos como videos o imágenes de tu celular a tu computadora o visera de una forma rápida y fác
+IDEA 3: @dinamic.ven · 1,722,505 vistas · texto: El éxito no es una casualidad; es la preparación y el momento. ⏳  📌 “Las cosas suceden cuando tienen que suceder, ni antes ni después.” — Pablo Motos 
+IDEA 4: @solercomputer · 778,430 vistas · texto: @solercomputer lo tienes todos en Tecnologia, Mobiliarios  Tenemos una gran variedad de escritorios, sillas, aires Acondicionados, licuadora, freidora
+
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Business: Anegocios, kit de punto de venta $3,500; ya tiene video de capacitación.
+
+Ideas:
+IDEA1: Instagram new function send reels to yourself. It's about Instagram tips. Not directly related to POS kit. Could be used for tips for entrepreneurs? Might be generic.
+
+IDEA2: Transfer files from phone to computer. That's tech tutorial. Could be relevant? Maybe not directly POS kit.
+
+IDEA3: Interview style with quote about success. "Gracias @caminoalexito por este video". It's a reaction/duet style. Could be used for testimonial? Might be motivational.
+
+IDEA4: Solercomputer showing products: mesa gamer, archivo para oficina, asientos... It's a product showcase walkthrough in store. That's very relevant: kit de punto de venta is a product, show it in store/office context.
+
+So IDEA4 is best: product showcase.
+
+IDEA1 is about Instagram tips, high views 47M. Could be used to teach entrepreneurs how to save reels about POS? Hmm.
+
+IDEA2 is about transferring files. Could be about transferring sales data? Not really.
+
+IDEA3 is motivational quote. Could be used for entrepreneur mindset.
+
+Maybe best are IDEA4 (product showcase) and IDEA1 (tips for entrepreneurs / Instagram hack). Or IDEA4 and IDEA3? The business has kit de punto de venta $3,500; ya tiene video de capacitación. So they need sales content, not more training. IDEA4 is product catalog style, good for conversion. IDEA1 is high-performing format for engagement and tips, can position as tips for negocios.
+
+IDEA2 is about file transfer, not relevant.
+
+IDEA3 is motivational, less direct.
+
+So pick IDEA4 and IDEA1.
+
+Need format:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need choose X and Y. Probably IDEA 4 and IDEA 1.
+
+Provide one line why serves. Adaptation one line.
+
+CALIFICACIÓN PROYECTADA: X/10. Probably a score? Maybe 8/10? Could be 7.5? Must be X/10. Provide a number.
+
+Let's output:
+
+ELEGIDAS: 4 y 1
+IDEA 4: ... | ADAPTACIÓN: ...
+IDEA 1: ... | ADAPTACIÓN: ...
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make sure exactly format. Probably need IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea...)
+
+Ensure Spanish.
+
+Let's craft concise.
+
+IDEA 4: Formato catálogo en tienda que genera confianza y deseo por ver el kit en contexto real. | ADAPTACIÓN: Recorremos local con el kit de punto de venta $3,500, textos “KIT POS COMPLETO $3,500” y cierre con CTA de WhatsApp usando fotos/escenas generadas.
+
+IDEA 1: Formato tutorial de Instagram con alta retención y posiciona como autoridad para emprendedores. | ADAPTACIÓN: Creamos “Nueva función para vender más” mostrando cómo guardar reels de tips de ventas del kit y enviarlos a sí mismo, con voz en off del dueño.
+
+Calificación proyectada: 8/10
+
+Make sure line breaks correct.
+
+Possibly they want ELEGIDAS: 4 y 1
+
+Provide exactly.
+
+Let's output final.assistant to=userELEGIDAS: 4 y 1
+IDEA 4: Formato catálogo en tienda que genera confianza y deseo al ver el producto en contexto real. | ADAPTACIÓN: Recorrido por el local mostrando el kit de punto de venta $3,500 con textos “KIT POS COMPLETO $3,500”, beneficios y cierre con CTA a WhatsApp usando fotos/escenas generadas.
+IDEA 1: Formato tutorial de Instagram con alta retención que posiciona como autoridad para emprendedores. | ADAPTACIÓN: Reel tipo “truco de Instagram para negocios” donde guardamos y reenviamos tips de venta del kit, con voz en off del dueño y subtítulos.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Mariano
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Casas en Vizcaíno Residencial, Rosarito; ya tiene recorridos y gancho Spider-Man.
+Estas son 4 ideas de reels...
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas.
+
+IDEA1: @sinexclusiva · 2,759,329 vistas · texto: EPISODIO 001 | La pareja tóxica La peor forma de vender una propiedad… es hacer exactamente lo mismo que todos. Todas las propiedades tienen u
+
+Looks like comedic skit about toxic couple selling? Might be about not doing same as everyone. Could be storytelling.
+
+IDEA2: @arquiblanc · 415,880 vistas · Te explico qué es el SATE y por qué es la mejor decisión para aislar tu casa. La eficiencia energética...
+
+That's technical construction system SIP / SATE. Might be relevant? Casas en Vizcaíno Residencial, Rosarito. Might be about construction quality. Could be educational.
+
+IDEA3: @martina_realestate · 394,965 vistas · Hay propiedades que simplemente se recorren… y otras que se sienten… Ubicada en el corazón de la isla, esta residencia fue diseñada para quienes busc
+
+That's luxury property tour with emotional feel, details, art. Seems relevant.
+
+IDEA4: @jonathanbrusi · 354,750 vistas · Casa 5 Ambientes en Lagos de Canning – Diseño, Categoría y Confort Total USD 450.000.- Elegancia, amplitud y puro confort...
+
+That's standard tour with kitchen, closet etc.
+
+Business already has recorridos and gancho Spider-Man. So standard tour (IDEA4) maybe redundant. IDEA3 is also tour but more emotional/artistic. Might be similar.
+
+IDEA1 is different: storytelling/comedy about selling differently. Could differentiate.
+
+IDEA2 is technical about insulation system SIP. Could be educational about construction quality of Vizcaíno.
+
+Which two best? Probably IDEA1 (differentiation storytelling) and IDEA3 (emotional luxury feel). Or IDEA1 and IDEA2.
+
+Business is Casas en Vizcaíno Residencial, Rosarito. Likely residential development. Might want to highlight construction quality (SIP) and emotional experience.
+
+IDEA2 shows SIP system. That is relevant to construction. Could adapt to show their building system.
+
+IDEA3 shows luxury property with details, art, unique. Could adapt to Vizcaíno.
+
+IDEA1 is about "la pareja tóxica" and not doing same as everyone. Could be a hook to differentiate.
+
+Since they already have recorridos and Spider-Man hook, IDEA4 is too similar to recorridos. IDEA3 is also recorrido but more emotional. Might still be similar.
+
+Maybe best are IDEA1 (differentiation/comedy) and IDEA2 (educational about construction). That gives variety.
+
+Alternative: IDEA1 and IDEA3.
+
+Let's think: Meta ads strategy for real estate in Mexico. Educational content about construction quality performs well for trust. Emotional storytelling also works. Comedy skit about "peor forma de vender" could be viral.
+
+IDEA1 has 2.7M views, highest. So good.
+
+IDEA2 is about SATE/SIP insulation. Could be adapted to show their SIP system.
+
+IDEA3 is about properties you feel. Could be adapted.
+
+Which two to pick? Probably IDEA1 and IDEA3 because IDEA2 is very technical and maybe not relevant to buyer emotion? But construction quality is selling point.
+
+The business is Casas en Vizcaíno Residencial, Rosarito. Might be a specific development. They may want to show differentiation and emotional connection.
+
+I think pick IDEA1 and IDEA3.
+
+IDEA1: por qué sirve: formato narrativo con humor que rompe el patrón de recorridos y genera retención. ADAPTACIÓN: recreamos sketch con pareja en Vizcaíno usando sus fotos del fraccionamiento y voz en off del agente.
+
+IDEA3: por qué sirve: vende sensación de estilo de vida y exclusividad, ideal para posicionar Vizcaíno como experiencia. ADAPTACIÓN: montaje cinematográfico con sus tomas de jardines, fachadas y detalles con texto “aquí se siente” y música suave.
+
+Calificación proyectada: maybe 8/10?
+
+Need format exactly:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Pick X=1, Y=3.
+
+ELEGIDAS: 1 y 3
+
+IDEA 1: ... | ADAPTACIÓN: ...
+
+IDEA 3: ...
+
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make sure one line each.
+
+Let's produce concise.
+
+Possibly calificación 8/10 or 7.5? Use integer.
+
+I'll output exactly.
+
+Ensure Spanish.
+
+Let's deliver.assistant to=userELEGIDAS: 1 y 3
+IDEA 1: Formato narrativo con humor que rompe el patrón de recorridos y genera retención alta. | ADAPTACIÓN: Sketch tipo “pareja tóxica” en Vizcaíno con sus fotos del acceso, lobby y exteriores y voz en off del agente burlándose de vender como todos.
+IDEA 3: Vende sensación de estilo de vida y exclusividad, posiciona el residencial como experiencia única. | ADAPTACIÓN: Montaje cinematográfico con sus tomas de jardines, fachadas y detalles con textos “se siente” y música suave, sin tour tradicional.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Israel
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: SIRLed, venta, instalación y reparación de pantallas LED para negocios; ya tiene video con sus tomas.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @deverdad.xd · 19,878,632 vistas · texto: ¿Por qué es importante que un niño no utilice teléfono desde pequeño? 1. Desarrollo cerebral • El cerebro de un niño está en plena formación. • El uso
+IDEA 2: @deephomesjaipur · 2,278,605 vistas · texto: Beautiful LED panel design  #ledwall #ledsign #ledtv #electronic #ledlighting #ledbillboard #ledscreens #graffitiporn #pixels #resolution #leddisplay 
+IDEA 3: @todoseller · 820,796 vistas · texto: ¡Mantén tu rostro suave y bien afeitado con el Mini Shaver con Pantalla LED de TodoSellerCCS!  Este práctico afeitador es perfecto para viajes, salida
+IDEA 4: @javiermirandaled · 811,259 vistas · texto: El llamado que me cambio la vida | Fragmento Entrevista Telpin Tv #oportunidad #pantallaled #emprender #javiermiranda #inspiration #life #viral #fyp #
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Idea 1 is about child no phone, irrelevant. Idea 3 is mini shaver with LED screen, not relevant to business LED screens for businesses. Idea 2 is LED panel design, relevant. Idea 4 is interview about LED screen opportunity, relevant.
+
+So choose IDEA 2 and IDEA 4.
+
+Need format exactly:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Probably X is 2, Y is 4? Or order? ELEGIDAS: 2 y 4
+
+IDEA 2: ... | ADAPTACIÓN: ...
+
+IDEA 4: ... | ADAPTACIÓN: ...
+
+CALIFICACIÓN PROYECTADA: X/10
+
+Need a rating. Projected rating? Maybe 8/10? Could be 8.5? Probably integer. Let's give 8/10.
+
+Make brief.
+
+IDEA 2: por qué sirve: formato de recorrido visual de mueble LED que genera deseo y demuestra estética aplicable a negocios. ADAPTACIÓN: usar sus tomas de instalaciones reales con zoom progresivo y texto "antes/después" de pantallas en locales.
+
+IDEA 4: por qué sirve: storytelling de emprendedor con pantallas LED que genera confianza y autoridad. ADAPTACIÓN: usar su voz en off sobre su historia con clips de sus instalaciones y cierre con CTA de SIRLed.
+
+Make one line each.
+
+Ensure exact format.
+
+Probably need line breaks.
+
+Let's output:
+
+ELEGIDAS: 2 y 4
+IDEA 2: ... | ADAPTACIÓN: ...
+IDEA 4: ... | ADAPTACIÓN: ...
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make sure Spanish.
+
+Let's produce final.assistant to=userELEGIDAS: 2 y 4
+IDEA 2: Formato de recorrido visual que genera deseo y muestra estética de pantallas LED aplicable a negocios. | ADAPTACIÓN: Recorrido con sus tomas de instalaciones reales en zoom progresivo con texto de beneficios para locales y cierre con logo SIRLed.
+IDEA 4: Storytelling de emprendedor con pantallas LED que genera confianza y autoridad en el nicho. | ADAPTACIÓN: Su voz en off contando su caso con clips de sus instalaciones, reparación y venta, y CTA final de SIRLed.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Iván
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Fumicam, fumigación; ya tiene videos con su voz.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @elexterminadordeplagas_ · 16,739,855 vistas · texto: No esperes que las cucarachas invadan tu NEVERA y toda la cocina. Servicio de Fumigación profesional. #fumigacion #cartagena #barranquilla #cucarachas
+IDEA 2: @fumigacionesranger · 9,331,674 vistas · texto: Trabajo limpio, directo y efectivo. Eliminación de cucaracha alemana inmediata en cocina 🪳 Servicios en: Casa habitación Oficinas Locales y negocio
+IDEA 3: @datos._reales · 7,249,594 vistas · texto: liminar hormigas sin causar daños graves es más fácil de lo que parece y mucho más seguro que usar fuego, como hizo este hombre. La clave está en usar
+IDEA 4: @fumigacionuniversal · 6,261,014 vistas · texto: ¿Les ha pasado? Cualquier parecido con la realidad es pura coincidencia 😂 💙 ¡En Fumigación Universal solucionamos tu problema porque sabemos cómo! ❤
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Idea 1: fridge mold/cockroaches, high views, relevant. Idea 2: fumigaciones ranger, cockroach elimination, relevant. Idea 3: about ants and fire, maybe not directly fumigation business? It's about not using fire, could be educational but maybe less brand. Idea 4: meme cockroach costume, humor.
+
+Probably best are IDEA 1 and IDEA 2. Or IDEA 1 and IDEA 4? Idea 4 is humor meme, could work.
+
+Business is Fumicam fumigation, already has videos with voice. Idea 1 shows dirty fridge, "No tomes agua en todas las casas". That's shock/ disgust, high engagement. Good for awareness.
+
+Idea 2 shows cockroach infestation in cabinets, brand Fumigaciones Ranger. Very direct service.
+
+Idea 3 is about worst way to eliminate ants using fire, educational but maybe not directly selling fumigation? Could be.
+
+Idea 4 is meme "La cucaracha" with man in kitchen. Humor.
+
+Probably pick IDEA 1 and IDEA 2 as most relevant and high performing.
+
+Need format exactly:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Need choose X and Y numbers. Let's pick IDEA 1 y IDEA 2.
+
+Provide one line why serves. One line adaptation.
+
+CALIFICACIÓN PROYECTADA: X/10. Probably 8/10? Maybe 8.5? Must be X/10. Probably 8/10.
+
+Make sure Spanish breve.
+
+ELEGIDAS: 1 y 2
+IDEA 1: ... | ADAPTACIÓN: ...
+IDEA 2: ... | ADAPTACIÓN: ...
+CALIFICACIÓN PROYECTADA: 8/10
+
+Ensure exact format.
+
+Let's produce.
+
+Potential adaptation: use his voice over footage of fridge gasket with mold, show before/after, CTA Fumicam.
+
+Idea 2 adaptation: use his voice showing cabinets with cockroaches, use his own photos of service, text overlay.
+
+Ok.
+
+Return only final answer.
+
+assistant to=userELEGIDAS: 1 y 2
+IDEA 1: Alto impacto de asco/curiosidad con nevera contaminada, formato probado con 16M+ vistas. | ADAPTACIÓN: Voz de Fumicam sobre tomas de empaque de nevera sucia con su material real y cierre con logo/CTA de servicio a domicilio en México.
+IDEA 2: Demuestra problema real de cucaracha alemana en cocina con prueba social y servicios claros. | ADAPTACIÓN: Narración con su voz sobre imágenes de gabinetes infestados y su trabajo de fumigación, usando sus fotos antes/después y lista de servicios.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Uriel
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Consultor de procesos para dueños de negocio; ya tiene gancho con su cara.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @gabyarriagamx · 17,438,314 vistas · texto: Toma lo que necesites de esto hoy.  Caer no es fracasar. Es retroalimentación. Una lección. Un punto de decisión.  ¿Te quedas abajo… o te levantas con
+IDEA 2: @ibusinessbrasil · 6,199,337 vistas · texto: ❤️ Você já refletiu sobre a forma como trata quem você ama? O respeito, a empatia e o cuidado são pilares de um relacionamento saudável e próspero. Vo
+IDEA 3: @marcconsultoria · 4,113,151 vistas · texto: Esperar o cliente vir até você é como abrir uma loja no meio do deserto e torcer para que alguém passe por lá. Negócios de sucesso entendem que é prec
+IDEA 4: @salima.digital · 3,240,510 vistas · texto: Lo evidente también se comunica.  Durante mucho tiempo pensé que si algo era obvio, no hacía falta decirlo. Que bastaba con explicarlo una vez o señal
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Business: consultant of processes for business owners; already has hook with his face.
+
+Idea 1: roller skater falling, motivational about falling and continue. Text about falling is feedback. Could be about processes? Maybe resilience. Might be generic.
+
+Idea 2: "HOMEM que nao pensa assim vai ser COR***" with man with headphones and DIY tools. Seems about men who think differently. Text about respect empathy? The description says: Você já refletiu sobre a forma como trata quem você ama? O respeito... That seems about relationships, not business. Might be irrelevant. Also the visual shows a man with orange cap and tools. Might be about "hombre que no piensa así". Could be about mindset. But description seems about relationships. Might be off.
+
+Idea 3: @marcconsultoria about not waiting for client to come, go after clients. That's directly about business acquisition, sales. Perfect for consultant of processes for business owners. Also uses his face? The idea shows Marco Cavalcanti. So similar.
+
+Idea 4: @salima.digital about leader thinks obvious doesn't need to be said. About communication of obvious things. Relevant to processes: documentation, standardize. Good.
+
+So best are IDEA 3 and IDEA 4. Idea 1 is motivational sports, less relevant to processes. Idea 2 is about relationships / mindset maybe not.
+
+Pick IDEA 3 and IDEA 4.
+
+Need format:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need calificación proyectada: X/10. Probably a score? Maybe for the video? Could be 8/10? Provide a rating.
+
+Maybe give 8.5/10? Probably integer.
+
+Let's propose ELEGIDAS: 3 y 4
+
+IDEA 3: ... por qué sirve: habla de proactividad comercial y atracción de clientes, core para dueños. ADAPTACIÓN: usar su rostro con cortes de su consultoría y B-roll de procesos/ventas con voz en off.
+
+IDEA 4: ... por qué sirve: conecta con la necesidad de documentar lo obvio en procesos y liderazgo. ADAPTACIÓN: su cara hablando a cámara intercalada con escenas generadas de caos operativo vs proceso claro.
+
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make sure exactly format. Probably need line breaks.
+
+Ensure Spanish.
+
+Let's output exactly as requested.
+
+Potential nuance: IDEA 1 is about falling and getting up, could be about resilience in processes. But IDEA 3 is more direct.
+
+Idea 2 description says about how you treat who you love, respect empathy. That's not business. So discard.
+
+Thus final answer.
+
+Make sure no extra reasoning.
+
+Output:
+
+ELEGIDAS: 3 y 4
+IDEA 3: ... | ADAPTACIÓN: ...
+IDEA 4: ... | ADAPTACIÓN: ...
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make one line per idea.
+
+Let's craft concise.
+
+IDEA 3: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+
+Maybe: IDEA 3: Directo a dueños que esperan clientes y valida proactividad comercial. | ADAPTACIÓN: Su rostro con texto “TÉCNICA INFALIBLE DE VENTA” y cortes de su voz explicando prospección con B-roll de procesos.
+
+IDEA 4: ... etc.
+
+Keep brief.
+
+Let's produce final.assistant to=userELEGIDAS: 3 y 4
+IDEA 3: Habla de proactividad comercial y de ir por el cliente, dolor real de dueños de negocio. | ADAPTACIÓN: Su cara a cámara con el formato de Marco Cavalcanti y su voz explicando prospección/procesos, intercalado con B-roll de operaciones y ventas.
+IDEA 4: Conecta con documentar lo obvio y estandarizar procesos, clave para consultoría de procesos. | ADAPTACIÓN: Su rostro hablando a cámara con texto “CUANDO EL LÍDER PIENSA QUE LO OBVIO NO NECESITA SER DICHO” y escenas generadas de caos vs proceso claro.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Rubén
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Alineación alphabiótica, $300 la sesión, Zinacantepec/Metepec; prospecto.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @f.riosloera · 24,314,892 vistas · texto: La alineación alfabiotica es una practica que busca equilibrar el cuerpo y la mente, reduciendo el estrés y promoviendo el bienestar general. Este mét
+IDEA 2: @vidaalphabiotista · 5,083,369 vistas · texto: La alineación alphabiótica es completamente segura en niños, ayudándoles a tener un desarrollo óptimo.  #alphabiotismo #alphabiotista #vidaalphabiotis
+IDEA 3: @maatias_vazquez · 4,937,145 vistas · texto: Quiropraxia moderna 🤫💨  #quiropractico #quiropraxia #farts #parejas #parejastoxicas
+IDEA 4: @salud_belleza_academy · 4,464,065 vistas · texto: Libera meses de dolor de espalda con este masaje ✨💆🏻 #masajes #dolordeespalda #backpain #masajesrelajantes #backmassage
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Business is alineación alphabiótica. Idea 1 is alignment alphabiotica, high views 24M. Idea 2 is alignment alphabiotica in kids, safe. Idea 3 is quiropraxia moderna with couple? Text about quiropraxia, but seems maybe not alphabiotica, and hashtags parejas toxicas, maybe not relevant. Idea 4 is massage for back pain, not alignment.
+
+So best are IDEA 1 and IDEA 2. Both directly about alphabiotica.
+
+Need format exactly:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Probably X=1, Y=2.
+
+Provide one line why serves. Adaptation one line.
+
+CALIFICACIÓN PROYECTADA: X/10 . Need a number. Maybe 8/10? Projected rating. Could be 8.5? Probably integer. Let's give 8/10.
+
+Make sure exact format. ELEGIDAS: 1 y 2
+
+IDEA 1: ... | ADAPTACIÓN: ...
+
+IDEA 2: ... | ADAPTACIÓN: ...
+
+CALIFICACIÓN PROYECTADA: 8/10
+
+Ensure Spanish breve.
+
+Let's craft.
+
+IDEA 1: por qué sirve: formato de reacción + antes/después con alta retención y prueba social masiva. ADAPTACIÓN: usar sus clips de paciente en camilla en Zinacantepec con texto “Ya necesitaba una alineación” y cierre con precio $300 y ubicación.
+
+IDEA 2: por qué sirve: posiciona seguridad en niños y amplía audiencia familiar con confianza. ADAPTACIÓN: recrear secuencia manos en cabeza de niño con su voz en off explicando beneficios y CTA local Metepec/Zinacantepec.
+
+Make one line each.
+
+Ensure no extra reasoning.
+
+Output exactly as requested.
+
+Potential nuance: IDEA 3 is quiropraxia, maybe related? But alphabiotica is different. Might be discard. Idea 4 is massage, not alignment.
+
+So final answer.
+
+Make sure line breaks correct.
+
+Let's produce.assistant to=userELEGIDAS: 1 y 2
+IDEA 1: Formato de reacción con alta retención y prueba social, 24M de vistas valida el gancho. | ADAPTACIÓN: Montar sus tomas de paciente en camilla en Zinacantepec con texto “Ya necesitaba una alineación” y cierre con $300 la sesión y ubicación.
+IDEA 2: Demuestra seguridad en niños y abre mercado familiar con mensaje de desarrollo óptimo. | ADAPTACIÓN: Secuencia de ajuste suave en niño con su voz en off explicando beneficios y CTA local Metepec/Zinacantepec.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Rachel
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Clou SPA, micropigmentación en Mexicali; prospecto.
+Estas son 4 ideas de reels...
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas.
+
+IDEA1: technique for eyebrows, handling scissors, 2 hands. It's barber male eyebrow trimming. Business is micropigmentation spa. Might be relevant? Could be educational about brow shaping before micropigmentation. Might be okay but it's barber male.
+
+IDEA2: makeup your eyebrows on correct side, No/Si with concealer. That's brow makeup tutorial. Relevant to micropigmentation: shows importance of correct mapping. Good.
+
+IDEA3: cat trend on eyebrow. It's a cat drawn on eyebrow. That's a novelty/trend. Might be viral but not professional for micropigmentation spa? Could be fun but maybe not aligned with prospect serious.
+
+IDEA4: meme "Solo me voy a quitar un pelito, no pasa nada..." cartoon girl plucking brows and disaster. That's relatable humor about over-plucking. Very relevant for micropigmentation prospect: pain point.
+
+So best are IDEA 2 and IDEA 4. IDEA 1 is barber male, less relevant. IDEA 3 is gimmick.
+
+Pick IDEA 2 and IDEA 4.
+
+Need format:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Probably need rating for each? "CALIFICACIÓN PROYECTADA: X/10" maybe one rating? Could be for both? Might be overall? Probably give rating per idea? The format says CALIFICACIÓN PROYECTADA: X/10. Maybe one rating for the selection? Could give e.g., 8/10. Might need for each? The instruction says responde EXACTAMENTE así: ELEGIDAS: X y Y IDEA X: ... IDEA Y: ... CALIFICACIÓN PROYECTADA: X/10
+
+Maybe give one rating for the pair. Could give 8.5/10. Let's give 8/10.
+
+Make sure Spanish breve.
+
+IDEA 2: por qué sirve: Educa y genera confianza mostrando mapeo correcto vs error, ideal para prospecto de micropigmentación. ADAPTACIÓN: Usar fotos reales de antes/después de Clou SPA con voz en off de la especialista y texto "No/Sí" en español.
+
+IDEA 4: por qué sirve: Humor relatable sobre depilarse mal, conecta con dolor del prospecto y posiciona micropigmentación como solución. ADAPTACIÓN: Recrear con animación simple o cliente real + texto "Solo me voy a quitar un pelito..." y cierre con cejas perfectas de Clou SPA.
+
+Provide exactly format.
+
+Ensure line breaks.
+
+Let's output.
+
+Probably ELEGIDAS: 2 y 4
+
+IDEA 2: ... | ADAPTACIÓN: ...
+
+IDEA 4: ... | ADAPTACIÓN: ...
+
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make sure one line each.
+
+Let's produce.assistant to=userELEGIDAS: 2 y 4
+IDEA 2: Educa y genera confianza mostrando mapeo correcto vs error, ideal para prospecto de micropigmentación. | ADAPTACIÓN: Usar fotos reales de antes/después de Clou SPA con voz en off de la especialista y texto No/Sí en español.
+IDEA 4: Humor relatable sobre depilarse mal, conecta con el dolor del prospecto y posiciona la micropigmentación como solución. | ADAPTACIÓN: Recrear con cliente real o animación simple con el texto “Solo me voy a quitar un pelito…” y cierre con cejas perfectas de Clou SPA.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Verónica
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Asesora inmobiliaria, Torre El Charro, Tampico; prospecto.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @nataliamenesesbr · 2,459,274 vistas · texto: Comenta ¨CONTRATO¨ si quieres ALQUILAR tu CASA sin el MIEDO de que te la QUITEN🤯🚨💸💪💰  #Inversiones #BienesRaíces #Finanzas #Éxito #Dinero #Inversiones
+IDEA 2: @lucasgr90 · 882,149 vistas · texto: Imagina que te regalan la casa de tus sueños, pero  tienes que vivir con la primera persona al pulsar la flecha y abrir WhatsApp ¿Con quién irías?  #r
+IDEA 3: @mebalderas · 572,571 vistas · texto: Si casa quieres comprar, a Mario tienes que llamar 📲📣   #Marketing #AsesorInmobiliario #Casa
+IDEA 4: @victorandrecz · 335,454 vistas · texto: Hoy me he metido en un jardín 😅 Ranking de ciudades de Cataluña del 1 al 10. Sí, hay decisiones polémicas. Sí, puedes no estar de acuerdo. Te leo en c
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Business is real estate advisor, Torre El Charro, Tampico; prospect.
+
+Idea 1: about renting house without fear of losing it. Relevant to real estate, rental. High views. Good.
+
+Idea 2: imagine house of dreams but live with first person who opens WhatsApp. It's engagement, viral, but maybe less direct for prospect? Could be fun.
+
+Idea 3: "Si casa quieres comprar, a Mario tienes que llamar". That's marketing meme with woman interrupting man. Could be good for brand personality.
+
+Idea 4: ranking cities of Catalonia. Not relevant to Tampico/Mexico. Discard.
+
+So choose Idea 1 and Idea 3? Or Idea 1 and Idea 2? Let's think.
+
+Prospect for Torre El Charro. Probably wants leads for sales/rent. Idea 1 is about renting without fear, very relevant to pain point. Idea 3 is about "when marketing arrives" meme, which is humorous and positions advisor. Could be good for brand awareness.
+
+Idea 2 is interactive WhatsApp hook, could generate leads. Might be good for engagement.
+
+Which two best? Idea 1 is high performing, direct pain point. Idea 3 is also relevant to real estate advisor, meme format.
+
+Idea 2 is more entertainment, less direct conversion.
+
+Maybe choose Idea 1 and Idea 3.
+
+Alternatively Idea 1 and Idea 2. Idea 2 uses house of dreams, could showcase Torre El Charro.
+
+The instruction: if some has nothing to do with business, discard. Idea 4 is irrelevant. So choose from 1,2,3.
+
+Pick 2 best. I'd pick IDEA 1 and IDEA 3.
+
+Provide format exactly:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Need CALIFICACIÓN PROYECTADA: X/10. Probably a score? Maybe 8/10? Could be projected rating. Provide a number.
+
+We need exactly format. Probably:
+
+ELEGIDAS: 1 y 3
+IDEA 1: ... | ADAPTACIÓN: ...
+IDEA 3: ... | ADAPTACIÓN: ...
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make sure one line each.
+
+Let's craft concise.
+
+IDEA 1: por qué sirve: alto interés por alquiler seguro y CTA de comentario para leads. ADAPTACIÓN: usar su voz sobre cláusulas de renta en Torre El Charro con clips del edificio y texto "Comenta CONTRATO".
+
+IDEA 3: por qué sirve: humor de marketing inmobiliario que humaniza y posiciona autoridad. ADAPTACIÓN: recrear escena "cuando llega la de marketing" con ella entrando al lobby de Torre El Charro y cierre con contacto.
+
+Provide rating.
+
+Maybe 8.5/10? Must be X/10 integer? Probably 8/10.
+
+Let's output exactly.
+
+Ensure Spanish.
+
+No extra reasoning.
+
+Final answer.assistant to=userELEGIDAS: 1 y 3
+IDEA 1: Genera confianza y leads por dolor real de arrendadores con CTA de comentario. | ADAPTACIÓN: Voz en off de la asesora sobre 3 cláusulas para rentar seguro en Torre El Charro con fotos del edificio y texto “Comenta CONTRATO”.
+IDEA 3: Humaniza la marca con humor de nicho y refuerza autoridad inmobiliaria. | ADAPTACIÓN: Recrear el meme “cuando llega la de marketing” en el lobby de Torre El Charro con ella presentando el inmueble y cierre con contacto.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Generadores
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Energy Controlled, generadores/plantas de luz; quiere ventas, no imágenes; prospecto.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @panelessolar0 · 4,816,612 vistas · texto: Pocos cupos #generadores #generador #hidraulico #energia #energy #eolica
+IDEA 2: @jaime_realizador · 772,675 vistas · texto: La importancia del cable Neutro en instalaciones monofásicas en las que llegan 3 fases compartiendo el cable neutro. . . . . . . . #gaffer  #wlwctrici
+IDEA 3: @una_flor_oficial · 470,621 vistas · texto: Planta eléctrica ⚡️ para Cuba 🇨🇺 Eco Flow Delta 3 rebajada de precio ahora mismo oferta por tiempo limitado corre 🏃‍♀️ ahora y aprovecha esta súper op
+IDEA 4: @guayaquilcaliente · 330,961 vistas · texto: #generadores #ecuador #lluvia
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Idea 1 is about secret energy system, alternator motor, renewable energy classes. Might be about DIY generator? Could be misleading. But has high views 4.8M. Idea 3 is about planta eléctrica Eco Flow Delta 3 rebajada precio oferta tiempo limitado. That's direct sales of power station. Relevant to generators/plantas de luz. Idea 4 is about rain and generator bought on credit. Might be meme about rain flooding? Text: Empieza a llover Y apenas ayer saqué El generador a crédito. That's relatable humor about needing generator in rain. Could be good for prospect.
+
+Idea 2 is about cable neutro in installations monofásicas. That's electrical technical, not sales of generators. Might be less relevant.
+
+So best ideas: IDEA 3 (direct offer, urgency) and IDEA 4 (relatable pain point humor about rain/floods needing generator). Or IDEA 1? Idea 1 is about secret energy companies don't want you to know, with alternator motor. That's clickbait but maybe not aligned with selling generators? Could be about DIY hydro generator. Might be off brand.
+
+Business wants sales, not images; prospect. So need hook + offer.
+
+Idea 3 is perfect: unboxing EcoFlow, price drop, urgency. Adapt to Energy Controlled inventory.
+
+Idea 4 is meme about rain and generator bought on credit. Good for awareness and pain point.
+
+Idea 1 is about renewable secret, maybe not selling generators, more DIY. Could be discarded.
+
+Idea 2 is technical education, not sales.
+
+So choose IDEA 3 and IDEA 4.
+
+Need format exactly:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Need X and Y numbers. Probably IDEA 3 y IDEA 4.
+
+Provide one line why serves. One line adaptation.
+
+CALIFICACIÓN PROYECTADA: X/10. Probably a score? Maybe 8/10? Could be 8.5? Must be X/10. Probably 8/10.
+
+Make sure Spanish breve.
+
+ELEGIDAS: 3 y 4
+IDEA 3: ... | ADAPTACIÓN: ...
+IDEA 4: ... | ADAPTACIÓN: ...
+CALIFICACIÓN PROYECTADA: 8/10
+
+Ensure exact format. No extra reasoning.
+
+Let's craft:
+
+IDEA 3: Genera intención de compra inmediata por oferta limitada y demostración de producto. | ADAPTACIÓN: Usamos fotos reales de sus plantas en caja y encendido, voz en off con precio Energy Controlled y CTA “escríbenos YA”.
+
+IDEA 4: Conecta con dolor real de lluvia/apagones y humor relatable que detiene scroll. | ADAPTACIÓN: Recrear con stock de lluvia/crecida + texto “Empieza a llover y apenas ayer…” y cierre con su generador como solución con financiamiento.
+
+Make one line each.
+
+Ensure format exactly as requested.
+
+Probably need line break.
+
+Output final.assistant to=userELEGIDAS: 3 y 4
+IDEA 3: Genera intención de compra inmediata por oferta limitada y demostración de producto. | ADAPTACIÓN: Usamos fotos reales de sus plantas en caja y encendido, voz en off con precio Energy Controlled y CTA “escríbenos YA”.
+IDEA 4: Conecta con dolor real de lluvia/apagones y humor relatable que detiene scroll. | ADAPTACIÓN: Recrear con stock de lluvia/crecida + texto “Empieza a llover y apenas ayer…” y cierre con su generador como solución con financiamiento.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Blanca
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Terapia de lenguaje para niños (Hablar…Hablando); prospecto.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @estimulayjuega · 5,212,672 vistas · texto: Creés que tu bebé solo se está riendo?  En realidad, este juego puede salvarle la vida 💞  Cuando jugás a cubrir y descubrir su carita con una manta su
+IDEA 2: @sarai.balev · 2,350,772 vistas · texto: 🗣️ Los bebés absorben el lenguaje desde los primeros meses como pequeñas esponjas. Hablarles, cantarles y leerles fortalece su memoria auditiva y esti
+IDEA 3: @andreayfer.diaries · 2,330,371 vistas · texto: 🎤 ¿Criando un niño bilingüe o trilingüe? ¡No tengas miedo!  Los bebés aprenden por ejemplo y repetición, así que cuanto más expuestos estén a diferent
+IDEA 4: @mamismagicas · 1,592,503 vistas · texto: 🎨💬 ¿Sabías que no todas las caricaturas ayudan al desarrollo del lenguaje de tu hijo?  Algunas caricaturas están pensadas para estimular la atención, 
+
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. Idea 1 is about blanket game saving life? Actually "Crees que tu mamá está jugando contigo Y en realidad está salvando tu vida". That's about sensory? Might be about suffocation? Not language. Might be about stimulation? Could be about juego de manta for language? Hmm.
+
+Idea 2: Cancion para estimular el lenguaje. Woman with baby singing, moving arms. That's directly language stimulation. Good.
+
+Idea 3: Little girl in pink dress, text "Lo que estás a punto se escuchar NO está editado". Looks like child speaking? Might be about bilingual? The description says about bilingual/trilingual. Could be about child speaking. Might be about language development.
+
+Idea 4: Caricaturas que estimulan vs sobreestimulan. About cartoons and language development. Relevant.
+
+Business is therapy of language for children. Prospect.
+
+Best ideas: Idea 2 (song to stimulate language) and Idea 4 (cartoons good/bad for language). Idea 1 is about blanket game saving life, not language. Idea 3 is about bilingual? Might be about child speaking unedited. Could be relevant but less direct.
+
+Maybe Idea 3 is about child speaking? The text in image: "Lo que estás a punto se escuchar NO está editado". Could be a child speaking. Might be about language milestone. Could be good.
+
+But Idea 4 is very relevant for parents concerns about screen time and language.
+
+Idea 2 is direct stimulation.
+
+So choose IDEA 2 and IDEA 4.
+
+Need format:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick X and Y. Probably IDEA 2 and IDEA 4.
+
+Provide one line why serves. Adaptation one line.
+
+CALIFICACIÓN PROYECTADA: X/10. Probably 8/10? Maybe 8.5? Must be X/10. Could be 8/10.
+
+Let's output exactly.
+
+ELEGIDAS: 2 y 4
+IDEA 2: ... | ADAPTACIÓN: ...
+IDEA 4: ... | ADAPTACIÓN: ...
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make sure Spanish breve.
+
+Idea 2 why serves: Demuestra estimulación temprana del lenguaje con interacción madre-hijo, formato probado y alta retención.
+
+Adaptación: Usar a la terapeuta cantando con un niño real o con sus propias fotos, texto en español MX y CTA a evaluación.
+
+Idea 4 why serves: Educa sobre pantallas y lenguaje, genera confianza y posiciona como experta.
+
+Adaptación: Recrear comparativa con caricaturas aprobadas/no aprobadas usando capturas y voz en off de la terapeuta.
+
+Provide concise.
+
+Ensure format exact.
+
+Probably need IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea...)
+
+Make sure pipe separator.
+
+Let's produce final.assistant to=userELEGIDAS: 2 y 4
+IDEA 2: Conecta directo con estimulación temprana del lenguaje y tiene formato de canción-interacción con alta retención. | ADAPTACIÓN: Terapeuta cantando con un niño en consulta o con sus fotos, texto en MX y CTA a diagnóstico gratuito.
+IDEA 4: Educa sobre pantallas y lenguaje, genera confianza y objeción clave de padres prospecto. | ADAPTACIÓN: Comparativa check/cross de caricaturas con voz en off de la terapeuta y ejemplos de su consultorio.
+CALIFICACIÓN PROYECTADA: 8/10
+
+######## Mariachi
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, breve, sin razonamiento.
+NEGOCIO: Mariachi en Guadalajara: serenatas, XV, eventos; prospecto.
+Estas son 4 ideas de reels de Instagram de su nicho (imagen: cada fila es una idea, 4 cuadros del inicio al final):
+IDEA 1: @devdinepi · 2,320,552 vistas · texto: Affacciati alla finestra amore mio 🥰🥰  #prewedding #serenata #achillelauro
+IDEA 2: @mariachirubor · 1,673,853 vistas · texto: This is why we take mariachi beyond borders. 🇲🇽🌎  To share our culture, our music and a piece of who we are.   A reminder that music really does speak
+IDEA 3: @yayo.mentere · 946,222 vistas · texto: #virałreels #trompeta🎺 #mariachi #serenata #música
+IDEA 4: @adnnoticiasmx · 596,598 vistas · texto: 🇲🇽 Polémica en Coyoacán: Turista arremete contra el mariachi en restaurante local. 🎻⁣ ⁣ Una nueva controversia en torno al turismo internacional y la 
+Escoge las 2 MEJORES ideas para hacerle un video NUEVO a este negocio (si alguna no tiene que ver con su negocio, descártala). Responde EXACTAMENTE así:
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+We need pick 2 best ideas. IDEA 1: serenata at window, prewedding. Relevant. High views 2.3M. Good for serenatas.
+
+IDEA 2: mariachi in metro, they had never seen mariachi before. Cultural share. Could be good for awareness but maybe less direct for Guadalajara events? Could be viral.
+
+IDEA 3: trompeta POV at event with tables. Very relevant for XV/events. Shows performance.
+
+IDEA 4: tourist complains about mariachi. Controversial news. Not good for business prospect. Might be negative. Discard.
+
+So best are IDEA 1 and IDEA 3. Or IDEA 1 and IDEA 2? IDEA 2 is about taking mariachi beyond borders, metro in Paris? Might be less local. IDEA 3 is direct event POV, good for conversion.
+
+IDEA 1 is serenata emotional, high views.
+
+Pick IDEA 1 and IDEA 3.
+
+Need format exactly:
+
+ELEGIDAS: X y Y
+IDEA X: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea: cómo la hacemos con sus fotos/voz o escenas generadas)
+IDEA Y: (1 línea: por qué sirve) | ADAPTACIÓN: (1 línea)
+CALIFICACIÓN PROYECTADA: X/10
+
+Need calificación proyectada: X/10. Probably a score? Maybe 8/10? Could be 8.5? Probably integer. Let's give 8/10.
+
+Make sure lines.
+
+ELEGIDAS: 1 y 3
+
+IDEA 1: ... | ADAPTACIÓN: ...
+
+IDEA 3: ... | ADAPTACIÓN: ...
+
+CALIFICACIÓN PROYECTADA: 8/10
+
+Make brief.
+
+Ensure Spanish.
+
+Let's produce.
+
+Potential adaptation: Use their photos of serenata at balcony, voiceover "Affacciati..." in Spanish, etc.
+
+IDEA 1 por qué sirve: formato serenata a ventana con alta retención emocional y viralidad probada para preboda/sorpresa.
+
+Adaptación: Recrear con su material de serenata en Guadalajara, close de balcón + reacción, texto "Ábreme la ventana amor mío" y CTA de WhatsApp.
+
+IDEA 3 por qué sirve: POV trompeta en evento real genera inmersión y prueba social para XV/bodas.
+
+Adaptación: Montar POV de trompeta con sus videos de fiesta, mesas moradas, público cantando y cierre con logo + "Mariachi en Guadalajara para tu evento".
+
+Ok.
+
+Return exactly format.
+
+Make sure no extra reasoning.
+
+Output final.assistant to=userELEGIDAS: 1 y 3
+IDEA 1: Formato serenata a ventana con alta retención emocional y viralidad probada para sorpresas y preboda. | ADAPTACIÓN: Usar sus fotos/clips de serenata en Guadalajara, balcón + reacción, texto “Ábreme la ventana amor mío” y voz en off local con CTA a WhatsApp.
+IDEA 3: POV de trompeta en evento real genera inmersión y prueba social directa para XV, bodas y fiestas. | ADAPTACIÓN: Editar su material de fiesta con POV trompeta, mesas y público cantando, superrafía “Mariachi en Guadalajara para tu evento” y cierre con contacto.
+CALIFICACIÓN PROYECTADA: 8/10
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-mL5A8wJmsMo54i8785eEb3
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/planes_glimmer_20261030/lote.json --tokens 3000
+Duración: 56.2 min  (código 0)
+  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.128
+  glimmer (ap-mL5A8wJmsMo54i8785eEb3): $2.391
+  escenas-carlos (ap-CxSB6p1FqTQCx1m8tBm2uK): $0.388
+  escenas-carlos (ap-fjiPfcoJlvh4XmVZaD6nst): $0.328
+Gasto del trabajo: $3.234
+Saldo restante ≈ $14.95

@@ -1,0 +1,345 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-gTWB3uVuQylcP5zMQOXPW8
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:00<22:44,  1.05it/s]
+[1ALoading weights:   0%|          | 2/1436 [00:02<25:02,  1.05s/it]
+[1ALoading weights:   0%|          | 5/1436 [00:02<08:16,  2.88it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:02<06:54,  3.45it/s]
+[1ALoading weights:   1%|          | 16/1436 [00:02<01:49, 12.95it/s]
+[1ALoading weights:   1%|▏         | 19/1436 [00:02<01:53, 12.50it/s]
+[1ALoading weights:   2%|▏         | 27/1436 [00:02<01:10, 20.02it/s]
+[1ALoading weights:   2%|▏         | 31/1436 [00:03<01:11, 19.58it/s]
+[1ALoading weights:   3%|▎         | 38/1436 [00:03<00:51, 27.24it/s]
+[1ALoading weights:   3%|▎         | 43/1436 [00:03<01:04, 21.68it/s]
+[1ALoading weights:   4%|▎         | 51/1436 [00:03<00:49, 28.26it/s]
+[1ALoading weights:   4%|▍         | 55/1436 [00:04<00:56, 24.52it/s]
+[1ALoading weights:   4%|▍         | 63/1436 [00:04<00:51, 26.71it/s]
+[1ALoading weights:   5%|▍         | 67/1436 [00:04<00:50, 27.14it/s]
+[1ALoading weights:   5%|▌         | 72/1436 [00:04<00:49, 27.78it/s]
+[1ALoading weights:   5%|▌         | 78/1436 [00:04<00:50, 26.74it/s]
+[1ALoading weights:   6%|▌         | 85/1436 [00:05<00:43, 31.13it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:05<00:41, 32.37it/s]
+[1ALoading weights:   6%|▋         | 93/1436 [00:05<00:43, 30.79it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:05<00:37, 35.85it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:05<00:47, 28.25it/s]
+[1ALoading weights:   8%|▊         | 108/1436 [00:05<00:50, 26.41it/s]
+[1ALoading weights:   8%|▊         | 114/1436 [00:06<00:48, 27.25it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:06<00:40, 32.54it/s]
+[1ALoading weights:   9%|▉         | 126/1436 [00:06<00:46, 28.08it/s]
+[1ALoading weights:   9%|▉         | 131/1436 [00:06<00:42, 31.01it/s]
+[1ALoading weights:  10%|▉         | 137/1436 [00:06<00:38, 33.53it/s]
+[1ALoading weights:  10%|▉         | 141/1436 [00:06<00:40, 32.18it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:06<00:35, 35.98it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:07<00:45, 28.40it/s]
+[1ALoading weights:  11%|█         | 159/1436 [00:07<00:42, 30.33it/s]
+[1ALoading weights:  11%|█▏        | 163/1436 [00:07<00:49, 25.94it/s]
+[1ALoading weights:  12%|█▏        | 171/1436 [00:07<00:35, 35.47it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:08<00:52, 24.07it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:08<00:42, 29.41it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:08<00:53, 23.26it/s]
+[1ALoading weights:  13%|█▎        | 192/1436 [00:08<00:54, 22.91it/s]
+[1ALoading weights:  14%|█▍        | 198/1436 [00:09<00:50, 24.50it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:09<00:37, 32.95it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:09<00:44, 27.42it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:09<00:37, 32.67it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:09<00:45, 26.56it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:09<00:35, 33.75it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:10<00:42, 28.27it/s]
+[1ALoading weights:  17%|█▋        | 241/1436 [00:10<00:41, 28.73it/s]
+[1ALoading weights:  17%|█▋        | 245/1436 [00:10<00:39, 29.79it/s]
+[1ALoading weights:  17%|█▋        | 249/1436 [00:10<00:40, 29.30it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:10<00:35, 33.44it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:11<00:43, 27.20it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:11<00:36, 31.87it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:11<00:43, 26.88it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:11<00:36, 31.78it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:11<00:44, 26.05it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:12<00:35, 32.01it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:12<00:43, 26.46it/s]
+[1ALoading weights:  21%|██        | 301/1436 [00:12<00:41, 27.04it/s]
+[1ALoading weights:  21%|██▏       | 306/1436 [00:12<00:44, 25.31it/s]
+[1ALoading weights:  22%|██▏       | 312/1436 [00:12<00:40, 27.77it/s]
+[1ALoading weights:  22%|██▏       | 318/1436 [00:13<00:38, 28.78it/s]
+[1ALoading weights:  23%|██▎       | 326/1436 [00:13<00:34, 32.38it/s]
+[1ALoading weights:  23%|██▎       | 330/1436 [00:13<00:38, 28.56it/s]
+[1ALoading weights:  23%|██▎       | 337/1436 [00:13<00:42, 25.94it/s]
+[1ALoading weights:  24%|██▍       | 342/1436 [00:13<00:36, 29.65it/s]
+[1ALoading weights:  24%|██▍       | 346/1436 [00:13<00:35, 30.94it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:14<00:29, 36.58it/s]
+[1ALoading weights:  25%|██▍       | 357/1436 [00:14<00:37, 29.10it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:14<00:32, 32.87it/s]
+[1ALoading weights:  26%|██▌       | 368/1436 [00:14<00:39, 26.98it/s]
+[1ALoading weights:  26%|██▌       | 373/1436 [00:14<00:36, 29.21it/s]
+[1ALoading weights:  26%|██▋       | 377/1436 [00:15<00:33, 31.20it/s]
+[1ALoading weights:  27%|██▋       | 381/1436 [00:15<00:33, 31.20it/s]
+[1ALoading weights:  27%|██▋       | 385/1436 [00:15<00:35, 29.67it/s]
+[1ALoading weights:  27%|██▋       | 389/1436 [00:15<00:34, 30.22it/s]
+[1ALoading weights:  27%|██▋       | 393/1436 [00:15<00:38, 27.15it/s]
+[1ALoading weights:  28%|██▊       | 397/1436 [00:15<00:38, 26.85it/s]
+[1ALoading weights:  28%|██▊       | 402/1436 [00:16<00:43, 23.62it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:16<00:28, 35.83it/s]
+[1ALoading weights:  29%|██▉       | 417/1436 [00:16<00:36, 27.79it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:16<00:32, 31.58it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:16<00:42, 23.87it/s]
+[1ALoading weights:  30%|███       | 431/1436 [00:17<00:47, 21.34it/s]
+[1ALoading weights:  31%|███       | 438/1436 [00:17<00:42, 23.72it/s]
+[1ALoading weights:  31%|███       | 445/1436 [00:17<00:35, 27.64it/s]
+[1ALoading weights:  31%|███▏      | 449/1436 [00:17<00:34, 28.72it/s]
+[1ALoading weights:  32%|███▏      | 453/1436 [00:17<00:33, 29.54it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:17<00:28, 34.84it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:18<00:35, 27.41it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:18<00:29, 32.28it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:18<00:35, 27.35it/s]
+[1ALoading weights:  33%|███▎      | 481/1436 [00:18<00:31, 30.43it/s]
+[1ALoading weights:  34%|███▍      | 485/1436 [00:18<00:33, 28.00it/s]
+[1ALoading weights:  34%|███▍      | 489/1436 [00:19<00:33, 28.16it/s]
+[1ALoading weights:  34%|███▍      | 493/1436 [00:19<00:36, 25.65it/s]
+[1ALoading weights:  35%|███▍      | 498/1436 [00:19<00:37, 24.74it/s]
+[1ALoading weights:  35%|███▌      | 506/1436 [00:19<00:27, 34.37it/s]
+[1ALoading weights:  36%|███▌      | 510/1436 [00:19<00:39, 23.24it/s]
+[1ALoading weights:  36%|███▌      | 517/1436 [00:20<00:35, 25.56it/s]
+[1ALoading weights:  36%|███▋      | 521/1436 [00:20<00:33, 27.42it/s]
+[1ALoading weights:  37%|███▋      | 525/1436 [00:20<00:33, 26.82it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:20<00:28, 31.92it/s]
+[1ALoading weights:  37%|███▋      | 536/1436 [00:20<00:34, 26.26it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:20<00:27, 32.23it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:21<00:34, 25.97it/s]
+[1ALoading weights:  39%|███▊      | 553/1436 [00:21<00:33, 26.62it/s]
+[1ALoading weights:  39%|███▉      | 558/1436 [00:21<00:35, 24.91it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:21<00:25, 33.99it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:22<00:30, 27.92it/s]
+[1ALoading weights:  40%|████      | 579/1436 [00:22<00:27, 31.50it/s]
+[1ALoading weights:  41%|████      | 583/1436 [00:22<00:30, 27.73it/s]
+[1ALoading weights:  41%|████      | 592/1436 [00:22<00:24, 34.16it/s]
+[1ALoading weights:  42%|████▏     | 596/1436 [00:22<00:37, 22.32it/s]
+[1ALoading weights:  42%|████▏     | 606/1436 [00:23<00:27, 30.36it/s]
+[1ALoading weights:  43%|████▎     | 613/1436 [00:23<00:26, 31.35it/s]
+[1ALoading weights:  43%|████▎     | 618/1436 [00:23<00:28, 29.03it/s]
+[1ALoading weights:  44%|████▍     | 629/1436 [00:23<00:20, 40.15it/s]
+[1ALoading weights:  47%|████▋     | 674/1436 [00:23<00:06, 112.37it/s]
+[1ALoading weights:  49%|████▉     | 703/1436 [00:23<00:05, 144.57it/s]
+[1ALoading weights:  52%|█████▏    | 750/1436 [00:24<00:03, 212.17it/s]
+[1ALoading weights:  56%|█████▌    | 798/1436 [00:24<00:02, 275.17it/s]
+[1ALoading weights:  58%|█████▊    | 840/1436 [00:24<00:01, 311.62it/s]
+[1ALoading weights:  61%|██████    | 879/1436 [00:24<00:01, 316.75it/s]
+[1ALoading weights:  64%|██████▍   | 926/1436 [00:24<00:01, 352.33it/s]
+[1ALoading weights:  68%|██████▊   | 975/1436 [00:24<00:01, 384.78it/s]
+[1ALoading weights:  71%|███████   | 1023/1436 [00:24<00:01, 391.57it/s]
+[1ALoading weights:  74%|███████▍  | 1064/1436 [00:24<00:00, 388.44it/s]
+[1ALoading weights:  78%|███████▊  | 1121/1436 [00:24<00:00, 433.73it/s]
+[1ALoading weights:  81%|████████▏ | 1170/1436 [00:24<00:00, 443.62it/s]
+[1ALoading weights:  85%|████████▍ | 1216/1436 [00:25<00:00, 406.08it/s]
+[1ALoading weights:  88%|████████▊ | 1258/1436 [00:25<00:00, 405.27it/s]
+[1ALoading weights:  91%|█████████ | 1300/1436 [00:25<00:00, 382.46it/s]
+[1ALoading weights:  93%|█████████▎| 1339/1436 [00:25<00:00, 320.16it/s]
+[1ALoading weights:  96%|█████████▌| 1378/1436 [00:25<00:00, 333.49it/s]
+[1ALoading weights:  99%|█████████▉| 1422/1436 [00:25<00:00, 359.73it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:25<00:00, 55.77it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## SNITCH_CALIFICACION
+**1. CALIFICACIÓN TOTAL ESPERADA Y POR RUBRO**
+
+* **Calificación total esperada tal como está planteado: 6.8 / 10**
+
+Rubro por rubro:
+
+* **Gancho en los primeros 3 segundos: 5 / 10.** La toma 1 es macro de la esfera cerrada sobre mesa de taller entre calibrador y pinzas. Es bonita, pero no dice “esto vuela”. En feed vertical el usuario no entiende qué es ni por qué debería quedarse.
+* **Retención: 7 / 10.** La toma 3 de vuelo es la única que retiene de verdad. Las tomas 1, 2 y 4 son técnicas y ralentizan el ritmo. La toma 5 de “escapa” es graciosa pero llega tarde.
+* **Claridad de lo que es: 6 / 10.** Se entiende que es un objeto dorado con alas, pero no se comunica con claridad que es un dron/colibrí mecánico real, hecho por la agencia, y qué hace de distinto.
+* **Credibilidad: 8 / 10.** El detalle del taller, el macro del mecanismo y los números del proyecto real sostienen credibilidad. Sin embargo, al no mostrar vuelo estable y libre desde el inicio, genera duda de si es CGI.
+* **Deseo que genera: 6 / 10.** Es curioso, pero no hay beneficio ni promesa clara para quien ve el anuncio. No se conecta con el espectador ni con el servicio de la agencia.
+* **Cierre y llamada a la acción: 3 / 10.** No hay texto en pantalla ni voz. La toma 5 termina en evasión sin cierre ni dirección. No se sabe qué hacer después.
+
+---
+
+**2. CAMBIOS CONCRETOS PARA SUBIR RUBROS < 8**
+
+**Gancho primeros 3 segundos: 5 → 9**
+
+* **Qué cambiar:** La toma 1 actual abre en reposo sobre mesa. No engancha.
+* **Cambio concreto:** Abrir con **Toma 3 recortada a 0-3 s**: esfera ya en vuelo estacionario a la altura del pecho, alas en arco borroso, luz de ventana recortándola. Primer plano medio, fondo oscuro. Sin texto todavía, solo sonido ambiente de batido.
+* **Duración:** 3 s.
+* **Subida estimada:** +4 puntos.
+
+**Claridad de lo que es: 6 → 9**
+
+* **Qué cambiar:** El espectador no sabe qué es ni que es real.
+* **Cambio concreto:** Insertar **texto en pantalla** en la toma de vuelo y **línea de voz** que lo nombre.
+* **Texto en pantalla en s 2-4 sobre la toma de vuelo:** “Colibrí mecánico real. Hecho por nosotros.”
+* **Voz en off en s 2-4:** “Esto es un colibrí mecánico real. Lo construimos nosotros.”
+* **Subida estimada:** +3 puntos.
+
+**Deseo que genera: 6 → 8.5**
+
+* **Qué cambiar:** No hay puente entre la curiosidad del objeto y el servicio de la agencia.
+* **Cambio concreto:** Añadir **micro-promesa** al final que vincule el objeto con lo que hace la agencia.
+* **Texto en pantalla en última toma:** “Si hacemos esto, imagina lo que hacemos por tu marca.”
+* **Voz en off en cierre:** “Si hacemos esto, imagina lo que hacemos por tu marca.”
+* **Subida estimada:** +2.5 puntos.
+
+**Cierre y llamada a la acción: 3 → 8.5**
+
+* **Qué cambiar:** Cierre sin dirección.
+* **Cambio concreto:** Reemplazar el final abierto por un cierre con CTA claro.
+* **Nueva Toma 5, 4 s:** Mano se acerca, la esfera se desvía y se queda flotando frente a cámara. Corte a negro 0.5 s y aparece **texto en pantalla:** “Videos que venden. Agenda una llamada.” 
+* **Voz en off última frase:** “Videos que venden. Escríbenos por WhatsApp.”
+* **Subida estimada:** +5.5 puntos.
+
+**Orden y duración final de las 5 tomas con cambios aplicados:**
+
+1. **Vuelo, 3 s.** Esfera flotando a altura de pecho, alas borrosas. Gancho inmediato.
+2. **Abre, 3 s.** Alas de Mylar dorado translúcido se despliegan, luz atraviesa membrana, fondo negro.
+3. **Mecanismo, 4 s.** Macro interior dorado, corona dentada girando y palanca ranurada oscilando junto a plano técnico.
+4. **Reposo, 3 s.** Esfera cerrada sobre mesa de taller de madera, calibrador y pinzas, reflejo en latón. Da contexto de fabricación real.
+5. **Mano + CTA, 4 s + 0.5 s negro con texto.** Mano intenta atrapar, esfera escapa hacia arriba y se queda flotando frente a cámara. Corte a negro con texto “Videos que venden. Agenda una llamada.” y voz “Escríbenos por WhatsApp.”
+
+**Retención se mantiene en 7 → 8** por el nuevo orden que pone lo mejor primero y reduce la fricción técnica al medio.
+
+---
+
+**3. QUÉ LO FRENA**
+
+La razón principal por la que no pasa de 8 es que abre con una macro estática de taller que no comunica en 3 segundos que el objeto vuela de verdad y para qué sirve verlo.
+
+---
+
+**4. CALIFICACIÓN PROYECTADA CON CAMBIOS**
+
+* Gancho: 9
+* Retención: 8
+* Claridad: 9
+* Credibilidad: 8
+* Deseo: 8.5
+* Cierre y CTA: 8.5
+
+**Calificación total proyectada: 8.5 / 10.** Con eso entra en lanzamiento según tu regla de 8 o más.
+
+---
+
+**5. ¿CUÁL TOMA DEBE IR PRIMERO PARA EL GANCHO?**
+
+La **Toma 3 de vuelo**. Justificación: es lo único que no se puede explicar con una foto. Ver una esfera dorada flotando con alas borrosas a la altura del pecho rompe esquema en feed y obliga a quedarse a entender qué es. El taller y el mecanismo son prueba, no gancho.
+
+---
+
+**6. PARA QUÉ SIRVE MEJOR Y SEGMENTACIÓN EN META**
+
+Sirve mejor para **demostrar capacidad técnica y atraer clientes nuevos** a la vez, con un sesgo a demostración técnica que cualifica leads. No es un video de alcance viral puro porque el objeto es de nicho y el mensaje final está anclado a negocio.
+
+Segmentación en Meta recomendada:
+
+* **Objetivo:** Leads / Mensajes.
+* **Público 1 - Core:** Dueños de negocios y marketers en Sonora y norte de México, 28-55, intereses: publicidad en Facebook/Instagram, marketing digital, video marketing, PYMES.
+* **Público 2 - Lookalike:** 1% LAL de clientes actuales de la agencia en México.
+* **Público 3 - Competencia contextual:** Intereses en drones, ingeniería, makers, y comportamiento de interacción con páginas de producción audiovisual.
+* **Creativo:** Vertical 9:16, sin subtítulos quemados en el primer frame, texto grande y corto en cierre, CTA a WhatsApp.
+* **Presupuesto de prueba:** Arranque pequeño para validar CTR a mensaje y costo por mensaje, igual que en tus referencias.
+
+---
+
+**7. VEREDICTO**
+
+**No se lanza tal como está planteado.** Con los cambios concretos de orden, textos en pantalla y voz indicados arriba, **sí se lanza**.
+
+######## SNITCH_RESTRICCIONES_IP
+Entendido. Te lo pongo directo y accionable para que puedas publicar y pautar sin exponerte.
+
+# 1) Qué exactamente puede meterte en problemas
+
+**Marca registrada (Warner Bros. / Harry Potter).**  
+Riesgo real. Warner Bros. tiene marcas registradas para “Golden Snitch”, “Snitch”, “Quidditch”, personajes y logotipos de Harry Potter. Usar el nombre, el logo o una referencia inequívoca en el anuncio puede ser infracción de marca y motivo de rechazo en Meta Ads por “Propiedad intelectual”.
+
+**Derecho de autor del diseño.**  
+La snitch de las películas es un objeto tridimensional con forma, proporciones y acabados protegidos por derechos de autor como obra audiovisual/escenografía. Una réplica sustancialmente idéntica puede ser considerada obra derivada. Riesgo real si el objeto es prácticamente indistinguible.
+
+**Política de plataforma / revisión automática de Meta.**  
+Riesgo muy real aunque legalmente estés bien. Los sistemas automáticos y revisores humanos de Meta marcan por similitud visual, palabras clave y audio. Palabras como “snitch”, “Harry”, “Potter”, “Quidditch”, e incluso “la que no puede ser nombrada”, disparan rechazo inmediato. También marcan por “imitación de producto de marca”.
+
+**Cuál es el riesgo real aquí:** los tres se combinan, pero el que te tumba la cuenta hoy es la **política de Meta + marca registrada**. Aunque un juez tardara años, Meta puede rechazar el anuncio o limitar la cuenta en horas. Ese es el riesgo operativo inmediato.
+
+# 2) Palabras prohibidas
+
+No uses nunca, en ningún lado del activo publicitario, en el copy, nombre del producto, hashtags, nombre de archivo, descripción del video ni en el audio:
+
+* snitch, golden snitch, snichet, snitch dorada
+* Harry Potter, HP, Hogwarts, Quidditch, Nimbus, Gryffindor, Slytherin, Hufflepuff, Ravenclaw
+* “la que no puede ser nombrada”, “el deporte de las escobas”, “busca la snitch”
+* Cualquier variante con emojis que imite la marca: 🧹⚡🦉🪙 dorada
+
+Mantén el nombre de archivo neutro, por ejemplo: `esfera_colibri_v01.mp4`. Nada de “snitch”, “golden”, “harry”.
+
+# 3) Cómo rediseñar el objeto para que sea tuyo
+
+Objetivo: conservar “esfera metálica que vuela con alas de colibrí” y eliminar la asociación inequívoca con la snitch.
+
+**Dirección A — “Átomo Dorado”**  
+Cambia color a latón cepillado con un anillo de cobre en el ecuador. Grabado de circuito/constelación en lugar de líneas lisas. Alas en Mylar ámbar con nervaduras negras visibles. Proporción: esfera ligeramente achatada en polo a polo, 60/55 mm. Nombre: **Átomo Dorado**.  
+Pros: metálico premium, cero parecido.
+
+**Dirección B — “Colibrí Núcleo”**  
+Cuerpo en titanio mate gris grafito con una franja luminiscente azul petróleo. Grabado láser de un patrón de ondas. Alas en Mylar iridiscente azul verdoso. Proporción: esfera con pequeña “gota” en la parte inferior para contrapeso visible. Nombre: **Colibrí Núcleo**.  
+Pros: tecnológico, muy distinto al dorado brillante de la snitch.
+
+**Dirección C — “Lumen Orb”**  
+Cuerpo en latón oscuro envejecido con un motivo geométrico de hexágonos grabados. Alas en Mylar translúcido blanco humo con nervaduras de fibra de carbono expuestas. Proporción: esfera de 55 mm pero con una banda equatorial ancha de 4 mm que rompe la silueta. Nombre: **Lumen Orb**.  
+Pros: estética de taller, artesanal, diferenciación clara.
+
+**Mejor opción:** **Colibrí Núcleo**. Rompe color, material percibido y silueta. Es la que menos activa asociaciones con la snitch y refuerza tu historia técnica de biomímesis. Si quieres mantener el “dorado” por impacto visual, usa **Átomo Dorado** pero cambia grabado y proporción.
+
+Cambios mínimos recomendados ya: color no “dorado espejo”, añade una banda ecuatorial o pequeña protuberancia, alas no doradas translúcidas, grabado técnico en lugar de superficie lisa.
+
+# 4) Cómo contar el video sin apoyarse en la película
+
+Ganchos de 3 segundos, sin texto en pantalla obligatorio, solo imagen y sonido ambiente:
+
+1. **“Esto no es CGI. Está volando de verdad.”** Primer plano macro del bamboleo del cuerpo mientras las alas dejan dos arcos borrosos. Corte rápido a la mano que falla al atraparlo.
+2. **“29 gramos. 31 Hz. 11 minutos en el aire.”** Texto superpuesto minimalista con los números apareciendo al ritmo del batido. Cierra con la esfera flotando a la altura del pecho.
+3. **“Hicimos un colibrí mecánico… en forma de esfera.”** Plano del mecanismo dorado girando, luego match cut al vuelo estable. Enfatiza ingeniería, no fantasía.
+
+# 5) Qué sí puedes decir legalmente sin nombrar la marca, y dónde está la línea
+
+Puedes decir: “esfera voladora biomimética”, “drone colibrí de mesa”, “prototipo de vuelo estacionario”, “alas que baten 31 veces por segundo”, “diseñado y fabricado por nosotros”. Puedes hablar de inspiración biológica en colibríes reales y del Nano Hummingbird de AeroVironment como referencia técnica histórica.
+
+**Línea roja:** cualquier frase que evoque la snitch de Harry Potter, incluso por insinuación: “la bolita dorada que todos conocen”, “la buscas y no la atrapas”, “objeto volador de las películas”, “edición coleccionista estilo…”. Eso es uso de marca por referencia y Meta lo marca.
+
+Si dudas de una frase, no la uses. Cuando implique riesgo legal real, **consulta a un abogado de PI en México**. Yo no soy abogado.
+
+# 6) Qué hacer si de todas formas lo tumban
+
+Antes de publicar:
+
+* Crea un conjunto de anuncios de prueba con presupuesto bajo.
+* Sube el video sin palabras de riesgo, nombre de archivo neutro, y sin música con derechos.
+* Activa autenticación en dos pasos y mantén la cuenta Business verificada.
+
+Si te rechazan:
+
+1. Revisa el motivo exacto en “Centro de protección de la marca” de Meta.
+2. Apela con una explicación corta y técnica: “Es un prototipo propio de ingeniería biomimética. No usamos marcas de terceros. El objeto es original y no hace referencia a ninguna obra protegida.” Añade fotos del proceso y planos.
+3. Si insisten, cambia el thumbnail, renombra el archivo y el conjunto, y vuelve a enviar.
+4. Para proteger la cuenta: no apeles repetidamente el mismo activo idéntico; varía el creativo, mantén historial limpio y evita palabras de riesgo en el nivel de campaña.
+
+Nota legal rápida: esto es orientación práctica de marketing y plataforma, no asesoría legal. Para certeza sobre derechos de autor y marcas en México y EE. UU., valida con un abogado de propiedad intelectual antes de escalar inversión.
+
+¿Quieres que te proponga textos de anuncio y 3 variantes de copy para cada dirección de diseño, listos para pautar?
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-gTWB3uVuQylcP5zMQOXPW8
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_snitch_20261105/lote.json --tokens 4500
+Duración: 5.2 min  (código 0)
+  glimmer (ap-gTWB3uVuQylcP5zMQOXPW8): $0.217
+Gasto del trabajo: $0.217
+Saldo restante ≈ $-11.24

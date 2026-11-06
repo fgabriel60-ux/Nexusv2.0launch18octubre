@@ -1,0 +1,6 @@
+[  0.0-  5.0s] Tu casa de playa tiene fechas vacías y la plataforma te cobra comisión.
+[  5.0- 11.0s] Soy Carlos de Nexus. Hacemos videos con inteligencia artificial a partir de las fotos reales de tu propiedad
+[ 11.0- 16.0s] para que consigas reservaciones directas por WhatsApp sin pagar comisión.
+[ 16.0- 20.0s] Antes de lanzarlo, calificamos cada video con la inteligencia artificial de meta.
+[ 20.0- 27.0s] A José le pasó de 80 mensajes sin ventas a 3 visitas de 4 mensajes.
+[ 27.0- 32.0s] Mándame la palabra Villa por WhatsApp y te digo si tu propiedad califica.

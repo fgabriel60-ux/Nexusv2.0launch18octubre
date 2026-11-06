@@ -1,0 +1,72 @@
+===== JOSE_v9f
+CALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 7/10 · Oferta 6/10 · Confianza 5/10 · Claridad 7/10 · Calidad visual 6/10 · Políticas de Meta 8/10 · Mensajes baratos 7/10 · Mensajes calificados 6/10
+POR QUÉ FUNCIONA:
+- 0.5s-5.0s: “¿Se te filtra el agua cuando llueve? En Grupo JR lo resolvemos.” pregunta de dolor directa que identifica al público con problema de lluvias en Puebla y abre el interés.
+- 5.9s-8.6s: aparece “Desde $150 por m² WhatsApp 221 573 3127” junto a “Usamos poliuretano acrílico de 12 años + primario fibratado elástico.” da precio de referencia y material en segundos clave.
+- 10.5s-13.2s: “Primero el primario, para una base sólida.” y “Luego la protección continua, sin uniones.” explica el proceso en 2 pasos simples y comprensibles.
+- 20.5s-23.2s: “Mándanos fotos de tu azotea por WhatsApp y te cotizamos hoy.” + “Fotos + zona para cotizar” pide una acción concreta que califica al que escribe.
+QUÉ LO FRENA:
+- 0.5s-5.0s: misma escena y misma frase se repiten en 0.5s, 1.4s, 2.3s, 3.2s, 4.1s, 5.0s sin cambio de plano. Arreglo viable: animar con MiniMax H3 un push-in/dolly sobre el charco y el personaje entre 0.5s y 5.0s manteniendo primer y último cuadro fijados y recortar repeticiones con ffmpeg.
+- 24.1s-26.8s: cierre en pantalla azul estática con “Desde $150 por m² Sellador + 2 capas 10% de descuento en más de 100 m²”. Sin prueba visual. Arreglo viable: sustituir por clip real del cliente de azotea terminada en blanco con cámara lenta y mantener texto en capa externa.
+- 7.7s-8.6s: los botes de producto muestran texto interno generado. Arreglo viable: limpiar textos internos con Qwen-Image-Edit a partir de foto real de producto y poner nombre en capa de texto externa.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10 con los ajustes.
+
+===== VICTOR_v7
+CALIFICACIÓN TOTAL: 7/10
+NOTAS: Gancho 6/10 · Oferta 7/10 · Confianza 7/10 · Claridad 8/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 8/10
+POR QUÉ FUNCIONA:
+- 0.4s-1.8s: grupo en círculo con texto “¿ERES CONSTRUCTORA O DESARROLLADOR?” y tarjeta “SOLO EMPRESAS - NO ES VACANTE” filtra empleo y habla directo al decisor.
+- 2.6s-4.8s: operaria quitando cemento con cuchara, subtítulo “En Servilin hacemos limpieza de obra fina para empresas” muestra el servicio post-obra en contexto real.
+- 6.3s-8.5s: retiro de polvo con escoba de goma, subtítulo “Retiramos polvo, cemento y restos de pintura” enumera dolores concretos del cliente.
+- 9.2s-11.4s: limpieza de ventanas con espuma, subtítulo “Limpiamos ventanas y pisos con personal uniformado” genera confianza visual.
+- 14.4s-18.1s: escena de entrega con asesor y personal con tablets, subtítulo “Tu obra lista para entregar solicita una propuesta por WhatsApp” + WhatsApp 56 3634 1441 y “Tipo de inmueble + m²” deja CTA claro y calificable.
+QUÉ LO FRENA:
+- 0.0s-5.8s: la voz en la transcripción dice “Cervilín” y la tarjeta dice “SERVILIN”. Incoherencia de marca. Arreglo viable: regrabar la frase con voz clonada Fish Audio con guion exacto “Servilin” y mantener texto en capa.
+- 0.4s-1.8s y 12.9s-13.7s: gancho y retorno al grupo sin contexto de obra, aspecto generado. Arreglo viable: reemplazar con toma real del cliente de recorrido post-obra con celular y animar con MiniMax H3 push-in con primer y último cuadro fijados.
+- 12.9s-13.7s: corte brusco de vuelta al grupo rompe ritmo. Arreglo viable: editar con ffmpeg corte al ritmo con whoosh y transición de desenfoque para mantener continuidad.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+
+===== FERNANDO_v7
+CALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 5/10 · Oferta 8/10 · Confianza 5/10 · Claridad 7/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 5/10 · Mensajes calificados 7/10
+POR QUÉ FUNCIONA:
+- 6.7s-11.2s: muestra “1# REGISTRA CADA VENTA AL MOMENTO” con interfaz y lector de códigos, beneficio tangible inmediato que invita a preguntar.
+- 12.6s-18.6s: “2# INVENTARIO POR PIEZAS, GRAMOS O VASOS” + “de helado control”, habla a un dolor específico de negocios con peso/vasos.
+- 23.5s-30.7s: “aproximadamente 40 minutos debes tener ya funcionando el programa” comunica velocidad de implementación.
+- 34.6s-40.1s: “primero lo tienes funcionando después pagas 3.500 pesos más impuestos por un año” reduce riesgo y deja precio claro.
+- 40.1s-44.4s: cierre “escríbeme por whatsapp y lo vemos hoy” con ANEGOCIOS, ESCRÍBEME POR WHATSAPP 55 4358 3070 y $3,500 MXN + IMPUESTOS · 1 AÑO, CTA directo a mensaje.
+QUÉ LO FRENA:
+- 0.2s-6.5s: gancho genérico “te doy la bienvenida a mi taller 100% práctico del punto de venta en la nube”. Arreglo viable: re-clonar voz con guion de dolor al inicio manteniendo el mismo plano y cambiar texto en capa a “¿Controlas tu negocio con libreta?” y recortar con ffmpeg a 15-35 s.
+- 0.7s-6.7s y 24.5s-30.5s: plano fijo del asesor se vuelve repetitivo. Arreglo viable: animar los cuadros del asesor con MiniMax H3 push-in/dolly de ~5 s y añadir whoosh y punch-in con ffmpeg para dinamismo sin nueva grabación.
+- Duración total 44.6s supera el rango óptimo 15-35 s para mensajes. Arreglo viable: editar con ffmpeg eliminando repeticiones de UI y manteniendo 1 ejemplo por paso, dejando gancho, 3 beneficios, riesgo invertido y CTA.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10.
+
+===== LISBETH_v9
+CALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 6/10 · Oferta 7/10 · Confianza 7/10 · Claridad 7/10 · Calidad visual 6/10 · Políticas de Meta 8/10 · Mensajes baratos 6/10 · Mensajes calificados 5/10
+POR QUÉ FUNCIONA:
+- 4.5s “Así empieza tu patrimonio” sobre plano aéreo de terreno en Tomatlán, Jalisco, genera identificación patrimonial inmediata.
+- 6.6-13.2s “Terrenos desde 300 metros cuadrados con vista a las montañas a 20 minutos de la playa” da especificación concreta de producto y ubicación.
+- 21.2-23.7s “La zona ya se está poblando” con cerca y casas en el encuadre refuerza prueba social visual.
+- 31.0-35.5s “Todo con documentos en regla para que inviertas con tranquilidad” baja fricción de confianza.
+QUÉ LO FRENA:
+- 0.0-4.5s el gancho promete “Míralo desde arriba” pero los primeros cuadros 0.6s, 1.9s, 3.2s muestran a la presentadora en carretera y el aéreo llega en 4.5s. Arreglo viable: recortar con ffmpeg y abrir con animación MiniMax push-in de un plano aéreo real del terreno a 0.0s, manteniendo la voz clonada.
+- 35.5-38.7s CTA “Ven a conocerlo y escríbeme por WhatsApp” es genérico y no califica. Arreglo viable: re-clonar la voz con Fish Audio cambiando el texto a “Si buscas terreno desde 300 m² en Tomatlán, escríbeme por WhatsApp” y añadir en capa de texto la misma frase, sin inventar datos.
+- Duración 38.8s supera el rango recomendado 15-35s y hay repeticiones de planos 7.1s/8.4s, 9.7s/11.0s/12.3s, 13.6s/14.9s/16.2s/17.5s. Arreglo viable: edición con ffmpeg eliminando duplicados y ajustando ritmo para quedar ≤35s.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10 con los cambios.
+
+===== BLANCA_v3
+CALIFICACIÓN TOTAL: 5/10
+NOTAS: Gancho 7/10 · Oferta 4/10 · Confianza 5/10 · Claridad 4/10 · Calidad visual 6/10 · Políticas de Meta 6/10 · Mensajes baratos 7/10 · Mensajes calificados 3/10
+POR QUÉ FUNCIONA:
+- 0.0-5.5s “Mamá, papá, ¿te preocupa que tu hijo no hable claro, que se le trabe la lengua o que no lo entiendan?” habla directo al dolor de los padres y genera identificación inmediata.
+- 8.3s-12.7s tarjetas “ARTICULACIÓN RETRASO EN EL HABLA” con plano de juguete boca y set real, muestra enfoque lúdico sin prometer resultados.
+- 16.2s-17.9s niño con tablero de juego y material “AUTISMO • NIÑOS SORDOS DESDE 1 AÑO HASTA ADULTOS”, prueba visual de trabajo con niños y rango de edad.
+- 18.8s-22.3s regreso a terapeuta con tarjeta “AGENDA LA VALORACIÓN DE TU HIJO” y cierre con logo Hablar…Hablando Blanca Cruz Solís 23.1s-25.8s, CTA claro a WhatsApp.
+QUÉ LO FRENA:
+- 5.5-8.0s audio dice “Soy Bianca Cruz” pero el logo final 23.1s-25.8s muestra “BLANCA CRUZ SOLÍS”. Arreglo viable: regrabar voz clonada con guion exacto “Soy Blanca Cruz Solís, terapeuta del lenguaje” y mantener texto en capa.
+- 18.7-22.5s audio dice “ajena la valoración” mientras en pantalla 19.6s-22.3s aparece “AGENDA LA VALORACIÓN DE TU HIJO”. Arreglo viable: corregir guion de voz clonada a “escríbeme por WhatsApp y agenda la valoración de tu hijo” y sincronizar labios con MiniMax H3.
+- 8.0-15.5s la oferta enumera servicios sin filtro de compra. Arreglo viable: añadir en capa de texto una pregunta calificadora breve junto al CTA, por ejemplo “¿Tu hijo tiene entre 1 año y adultos?” sin inventar precios ni garantías.
+VEREDICTO: «Subir con cambios», calificación proyectada 7.5/10
+

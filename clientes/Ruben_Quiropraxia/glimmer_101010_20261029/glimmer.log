@@ -1,0 +1,335 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-YWn75F9IH0fVGlvaXSmAbr
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:02<1:09:36,  2.91s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:04<53:15,  2.23s/it]  
+[1ALoading weights:   0%|          | 4/1436 [00:04<22:03,  1.08it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:05<12:33,  1.90it/s]
+[1ALoading weights:   1%|          | 14/1436 [00:05<03:39,  6.49it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:05<03:32,  6.67it/s]
+[1ALoading weights:   2%|▏         | 26/1436 [00:05<01:46, 13.28it/s]
+[1ALoading weights:   2%|▏         | 30/1436 [00:06<01:56, 12.03it/s]
+[1ALoading weights:   3%|▎         | 39/1436 [00:06<01:20, 17.39it/s]
+[1ALoading weights:   3%|▎         | 43/1436 [00:06<01:24, 16.56it/s]
+[1ALoading weights:   3%|▎         | 50/1436 [00:06<01:11, 19.33it/s]
+[1ALoading weights:   4%|▎         | 53/1436 [00:07<01:08, 20.33it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:07<01:10, 19.54it/s]
+[1ALoading weights:   4%|▍         | 63/1436 [00:07<01:00, 22.80it/s]
+[1ALoading weights:   5%|▍         | 66/1436 [00:07<01:13, 18.60it/s]
+[1ALoading weights:   5%|▌         | 73/1436 [00:07<00:54, 25.18it/s]
+[1ALoading weights:   5%|▌         | 77/1436 [00:08<01:16, 17.84it/s]
+[1ALoading weights:   6%|▌         | 83/1436 [00:08<00:58, 23.07it/s]
+[1ALoading weights:   6%|▌         | 88/1436 [00:08<00:51, 26.13it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:08<01:09, 19.42it/s]
+[1ALoading weights:   7%|▋         | 97/1436 [00:09<00:56, 23.91it/s]
+[1ALoading weights:   7%|▋         | 101/1436 [00:09<01:22, 16.27it/s]
+[1ALoading weights:   8%|▊         | 110/1436 [00:09<00:52, 25.42it/s]
+[1ALoading weights:   8%|▊         | 115/1436 [00:10<01:11, 18.46it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:10<00:54, 24.28it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [00:10<01:08, 18.97it/s]
+[1ALoading weights:   9%|▉         | 133/1436 [00:10<00:57, 22.54it/s]
+[1ALoading weights:  10%|▉         | 137/1436 [00:11<01:19, 16.36it/s]
+[1ALoading weights:  10%|█         | 146/1436 [00:11<00:53, 24.16it/s]
+[1ALoading weights:  10%|█         | 150/1436 [00:11<01:15, 17.02it/s]
+[1ALoading weights:  11%|█         | 155/1436 [00:12<01:02, 20.57it/s]
+[1ALoading weights:  11%|█         | 160/1436 [00:12<00:53, 23.91it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:12<01:07, 18.87it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:12<00:52, 24.11it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:13<01:04, 19.56it/s]
+[1ALoading weights:  13%|█▎        | 182/1436 [00:13<00:50, 25.04it/s]
+[1ALoading weights:  13%|█▎        | 186/1436 [00:13<01:09, 17.88it/s]
+[1ALoading weights:  14%|█▎        | 194/1436 [00:13<00:49, 24.96it/s]
+[1ALoading weights:  14%|█▍        | 198/1436 [00:14<01:07, 18.29it/s]
+[1ALoading weights:  14%|█▍        | 203/1436 [00:14<00:56, 21.71it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:14<00:52, 23.51it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:14<01:02, 19.47it/s]
+[1ALoading weights:  15%|█▌        | 217/1436 [00:14<01:03, 19.23it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:15<01:02, 19.61it/s]
+[1ALoading weights:  16%|█▌        | 223/1436 [00:15<01:06, 18.37it/s]
+[1ALoading weights:  16%|█▌        | 231/1436 [00:15<00:43, 27.91it/s]
+[1ALoading weights:  16%|█▋        | 235/1436 [00:15<01:06, 17.96it/s]
+[1ALoading weights:  17%|█▋        | 240/1436 [00:16<00:54, 22.11it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:16<00:53, 22.09it/s]
+[1ALoading weights:  17%|█▋        | 247/1436 [00:16<01:13, 16.15it/s]
+[1ALoading weights:  18%|█▊        | 253/1436 [00:16<00:53, 22.17it/s]
+[1ALoading weights:  18%|█▊        | 257/1436 [00:17<01:21, 14.50it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:17<00:53, 21.89it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:17<01:04, 17.92it/s]
+[1ALoading weights:  19%|█▉        | 278/1436 [00:18<01:00, 19.25it/s]
+[1ALoading weights:  20%|█▉        | 281/1436 [00:18<00:58, 19.87it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:18<01:03, 18.07it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:18<01:01, 18.46it/s]
+[1ALoading weights:  21%|██        | 295/1436 [00:19<01:01, 18.61it/s]
+[1ALoading weights:  21%|██        | 301/1436 [00:19<00:47, 23.75it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:19<00:46, 24.53it/s]
+[1ALoading weights:  21%|██▏       | 307/1436 [00:19<01:02, 18.06it/s]
+[1ALoading weights:  22%|██▏       | 313/1436 [00:19<00:45, 24.69it/s]
+[1ALoading weights:  22%|██▏       | 317/1436 [00:20<01:08, 16.45it/s]
+[1ALoading weights:  23%|██▎       | 328/1436 [00:20<00:43, 25.73it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:20<00:53, 20.72it/s]
+[1ALoading weights:  24%|██▎       | 338/1436 [00:20<00:42, 25.74it/s]
+[1ALoading weights:  24%|██▍       | 342/1436 [00:21<01:01, 17.90it/s]
+[1ALoading weights:  24%|██▍       | 347/1436 [00:21<00:51, 21.17it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:21<00:43, 25.06it/s]
+[1ALoading weights:  25%|██▍       | 356/1436 [00:21<00:55, 19.61it/s]
+[1ALoading weights:  25%|██▌       | 362/1436 [00:21<00:42, 25.30it/s]
+[1ALoading weights:  25%|██▌       | 366/1436 [00:22<01:01, 17.28it/s]
+[1ALoading weights:  26%|██▌       | 371/1436 [00:22<00:51, 20.70it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:22<00:42, 25.01it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:22<00:52, 20.23it/s]
+[1ALoading weights:  27%|██▋       | 386/1436 [00:23<00:42, 24.99it/s]
+[1ALoading weights:  27%|██▋       | 390/1436 [00:23<00:57, 18.31it/s]
+[1ALoading weights:  28%|██▊       | 397/1436 [00:23<00:41, 24.85it/s]
+[1ALoading weights:  28%|██▊       | 401/1436 [00:23<00:48, 21.54it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:24<00:50, 20.33it/s]
+[1ALoading weights:  28%|██▊       | 408/1436 [00:24<00:43, 23.47it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:24<00:41, 24.66it/s]
+[1ALoading weights:  29%|██▉       | 415/1436 [00:24<00:58, 17.45it/s]
+[1ALoading weights:  29%|██▉       | 421/1436 [00:24<00:52, 19.23it/s]
+[1ALoading weights:  30%|██▉       | 425/1436 [00:25<00:58, 17.29it/s]
+[1ALoading weights:  30%|███       | 432/1436 [00:25<00:41, 24.24it/s]
+[1ALoading weights:  30%|███       | 436/1436 [00:25<00:38, 26.17it/s]
+[1ALoading weights:  31%|███       | 440/1436 [00:25<00:50, 19.64it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:25<00:38, 25.66it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:26<00:46, 21.16it/s]
+[1ALoading weights:  32%|███▏      | 457/1436 [00:26<00:38, 25.50it/s]
+[1ALoading weights:  32%|███▏      | 461/1436 [00:26<00:45, 21.20it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:26<00:48, 20.04it/s]
+[1ALoading weights:  33%|███▎      | 470/1436 [00:26<00:36, 26.48it/s]
+[1ALoading weights:  33%|███▎      | 474/1436 [00:27<00:54, 17.65it/s]
+[1ALoading weights:  34%|███▎      | 482/1436 [00:27<00:36, 25.85it/s]
+[1ALoading weights:  34%|███▍      | 486/1436 [00:27<00:51, 18.50it/s]
+[1ALoading weights:  34%|███▍      | 493/1436 [00:27<00:37, 25.24it/s]
+[1ALoading weights:  35%|███▍      | 498/1436 [00:28<00:50, 18.44it/s]
+[1ALoading weights:  35%|███▌      | 506/1436 [00:28<00:36, 25.73it/s]
+[1ALoading weights:  36%|███▌      | 511/1436 [00:28<00:48, 19.13it/s]
+[1ALoading weights:  36%|███▌      | 518/1436 [00:29<00:36, 24.98it/s]
+[1ALoading weights:  36%|███▋      | 523/1436 [00:29<00:48, 18.72it/s]
+[1ALoading weights:  37%|███▋      | 529/1436 [00:29<00:42, 21.25it/s]
+[1ALoading weights:  37%|███▋      | 533/1436 [00:29<00:40, 22.43it/s]
+[1ALoading weights:  37%|███▋      | 537/1436 [00:30<00:40, 22.14it/s]
+[1ALoading weights:  38%|███▊      | 543/1436 [00:30<00:31, 28.16it/s]
+[1ALoading weights:  38%|███▊      | 547/1436 [00:30<00:45, 19.48it/s]
+[1ALoading weights:  39%|███▊      | 554/1436 [00:30<00:32, 26.86it/s]
+[1ALoading weights:  39%|███▉      | 559/1436 [00:31<00:46, 18.71it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:31<00:35, 24.65it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:31<00:42, 20.15it/s]
+[1ALoading weights:  40%|████      | 579/1436 [00:31<00:32, 26.61it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:32<00:42, 19.99it/s]
+[1ALoading weights:  41%|████      | 589/1436 [00:32<00:42, 19.85it/s]
+[1ALoading weights:  41%|████      | 592/1436 [00:32<00:42, 19.88it/s]
+[1ALoading weights:  41%|████▏     | 595/1436 [00:32<00:43, 19.36it/s]
+[1ALoading weights:  42%|████▏     | 599/1436 [00:32<00:36, 22.69it/s]
+[1ALoading weights:  42%|████▏     | 604/1436 [00:33<00:31, 26.04it/s]
+[1ALoading weights:  42%|████▏     | 608/1436 [00:33<00:41, 20.16it/s]
+[1ALoading weights:  43%|████▎     | 611/1436 [00:33<00:40, 20.53it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:33<00:32, 25.57it/s]
+[1ALoading weights:  43%|████▎     | 620/1436 [00:33<00:41, 19.80it/s]
+[1ALoading weights:  44%|████▍     | 629/1436 [00:34<00:25, 31.40it/s]
+[1ALoading weights:  46%|████▌     | 655/1436 [00:34<00:10, 72.28it/s]
+[1ALoading weights:  48%|████▊     | 685/1436 [00:34<00:06, 117.87it/s]
+[1ALoading weights:  49%|████▉     | 706/1436 [00:34<00:05, 135.02it/s]
+[1ALoading weights:  51%|█████▏    | 738/1436 [00:34<00:03, 176.81it/s]
+[1ALoading weights:  54%|█████▍    | 779/1436 [00:34<00:02, 229.13it/s]
+[1ALoading weights:  57%|█████▋    | 816/1436 [00:34<00:02, 261.79it/s]
+[1ALoading weights:  60%|█████▉    | 859/1436 [00:34<00:01, 294.85it/s]
+[1ALoading weights:  62%|██████▏   | 896/1436 [00:34<00:01, 311.17it/s]
+[1ALoading weights:  65%|██████▍   | 929/1436 [00:35<00:01, 296.94it/s]
+[1ALoading weights:  68%|██████▊   | 978/1436 [00:35<00:01, 332.79it/s]
+[1ALoading weights:  71%|███████▏  | 1024/1436 [00:35<00:01, 350.72it/s]
+[1ALoading weights:  74%|███████▍  | 1065/1436 [00:35<00:01, 360.89it/s]
+[1ALoading weights:  77%|███████▋  | 1103/1436 [00:35<00:00, 361.40it/s]
+[1ALoading weights:  80%|███████▉  | 1146/1436 [00:35<00:00, 379.34it/s]
+[1ALoading weights:  83%|████████▎ | 1185/1436 [00:35<00:00, 366.02it/s]
+[1ALoading weights:  85%|████████▌ | 1222/1436 [00:35<00:00, 352.27it/s]
+[1ALoading weights:  88%|████████▊ | 1263/1436 [00:35<00:00, 366.09it/s]
+[1ALoading weights:  91%|█████████ | 1304/1436 [00:36<00:00, 376.46it/s]
+[1ALoading weights:  93%|█████████▎| 1342/1436 [00:36<00:00, 364.92it/s]
+[1ALoading weights:  96%|█████████▌| 1379/1436 [00:36<00:00, 360.06it/s]
+[1ALoading weights:  99%|█████████▉| 1425/1436 [00:36<00:00, 384.51it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:36<00:00, 39.50it/s] 
+[transformers] Both `max_new_tokens` (=6000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## RUBEN_101010
+ to=selfEres estratega de anuncios de Meta... Da SOLO la respuesta final, en español, sin mostrar tu razonamiento.
+
+We need deliver exactly:
+1) Qué tomar de la referencia y de sus mejores TikToks (qué copiar y qué NO).
+2) 3 ganchos de 0-3 s; elige el mejor y di por qué.
+3) Guion completo palabra por palabra para voz de Rubén.
+4) Escenas: tabla con #, segundos, qué se ve (qué cuadro real de sus TikToks usar o qué escena generar), texto en pantalla exacto, voz.
+5) CTA y 2-3 preguntas de precalificación para WhatsApp.
+6) Qué NO decir: Meta rechaza promesas... dime cómo expresar sus resultados con claridad sin violar políticas.
+7) Calificación honesta en Confianza, Claridad y Mensajes calificados (x/10 cada uno) y qué faltaría para 10/10/10 (qué material pedirle a Rubén).
+8) Además: 3 ideas más de escenas con IA de bajo riesgo de deformación (sin manos complejas sobre cuello) con el prompt de imagen sugerido.
+
+Must be in Spanish. Provide final answer.
+
+We need ensure compliance with Meta policies. No medical claims. Use careful language.
+
+We need to reference images: 1) reference chiropractor young with blue scrubs. 2-4) Rubén videos.
+
+We need to design video 25-35s.
+
+Provide table.
+
+Let's craft.
+
+1) Qué tomar de referencia y TikToks: copiar formato hablando a cámara + close atención + subtítulos grandes, ritmo rápido, texto en pantalla. No copiar promesas de curar, no usar "quiropráctico" maybe? He is alphabiotista. Reference uses "Lo que no sabes sobre tu QUIROPRÁCTICO". We can adapt. Don't copy young aesthetic, don't use before/after dramatic. Don't use "tronamos huesos". etc.
+
+2) 3 ganchos:
+- "Te dijeron que es Parkinson y no es..."
+- "Llegó con andadera y hoy da pasos sin ayuda"
+- "Aquí no damos masaje ni tronamos huesos"
+Choose best: third? Maybe first is strong but risky. Better choose "Aquí no damos masaje ni tronamos huesos. Esto es Alineación Alphabiótica". Because builds curiosity and differentiates. Or choose "Si tienes dolor de cuello, espalda o ciática y el estrés te pesa..." Hmm.
+
+Pick best: "Aquí no damos masaje ni tronamos huesos. Esto es Alineación Alphabiótica." Because aligns with his claim and builds trust, low policy risk.
+
+3) Guion completo palabra por palabra.
+
+Need 25-35s. Approx 70-90 words.
+
+Let's craft script:
+
+"Hola, soy Rubén, en Zinacantepec y Metepec. Aquí no damos masaje ni tronamos huesos. Hacemos Alineación Alphabiótica: una tracción suave y puntos específicos para liberar la columna. Mucha gente llega con dolor de cuello, espalda, ciática, adormecimiento o mucho estrés. Los cambios se sienten desde la primera sesión. Sesión $300. Escríbeme por WhatsApp y te explico cómo te puedo ayudar."
+
+That's about 30 sec.
+
+4) Escenas table.
+
+Need # , segundos, qué se ve, texto en pantalla exacto, voz.
+
+We have 25-35s. Let's do 30s.
+
+Scene 1: 0-3s hook. Use generated image of Rubén hablando a cámara, similar to reference but with his face from TikTok. Use Qwen-Image-Edit from real frame of Rubén in yellow shirt? Actually reference is blue scrubs. Rubén wears black shirt. Use real frame. Maybe generate him looking to camera in consultorio blue wall. Text on screen: "Aquí no damos masaje ni tronamos huesos". Voice: "Hola, soy Rubén, en Zinacantepec y Metepec. Aquí no damos masaje ni tronamos huesos."
+
+Scene 2: 3-8s. Real clip from TikTok 2? Show patient with walker? Use real frame of man in yellow shirt with walker. Text: "Alineación Alphabiótica". Voice: "Hacemos Alineación Alphabiótica: tracción suave y puntos específicos para liberar la columna."
+
+Scene 3: 8-14s. Real clip of attention: Rubén hands on patient's neck? Might be risky deformation. Use real frame from video 2 where he holds patient's head? Could use real frame from image 2 bottom middle: man lying on purple table, Rubén hands on head. Text: "Para dolor de cuello, espalda, ciática, adormecimiento y estrés". Voice: "Mucha gente llega con dolor de cuello, espalda, ciática, adormecimiento o mucho estrés."
+
+Scene 4: 14-20s. Real clip of patient walking with walker improving. Use frame from image 3 top middle. Text: "Los cambios se sienten desde la primera sesión". Voice: "Los cambios se sienten desde la primera sesión."
+
+Scene 5: 20-26s. Generated scene of Rubén hablando a cámara close, with price card. Text: "Sesión $300 • Zinacantepec / Metepec". Voice: "Sesión $300. Escríbeme por WhatsApp y te explico cómo te puedo ayudar."
+
+Scene 6: 26-30s. CTA screen with WhatsApp button. Text: "Manda mensaje ahora". Voice: "Te espero."
+
+Need ensure table columns.
+
+5) CTA y 2-3 preguntas de precalificación para WhatsApp.
+
+CTA: "Toca 'Enviar mensaje' y escribe..." Prequalification questions: ¿Qué zona te duele más? ¿Cuánto tiempo llevas con el malestar? ¿Vives en Zinacantepec, Metepec o Toluca? Or age? Maybe "¿Puedes venir esta semana?".
+
+6) Qué NO decir: No decir curar Parkinson, hernias, etc. Use "mejora", "alivio", "bienestar", "se siente". No before/after. Use testimonios descriptivos sin diagnóstico.
+
+7) Calificación honesta: Confianza 7/10, Claridad 8/10, Mensajes calificados 6/10. Faltaría... Need material: foto de consultorio, credenciales, etc.
+
+8) 3 ideas más de escenas con IA bajo riesgo: e.g., Rubén sentado en escritorio con diplomas al fondo, etc. Provide prompt.
+
+We must deliver exactly sections 1-8.
+
+Make sure no reasoning shown.
+
+Provide final answer in Spanish.
+
+Let's produce structured output.
+
+Ensure table format readable.
+
+Maybe use markdown table.
+
+Let's craft final.
+
+Potential improvements: Use reference style: speaking to camera, quick cuts, subtitles.
+
+Don't copy reference's "Lo que no sabes sobre tu QUIROPRÁCTICO". Could adapt.
+
+Make sure not to promise cure.
+
+Ok.
+
+Let's output.assistant to=user**1) Qué tomar de la referencia y de sus mejores TikToks. Qué copiar y qué NO**
+
+Copiar de la referencia: formato hablando a cámara 0-3s + cortes rápidos a atención al paciente, subtítulos grandes palabra por palabra, ritmo 1 corte/2-3s, texto en pantalla que refuerza la voz, estética limpia de consultorio, cierre con precio y WhatsApp.
+
+Copiar de sus TikToks: su voz real clonada, su ropa negra, consultorio con pared azul y camilla morada, pacientes reales adultos mayores, el gancho “aquí no damos masaje ni tronamos huesos”, la frase “los cambios se sienten desde la primera sesión”, precio $300, ubicaciones Zinacantepec / Metepec.
+
+NO copiar: el look de quiropráctico joven en scrubs azul verdoso, el texto “Lo que no sabes sobre tu QUIROPRÁCTICO”, promesas de curar Parkinson/hernia, antes/después de salud, textos rojos tipo “NO / CAMBIAR” que Meta lee como diagnóstico, manos complejas sobre cuello generadas con IA.
+
+**2) 3 ganchos 0-3 s**
+
+1. “Te dijeron que es Parkinson y no es. Mira esto.”
+2. “Llegó con andadera y hoy da pasos sin ayuda.”
+3. “Aquí no damos masaje ni tronamos huesos. Esto es Alineación Alphabiótica.”
+
+Mejor: el 3. Diferencia el método en 3 segundos, baja objeción, no menciona enfermedad, genera curiosidad y encaja con su frase de marca. Es seguro para Meta y abre la explicación.
+
+**3) Guion completo palabra por palabra para voz de Rubén**
+
+“Hola, soy Rubén, en Zinacantepec y Metepec. Aquí no damos masaje ni tronamos huesos. Hacemos Alineación Alphabiótica: tracción suave y puntos específicos para liberar la columna. Mucha gente llega con dolor de cuello, espalda, ciática, adormecimiento o mucho estrés. Los cambios se sienten desde la primera sesión. Sesión trescientos pesos. Escríbeme por WhatsApp y te explico cómo te puedo ayudar.”
+
+**4) Escenas**
+
+| # | Seg | Qué se ve | Texto en pantalla exacto | Voz |
+|---|-----|-----------|--------------------------|-----|
+| 1 | 0-3 | Escena generada con Qwen-Image-Edit a partir de foto real de Rubén en consultorio azul. Primer plano hablando a cámara, push-in suave con MiniMax H3. | Aquí no damos masaje ni tronamos huesos | Hola, soy Rubén, en Zinacantepec y Metepec. Aquí no damos masaje ni tronamos huesos. |
+| 2 | 3-8 | Cuadro real de sus TikToks: hombre de camisa amarilla con andadera en pared azul. Corte rápido. | Alineación Alphabiótica | Hacemos Alineación Alphabiótica: tracción suave y puntos específicos para liberar la columna. |
+| 3 | 8-14 | Cuadro real de sus TikToks: paciente en camilla morada, Rubén con manos en zona cervical, plano medio. Sin zoom brusco. | Para dolor de cuello, espalda, ciática, adormecimiento y estrés | Mucha gente llega con dolor de cuello, espalda, ciática, adormecimiento o mucho estrés. |
+| 4 | 14-20 | Cuadro real de sus TikToks: mismo paciente de amarillo caminando con andadera, texto original “EN LAS MANOS QUIERO”. | Los cambios se sienten desde la primera sesión | Los cambios se sienten desde la primera sesión. |
+| 5 | 20-26 | Escena generada con Qwen-Image-Edit: Rubén sentado frente a estantería con cráneos, mirada a cámara. Tarjeta de precio en capa. | Sesión $300 • Zinacantepec / Metepec | Sesión trescientos pesos. Escríbeme por WhatsApp y te explico cómo te puedo ayudar. |
+| 6 | 26-30 | Pantalla final estática con logo y botón WhatsApp. | Manda mensaje ahora por WhatsApp 722 313 9882 | Te espero. |
+
+**5) CTA y precalificación WhatsApp**
+
+CTA en pantalla y voz final: “Toca Enviar mensaje y escribe HOLA. Te contesto hoy.”
+
+Preguntas de precalificación automáticas en el primer mensaje:
+1. ¿Qué zona te duele más? cuello / espalda / ciática / adormecimiento / estrés
+2. ¿Vives en Zinacantepec, Metepec o Toluca y puedes venir esta semana?
+3. ¿Es la primera vez que pruebas Alineación Alphabiótica?
+
+**6) Qué NO decir y cómo expresarlo sin violar políticas**
+
+NO decir: curar Parkinson, hernia, eliminar enfermedad, antes/después de salud, garantías de resultado, “cambiar” con texto rojo.
+
+Cómo sí decirlo: usar bienestar subjetivo y experiencia. Ejemplos permitidos:
+- “Los cambios se sienten desde la primera sesión” en lugar de “se cura”.
+- “Mucha gente llega con dolor de cuello, espalda, ciática, adormecimiento o estrés” en lugar de diagnóstico.
+- “Te ayudo a moverte con más comodidad” en lugar de “recuperas la movilidad”.
+- No mostrar comparativas de salud. Mostrar proceso y atención, no resultados médicos.
+
+**7) Calificación honesta**
+
+Confianza 7/10. Se ve real con sus pacientes y su voz, pero falta mostrar consultorio, credenciales y rostro estable sin deformación de IA.
+
+Claridad de la oferta 8/10. Método, precio $300, ubicaciones y WhatsApp están claros. Falta duración de sesión y horarios.
+
+Probabilidad de mensajes calificados 6/10. El gancho diferencia, pero el público frío no sabe qué esperar y el video no filtra zona/día.
+
+Para 10/10/10 faltaría: 1 foto real nítida de Rubén de frente en consultorio para generar escenas sin deformar rostro, 1 foto del interior del consultorio con señalética Zinacantepec/Metepec, 1 audio limpio de Rubén diciendo “Sesión trescientos pesos” y “WhatsApp 722 313 9882”, y un breve texto de consentimiento de los pacientes visibles.
+
+**8) 3 ideas de escenas con IA de bajo riesgo de deformación**
+
+1. Rubén sentado en escritorio con diplomas al fondo. Prompt Qwen-Image-Edit: “Foto real del mismo hombre de camisa negra, sentado de frente en escritorio de consultorio con pared azul y estantería con cráneos, iluminación suave de día, encuadre medio, sin texto.”
+2. Plano del consultorio vacío con camilla morada y pared azul. Prompt: “Interior real de consultorio de terapia con camilla morada, pared azul, estantería con plantas y cráneos, luz natural, sin personas, encuadre amplio.”
+3. Primer plano de manos de Rubén sobre toalla en camilla, sin rostro. Prompt: “Primer plano de manos masculinas adultas colocando toalla sobre camilla morada en consultorio con pared azul, iluminación suave, sin rostro.”
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-29T21:46:22+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-YWn75F9IH0fVGlvaXSmAbr
+
+== Reporte Modal fgabriel60 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote clientes/Ruben_Quiropraxia/glimmer_101010_20261029/lote.json --tokens 6000
+Duración: 5.8 min  (código 0)
+  glimmer (ap-QPF85kIN4POd3C4eHQ385B): $0.299
+  glimmer (ap-V1Be9k4ALa9ZqvBXbqZmYE): $0.017
+  glimmer (ap-YWn75F9IH0fVGlvaXSmAbr): $0.237
+Gasto del trabajo: $0.552
+Saldo restante ≈ $13.73

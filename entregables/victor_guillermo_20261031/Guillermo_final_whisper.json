@@ -1,0 +1,281 @@
+[
+  {
+    "text": " ¿Tu casa necesita zaguán? En Puebla, Proyectos Metálicos Vicens hace zaguanes a la medida.",
+    "start": 0.0,
+    "end": 4.4,
+    "words": [
+      {
+        "word": " ¿Tu",
+        "start": 0.0,
+        "end": 0.16,
+        "probability": 0.19385653920471668
+      },
+      {
+        "word": " casa",
+        "start": 0.16,
+        "end": 0.36,
+        "probability": 0.9885537624359131
+      },
+      {
+        "word": " necesita",
+        "start": 0.36,
+        "end": 0.72,
+        "probability": 0.9792214035987854
+      },
+      {
+        "word": " zaguán?",
+        "start": 0.72,
+        "end": 1.12,
+        "probability": 0.6172615572189292
+      },
+      {
+        "word": " En",
+        "start": 1.36,
+        "end": 1.5,
+        "probability": 0.9144443869590759
+      },
+      {
+        "word": " Puebla,",
+        "start": 1.5,
+        "end": 1.76,
+        "probability": 0.9912061889966329
+      },
+      {
+        "word": " Proyectos",
+        "start": 1.88,
+        "end": 2.26,
+        "probability": 0.792429526646932
+      },
+      {
+        "word": " Metálicos",
+        "start": 2.26,
+        "end": 2.66,
+        "probability": 0.978539913892746
+      },
+      {
+        "word": " Vicens",
+        "start": 2.66,
+        "end": 3.0,
+        "probability": 0.6732576936483383
+      },
+      {
+        "word": " hace",
+        "start": 3.0,
+        "end": 3.32,
+        "probability": 0.7429174780845642
+      },
+      {
+        "word": " zaguanes",
+        "start": 3.32,
+        "end": 3.72,
+        "probability": 0.818410336971283
+      },
+      {
+        "word": " a",
+        "start": 3.72,
+        "end": 3.88,
+        "probability": 0.9896551370620728
+      },
+      {
+        "word": " la",
+        "start": 3.88,
+        "end": 4.04,
+        "probability": 0.9904255270957947
+      },
+      {
+        "word": " medida.",
+        "start": 4.04,
+        "end": 4.4,
+        "probability": 0.995850682258606
+      }
+    ]
+  },
+  {
+    "text": " Cuidamos los detalles, desde el armado hasta el acabado. Más de quince años de experiencia.",
+    "start": 4.78,
+    "end": 9.32,
+    "words": [
+      {
+        "word": " Cuidamos",
+        "start": 4.78,
+        "end": 5.14,
+        "probability": 0.9803703228632609
+      },
+      {
+        "word": " los",
+        "start": 5.14,
+        "end": 5.36,
+        "probability": 0.9859713912010193
+      },
+      {
+        "word": " detalles,",
+        "start": 5.36,
+        "end": 5.74,
+        "probability": 0.9978554844856262
+      },
+      {
+        "word": " desde",
+        "start": 5.78,
+        "end": 6.0,
+        "probability": 0.9909679293632507
+      },
+      {
+        "word": " el",
+        "start": 6.0,
+        "end": 6.22,
+        "probability": 0.9680975675582886
+      },
+      {
+        "word": " armado",
+        "start": 6.22,
+        "end": 6.52,
+        "probability": 0.9802945852279663
+      },
+      {
+        "word": " hasta",
+        "start": 6.52,
+        "end": 6.7,
+        "probability": 0.9691999554634094
+      },
+      {
+        "word": " el",
+        "start": 6.7,
+        "end": 6.88,
+        "probability": 0.9826898574829102
+      },
+      {
+        "word": " acabado.",
+        "start": 6.88,
+        "end": 7.36,
+        "probability": 0.9991479218006134
+      },
+      {
+        "word": " Más",
+        "start": 7.86,
+        "end": 8.0,
+        "probability": 0.926624208688736
+      },
+      {
+        "word": " de",
+        "start": 8.0,
+        "end": 8.2,
+        "probability": 0.9982680082321167
+      },
+      {
+        "word": " quince",
+        "start": 8.2,
+        "end": 8.42,
+        "probability": 0.510465913452208
+      },
+      {
+        "word": " años",
+        "start": 8.42,
+        "end": 8.6,
+        "probability": 0.9976044297218323
+      },
+      {
+        "word": " de",
+        "start": 8.6,
+        "end": 8.86,
+        "probability": 0.9971023201942444
+      },
+      {
+        "word": " experiencia.",
+        "start": 8.86,
+        "end": 9.32,
+        "probability": 0.9942044615745544
+      }
+    ]
+  },
+  {
+    "text": " Mándanos por WhatsApp una foto, las medidas y tu colonia para cotizar tu zaguán.",
+    "start": 10.1,
+    "end": 13.94,
+    "words": [
+      {
+        "word": " Mándanos",
+        "start": 10.1,
+        "end": 10.34,
+        "probability": 0.9857389728228251
+      },
+      {
+        "word": " por",
+        "start": 10.34,
+        "end": 10.54,
+        "probability": 0.9713640809059143
+      },
+      {
+        "word": " WhatsApp",
+        "start": 10.54,
+        "end": 10.82,
+        "probability": 0.6107589602470398
+      },
+      {
+        "word": " una",
+        "start": 10.82,
+        "end": 11.04,
+        "probability": 0.9592800736427307
+      },
+      {
+        "word": " foto,",
+        "start": 11.04,
+        "end": 11.36,
+        "probability": 0.9992697834968567
+      },
+      {
+        "word": " las",
+        "start": 11.52,
+        "end": 11.6,
+        "probability": 0.9893550872802734
+      },
+      {
+        "word": " medidas",
+        "start": 11.6,
+        "end": 11.92,
+        "probability": 0.9946424961090088
+      },
+      {
+        "word": " y",
+        "start": 11.92,
+        "end": 12.12,
+        "probability": 0.8828452825546265
+      },
+      {
+        "word": " tu",
+        "start": 12.12,
+        "end": 12.34,
+        "probability": 0.023572836598532376
+      },
+      {
+        "word": " colonia",
+        "start": 12.34,
+        "end": 12.68,
+        "probability": 0.984834760427475
+      },
+      {
+        "word": " para",
+        "start": 12.68,
+        "end": 12.9,
+        "probability": 0.8947807550430298
+      },
+      {
+        "word": " cotizar",
+        "start": 12.9,
+        "end": 13.32,
+        "probability": 0.9857152700424194
+      },
+      {
+        "word": " tu",
+        "start": 13.32,
+        "end": 13.5,
+        "probability": 0.9910658001899719
+      },
+      {
+        "word": " zaguán.",
+        "start": 13.5,
+        "end": 13.94,
+        "probability": 0.9647864500681559
+      }
+    ]
+  }
+]

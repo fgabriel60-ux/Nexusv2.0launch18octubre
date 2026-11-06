@@ -1,0 +1,50 @@
+{
+ "carpeta": "rafael_byd_gancho_v1",
+ "salida": "clientes/Rafael_BYD/gancho_v1",
+ "semilla": 41,
+ "refs": {
+  "r": "clientes/Rafael_BYD/refs/rafael_cara.jpg",
+  "r2": "clientes/Rafael_BYD/refs/rafael_cara_auto.jpg",
+  "auto": "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
+ },
+ "cuadros": {
+  "R1_auto": [
+   [
+    "r",
+    "r2",
+    "auto"
+   ],
+   "Foto realista vertical 9:16, plano medio (de la cintura hacia arriba) tomado por otra persona con cámara profesional a la altura del pecho, dentro de una agencia de autos moderna con piso de porcelanato gris y techo blanco: el MISMO hombre de la primera imagen (cara redonda, cabello negro corto, polo azul marino con un pequeño logo verde en el pecho) de pie junto al frente de la MISMA camioneta de la tercera imagen (SUV eléctrica BLANCA BYD Song Plus, parrilla con barras horizontales, faros delgados), una mano apoyada sobre el cofre, mirando directo a la cámara con sonrisa amable. Luz suave de agencia, fondo ligeramente desenfocado, nítido.",
+   "texto, letras, logotipos inventados, marca de agua, cara distinta, persona duplicada, dos personas iguales, deforme, borroso, manos extra, dedos extra, caricatura, render 3D, imagen estirada, celular, selfie, brazo extendido, espejo, auto deformado, otra marca de auto, logotipo deformado"
+  ],
+  "R2_dentro": [
+   [
+    "r",
+    "r2",
+    "auto"
+   ],
+   "Foto realista vertical 9:16 tomada desde afuera por la puerta del conductor abierta: el MISMO hombre de la primera imagen (cara redonda, cabello negro corto, polo azul marino con un pequeño logo verde en el pecho) sentado al volante dentro de la MISMA camioneta de la tercera imagen (SUV eléctrica BLANCA BYD Song Plus, parrilla con barras horizontales, faros delgados), interior moderno con pantalla grande al centro, una mano en el volante, volteando a la cámara con sonrisa, en la agencia BYD. Cámara profesional, luz suave, nítido.",
+   "texto, letras, logotipos inventados, marca de agua, cara distinta, persona duplicada, dos personas iguales, deforme, borroso, manos extra, dedos extra, caricatura, render 3D, imagen estirada, celular, selfie, brazo extendido, espejo, auto deformado, otra marca de auto, logotipo deformado"
+  ]
+ },
+ "tomas": [
+  [
+   "KR1_auto",
+   "R1_auto",
+   "Vertical realistic medium shot in a modern car dealership. The man in the navy polo stands next to the white electric SUV with one hand on the hood and talks directly to the camera with a friendly confident expression and natural hand gesture, slow camera push-in. Lips synced to the speech. No text.",
+   5.5,
+   "R1"
+  ],
+  [
+   "KR2_dentro",
+   "R2_dentro",
+   "Vertical realistic shot through the open driver door. The man in the navy polo sits at the wheel of the white electric SUV, turns to the camera and talks with a friendly smile, small gesture inviting to message. Lips synced to the speech. No text.",
+   4.0,
+   "R2"
+  ]
+ ],
+ "voces": {
+  "R1": "clientes/Rafael_BYD/voz/R1.wav",
+  "R2": "clientes/Rafael_BYD/voz/R2.wav"
+ }
+}

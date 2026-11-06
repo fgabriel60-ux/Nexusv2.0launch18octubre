@@ -1,0 +1,77 @@
+[
+  {
+    "nombre": "VICTOR_obra_fina_v7",
+    "decode_ok": true,
+    "error": "",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "width": 720,
+          "height": 1280,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC"
+        }
+      ],
+      "format": {
+        "duration": "22.160000",
+        "size": "4866058"
+      }
+    }
+  },
+  {
+    "nombre": "MANUEL_XV_v20",
+    "decode_ok": true,
+    "error": "",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "width": 720,
+          "height": 1280,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC"
+        }
+      ],
+      "format": {
+        "duration": "25.800000",
+        "size": "8658426"
+      }
+    }
+  },
+  {
+    "nombre": "ADRIAN_hardcut_v2",
+    "decode_ok": true,
+    "error": "",
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "width": 720,
+          "height": 1280,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC"
+        }
+      ],
+      "format": {
+        "duration": "18.720000",
+        "size": "5481575"
+      }
+    }
+  }
+]

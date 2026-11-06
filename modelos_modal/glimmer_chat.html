@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Chat Glimmer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600&family=Figtree:wght@400;500&display=swap">
+<style>
+/* Layout: una sola columna tipo WhatsApp; encabezado fijo, mensajes, barra de escribir abajo */
+:root{
+  --bg:#f3f5f2; --panel:#ffffff; --fg:#17201b; --muted:#5f6b64; --line:#dde3de;
+  --yo:#d9efe1; --glim:#ffffff; --accent:#1f7a52; --warn:#9a5b00;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Figtree",ui-sans-serif,system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#101512; --panel:#18201b; --fg:#e6ece8; --muted:#97a39c; --line:#2a352e;
+  --yo:#1d3a2a; --glim:#1b241f; --accent:#4cc38a; --warn:#e0a548; color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);display:flex;flex-direction:column;
+  padding-top:env(safe-area-inset-top,0px)}
+header{display:flex;align-items:center;gap:12px;padding:12px max(16px,env(safe-area-inset-right,0px)) 12px max(16px,env(safe-area-inset-left,0px));
+  border-bottom:1px solid var(--line);background:var(--panel)}
+header h1{font:600 19px/1.1 var(--display);margin:0;letter-spacing:-.01em}
+#estado{font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:6px}
+#estado i{width:8px;height:8px;border-radius:50%;background:var(--muted);display:inline-block}
+#estado.listo i{background:var(--accent)} #estado.dormido i{background:var(--warn)}
+header .der{margin-left:auto;display:flex;gap:8px}
+button{font:500 14px var(--body);border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--fg);padding:8px 12px;cursor:pointer}
+button:focus-visible,textarea:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button.prim{background:var(--accent);border-color:var(--accent);color:#fff}
+button:disabled{opacity:.5;cursor:default}
+main{flex:1;overflow-y:auto;padding:16px max(16px,env(safe-area-inset-right,0px)) 16px max(16px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:10px}
+.m{max-width:min(680px,88%);padding:10px 13px;border-radius:14px;white-space:pre-wrap;word-wrap:break-word;min-width:0}
+.m.yo{align-self:flex-end;background:var(--yo);border-bottom-right-radius:4px}
+.m.glim{align-self:flex-start;background:var(--glim);border:1px solid var(--line);border-bottom-left-radius:4px}
+.m .meta{display:block;font-size:11.5px;color:var(--muted);margin-top:4px}
+.m img{max-width:140px;border-radius:8px;display:block;margin-bottom:6px}
+.m.err{border-color:var(--warn);color:var(--warn)}
+.vacio{margin:auto;max-width:440px;text-align:center;color:var(--muted)}
+.vacio h2{font:600 22px var(--display);color:var(--fg);margin:0 0 6px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:14px}
+.chips button{font-size:13px}
+footer{border-top:1px solid var(--line);background:var(--panel);
+  padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+#fotos{display:flex;gap:6px;flex-wrap:wrap}
+#fotos img{height:48px;border-radius:6px}
+.fila{display:flex;gap:8px;align-items:flex-end}
+textarea{flex:1;min-width:0;resize:none;max-height:160px;font:15px/1.4 var(--body);padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
+label.foto{border:1px solid var(--line);border-radius:10px;padding:8px 10px;cursor:pointer;font-size:14px}
+label.foto input{display:none}
+.ops{display:flex;gap:12px;align-items:center;font-size:12.5px;color:var(--muted);margin-top:6px;flex-wrap:wrap}
+.ops select{font:12.5px var(--body);background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:6px}
+#llave{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:auto;max-width:360px}
+#llave input{flex:1;min-width:0;padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div><h1>Glimmer</h1><div id="estado"><i></i><span>Revisando…</span></div></div>
+  <div class="der"><button id="nuevo" type="button">Nueva charla</button></div>
+</header>
+<main id="chat"></main>
+<footer>
+  <div id="fotos"></div>
+  <form class="fila" id="form">
+    <label class="foto" title="Adjuntar foto">Foto<input id="adj" type="file" accept="image/*" multiple></label>
+    <textarea id="txt" rows="1" placeholder="Pregúntale a Glimmer…"></textarea>
+    <button class="prim" id="enviar" type="submit">Enviar</button>
+  </form>
+  <div class="ops">
+    <label>Largo de respuesta
+      <select id="tokens"><option value="400">Corta</option><option value="1500" selected>Normal</option><option value="4500">Larga (calificaciones)</option></select>
+    </label>
+    <span>Enter envía · Shift+Enter salto de línea</span>
+  </div>
+</footer>
+<script>
+const $=s=>document.querySelector(s);
+const chat=$('#chat'), txt=$('#txt'), est=$('#estado');
+const guardar=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+const leer=k=>{try{return localStorage.getItem(k)}catch(e){return null}};
+let clave=leer('glimmer_clave')||'';
+let historia=[]; try{historia=JSON.parse(leer('glimmer_historia')||'[]')}catch(e){}
+let pendientes=[];
+const ejemplos=['Dame 3 ganchos de 6 palabras para limpieza de obra para constructoras',
+  'Escribe un guion de 15 s con la fórmula 10/10/10 para una renta vacacional en San Carlos',
+  '¿Qué le falta a este anuncio para llegar a 8? (adjunta una foto del cuadro)'];
+
+function estado(t,c){est.className=c||'';est.querySelector('span').textContent=t}
+function pintar(){
+  chat.innerHTML='';
+  if(!clave){
+    chat.innerHTML='<form id="llave"><p style="width:100%;margin:0;color:var(--muted)">Escribe la clave del chat (te la pasa Claude). Se guarda en este teléfono.</p><input id="k" type="password" placeholder="Clave"><button class="prim">Entrar</button></form>';
+    $('#llave').onsubmit=e=>{e.preventDefault();clave=$('#k').value.trim();guardar('glimmer_clave',clave);pintar();despertar()};
+    return;
+  }
+  if(!historia.length){
+    const v=document.createElement('div');v.className='vacio';
+    v.innerHTML='<h2>Pregúntale lo que sea</h2><div>Ganchos, guiones, calificaciones de cuadros o fotos. La primera respuesta tarda ~1 min si estaba dormido; luego unos segundos.</div><div class="chips"></div>';
+    ejemplos.forEach(x=>{const b=document.createElement('button');b.type='button';b.textContent=x;b.onclick=()=>{txt.value=x;txt.focus()};v.querySelector('.chips').append(b)});
+    chat.append(v);return;
+  }
+  historia.forEach(m=>burbuja(m));
+  chat.scrollTop=chat.scrollHeight;
+}
+function burbuja(m){
+  const d=document.createElement('div');d.className='m '+(m.rol==='user'?'yo':'glim')+(m.err?' err':'');
+  (m.miniaturas||[]).forEach(s=>{const i=new Image();i.src=s;d.append(i)});
+  d.append(document.createTextNode(m.texto));
+  if(m.seg){const s=document.createElement('span');s.className='meta';s.textContent=m.seg+' s';d.append(s)}
+  chat.append(d);chat.scrollTop=chat.scrollHeight;return d;
+}
+async function despertar(){
+  if(!clave)return;
+  estado('Despertando (~1 min)…','dormido');
+  try{const r=await fetch('estado');estado(r.ok?'Listo':'Sin conexión',r.ok?'listo':'dormido')}catch(e){estado('Sin conexión','dormido')}
+}
+function aJpeg(file){return new Promise(res=>{const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{
+  const k=Math.min(1,1280/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=im.width*k;c.height=im.height*k;
+  c.getContext('2d').drawImage(im,0,0,c.width,c.height);const url=c.toDataURL('image/jpeg',.85);
+  const c2=document.createElement('canvas'),k2=160/Math.max(im.width,im.height);c2.width=im.width*k2;c2.height=im.height*k2;c2.getContext('2d').drawImage(im,0,0,c2.width,c2.height);
+  res({b64:url.split(',')[1],mini:c2.toDataURL('image/jpeg',.7)})};im.src=r.result};r.readAsDataURL(file)})}
+$('#adj').onchange=async e=>{for(const f of e.target.files){const x=await aJpeg(f);pendientes.push(x);const i=new Image();i.src=x.mini;$('#fotos').append(i)}e.target.value=''};
+txt.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();$('#form').requestSubmit()}});
+txt.addEventListener('input',()=>{txt.style.height='auto';txt.style.height=txt.scrollHeight+'px'});
+$('#nuevo').onclick=()=>{historia=[];guardar('glimmer_historia','[]');pintar()};
+$('#form').onsubmit=async e=>{
+  e.preventDefault();const t=txt.value.trim();if(!t||!clave)return;
+  const fotos=pendientes;pendientes=[];$('#fotos').innerHTML='';txt.value='';txt.style.height='auto';
+  if(!historia.length)chat.innerHTML='';
+  const m={rol:'user',texto:t,fotos:fotos.map(f=>f.b64),miniaturas:fotos.map(f=>f.mini)};
+  historia.push(m);burbuja(m);
+  const espera=burbuja({rol:'glim',texto:'Pensando…'});$('#enviar').disabled=true;
+  const t0=Date.now();estado('Respondiendo…','dormido');
+  try{
+    const r=await fetch('chat',{method:'POST',headers:{'content-type':'application/json','x-clave':clave},
+      body:JSON.stringify({mensajes:historia.map(x=>({rol:x.rol,texto:x.texto,fotos:x.fotos||[]})).filter(x=>!x.err),tokens:+$('#tokens').value})});
+    if(r.status===401){clave='';guardar('glimmer_clave','');throw new Error('Clave incorrecta. Vuelve a escribirla.')}
+    if(!r.ok)throw new Error('Glimmer no respondió ('+r.status+'). Intenta de nuevo.');
+    const j=await r.json();espera.remove();
+    const g={rol:'assistant',texto:j.respuesta||'(sin texto)',seg:Math.round((Date.now()-t0)/1000)};
+    historia.push(g);burbuja(g);estado('Listo','listo');
+  }catch(err){espera.remove();burbuja({rol:'glim',texto:err.message,err:true});estado('Error','dormido');if(!clave)pintar()}
+  // guarda la charla sin las fotos completas (pesan mucho)
+  guardar('glimmer_historia',JSON.stringify(historia.map(x=>({...x,fotos:[]}))));
+  $('#enviar').disabled=false;txt.focus();
+};
+pintar();despertar();
+</script>
+</body>
+</html>

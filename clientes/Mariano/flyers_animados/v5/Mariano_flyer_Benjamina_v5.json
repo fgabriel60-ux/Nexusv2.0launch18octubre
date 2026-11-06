@@ -1,0 +1,50 @@
+{
+  "salida": "Mariano_flyer_Benjamina_v5.mp4",
+  "video_origen": "Mariano_flyer_Benjamina_v4.mp4",
+  "pico_AAC_dBFS": -3.23,
+  "muestras_recortadas_>=0.99": 0,
+  "eventos": [
+    {
+      "t": 0.1,
+      "tipo": "whoosh",
+      "muestra": "whoosh_3115_fast_transitions_swoosh.mp3",
+      "sobre_musica_dB": 33.2
+    },
+    {
+      "t": 0.6,
+      "tipo": "camara",
+      "muestra": "camara_1430_camera_shutter_hard_click.mp3",
+      "sobre_musica_dB": 23.7
+    },
+    {
+      "t": 1.0,
+      "tipo": "ding",
+      "muestra": "ding_586_attention_bell_ding.mp3",
+      "sobre_musica_dB": 20.6
+    },
+    {
+      "t": 1.0,
+      "tipo": "riser",
+      "muestra": "riser_790_cinematic_trailer_riser.mp3",
+      "sobre_musica_dB": 20.9
+    },
+    {
+      "t": 1.25,
+      "tipo": "impacto",
+      "muestra": "impacto_2143_hard_and_quick_punch.mp3",
+      "sobre_musica_dB": 24.2
+    },
+    {
+      "t": 1.8,
+      "tipo": "texto",
+      "muestra": "pop_3005_explainer_light_pop.mp3",
+      "sobre_musica_dB": 13.6
+    },
+    {
+      "t": 2.2,
+      "tipo": "clic",
+      "muestra": "clic_2568_cool_interface_click_tone.mp3",
+      "sobre_musica_dB": 12.8
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-6UHfVhJZz3AxIM5ECPeNUS
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<38:06,  1.59s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:03<40:08,  1.68s/it]
+[1ALoading weights:   0%|          | 3/1436 [00:03<23:34,  1.01it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:03<11:13,  2.13it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:03<09:17,  2.57it/s]
+[1ALoading weights:   1%|          | 14/1436 [00:03<02:23,  9.90it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:04<02:46,  8.53it/s]
+[1ALoading weights:   2%|▏         | 25/1436 [00:04<01:42, 13.70it/s]
+[1ALoading weights:   2%|▏         | 29/1436 [00:04<01:29, 15.78it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:05<01:28, 15.78it/s]
+[1ALoading weights:   3%|▎         | 38/1436 [00:05<01:05, 21.46it/s]
+[1ALoading weights:   3%|▎         | 42/1436 [00:05<01:30, 15.35it/s]
+[1ALoading weights:   4%|▎         | 51/1436 [00:05<00:56, 24.56it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:06<01:17, 17.85it/s]
+[1ALoading weights:   4%|▍         | 64/1436 [00:06<01:01, 22.40it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:06<01:14, 18.44it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:06<01:00, 22.51it/s]
+[1ALoading weights:   6%|▌         | 79/1436 [00:07<01:16, 17.69it/s]
+[1ALoading weights:   6%|▌         | 86/1436 [00:07<00:56, 23.94it/s]
+[1ALoading weights:   6%|▋         | 90/1436 [00:07<01:19, 16.91it/s]
+[1ALoading weights:   7%|▋         | 98/1436 [00:08<00:54, 24.47it/s]
+[1ALoading weights:   7%|▋         | 103/1436 [00:08<01:15, 17.77it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:08<00:57, 23.18it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:09<01:10, 18.84it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:09<00:58, 22.44it/s]
+[1ALoading weights:   9%|▉         | 127/1436 [00:09<01:13, 17.80it/s]
+[1ALoading weights:   9%|▉         | 136/1436 [00:09<00:56, 23.10it/s]
+[1ALoading weights:  10%|▉         | 139/1436 [00:10<01:11, 18.05it/s]
+[1ALoading weights:  10%|█         | 146/1436 [00:10<00:53, 24.25it/s]
+[1ALoading weights:  10%|█         | 150/1436 [00:10<01:14, 17.19it/s]
+[1ALoading weights:  11%|█         | 159/1436 [00:10<00:49, 25.73it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:11<01:06, 19.27it/s]
+[1ALoading weights:  12%|█▏        | 169/1436 [00:11<00:56, 22.43it/s]
+[1ALoading weights:  12%|█▏        | 173/1436 [00:11<01:17, 16.35it/s]
+[1ALoading weights:  13%|█▎        | 182/1436 [00:12<00:50, 24.77it/s]
+[1ALoading weights:  13%|█▎        | 187/1436 [00:12<01:07, 18.54it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [00:12<00:52, 23.57it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:13<01:02, 19.72it/s]
+[1ALoading weights:  14%|█▍        | 205/1436 [00:13<00:52, 23.33it/s]
+[1ALoading weights:  15%|█▍        | 209/1436 [00:13<01:13, 16.72it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:13<00:50, 23.95it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:14<01:01, 19.65it/s]
+[1ALoading weights:  16%|█▌        | 230/1436 [00:14<00:57, 20.99it/s]
+[1ALoading weights:  16%|█▌        | 233/1436 [00:14<00:56, 21.23it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:14<00:58, 20.46it/s]
+[1ALoading weights:  17%|█▋        | 242/1436 [00:14<00:45, 26.25it/s]
+[1ALoading weights:  17%|█▋        | 246/1436 [00:15<01:10, 16.92it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:15<00:48, 24.15it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:15<00:59, 19.62it/s]
+[1ALoading weights:  19%|█▊        | 266/1436 [00:16<00:47, 24.70it/s]
+[1ALoading weights:  19%|█▉        | 270/1436 [00:16<01:07, 17.18it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:16<00:48, 23.67it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:17<01:00, 19.18it/s]
+[1ALoading weights:  20%|██        | 290/1436 [00:17<00:47, 24.20it/s]
+[1ALoading weights:  20%|██        | 294/1436 [00:17<01:07, 16.97it/s]
+[1ALoading weights:  21%|██        | 300/1436 [00:17<00:51, 22.13it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:17<00:48, 23.45it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:18<01:02, 17.93it/s]
+[1ALoading weights:  22%|██▏       | 314/1436 [00:18<00:47, 23.39it/s]
+[1ALoading weights:  22%|██▏       | 318/1436 [00:18<01:06, 16.71it/s]
+[1ALoading weights:  23%|██▎       | 326/1436 [00:19<00:46, 23.99it/s]
+[1ALoading weights:  23%|██▎       | 330/1436 [00:19<01:03, 17.29it/s]
+[1ALoading weights:  24%|██▎       | 339/1436 [00:19<00:42, 26.02it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:20<00:57, 18.96it/s]
+[1ALoading weights:  24%|██▍       | 350/1436 [00:20<00:45, 23.66it/s]
+[1ALoading weights:  25%|██▍       | 355/1436 [00:20<01:00, 17.96it/s]
+[1ALoading weights:  25%|██▌       | 361/1436 [00:20<00:46, 22.91it/s]
+[1ALoading weights:  25%|██▌       | 365/1436 [00:21<00:54, 19.70it/s]
+[1ALoading weights:  26%|██▌       | 369/1436 [00:21<00:55, 19.27it/s]
+[1ALoading weights:  26%|██▌       | 374/1436 [00:21<00:51, 20.54it/s]
+[1ALoading weights:  26%|██▋       | 377/1436 [00:21<00:53, 19.87it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:21<00:56, 18.63it/s]
+[1ALoading weights:  27%|██▋       | 387/1436 [00:21<00:39, 26.67it/s]
+[1ALoading weights:  27%|██▋       | 391/1436 [00:22<00:59, 17.51it/s]
+[1ALoading weights:  28%|██▊       | 395/1436 [00:22<00:52, 19.82it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:22<00:42, 24.17it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:22<00:55, 18.65it/s]
+[1ALoading weights:  29%|██▊       | 410/1436 [00:23<00:42, 24.38it/s]
+[1ALoading weights:  29%|██▉       | 414/1436 [00:23<01:01, 16.49it/s]
+[1ALoading weights:  29%|██▉       | 421/1436 [00:23<00:43, 23.52it/s]
+[1ALoading weights:  30%|██▉       | 425/1436 [00:23<00:51, 19.54it/s]
+[1ALoading weights:  30%|██▉       | 429/1436 [00:24<00:51, 19.63it/s]
+[1ALoading weights:  30%|███       | 434/1436 [00:24<00:42, 23.65it/s]
+[1ALoading weights:  31%|███       | 438/1436 [00:24<01:02, 15.93it/s]
+[1ALoading weights:  31%|███       | 445/1436 [00:24<00:43, 22.79it/s]
+[1ALoading weights:  31%|███▏      | 449/1436 [00:25<00:51, 19.23it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:25<00:54, 18.08it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:25<00:40, 24.03it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:25<00:50, 19.35it/s]
+[1ALoading weights:  33%|███▎      | 468/1436 [00:26<00:54, 17.83it/s]
+[1ALoading weights:  33%|███▎      | 473/1436 [00:26<00:46, 20.90it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:26<00:49, 19.47it/s]
+[1ALoading weights:  34%|███▎      | 482/1436 [00:26<00:36, 25.93it/s]
+[1ALoading weights:  34%|███▍      | 486/1436 [00:27<00:54, 17.37it/s]
+[1ALoading weights:  34%|███▍      | 493/1436 [00:27<00:38, 24.61it/s]
+[1ALoading weights:  35%|███▍      | 497/1436 [00:27<00:56, 16.61it/s]
+[1ALoading weights:  35%|███▌      | 505/1436 [00:27<00:37, 24.54it/s]
+[1ALoading weights:  36%|███▌      | 510/1436 [00:28<00:53, 17.41it/s]
+[1ALoading weights:  36%|███▌      | 517/1436 [00:28<00:39, 23.52it/s]
+[1ALoading weights:  36%|███▋      | 522/1436 [00:28<00:51, 17.60it/s]
+[1ALoading weights:  37%|███▋      | 530/1436 [00:29<00:37, 24.42it/s]
+[1ALoading weights:  37%|███▋      | 535/1436 [00:29<00:47, 18.84it/s]
+[1ALoading weights:  38%|███▊      | 539/1436 [00:29<00:42, 21.29it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:29<00:37, 24.05it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:30<00:47, 18.84it/s]
+[1ALoading weights:  39%|███▊      | 554/1436 [00:30<00:36, 24.47it/s]
+[1ALoading weights:  39%|███▉      | 558/1436 [00:30<00:53, 16.52it/s]
+[1ALoading weights:  39%|███▉      | 562/1436 [00:30<00:45, 19.33it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:31<00:44, 19.48it/s]
+[1ALoading weights:  40%|███▉      | 571/1436 [00:31<00:47, 18.06it/s]
+[1ALoading weights:  40%|███▉      | 574/1436 [00:31<00:45, 18.96it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:31<00:34, 24.98it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:31<00:44, 19.24it/s]
+[1ALoading weights:  41%|████      | 589/1436 [00:32<00:43, 19.53it/s]
+[1ALoading weights:  41%|████▏     | 593/1436 [00:32<00:39, 21.32it/s]
+[1ALoading weights:  42%|████▏     | 596/1436 [00:32<00:42, 19.83it/s]
+[1ALoading weights:  42%|████▏     | 601/1436 [00:32<00:35, 23.45it/s]
+[1ALoading weights:  42%|████▏     | 604/1436 [00:32<00:34, 23.89it/s]
+[1ALoading weights:  42%|████▏     | 607/1436 [00:33<00:50, 16.45it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:33<00:35, 23.34it/s]
+[1ALoading weights:  43%|████▎     | 619/1436 [00:33<00:47, 17.31it/s]
+[1ALoading weights:  44%|████▍     | 629/1436 [00:33<00:29, 27.60it/s]
+[1ALoading weights:  46%|████▌     | 659/1436 [00:33<00:11, 69.86it/s]
+[1ALoading weights:  47%|████▋     | 682/1436 [00:33<00:07, 98.80it/s]
+[1ALoading weights:  49%|████▉     | 706/1436 [00:34<00:05, 125.14it/s]
+[1ALoading weights:  51%|█████▏    | 737/1436 [00:34<00:04, 163.32it/s]
+[1ALoading weights:  54%|█████▍    | 778/1436 [00:34<00:03, 216.89it/s]
+[1ALoading weights:  57%|█████▋    | 812/1436 [00:34<00:02, 242.52it/s]
+[1ALoading weights:  59%|█████▊    | 842/1436 [00:34<00:02, 257.31it/s]
+[1ALoading weights:  61%|██████    | 878/1436 [00:34<00:01, 282.77it/s]
+[1ALoading weights:  63%|██████▎   | 909/1436 [00:34<00:01, 289.75it/s]
+[1ALoading weights:  66%|██████▌   | 946/1436 [00:34<00:01, 310.46it/s]
+[1ALoading weights:  69%|██████▊   | 986/1436 [00:34<00:01, 332.36it/s]
+[1ALoading weights:  71%|███████   | 1020/1436 [00:35<00:01, 327.13it/s]
+[1ALoading weights:  73%|███████▎  | 1054/1436 [00:35<00:01, 325.76it/s]
+[1ALoading weights:  76%|███████▌  | 1087/1436 [00:35<00:01, 317.64it/s]
+[1ALoading weights:  79%|███████▊  | 1128/1436 [00:35<00:00, 330.71it/s]
+[1ALoading weights:  81%|████████  | 1162/1436 [00:35<00:00, 325.54it/s]
+[1ALoading weights:  83%|████████▎ | 1196/1436 [00:35<00:00, 328.50it/s]
+[1ALoading weights:  86%|████████▌ | 1232/1436 [00:35<00:00, 332.39it/s]
+[1ALoading weights:  88%|████████▊ | 1269/1436 [00:35<00:00, 343.18it/s]
+[1ALoading weights:  91%|█████████ | 1310/1436 [00:35<00:00, 350.02it/s]
+[1ALoading weights:  94%|█████████▎| 1346/1436 [00:36<00:00, 340.26it/s]
+[1ALoading weights:  96%|█████████▌| 1381/1436 [00:36<00:00, 334.27it/s]
+[1ALoading weights:  99%|█████████▉| 1420/1436 [00:36<00:00, 344.93it/s]Loading weights: 100%|██████████| 1436/1436 [00:36<00:00, 39.61it/s] 
+[transformers] Both `max_new_tokens` (=6000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## AMY_Y_MANUAL_IA
+**PARTE 1 — LA IMAGEN DE LA MUJER EN EL TAXI**
+
+**1. Calificación por rubro y qué le falta para 10/10**
+
+* **Relevancia / Promesa clara:** 8/10. “SABES QUIÉN TE LLEVA / Ruta y chofer en tiempo real” es claro. Le falta anclar la promesa a Nogales y a la instalación por WhatsApp en el mismo golpe visual.
+* **Prueba / Credibilidad:** 7/10. Mapa en vivo en el móvil ayuda, pero no hay precio visible, ni sello de “precio fijo”, ni primer viaje. Sin prueba tangible de precio/seguridad.
+* **Diferenciación vs competencia:** 7/10. “Ves al chofer y al taxi en vivo” diferencia, pero no se contrasta con taxis de sitio/Uber/Didi ni con el miedo nocturno.
+* **Claridad de oferta / CTA:** 7/10. CTA “Pide tu taxi por WhatsApp” está bien, pero no se entiende en 1 segundo que la app se instala desde el navegador/WhatsApp sin tienda.
+* **Diseño / Legibilidad móvil:** 8/10. Jerarquía correcta, contraste suficiente. El texto inferior ocupa mucho y el logo de WhatsApp compite con el titular.
+* **Calidad de imagen / Realismo:** 6/10. Persona con IA: piel muy lisa, reflejos de ventana poco creíbles, manos y correa con pequeñas incoherencias. Fondo nocturno con bokeh exagerado.
+* **TOTAL: 7.2/10**
+
+Para llegar a **10/10** le falta exactamente:
+
+* Mostrar **precio fijo visible** en el mismo frame o en el primer segundo del video.
+* **Primer viaje con beneficio** visible: “Primer viaje $60” o “Prueba sin riesgo”.
+* **Botón de emergencia** como ícono visible y texto corto: “Botón de pánico”.
+* **Explicar en 3 palabras** que se instala por WhatsApp sin tienda: “Se instala por WhatsApp” + microcopy “Sin App Store/Play Store”.
+* **Prueba local**: sello “Nogales, Sonora” + elemento reconocible de la ciudad en el fondo, no genérico.
+* **Realismo de la persona**: piel, manos, reflejos y proporciones corregidos para que no se lea como IA.
+* **Menos texto en bloque**, más iconos. Máximo 12 palabras en titular, 6 en sub.
+
+**2. Guion de video 15-20s a partir de esa imagen**
+
+**Primeros 3 segundos — detalle**
+
+* **0:00-0:03**  
+  *Visual:* Primer plano del móvil en mano de la mujer dentro del taxi nocturno. En pantalla se ve el mapa con el auto en movimiento y el pin de destino. Luz cálida del interior. Corte rápido a rostro tranquilo de la mujer mirando la ruta.  
+  *Voz:* “En Nogales, sabes quién te lleva.”  
+  *Texto en pantalla:* “SABES QUIÉN TE LLEVA” grande, abajo en pequeño “Amy VIP Taxi • Nogales”.
+
+* **0:03-0:07**  
+  *Visual:* Plano medio de la mujer con cinturón, sonríe levemente. Sobreimpresión del mapa con línea azul y el ícono del taxi moviéndose.  
+  *Voz:* “Con Amy VIP ves la ruta y al chofer en tiempo real.”  
+  *Texto:* “Ruta y chofer en vivo”.
+
+* **0:07-0:11**  
+  *Visual:* Corte a detalle del móvil: aparece la ficha del chofer con foto, nombre y calificación. Luego ícono de botón rojo de emergencia.  
+  *Voz:* “Tienes datos del conductor y botón de emergencia.”  
+  *Texto:* “Chofer verificado • Botón de pánico”.
+
+* **0:11-0:15**  
+  *Visual:* Pantalla del móvil muestra precio fijo $80 y “Primer viaje $60”. Mano toca “Confirmar”.  
+  *Voz:* “Precio fijo por zona. Primer viaje desde $60.”  
+  *Texto:* “Precio fijo antes de pedir • Primer viaje $60”.
+
+* **0:15-0:18**  
+  *Visual:* Plano amplio del interior del taxi, calle de Nogales de noche por la ventana. Logo de WhatsApp aparece.  
+  *Voz:* “Se instala por WhatsApp, sin tienda de apps.”  
+  *Texto:* “Se instala por WhatsApp”.
+
+* **0:18-0:20**  
+  *Visual:* CTA verde fijo en parte baja.  
+  *Voz:* “Pide tu taxi por WhatsApp, Amy VIP Taxi Nogales.”  
+  *Texto:* “Pide tu taxi por WhatsApp”.
+
+**3. Qué cambiar en la imagen para que aguante el video sin deformarse**
+
+* **Encuadre:** Deja margen superior e inferior. La mujer debe estar centrada en tercio izquierdo, mirando hacia el centro para permitir push-in suave. Evita recorte de cabeza/hombros.
+* **Pose:** Manos visibles pero simples: sostiene el móvil con ambas manos o apoya el codo. Evita dedos cruzados. Cinturón visible pero sin tensar la tela de forma antinatural.
+* **Luz:** Luz práctica del tablero + luz de calle entrando por ventana. Evita brillos especulares en cara y pantalla. Mantén exposición uniforme para que no parpadee al animar.
+* **Fondo:** Ventana con bokeh controlado, sin peatones que se muevan mucho. Si hay gente afuera, que esté desenfocada y estática.
+* **Taxis/objetos:** No hay taxis detrás en esta imagen; el fondo es calle nocturna. Mantén el auto interior estático, sin reflejos móviles que rompan la coherencia.
+* **Área segura:** Deja banda inferior libre para textos/CTA. No pongas elementos importantes a menos de 10% de los bordes.
+
+---
+
+**PARTE 2 — PERSONAS HECHAS CON IA, MANUAL OPERATIVO**
+
+**4. Qué hace que una persona IA se vea REAL y no falsa**
+
+* **Piel:** Pide “piel con poros visibles, textura natural, micro imperfecciones sutiles, sub-surface scattering”. Evita “piel perfecta, porcelana, sin poros, ultra smooth”.
+* **Ojos:** “Iris con detalle, reflejo corneal pequeño y natural, párpados con arrugas finas, pestañas irregulares”. Evita “ojos grandes simétricos, mirada vacía, brillo plástico”.
+* **Dientes / boca:** Si se ve boca, “dientes con pequeñas variaciones de tono, encías naturales”. Evita sonrisa perfecta de anuncio dental.
+* **Pelo:** “Fibras individuales visibles, mechones con dirección natural, raíces con variación de tono”. Evita pelo con volumen perfecto y sin flyaways.
+* **Manos:** “Proporciones anatómicas correctas, uñas cortas naturales, venas sutiles, piel con arrugas”. Evita manos con 6 dedos, uñas enormes, piel de plástico.
+* **Proporciones cuerpo:** “Proporciones humanas reales, hombros- cintura-cadera coherentes”. Evita cuello largo, torso estirado.
+* **Ropa:** “Tela con arrugas naturales, pliegues coherentes con gravedad, costuras visibles”. Evita ropa sin pliegues o con patrones que se rompen.
+* **Sombras:** “Sombras suaves y dirección de luz coherente, oclusión de contacto”. Evita sombras flotantes o múltiples direcciones de luz.
+* **Imperfecciones:** Añade “ligera asimetría facial, expresión relajada no forzada”.
+
+Prompt útil: “fotografía realista, 35mm, luz natural, piel con textura, imperfecciones sutiles, manos anatómicas correctas, ropa con arrugas naturales, sombras coherentes”.
+
+**5. Poses y encuadres que SIEMPRE fallan y reemplazo**
+
+* **Manos a la vista:** Fallan por dedos extra/faltantes. Reemplazo: manos parcialmente ocultas, sosteniendo objeto grande, o vista de muñeca hacia arriba.
+* **Caminar / piernas en movimiento:** Se rompe en video. Reemplazo: persona parada, sentada, o caminata congelada en 1 frame con cámara estática.
+* **Objetos delgados juntos:** Lentes, barandas, ramas se fusionan. Reemplazo: aumenta separación, desenfoque selectivo, o elimina uno de los elementos.
+* **Mirada directa a cámara con ojos muy abiertos:** Se ve falso. Reemplazo: mirada en 3/4, dirección de mirada ligeramente fuera de cámara.
+* **Primeros planos extremos de cara:** Revela artefactos. Reemplazo: plano medio, foco en acción con móvil.
+* **Extremidades al borde del frame:** Se cortan mal. Reemplazo: deja margen de seguridad 10%.
+* **Expresiones exageradas:** Sonrisa perfecta, cejas simétricas. Reemplazo: microexpresión relajada.
+
+**6. Qué aguanta bien el paso a video y qué se cae**
+
+* **Aguanta:** Push-in lento, paneo suave, parallax de capas, parpadeo sutil, movimiento de tela leve, reflejos en pantalla con animación de UI.
+* **Se cae:** Cambios rápidos de pose, gestos de manos, cabello que fluye, gente caminando en fondo, texto dentro de la escena que se deforma, luces intermitentes fuertes, humo/niebla densa.
+* **Fondos:** Con mucha gente en movimiento se cae. Usa fondo desenfocado o estático.
+* **Texto en escena:** No renderices texto dentro de la imagen IA; añádelo en post.
+
+**7. Mantener la misma persona en varias escenas**
+
+* Usa **seed fijo** + descripción base idéntica de rasgos: edad aproximada, tono de piel, color de ojos, corte de pelo, accesorios.
+* Mantén **misma iluminación** y **misma cámara** descrita en prompt.
+* Genera todas las variantes en un mismo lote con prompt base + acción específica.
+* Referencia visual: guarda una imagen base y usa “same person as reference, consistent facial features”.
+
+**8. Errores que delatan IA a primera vista**
+
+* Manos irreales, dedos extra o fusionados.
+* Ojos sin reflejo o con reflejo duplicado.
+* Piel plástica, sin poros, con halo de suavizado.
+* Pelo con “aura” brillante y sin mechones sueltos.
+* Ropa sin arrugas o con patrones que se rompen en pliegues.
+* Sombras en dirección contradictoria.
+* Dientes perfectos y simétricos.
+* Proporciones faciales desalineadas, nariz/mentón flotando.
+* Fondo con geometría imposible, ventanas que no cuadran.
+
+---
+
+**PARTE 3 — DISEÑO PUBLICITARIO PARA NEGOCIO LOCAL MEXICANO**
+
+**9. Composición de anuncio de imagen que vende**
+
+* **Arriba 10%:** Logo/marca pequeño + localización “Amy VIP Taxi • Nogales”.
+* **Centro 60%:** Visual principal con persona/escena. Deja espacio negativo a un lado para texto.
+* **Titular:** En zona media-baja, máximo 6-8 palabras, grande y en negrita.
+* **Sub:** 1 línea, máximo 10 palabras.
+* **Precio:** Cercano al titular, en número grande. Ej. “Ciudad $80 • Locales desde $60”.
+* **Bullets:** Máximo 3, con iconos verdes, texto corto.
+* **CTA:** Banda inferior fija, botón verde con texto de acción. Deja margen inferior 8-10%.
+* **Espacio libre:** No cubras más del 40% del área con texto. Respeta márgenes.
+
+**10. Tipografía y color**
+
+* **Tipografía:** Sans grotesk legible en móvil. Tamaños: Titular 72-96px en 1080x1350, sub 36-44px, bullets 28-32px.
+* **Contraste:** Relación mínimo 4.5:1. Fondo oscuro = texto blanco; fondo claro = texto negro/azul marino.
+* **Colores:** 1 color de marca + 1 de acento + neutros. Verde WhatsApp para CTA, evita más de 3 colores.
+* **No se lee:** Fuentes delgadas, sombras múltiples, degradados en texto, colores pastel sobre fondo claro.
+
+**11. Jerarquía visual**
+
+Orden de lectura: **Marca → Promesa/Titular → Prueba/Precio → Beneficios con checks → CTA**.
+Se logra con: tamaño descendente, peso negrita para titular, color de acento solo en CTA y checks, posición en “Z” o “F” según layout.
+
+**12. Errores de diseño que más bajan calificación**
+
+1. Texto excesivo / bloque denso.
+2. Falta de contraste, texto ilegible en móvil.
+3. CTA poco visible o con texto genérico.
+4. Sin precio o promesa clara en el primer vistazo.
+5. Imagen con persona IA poco creíble.
+6. Más de 4 colores y tipografías mixtas.
+7. Elementos importantes en bordes, se cortan en feed.
+8. No se entiende la oferta en 2 segundos.
+
+**13. Imagen vs primer frame de video**
+
+* **Imagen:** Puede ser más estática, texto completo permitido, composición simétrica.
+* **Primer frame de video:** Debe funcionar sin texto superpuesto pesado; la historia empieza en movimiento. Texto mínimo, solo titular corto. Deja espacio para que el motion no tape elementos clave. El primer frame debe prometer lo que el video cumple en 3s. Evita texto pequeño que no se lea al reproducir sin sonido.
+
+¿Quieres que te entregue el prompt exacto para regenerar la foto de la mujer con correcciones de realismo y encuadre seguro para video, y el texto final optimizado para el creativo?
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-6UHfVhJZz3AxIM5ECPeNUS
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_manual_ia_20261105/lote.json --tokens 6000
+Duración: 7.1 min  (código 0)
+  glimmer (ap-6UHfVhJZz3AxIM5ECPeNUS): $0.295
+  glimmer (ap-mRpFjvW2Jn1Z5eIYwQl5Ib): $0.063
+Gasto del trabajo: $0.357
+Saldo restante ≈ $-12.01

@@ -1,0 +1,83 @@
+{
+ "fuente": "VOZ_NARRADOR_35s.wav",
+ "segmentos": [
+  {
+   "tramo": 1,
+   "de_s": 0,
+   "a_s": 5,
+   "dura_s": 5.0,
+   "video": "T1_rostro_a_closeup",
+   "archivo": "VOZ_T1_rostro_a_closeup.mp3",
+   "frases": [
+    "¿Te falta un diente? Esto es lo que pasa por dentro."
+   ]
+  },
+  {
+   "tramo": 2,
+   "de_s": 5,
+   "a_s": 10,
+   "dura_s": 5.0,
+   "video": "T2_anestesia",
+   "archivo": "VOZ_T2_anestesia.mp3",
+   "frases": [
+    "Empieza con anestesia. No duele: ni lo vas a sentir."
+   ]
+  },
+  {
+   "tramo": 3,
+   "de_s": 10,
+   "a_s": 15,
+   "dura_s": 5.0,
+   "video": "T3_sticker_y_fresa",
+   "archivo": "VOZ_T3_sticker_y_fresa.mp3",
+   "frases": [
+    "Y aquí está lo que nadie te enseña."
+   ]
+  },
+  {
+   "tramo": 4,
+   "de_s": 15,
+   "a_s": 20,
+   "dura_s": 5.0,
+   "video": "T4_canal_y_tornillo",
+   "archivo": "VOZ_T4_canal_y_tornillo.mp3",
+   "frases": [
+    "El dentista abre un espacio en el hueso, justo donde estaba tu raíz."
+   ]
+  },
+  {
+   "tramo": 5,
+   "de_s": 20,
+   "a_s": 25,
+   "dura_s": 5.0,
+   "video": "T5_tornillo_e_integracion",
+   "archivo": "VOZ_T5_tornillo_e_integracion.mp3",
+   "frases": [
+    "Ahí entra un tornillo de titanio. Esa va a ser tu nueva raíz."
+   ]
+  },
+  {
+   "tramo": 6,
+   "de_s": 25,
+   "a_s": 30,
+   "dura_s": 5.0,
+   "video": "T6_pilar_y_corona",
+   "archivo": "VOZ_T6_pilar_y_corona.mp3",
+   "frases": [
+    "Con los meses tu hueso crece alrededor y lo deja firme."
+   ]
+  },
+  {
+   "tramo": 7,
+   "de_s": 30,
+   "a_s": 35,
+   "dura_s": 4.9,
+   "video": "T7_morph_sonrisa",
+   "archivo": "VOZ_T7_morph_sonrisa.mp3",
+   "frases": [
+    "Encima, una corona igual a tus dientes.",
+    "Y vuelves a sonreír."
+   ]
+  }
+ ]
+}

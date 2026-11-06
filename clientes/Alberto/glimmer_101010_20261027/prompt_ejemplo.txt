@@ -1,0 +1,31 @@
+Eres estratega de anuncios de Meta (Facebook/Instagram) para clínicas dentales en México y director de video. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento.
+
+CLIENTE: Veneers Dental Nogales (Dra. Ángeles), clínica dental en Av. Álvaro Obregón 695, Nogales, Sonora. WhatsApp 631 165 1910. Lema: "Salud y belleza dental en un solo lugar". Atención para toda la familia.
+Servicios reales (de su página soy.denogales.com/veneers-dental-nogales): brackets, prótesis fijas y prótesis dentales, carillas de resina y carillas E-MAX, implantes dentales, blanqueamientos y despigmentantes, cirugía de muelas del juicio, radiografía dental y tomografía dental, endodoncia, frenilectomía, regularización de hueso, férulas; para niños: limpieza con flúor, extracción, selladores, resinas, ortopedia dental infantil, pulpotomía, aparatología. Tiene servicio de urgencia por WhatsApp. Reseñas reales: "Excelente servicio, y la mejor atención de parte de todo el personal!"
+Datos de precio que SÍ tenemos: implante dental desde $12,500 MXN, corona aparte, con anestesia local. De carillas, ortodoncia, rayos X/tomografía y placas NO tenemos precio: escribe [PRECIO POR CONFIRMAR CON LA DOCTORA] donde haga falta y no inventes cifras, promociones ni tiempos de tratamiento.
+Imagen 1: hoja de 8 cuadros del ÚLTIMO video que hicimos de la doctora (implantes, 31 s), que es la REFERENCIA de estilo: doctora a cámara en consultorio azul neón, íconos dentales en círculos arriba, modelos 3D de dientes superpuestos, subtítulos palabra por palabra con palabra clave resaltada (rojo / caja azul), cierre con logo, precio y botón de WhatsApp. Su guion: "¿Te falta un diente? No lo dejes así. Cuando pierdes una pieza, el hueso de esa zona puede irse perdiendo con el tiempo, y los dientes de al lado se pueden mover. La solución es un implante dental: una raíz de titanio que se coloca dentro del hueso, como una raíz nueva. Se coloca con anestesia local, y la corona va aparte. Aquí en Veneers Dental, tu implante va desde doce mil quinientos pesos. Escríbenos por WhatsApp y agenda tu valoración." En ese video la doctora fue generada con IA a partir de sus fotos y con voz genérica.
+Imagen 2: fotos reales de la doctora y su clínica (consultorio blanco, sillón, modelos dentales, atendiendo a una paciente) y sus flyers actuales.
+
+QUIÉNES SOMOS Y QUÉ PODEMOS PRODUCIR (propón solo cosas viables con esto):
+- Carlos (agencia Nexus) va a ir EN PERSONA a la clínica y grabará a la doctora con celular (vertical 4K/1080p) y tomas del consultorio, equipos y pacientes que den permiso. Necesita instrucciones exactas de grabación.
+- Editor (Claude, IA de edición): corta al ritmo de la voz, subtítulos virales palabra por palabra con palabra clave en color, tarjetas de precio y botón de WhatsApp exactos en capa aparte, íconos y modelos dentales 3D superpuestos (como en la referencia), punch-in/zoom, whoosh, transiciones con desenfoque, corrección de color, viñeta, limpieza de audio, música propia sintetizada (beat con riser y drop) y efectos. Formato 9:16, 15-40 s, H.264 720p.
+- Sistemas de IA propios en la nube (Modal): Qwen-Image-Edit-2511 crea cuadros nuevos a partir de fotos REALES (cambiar fondo, pose, iluminación, quitar textos, antes/después ilustrativo marcado como ilustrativo); MiniMax H3 anima imagen→video (clips de ~5 s, movimiento de cámara push-in/órbita/dolly, labios sincronizados con una voz); Fish Audio clona voces (podemos clonar la voz real de la doctora si graba 1-2 min limpios, para corregir o añadir frases sin regrabar); Whisper transcribe para subtítulos exactos; tú (Glimmer) evalúas guiones y cuadros.
+- Limitaciones: rostros y manos pueden deformarse en movimientos bruscos de IA; el texto que la IA genera dentro del video sale inventado, por eso todo texto va en capa aparte; no usamos música con derechos; no inventamos precios, resultados ni testimonios.
+- Políticas de Meta para salud: no prometer resultados garantizados, no antes/después engañosos, no apuntar a defectos de la persona ("¿te avergüenzan tus dientes?"), no afirmar que el espectador tiene un problema.
+
+TAREA: Diseña UN video vertical para vender CARILLAS (de resina y E-MAX) en Veneers Dental, con la doctora hablando a cámara (grabada en persona por Carlos), que cumpla la FÓRMULA 10/10/10:
+- Confianza 10/10
+- Claridad de la oferta 10/10
+- Probabilidad de mensajes calificados por WhatsApp 10/10
+Público principal: adultos de 25 a 55 años en Nogales (y Nogales, Arizona) que quieren mejorar la estética de su sonrisa: dientes manchados, desgastados, separados o disparejos.
+Enfoque: explicar la diferencia entre carilla de resina y E-MAX en palabras simples y que la valoración define cuál conviene; diseño de sonrisa a la medida.
+
+Entrega exactamente estas secciones:
+1) Qué conservar y qué mejorar de la referencia (imagen 1) para este servicio (máx. 5 líneas).
+2) Concepto y gancho: 3 ganchos de 0-3 s; elige el mejor y di por qué.
+3) Guion completo palabra por palabra (25-40 s) que dice la doctora, en lenguaje sencillo de Nogales, sin tecnicismos sin explicar.
+4) Escenas: tabla con #, segundos, qué se ve (fuente: grabación real de la doctora / toma real de la clínica / foto real / Qwen / H3 / gráfico 3D), texto en pantalla exacto, voz, sonido.
+5) INSTRUCCIONES DE GRABACIÓN para Carlos en la clínica: lista de tomas (A-roll de la doctora y B-roll de la clínica/equipo/proceso), encuadre y altura de cámara, dónde poner a la doctora (qué fondo del consultorio), luz (ventana/aro/lámpara del sillón), audio (micrófono de solapa, silencio, cuántas tomas por frase), cómo debe hablar y mirar la doctora, qué ropa/accesorios, qué objetos o modelos dentales sostener, y permisos de pacientes. Incluye las frases que la doctora debe decir para clonar su voz.
+6) CTA exacto y 2-3 preguntas de precalificación para WhatsApp.
+7) Qué NO decir (políticas de Meta y sin inventar datos) y qué dato hay que preguntarle a la doctora antes de publicar.
+8) Calificación honesta de tu plan en Confianza, Claridad y Mensajes calificados (x/10 cada uno) y qué faltaría para llegar a 10/10/10.

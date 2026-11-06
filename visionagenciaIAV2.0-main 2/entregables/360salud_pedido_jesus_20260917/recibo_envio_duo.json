@@ -1,0 +1,17 @@
+{
+  "pedido": "Paréntesis (CÁPSULAS + BÁLSAMO) junto al DÚO — audio Jesús 17 sep 13:18",
+  "enviado_a": "Carlos (5216312470486@c.us)",
+  "fecha": "2026-09-17T21:01:45",
+  "piezas": [
+    {
+      "pieza": "CARTEL_CAPSULAS_v4_CARTA.pdf",
+      "nombre": "RarAmore_CAPSULAS_carta_v5.pdf",
+      "status": "success"
+    },
+    {
+      "pieza": "HOJA_BALSAMO_v5_CARTA.pdf",
+      "nombre": "RarAmore_BALSAMO_carta_v6.pdf",
+      "status": "success"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+ "carpeta": "clientes/Ruben_Quiropraxia/video_v3",
+ "salida": "clientes/Ruben_Quiropraxia/video_v3/salida",
+ "semilla": 7,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "H_R1",
+   "R1_habla_a",
+   "Vertical realistic shot: the man talks directly to the camera in Spanish with natural lip movement exactly matching the speech, friendly and confident, small natural head movements and calm hand gestures, in his real therapy room. Keep the same face, clothes and room exactly. Very slow push-in. No text.",
+   6.8,
+   "R1"
+  ],
+  [
+   "H_R5",
+   "R1_habla_b",
+   "Vertical realistic shot: the man talks directly to the camera in Spanish with natural lip movement exactly matching the speech, friendly and confident, small natural head movements and calm hand gestures, in his real therapy room. Keep the same face, clothes and room exactly. Very slow push-in. No text.",
+   6.2,
+   "R5"
+  ]
+ ],
+ "voces": {
+  "R1": "clientes/Ruben_Quiropraxia/muestra_v1/tmp/R1.wav",
+  "R5": "clientes/Ruben_Quiropraxia/muestra_v1/tmp/R5.wav"
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "cliente": "Mariano Herrera",
+ "titulo": "Casa Bugambilia · tu anuncio",
+ "intro": "Aquí ves tu video, la calificación que le pone la IA de Facebook y exactamente qué le falta para llegar a 8. Abajo de 8 Facebook casi no reparte mensajes y se paga por vistas; de 8 para arriba empiezan a llegar mensajes baratos.",
+ "regla": "La nota de hoy es la de la izquierda. Con los arreglos de abajo llega a la de la derecha.",
+ "clave": "nHubcLiLWdpd",
+ "fecha": "3 nov 2026",
+ "calificacion": 6.5,
+ "proyectada": 8.5,
+ "rubros": [
+  {
+   "nombre": "el arranque, los primeros 3 segundos",
+   "valor": 6.0
+  },
+  {
+   "nombre": "lo que ofreces",
+   "valor": 7.0
+  },
+  {
+   "nombre": "qué tanta confianza das",
+   "valor": 6.0
+  },
+  {
+   "nombre": "qué tan claro se entiende",
+   "valor": 7.0
+  },
+  {
+   "nombre": "cómo se ve",
+   "valor": 7.0
+  },
+  {
+   "nombre": "reglas de Facebook",
+   "valor": 9.0
+  },
+  {
+   "nombre": "qué tan barato sale cada mensaje",
+   "valor": 5.0
+  },
+  {
+   "nombre": "si escribe gente que sí compra",
+   "valor": 6.0
+  }
+ ],
+ "funciona": [
+  "0.0-2.4s ¿Buscas casa en Rosarito? Vente: pregunta directa + rostro del asesor en helicóptero con vista al mar genera curiosidad y contexto local inmediato.",
+  "3.4-6.3s “Así se llega a Vizcaíno Residencial” con descenso en cuerda y llegada a la fachada: demostración visual memorable del fraccionamiento y ancla de marca Mariano Herrera.",
+  "7.3-9.3s Casa de dos pisos + “privada con acceso controlado”: muestra fachada real y beneficio de seguridad con precio en capa “Desde $2.45 MDP · Escribe BUGAMBILIA”.",
+  "11.2-14.2s Cancha de pádel + “Está a pasos de la plaza comercial, pádel y el parque”: prueba de amenidades cercanas con planos reales del club.",
+  "18.1-24.0s Patio con pasto, luz natural y precio “desde 2 millones 450 mil pesos”: interior luminoso + patio + precio dicho y en texto, reduce fricción de decisión."
+ ],
+ "arreglos": [
+  {
+   "texto": "Reemplazar los primeros 0.0-3.0s por texto en capa “Casa 2 pisos en Rosarito desde $2.45 MDP · ¿Te interesa?” + voz clonada con esa frase exacta · 0.0-3.0s · texto en capa/voz clonada",
+   "sube": "sube el arranque, los primeros 3 segundos de 6 a 8"
+  },
+  {
+   "texto": "Refuerzo visual del precio y palabra clave en cada bloque de beneficio · 7.3-9.3s, 11.2-14.2s, 18.1-24.0s · texto en capa",
+   "sube": "sube lo que ofreces de 7 a 8"
+  },
+  {
+   "texto": "Añadir microcredenciales en capa inferior “Mariano Herrera · Asesor Vizcaíno Residencial · Recorrido GRATIS sin compromiso” durante fachada e interiores · 7.3-9.3s y 15.1-18.1s · texto en capa",
+   "sube": "sube qué tanta confianza das de 6 a 8"
+  },
+  {
+   "texto": "Unificar redacción de precio en voz y texto: “desde 2 millones 450 mil pesos” siempre igual · 18.1-24.0s · voz clonada + texto en capa",
+   "sube": "sube qué tan claro se entiende de 7 a 8"
+  },
+  {
+   "texto": "Push-in suave en fachada e interiores con MiniMax H3 a partir de fotos reales del cliente · 7.3-9.3s, 15.1-18.1s, 22.0-23.9s · MiniMax H3",
+   "sube": "sube cómo se ve de 7 a 8"
+  },
+  {
+   "texto": "Añadir filtro de calificación en texto en capa al inicio “Solo Tijuana/Rosarito · Presupuesto desde $2.45 MDP” y mantener duración ≤30s · 0.0-3.0s · texto en capa",
+   "sube": "sube qué tan barato sale cada mensaje de 5 a 7"
+  },
+  {
+   "texto": "Cierre con CTA hablado y en texto “Escribe BUGAMBILIA al WhatsApp 664 233 4848, recorrido gratis sin compromiso” + pantalla final con botón visual · 24.0-27.3s · voz clonada + texto en capa",
+   "sube": "sube si escribe gente que sí compra de 6 a 8"
+  }
+ ],
+ "rapido": [
+  "Añadir texto en capa de filtro + precio en los primeros 3s y repetir palabra clave/WhatsApp en cierre con voz clonada.",
+  "Reemplazar cierre estático 24.0-28.8s por CTA hablado con voz clonada y tarjeta final con WhatsApp y “Escribe BUGAMBILIA”.",
+  "Push-in con MiniMax H3 en fachada e interior 7.3-9.3s y 15.1-18.1s para elevar calidad visual sin rodaje."
+ ],
+ "video": "/cv/mariano.mp4",
+ "video_ruta": "clientes/Mariano/video/Vizcaino_Mariano_v8_cuerda.mp4",
+ "video_nota": "",
+ "glimmer_crudo": "CALIFICACIÓN TOTAL: 6.5/10\nNOTAS: Gancho 6/10 · Oferta 7/10 · Confianza 6/10 · Claridad 7/10 · Calidad visual 7/10 · Políticas de Meta 9/10 · Mensajes baratos 5/10 · Mensajes calificados 6/10\nPOR QUÉ FUNCIONA:\n- 0.0-2.4s ¿Buscas casa en Rosarito? Vente: pregunta directa + rostro del asesor en helicóptero con vista al mar genera curiosidad y contexto local inmediato.\n- 3.4-6.3s “Así se llega a Vizcaíno Residencial” con descenso en cuerda y llegada a la fachada: demostración visual memorable del fraccionamiento y ancla de marca Mariano Herrera.\n- 7.3-9.3s Casa de dos pisos + “privada con acceso controlado”: muestra fachada real y beneficio de seguridad con precio en capa “Desde $2.45 MDP · Escribe BUGAMBILIA”.\n- 11.2-14.2s Cancha de pádel + “Está a pasos de la plaza comercial, pádel y el parque”: prueba de amenidades cercanas con planos reales del club.\n- 18.1-24.0s Patio con pasto, luz natural y precio “desde 2 millones 450 mil pesos”: interior luminoso + patio + precio dicho y en texto, reduce fricción de decisión.\nQUÉ LO FRENA:\n- 0.0-6.0s Gancho genérico y sin filtro de compra; el helicóptero/cuerda llama pero no califica intención de compra ni presupuesto. Arreglo: abrir con filtro de precio/ubicación en texto en capa y voz clonada.\n- 24.0-28.8s Cierre con tarjetas negras estáticas y asesor sentado sin CTA verbal clara a WhatsApp ni palabra clave repetida. Arreglo: CTA hablado + texto en capa con WhatsApp y palabra clave, y mantener ritmo.\n- 10.6-14.9s Beneficios de ubicación dichos pero sin prueba visual de “a pasos” (no se ve la distancia ni señalética). Arreglo: insertar 1 clip corto de transición calle-plaza con texto en capa.\n\nVEREDICTO: Subir con cambios\nCalificación proyectada con los cambios: 8.5/10\n\nCÓMO SUBIR CADA NOTA:\n  Gancho 6→8: Reemplazar los primeros 0.0-3.0s por texto en capa “Casa 2 pisos en Rosarito desde $2.45 MDP · ¿Te interesa?” + voz clonada con esa frase exacta · 0.0-3.0s · texto en capa/voz clonada\n  Oferta 7→8: Refuerzo visual del precio y palabra clave en cada bloque de beneficio · 7.3-9.3s, 11.2-14.2s, 18.1-24.0s · texto en capa\n  Confianza 6→8: Añadir microcredenciales en capa inferior “Mariano Herrera · Asesor Vizcaíno Residencial · Recorrido GRATIS sin compromiso” durante fachada e interiores · 7.3-9.3s y 15.1-18.1s · texto en capa\n  Claridad 7→8: Unificar redacción de precio en voz y texto: “desde 2 millones 450 mil pesos” siempre igual · 18.1-24.0s · voz clonada + texto en capa\n  Calidad visual 7→8: Push-in suave en fachada e interiores con MiniMax H3 a partir de fotos reales del cliente · 7.3-9.3s, 15.1-18.1s, 22.0-23.9s · MiniMax H3\n  Políticas de Meta 9→9: ya está, no tocar\n  Mensajes baratos 5→7: Añadir filtro de calificación en texto en capa al inicio “Solo Tijuana/Rosarito · Presupuesto desde $2.45 MDP” y mantener duración ≤30s · 0.0-3.0s · texto en capa\n  Mensajes calificados 6→8: Cierre con CTA hablado y en texto “Escribe BUGAMBILIA al WhatsApp 664 233 4848, recorrido gratis sin compromiso” + pantalla final con botón visual · 24.0-27.3s · voz clonada + texto en capa\n\n3 GANCHOS ALTERNATIVOS para los primeros 3 segundos:\n- “Casa 2 pisos en Rosarito desde $2.45 MDP. ¿La quieres ver?” Escena: primer plano asesor en helicóptero con vista al mar, texto en capa con precio. Filtra por presupuesto y ciudad.\n- “Vizcaíno Residencial: privada con acceso controlado a pasos de plaza.” Escena: fachada real con push-in MiniMax H3, texto en capa. Filtra por seguridad y ubicación.\n- “Recorrido GRATIS hoy en Casa Bugambilia, Rosarito.” Escena: puerta de entrada real con luz natural, texto en capa. Filtra por intención inmediata de visita.\n\n2 ESCENAS NUEVAS CON IA que más subirían la nota:\n- Plano de calle que conecta la casa con la plaza comercial/canchas: se ve fachada → transición suave a letrero de plaza/pádel. Modelo: MiniMax H3 imagen→video 4s con push-in. Base: foto real de fachada del cliente + foto real de la plaza/canchas. Duración 4s, insertar en 10.6-14.9s.\n- Vista al mar desde azotea/patio al atardecer con asesor señalando horizonte: se genera con Qwen-Image-Edit-2511 a partir de foto real del patio/azotea del cliente cambiando hora a atardecer y añadiendo asesor de pie señalando, luego MiniMax H3 5s con órbita suave. Base: foto real de patio/azotea. Duración 5s, colocar en 18.1-24.0s.\n\nLO MÁS RÁPIDO:\n- Añadir texto en capa de filtro + precio en los primeros 3s y repetir palabra clave/WhatsApp en cierre con voz clonada.\n- Reemplazar cierre estático 24.0-28.8s por CTA hablado con voz clonada y tarjeta final con WhatsApp y “Escribe BUGAMBILIA”.\n- Push-in con MiniMax H3 en fachada e interior 7.3-9.3s y 15.1-18.1s para elevar calidad visual sin rodaje.",
+ "pedidos": [],
+ "propuesto_en": 1793759803.7130678,
+ "auto_hecho": null
+}

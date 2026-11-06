@@ -1,0 +1,327 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-dE6jUB0y0UItaZUUY6DQ5V
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:02<57:33,  2.41s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:02<11:34,  2.06it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:02<07:54,  3.01it/s]
+[1ALoading weights:   1%|          | 15/1436 [00:02<02:15, 10.47it/s]
+[1ALoading weights:   1%|▏         | 20/1436 [00:03<02:01, 11.68it/s]
+[1ALoading weights:   2%|▏         | 28/1436 [00:03<01:31, 15.32it/s]
+[1ALoading weights:   2%|▏         | 31/1436 [00:03<01:28, 15.92it/s]
+[1ALoading weights:   3%|▎         | 37/1436 [00:03<01:10, 19.92it/s]
+[1ALoading weights:   3%|▎         | 41/1436 [00:03<01:02, 22.28it/s]
+[1ALoading weights:   3%|▎         | 45/1436 [00:04<01:02, 22.39it/s]
+[1ALoading weights:   3%|▎         | 50/1436 [00:04<01:00, 23.09it/s]
+[1ALoading weights:   4%|▎         | 53/1436 [00:04<00:58, 23.72it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:04<01:02, 22.04it/s]
+[1ALoading weights:   4%|▍         | 64/1436 [00:04<00:47, 28.86it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:05<01:01, 22.12it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:05<00:48, 27.88it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:05<01:00, 22.36it/s]
+[1ALoading weights:   6%|▌         | 88/1436 [00:05<00:48, 27.66it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:06<00:59, 22.54it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:06<00:48, 27.63it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:06<00:56, 23.66it/s]
+[1ALoading weights:   8%|▊         | 110/1436 [00:06<00:45, 29.23it/s]
+[1ALoading weights:   8%|▊         | 114/1436 [00:07<01:02, 21.12it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:07<00:44, 29.39it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [00:07<00:54, 24.15it/s]
+[1ALoading weights:   9%|▉         | 133/1436 [00:07<00:52, 25.02it/s]
+[1ALoading weights:  10%|▉         | 137/1436 [00:07<00:59, 21.84it/s]
+[1ALoading weights:  10%|▉         | 143/1436 [00:08<00:53, 24.08it/s]
+[1ALoading weights:  10%|█         | 149/1436 [00:08<00:44, 29.00it/s]
+[1ALoading weights:  11%|█         | 153/1436 [00:08<00:45, 27.97it/s]
+[1ALoading weights:  11%|█         | 158/1436 [00:08<00:46, 27.49it/s]
+[1ALoading weights:  11%|█         | 161/1436 [00:08<00:59, 21.47it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:09<00:38, 32.45it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:09<00:49, 25.59it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:09<00:40, 30.68it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:09<00:49, 25.37it/s]
+[1ALoading weights:  14%|█▎        | 194/1436 [00:09<00:40, 30.53it/s]
+[1ALoading weights:  14%|█▍        | 198/1436 [00:10<00:55, 22.34it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:10<00:39, 30.75it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:10<00:49, 24.92it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:10<00:39, 30.48it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:11<00:48, 24.79it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:11<00:38, 31.13it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:11<00:47, 25.30it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:11<00:38, 30.92it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:11<00:46, 25.73it/s]
+[1ALoading weights:  18%|█▊        | 255/1436 [00:12<00:41, 28.16it/s]
+[1ALoading weights:  18%|█▊        | 259/1436 [00:12<00:48, 24.41it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:12<00:37, 31.38it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:12<00:46, 25.19it/s]
+[1ALoading weights:  19%|█▉        | 277/1436 [00:12<00:43, 26.66it/s]
+[1ALoading weights:  20%|█▉        | 281/1436 [00:13<00:40, 28.41it/s]
+[1ALoading weights:  20%|█▉        | 285/1436 [00:13<00:40, 28.16it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:13<00:34, 32.69it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:13<00:44, 25.90it/s]
+[1ALoading weights:  21%|██        | 302/1436 [00:13<00:35, 31.93it/s]
+[1ALoading weights:  21%|██▏       | 306/1436 [00:14<00:49, 22.69it/s]
+[1ALoading weights:  22%|██▏       | 313/1436 [00:14<00:37, 30.33it/s]
+[1ALoading weights:  22%|██▏       | 318/1436 [00:14<00:49, 22.56it/s]
+[1ALoading weights:  23%|██▎       | 328/1436 [00:14<00:36, 30.52it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:14<00:43, 25.43it/s]
+[1ALoading weights:  23%|██▎       | 337/1436 [00:15<00:42, 25.93it/s]
+[1ALoading weights:  24%|██▎       | 341/1436 [00:15<00:47, 23.27it/s]
+[1ALoading weights:  24%|██▍       | 349/1436 [00:15<00:33, 32.42it/s]
+[1ALoading weights:  25%|██▍       | 354/1436 [00:15<00:45, 23.73it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:16<00:32, 32.53it/s]
+[1ALoading weights:  26%|██▌       | 369/1436 [00:16<00:38, 27.55it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:16<00:33, 31.20it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:16<00:41, 25.58it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:16<00:34, 30.77it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:17<00:41, 24.87it/s]
+[1ALoading weights:  28%|██▊       | 397/1436 [00:17<00:39, 26.30it/s]
+[1ALoading weights:  28%|██▊       | 401/1436 [00:17<00:36, 28.06it/s]
+[1ALoading weights:  28%|██▊       | 405/1436 [00:17<00:38, 26.96it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:17<00:31, 32.23it/s]
+[1ALoading weights:  29%|██▉       | 416/1436 [00:18<00:40, 25.07it/s]
+[1ALoading weights:  29%|██▉       | 422/1436 [00:18<00:36, 27.59it/s]
+[1ALoading weights:  30%|██▉       | 426/1436 [00:18<00:42, 23.95it/s]
+[1ALoading weights:  30%|███       | 434/1436 [00:18<00:30, 33.10it/s]
+[1ALoading weights:  31%|███       | 439/1436 [00:18<00:39, 24.98it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:19<00:31, 31.83it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:19<00:37, 25.91it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:19<00:30, 31.70it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:19<00:38, 25.30it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:19<00:31, 30.47it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:20<00:37, 25.31it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:20<00:32, 29.42it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:20<00:38, 24.37it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:20<00:30, 30.79it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:21<00:37, 24.80it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:21<00:30, 30.70it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:21<00:35, 25.85it/s]
+[1ALoading weights:  36%|███▌      | 517/1436 [00:21<00:36, 25.34it/s]
+[1ALoading weights:  36%|███▋      | 522/1436 [00:21<00:38, 23.97it/s]
+[1ALoading weights:  37%|███▋      | 530/1436 [00:22<00:27, 32.40it/s]
+[1ALoading weights:  37%|███▋      | 534/1436 [00:22<00:39, 23.02it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:22<00:27, 32.53it/s]
+[1ALoading weights:  38%|███▊      | 549/1436 [00:22<00:31, 27.72it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:22<00:27, 31.63it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:23<00:33, 26.36it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:23<00:32, 26.43it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:23<00:32, 26.25it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:23<00:27, 31.20it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:24<00:32, 25.86it/s]
+[1ALoading weights:  41%|████      | 591/1436 [00:24<00:26, 32.32it/s]
+[1ALoading weights:  41%|████▏     | 595/1436 [00:24<00:35, 23.77it/s]
+[1ALoading weights:  42%|████▏     | 604/1436 [00:24<00:27, 29.76it/s]
+[1ALoading weights:  42%|████▏     | 608/1436 [00:24<00:32, 25.50it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:25<00:27, 30.26it/s]
+[1ALoading weights:  43%|████▎     | 620/1436 [00:25<00:33, 24.66it/s]
+[1ALoading weights:  44%|████▍     | 634/1436 [00:25<00:18, 42.58it/s]
+[1ALoading weights:  47%|████▋     | 668/1436 [00:25<00:07, 96.17it/s]
+[1ALoading weights:  48%|████▊     | 694/1436 [00:25<00:05, 126.60it/s]
+[1ALoading weights:  51%|█████     | 727/1436 [00:25<00:04, 168.17it/s]
+[1ALoading weights:  54%|█████▎    | 770/1436 [00:25<00:02, 225.94it/s]
+[1ALoading weights:  58%|█████▊    | 826/1436 [00:26<00:02, 303.14it/s]
+[1ALoading weights:  61%|██████    | 872/1436 [00:26<00:01, 343.22it/s]
+[1ALoading weights:  63%|██████▎   | 910/1436 [00:26<00:01, 343.48it/s]
+[1ALoading weights:  67%|██████▋   | 960/1436 [00:26<00:01, 381.34it/s]
+[1ALoading weights:  70%|██████▉   | 1004/1436 [00:26<00:01, 395.20it/s]
+[1ALoading weights:  73%|███████▎  | 1050/1436 [00:26<00:00, 411.18it/s]
+[1ALoading weights:  76%|███████▋  | 1098/1436 [00:26<00:00, 419.38it/s]
+[1ALoading weights:  80%|████████  | 1150/1436 [00:26<00:00, 436.97it/s]
+[1ALoading weights:  83%|████████▎ | 1195/1436 [00:26<00:00, 427.21it/s]
+[1ALoading weights:  86%|████████▋ | 1239/1436 [00:27<00:00, 428.84it/s]
+[1ALoading weights:  90%|████████▉ | 1286/1436 [00:27<00:00, 433.92it/s]
+[1ALoading weights:  93%|█████████▎| 1336/1436 [00:27<00:00, 438.97it/s]
+[1ALoading weights:  96%|█████████▋| 1384/1436 [00:27<00:00, 440.11it/s]Loading weights: 100%|██████████| 1436/1436 [00:27<00:00, 52.38it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## VISION_CAPTACION_DUENOS_VILLAS_PLAN
+ to=selfEres estratega de anuncios Meta y director de video. Da SOLO respuesta final en español, sin razonamiento. PLAN 10/10/10: confianza, claridad, mensajes calificados.
+NEGOCIO REAL: Visión Agencia, Carlos en Sonora. Servicio a negocios de México 100% en línea. Cobra $500 MXN al mes por estrategia y videos; pauta de Meta SE PAGA APARTE, desde $250 al mes, sin prometer reservas, ventas ni plazos. Público de ESTE anuncio: propietarios/administradores que RENTAN villas, casas o departamentos vacacionales; NO turistas buscando hospedaje. Objetivo: que el dueño envíe por WhatsApp VILLA + ciudad + 3 fotos reales para crear una muestra. WhatsApp de Carlos: 6312470486.
+MATERIAL REAL DISPONIBLE: recorridos ya animados a partir de fotos reales de Villa Bahía 3C, 4C y Caracol en San Carlos. Se puede enseñar foto estática antes y su MISMO recorrido después. NO presentar estas propiedades como clientes de pago, caso con resultados o convenios: son muestras. Voz de Carlos clonada autorizada. Referencia disponible DM4A9JqzC1f: recorridos con cortes al ritmo; usarlo como ritmo, no copiar sus imágenes. Sin escenas nuevas GPU: montaje de clips ya hechos, sobreimpresos limpios y voz. Importante que desde el primer segundo quede claro que va a DUEÑOS de alojamientos, no huéspedes. Precio de servicio y pauta separados, legibles al menos 4 segundos. Cierre con filtro VILLA + ciudad y número de WhatsApp.
+Devuelve: 1) Guion exacto de voz de 50-65 palabras máximo para 23-28 s, natural, gancho que diga dueño. 2) Textos en pantalla por bloques con segundos. 3) Orden de escenas: antes/foto, después/recorrido, evidencia de muestra, oferta, CTA. 4) Riesgos concretos a evitar. No des calificación actual porque el anuncio no existe todavía.
+
+We need to output only final answer in Spanish, no reasoning. Provide 1) script exact voice 50-65 words max for 23-28 s, natural, hook that says dueño. 2) Textos en pantalla por bloques con segundos. 3) Orden de escenas: antes/foto, después/recorrido, evidencia de muestra, oferta, CTA. 4) Riesgos concretos a evitar.
+
+No des calificación actual porque anuncio no existe todavía.
+
+Must follow constraints: price service $500 MXN al mes por estrategia y videos; pauta Meta SE PAGA APARTE, desde $250 al mes, sin prometer reservas, ventas ni plazos. Must be clear from first second it's to owners not guests.
+
+No present properties as paying clients, case with results or agreements: are samples.
+
+Use voice clone authorized.
+
+Reference DM4A9JqzC1f: recorridos con cortes al ritmo; usarlo como ritmo, no copiar sus imágenes.
+
+No new GPU scenes: montage of clips already made, clean overlays and voice.
+
+Price service and pauta separated, legible at least 4 seconds.
+
+Close with filter VILLA + ciudad and WhatsApp number.
+
+Provide script 50-65 words max. Let's count.
+
+Need 50-65 words. Let's craft ~58 words.
+
+Possible script:
+
+"Dueño de villa, casa o depa vacacional: esto es para ti. En Visión Agencia convertimos tus fotos en recorridos animados para atraer más consultas. Servicio en línea para todo México por $500 al mes. Pauta por separado desde $250. Escríbeme por WhatsApp VILLA, ciudad y 3 fotos para ver una muestra gratis."
+
+Count words.
+
+Dueño(1) de2 villa,3 casa4 o5 depa6 vacacional:7 esto8 es9 para10 ti.11 En12 Visión13 Agencia14 convertimos15 tus16 fotos17 en18 recorridos19 animados20 para21 atraer22 más23 consultas.24 Servicio25 en26 línea27 para28 todo29 México30 por31 $50032 al33 mes.34 Pauta35 por36 separado37 desde38 $250.39 Escríbeme40 por41 WhatsApp42 VILLA,43 ciudad44 y45 346 fotos47 para48 ver49 una50 muestra51 gratis52.
+
+52 words. Good within 50-65.
+
+Maybe add Carlos? Could be okay. Might need mention Carlos? Not required. Could add "Soy Carlos". Let's keep.
+
+Maybe add "sin prometer reservas". Might be too long. The script must be natural.
+
+Alternative: ensure hook says dueño. Good.
+
+Now textos en pantalla por bloques con segundos.
+
+Need timeline 23-28 s.
+
+Let's propose 0-3s, 3-7s, etc.
+
+Textos en pantalla.
+
+Need price legible at least 4 seconds.
+
+Provide blocks.
+
+Orden de escenas: antes/foto, después/recorrido, evidencia de muestra, oferta, CTA.
+
+Riesgos concretos a evitar.
+
+Provide list.
+
+No reasoning. Just final answer.
+
+Ensure Spanish.
+
+No calificación.
+
+Make sure not to present properties as clients. Say muestras.
+
+Provide WhatsApp 6312470486.
+
+Close with filtro VILLA + ciudad.
+
+Make sure texts on screen separate price service and pauta.
+
+Let's produce structured output.
+
+Probably headings:
+
+1) Guion exacto de voz
+2) Textos en pantalla por bloques con segundos
+3) Orden de escenas
+4) Riesgos concretos a evitar
+
+Ensure no extra reasoning.
+
+Let's craft.
+
+Textos en pantalla:
+
+0-3s: DUEÑOS DE VILLAS, CASAS Y DEPARTAMENTOS VACACIONALES
+3-7s: Tus fotos estáticas → recorrido animado
+7-12s: MUESTRA REAL: Villa Bahía 3C, 4C y Caracol, San Carlos
+12-16s: Servicio Visión Agencia con Carlos, Sonora. 100% en línea México
+16-20s: ESTRATEGIA + VIDEOS $500 MXN / MES
+20-24s: PAUTA META SE PAGA APARTE DESDE $250 / MES
+24-28s: WhatsApp 6312470486 → Escribe: VILLA + CIUDAD + 3 FOTOS
+
+Need legible at least 4 seconds each price. 16-20 is 4s, 20-24 is 4s. Good.
+
+Orden de escenas:
+
+1. Antes/foto: foto estática Villa Bahía 3C...
+2. Después/recorrido: mismo recorrido animado...
+etc.
+
+Provide bullet list.
+
+Riesgos concretos a evitar:
+
+- No confundir con turistas...
+- No presentar propiedades como clientes...
+- No prometer reservas/ventas/plazos...
+- No mezclar precios...
+- No usar imágenes de referencia...
+- No generar escenas nuevas GPU...
+etc.
+
+Make sure output only final.
+
+Let's ensure script word count 50-65. 52 words ok.
+
+Maybe add "Soy Carlos". Could be good for confianza. Let's try add "Soy Carlos". That adds words.
+
+Current script 52 words. Add "Soy Carlos" before En? Let's recalc.
+
+"Dueño de villa, casa o depa vacacional: esto es para ti. Soy Carlos de Visión Agencia. Convertimos tus fotos en recorridos animados para atraer más consultas. Servicio en línea para todo México por $500 al mes. Pauta por separado desde $250. Escríbeme por WhatsApp VILLA, ciudad y 3 fotos para ver una muestra gratis."
+
+Count:
+
+Dueño1 de2 villa,3 casa4 o5 depa6 vacacional:7 esto8 es9 para10 ti.11 Soy12 Carlos13 de14 Visión15 Agencia.16 Convertimos17 tus18 fotos19 en20 recorridos21 animados22 para23 atraer24 más25 consultas.26 Servicio27 en28 línea29 para30 todo31 México32 por33 $50034 al35 mes.36 Pauta37 por38 separado39 desde40 $250.41 Escríbeme42 por43 WhatsApp44 VILLA,45 ciudad46 y47 348 fotos49 para50 ver51 una52 muestra53 gratis54.
+
+54 words. Good.
+
+Now final output.
+
+Ensure no reasoning preamble. Just answer.
+
+Possibly use bold headings.
+
+Make sure Spanish.
+
+Let's output.assistant to=user**1) Guion exacto de voz 23-28 s, 54 palabras**
+
+Dueño de villa, casa o depa vacacional: esto es para ti. Soy Carlos de Visión Agencia. Convertimos tus fotos en recorridos animados para atraer más consultas. Servicio en línea para todo México por $500 al mes. Pauta por separado desde $250. Escríbeme por WhatsApp VILLA, ciudad y 3 fotos para ver una muestra gratis.
+
+**2) Textos en pantalla por bloques con segundos**
+
+0-3s: DUEÑOS DE VILLAS, CASAS Y DEPARTAMENTOS VACACIONALES
+3-7s: Tus fotos estáticas → recorrido animado
+7-12s: MUESTRA: Villa Bahía 3C, 4C y Caracol, San Carlos
+12-16s: Visión Agencia con Carlos, Sonora. Servicio 100% en línea para México
+16-20s: ESTRATEGIA + VIDEOS $500 MXN / MES
+20-24s: PAUTA META SE PAGA APARTE DESDE $250 / MES
+24-28s: WhatsApp 6312470486
+Escribe: VILLA + CIUDAD + 3 FOTOS
+
+**3) Orden de escenas**
+
+Antes/foto: foto estática real de Villa Bahía 3C / 4C / Caracol San Carlos, con sobreimpreso “Foto estática”.
+Después/recorrido: mismo inmueble con su recorrido ya animado a partir de fotos reales, cortes al ritmo tipo referencia DM4A9JqzC1f.
+Evidencia de muestra: alternar foto estática y recorrido del mismo ángulo para mostrar transformación. Texto “MUESTRA, no cliente”.
+Oferta: pantalla limpia con precios separados y legibles: Estrategia + videos $500 MXN/mes y Pauta Meta aparte desde $250/mes.
+CTA: cierre con número de WhatsApp 6312470486 y filtro de texto “VILLA + CIUDAD + 3 FOTOS”.
+
+**4) Riesgos concretos a evitar**
+
+No dirigir el mensaje a turistas ni a búsqueda de hospedaje; el gancho debe decir dueño desde el primer segundo.
+No presentar Villa Bahía 3C, 4C y Caracol como clientes de pago, casos con resultados o convenios; son muestras.
+No prometer reservas, ventas ni plazos.
+No mezclar precio de servicio y pauta; mostrarlos separados y legibles mínimo 4 segundos cada uno.
+No usar imágenes de la referencia DM4A9JqzC1f, solo su ritmo de cortes.
+No generar escenas nuevas con IA; solo montaje de clips ya hechos, sobreimpresos limpios y voz clonada de Carlos.
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-dE6jUB0y0UItaZUUY6DQ5V
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/captacion_villas_20261101/plan_lote.json --tokens 4500
+Duración: 4.1 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.001
+  glimmer (ap-dE6jUB0y0UItaZUUY6DQ5V): $0.169
+Gasto del trabajo: $0.170
+Saldo restante ≈ $17.32

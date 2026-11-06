@@ -1,0 +1,235 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-mRpFjvW2Jn1Z5eIYwQl5Ib
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<32:40,  1.37s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:02<34:55,  1.46s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:03<13:59,  1.71it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:03<10:41,  2.23it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:03<08:38,  2.76it/s]
+[1ALoading weights:   1%|          | 13/1436 [00:03<02:22,  9.96it/s]
+[1ALoading weights:   1%|          | 16/1436 [00:03<01:56, 12.15it/s]
+[1ALoading weights:   1%|▏         | 19/1436 [00:03<02:05, 11.28it/s]
+[1ALoading weights:   2%|▏         | 25/1436 [00:03<01:17, 18.18it/s]
+[1ALoading weights:   2%|▏         | 29/1436 [00:04<01:22, 16.95it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:04<01:22, 17.04it/s]
+[1ALoading weights:   3%|▎         | 40/1436 [00:04<01:02, 22.35it/s]
+[1ALoading weights:   3%|▎         | 43/1436 [00:04<01:18, 17.75it/s]
+[1ALoading weights:   3%|▎         | 49/1436 [00:05<00:59, 23.21it/s]
+[1ALoading weights:   4%|▎         | 52/1436 [00:05<01:00, 23.00it/s]
+[1ALoading weights:   4%|▍         | 55/1436 [00:05<01:21, 16.97it/s]
+[1ALoading weights:   4%|▍         | 62/1436 [00:05<00:55, 24.82it/s]
+[1ALoading weights:   5%|▍         | 66/1436 [00:06<01:18, 17.45it/s]
+[1ALoading weights:   5%|▌         | 73/1436 [00:06<00:56, 24.13it/s]
+[1ALoading weights:   5%|▌         | 77/1436 [00:06<01:04, 20.97it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:06<01:08, 19.89it/s]
+[1ALoading weights:   6%|▌         | 86/1436 [00:06<01:00, 22.20it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:07<01:00, 22.18it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:07<01:05, 20.61it/s]
+[1ALoading weights:   7%|▋         | 98/1436 [00:07<00:48, 27.55it/s]
+[1ALoading weights:   7%|▋         | 102/1436 [00:07<01:10, 18.91it/s]
+[1ALoading weights:   8%|▊         | 110/1436 [00:07<00:47, 27.67it/s]
+[1ALoading weights:   8%|▊         | 114/1436 [00:08<01:08, 19.26it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:08<00:48, 26.96it/s]
+[1ALoading weights:   9%|▉         | 127/1436 [00:08<01:06, 19.61it/s]
+[1ALoading weights:   9%|▉         | 135/1436 [00:08<00:47, 27.19it/s]
+[1ALoading weights:  10%|▉         | 140/1436 [00:09<01:03, 20.43it/s]
+[1ALoading weights:  10%|█         | 146/1436 [00:09<01:01, 21.07it/s]
+[1ALoading weights:  10%|█         | 150/1436 [00:09<01:08, 18.91it/s]
+[1ALoading weights:  11%|█         | 158/1436 [00:09<00:48, 26.56it/s]
+[1ALoading weights:  11%|█▏        | 162/1436 [00:10<01:05, 19.58it/s]
+[1ALoading weights:  12%|█▏        | 169/1436 [00:10<00:48, 26.10it/s]
+[1ALoading weights:  12%|█▏        | 174/1436 [00:10<01:03, 19.97it/s]
+[1ALoading weights:  13%|█▎        | 181/1436 [00:11<00:56, 22.02it/s]
+[1ALoading weights:  13%|█▎        | 185/1436 [00:11<01:04, 19.33it/s]
+[1ALoading weights:  14%|█▎        | 194/1436 [00:11<00:43, 28.65it/s]
+[1ALoading weights:  14%|█▍        | 199/1436 [00:11<00:57, 21.50it/s]
+[1ALoading weights:  14%|█▍        | 205/1436 [00:12<00:46, 26.39it/s]
+[1ALoading weights:  15%|█▍        | 210/1436 [00:12<01:01, 19.92it/s]
+[1ALoading weights:  15%|█▌        | 217/1436 [00:12<00:46, 26.22it/s]
+[1ALoading weights:  15%|█▌        | 222/1436 [00:13<01:02, 19.46it/s]
+[1ALoading weights:  16%|█▌        | 230/1436 [00:13<00:45, 26.76it/s]
+[1ALoading weights:  16%|█▋        | 235/1436 [00:13<00:58, 20.60it/s]
+[1ALoading weights:  17%|█▋        | 241/1436 [00:13<00:47, 25.20it/s]
+[1ALoading weights:  17%|█▋        | 246/1436 [00:14<00:59, 19.89it/s]
+[1ALoading weights:  18%|█▊        | 253/1436 [00:14<00:46, 25.32it/s]
+[1ALoading weights:  18%|█▊        | 257/1436 [00:14<00:53, 22.01it/s]
+[1ALoading weights:  18%|█▊        | 261/1436 [00:14<00:53, 22.05it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:14<00:45, 25.45it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:15<00:56, 20.45it/s]
+[1ALoading weights:  19%|█▉        | 275/1436 [00:15<00:53, 21.78it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:15<00:43, 26.56it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:15<00:56, 20.32it/s]
+[1ALoading weights:  20%|█▉        | 287/1436 [00:15<00:53, 21.66it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:15<00:42, 26.94it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:16<00:56, 20.25it/s]
+[1ALoading weights:  21%|██        | 302/1436 [00:16<00:42, 27.00it/s]
+[1ALoading weights:  21%|██▏       | 306/1436 [00:16<01:01, 18.51it/s]
+[1ALoading weights:  22%|██▏       | 313/1436 [00:16<00:43, 25.55it/s]
+[1ALoading weights:  22%|██▏       | 317/1436 [00:17<00:50, 21.98it/s]
+[1ALoading weights:  22%|██▏       | 321/1436 [00:17<00:50, 22.04it/s]
+[1ALoading weights:  23%|██▎       | 325/1436 [00:17<00:45, 24.37it/s]
+[1ALoading weights:  23%|██▎       | 329/1436 [00:17<00:51, 21.43it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:17<00:53, 20.56it/s]
+[1ALoading weights:  23%|██▎       | 337/1436 [00:18<00:52, 21.02it/s]
+[1ALoading weights:  24%|██▎       | 341/1436 [00:18<00:46, 23.48it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:18<00:51, 21.33it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:18<00:39, 27.16it/s]
+[1ALoading weights:  25%|██▍       | 355/1436 [00:18<00:53, 20.16it/s]
+[1ALoading weights:  25%|██▌       | 362/1436 [00:18<00:38, 27.82it/s]
+[1ALoading weights:  25%|██▌       | 366/1436 [00:19<00:56, 18.96it/s]
+[1ALoading weights:  26%|██▌       | 374/1436 [00:19<00:45, 23.21it/s]
+[1ALoading weights:  26%|██▋       | 377/1436 [00:19<00:46, 23.00it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:19<00:49, 21.34it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:20<00:39, 26.59it/s]
+[1ALoading weights:  27%|██▋       | 391/1436 [00:20<00:52, 19.85it/s]
+[1ALoading weights:  28%|██▊       | 397/1436 [00:20<00:40, 25.62it/s]
+[1ALoading weights:  28%|██▊       | 401/1436 [00:20<00:47, 21.91it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:20<00:48, 21.10it/s]
+[1ALoading weights:  28%|██▊       | 409/1436 [00:21<00:48, 21.24it/s]
+[1ALoading weights:  29%|██▉       | 413/1436 [00:21<00:56, 18.09it/s]
+[1ALoading weights:  29%|██▉       | 420/1436 [00:21<00:39, 25.79it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:21<00:37, 27.28it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:22<00:48, 20.93it/s]
+[1ALoading weights:  30%|███       | 434/1436 [00:22<00:46, 21.64it/s]
+[1ALoading weights:  30%|███       | 437/1436 [00:22<00:44, 22.29it/s]
+[1ALoading weights:  31%|███       | 440/1436 [00:22<00:48, 20.74it/s]
+[1ALoading weights:  31%|███       | 447/1436 [00:22<00:40, 24.52it/s]
+[1ALoading weights:  31%|███▏      | 450/1436 [00:23<00:51, 19.07it/s]
+[1ALoading weights:  32%|███▏      | 455/1436 [00:23<00:41, 23.56it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:23<00:35, 27.48it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:23<00:46, 21.12it/s]
+[1ALoading weights:  33%|███▎      | 467/1436 [00:23<00:43, 22.14it/s]
+[1ALoading weights:  33%|███▎      | 473/1436 [00:24<00:41, 23.00it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:24<00:45, 21.27it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:24<00:35, 27.13it/s]
+[1ALoading weights:  34%|███▍      | 487/1436 [00:24<00:47, 20.04it/s]
+[1ALoading weights:  34%|███▍      | 493/1436 [00:24<00:36, 26.18it/s]
+[1ALoading weights:  35%|███▍      | 497/1436 [00:25<00:50, 18.58it/s]
+[1ALoading weights:  35%|███▌      | 506/1436 [00:25<00:32, 28.28it/s]
+[1ALoading weights:  36%|███▌      | 511/1436 [00:25<00:46, 19.72it/s]
+[1ALoading weights:  36%|███▌      | 519/1436 [00:25<00:33, 27.03it/s]
+[1ALoading weights:  36%|███▋      | 524/1436 [00:26<00:46, 19.79it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:26<00:37, 23.90it/s]
+[1ALoading weights:  37%|███▋      | 536/1436 [00:26<00:44, 20.32it/s]
+[1ALoading weights:  38%|███▊      | 542/1436 [00:26<00:35, 25.34it/s]
+[1ALoading weights:  38%|███▊      | 546/1436 [00:27<00:47, 18.87it/s]
+[1ALoading weights:  38%|███▊      | 552/1436 [00:27<00:36, 24.23it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:27<00:34, 25.19it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:27<00:42, 20.47it/s]
+[1ALoading weights:  39%|███▉      | 565/1436 [00:28<00:35, 24.87it/s]
+[1ALoading weights:  40%|███▉      | 569/1436 [00:28<00:40, 21.55it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:28<00:42, 20.55it/s]
+[1ALoading weights:  40%|████      | 578/1436 [00:28<00:31, 26.88it/s]
+[1ALoading weights:  41%|████      | 582/1436 [00:29<00:47, 18.04it/s]
+[1ALoading weights:  41%|████      | 592/1436 [00:29<00:37, 22.39it/s]
+[1ALoading weights:  41%|████▏     | 595/1436 [00:29<00:38, 21.68it/s]
+[1ALoading weights:  42%|████▏     | 599/1436 [00:29<00:34, 24.07it/s]
+[1ALoading weights:  42%|████▏     | 604/1436 [00:29<00:29, 27.79it/s]
+[1ALoading weights:  42%|████▏     | 608/1436 [00:30<00:40, 20.64it/s]
+[1ALoading weights:  43%|████▎     | 615/1436 [00:30<00:33, 24.25it/s]
+[1ALoading weights:  43%|████▎     | 618/1436 [00:30<00:42, 19.12it/s]
+[1ALoading weights:  44%|████▍     | 630/1436 [00:30<00:24, 33.56it/s]
+[1ALoading weights:  46%|████▌     | 658/1436 [00:30<00:10, 75.96it/s]
+[1ALoading weights:  48%|████▊     | 686/1436 [00:30<00:06, 114.64it/s]
+[1ALoading weights:  49%|████▉     | 706/1436 [00:31<00:05, 129.67it/s]
+[1ALoading weights:  51%|█████▏    | 738/1436 [00:31<00:04, 168.81it/s]
+[1ALoading weights:  54%|█████▍    | 778/1436 [00:31<00:02, 222.03it/s]
+[1ALoading weights:  57%|█████▋    | 824/1436 [00:31<00:02, 275.08it/s]
+[1ALoading weights:  60%|██████    | 862/1436 [00:31<00:01, 302.29it/s]
+[1ALoading weights:  62%|██████▏   | 895/1436 [00:31<00:01, 309.68it/s]
+[1ALoading weights:  65%|██████▌   | 938/1436 [00:31<00:01, 330.71it/s]
+[1ALoading weights:  68%|██████▊   | 975/1436 [00:31<00:01, 340.63it/s]
+[1ALoading weights:  70%|███████   | 1010/1436 [00:31<00:01, 341.44it/s]
+[1ALoading weights:  73%|███████▎  | 1047/1436 [00:31<00:01, 347.94it/s]
+[1ALoading weights:  75%|███████▌  | 1083/1436 [00:32<00:01, 348.99it/s]
+[1ALoading weights:  78%|███████▊  | 1127/1436 [00:32<00:00, 361.97it/s]
+[1ALoading weights:  81%|████████▏ | 1167/1436 [00:32<00:00, 356.17it/s]
+[1ALoading weights:  84%|████████▍ | 1212/1436 [00:32<00:00, 367.48it/s]
+[1ALoading weights:  87%|████████▋ | 1250/1436 [00:32<00:00, 354.95it/s]
+[1ALoading weights:  91%|█████████ | 1301/1436 [00:32<00:00, 397.46it/s]
+[1ALoading weights:  93%|█████████▎| 1342/1436 [00:32<00:00, 364.28it/s]
+[1ALoading weights:  96%|█████████▌| 1382/1436 [00:32<00:00, 373.72it/s]
+[1ALoading weights:  99%|█████████▉| 1422/1436 [00:32<00:00, 380.12it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:32<00:00, 43.57it/s] 
+[transformers] Both `max_new_tokens` (=4000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## CASER_V2
+**Anuncio A**
+
+1. **Calificación**
+* Total: **7.5/10**
+* Oferta: 7/10
+* Confianza: 7/10
+* Claridad: 8/10
+* Calidad visual: 8/10
+* Políticas de Meta: 8/10
+* Probabilidad de mensajes baratos: Alta
+* Probabilidad de mensajes calificados: Media
+
+2. **Por qué funciona**
+* Foto real del local con motos frente a Caser Empeños Pachuca, sin personas de IA y con contexto de negocio.
+* Mensaje de valuación sin compromiso y requisitos visibles: factura original e identificación, también herramienta, línea blanca y electrónica.
+* Ubicación y horario claros: Linda Vista, frente a Matilde · 9:00 a 17:00, más WhatsApp y teléfono.
+
+3. **Qué lo frena**
+* Lenguaje de préstamo implícito. “Te decimos cuánto, sin compromiso” y “valuados hoy” pueden leerse como oferta de dinero. Arreglo exacto: cambiar apoyo a “Te damos una valuación sin compromiso” y titular a “Valuamos tu moto o auto hoy”. Sube +0.5.
+* Requisitos incompletos para el negocio. Falta refactura con copia de origen y para auto extranjero título y pedimento. Arreglo exacto: agregar viñeta “Factura original o refactura con copia de origen. Auto extranjero: título y pedimento”. Sube +0.5.
+* Enfoque amplio que atrae cotizadores. “Tu moto o tu auto” genera mensajes de solo precio. Arreglo exacto: añadir filtro en el texto “Envíanos modelo, año y fotos por WhatsApp”. Sube +0.3.
+
+4. **Calificación proyectada con arreglos:** 8.8/10
+
+**Anuncio B**
+
+1. **Calificación**
+* Total: **8.5/10**
+* Oferta: 8/10
+* Confianza: 9/10
+* Claridad: 9/10
+* Calidad visual: 8/10
+* Políticas de Meta: 9/10
+* Probabilidad de mensajes baratos: Media
+* Probabilidad de mensajes calificados: Alta
+
+2. **Por qué funciona**
+* Pregunta directa que pide datos del bien: “¿Qué modelo y año quieres empeñar?” precalifica.
+* Requisitos completos y correctos: factura original o refactura con copia de origen, auto extranjero título y pedimento, horario 9:00 a 17:00.
+* Foto real del local, sin IA, con CTA claro a WhatsApp y datos de contacto y ubicación.
+
+3. **Qué lo frena**
+* “Te damos el monto” puede interpretarse como promesa de dinero. Arreglo exacto: cambiar apoyo a “Te damos una valuación aproximada”. Sube +0.3.
+* Falta identificación en los requisitos visibles. Arreglo exacto: agregar viñeta “Identificación oficial”. Sube +0.2.
+* No menciona los giros adicionales que maneja. Arreglo exacto: añadir “También herramienta, línea blanca y electrónica”. Sube +0.2.
+
+4. **Calificación proyectada con arreglos:** 9.2/10
+
+5. **Cuál lanzar primero y por qué**
+Lanzar primero el Anuncio B. Pide modelo y año, muestra requisitos completos y genera mensajes más calificados. El A puede usarse como retargeting con enfoque en valuación sin compromiso.
+
+6. **Veredicto**
+* Anuncio A: No se lanza tal cual. Se lanza después de ajustar lenguaje y requisitos.
+* Anuncio B: Sí se lanza con el pequeño ajuste de lenguaje para evitar “monto” y agregar identificación.
+
+7. **Mensaje para el dueño por WhatsApp**
+
+Le dejé calificación a sus dos anuncios. El B está mucho mejor porque pide modelo y año y muestra los requisitos completos, eso trae gente más seria. El A también sirve pero hay que quitar palabras que suenan a préstamo y poner todos los requisitos. Con esos cambios el B queda listo para publicar y el A para usar después. Le mando los textos exactos para que los copie y los suba hoy.
+Stopping app - local entrypoint completed.
+[modal-client] 2026-11-05T19:54:22+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-mRpFjvW2Jn1Z5eIYwQl5Ib
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_caser_v2_20261105/lote.json --tokens 4000
+Duración: 2.5 min  (código 0)
+  glimmer (ap-6UHfVhJZz3AxIM5ECPeNUS): $0.089
+  glimmer (ap-mRpFjvW2Jn1Z5eIYwQl5Ib): $0.097
+Gasto del trabajo: $0.186
+Saldo restante ≈ $-11.88

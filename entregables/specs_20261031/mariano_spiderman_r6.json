@@ -1,0 +1,25 @@
+{
+ "carpeta": "mariano_spiderman_r6",
+ "salida": "clientes/Mariano/video/spiderman/r6/salida",
+ "semilla": 61,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "KT1_salto",
+   "K1_techo",
+   "Vertical realistic wide shot, static camera at ground level in front of a modern flat-roof beige two-story house, sunny blue sky. The same man in light blue blazer, white shirt and jeans. Natural human physics. No text. Standing on the roof edge, he bends his knees and jumps up and backwards, starting a backflip, rotating until he is upside down high above the roof. Fast athletic motion. Audio: whoosh.",
+   2.6,
+   null,
+   "K2_marometa"
+  ],
+  [
+   "KT2_cae",
+   "K2_marometa",
+   "Vertical realistic wide shot, static camera at ground level in front of a modern flat-roof beige two-story house, sunny blue sky. The same man in light blue blazer, white shirt and jeans. Natural human physics. No text. Upside down in the air, he completes the backflip rotation and falls feet first fast toward the camera, growing larger, arms up, his shadow on the concrete. Audio: whoosh.",
+   2.6,
+   null,
+   "K3_cae"
+  ]
+ ]
+}

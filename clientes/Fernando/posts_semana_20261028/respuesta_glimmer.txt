@@ -1,0 +1,371 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fabelagabriel645/main/ap-fIC01u8uwdWA9RYGcVSAqN
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/modelos_modal/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<34:27,  1.44s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:03<36:37,  1.53s/it]
+[1ALoading weights:   0%|          | 3/1436 [00:03<21:28,  1.11it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:03<10:09,  2.35it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:03<08:19,  2.86it/s]
+[1ALoading weights:   1%|          | 13/1436 [00:03<02:24,  9.85it/s]
+[1ALoading weights:   1%|          | 16/1436 [00:03<01:59, 11.92it/s]
+[1ALoading weights:   1%|▏         | 19/1436 [00:03<02:03, 11.52it/s]
+[1ALoading weights:   2%|▏         | 26/1436 [00:04<01:26, 16.24it/s]
+[1ALoading weights:   2%|▏         | 29/1436 [00:04<01:20, 17.46it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:04<01:21, 17.24it/s]
+[1ALoading weights:   2%|▏         | 35/1436 [00:04<01:15, 18.47it/s]
+[1ALoading weights:   3%|▎         | 40/1436 [00:04<00:58, 23.99it/s]
+[1ALoading weights:   3%|▎         | 43/1436 [00:05<01:18, 17.76it/s]
+[1ALoading weights:   3%|▎         | 48/1436 [00:05<01:00, 22.87it/s]
+[1ALoading weights:   4%|▎         | 52/1436 [00:05<00:55, 24.72it/s]
+[1ALoading weights:   4%|▍         | 55/1436 [00:05<01:20, 17.17it/s]
+[1ALoading weights:   4%|▍         | 63/1436 [00:05<00:58, 23.58it/s]
+[1ALoading weights:   5%|▍         | 66/1436 [00:06<01:12, 18.92it/s]
+[1ALoading weights:   5%|▌         | 72/1436 [00:06<00:54, 25.11it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:06<00:51, 26.28it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:06<01:10, 19.35it/s]
+[1ALoading weights:   6%|▌         | 83/1436 [00:06<01:06, 20.38it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:07<01:17, 17.34it/s]
+[1ALoading weights:   7%|▋         | 96/1436 [00:07<00:55, 24.35it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:07<00:54, 24.56it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:07<01:09, 19.27it/s]
+[1ALoading weights:   8%|▊         | 110/1436 [00:08<00:53, 24.79it/s]
+[1ALoading weights:   8%|▊         | 114/1436 [00:08<01:16, 17.31it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:08<00:52, 25.22it/s]
+[1ALoading weights:   9%|▉         | 126/1436 [00:09<01:11, 18.20it/s]
+[1ALoading weights:   9%|▉         | 133/1436 [00:09<00:52, 24.71it/s]
+[1ALoading weights:  10%|▉         | 138/1436 [00:09<01:07, 19.16it/s]
+[1ALoading weights:  10%|▉         | 143/1436 [00:09<00:57, 22.36it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:09<00:49, 26.11it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:10<01:01, 20.76it/s]
+[1ALoading weights:  11%|█         | 158/1436 [00:10<00:48, 26.55it/s]
+[1ALoading weights:  11%|█▏        | 162/1436 [00:10<01:10, 18.12it/s]
+[1ALoading weights:  12%|█▏        | 170/1436 [00:10<00:47, 26.48it/s]
+[1ALoading weights:  12%|█▏        | 175/1436 [00:11<01:03, 19.95it/s]
+[1ALoading weights:  13%|█▎        | 181/1436 [00:11<00:49, 25.24it/s]
+[1ALoading weights:  13%|█▎        | 186/1436 [00:11<01:04, 19.50it/s]
+[1ALoading weights:  14%|█▎        | 194/1436 [00:11<00:46, 26.86it/s]
+[1ALoading weights:  14%|█▍        | 199/1436 [00:12<01:01, 20.21it/s]
+[1ALoading weights:  14%|█▍        | 205/1436 [00:12<00:49, 24.93it/s]
+[1ALoading weights:  15%|█▍        | 209/1436 [00:12<00:58, 20.96it/s]
+[1ALoading weights:  15%|█▍        | 213/1436 [00:12<00:58, 20.91it/s]
+[1ALoading weights:  15%|█▌        | 218/1436 [00:12<00:48, 25.18it/s]
+[1ALoading weights:  15%|█▌        | 222/1436 [00:13<01:08, 17.77it/s]
+[1ALoading weights:  16%|█▌        | 229/1436 [00:13<00:48, 24.98it/s]
+[1ALoading weights:  16%|█▌        | 233/1436 [00:13<00:55, 21.67it/s]
+[1ALoading weights:  17%|█▋        | 237/1436 [00:13<00:54, 21.89it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:14<00:45, 26.05it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:14<00:57, 20.61it/s]
+[1ALoading weights:  18%|█▊        | 254/1436 [00:14<00:45, 25.71it/s]
+[1ALoading weights:  18%|█▊        | 258/1436 [00:14<01:04, 18.38it/s]
+[1ALoading weights:  18%|█▊        | 265/1436 [00:15<00:46, 25.23it/s]
+[1ALoading weights:  19%|█▊        | 269/1436 [00:15<01:03, 18.52it/s]
+[1ALoading weights:  19%|█▉        | 278/1436 [00:15<00:41, 27.87it/s]
+[1ALoading weights:  20%|█▉        | 283/1436 [00:15<00:54, 21.32it/s]
+[1ALoading weights:  20%|██        | 290/1436 [00:16<00:41, 27.50it/s]
+[1ALoading weights:  21%|██        | 295/1436 [00:16<00:56, 20.25it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:16<00:42, 26.58it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:16<00:51, 22.08it/s]
+[1ALoading weights:  22%|██▏       | 313/1436 [00:17<00:43, 25.70it/s]
+[1ALoading weights:  22%|██▏       | 317/1436 [00:17<00:50, 22.20it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:17<00:51, 21.47it/s]
+[1ALoading weights:  23%|██▎       | 325/1436 [00:17<00:52, 21.03it/s]
+[1ALoading weights:  23%|██▎       | 329/1436 [00:18<01:00, 18.34it/s]
+[1ALoading weights:  23%|██▎       | 336/1436 [00:18<00:42, 25.60it/s]
+[1ALoading weights:  24%|██▎       | 340/1436 [00:18<00:40, 27.20it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:18<00:52, 20.67it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:18<00:42, 25.42it/s]
+[1ALoading weights:  25%|██▍       | 356/1436 [00:19<00:53, 20.17it/s]
+[1ALoading weights:  25%|██▌       | 363/1436 [00:19<00:39, 27.35it/s]
+[1ALoading weights:  26%|██▌       | 367/1436 [00:19<00:57, 18.53it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:19<00:42, 24.83it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:20<00:51, 20.39it/s]
+[1ALoading weights:  27%|██▋       | 385/1436 [00:20<00:43, 24.08it/s]
+[1ALoading weights:  27%|██▋       | 389/1436 [00:20<00:49, 21.18it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:20<00:51, 20.37it/s]
+[1ALoading weights:  28%|██▊       | 398/1436 [00:20<00:38, 26.79it/s]
+[1ALoading weights:  28%|██▊       | 402/1436 [00:21<00:56, 18.43it/s]
+[1ALoading weights:  29%|██▊       | 410/1436 [00:21<00:46, 22.25it/s]
+[1ALoading weights:  29%|██▉       | 413/1436 [00:21<00:45, 22.32it/s]
+[1ALoading weights:  29%|██▉       | 416/1436 [00:21<00:46, 22.01it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:21<00:36, 28.04it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:22<00:46, 21.59it/s]
+[1ALoading weights:  30%|███       | 436/1436 [00:22<00:36, 27.19it/s]
+[1ALoading weights:  31%|███       | 440/1436 [00:22<00:46, 21.44it/s]
+[1ALoading weights:  31%|███       | 447/1436 [00:22<00:35, 27.92it/s]
+[1ALoading weights:  31%|███▏      | 451/1436 [00:23<00:50, 19.69it/s]
+[1ALoading weights:  32%|███▏      | 457/1436 [00:23<00:46, 20.93it/s]
+[1ALoading weights:  32%|███▏      | 461/1436 [00:23<00:51, 18.95it/s]
+[1ALoading weights:  33%|███▎      | 470/1436 [00:23<00:34, 28.20it/s]
+[1ALoading weights:  33%|███▎      | 474/1436 [00:24<00:48, 19.86it/s]
+[1ALoading weights:  33%|███▎      | 479/1436 [00:24<00:40, 23.36it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:24<00:35, 26.88it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:24<00:45, 21.02it/s]
+[1ALoading weights:  34%|███▍      | 491/1436 [00:25<00:42, 22.01it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:25<00:35, 26.14it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:25<00:45, 20.48it/s]
+[1ALoading weights:  35%|███▌      | 506/1436 [00:25<00:34, 26.87it/s]
+[1ALoading weights:  36%|███▌      | 510/1436 [00:25<00:51, 18.08it/s]
+[1ALoading weights:  36%|███▌      | 518/1436 [00:26<00:34, 26.35it/s]
+[1ALoading weights:  36%|███▋      | 523/1436 [00:26<00:46, 19.69it/s]
+[1ALoading weights:  37%|███▋      | 530/1436 [00:26<00:40, 22.18it/s]
+[1ALoading weights:  37%|███▋      | 534/1436 [00:27<00:47, 18.98it/s]
+[1ALoading weights:  38%|███▊      | 542/1436 [00:27<00:33, 27.05it/s]
+[1ALoading weights:  38%|███▊      | 547/1436 [00:27<00:42, 20.94it/s]
+[1ALoading weights:  39%|███▊      | 554/1436 [00:27<00:37, 23.23it/s]
+[1ALoading weights:  39%|███▉      | 558/1436 [00:28<00:43, 20.30it/s]
+[1ALoading weights:  39%|███▉      | 564/1436 [00:28<00:35, 24.64it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:28<00:32, 26.52it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:28<00:40, 21.11it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:28<00:34, 24.71it/s]
+[1ALoading weights:  41%|████      | 583/1436 [00:29<00:43, 19.45it/s]
+[1ALoading weights:  41%|████      | 590/1436 [00:29<00:32, 26.41it/s]
+[1ALoading weights:  41%|████▏     | 594/1436 [00:29<00:46, 18.19it/s]
+[1ALoading weights:  42%|████▏     | 602/1436 [00:29<00:31, 26.11it/s]
+[1ALoading weights:  42%|████▏     | 607/1436 [00:30<00:41, 20.09it/s]
+[1ALoading weights:  43%|████▎     | 614/1436 [00:30<00:31, 25.87it/s]
+[1ALoading weights:  43%|████▎     | 618/1436 [00:30<00:42, 19.07it/s]
+[1ALoading weights:  44%|████▍     | 630/1436 [00:30<00:25, 31.96it/s]
+[1ALoading weights:  46%|████▌     | 663/1436 [00:31<00:10, 77.17it/s]
+[1ALoading weights:  48%|████▊     | 690/1436 [00:31<00:06, 108.05it/s]
+[1ALoading weights:  50%|████▉     | 713/1436 [00:31<00:05, 130.94it/s]
+[1ALoading weights:  52%|█████▏    | 750/1436 [00:31<00:03, 179.28it/s]
+[1ALoading weights:  55%|█████▌    | 796/1436 [00:31<00:02, 240.48it/s]
+[1ALoading weights:  58%|█████▊    | 834/1436 [00:31<00:02, 263.15it/s]
+[1ALoading weights:  61%|██████    | 878/1436 [00:31<00:01, 295.79it/s]
+[1ALoading weights:  63%|██████▎   | 911/1436 [00:31<00:01, 301.30it/s]
+[1ALoading weights:  66%|██████▋   | 953/1436 [00:31<00:01, 326.74it/s]
+[1ALoading weights:  69%|██████▉   | 993/1436 [00:32<00:01, 346.52it/s]
+[1ALoading weights:  72%|███████▏  | 1029/1436 [00:32<00:01, 335.30it/s]
+[1ALoading weights:  74%|███████▍  | 1064/1436 [00:32<00:01, 336.68it/s]
+[1ALoading weights:  77%|███████▋  | 1110/1436 [00:32<00:00, 370.94it/s]
+[1ALoading weights:  80%|████████  | 1150/1436 [00:32<00:00, 368.34it/s]
+[1ALoading weights:  83%|████████▎ | 1188/1436 [00:32<00:00, 370.08it/s]
+[1ALoading weights:  85%|████████▌ | 1226/1436 [00:32<00:00, 361.71it/s]
+[1ALoading weights:  88%|████████▊ | 1263/1436 [00:32<00:00, 351.84it/s]
+[1ALoading weights:  91%|█████████ | 1303/1436 [00:32<00:00, 365.13it/s]
+[1ALoading weights:  93%|█████████▎| 1340/1436 [00:32<00:00, 349.11it/s]
+[1ALoading weights:  96%|█████████▌| 1376/1436 [00:33<00:00, 340.61it/s]
+[1ALoading weights:  98%|█████████▊| 1411/1436 [00:33<00:00, 342.35it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:33<00:00, 43.23it/s] 
+[transformers] Both `max_new_tokens` (=7000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## semana_anegocios
+ to=selfEres estratega de contenido orgánico de Facebook e Instagram para negocios en México. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento.
+
+CLIENTE: Fernando, dueño de ANEGOCIOS... etc.
+
+We need to produce week content: Monday, Wednesday, Friday = 3 feed posts, plus 2 stories Tuesday and Thursday.
+
+For each publication deliver:
+1) Día y objetivo.
+2) Formato y por qué.
+3) Texto EXACTO de cada imagen/lámina (titular corto ≤7 palabras + línea secundaria ≤12 palabras), indicando qué foto real de su material va de fondo o qué elemento.
+4) Copy completo del post (caption) listo para pegar, natural, con 1 pregunta que invite a comentar o escribir, y CTA a WhatsApp. 3-5 hashtags locales útiles.
+5) Mejor hora para publicar.
+
+For 2 stories: texto exacto y sticker/encuesta a usar.
+
+Al final: 3 reglas para responder comentarios y mensajes que conviertan, y qué NO publicar (sin inventar precios, clientes, cifras ni testimonios).
+
+Califica honestamente la semana (1-10) en confianza, claridad de oferta y probabilidad de mensajes.
+
+We must use real material images. From grid: we have images:
+
+Top row:
+1015_220059_image.jpg - Anegocios paso a paso video thumbnail
+1021_014212_image.jpg - barcode scanner
+1021_014213_image.jpg - thermal rolls
+1021_014549_image.jpg - Fernando in POSADA red wall
+1021_014550_image.jpg - Fernando on balcony city view
+1021_014551_image.jpg - Fernando sitting dark shirt
+1021_015018_image.jpg - BBVA document
+
+Second row:
+1023_014825_image.jpg - ESCRÍBEME POR WHATSAPP COTIZAR HOY FERNANDO with Fernando red shirt
+1023_015446_image.jpg - Fernando in mall with dinosaur
+doc_01.png - Anegocios flyer with printer and rolls
+doc_02.png - Anegocios with two people at store counter
+doc_06.png - software screen
+image_03_10-20_1842.jpg - HOIN thermal printer front
+image_04_10-20_1842.jpg - HOIN printer with ticket
+
+Third row:
+image_05_10-20_1842.jpg - HOIN printer with ticket
+image_06_10-20_1842.jpg - barcode scanner on stand
+image_07_10-20_1842.jpg - hand holding scanner
+image_08_10-20_1842.jpg - scanner
+image_09_10-20_1842.jpg - thermal rolls
+image_10_10-20_1845.jpg - Fernando in POSADA
+image_11_10-20_1845.jpg - Fernando in POSADA selfie
+
+Fourth row:
+image_14_10-20_1845.jpg - Fernando red shirt outdoors with fence
+image_15_10-20_1845.jpg - Fernando selfie with hanging balls
+image_16_10-20_1845.jpg - Fernando sitting dark shirt
+
+We need to reference specific images.
+
+We must not invent prices? Oferta real is $3,500 MXN más impuestos = 1 año... So we can mention that.
+
+We must not invent clients, cifras ni testimonios. The case real: señora con nevería... can mention as case.
+
+We need to ensure content generates trust and messages.
+
+Provide best time to publish. For Mexico, maybe 12:00-13:00 or 19:00-20:00. Monday 12:30, Wednesday 19:00, Friday 12:00.
+
+Stories Tuesday and Thursday.
+
+Provide 3 rules for responding.
+
+Provide rating.
+
+Make sure output is only final answer, in Spanish.
+
+We must not show reasoning.
+
+Let's craft.
+
+Monday: Objetivo: educar + confianza. Format: carrusel 4 láminas. Why: educar.
+
+Lámina 1: fondo foto Fernando en POSADA (1021_014549_image.jpg) titular "Controla tu inventario hoy" línea secundaria "Sin libreta, sin Excel, sin estrés". etc.
+
+Better use real images.
+
+We need text exact for each image/lámina: titular corto ≤7 palabras + línea secundaria ≤12 palabras.
+
+Provide for each.
+
+Monday post caption: natural, 1 question, CTA WhatsApp.
+
+Hashtags: #TiendasCDMX #AbarrotesCDMX #PuntoDeVenta etc.
+
+Wednesday: prueba/confianza. Format: Reel corto using video v6 (capacitación con voz, gancho nevería). Or image única? Reel corto is good. Could use reel.
+
+But requirement: format (imagen única 4:5, carrusel de N láminas, o reel corto) and why.
+
+Maybe Wednesday: Reel corto 30-45s using v6. Text overlay? Might need text exact of each image/lámina. For reel, maybe describe cover image.
+
+Simplify: use carrusel 3 láminas showing kit.
+
+Let's design:
+
+Lunes: Carrusel educativo "3 errores que cuestan dinero en tienda". Use images: scanner, rolls, software screen.
+
+Miércoles: Reel corto con v6 (capacitación nevería). Cover image: doc_02.png (Fernando ayudando). Caption.
+
+Viernes: Oferta clara. Imagen única 4:5 with kit: impresora HOIN with ticket image_05_10-20_1842.jpg. Or carrusel.
+
+Maybe viernes carrusel 3 láminas: kit, instalación, pago después.
+
+Stories: Tuesday story: encuesta "¿Llevas ventas en libreta o Excel?" with sticker encuesta. Text.
+
+Thursday story: behind the scenes Fernando instalando? Use photo Fernando in mall. Text "Instalación en CDMX y Área Metropolitana" sticker link WhatsApp.
+
+Provide 3 rules for responding.
+
+Provide rating.
+
+Make sure not invent prices beyond given. Use $3,500 MXN más impuestos.
+
+Don't invent testimonios.
+
+Let's produce final answer structured.
+
+Ensure each publication has 1) Día y objetivo 2) Formato y por qué 3) Texto EXACTO de cada imagen/lámina 4) Copy completo 5) Mejor hora.
+
+Provide stories.
+
+Final rating.
+
+Let's craft concise but complete.
+
+Use bullet points.
+
+Make sure Spanish.
+
+Let's output.assistant to=user**SEMANA DE CONTENIDO ANEGOCIOS - Fernando**
+
+**LUNES**
+1) Día y objetivo: Lunes. Educar y generar confianza con un consejo aplicable hoy.
+2) Formato: Carrusel 4 láminas 4:5. Por qué: enseña rápido, se guarda y posiciona a Fernando como quien resuelve problemas reales de tienda.
+3) Texto de láminas:
+Lámina 1 - Fondo: 1021_014549_image.jpg Fernando en POSADA
+Titular: Controla tu inventario hoy
+Línea secundaria: Sin libreta, sin Excel, sin estrés
+Lámina 2 - Fondo: image_08_10-20_1842.jpg lector de códigos
+Titular: Escanea y vende en segundos
+Línea secundaria: Precio y existencia al instante
+Lámina 3 - Fondo: doc_06.png pantalla del sistema
+Titular: Cortes de caja claros
+Línea secundaria: Sabe lo que entró y salió
+Lámina 4 - Fondo: doc_02.png atención en tienda
+Titular: Lo ves funcionando primero
+Línea secundaria: Primero funciona, después pagas
+4) Caption:
+Si llevas ventas en libreta o Excel, hoy puedes probar otra forma. Con punto de venta en la nube vendes y cobras al momento, inventario actualizado y reportes desde el celular. Instalación solo en CDMX y Área Metropolitana y necesitas tener computadora.
+¿En tu negocio qué es lo que más se te complica controlar: inventario, cortes o cobros? Escríbeme por WhatsApp y te muestro cómo se ve en tu tipo de negocio.
+WhatsApp directo en el perfil.
+#TiendasCDMX #AbarrotesCDMX #PuntoDeVenta #MisceláneaCDMX #NegocioLocal
+5) Mejor hora: 12:30 pm
+
+**MIÉRCOLES**
+1) Día y objetivo: Miércoles. Prueba y confianza con Fernando real y caso de nevería.
+2) Formato: Reel corto 30-45s con video v6 capacitación con voz de Fernando. Por qué: el audio de Fernando genera cercanía y el gancho de la nevería es real y entendible.
+3) Texto de portada del reel:
+Fondo: doc_01.png flyer Anegocios con impresora
+Titular: La nevería que no controlaba gramos
+Línea secundaria: Ahora controla por vasos
+4) Caption:
+Este es el caso real que cuento seguido. Una señora con nevería no sabía controlar inventario porque cada bola lleva distintos gramos. Le expliqué que se controla por vasos y gramos y se lo mostré funcionando en la computadora.
+Así trabajo: te explico, te muestro y lo instalamos en tu negocio. Kit completo: 1 año de software + impresora térmica HOIN + lector de códigos + instalación + capacitación personal + soporte. $3,500 MXN más impuestos. Primero lo tienes funcionando, después pagas. Requisito: tener computadora. Solo CDMX y Área Metropolitana.
+¿Te gustaría ver una demo por videollamada de cómo quedaría en tu negocio? Mándame WhatsApp.
+#NeveríaCDMX #PuntoDeVentaCDMX #Anegocios #TiendaLocal #CDMX
+5) Mejor hora: 19:00 hrs
+
+**VIERNES**
+1) Día y objetivo: Viernes. Oferta clara y cierre a mensaje por WhatsApp.
+2) Formato: Imagen única 4:5. Por qué: oferta simple, visual del kit que se entiende de un vistazo.
+3) Texto de imagen:
+Fondo: image_05_10-20_1842.jpg impresora HOIN con ticket
+Titular: Kit completo para tu negocio
+Línea secundaria: Software + impresora + lector
+4) Caption:
+Oferta real de Anegocios: $3,500 MXN más impuestos = 1 año de software + impresora térmica + lector de códigos de barras + instalación en tu negocio + capacitación personal + soporte. Primero lo tienes funcionando, después pagas.
+Funciones: ventas y cobros al momento, inventario actualizado, cortes de caja claros, catálogo digital, app Android para rutas de venta, reportes y consulta desde el celular. Cuenta demostrativa y demo por videollamada.
+Instalación solo en CDMX y Área Metropolitana. Requisito: que el negocio ya tenga computadora.
+¿Quieres que te cotice para tu tienda, miscelánea, abarrotes, papelería o rutas de venta? Escríbeme por WhatsApp ahora.
+#PuntoDeVenta #AbarrotesCDMX #MisceláneasCDMX #NegociosCDMX #Anegocios
+5) Mejor hora: 12:00 pm
+
+**HISTORIAS DE APOYO**
+
+Martes - Historia 1
+Texto exacto: ¿Cómo llevas tus ventas hoy?
+Sticker: Encuesta con opciones “Libreta / Excel” y “Sistema”
+Mini CTA en sticker de preguntas: “Quiero ver demo”
+
+Jueves - Historia 1
+Texto exacto: Instalación en CDMX y Área Metropolitana. Primero lo ves funcionando, después pagas.
+Foto de fondo: 1023_015446_image.jpg Fernando en el mall
+Sticker: Link a WhatsApp + sticker de ubicación CDMX
+
+**3 REGLAS PARA RESPONDER COMENTARIOS Y MENSAJES QUE CONVIERTEN**
+1. Responde en menos de 2 horas con nombre y pregunta de diagnóstico: “¿Qué vendes y cómo llevas inventario hoy?” No enviar catálogo sin contexto.
+2. Siempre ofrece demo primero: “Te paso cuenta demostrativa y agendamos videollamada de 10 min”. Nunca prometer precio distinto al publicado.
+3. Cierra con paso siguiente claro: “Te envío por WhatsApp el checklist de instalación y confirmamos día en CDMX/Área Metropolitana”.
+
+**QUÉ NO PUBLICAR**
+No inventar precios, promociones, clientes, cifras de ventas ni testimonios. No prometer instalación fuera de CDMX y Área Metropolitana. No decir que no se necesita computadora. No usar fotos de personas que no sean Fernando.
+
+Calificación honesta de la semana:
+Confianza 8/10, Claridad de oferta 9/10, Probabilidad de mensajes 8/10.
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/fabelagabriel645/main/ap-fIC01u8uwdWA9RYGcVSAqN

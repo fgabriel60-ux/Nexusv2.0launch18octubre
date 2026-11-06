@@ -1,0 +1,272 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-kWT0fhFAJrFzrXM01SS7f5
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:03<1:20:48,  3.38s/it]
+[1ALoading weights:   0%|          | 3/1436 [00:03<22:18,  1.07it/s]  
+[1ALoading weights:   0%|          | 5/1436 [00:03<11:38,  2.05it/s]
+[1ALoading weights:   0%|          | 7/1436 [00:03<07:46,  3.07it/s]
+[1ALoading weights:   1%|          | 16/1436 [00:04<02:28,  9.55it/s]
+[1ALoading weights:   1%|▏         | 19/1436 [00:04<02:33,  9.24it/s]
+[1ALoading weights:   2%|▏         | 26/1436 [00:04<01:32, 15.25it/s]
+[1ALoading weights:   2%|▏         | 30/1436 [00:05<01:54, 12.31it/s]
+[1ALoading weights:   3%|▎         | 37/1436 [00:05<01:15, 18.47it/s]
+[1ALoading weights:   3%|▎         | 41/1436 [00:05<01:24, 16.48it/s]
+[1ALoading weights:   3%|▎         | 45/1436 [00:05<01:22, 16.92it/s]
+[1ALoading weights:   4%|▎         | 52/1436 [00:05<01:06, 20.91it/s]
+[1ALoading weights:   4%|▍         | 55/1436 [00:06<01:27, 15.87it/s]
+[1ALoading weights:   4%|▍         | 63/1436 [00:06<01:08, 20.10it/s]
+[1ALoading weights:   5%|▍         | 66/1436 [00:06<01:21, 16.85it/s]
+[1ALoading weights:   5%|▌         | 73/1436 [00:06<00:59, 22.89it/s]
+[1ALoading weights:   5%|▌         | 77/1436 [00:07<01:10, 19.19it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:07<01:12, 18.73it/s]
+[1ALoading weights:   6%|▌         | 85/1436 [00:07<01:10, 19.05it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:07<01:04, 20.80it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:08<01:12, 18.65it/s]
+[1ALoading weights:   7%|▋         | 99/1436 [00:08<00:50, 26.50it/s]
+[1ALoading weights:   7%|▋         | 103/1436 [00:08<01:17, 17.26it/s]
+[1ALoading weights:   8%|▊         | 109/1436 [00:08<00:58, 22.81it/s]
+[1ALoading weights:   8%|▊         | 113/1436 [00:09<01:07, 19.70it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:09<01:09, 18.87it/s]
+[1ALoading weights:   9%|▊         | 123/1436 [00:09<00:49, 26.79it/s]
+[1ALoading weights:   9%|▉         | 127/1436 [00:09<01:13, 17.83it/s]
+[1ALoading weights:   9%|▉         | 134/1436 [00:09<00:52, 24.72it/s]
+[1ALoading weights:  10%|▉         | 138/1436 [00:10<01:13, 17.77it/s]
+[1ALoading weights:  10%|█         | 145/1436 [00:10<00:53, 24.23it/s]
+[1ALoading weights:  10%|█         | 149/1436 [00:10<01:00, 21.27it/s]
+[1ALoading weights:  11%|█         | 153/1436 [00:10<00:59, 21.52it/s]
+[1ALoading weights:  11%|█         | 158/1436 [00:10<00:50, 25.43it/s]
+[1ALoading weights:  11%|█▏        | 162/1436 [00:11<01:10, 18.14it/s]
+[1ALoading weights:  12%|█▏        | 169/1436 [00:11<00:50, 25.22it/s]
+[1ALoading weights:  12%|█▏        | 173/1436 [00:11<00:58, 21.44it/s]
+[1ALoading weights:  12%|█▏        | 177/1436 [00:11<00:58, 21.57it/s]
+[1ALoading weights:  13%|█▎        | 182/1436 [00:12<00:57, 21.71it/s]
+[1ALoading weights:  13%|█▎        | 185/1436 [00:12<00:57, 21.91it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:12<00:59, 20.89it/s]
+[1ALoading weights:  13%|█▎        | 191/1436 [00:12<00:55, 22.24it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [00:12<00:47, 26.05it/s]
+[1ALoading weights:  14%|█▍        | 199/1436 [00:13<01:11, 17.29it/s]
+[1ALoading weights:  14%|█▍        | 205/1436 [00:13<00:53, 23.16it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:13<00:51, 23.82it/s]
+[1ALoading weights:  15%|█▍        | 211/1436 [00:13<01:11, 17.13it/s]
+[1ALoading weights:  15%|█▌        | 219/1436 [00:13<00:44, 27.32it/s]
+[1ALoading weights:  16%|█▌        | 223/1436 [00:14<01:06, 18.35it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:14<00:48, 25.07it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:14<00:59, 20.27it/s]
+[1ALoading weights:  17%|█▋        | 242/1436 [00:14<00:47, 25.40it/s]
+[1ALoading weights:  17%|█▋        | 246/1436 [00:15<01:04, 18.40it/s]
+[1ALoading weights:  18%|█▊        | 254/1436 [00:15<00:53, 22.27it/s]
+[1ALoading weights:  18%|█▊        | 257/1436 [00:15<00:53, 22.18it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:15<00:56, 20.69it/s]
+[1ALoading weights:  19%|█▊        | 266/1436 [00:16<00:52, 22.26it/s]
+[1ALoading weights:  19%|█▊        | 269/1436 [00:16<00:50, 22.89it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:16<00:52, 22.21it/s]
+[1ALoading weights:  19%|█▉        | 277/1436 [00:16<00:54, 21.46it/s]
+[1ALoading weights:  20%|█▉        | 281/1436 [00:16<01:03, 18.06it/s]
+[1ALoading weights:  20%|██        | 289/1436 [00:16<00:42, 27.26it/s]
+[1ALoading weights:  20%|██        | 293/1436 [00:17<01:04, 17.71it/s]
+[1ALoading weights:  21%|██        | 298/1436 [00:17<00:52, 21.79it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:17<00:43, 25.84it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:18<00:57, 19.59it/s]
+[1ALoading weights:  22%|██▏       | 313/1436 [00:18<00:48, 23.21it/s]
+[1ALoading weights:  22%|██▏       | 317/1436 [00:18<01:09, 16.12it/s]
+[1ALoading weights:  23%|██▎       | 325/1436 [00:18<00:46, 23.85it/s]
+[1ALoading weights:  23%|██▎       | 329/1436 [00:19<01:06, 16.74it/s]
+[1ALoading weights:  24%|██▎       | 339/1436 [00:19<00:47, 23.16it/s]
+[1ALoading weights:  24%|██▍       | 343/1436 [00:19<00:55, 19.74it/s]
+[1ALoading weights:  24%|██▍       | 349/1436 [00:19<00:43, 24.83it/s]
+[1ALoading weights:  25%|██▍       | 353/1436 [00:20<01:01, 17.62it/s]
+[1ALoading weights:  25%|██▌       | 361/1436 [00:20<00:43, 24.44it/s]
+[1ALoading weights:  25%|██▌       | 365/1436 [00:20<00:49, 21.56it/s]
+[1ALoading weights:  26%|██▌       | 369/1436 [00:20<00:49, 21.55it/s]
+[1ALoading weights:  26%|██▌       | 373/1436 [00:21<00:45, 23.58it/s]
+[1ALoading weights:  26%|██▋       | 377/1436 [00:21<00:51, 20.76it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:21<00:55, 19.00it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:22<01:03, 16.45it/s]
+[1ALoading weights:  28%|██▊       | 397/1436 [00:22<00:41, 25.09it/s]
+[1ALoading weights:  28%|██▊       | 402/1436 [00:22<00:56, 18.24it/s]
+[1ALoading weights:  28%|██▊       | 409/1436 [00:22<00:42, 24.14it/s]
+[1ALoading weights:  29%|██▉       | 414/1436 [00:23<00:56, 18.22it/s]
+[1ALoading weights:  29%|██▉       | 422/1436 [00:23<00:40, 24.79it/s]
+[1ALoading weights:  30%|██▉       | 427/1436 [00:23<00:52, 19.29it/s]
+[1ALoading weights:  30%|███       | 434/1436 [00:23<00:40, 25.02it/s]
+[1ALoading weights:  31%|███       | 439/1436 [00:24<00:52, 19.16it/s]
+[1ALoading weights:  31%|███       | 447/1436 [00:24<00:37, 26.29it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:24<00:48, 20.38it/s]
+[1ALoading weights:  32%|███▏      | 457/1436 [00:25<00:41, 23.55it/s]
+[1ALoading weights:  32%|███▏      | 461/1436 [00:25<00:46, 20.79it/s]
+[1ALoading weights:  32%|███▏      | 465/1436 [00:25<00:46, 21.10it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:25<00:38, 25.00it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:25<00:47, 20.10it/s]
+[1ALoading weights:  34%|███▎      | 482/1436 [00:26<00:36, 25.80it/s]
+[1ALoading weights:  34%|███▍      | 486/1436 [00:26<00:51, 18.53it/s]
+[1ALoading weights:  34%|███▍      | 493/1436 [00:26<00:37, 25.39it/s]
+[1ALoading weights:  35%|███▍      | 497/1436 [00:27<00:54, 17.21it/s]
+[1ALoading weights:  35%|███▌      | 507/1436 [00:27<00:33, 27.45it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:27<00:45, 20.11it/s]
+[1ALoading weights:  36%|███▌      | 517/1436 [00:27<00:38, 23.75it/s]
+[1ALoading weights:  36%|███▋      | 522/1436 [00:28<00:51, 17.92it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:28<00:36, 24.62it/s]
+[1ALoading weights:  37%|███▋      | 536/1436 [00:28<00:44, 20.43it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:28<00:35, 24.79it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:29<00:43, 20.20it/s]
+[1ALoading weights:  38%|███▊      | 551/1436 [00:29<00:41, 21.39it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:29<00:35, 24.86it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:29<00:44, 19.51it/s]
+[1ALoading weights:  39%|███▉      | 566/1436 [00:29<00:33, 25.64it/s]
+[1ALoading weights:  40%|███▉      | 570/1436 [00:30<00:47, 18.17it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:30<00:34, 25.03it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:30<00:42, 19.98it/s]
+[1ALoading weights:  41%|████      | 592/1436 [00:31<00:33, 24.96it/s]
+[1ALoading weights:  42%|████▏     | 596/1436 [00:31<00:41, 20.42it/s]
+[1ALoading weights:  42%|████▏     | 604/1436 [00:31<00:39, 21.25it/s]
+[1ALoading weights:  42%|████▏     | 607/1436 [00:31<00:39, 20.74it/s]
+[1ALoading weights:  43%|████▎     | 614/1436 [00:32<00:31, 26.50it/s]
+[1ALoading weights:  43%|████▎     | 618/1436 [00:32<00:41, 19.65it/s]
+[1ALoading weights:  43%|████▎     | 622/1436 [00:32<00:36, 22.23it/s]
+[1ALoading weights:  45%|████▌     | 648/1436 [00:32<00:13, 60.05it/s]
+[1ALoading weights:  47%|████▋     | 673/1436 [00:32<00:08, 91.27it/s]
+[1ALoading weights:  49%|████▉     | 702/1436 [00:32<00:05, 129.88it/s]
+[1ALoading weights:  51%|█████     | 730/1436 [00:33<00:04, 162.17it/s]
+[1ALoading weights:  53%|█████▎    | 760/1436 [00:33<00:03, 195.04it/s]
+[1ALoading weights:  56%|█████▌    | 800/1436 [00:33<00:02, 245.33it/s]
+[1ALoading weights:  58%|█████▊    | 839/1436 [00:33<00:02, 283.48it/s]
+[1ALoading weights:  61%|██████    | 871/1436 [00:33<00:01, 290.63it/s]
+[1ALoading weights:  63%|██████▎   | 909/1436 [00:33<00:01, 305.80it/s]
+[1ALoading weights:  67%|██████▋   | 956/1436 [00:33<00:01, 345.72it/s]
+[1ALoading weights:  69%|██████▉   | 992/1436 [00:33<00:01, 347.54it/s]
+[1ALoading weights:  72%|███████▏  | 1028/1436 [00:33<00:01, 341.56it/s]
+[1ALoading weights:  74%|███████▍  | 1063/1436 [00:33<00:01, 325.53it/s]
+[1ALoading weights:  77%|███████▋  | 1104/1436 [00:34<00:00, 348.87it/s]
+[1ALoading weights:  80%|███████▉  | 1143/1436 [00:34<00:00, 355.76it/s]
+[1ALoading weights:  82%|████████▏ | 1179/1436 [00:34<00:00, 356.42it/s]
+[1ALoading weights:  85%|████████▍ | 1216/1436 [00:34<00:00, 355.98it/s]
+[1ALoading weights:  87%|████████▋ | 1252/1436 [00:34<00:00, 337.05it/s]
+[1ALoading weights:  91%|█████████ | 1304/1436 [00:34<00:00, 371.40it/s]
+[1ALoading weights:  93%|█████████▎| 1342/1436 [00:34<00:00, 357.67it/s]
+[1ALoading weights:  96%|█████████▌| 1378/1436 [00:34<00:00, 349.79it/s]
+[1ALoading weights:  99%|█████████▉| 1420/1436 [00:34<00:00, 369.20it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:34<00:00, 41.07it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## ML_CAMPANA
+Perfecto. Con tus datos y la regla de “no lanzar < 8/10”, esto es lo que haría para Visión Agencia IA en México.
+
+# 1) ¿Qué modelo de negocio usar?
+
+**Conviene: B) Gancho para captar clientes de la agencia (con opción A como complemento).**
+
+- **Por qué B gana:** Tu core es captar negocios locales para campañas a WhatsApp. La Terminal Point Smart 2 habla directo a dueños de negocio (taquerías, estéticas, talleres, tienditas) que son tu ICP. Con un lead a WhatsApp puedes calificar y vender tu servicio de pauta. El valor de un cliente de agencia es mucho mayor y recurrente que una comisión de afiliado.
+- **A como complemento:** Puedes poner enlaces de afiliado en el mismo flujo (stories “ver oferta”) para monetizar tráfico frío mientras nutres la base. Es incremental y no interfiere con la captación.
+- **C NO conviene:** Comprar y revender. Necesitas inventario, logística, atención y devoluciones. Con presupuesto chico y equipo enfocado a medios, el riesgo operativo y de cash flow no compensa frente a captar clientes o comisiones.
+
+**Si la respuesta dependiera de algo:** Dependería del ticket promedio de tu servicio y del CPL objetivo. Pregunta clave: *¿Cuál es tu CPA máximo viable para un cliente de pauta y cuántos leads necesitas para cerrar 1 cliente?* Si el CPL que te da el producto-gancho está por debajo de ese CPA, B es imbatible. Si no, prueba A con productos de alto ticket y comisión.
+
+# 2) ¿Qué producto elegir para arrancar?
+
+**Elijo: Espejo LED de pared touch 3 luces — $298.70 (71% OFF).**
+
+Defensa rápida:
+
+- **Demanda real y social proof:** 9/10, +100 mil vendidos, 4.8★. Señal fuerte de conversión.
+- **Visual 10/10:** “glow up” de baño en 1 toque, 3 temperaturas de luz, unboxing e instalación rápida. Ideal para video con IA y para detener scroll.
+- **Oferta 10/10:** 71% OFF, precio de impulso ($298). Es barato de probar y el anuncio se siente creíble.
+- **Margen de afiliado:** Sí, $298 rinde menos en pesos absolutos que $921, pero el **CPL suele ser menor** en productos baratos de impulso. Con presupuesto chico, lo que importa es volumen de clics baratos y leads baratos. Además, puedes usarlo como gancho aspiracional para dueños de negocios (estéticas, salones, estudios) que luego migras a tu servicio.
+- **Alternativa honesta a tu veredicto:** La Hidrolavadora Trent es excelente (10/10/9) y de mayor ticket de comisión, pero su público es más masculino, DIY y estacional/clima. El Espejo LED tiene audiencia más amplia (hogar, renta, estética, creadoras) y mejor relación “costo por atención” para arrancar con poco presupuesto.
+
+# 3) Cómo se hace la campaña, paso a paso
+
+**Objetivo en Meta:** *Mensajes* (WhatsApp). Por qué: tu servicio final se cierra por WhatsApp y puedes medir conversiones reales (conversaciones iniciadas, respuestas). Ventas a tienda externa es más fría y depende del marketplace; Leads/Conversiones web añade fricción.
+
+**Segmentación exacta (prueba inicial):**
+
+- **Ubicación:** México; empieza por 3–5 ciudades con poder adquisitivo medio y negocios locales activos (ej. Hermosillo, Monterrey, Guadalajara, CDMX alcaldías centrales, Mérida). No nacional completo.
+- **Edad:** 25–54.
+- **Intereses:** Sin “intereses” amplios. Usa *ventanas de detalle*: Hogar y remodelación, Decoración de interiores, Maquillaje y belleza, Pequeños negocios, Emprendedores. Añade *comportamientos*: propietarios de pequeñas empresas (donde Meta lo permita).
+- **Por qué:** El espejo cruza B2C (hogar/belleza) y B2B ligero (estéticas). Segmento amplio pero relevante; evitamos dispersión nacional.
+
+**Estructura de prueba:**
+
+- **1 campaña** de Mensajes.
+- **2 conjuntos de anuncios** (A/B):
+
+  1. *Hogar/Belleza B2C*: mujeres 25–44, intereses decoración/baño/maquillaje.
+  2. *Negocios locales*: 28–54, intereses pequeños negocios/emprendimiento + estética/salón.
+- **Creativos por conjunto:** 2 videos (el ganador + 1 variante) y 1 imagen estática. Total 6 anuncios.
+- **Presupuesto diario de prueba:** $300–$500 MXN/día total ($150–$250 por conjunto). Con esto obtienes señal en 5–7 días.
+- **Duración antes de decidir:** 5 días con gasto mínimo de ~$1,500 por conjunto. Si a día 3 no hay señales, revisa creativo/landing.
+
+**Qué mirar para decidir si jala:**
+
+- **Primario:** Costo por conversación iniciada en WhatsApp ≤ $45–$65 MXN (ajusta a tu CPA objetivo).
+- **Secundarios:** CTR (link) ≥ 1.8%, ThruPlay 15s ≥ 25%, costo por mensaje entrante con respuesta ≥ 60%.
+- **Apagar si:** Después de $1,500–$2,000 gastados por conjunto sin conversaciones < 30% de tu meta CPL, o CTR < 1% y retención < 10s. Pausa el conjunto perdedor y reasigna presupuesto al ganador. Escala +20% cada 2 días si el CPL se mantiene.
+
+# 4) El creativo que gana (Espejo LED)
+
+**Elige:** *Glow up del baño* (antes/después con un toque).
+
+**Mejoras para asegurar ≥8/10:**
+
+- Muestra prueba social en pantalla desde el segundo 1.
+- Precio con contexto de descuento grande y “llega mañana”.
+- Cierre con CTA claro a WhatsApp: “Escríbenos para el link con cupón”.
+
+**Guion 0–3 s (segundo a segundo):**
+
+- **0.0–0.5s:** Primer plano espejo apagado, baño tenue. Texto en pantalla grande: “+100 mil vendidos ★4.8”.
+- **0.5–1.5s:** Mano toca el espejo → se enciende luz blanca cálida. Texto: “De $1,044 a $298”.
+- **1.5–3.0s:** Corte rápido a rostro maquillándose con luz pareja. Texto: “3 luces con un toque”. Subtexto pequeño: “Instalación en 60s”.
+
+**Texto exacto en pantalla (primeros 3s):**
+
+- “+100 mil vendidos ★4.8”
+- “De $1,044 a $298”
+- “3 luces con un toque”
+
+**Estructura completa 15–20s:** 0–3s gancho (arriba), 3–8s demostración de las 3 temperaturas, 8–13s unboxing/instalación rápida, 13–18s social proof + precio con cupón, 18–20s CTA: “Escríbenos a WhatsApp y te pasamos el link con cupón”.
+
+# 5) Qué nos puede tumbar (políticas de Meta)
+
+- **Precios y promociones:** No afirmes “precio oficial” si es de oferta relámpago. Usa “desde $298.70” o “precio de oferta actual”. Evita “ahorras $X para siempre”. Incluye “precios sujetos a cambio”.
+- **Marcas registradas:** No uses logos de Mercado Libre en creatividades. Puedes decir “Disponible en Mercado Libre” sin logo. Evita marcas de terceros (Samsung, etc.) en el anuncio del espejo.
+- **Promesas absolutas:** Nada de “transforma tu vida”, “resultados garantizados”, “antes y después médicos”. En belleza, evita insinuar cambio físico permanente.
+- **Comparativas engañosas:** Si muestras “De $1,044 a $298”, asegúrate de que el precio de referencia sea verificable en la misma plataforma; de lo contrario usa “71% OFF”.
+- **Antes/después:** Está permitido para decoración/iluminación, no para cuerpo/rostro con promesa de cambio físico. Mantén foco en luz/ambiente.
+- **WhatsApp:** El botón/CTA debe llevar a una conversación real; no redirijas a externo sin contexto. Mensaje inicial automatizado claro y sin spam.
+
+# 6) Veredicto final
+
+**¿Se arranca? Sí.**
+
+- **Producto:** Espejo LED de pared touch 3 luces.
+- **Presupuesto de prueba:** $400 MXN/día total, 5–7 días.
+- **Orden:**
+
+  1. Día 1: Subir campaña Mensajes con 2 conjuntos y 3 creativos por conjunto (1 video ganador + 1 variante + 1 imagen).
+  2. Día 3: Revisar CTR, retención a 3s y costo por conversación; pausar la variante más débil.
+  3. Día 5–7: Decidir ganador por CPL. Si CPL ≤ objetivo, escalar +20% cada 2 días y duplicar a nuevas ciudades.
+  4. En paralelo, prepara landing ligera de WhatsApp con respuestas rápidas y un flujo para ofrecer tu servicio de pauta a negocios (estéticas/salones) que lleguen por el espejo.
+
+Si luego quieres maximizar comisión pura por afiliado, el siguiente candidato es la **Hidrolavadora Trent** con el ángulo “Deja de pagar autolavado”, pero para captar clientes de agencia con presupuesto chico, el Espejo LED es el arranque más seguro y escalable.
+Stopping app - local entrypoint completed.
+[modal-client] 2026-11-05T19:42:32+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-kWT0fhFAJrFzrXM01SS7f5
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/mercadolibre_ofertas_20261105/lote.json --tokens 4500
+Duración: 4.5 min  (código 0)
+  glimmer (ap-Wsa7HKJuasaoxvJ13eEUM2): $0.022
+  glimmer (ap-kWT0fhFAJrFzrXM01SS7f5): $0.180
+  glimmer (ap-zBj2uQTIvT2vaUWWmFcMpp): $0.078
+Gasto del trabajo: $0.280
+Saldo restante ≈ $-11.59

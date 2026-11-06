@@ -1,0 +1,12 @@
+# Lote 3 para ChatGPT (31 oct) · más clientes con video calificado
+Lee MANUAL_CHATGPT.md (sobre todo secciones 3, 4, 6 y 7) y AGENTS.md. NO mandes nada a clientes. Un cliente a la vez, en este orden.
+Para CADA uno: (1) lee su última calificación de Glimmer (`grep -l <NOMBRE> entregables/glimmer_evaluador/*/glimmer.log`, lo que sigue a «assistant to=user»); (2) aplica SUS correcciones: primero las de edición (ffmpeg, gratis); si pide escenas nuevas, haz un spec y encólalo en `entregables/fila_escenas/pendientes/` con tomas de 2.6 s y primer+último cuadro cuando sea movimiento; revisa los cuadros (hoja de contacto) ANTES de animar; (3) arma la nueva versión (vN+1, sin borrar nada); (4) encola su calificación (UN video por lote); (5) cuando salga ≥8, mándalo a Carlos con `herramientas/enviar_seguro.py` + mensaje de Glimmer (formato `entregables/glimmer_evaluador/mensaje_calificacion.py`); si sale <8 repite una vez y avisa qué falta del cliente.
+GPU: si existe el archivo `entregables/specs_20261031/GPU_L40S_OK`, antepón `GPU_H3=L40S` al comando de animar (más barato); si no, A100. Avisa el gasto y saldo que reporta gasto_modal.
+
+1. **Rachel · Clou SPA micropigmentación (Mexicali)** — `clientes/Micropigmentacion6861607879/` (v1 = 6/10, ronda1b). Sus fotos/videos en `whatsapp/`; si faltan, bájalos de su chat (686 160 7879). Carlos pidió mandarle a él los FRAMES antes de animar.
+2. **Blanca · terapia de lenguaje** — `clientes/Blanca/video/Hablar_Hablando_Blanca_v3.mp4` (5/10 → 7.5). Rehacer con la calidad de Doctora/Lisbeth; referencias en `clientes/Blanca/instagram/`.
+3. **BD Pro Monterrey** — video NUEVO del otro servicio (audio/pantallas, ver su chat `214649748369481@lid`: «dejar lo de vinil en un video y audio/pantallas para otro»). Base: `clientes/PistasBaile/`.
+4. **Lisbeth · terrenos Tomatlán** — v9 (6/10 → 8). Ya mandó planos y precios (bájalos de su chat `161641681395864@lid`); mantener vista aérea cuando se mencionan lugares cercanos.
+5. **Fernando · Anegocios** — v7 (6/10 → 8). Ya mandó guion/audio (su chat 55 4358 3070): escenas en Modal + lipsync a SU audio.
+6. **Doctora Ángeles (Alberto)** — v6c (6.5). Subirla al máximo con lo que hay (`clientes/Alberto/video/armar_implantes_ref.py`).
+Al final escribe `entregables/ronda_8_9_20261031/lote3_resultado.md` (cliente | versión | calificación | qué falta del cliente) y mándale a Carlos un resumen de 6 líneas.

@@ -1,0 +1,69 @@
+{
+ "carpeta": "proyectos/snitch_colibri/video",
+ "salida": "proyectos/snitch_colibri/video/cuadros",
+ "semilla": 31,
+ "ancho": 720,
+ "alto": 1280,
+ "pasos": 30,
+ "refs": {
+  "esfera": "proyectos/snitch_colibri/refs/colibri_esfera.png",
+  "alas": "proyectos/snitch_colibri/refs/colibri_alas.png",
+  "mecanismo": "proyectos/snitch_colibri/refs/colibri_mecanismo.png",
+  "taller": "proyectos/snitch_colibri/refs/colibri_taller.png"
+ },
+ "cuadros": {
+  "COL_VUELO": [
+   [
+    "esfera"
+   ],
+   "La esfera de latón cepillado mate de la foto, con su anillo de cobre y su grabado de circuito, flotando en el aire a la altura del pecho dentro de una habitación en penumbra. De la ranura superior de la esfera nacen DOS ABANICOS BORROSOS semitransparentes de color ámbar, que son sus alas batiendo tan rápido que no se distinguen: puro desenfoque de movimiento en forma de arco, pegados al cuerpo de la esfera, exactamente como se ven las alas de un colibrí en una foto. No son alas sólidas ni separadas del cuerpo. Luz de ventana recortando la esfera por un costado, fondo desenfocado, fotografía real con obturador lento, vertical.",
+   "alas separadas del cuerpo, alas flotando aparte, alas nítidas, alas rígidas, alas sólidas, orejas, dos hojas, alas de insecto, texto, logotipos, esfera borrosa"
+  ],
+  "COL_MANO": [
+   [
+    "esfera",
+    "taller"
+   ],
+   "La esfera de latón cepillado mate de la primera foto flotando en el aire sobre el taller de la segunda foto, esquivando una mano abierta que intenta atraparla desde abajo y queda a un palmo; la esfera se desvía hacia arriba. De la ranura superior de la esfera nacen DOS ABANICOS BORROSOS semitransparentes de color ámbar, que son sus alas batiendo tan rápido que no se distinguen: puro desenfoque de movimiento en forma de arco, pegados al cuerpo de la esfera, exactamente como se ven las alas de un colibrí en una foto. No son alas sólidas ni separadas del cuerpo. Plano medio, luz de tarde, fondo de taller desenfocado, la mano ligeramente movida y la esfera nítida, fotografía real, vertical.",
+   "alas separadas del cuerpo, alas flotando aparte, alas nítidas, alas rígidas, alas sólidas, orejas, dos hojas, alas de insecto, texto, logotipos, esfera borrosa, mano deforme, seis dedos"
+  ]
+ },
+ "tomas": [
+  [
+   "T1_vuelo",
+   "COL_VUELO",
+   "La esfera flota en el aire manteniéndose a la misma altura, con las alas batiendo tan rápido que solo se ven dos arcos borrosos; el cuerpo oscila mínimamente y deriva un poco hacia la izquierda.",
+   3,
+   null
+  ],
+  [
+   "T2_abre",
+   "COL_ABRE",
+   "Las alas de Mylar ámbar terminan de desplegarse hacia los lados con un movimiento mecánico firme y se quedan extendidas, temblando apenas.",
+   3,
+   null
+  ],
+  [
+   "T3_mecanismo",
+   "COL_MECANISMO",
+   "La corona dentada gira y la palanca ranurada oscila de lado a lado mientras la cinta tira del tambor; macro fijo, solo el mecanismo se mueve.",
+   4,
+   null
+  ],
+  [
+   "T4_reposo",
+   "COL_REPOSO",
+   "La esfera quieta sobre la mesa; la cámara se acerca muy lentamente mientras un reflejo recorre el latón cepillado y el anillo de cobre. Nada más se mueve.",
+   3,
+   null
+  ],
+  [
+   "T5_mano",
+   "COL_MANO",
+   "La mano se cierra para atrapar la esfera y la esfera se desvía hacia arriba justo antes, escapando, y se queda flotando frente a la cámara con las alas borrosas.",
+   4,
+   null
+  ]
+ ],
+ "voces": {}
+}

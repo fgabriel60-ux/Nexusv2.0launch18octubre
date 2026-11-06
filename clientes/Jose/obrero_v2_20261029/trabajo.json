@@ -1,0 +1,28 @@
+{
+ "id": "jose_filtracion_20261029",
+ "carpeta": "jose_filtracion_20261029",
+ "semilla": 12,
+ "tam": [
+  704,
+  1280
+ ],
+ "refs": {
+  "gris": "/vol/obrero/refs/jose_gris.png"
+ },
+ "cuadros": {
+  "P0_filtra": [
+   [
+    "gris"
+   ],
+   "Estilo animación 3D tipo Pixar, personajes con proporciones tiernas y texturas suaves, iluminación cálida de cine, colores vivos, foto vertical 9:16, sin texto, sin letras, sin subtítulos, sin logotipos. Interior de una casa mexicana animada: el mismo obrero con casco blanco y chaleco gris mira hacia arriba el techo de losa de concreto, que tiene una mancha oscura de humedad y una gota de agua cayendo, con un cubo en el piso recogiendo la gota; expresión de preocupación; luz tenue de día lluvioso. Quita todo el texto de la imagen."
+  ]
+ },
+ "tomas": [
+  [
+   "P0_filtra_anim",
+   "P0_filtra",
+   "Vertical animated shot: a water drop falls from the stained concrete ceiling into the bucket, the cartoon worker looks up worried, slow camera push-in. Keep the same character. No text. Audio: soft water drip sound, no speech.",
+   5.0
+  ]
+ ]
+}

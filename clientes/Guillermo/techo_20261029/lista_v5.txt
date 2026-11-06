@@ -1,0 +1,2 @@
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Guillermo/techo_20261029/salida_v6_suben/T_vigas_limpio.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Guillermo/techo_20261029/salida_v6_suben/T_lamina_limpio.mp4'

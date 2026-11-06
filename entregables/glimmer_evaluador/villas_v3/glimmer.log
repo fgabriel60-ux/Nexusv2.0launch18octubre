@@ -1,0 +1,192 @@
+[0;93m2026-11-05 22:25:56.175611063 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:07/VMBUS:01/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+listo VILLAS_v3 20.7s
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-qd5nlcJMAX4rD7ncCDllnC
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:00<20:39,  1.16it/s]
+[1ALoading weights:   0%|          | 2/1436 [00:01<22:50,  1.05it/s]
+[1ALoading weights:   0%|          | 3/1436 [00:01<13:31,  1.77it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:02<07:07,  3.35it/s]
+[1ALoading weights:   1%|          | 14/1436 [00:02<01:44, 13.58it/s]
+[1ALoading weights:   1%|▏         | 18/1436 [00:02<01:41, 13.94it/s]
+[1ALoading weights:   2%|▏         | 26/1436 [00:02<01:01, 22.98it/s]
+[1ALoading weights:   2%|▏         | 31/1436 [00:02<01:07, 20.84it/s]
+[1ALoading weights:   3%|▎         | 40/1436 [00:03<00:46, 30.12it/s]
+[1ALoading weights:   3%|▎         | 45/1436 [00:03<00:49, 28.20it/s]
+[1ALoading weights:   4%|▎         | 52/1436 [00:03<00:47, 29.07it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:03<00:48, 28.69it/s]
+[1ALoading weights:   4%|▍         | 63/1436 [00:03<00:39, 34.69it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:03<00:43, 31.71it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:04<00:35, 38.62it/s]
+[1ALoading weights:   6%|▌         | 81/1436 [00:04<00:42, 32.06it/s]
+[1ALoading weights:   6%|▌         | 85/1436 [00:04<00:43, 30.76it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:04<00:52, 25.87it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:04<00:34, 39.17it/s]
+[1ALoading weights:   7%|▋         | 105/1436 [00:05<00:39, 34.10it/s]
+[1ALoading weights:   8%|▊         | 109/1436 [00:05<00:55, 24.12it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:05<00:30, 42.66it/s]
+[1ALoading weights:   9%|▉         | 131/1436 [00:05<00:33, 38.45it/s]
+[1ALoading weights:  10%|▉         | 137/1436 [00:05<00:37, 34.75it/s]
+[1ALoading weights:  10%|▉         | 142/1436 [00:06<00:37, 34.06it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:06<00:35, 36.22it/s]
+[1ALoading weights:  11%|█         | 153/1436 [00:06<00:43, 29.56it/s]
+[1ALoading weights:  11%|█         | 160/1436 [00:06<00:36, 34.53it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:06<00:45, 27.68it/s]
+[1ALoading weights:  12%|█▏        | 169/1436 [00:07<00:42, 29.54it/s]
+[1ALoading weights:  12%|█▏        | 173/1436 [00:07<00:40, 31.14it/s]
+[1ALoading weights:  12%|█▏        | 177/1436 [00:07<00:40, 31.20it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:07<00:33, 37.07it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:07<00:41, 30.00it/s]
+[1ALoading weights:  13%|█▎        | 193/1436 [00:07<00:41, 29.80it/s]
+[1ALoading weights:  14%|█▍        | 198/1436 [00:08<00:42, 28.88it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:08<00:31, 38.80it/s]
+[1ALoading weights:  15%|█▍        | 213/1436 [00:08<00:37, 33.04it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:08<00:31, 39.14it/s]
+[1ALoading weights:  16%|█▌        | 225/1436 [00:08<00:36, 33.13it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:08<00:31, 38.53it/s]
+[1ALoading weights:  17%|█▋        | 237/1436 [00:09<00:36, 33.16it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:09<00:31, 37.91it/s]
+[1ALoading weights:  17%|█▋        | 249/1436 [00:09<00:35, 33.09it/s]
+[1ALoading weights:  18%|█▊        | 255/1436 [00:09<00:33, 35.32it/s]
+[1ALoading weights:  18%|█▊        | 259/1436 [00:09<00:39, 29.74it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:09<00:30, 38.26it/s]
+[1ALoading weights:  19%|█▉        | 273/1436 [00:10<00:35, 32.44it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:10<00:32, 35.10it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:10<00:38, 29.69it/s]
+[1ALoading weights:  20%|██        | 290/1436 [00:10<00:35, 32.44it/s]
+[1ALoading weights:  20%|██        | 294/1436 [00:10<00:38, 29.33it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:10<00:27, 40.58it/s]
+[1ALoading weights:  22%|██▏       | 309/1436 [00:11<00:33, 33.75it/s]
+[1ALoading weights:  22%|██▏       | 313/1436 [00:11<00:33, 33.38it/s]
+[1ALoading weights:  22%|██▏       | 317/1436 [00:11<00:38, 28.94it/s]
+[1ALoading weights:  23%|██▎       | 325/1436 [00:11<00:31, 34.92it/s]
+[1ALoading weights:  23%|██▎       | 330/1436 [00:11<00:34, 32.43it/s]
+[1ALoading weights:  23%|██▎       | 337/1436 [00:11<00:30, 35.55it/s]
+[1ALoading weights:  24%|██▍       | 342/1436 [00:12<00:34, 32.01it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:12<00:27, 39.83it/s]
+[1ALoading weights:  25%|██▍       | 357/1436 [00:12<00:30, 34.83it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:12<00:27, 38.55it/s]
+[1ALoading weights:  26%|██▌       | 369/1436 [00:12<00:31, 34.27it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:13<00:27, 39.07it/s]
+[1ALoading weights:  27%|██▋       | 381/1436 [00:13<00:30, 34.10it/s]
+[1ALoading weights:  27%|██▋       | 386/1436 [00:13<00:30, 34.98it/s]
+[1ALoading weights:  27%|██▋       | 390/1436 [00:13<00:34, 30.34it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:13<00:24, 41.49it/s]
+[1ALoading weights:  28%|██▊       | 405/1436 [00:13<00:29, 34.72it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:14<00:25, 39.70it/s]
+[1ALoading weights:  29%|██▉       | 417/1436 [00:14<00:29, 34.03it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:14<00:26, 38.43it/s]
+[1ALoading weights:  30%|██▉       | 429/1436 [00:14<00:29, 33.60it/s]
+[1ALoading weights:  30%|███       | 433/1436 [00:14<00:32, 31.32it/s]
+[1ALoading weights:  31%|███       | 438/1436 [00:14<00:33, 29.78it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:15<00:24, 40.39it/s]
+[1ALoading weights:  32%|███▏      | 453/1436 [00:15<00:28, 34.89it/s]
+[1ALoading weights:  32%|███▏      | 458/1436 [00:15<00:27, 35.79it/s]
+[1ALoading weights:  32%|███▏      | 462/1436 [00:15<00:31, 31.08it/s]
+[1ALoading weights:  33%|███▎      | 470/1436 [00:15<00:25, 38.09it/s]
+[1ALoading weights:  33%|███▎      | 475/1436 [00:15<00:27, 34.81it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:16<00:21, 43.85it/s]
+[1ALoading weights:  34%|███▍      | 489/1436 [00:16<00:25, 36.95it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:16<00:22, 41.67it/s]
+[1ALoading weights:  35%|███▍      | 501/1436 [00:16<00:26, 35.70it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:16<00:23, 40.16it/s]
+[1ALoading weights:  36%|███▌      | 513/1436 [00:16<00:26, 34.70it/s]
+[1ALoading weights:  36%|███▌      | 517/1436 [00:17<00:27, 32.94it/s]
+[1ALoading weights:  36%|███▋      | 522/1436 [00:17<00:30, 30.24it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:17<00:21, 42.21it/s]
+[1ALoading weights:  37%|███▋      | 537/1436 [00:17<00:24, 36.25it/s]
+[1ALoading weights:  38%|███▊      | 542/1436 [00:17<00:25, 35.57it/s]
+[1ALoading weights:  38%|███▊      | 546/1436 [00:17<00:27, 32.64it/s]
+[1ALoading weights:  39%|███▊      | 555/1436 [00:17<00:21, 40.37it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:18<00:25, 34.03it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:18<00:21, 41.15it/s]
+[1ALoading weights:  40%|███▉      | 573/1436 [00:18<00:24, 35.18it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:18<00:22, 38.00it/s]
+[1ALoading weights:  41%|████      | 585/1436 [00:18<00:26, 32.19it/s]
+[1ALoading weights:  41%|████      | 589/1436 [00:19<00:26, 31.39it/s]
+[1ALoading weights:  41%|████▏     | 594/1436 [00:19<00:27, 30.71it/s]
+[1ALoading weights:  42%|████▏     | 603/1436 [00:19<00:19, 41.97it/s]
+[1ALoading weights:  42%|████▏     | 608/1436 [00:19<00:25, 32.48it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:19<00:21, 38.93it/s]
+[1ALoading weights:  43%|████▎     | 621/1436 [00:19<00:26, 31.21it/s]
+[1ALoading weights:  44%|████▍     | 638/1436 [00:20<00:14, 55.13it/s]
+[1ALoading weights:  47%|████▋     | 672/1436 [00:20<00:06, 112.33it/s]
+[1ALoading weights:  50%|████▉     | 714/1436 [00:20<00:04, 177.60it/s]
+[1ALoading weights:  53%|█████▎    | 768/1436 [00:20<00:02, 263.25it/s]
+[1ALoading weights:  57%|█████▋    | 817/1436 [00:20<00:01, 319.20it/s]
+[1ALoading weights:  61%|██████    | 877/1436 [00:20<00:01, 382.06it/s]
+[1ALoading weights:  65%|██████▌   | 934/1436 [00:20<00:01, 429.64it/s]
+[1ALoading weights:  69%|██████▉   | 994/1436 [00:20<00:00, 462.97it/s]
+[1ALoading weights:  73%|███████▎  | 1043/1436 [00:20<00:00, 470.01it/s]
+[1ALoading weights:  76%|███████▌  | 1094/1436 [00:21<00:00, 475.48it/s]
+[1ALoading weights:  80%|████████  | 1154/1436 [00:21<00:00, 506.75it/s]
+[1ALoading weights:  85%|████████▍ | 1215/1436 [00:21<00:00, 533.27it/s]
+[1ALoading weights:  89%|████████▉ | 1279/1436 [00:21<00:00, 538.68it/s]
+[1ALoading weights:  93%|█████████▎| 1339/1436 [00:21<00:00, 531.52it/s]
+[1ALoading weights:  97%|█████████▋| 1394/1436 [00:21<00:00, 536.08it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:21<00:00, 66.38it/s] 
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## VILLAS_v3
+CALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 5/10 · Oferta 7/10 · Confianza 6/10 · Claridad 7/10 · Calidad visual 7/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 5/10
+POR QUÉ FUNCIONA:
+- 0.0-1.0s “DUEÑOS DE VILLAS ¿RENTAS TU PROPIEDAD?” sobre aérea de condominio + montaña filtra dueños de renta vacacional en San Carlos.
+- 1.7-3.1s “LA FOTO ORIGINAL” vs recorrido premium con super “CASO CERRADO anuncio en 8/10 a cambio de estancia” muestra prueba real de resultado.
+- 5.2-6.6s “LA FOTO ORIGINAL” de balcón al mar con “CASO CERRADO” refuerza prueba social visual y contexto de destino.
+- 10.0-13.5s “VIDEOS + ESTRATEGIA $500 MXN / MES Pauta de Meta aparte · desde $250 MXN/mes” + “APLÍCALO ANTES QUE TU COMPETENCIA” deja precio y urgencia claros.
+- 16.2-20.4s “631 247 0486 WhatsApp · Mándame 3 fotos” + “¿TIENES UNA VILLA? ESCRIBE «VILLA» + TU CIUDAD” da instrucción de acción concreta y baja fricción.
+
+QUÉ LO FRENA:
+- 0.0-3.1s Gancho sin rostro ni prueba inmediata; la voz clonada suena plana y no hay primer plano de Carlos en los primeros 3 s, baja retención.
+- 5.4-11.0s La promesa “IA de Facebook para revisar tu anuncio y buscamos que llegue a 8 de 10 antes de lanzarlo” queda abstracta sin mostrar la calificación en pantalla.
+- 17.8-19.6s El CTA final se diluye en 3 planos de piscina/balcón sin refuerzo visual del WhatsApp; la instrucción “villa y tu ciudad por WhatsApp” llega tarde.
+
+VEREDICTO: Subir con cambios
+Calificación proyectada con los cambios: 8/10
+
+CÓMO SUBIR CADA NOTA:
+  Gancho 5→8: Re-clonar la voz frase por frase para entonación natural y añadir primer plano de Carlos hablando en los primeros 3 s · 0.0-3.0s · con voz clonada Fish Audio por frase + MiniMax H3 imagen→video con primer y último cuadro fijados a partir de foto real de Carlos.
+  Oferta 7→8: Mostrar en capa el desglose “VIDEOS + ESTRATEGIA $500 MXN / MES · Pauta aparte desde $250 MXN/mes” de forma fija durante la oferta · 11.0-17.8s · texto en capa exacta.
+  Confianza 6→8: Mantener super “CASO CERRADO · anuncio en 8/10 a cambio de estancia” del 2.0 al 5.2s y añadir en capa el número de WhatsApp 631 247 0486 desde el segundo 12 · 2.0-5.2s y 12.0-20.4s · texto en capa.
+  Claridad 7→8: Subtítulo palabra por palabra sincronizado con la voz clonada y tarjeta de CTA “ESCRIBE «VILLA» + TU CIUDAD” visible en todo el cierre · 17.8-19.6s · texto en capa + voz clonada.
+  Calidad visual 7→8: Animación suave push-in/dolly en las fotos reales de villa con MiniMax H3 y corrección de color/viñeta · 0.0-20.4s · MiniMax H3 a partir de fotos reales del cliente.
+  Políticas de Meta 9→9: ya está, no tocar.
+  Mensajes baratos 7→8: Abrir con filtro de dueños “DUEÑOS DE VILLAS ¿RENTAS TU PROPIEDAD?” y mantener precio $500 MXN/mes visible desde 10.0s · 0.0-1.0s y 10.0-13.5s · texto en capa.
+  Mensajes calificados 5→8: Añadir filtro de acción “Mándame 3 fotos” en capa junto al WhatsApp y mantenerlo en el cierre · 16.2-20.4s · texto en capa.
+
+3 GANCHOS ALTERNATIVOS para los primeros 3 segundos:
+- “Dueño de villa en San Carlos, ¿tu anuncio llega a 8/10?” · escena: primer plano de Carlos hablando generado con MiniMax H3 a partir de foto real de Carlos con fondo de balcón al mar.
+- “Rentas tu propiedad? Mira cómo pasamos de foto a recorrido premium” · escena: split de foto original de sala vs recorrido con super “CASO CERRADO” ya existente 1.7-2.4s.
+- “$500 al mes para que tu villa se rente más rápido” · escena: aérea de condominio con piscina y montaña 0.0-1.0s con tarjeta de precio en capa.
+
+2 ESCENAS NUEVAS CON IA que más subirían la nota:
+- Primer plano de Carlos hablando los primeros 3 s con gesto de mano señalando la pantalla. Se hace con MiniMax H3 imagen→video ~3 s, primer y último cuadro fijados, a partir de foto real de Carlos. Sube Gancho y Confianza.
+- Mockup de calificación de anuncio de Facebook 8/10 sobre la foto del balcón al mar. Se hace con Qwen-Image-Edit-2511 a partir de foto real del balcón, texto en capa aparte. Duración 2 s insertada en 5.4-7.3s. Sube Confianza y Claridad.
+
+LO MÁS RÁPIDO:
+- Re-clonar la voz frase por frase para naturalidad y ajustar velocidad · 0.0-19.6s · voz clonada Fish Audio.
+- Insertar primer plano de Carlos hablando en 0.0-3.0s con MiniMax H3 a partir de foto real.
+- Fijar en capa el CTA “631 247 0486 WhatsApp · Mándame 3 fotos · ESCRIBE «VILLA» + TU CIUDAD” en el cierre 16.2-20.4s · texto en capa.
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-qd5nlcJMAX4rD7ncCDllnC
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/villas_v3/lote.json --tokens 3500
+Duración: 2.5 min  (código 0)
+  glimmer (ap-LZolU2vtOqJBNPEOSolUKI): $0.021
+  glimmer (ap-j3uh6BRR8mJVTBqYn2yMhh): $0.180
+  glimmer (ap-qd5nlcJMAX4rD7ncCDllnC): $0.099
+Gasto del trabajo: $0.301
+Saldo restante ≈ $-13.47

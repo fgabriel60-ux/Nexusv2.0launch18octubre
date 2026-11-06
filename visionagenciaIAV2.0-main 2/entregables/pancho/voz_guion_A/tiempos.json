@@ -1,0 +1,32 @@
+[
+ {
+  "escena": "PIEZA",
+  "inicio_s": 0.0,
+  "dura_s": 3.97,
+  "texto": "Esta pieza te la iban a cobrar… y no era la falla."
+ },
+ {
+  "escena": "HOOK",
+  "inicio_s": 4.27,
+  "dura_s": 4.02,
+  "texto": "¿Te quieren cambiar medio carro? Antes de pagar, escúchame."
+ },
+ {
+  "escena": "DEMO",
+  "inicio_s": 8.59,
+  "dura_s": 7.55,
+  "texto": "Hay talleres que cambian piezas hasta atinarle… y tú pagas cada intento. Yo primero encuentro la falla."
+ },
+ {
+  "escena": "TRUST",
+  "inicio_s": 16.44,
+  "dura_s": 3.97,
+  "texto": "Aquí un carro se arregla entendiéndolo, no cambiándole todo."
+ },
+ {
+  "escena": "CTA",
+  "inicio_s": 20.71,
+  "dura_s": 6.3,
+  "texto": "Mándame por WhatsApp una foto o un audio del ruido, y hoy te digo qué tiene y cuánto cuesta."
+ }
+]

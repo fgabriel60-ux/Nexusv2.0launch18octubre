@@ -1,0 +1,7 @@
+file '/workspaces/visionagenciaIAV2.0/entregables/implante_dental/kling_7_tramos_20260917/_montaje/t1.mp4'
+file '/workspaces/visionagenciaIAV2.0/entregables/implante_dental/kling_7_tramos_20260917/_montaje/t2.mp4'
+file '/workspaces/visionagenciaIAV2.0/entregables/implante_dental/kling_7_tramos_20260917/_montaje/t3.mp4'
+file '/workspaces/visionagenciaIAV2.0/entregables/implante_dental/kling_7_tramos_20260917/_montaje/t4.mp4'
+file '/workspaces/visionagenciaIAV2.0/entregables/implante_dental/kling_7_tramos_20260917/_montaje/t5.mp4'
+file '/workspaces/visionagenciaIAV2.0/entregables/implante_dental/kling_7_tramos_20260917/_montaje/t6.mp4'
+file '/workspaces/visionagenciaIAV2.0/entregables/implante_dental/kling_7_tramos_20260917/_montaje/t7.mp4'

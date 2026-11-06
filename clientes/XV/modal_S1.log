@@ -1,0 +1,31 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-KL3tevwSB0kwIHZs5T5LtF
+Building image im-7emqwSy46F1BUOjKkpuRFK
+
+=> Step 0: FROM base
+
+=> Step 1: RUN python -m pip install pillow requests
+Looking in indexes: http://pypi-mirror.modal.local:5555/simple
+Requirement already satisfied: pillow in /usr/local/lib/python3.12/site-packages (12.3.0)
+Requirement already satisfied: requests in /usr/local/lib/python3.12/site-packages (2.34.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/site-packages (from requests) (3.5.2)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/site-packages (from requests) (3.20)
+Requirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.12/site-packages (from requests) (2.8.0)
+Requirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.12/site-packages (from requests) (2026.7.22)
+
+[notice] A new release of pip is available: 25.1.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+Saving image...
+Image saved, took 969.36ms
+
+Built image im-7emqwSy46F1BUOjKkpuRFK in 3.60s
+
+
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/clientes/XV/xv_modal.py
+└── ✓ Created Function clip.
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/XV/modal_tomas/S1.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-KL3tevwSB0kwIHZs5T5LtF

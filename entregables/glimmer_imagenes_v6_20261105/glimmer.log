@@ -1,0 +1,345 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-4oZUoRNQAuqfvhI6VsMdHs
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:02<1:05:24,  2.73s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:02<13:05,  1.82it/s]  
+[1ALoading weights:   0%|          | 6/1436 [00:03<08:54,  2.67it/s]
+[1ALoading weights:   1%|          | 16/1436 [00:03<02:27,  9.60it/s]
+[1ALoading weights:   1%|▏         | 19/1436 [00:03<02:21, 10.02it/s]
+[1ALoading weights:   2%|▏         | 22/1436 [00:03<01:57, 12.08it/s]
+[1ALoading weights:   2%|▏         | 28/1436 [00:03<01:19, 17.74it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:04<01:22, 17.00it/s]
+[1ALoading weights:   2%|▏         | 35/1436 [00:04<01:16, 18.35it/s]
+[1ALoading weights:   3%|▎         | 41/1436 [00:04<01:05, 21.26it/s]
+[1ALoading weights:   3%|▎         | 44/1436 [00:04<01:05, 21.23it/s]
+[1ALoading weights:   4%|▎         | 52/1436 [00:04<00:50, 27.22it/s]
+[1ALoading weights:   4%|▍         | 55/1436 [00:05<01:04, 21.28it/s]
+[1ALoading weights:   4%|▍         | 61/1436 [00:05<00:50, 27.50it/s]
+[1ALoading weights:   5%|▍         | 65/1436 [00:05<00:58, 23.52it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:05<00:59, 22.90it/s]
+[1ALoading weights:   5%|▌         | 74/1436 [00:05<00:46, 29.60it/s]
+[1ALoading weights:   5%|▌         | 78/1436 [00:05<01:06, 20.41it/s]
+[1ALoading weights:   6%|▌         | 85/1436 [00:06<00:48, 27.90it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:06<01:06, 20.37it/s]
+[1ALoading weights:   7%|▋         | 98/1436 [00:06<00:44, 30.33it/s]
+[1ALoading weights:   7%|▋         | 103/1436 [00:06<00:58, 22.76it/s]
+[1ALoading weights:   8%|▊         | 110/1436 [00:07<00:44, 29.53it/s]
+[1ALoading weights:   8%|▊         | 115/1436 [00:07<00:58, 22.64it/s]
+[1ALoading weights:   8%|▊         | 121/1436 [00:07<00:47, 27.82it/s]
+[1ALoading weights:   9%|▉         | 126/1436 [00:07<01:00, 21.55it/s]
+[1ALoading weights:   9%|▉         | 136/1436 [00:08<00:43, 30.06it/s]
+[1ALoading weights:  10%|▉         | 141/1436 [00:08<00:50, 25.74it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:08<00:46, 27.77it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:08<00:55, 23.32it/s]
+[1ALoading weights:  11%|█         | 155/1436 [00:08<00:53, 23.97it/s]
+[1ALoading weights:  11%|█         | 161/1436 [00:09<01:00, 20.98it/s]
+[1ALoading weights:  12%|█▏        | 170/1436 [00:09<00:40, 31.02it/s]
+[1ALoading weights:  12%|█▏        | 175/1436 [00:09<00:54, 23.27it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:09<00:42, 29.27it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:10<00:50, 24.63it/s]
+[1ALoading weights:  13%|█▎        | 193/1436 [00:10<00:49, 25.00it/s]
+[1ALoading weights:  14%|█▎        | 197/1436 [00:10<00:47, 26.23it/s]
+[1ALoading weights:  14%|█▍        | 201/1436 [00:10<00:47, 26.25it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:10<00:41, 29.86it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:11<00:51, 23.72it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:11<00:41, 29.04it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:11<00:51, 23.74it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:11<00:49, 24.18it/s]
+[1ALoading weights:  16%|█▋        | 235/1436 [00:12<00:51, 23.16it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:12<00:39, 30.15it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:12<00:48, 24.58it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:12<00:40, 28.94it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:12<00:48, 24.05it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:13<00:46, 24.94it/s]
+[1ALoading weights:  19%|█▉        | 271/1436 [00:13<00:47, 24.37it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:13<00:38, 30.30it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:13<00:47, 24.30it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:14<00:39, 29.26it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:14<00:46, 24.35it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:14<00:39, 28.84it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:14<00:47, 23.93it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:15<00:38, 28.77it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:15<00:46, 23.92it/s]
+[1ALoading weights:  23%|██▎       | 328/1436 [00:15<00:38, 28.91it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:15<00:47, 23.47it/s]
+[1ALoading weights:  24%|██▎       | 340/1436 [00:15<00:39, 28.03it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:16<00:46, 23.63it/s]
+[1ALoading weights:  24%|██▍       | 350/1436 [00:16<00:44, 24.49it/s]
+[1ALoading weights:  25%|██▍       | 353/1436 [00:16<00:44, 24.60it/s]
+[1ALoading weights:  25%|██▍       | 356/1436 [00:16<00:46, 23.19it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:16<00:37, 28.97it/s]
+[1ALoading weights:  26%|██▌       | 367/1436 [00:17<00:48, 22.03it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:17<00:37, 28.15it/s]
+[1ALoading weights:  26%|██▋       | 379/1436 [00:17<00:47, 22.45it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:17<00:35, 29.12it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:18<00:44, 23.63it/s]
+[1ALoading weights:  28%|██▊       | 398/1436 [00:18<00:35, 28.99it/s]
+[1ALoading weights:  28%|██▊       | 402/1436 [00:18<00:49, 20.91it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:18<00:37, 27.65it/s]
+[1ALoading weights:  29%|██▉       | 416/1436 [00:19<00:45, 22.54it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:19<00:36, 27.51it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:19<00:44, 22.46it/s]
+[1ALoading weights:  30%|███       | 436/1436 [00:19<00:35, 28.14it/s]
+[1ALoading weights:  31%|███       | 440/1436 [00:20<00:41, 24.00it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:20<00:34, 28.76it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:20<00:40, 24.14it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:20<00:34, 28.65it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:20<00:41, 23.37it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:21<00:32, 29.27it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:21<00:40, 23.53it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:21<00:32, 29.14it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:21<00:39, 24.14it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:22<00:32, 29.26it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:22<00:39, 23.51it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:22<00:32, 28.59it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:22<00:39, 23.37it/s]
+[1ALoading weights:  36%|███▌      | 518/1436 [00:22<00:31, 28.80it/s]
+[1ALoading weights:  36%|███▋      | 522/1436 [00:23<00:43, 21.07it/s]
+[1ALoading weights:  37%|███▋      | 530/1436 [00:23<00:30, 29.29it/s]
+[1ALoading weights:  37%|███▋      | 535/1436 [00:23<00:40, 22.44it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:24<00:35, 24.97it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:24<00:34, 25.40it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:24<00:30, 29.30it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:24<00:36, 24.15it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:24<00:30, 28.36it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:25<00:38, 22.62it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:25<00:31, 27.44it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:25<00:36, 23.52it/s]
+[1ALoading weights:  41%|████      | 590/1436 [00:25<00:33, 24.92it/s]
+[1ALoading weights:  41%|████▏     | 593/1436 [00:26<00:40, 20.68it/s]
+[1ALoading weights:  42%|████▏     | 601/1436 [00:26<00:33, 25.01it/s]
+[1ALoading weights:  42%|████▏     | 605/1436 [00:26<00:37, 22.06it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:26<00:26, 31.01it/s]
+[1ALoading weights:  43%|████▎     | 620/1436 [00:27<00:32, 25.00it/s]
+[1ALoading weights:  44%|████▍     | 630/1436 [00:27<00:22, 35.81it/s]
+[1ALoading weights:  46%|████▋     | 666/1436 [00:27<00:08, 90.55it/s]
+[1ALoading weights:  48%|████▊     | 690/1436 [00:27<00:06, 118.39it/s]
+[1ALoading weights:  50%|█████     | 721/1436 [00:27<00:04, 156.25it/s]
+[1ALoading weights:  53%|█████▎    | 768/1436 [00:27<00:02, 228.23it/s]
+[1ALoading weights:  57%|█████▋    | 814/1436 [00:27<00:02, 281.54it/s]
+[1ALoading weights:  60%|█████▉    | 856/1436 [00:27<00:01, 314.04it/s]
+[1ALoading weights:  63%|██████▎   | 898/1436 [00:27<00:01, 341.94it/s]
+[1ALoading weights:  67%|██████▋   | 956/1436 [00:27<00:01, 396.40it/s]
+[1ALoading weights:  70%|██████▉   | 1003/1436 [00:28<00:01, 416.40it/s]
+[1ALoading weights:  73%|███████▎  | 1047/1436 [00:28<00:00, 420.99it/s]
+[1ALoading weights:  76%|███████▌  | 1091/1436 [00:28<00:00, 408.36it/s]
+[1ALoading weights:  80%|███████▉  | 1146/1436 [00:28<00:00, 444.20it/s]
+[1ALoading weights:  83%|████████▎ | 1192/1436 [00:28<00:00, 430.13it/s]
+[1ALoading weights:  86%|████████▌ | 1236/1436 [00:28<00:00, 421.02it/s]
+[1ALoading weights:  89%|████████▉ | 1281/1436 [00:28<00:00, 423.22it/s]
+[1ALoading weights:  92%|█████████▏| 1327/1436 [00:28<00:00, 422.37it/s]
+[1ALoading weights:  96%|█████████▌| 1372/1436 [00:28<00:00, 426.41it/s]
+[1ALoading weights:  99%|█████████▊| 1415/1436 [00:29<00:00, 422.21it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:29<00:00, 49.37it/s] 
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## RAFAEL_v6
+**Imagen 1 – “Menos gasolina, más kilómetros con tu familia”**
+
+1. **Calificación**
+* **Total: 7.5/10**
+* Oferta: 7/10 – “Híbridos y eléctricos BYD · hasta 1,145 km de autonomía” y prueba de manejo. Beneficio claro de ahorro, pero sin precio, financiamiento ni plazo.
+* Confianza: 8/10 – Asesor real, nombre, rol y zona. Foto a luz natural con auto y calle reconocible.
+* Claridad: 7/10 – Mensaje principal entendible para familias. El claim de 1,145 km puede confundir si no se aclara que es híbrido.
+* Calidad visual: 8/10 – Foto nítida, buena luz, paleta azul marino/verde esmeralda respetada, jerarquía legible.
+* Políticas de Meta: 9/10 – Sin promesas absolutas, sin antes/después, sin datos personales expuestos.
+* Probabilidad de mensajes baratos: 6/10 – “Pide tu prueba de manejo” puede atraer curiosidad sin intención real.
+* Probabilidad de mensajes calificados: 7/10 – Enfoque familiar y ahorro, pero falta filtro de zona/uso.
+
+2. **Por qué funciona**
+* Beneficio inmediato y local: menos gasolina y más kilómetros con la familia, relevante para trayectos diarios en Azcapotzalco.
+* Prueba social y cercanía: Rafael, Asesor BYD · Azcapotzalco, con foto real junto al Song Plus.
+* Identidad visual consistente: azul marino con botón verde esmeralda y fotografía natural urbana.
+
+3. **Qué lo frena**
+* **Autonomía sin contexto.** “hasta 1,145 km de autonomía” puede leerse como eléctrico. Arreglo: aclarar “Autonomía combinada en híbrido, hasta 1,145 km”. Sube ~0.4 puntos.
+* **CTA genérico.** “Pide tu prueba de manejo” atrae consultas frías. Arreglo: “Agenda tu prueba de manejo en Azcapotzalco”. Sube ~0.3 puntos.
+* **Sin filtro de intención.** No se indica quién es el anuncio para. Arreglo: añadir subtexto “Para recorridos diarios de 20 a 50 km”. Sube ~0.2 puntos.
+
+4. **Calificación proyectada con arreglos: 8.4/10**
+
+5. **Mensaje para WhatsApp**
+* Su anuncio quedó claro, cercano y con buena imagen.
+* Le ajustaría la autonomía para que no se confunda y el CTA a prueba en Azcapotzalco.
+* Con eso sube la calidad de los mensajes y baja la curiosidad sin intención.
+* Le comparto la versión corregida para publicar hoy.
+
+---
+
+**Imagen 2 – “Autonomía real para el tráfico de Azcapotzalco”**
+
+1. **Calificación**
+* **Total: 7.8/10**
+* Oferta: 8/10 – Modelos concretos Song Plus, King y Dolphin + prueba sin compromiso. Muy específico.
+* Confianza: 8/10 – Asesor real, zona y fachada de BYD al fondo refuerzan legitimidad.
+* Claridad: 8/10 – Habla directo al dolor del tráfico local. “prueba de manejo sin compromiso” es claro.
+* Calidad visual: 7/10 – Buena foto y paleta, pero el edificio BYD compite visualmente con el auto y el rostro.
+* Políticas de Meta: 9/10 – Cumple normas, sin afirmaciones engañosas.
+* Probabilidad de mensajes baratos: 5/10 – “Escríbeme por WhatsApp” abierto puede traer saludos sin filtro.
+* Probabilidad de mensajes calificados: 8/10 – Modelos y zona bien definidos, mayor intención que la imagen 1.
+
+2. **Por qué funciona**
+* Dolor local muy bien nombrado: autonomía real para el tráfico de Azcapotzalco.
+* Oferta específica por modelo y canal directo a WhatsApp, ideal para cierre.
+* Presencia de la fachada BYD suma credibilidad de punto de venta.
+
+3. **Qué lo frena**
+* **Fondo competidor.** La fachada con logo BYD distrae del auto y del asesor. Arreglo: recortar/oscurecer ligeramente el fondo para priorizar auto y rostro. Sube ~0.3 puntos.
+* **CTA abierto.** “Escríbeme por WhatsApp” invita a mensajes vacíos. Arreglo: “Escríbeme por WhatsApp para agendar tu prueba en Azcapotzalco”. Sube ~0.3 puntos.
+* **Sin beneficio cuantificado.** No recuerda el ahorro de gasolina. Arreglo: añadir microtexto “Menos gasolina en recorridos de 20 a 50 km diarios”. Sube ~0.2 puntos.
+
+4. **Calificación proyectada con arreglos: 8.6/10**
+
+5. **Mensaje para WhatsApp**
+* Su anuncio conecta muy bien con el tráfico de Azcapotzalco y los modelos que maneja.
+* Le suavizaría el fondo para que el auto y usted resalten más.
+* Ajustaría el botón a “agendar prueba en Azcapotzalco” para recibir conversaciones con intención.
+* Con esos cambios queda listo para publicar y medir respuesta por WhatsApp.
+
+######## MARIANO_v6
+**Imagen 1 – “Casa Bugambilia, la única con plaza comercial”**
+
+1. **Calificación**
+* **Total: 7.5/10**
+* Oferta: 8/10 – Precio claro “Desde 2 millones 450 mil pesos” y diferenciador “la única con plaza comercial”. Le falta urgencia/beneficio extra.
+* Confianza: 7/10 – Foto real con asesor, ubicación completa y amenities. Falta sello de desarrollador/aval y prueba social.
+* Claridad: 7/10 – Mensaje simple, CTA “Agenda tu visita”. El texto “En privada | Cancha de pádel | Acceso controlado y área de juegos” queda denso.
+* Calidad visual: 8/10 – Foto nítida, luz buena, paleta coherente blanco cálido/azul piedra/terracota. El recorte del edificio a la derecha corta la fachada.
+* Políticas de Meta: 9/10 – Sin promesas engañosas, sin datos personales. Cumple.
+* Probabilidad de mensajes baratos: 6/10 – CTA genérico invita a cotizar sin filtro.
+* Probabilidad de mensajes calificados: 7/10 – Habla a familias, pero no filtra intención ni presupuesto.
+
+2. **Por qué funciona**
+* Foto real con asesor de pie frente al modelo genera cercanía y confianza inmediata.
+* Diferenciador claro “la única con plaza comercial” + precio de entrada ancla la oferta.
+* Identidad visual consistente y legible, con CTA destacado en terracota.
+
+3. **Qué lo frena**
+* **Recorte de la fachada a la derecha.** Arreglo: usar la misma foto con margen derecho completo o recortar simétricamente. Sube +0.4.
+* **CTA abierto “Agenda tu visita”.** Arreglo: cambiar a “Agenda tu visita por WhatsApp” y añadir micro-filtro “¿Te interesa Bugambilia desde $2.45M?”. Sube +0.5 en calidad de lead.
+* **Beneficios en una sola línea larga.** Arreglo: presentar 3 bullets con iconos: Privada, Cancha de pádel, Acceso controlado. Sube +0.3 en claridad.
+
+4. **Calificación proyectada con arreglos: 8.7/10**
+
+5. **Mensaje para WhatsApp**
+* Sr. Mariano, su anuncio de Casa Bugambilia quedó claro, con buena foto y precio visible.
+* Lo que más ayuda es el diferenciador de plaza comercial y la imagen con usted frente a la casa.
+* Para mejorar, ajustamos el recorte de la fachada, afinamos el CTA a WhatsApp con un pequeño filtro y ordenamos los beneficios en 3 puntos.
+* Seguimos con esta versión corregida y armamos una variante para probar mensaje de Infonavit.
+
+---
+
+**Imagen 2 – “Cuatro modelos en un mismo fraccionamiento”**
+
+1. **Calificación**
+* **Total: 8/10**
+* Oferta: 9/10 – Muestra 4 modelos con precios por millón y rango “Desde 1 millón 400 mil pesos”. Muy completo.
+* Confianza: 7/10 – Asesor real, ubicación y forma de pago. Falta sello/aval y prueba social.
+* Claridad: 8/10 – Jerarquía buena, pero la lista de 4 precios en una línea puede saturar.
+* Calidad visual: 8/10 – Misma foto de calidad, paleta correcta. El edificio de la derecha sigue parcialmente cortado.
+* Políticas de Meta: 9/10 – Sin incumplimientos. Cumple.
+* Probabilidad de mensajes baratos: 5/10 – “Escríbeme «Vizcaíno»” puede atraer curiosidad sin presupuesto.
+* Probabilidad de mensajes calificados: 8/10 – Rango amplio ayuda a segmentar, pero conviene guiar a modelo.
+
+2. **Por qué funciona**
+* Oferta de variedad con precios por modelo, ideal para familias con distintos presupuestos.
+* Menciona aceptación de Infonavit y crédito hipotecario, reduce fricción de compra.
+* CTA con palabra clave “Vizcaíno” facilita segmentación en WhatsApp.
+
+3. **Qué lo frena**
+* **Lista de precios en una sola línea.** Arreglo: mostrar en 2 líneas o con bullets: Sotol $1.4M • Bugambilia $2.45M • Benjamina $2.8M • Salvia 4 rec $3.1M. Sube +0.3 en claridad.
+* **Recorte lateral de la fachada.** Arreglo: usar crop con margen completo a la derecha. Sube +0.3.
+* **CTA puede generar mensajes de curiosidad.** Arreglo: añadir micro-filtro bajo el botón “Indica modelo de interés y presupuesto”. Sube +0.4 en calidad de lead.
+
+4. **Calificación proyectada con arreglos: 9.0/10**
+
+5. **Mensaje para WhatsApp**
+* Sr. Mariano, su anuncio de cuatro modelos quedó muy completo y atractivo para familias.
+* Destaca el rango de precios y que aceptan Infonavit y crédito hipotecario.
+* Para pulirlo, abrimos un poco la foto a la derecha, separamos los precios por modelo y agregamos un pequeño filtro bajo el CTA.
+* Seguimos con esta versión optimizada y preparamos una variante enfocada en Bugambilia con plaza comercial.
+
+######## MANUEL_v5
+**Imagen 1**
+
+1. **CALIFICACIÓN TOTAL y por rubro**
+* **Total: 7.5/10**
+* Oferta: 7/10
+* Confianza: 7/10
+* Claridad: 8/10
+* Calidad visual: 9/10
+* Políticas de Meta: 9/10
+* Probabilidad de mensajes baratos: 6/10
+* Probabilidad de mensajes calificados: 7/10
+
+2. **POR QUÉ FUNCIONA**
+* La promesa “Que la recuerden como en una película” + “tratamiento cinematográfico” habla directo al deseo de las mamás de un recuerdo premium, no genérico.
+* Identidad visual coherente con la marca: azul noche, dorado cálido y luz de atardecer, sin rosa, lo que diferencia del mercado de XV.
+* CTA claro y de baja fricción “Aparta tu fecha por WhatsApp” con zona de servicio visible: Hunab Ku • Nogales, Sonora y sur de Arizona.
+
+3. **QUÉ LO FRENA**
+* **Oferta sin ancla de valor.** No hay rango de precio, paquete ni beneficio tangible. Arreglo: agregar un ancla tipo “Sesión XV cinematográfica desde $X MXN / $Y USD” o “Incluye fotos + video corto”. Sube ~0.8 puntos en Oferta y mensajes calificados.
+* **Confianza limitada.** Solo logo y nombre. Falta prueba social mínima. Arreglo: añadir microprueba “+200 XVs filmadas en la frontera” o “Trabajamos en Nogales, Sonora y sur de Arizona desde 2015”. Sube ~0.7 en Confianza.
+* **CTA genérico.** “Aparta tu fecha por WhatsApp” no indica qué responder. Arreglo: cambiar a “Escríbeme por WhatsApp con tu fecha y te confirmo disponibilidad”. Sube ~0.5 en claridad y calidad de mensajes.
+
+4. **CALIFICACIÓN PROYECTADA con esos arreglos:** 8.8/10
+
+5. **Cuatro renglones para WhatsApp**
+* Sr. Manuel, su anuncio quedó elegante y muy alineado a su identidad azul noche con dorado y luz de atardecer.
+* La promesa cinematográfica conecta bien con mamás que buscan un recuerdo distinto para sus XV.
+* Para subir la calidad de los mensajes le propongo agregar un ancla de paquete/precio y una microprueba de experiencia en la zona.
+* Con esos ajustes podemos probar la misma creatividad con un texto que invite a escribir la fecha y ver la mejora en consultas calificadas.
+
+---
+
+**Imagen 2**
+
+1. **CALIFICACIÓN TOTAL y por rubro**
+* **Total: 8.0/10**
+* Oferta: 7/10
+* Confianza: 8/10
+* Claridad: 9/10
+* Calidad visual: 9/10
+* Políticas de Meta: 9/10
+* Probabilidad de mensajes baratos: 5/10
+* Probabilidad de mensajes calificados: 8/10
+
+2. **POR QUÉ FUNCIONA**
+* El ángulo de escasez “Las mejores fechas se apartan antes” + “Dime la fecha de tus XV y te digo si está libre” genera acción inmediata y conversación.
+* Contacto visible y dual: WhatsApp 631 126 5175 • +1 (520) 313-6941, ideal para audiencia binacional Nogales Sonora / sur de Arizona.
+* Visual premium consistente con la marca y sin clichés rosas, reforzando posicionamiento cinematográfico.
+
+3. **QUÉ LO FRENA**
+* **Oferta implícita.** No se menciona qué incluye fotografía y video ni diferenciador de precio. Arreglo: añadir “Fotografía + video cinematográfico para XV en Nogales y sur de Arizona”. Sube ~0.7 en Oferta.
+* **Prueba social ausente.** Sin números, reseñas o años de experiencia. Arreglo: insertar “+200 XVs en la frontera” o “Desde 2015”. Sube ~0.6 en Confianza.
+* **CTA puede optimizarse.** “Preguntar por mi fecha” es correcto pero puede ser más conversacional. Arreglo: “Escríbeme tu fecha por WhatsApp y te confirmo disponibilidad hoy”. Sube ~0.4 en claridad y mensajes calificados.
+
+4. **CALIFICACIÓN PROYECTADA con esos arreglos:** 9.1/10
+
+5. **Cuatro renglones para WhatsApp**
+* Sr. Manuel, esta segunda pieza es la más fuerte para generar conversación por la urgencia de fechas y el contacto visible.
+* El mensaje está claro para mamás de Nogales y sur de Arizona que buscan fotografía y video de XV.
+* Le recomiendo complementar con un beneficio concreto y una microprueba de trayectoria para filtrar consultas curiosas.
+* Con esos ajustes podemos lanzar esta creatividad como principal y medir respuesta por WhatsApp en los próximos días.
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-4oZUoRNQAuqfvhI6VsMdHs
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_imagenes_v6_20261105/lote.json --tokens 3500
+Duración: 5.4 min  (código 0)
+  glimmer (ap-4oZUoRNQAuqfvhI6VsMdHs): $0.220
+Gasto del trabajo: $0.220
+Saldo restante ≈ $-13.68

@@ -1,0 +1,114 @@
+[
+  {
+    "gpu": "Tesla T4",
+    "devices": [
+      [
+        "Tesla T4",
+        "CUDA",
+        false
+      ],
+      [
+        "Intel Xeon Platinum 8259CL CPU @ 2.50GHz",
+        "CPU",
+        false
+      ],
+      [
+        "Tesla T4",
+        "OPTIX",
+        true
+      ]
+    ],
+    "times": [
+      [
+        1,
+        10.72576502
+      ]
+    ],
+    "samples": 64,
+    "percent": 50
+  },
+  {
+    "gpu": "Tesla T4",
+    "devices": [
+      [
+        "Tesla T4",
+        "CUDA",
+        false
+      ],
+      [
+        "Intel Xeon Platinum 8259CL CPU @ 2.50GHz",
+        "CPU",
+        false
+      ],
+      [
+        "Tesla T4",
+        "OPTIX",
+        true
+      ]
+    ],
+    "times": [
+      [
+        265,
+        9.779275862999999
+      ]
+    ],
+    "samples": 64,
+    "percent": 50
+  },
+  {
+    "gpu": "Tesla T4",
+    "devices": [
+      [
+        "Tesla T4",
+        "CUDA",
+        false
+      ],
+      [
+        "Intel Xeon Platinum 8259CL CPU @ 2.50GHz",
+        "CPU",
+        false
+      ],
+      [
+        "Tesla T4",
+        "OPTIX",
+        true
+      ]
+    ],
+    "times": [
+      [
+        380,
+        7.253261740999999
+      ]
+    ],
+    "samples": 64,
+    "percent": 50
+  },
+  {
+    "gpu": "Tesla T4",
+    "devices": [
+      [
+        "Tesla T4",
+        "CUDA",
+        false
+      ],
+      [
+        "Intel Xeon Platinum 8259CL CPU @ 2.50GHz",
+        "CPU",
+        false
+      ],
+      [
+        "Tesla T4",
+        "OPTIX",
+        true
+      ]
+    ],
+    "times": [
+      [
+        740,
+        6.660326222999998
+      ]
+    ],
+    "samples": 64,
+    "percent": 50
+  }
+]

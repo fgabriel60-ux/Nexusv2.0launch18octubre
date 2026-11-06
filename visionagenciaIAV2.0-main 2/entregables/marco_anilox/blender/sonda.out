@@ -1,0 +1,4 @@
+{
+ "_http": 503,
+ "_body": "{\"error\":\"Blender no está conectado.\",\"comoArreglar\":\"Abre Blender, ve a la pestaña Seedance en la barra lateral (tecla N) y dale Conectar.\"}"
+}

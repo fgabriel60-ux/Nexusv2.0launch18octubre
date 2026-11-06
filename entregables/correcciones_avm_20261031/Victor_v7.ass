@@ -1,0 +1,63 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Montserrat,44,&H00FFFFFF,&H0000D7FF,&H00111111,&H70000000,-1,0,0,0,100,100,0,0,1,3,1,2,45,45,285,1
+Style: Title,Montserrat,32,&H00FFFFFF,&H00FFFFFF,&H00111111,&H70000000,-1,0,0,0,100,100,0,0,3,2,0,8,45,45,85,1
+Style: CTA,Montserrat,34,&H00FFFFFF,&H00FFFFFF,&H00111111,&H70000000,-1,0,0,0,100,100,0,0,3,2,0,2,45,45,125,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:22.15,Title,,0,0,0,,SERVILIN · LIMPIEZA DE OBRA FINA\NSOLO EMPRESAS · NO ES VACANTE
+Dialogue: 0,0:00:00.00,0:00:22.15,CTA,,0,0,0,,WHATSAPP 56 3634 1441\NTipo de inmueble + m²
+Dialogue: 3,0:00:00.00,0:00:02.00,Sub,,0,0,0,,{\an5\pos(360,500)}¿ERES CONSTRUCTORA\NO DESARROLLADOR?
+Dialogue: 2,0:00:00.00,0:00:00.54,Sub,,0,0,0,,{\c&H00D7FF&}Eres{\c&HFFFFFF&} constructora o desarrollador.
+Dialogue: 2,0:00:00.54,0:00:01.24,Sub,,0,0,0,,Eres {\c&H00D7FF&}constructora{\c&HFFFFFF&} o desarrollador.
+Dialogue: 2,0:00:01.24,0:00:01.46,Sub,,0,0,0,,Eres constructora {\c&H00D7FF&}o{\c&HFFFFFF&} desarrollador.
+Dialogue: 2,0:00:01.46,0:00:02.19,Sub,,0,0,0,,Eres constructora o {\c&H00D7FF&}desarrollador.{\c&HFFFFFF&}
+Dialogue: 2,0:00:02.26,0:00:02.34,Sub,,0,0,0,,{\c&H00D7FF&}En{\c&HFFFFFF&} Servilin hacemos limpieza
+Dialogue: 2,0:00:02.34,0:00:02.86,Sub,,0,0,0,,En {\c&H00D7FF&}Servilin{\c&HFFFFFF&} hacemos limpieza
+Dialogue: 2,0:00:02.86,0:00:03.32,Sub,,0,0,0,,En Servilin {\c&H00D7FF&}hacemos{\c&HFFFFFF&} limpieza
+Dialogue: 2,0:00:03.32,0:00:04.03,Sub,,0,0,0,,En Servilin hacemos {\c&H00D7FF&}limpieza{\c&HFFFFFF&}
+Dialogue: 2,0:00:03.98,0:00:04.16,Sub,,0,0,0,,{\c&H00D7FF&}de{\c&HFFFFFF&} obra fina para
+Dialogue: 2,0:00:04.16,0:00:04.36,Sub,,0,0,0,,de {\c&H00D7FF&}obra{\c&HFFFFFF&} fina para
+Dialogue: 2,0:00:04.36,0:00:04.84,Sub,,0,0,0,,de obra {\c&H00D7FF&}fina{\c&HFFFFFF&} para
+Dialogue: 2,0:00:04.84,0:00:05.15,Sub,,0,0,0,,de obra fina {\c&H00D7FF&}para{\c&HFFFFFF&}
+Dialogue: 2,0:00:05.10,0:00:05.71,Sub,,0,0,0,,{\c&H00D7FF&}empresas.{\c&HFFFFFF&}
+Dialogue: 2,0:00:06.12,0:00:06.68,Sub,,0,0,0,,{\c&H00D7FF&}Retiramos{\c&HFFFFFF&} polvo,
+Dialogue: 2,0:00:06.68,0:00:07.21,Sub,,0,0,0,,Retiramos {\c&H00D7FF&}polvo,{\c&HFFFFFF&}
+Dialogue: 2,0:00:07.38,0:00:07.68,Sub,,0,0,0,,{\c&H00D7FF&}cemento{\c&HFFFFFF&} y restos de
+Dialogue: 2,0:00:07.68,0:00:07.82,Sub,,0,0,0,,cemento {\c&H00D7FF&}y{\c&HFFFFFF&} restos de
+Dialogue: 2,0:00:07.82,0:00:08.28,Sub,,0,0,0,,cemento y {\c&H00D7FF&}restos{\c&HFFFFFF&} de
+Dialogue: 2,0:00:08.28,0:00:08.51,Sub,,0,0,0,,cemento y restos {\c&H00D7FF&}de{\c&HFFFFFF&}
+Dialogue: 2,0:00:08.46,0:00:09.03,Sub,,0,0,0,,{\c&H00D7FF&}pintura.{\c&HFFFFFF&}
+Dialogue: 2,0:00:09.22,0:00:09.80,Sub,,0,0,0,,{\c&H00D7FF&}Limpiamos{\c&HFFFFFF&} ventanas y pisos
+Dialogue: 2,0:00:09.80,0:00:10.34,Sub,,0,0,0,,Limpiamos {\c&H00D7FF&}ventanas{\c&HFFFFFF&} y pisos
+Dialogue: 2,0:00:10.34,0:00:10.56,Sub,,0,0,0,,Limpiamos ventanas {\c&H00D7FF&}y{\c&HFFFFFF&} pisos
+Dialogue: 2,0:00:10.56,0:00:10.99,Sub,,0,0,0,,Limpiamos ventanas y {\c&H00D7FF&}pisos{\c&HFFFFFF&}
+Dialogue: 2,0:00:10.94,0:00:11.18,Sub,,0,0,0,,{\c&H00D7FF&}con{\c&HFFFFFF&} personal uniformado,
+Dialogue: 2,0:00:11.18,0:00:11.64,Sub,,0,0,0,,con {\c&H00D7FF&}personal{\c&HFFFFFF&} uniformado,
+Dialogue: 2,0:00:11.64,0:00:12.47,Sub,,0,0,0,,con personal {\c&H00D7FF&}uniformado,{\c&HFFFFFF&}
+Dialogue: 2,0:00:12.68,0:00:13.18,Sub,,0,0,0,,{\c&H00D7FF&}capacitado{\c&HFFFFFF&} y supervisado.
+Dialogue: 2,0:00:13.18,0:00:13.40,Sub,,0,0,0,,capacitado {\c&H00D7FF&}y{\c&HFFFFFF&} supervisado.
+Dialogue: 2,0:00:13.40,0:00:14.13,Sub,,0,0,0,,capacitado y {\c&H00D7FF&}supervisado.{\c&HFFFFFF&}
+Dialogue: 2,0:00:14.26,0:00:14.36,Sub,,0,0,0,,{\c&H00D7FF&}Tu{\c&HFFFFFF&} obra lista para
+Dialogue: 2,0:00:14.36,0:00:14.66,Sub,,0,0,0,,Tu {\c&H00D7FF&}obra{\c&HFFFFFF&} lista para
+Dialogue: 2,0:00:14.66,0:00:15.02,Sub,,0,0,0,,Tu obra {\c&H00D7FF&}lista{\c&HFFFFFF&} para
+Dialogue: 2,0:00:15.02,0:00:15.37,Sub,,0,0,0,,Tu obra lista {\c&H00D7FF&}para{\c&HFFFFFF&}
+Dialogue: 2,0:00:15.32,0:00:15.86,Sub,,0,0,0,,{\c&H00D7FF&}entregar{\c&HFFFFFF&} solicita una propuesta
+Dialogue: 2,0:00:15.86,0:00:16.46,Sub,,0,0,0,,entregar {\c&H00D7FF&}solicita{\c&HFFFFFF&} una propuesta
+Dialogue: 2,0:00:16.46,0:00:16.78,Sub,,0,0,0,,entregar solicita {\c&H00D7FF&}una{\c&HFFFFFF&} propuesta
+Dialogue: 2,0:00:16.78,0:00:17.27,Sub,,0,0,0,,entregar solicita una {\c&H00D7FF&}propuesta{\c&HFFFFFF&}
+Dialogue: 2,0:00:17.22,0:00:17.52,Sub,,0,0,0,,{\c&H00D7FF&}por{\c&HFFFFFF&} WhatsApp.
+Dialogue: 2,0:00:17.52,0:00:18.11,Sub,,0,0,0,,por {\c&H00D7FF&}WhatsApp.{\c&HFFFFFF&}
+Dialogue: 2,0:00:18.68,0:00:18.90,Sub,,0,0,0,,{\c&H00D7FF&}Dinos{\c&HFFFFFF&} qué tipo de
+Dialogue: 2,0:00:18.90,0:00:19.10,Sub,,0,0,0,,Dinos {\c&H00D7FF&}qué{\c&HFFFFFF&} tipo de
+Dialogue: 2,0:00:19.10,0:00:19.42,Sub,,0,0,0,,Dinos qué {\c&H00D7FF&}tipo{\c&HFFFFFF&} de
+Dialogue: 2,0:00:19.42,0:00:19.69,Sub,,0,0,0,,Dinos qué tipo {\c&H00D7FF&}de{\c&HFFFFFF&}
+Dialogue: 2,0:00:19.64,0:00:20.06,Sub,,0,0,0,,{\c&H00D7FF&}inmueble{\c&HFFFFFF&} y cuántos metros
+Dialogue: 2,0:00:20.06,0:00:20.36,Sub,,0,0,0,,inmueble {\c&H00D7FF&}y{\c&HFFFFFF&} cuántos metros
+Dialogue: 2,0:00:20.36,0:00:20.72,Sub,,0,0,0,,inmueble y {\c&H00D7FF&}cuántos{\c&HFFFFFF&} metros
+Dialogue: 2,0:00:20.72,0:00:21.11,Sub,,0,0,0,,inmueble y cuántos {\c&H00D7FF&}metros{\c&HFFFFFF&}
+Dialogue: 2,0:00:21.06,0:00:21.67,Sub,,0,0,0,,{\c&H00D7FF&}cuadrados.{\c&HFFFFFF&}

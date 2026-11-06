@@ -1,0 +1,27 @@
+31 octubre 2026 · Correcciones solicitadas por Carlos.
+
+VÍCTOR · Servilin obra fina v6b
+clientes/Victor/video/Servilin_obra_fina_v6b.mp4
+22.15 segundos; H.264 Main 720x1280, audio AAC, 5.4 MB.
+Gancho hablado desde inicio. Se sustituyó la escena de plásticos con duplicados por limpieza de ventanas; el guion describe ventanas y pisos. El cierre muestra el equipo en la obra limpia con CTA para tipo de inmueble y m². Aviso fijo: servicio para empresas, no vacante. No se inventó un teléfono ni precio de Víctor: se pide WhatsApp, pendiente confirmar su número para ponerlo visible si Glimmer lo exige.
+
+GUILLERMO · Vicens far12 v4 voz
+clientes/Guillermo/far12_v1/Vicens_far12_v4_voz.mp4
+14.42 segundos; H.264 Main 720x1280, audio AAC, 2.9 MB.
+Guion ADAPTADO de las recomendaciones verificadas de Glimmer (20261031b), no guion literal atribuido al modelo: gancho hablado, un servicio principal (zaguanes) y contexto local. Voz clonada real de Guillermo. WhatsApp 231 231 1066 fijo y CTA foto + medidas + colonia. Se conservan tomas animadas existentes del negocio.
+
+VOZ Y SUBTÍTULOS
+Se generaron cuatro tomas por cliente (2 Fish s2-pro, 2 Fish s1). Whisper medium comparó todas. Se conservaron transcripciones originales en *_tomas.json; para comparar se normalizaron acentos, puntuación, 15/quince y saguán/zaguán (homofonía mexicana). Se eligió la toma con guion completo y mejor confianza. Los subtítulos se escribieron con la ortografía del guion y tiempos de palabra de Whisper. Whisper medium volvió a transcribir ambos finales y coincidió con sus guiones completos, normalizando solo puntuación y acentos.
+Revisión visual: hojas de contacto; se verificaron textos dentro de cuadro y CTA. No se generaron nuevas escenas ni se gastó GPU para el armado. Se inicia evaluación combinada Glimmer en fgabriel60, saldo previo aproximado $0.57.
+
+Solo se entrega a Carlos. No se contactó a los clientes ni se activaron campañas.
+
+RESULTADO Y ENTREGA FINAL
+Glimmer evaluó v6b de Víctor: ACTUAL 6/10, PROYECTADA 8/10; Guillermo v4 con voz: ACTUAL 6.5/10, PROYECTADA 8.5/10. Los logs originales quedan en entregables/glimmer_evaluador/20261031_victor_guillermo/glimmer.log.
+Después se corrigieron la segmentación de subtítulos, gancho/teléfono visible de Víctor y transición a resultado de Guillermo. El teléfono de Víctor 56 3634 1441 se verificó mediante get-contact-by-id, sin enviarle mensajes.
+Finales enviados a Carlos mediante enviar_seguro.py (ambos devolvieron ok):
+clientes/Victor/video/Servilin_obra_fina_v6d.mp4
+clientes/Guillermo/far12_v1/Vicens_far12_v4b_voz.mp4
+Estas versiones finales NO tienen nota propia: se informó explícitamente en cada envío. Su audio PCM coincide con los finales verificados por Whisper; decodificación completa sin errores en verificacion_final.json.
+Falta mejorar prueba visual con material real/apertura y recalificar. El vigía alcanzó el límite $14.70; no se alteró ni se lanzó nueva GPU. Saldo reportado último ≈$0.24, por debajo del margen reservado por el tope. Evaluación preparada en entregables/fila/pausados/20261031_0440_victor_guillermo_presupuesto.sh.
+No listos para campaña. No se escribió a clientes.

@@ -1,0 +1,253 @@
+{
+ "nota": "Historial de presupuesto (activities_category=BUDGET y CAMPAIGN para creaciones). Valores en centavos MXN (5000 = $50.00/día). CAMPAIGN_GROUP=campaña, CAMPAIGN=conjunto (nomenclatura de Meta). Hora America/Tijuana. Cargos de facturación omitidos.",
+ "result": [
+  {
+   "fecha_hora": "14/4/2026 15:41",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120247020986310651",
+   "nombre": "[14/4/2026] Promoción de https://facebook.com/61550960271359",
+   "antes_centavos": 8000,
+   "despues_centavos": 8000
+  },
+  {
+   "fecha_hora": "15/4/2026 11:56",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120247020986310651",
+   "nombre": "[14/4/2026] Promoción de https://facebook.com/61550960271359",
+   "antes_centavos": 8000,
+   "despues_centavos": 10000
+  },
+  {
+   "fecha_hora": "17/4/2026 14:35",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120247233591890651",
+   "nombre": "Promoción continua de generación de clientes potenciales de Vision Agencia",
+   "antes_centavos": 9500,
+   "despues_centavos": 9500
+  },
+  {
+   "fecha_hora": "8/5/2026 12:42",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120248293143320651",
+   "nombre": "Campaña de Interacción con la configuración recomendada",
+   "antes_centavos": 5000,
+   "despues_centavos": 8000
+  },
+  {
+   "fecha_hora": "13/5/2026 15:37",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120248938538930651",
+   "nombre": "[11/5/2026] Promoción de https://fb.com/messenger_doc/ - Copia",
+   "antes_centavos": 5000,
+   "despues_centavos": 2500
+  },
+  {
+   "fecha_hora": "13/5/2026 15:37",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120248854054830651",
+   "nombre": "[11/5/2026] Promoción de https://fb.com/messenger_doc/",
+   "antes_centavos": 5000,
+   "despues_centavos": 2000
+  },
+  {
+   "fecha_hora": "14/5/2026 12:21",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120248854054830651",
+   "nombre": "[11/5/2026] Promoción de https://fb.com/messenger_doc/",
+   "antes_centavos": 2000,
+   "despues_centavos": 6000
+  },
+  {
+   "fecha_hora": "14/5/2026 12:21",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120248938538930651",
+   "nombre": "[11/5/2026] Promoción de https://fb.com/messenger_doc/ - Copia",
+   "antes_centavos": 2500,
+   "despues_centavos": 6500
+  },
+  {
+   "fecha_hora": "14/5/2026 16:30",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120249070404250651",
+   "nombre": "Retargeting — Cierre $500 — Vision Agencia",
+   "antes_centavos": 3000,
+   "despues_centavos": 5000
+  },
+  {
+   "fecha_hora": "18/5/2026 22:19",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120248854054830651",
+   "nombre": "[11/5/2026] Promoción de https://fb.com/messenger_doc/",
+   "antes_centavos": 6000,
+   "despues_centavos": 5000
+  },
+  {
+   "fecha_hora": "19/5/2026 13:26",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120248293143320651",
+   "nombre": "Campaña de Interacción con la configuración recomendada",
+   "antes_centavos": 8000,
+   "despues_centavos": 5000
+  },
+  {
+   "fecha_hora": "6/6/2026 16:37",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120250781854430651",
+   "nombre": "New messages campaign",
+   "antes_centavos": 5000,
+   "despues_centavos": 10000
+  },
+  {
+   "fecha_hora": "8/6/2026 15:12",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120250891895490651",
+   "nombre": "[8/6/2026] Promoción de https://api.whatsapp.com/send (creación)",
+   "antes_centavos": null,
+   "despues_centavos": 2000
+  },
+  {
+   "fecha_hora": "9/6/2026 17:03",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120250891895490651",
+   "nombre": "[8/6/2026] Promoción de https://api.whatsapp.com/send",
+   "antes_centavos": 5300,
+   "despues_centavos": 7000
+  },
+  {
+   "fecha_hora": "10/6/2026 14:04",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120250891895490651",
+   "nombre": "[8/6/2026] Promoción de https://api.whatsapp.com/send",
+   "antes_centavos": 7000,
+   "despues_centavos": 5000
+  },
+  {
+   "fecha_hora": "10/6/2026 19:23",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120250891895490651",
+   "nombre": "[8/6/2026] Promoción de https://api.whatsapp.com/send",
+   "antes_centavos": 5000,
+   "despues_centavos": 7000
+  },
+  {
+   "fecha_hora": "11/6/2026 17:59",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120250891895490651",
+   "nombre": "[8/6/2026] Promoción de https://api.whatsapp.com/send",
+   "antes_centavos": 7000,
+   "despues_centavos": 5000
+  },
+  {
+   "fecha_hora": "16/6/2026 12:07",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120251461357030651",
+   "nombre": "[16/6/2026] Promoción de https://api.whatsapp.com/send (creación)",
+   "antes_centavos": null,
+   "despues_centavos": 5200
+  },
+  {
+   "fecha_hora": "21/6/2026 00:09",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120251563208660651",
+   "nombre": "Nuevo Tráfico Campaña",
+   "antes_centavos": 5000,
+   "despues_centavos": 7000
+  },
+  {
+   "fecha_hora": "29/6/2026 23:24",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120251563208660651",
+   "nombre": "Nuevo Tráfico Campaña",
+   "antes_centavos": 7000,
+   "despues_centavos": 5000
+  },
+  {
+   "fecha_hora": "1/7/2026 14:03",
+   "nivel": "CAMPAIGN",
+   "objeto_id": "120252367077680651",
+   "nombre": "Conjunto de anuncios de Tráfico con la configuración recomendada",
+   "antes_centavos": 5000,
+   "despues_centavos": 7000
+  },
+  {
+   "fecha_hora": "1/7/2026 20:20",
+   "nivel": "CAMPAIGN",
+   "objeto_id": "120252367077680651",
+   "nombre": "Conjunto de anuncios de Tráfico con la configuración recomendada",
+   "antes_centavos": 7000,
+   "despues_centavos": 8000
+  },
+  {
+   "fecha_hora": "4/7/2026 11:15",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120251563208660651",
+   "nombre": "Nuevo Tráfico Campaña",
+   "antes_centavos": 5000,
+   "despues_centavos": 7500
+  },
+  {
+   "fecha_hora": "7/7/2026 13:49",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120251563208660651",
+   "nombre": "Nuevo Tráfico Campaña",
+   "antes_centavos": 7500,
+   "despues_centavos": 16100
+  },
+  {
+   "fecha_hora": "9/7/2026 21:05",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120252722052980651",
+   "nombre": "Vision Agencia - Tráfico Bridge Vercel - 6 Anuncios (Jul 2026)",
+   "antes_centavos": 16100,
+   "despues_centavos": 10000
+  },
+  {
+   "fecha_hora": "10/7/2026 20:03",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120251563208660651",
+   "nombre": "Nuevo Tráfico Campaña",
+   "antes_centavos": 16100,
+   "despues_centavos": 5000
+  },
+  {
+   "fecha_hora": "25/7/2026 15:58",
+   "nivel": "CAMPAIGN",
+   "objeto_id": "120252367077680651",
+   "nombre": "Conjunto de anuncios de Tráfico con la configuración recomendada",
+   "antes_centavos": 8000,
+   "despues_centavos": 5000
+  },
+  {
+   "fecha_hora": "1/8/2026 15:59",
+   "nivel": "CAMPAIGN",
+   "objeto_id": "120252943662960651",
+   "nombre": "Saltillo - Tráfico Bridge Ludivina",
+   "antes_centavos": 8000,
+   "despues_centavos": 5000
+  },
+  {
+   "fecha_hora": "1/8/2026 21:27",
+   "nivel": "CAMPAIGN_GROUP",
+   "objeto_id": "120251563208660651",
+   "nombre": "Nuevo Tráfico Campaña",
+   "antes_centavos": 5000,
+   "despues_centavos": 5000
+  },
+  {
+   "fecha_hora": "6/8/2026 14:54",
+   "nivel": "CAMPAIGN",
+   "objeto_id": "120252943662960651",
+   "nombre": "Saltillo - Tráfico Bridge Ludivina",
+   "antes_centavos": 5000,
+   "despues_centavos": 8000
+  },
+  {
+   "fecha_hora": "6/8/2026 17:54",
+   "nivel": "CAMPAIGN",
+   "objeto_id": "120252943662960651",
+   "nombre": "Saltillo - Tráfico Bridge Ludivina",
+   "antes_centavos": 8000,
+   "despues_centavos": 5000
+  }
+ ]
+}

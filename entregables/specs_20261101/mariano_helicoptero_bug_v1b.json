@@ -1,0 +1,46 @@
+{
+ "carpeta": "mariano_helicoptero_bug_v1b",
+ "salida": "clientes/Mariano/video/helicoptero/bug_v1",
+ "semilla": 74,
+ "refs": {
+  "m": "clientes/Mariano/video/hablando_v1/mariano_hook_ref.png",
+  "casa": "clientes/Mariano/video/helicoptero/ref/bugambilia_fachada.png"
+ },
+ "cuadros": {
+  "H1b_heli": [
+   [
+    "m",
+    "casa"
+   ],
+   "Foto realista vertical 9:16 tomada con dron desde lejos, cielo azul con nubes y sol: un helicóptero NEGRO moderno volando bajo, arriba de la MISMA casa REAL de la segunda imagen (casa moderna de dos pisos color beige arena, techo plano, puerta negra, franjas de pasto). De la puerta lateral ABIERTA del helicóptero cuelga una cuerda negra larga; el MISMO hombre de la primera imagen (barba corta, saco azul claro de cuadros, camisa blanca, jeans, zapatos cafés) va BAJANDO colgado de la cuerda con las DOS MANOS, piernas juntas, a media altura entre el helicóptero y el techo de la casa, saco ondeando. Personas pequeñas en la escena por la distancia, nítido.",
+   "texto, letras, logotipos inventados, marca de agua, cara distinta, persona duplicada, dos personas iguales, deforme, borroso, manos extra, dedos extra, caricatura, render 3D, imagen estirada, casa de dos aguas, techo inclinado, otra casa, silla, asiento colgando, columpio, hombre sentado"
+  ]
+ },
+ "tomas": [
+  [
+   "KH1_heli",
+   "H1_heli",
+   "Vertical realistic drone shot. A black helicopter hovers above a modern beige two-story house, rotor blades spinning fast. The man in the light blue blazer sitting in the open side door grabs the black rope and pushes off, starting to slide down. Slight camera drift. Natural physics. No text. Audio: loud helicopter rotor noise.",
+   3.0,
+   null
+  ],
+  [
+   "KH2_cuerda",
+   "H2_cuerda",
+   "Vertical realistic shot at ground level in front of a modern beige house. The man in the light blue blazer slides down the black rope and lands softly on his feet on the concrete driveway, lets go of the rope and smiles at camera. Natural physics, blazer moving with wind. No text. Audio: whoosh, rope friction, helicopter wind.",
+   3.0,
+   null,
+   "H3_habla"
+  ],
+  [
+   "KH3_habla",
+   "H3_habla",
+   "Vertical realistic medium shot. The man in the light blue blazer stands in front of the modern beige house holding a coiled black rope, talks directly to the camera with natural confident expression and small hand gestures, slow camera push-in. Lips synced to the speech. No text.",
+   8.0,
+   "BUG"
+  ]
+ ],
+ "voces": {
+  "BUG": "clientes/Mariano/video/helicoptero/voz/BUG.wav"
+ }
+}

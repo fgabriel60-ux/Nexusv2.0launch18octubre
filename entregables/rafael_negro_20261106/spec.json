@@ -1,0 +1,36 @@
+{
+ "carpeta": "entregables/rafael_negro_20261106",
+ "salida": "entregables/rafael_negro_20261106/cuadros",
+ "semilla": 21,
+ "ancho": 720,
+ "alto": 1280,
+ "pasos": 30,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "R1_lejos_A",
+   "RAF_lejos_concesionaria_A",
+   "La CÁMARA se desplaza lateralmente de izquierda a derecha a velocidad constante, como un travelling sobre rieles, sin acercarse ni alejarse. El tronco del árbol en primer plano barre el cuadro y lo tapa un instante al pasar. El hombre NO se mueve: sigue parado en la banqueta con las manos en los bolsillos, pequeño y de cuerpo entero, mirando fijo al lente mientras la cámara pasa frente a él. SONIDO: solo el ambiente propio de la escena, sin NINGUNA voz, sin diálogo y sin voz en off. Nadie habla ni se oye hablar a nadie en esta toma.",
+   3,
+   null
+  ],
+  [
+   "R2_lejos_B",
+   "RAF_lejos_concesionaria_B",
+   "La CÁMARA se desplaza lateralmente de derecha a izquierda a velocidad constante, travelling sobre rieles, sin zoom. El poste de la banqueta en primer plano cruza el cuadro y lo tapa un instante. El hombre permanece inmóvil, pequeño y de cuerpo entero, mirando al lente. Al final del movimiento la fachada de cristal con el letrero BYD queda centrada. SONIDO: solo el ambiente propio de la escena, sin NINGUNA voz, sin diálogo y sin voz en off. Nadie habla ni se oye hablar a nadie en esta toma.",
+   3,
+   null
+  ],
+  [
+   "R3_adentro",
+   "RAF_asiento_trasero",
+   "El hombre sentado en el asiento trasero habla a la cámara, con movimiento natural de labios, cejas y cabeza. Está recargado, quieto, sin gesticular con las manos. La cámara se acerca muy despacio hacia su cara, un empuje lento y continuo, sin movimiento lateral.",
+   5,
+   "gancho"
+  ]
+ ],
+ "voces": {
+  "gancho": "clientes/Rafael_BYD/voz_gancho/gancho_t2.wav"
+ }
+}

@@ -1,0 +1,494 @@
+{
+  "false_77185511633028@lid_AC520BE2C071EDB89BD07FA26C89B824": {
+    "chat": "Jesus_Puertas",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/Jesus_Puertas/20261030_203009_AC520BE2C071EDB89BD07FA26C89B824.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.21,
+        "fin": 8.71,
+        "texto": "no mira no no no no me gusta no me gusta salir yo en mi foto tengo en el perfil este"
+      }
+    ]
+  },
+  "false_77185511633028@lid_AC64E8E0FD33113146302C3DD3A9E544": {
+    "chat": "Jesus_Puertas",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/Jesus_Puertas/20261030_221008_AC64E8E0FD33113146302C3DD3A9E544.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.21,
+        "fin": 4.53,
+        "texto": "oye mira te voy a decir la verdad ando bien ocupado pero agarré un momentito"
+      },
+      {
+        "inicio": 5.81,
+        "fin": 12.73,
+        "texto": "para contestarte mira no me no me gusta que no me gusta mi voz me gustaría que quitaras la voz"
+      },
+      {
+        "inicio": 14.37,
+        "fin": 25.5,
+        "texto": "este y el metro de cocina porque dependiente depende del depende del yo sé que te comenté"
+      },
+      {
+        "inicio": 25.5,
+        "fin": 30.94,
+        "texto": "pues el metro de cocina pues pero no pensé que le vas a poner así literalmente y"
+      },
+      {
+        "inicio": 30.94,
+        "fin": 39.82,
+        "texto": "luego carpinteria jesús no no me gusta o sea no por favor no sé si te cause más trabajo pero"
+      },
+      {
+        "inicio": 39.82,
+        "fin": 50.22,
+        "texto": "si me interesa mucho mucho este contratarte porque necesito trabajo vi unos vídeos ahí que subiste"
+      },
+      {
+        "inicio": 52.22,
+        "fin": 57.46,
+        "texto": "de herreros trabajando y pues se ve gente que es pues se ve gente normal pues"
+      },
+      {
+        "inicio": 57.74,
+        "fin": 62.18,
+        "texto": "no se ve como este señor carpintero que está trabajando la madera"
+      },
+      {
+        "inicio": 64.18,
+        "fin": 71.9,
+        "texto": "no sé si si si quita si puedes quitar mi voz y quitarlo de los ocho mil pesos metro lineal sí te lo agradecería"
+      }
+    ]
+  },
+  "false_77185511633028@lid_ACE1AA9A9544156FCD59A76839BF5652": {
+    "chat": "Jesus_Puertas",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/Jesus_Puertas/20261030_221151_ACE1AA9A9544156FCD59A76839BF5652.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.02,
+        "fin": 9.22,
+        "texto": "y la otra es nada más pón puedes poner mira este el nombre de mi hija pues"
+      },
+      {
+        "inicio": 9.22,
+        "fin": 21.66,
+        "texto": "carpintería paulina puertas en madera puertas desde 3500 pesos fabricadas"
+      },
+      {
+        "inicio": 21.7,
+        "fin": 37.94,
+        "texto": "en mdf y también tenemos en tripla y de caubilla esas las tenemos en 3500 pesos las de mdf esas"
+      },
+      {
+        "inicio": 37.94,
+        "fin": 50.14,
+        "texto": "valen 2500 las de caubilla 3500 pesos y la gente se contacta conmigo y ya yo de ahí ya"
+      },
+      {
+        "inicio": 50.14,
+        "fin": 60.98,
+        "texto": "les hago la labor de venta mire y ya les explico les explico pues la de 3500 pesos tiene un marco"
+      },
+      {
+        "inicio": 60.98,
+        "fin": 67.3,
+        "texto": "a un marco angosto lleva un acabado económico y ya después de ahí siguen las de 7000 8000"
+      },
+      {
+        "inicio": 67.3,
+        "fin": 80.9,
+        "texto": "10 mil pesos puertas paulina puertas y cocinas paulina puertas tenemos puertas desde 2500 pesos"
+      },
+      {
+        "inicio": 80.9,
+        "fin": 94.41,
+        "texto": "en mdf y de caubilla la económica la económica así 3500 pesos nada más esos precios por favor"
+      }
+    ]
+  },
+  "false_225412869304444@lid_3AFDB815364BA09159CA": {
+    "chat": "BYD_Rafael",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/BYD_Rafael/20261030_231233_3AFDB815364BA09159CA.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.34,
+        "fin": 6.44,
+        "texto": "Ok, mira, en este, en este, en este preciso momento no te podría mandar la"
+      },
+      {
+        "inicio": 6.44,
+        "fin": 11.04,
+        "texto": "te podría mandar las fichas técnicas de cada uno de los modelos que vendemos"
+      },
+      {
+        "inicio": 11.04,
+        "fin": 13.14,
+        "texto": "y de los que más vendemos."
+      },
+      {
+        "inicio": 13.14,
+        "fin": 16.94,
+        "texto": "Ajá, entonces en base a eso, pues sí, no digo también."
+      },
+      {
+        "inicio": 16.94,
+        "fin": 20.04,
+        "texto": "Yo también tengo que trabajar, no te puedo dejar todo a ti."
+      },
+      {
+        "inicio": 20.04,
+        "fin": 26.04,
+        "texto": "Entonces me parece bien que nada más dame chance, sería mañana ya mandarte"
+      },
+      {
+        "inicio": 27.04,
+        "fin": 32.44,
+        "texto": "Por ejemplo, Dolphin, Mini Dolphin, 380 kilómetros de autonomía,"
+      },
+      {
+        "inicio": 32.44,
+        "fin": 37.64,
+        "texto": "Ring 16, bla bla bla, las especificaciones de 3 a 6 horas de carga,"
+      },
+      {
+        "inicio": 37.64,
+        "fin": 40.94,
+        "texto": "un ejemplo, etcétera, etcétera."
+      }
+    ]
+  },
+  "false_225412869304444@lid_3AA843601CAACF68C43E": {
+    "chat": "BYD_Rafael",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/BYD_Rafael/20261030_231317_3AA843601CAACF68C43E.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.0,
+        "fin": 5.6,
+        "texto": "No, pues sin problema. Diga, sinceramente sí me gustaría trabajar contigo, la verdad."
+      },
+      {
+        "inicio": 5.6,
+        "fin": 12.8,
+        "texto": "No tengo problema. Si para ti todavía sigue siendo un beneficio descubrir nuevos proyectos,"
+      },
+      {
+        "inicio": 12.8,
+        "fin": 20.2,
+        "texto": "pues sin problema, la verdad. Y yo con tu ayuda, pues obviamente te agradezco mucho."
+      },
+      {
+        "inicio": 20.2,
+        "fin": 25.6,
+        "texto": "Sinceramente estaba muy desanimado. Estaba a punto de renunciar porque dije,"
+      },
+      {
+        "inicio": 25.6,
+        "fin": 29.04,
+        "texto": "creo que estoy perdiendo mi tiempo, estoy invirtiendo en pasajes, en transporte,"
+      },
+      {
+        "inicio": 29.04,
+        "fin": 32.48,
+        "texto": "comidas y pues al final no estoy ganando nada."
+      }
+    ]
+  },
+  "false_225412869304444@lid_3ABAAF349F11873ACD01": {
+    "chat": "BYD_Rafael",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/BYD_Rafael/20261030_231454_3ABAAF349F11873ACD01.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.05,
+        "fin": 8.37,
+        "texto": "porque pues igual yo trabajo específicamente en BYD que igual no está mal pero pues ahí también"
+      },
+      {
+        "inicio": 8.37,
+        "fin": 14.41,
+        "texto": "tengo una duda por ejemplo yo trabajo en la alcaldía de Escaposalco entonces en esta alcaldía"
+      },
+      {
+        "inicio": 14.41,
+        "fin": 21.13,
+        "texto": "pues me gustaría traer más clientes no igual no estaría mal darle pues un radio de otros"
+      },
+      {
+        "inicio": 21.13,
+        "fin": 25.93,
+        "texto": "ciertos kilómetros porque estás de acuerdo que hay muchas agencias de BYD"
+      }
+    ]
+  },
+  "false_225412869304444@lid_3AACB3CD164AC9DD1459": {
+    "chat": "BYD_Rafael",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/BYD_Rafael/20261030_232127_3AACB3CD164AC9DD1459.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.46,
+        "fin": 5.96,
+        "texto": "no pues sin problemas no no no ya estoy convencido la verdad es que me alegro"
+      },
+      {
+        "inicio": 5.96,
+        "fin": 11.42,
+        "texto": "haberte encontrado sobre todo es gente honesta me gusta eso yo no soy sangre"
+      },
+      {
+        "inicio": 11.42,
+        "fin": 16.26,
+        "texto": "pesada porque todos tenemos necesidades me entiendes"
+      },
+      {
+        "inicio": 16.26,
+        "fin": 21.08,
+        "texto": "aquí lo bueno es ayudar a otros yo soy a toda madre perdonen por la"
+      },
+      {
+        "inicio": 21.08,
+        "fin": 27.1,
+        "texto": "palabra porque pues quiero quiero que nos vaya bien a todos me entiendes"
+      },
+      {
+        "inicio": 27.1,
+        "fin": 32.02,
+        "texto": "está complicada esta situación y sin problemas yo lo que tú me digas y no no"
+      },
+      {
+        "inicio": 32.02,
+        "fin": 35.58,
+        "texto": "te preocupes y yo ya te tengo que pagar vamos a darle no pasa nada la verdad es"
+      },
+      {
+        "inicio": 35.58,
+        "fin": 39.38,
+        "texto": "que estoy convencido quiero que me entiendas eso"
+      }
+    ]
+  },
+  "false_225412869304444@lid_3A95E806902123478DFC": {
+    "chat": "BYD_Rafael",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/BYD_Rafael/20261030_233126_3A95E806902123478DFC.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.0,
+        "fin": 6.42,
+        "texto": "Pues yo estoy en la mejor disposición, entiendo que hay mucha competencia, somos muchísimos"
+      },
+      {
+        "inicio": 6.42,
+        "fin": 14.3,
+        "texto": "asesores de venta en todas las marcas, en BYD hay muchos asesores de venta, pues sí,"
+      },
+      {
+        "inicio": 14.3,
+        "fin": 20.66,
+        "texto": "sí, sí, sí me gustaría pues empezar a generar amigo porque la verdad está complicado,"
+      },
+      {
+        "inicio": 20.66,
+        "fin": 23.1,
+        "texto": "la necesidad es grande también."
+      }
+    ]
+  },
+  "false_225412869304444@lid_3A82CD0E55E50B318A42": {
+    "chat": "BYD_Rafael",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/BYD_Rafael/20261030_233249_3A82CD0E55E50B318A42.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.0,
+        "fin": 3.28,
+        "texto": "Oye, haríamos una página en Facebook, verdad?"
+      }
+    ]
+  },
+  "false_225412869304444@lid_3A211C0C4DD7DE15DBBB": {
+    "chat": "BYD_Rafael",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/BYD_Rafael/20261030_233710_3A211C0C4DD7DE15DBBB.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.37,
+        "fin": 4.85,
+        "texto": "Sí, claro, creo que caí con la persona indicada, ¿me entiendes? Eso es lo más"
+      },
+      {
+        "inicio": 4.85,
+        "fin": 10.41,
+        "texto": "importante. Pues te agradezco mucho."
+      }
+    ]
+  },
+  "false_263766994321528@lid_A5A1264DCFF7986FD0EDAAE13730A338": {
+    "chat": "Fernando",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/Fernando/20261031_040244_A5A1264DCFF7986FD0EDAAE13730A338.aac",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 1.58,
+        "fin": 5.18,
+        "texto": "¿Ya tienes computadora en tu negocio y no la estás aprovechando?"
+      },
+      {
+        "inicio": 6.06,
+        "fin": 14.34,
+        "texto": "Conviértela en un punto de venta con mi paquete de $3,500 pesos que incluye impresora de tickets,"
+      },
+      {
+        "inicio": 14.34,
+        "fin": 21.78,
+        "texto": "lector de código de barras, programa de punto de venta, instalación y capacitación."
+      },
+      {
+        "inicio": 22.66,
+        "fin": 28.02,
+        "texto": "Lo llevo todo hasta tu negocio y pagas cuando lo tengas funcionando."
+      },
+      {
+        "inicio": 29.02,
+        "fin": 34.82,
+        "texto": "También te incluyo soporte y asesoría en llamada o videollamada por un año,"
+      },
+      {
+        "inicio": 34.82,
+        "fin": 42.78,
+        "texto": "para que lo aproveches al máximo. Pide tu paquete de punto de venta por un WhatsApp."
+      },
+      {
+        "inicio": 44.42,
+        "fin": 47.26,
+        "texto": "Pide tu paquete de punto de venta por WhatsApp."
+      }
+    ]
+  },
+  "false_256998142660619@lid_AC0639728187065E2F0DC7D5810282DC": {
+    "chat": "Guillermo",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/Guillermo/20261030_020502_AC0639728187065E2F0DC7D5810282DC.ogg",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.4,
+        "fin": 7.92,
+        "texto": "no no no o sea ya está chingón pero si se puede que las láminas caigan arriba"
+      },
+      {
+        "inicio": 7.92,
+        "fin": 11.76,
+        "texto": "para que por debajo se aprecia y la estructura también o sea hace rato te lo"
+      },
+      {
+        "inicio": 11.76,
+        "fin": 16.96,
+        "texto": "dije o te lo comenté como pensando digo yo soy un como que veces muy muy"
+      },
+      {
+        "inicio": 16.96,
+        "fin": 20.68,
+        "texto": "extremo y en el caso de que no se pueda pues ya de esa manera no pero ya"
+      },
+      {
+        "inicio": 20.68,
+        "fin": 25.44,
+        "texto": "vi que si se pudo digo es pregunta y tampoco es de que que se vea o sea está"
+      },
+      {
+        "inicio": 25.44,
+        "fin": 28.36,
+        "texto": "chido el vídeo nada más que las láminas que hayan encima para que no"
+      },
+      {
+        "inicio": 28.36,
+        "fin": 34.2,
+        "texto": "obstruya la imagen de la estructura"
+      }
+    ]
+  },
+  "false_256998142660619@lid_AC942BCA63ADC3D85105C41F78A8FE3F": {
+    "chat": "Guillermo",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/Guillermo/20261030_223433_AC942BCA63ADC3D85105C41F78A8FE3F.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.0,
+        "fin": 5.12,
+        "texto": "Ahorita busco unas fotos, es que ahorita no he trabajado en el taller, la mayoría de"
+      },
+      {
+        "inicio": 5.12,
+        "fin": 9.72,
+        "texto": "trabajos han sido siempre fuera, entonces no he como tal grabado así, procesos de"
+      },
+      {
+        "inicio": 9.72,
+        "fin": 15.56,
+        "texto": "saguanes cortinas, pero déjame buscar fotos y ya te voy mandando, va?"
+      }
+    ]
+  },
+  "false_256998142660619@lid_AC59721F3A8277B253E8E04067E20EE4": {
+    "chat": "Guillermo",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/Guillermo/20261030_224347_AC59721F3A8277B253E8E04067E20EE4.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.18,
+        "fin": 24.18,
+        "texto": "Si, la verdad jamás se me había ocurrido algo así, nada más haz de cuenta que he tomado fotos de cuando llego a instalar, que no hay nada y otra cuando ya terminé de instalar, así como tal durante el proceso no, pero pues digo mientras, para comenzar ¿no? como ves, así que no sé si te sirven las fotos que te mandé de Sahwan y todo eso, y ya este, ya ahora si que el chama que va a ir haciendo, voy grabando el proceso."
+      }
+    ]
+  },
+  "false_57844753760482@lid_2A4C4A9178B4F697049A": {
+    "chat": "Veronica",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/Veronica/20261024_213157_2A4C4A9178B4F697049A.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.56,
+        "fin": 9.56,
+        "texto": "Sabes audios, yo creo que tú tienes en nuestra conversación, el audio tiene que decir el mensaje o solamente manejas el audio para la voz."
+      },
+      {
+        "inicio": 9.56,
+        "fin": 12.56,
+        "texto": "Esta es mi melodiosa voz."
+      }
+    ]
+  },
+  "false_57844753760482@lid_2A1A897332C8298FDE33": {
+    "chat": "Veronica",
+    "ruta": "/__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octubre/entregables/ronda_8_9_20261031/media/Veronica/20261025_211222_2A1A897332C8298FDE33.oga",
+    "modelo": "Whisper medium CPU int8",
+    "segmentos": [
+      {
+        "inicio": 0.5,
+        "fin": 7.7,
+        "texto": "Hola, hola. ¿Cómo estás? Oye, pero ¿sabes qué? Agarraste una fachada de la publicación que está"
+      },
+      {
+        "inicio": 7.7,
+        "fin": 14.74,
+        "texto": "rayada. Me parece incorrecta. Dice 7.6 millones de dólares. Siento que se escucha robotizado,"
+      },
+      {
+        "inicio": 14.74,
+        "fin": 22.46,
+        "texto": "7.6 millones de pesos. No se concluye tal cual. O bueno, nada más es un demo, ¿verdad?"
+      },
+      {
+        "inicio": 22.46,
+        "fin": 25.5,
+        "texto": "¿Cómo te manejas?"
+      }
+    ]
+  }
+}

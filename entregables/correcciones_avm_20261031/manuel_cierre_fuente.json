@@ -1,0 +1,79 @@
+[
+  {
+    "text": " Si quieres algo así para tu hija, escríbenos por WhatsApp y agenda tu fecha.",
+    "start": 0.6200000000000001,
+    "end": 5.6,
+    "words": [
+      {
+        "word": " Si",
+        "start": 0.6200000000000001,
+        "end": 1.18
+      },
+      {
+        "word": " quieres",
+        "start": 1.18,
+        "end": 1.46
+      },
+      {
+        "word": " algo",
+        "start": 1.46,
+        "end": 1.7
+      },
+      {
+        "word": " así",
+        "start": 1.7,
+        "end": 1.94
+      },
+      {
+        "word": " para",
+        "start": 1.94,
+        "end": 2.18
+      },
+      {
+        "word": " tu",
+        "start": 2.18,
+        "end": 2.32
+      },
+      {
+        "word": " hija,",
+        "start": 2.32,
+        "end": 3.32
+      },
+      {
+        "word": " escríbenos",
+        "start": 3.6,
+        "end": 3.88
+      },
+      {
+        "word": " por",
+        "start": 3.88,
+        "end": 4.06
+      },
+      {
+        "word": " WhatsApp",
+        "start": 4.06,
+        "end": 4.44
+      },
+      {
+        "word": " y",
+        "start": 4.44,
+        "end": 4.92
+      },
+      {
+        "word": " agenda",
+        "start": 4.92,
+        "end": 5.12
+      },
+      {
+        "word": " tu",
+        "start": 5.12,
+        "end": 5.3
+      },
+      {
+        "word": " fecha.",
+        "start": 5.3,
+        "end": 5.6
+      }
+    ]
+  }
+]

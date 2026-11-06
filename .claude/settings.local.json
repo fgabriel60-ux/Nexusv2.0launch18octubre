@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -I -)",
+      "mcp__claude_ai_Windsor_ai__list_actions",
+      "Bash(sed -i \"s/env\\\\['WAAPI_TOKEN'\\\\]/'vrtTn6FeUKXHa4ZuMX4O5UKv9qqVcAlCmJDH6nCWeab185bc'/\" send.py)",
+      "Bash(python3 send.py)",
+      "Bash(cd *)",
+      "Bash(python3 -c \"import whisper\")",
+      "Bash(pip list *)",
+      "Bash(python3 -)",
+      "Bash(python3 -c \"import cv2\")",
+      "Bash(python3 -I m2.py 236704539627655@lid:4 161641681395864@lid:4)",
+      "Bash(MODAL_PROFILE=fabelagabriel645 python3 *)",
+      "Bash(modal billing *)",
+      "Bash(export MODAL_PROFILE=fgabriel60)",
+      "Read(//home/codespace/**)",
+      "Bash(export MODAL_IMAGE_BUILDER_VERSION=2025.06 MODAL_PROFILE=charlyfavela666)",
+      "Bash(modal deploy *)",
+      "Bash(MODAL_PROFILE=carlosfavelajeje python3 y.py)",
+      "Bash(MODAL_PROFILE=carlosfavelajeje python3 mariano_nexus2.py)",
+      "Bash(MODAL_PROFILE=charlyfavela666 modal volume put nexus-workspace ~/.claude/.credentials.json claude-config/.credentials.json --force)",
+      "Bash(MODAL_PROFILE=charlyfavela666 python3 *)",
+      "Bash(MODAL_PROFILE=charlyfavela666 MODAL_IMAGE_BUILDER_VERSION=2025.06 modal run nexus3.py::encender)"
+    ]
+  }
+}

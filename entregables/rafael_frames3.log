@@ -1,0 +1,519 @@
+Reading additional input from stdin...
+OpenAI Codex v0.166.0
+--------
+workdir: /workspaces/Nexusv2.0launch18octubre
+model: gpt-6.1-sol
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: low
+reasoning summaries: none
+session id: 01a1adda-3417-78e3-aacc-0d60e681fa63
+--------
+user
+Genera 3 imágenes fotorrealistas verticales 9:16 (720x1280) editando fotos reales. Guárdalas en
+/workspaces/Nexusv2.0launch18octubre, exactamente aquí:
+  clientes/Rafael_BYD/gancho_ref2/RAF_lejos_A.png
+  clientes/Rafael_BYD/gancho_ref2/RAF_lejos_B.png
+  clientes/Rafael_BYD/gancho_ref2/RAF_asiento_trasero.png
+
+MIRA PRIMERO ESTA IMAGEN, es el reel que estamos copiando cuadro por cuadro:
+  /tmp/claude-1000/-workspaces-Nexusv2-0launch18octubre/bf95d417-e3b7-45fb-96f0-6fe6cd3d633d/scratchpad/ref_full.jpg
+Fíjate bien en tres cosas: (1) qué TAN LEJOS está la cámara de la persona en los primeros cuadros,
+(2) que hay objetos en primer plano —un poste, una reja, el tronco de un árbol— que tapan parte
+del cuadro, y (3) que cuando entra al coche va SENTADO ATRÁS, con la cámara desde los asientos
+delanteros mirando hacia atrás.
+
+LA PERSONA, de estas fotos reales (tiene que ser él, no otro):
+  clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg  (su cara, polo oscuro)
+  clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg  (el SUV blanco que vende)
+Es Rafael, asesor de autos BYD en Azcapotzalco, Ciudad de México. Hombre joven mexicano, cara
+redonda, pelo negro corto, polo oscuro azul marino casi negro con estampado fino de puntitos.
+
+1) RAFAEL lejos, cuadro A → clientes/Rafael_BYD/gancho_ref2/RAF_lejos_A.png
+   PLANO GENERAL, cámara LEJOS, como a quince metros. Rafael se ve PEQUEÑO, ocupando como un tercio
+   del alto del cuadro, de cuerpo entero con los pies dentro, parado completamente quieto en la
+   banqueta, con las dos manos en los bolsillos, mirando a la cámara.
+   En la CALLE, a su lado y un poco más atrás, una fila de SUV blancos estacionados como el de la
+   foto del auto. Nada de autos cruzando por delante.
+   En PRIMER PLANO, a un costado y desenfocado, el tronco de un árbol de banqueta que tapa como un
+   quinto del cuadro por la izquierda. Ese elemento es importante, es lo que da la sensación de que
+   la cámara se mueve detrás de las cosas.
+   Calle urbana de ciudad de México, día nublado de luz suave y pareja. Fotografía real.
+
+2) RAFAEL lejos, cuadro B → clientes/Rafael_BYD/gancho_ref2/RAF_lejos_B.png
+   El MISMO hombre, misma ropa, misma pose quieta con las manos en los bolsillos, la misma luz y el
+   mismo tamaño pequeño en el cuadro, pero la cámara se movió unos 40 grados alrededor de él: ahora
+   detrás aparece la fachada de la agencia de autos con su cristal, y los SUV blancos quedan de
+   lado. En primer plano, por la derecha, un poste delgado de la banqueta que corta el cuadro.
+   Plano general igual de lejano. Fotografía real.
+
+3) RAFAEL en el asiento trasero → clientes/Rafael_BYD/gancho_ref2/RAF_asiento_trasero.png
+   Interior de un auto. La cámara va MONTADA ADELANTE, entre los dos asientos delanteros, MIRANDO
+   HACIA ATRÁS. Se ven abajo del cuadro los respaldos y cabeceros de los asientos de adelante, y
+   arriba el techo del auto con su manija.
+   Rafael va sentado EN EL ASIENTO TRASERO, recargado, relajado, de frente al lente, hablando: boca
+   entreabierta a media palabra. Lleva el mismo polo oscuro. Por las ventanillas traseras entra luz
+   de día y se ve la calle desenfocada.
+   Plano de la cintura para arriba. La cara nítida, bien iluminada, de frente, sin nada que le tape
+   la boca: esta imagen se va a animar con sincronía de labios.
+
+REGLAS PARA LAS TRES:
+- Fotografías reales, no render 3D.
+- Piel con poros y textura, imperfecciones leves, nada de piel de plástico.
+- Manos en los bolsillos en las dos de afuera; en la del coche, que no se vean o estén completas.
+- Nadie caminando, nadie moviéndose al fondo.
+- Sombras en una sola dirección y sombra de contacto en el piso.
+- Si aparece una matrícula, tápala.
+- Deja 10% de margen arriba y abajo. Sin texto, sin letras, sin logotipos inventados.
+Cuando termines dime qué quedó en cada ruta.
+codex
+Voy a revisar el reel, las fotos de Rafael y las notas del proyecto. Usaré la habilidad imagegen para generar las tres imágenes con esas referencias.
+exec
+/bin/bash -lc 'cat /vol/claude-config/codex/contexto_carlos.md; cat /vol/claude-config/projects/---modal-volumes-vo-N6gOPxHfXSf5HzbsmuqjJ3-workspaces-Nexusv2-0launch18octubre/memory/MEMORY.md; cat /home/codespace/.codex/skills/.system/imagegen/SKILL.md' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+cat: /vol/claude-config/codex/contexto_carlos.md: No such file or directory
+cat: /vol/claude-config/projects/---modal-volumes-vo-N6gOPxHfXSf5HzbsmuqjJ3-workspaces-Nexusv2-0launch18octubre/memory/MEMORY.md: No such file or directory
+---
+name: "imagegen"
+description: "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas."
+---
+
+# Image Generation Skill
+
+Generates or edits images for the current project (for example website assets, game assets, UI mockups, product mockups, wireframes, logo design, photorealistic images, or infographics).
+
+## Top-level modes and rules
+
+This skill has exactly two top-level modes:
+
+- **Default built-in tool mode (preferred):** built-in `image_gen` tool for image generation, editing, and transparent-image requests. Does not require `OPENAI_API_KEY`.
+- **Fallback CLI mode:** `scripts/image_gen.py` CLI. Use when the user explicitly asks for or confirms the CLI/API/model path. Requires `OPENAI_API_KEY`.
+
+Within CLI fallback, the CLI exposes three subcommands:
+
+- `generate`
+- `edit`
+- `generate-batch`
+
+Rules:
+- Use the built-in `image_gen` tool by default for normal image generation and editing requests.
+- Do not switch to CLI fallback for ordinary quality, size, or file-path control.
+- For transparent images, ask built-in `image_gen` for a transparent background and preserve the generated alpha.
+- Never silently switch from built-in `image_gen` or CLI `gpt-image-2` to CLI `gpt-image-1.5`; ask the user first unless they explicitly requested `gpt-image-1.5`.
+- The word `batch` by itself does not mean CLI fallback. If the user asks for many assets or says to batch-generate assets without explicitly asking for CLI/API/model controls, stay on the built-in path and issue one built-in call per requested asset or variant.
+- If the built-in tool fails or is unavailable, tell the user the CLI fallback exists and that it requires `OPENAI_API_KEY`. Proceed only if the user explicitly asks for that fallback.
+- If the user explicitly asks for CLI mode, use the bundled `scripts/image_gen.py` workflow. Do not create one-off SDK runners.
+- Never modify `scripts/image_gen.py`. If something is missing, ask the user before doing anything else.
+
+Built-in save-path policy:
+- In built-in tool mode, Codex saves generated images under `$CODEX_HOME/*` by default.
+- Do not describe or rely on OS temp as the default built-in destination.
+- Do not describe or rely on a destination-path argument (if any) on the built-in `image_gen` tool. If a specific location is needed, generate first and then move or copy the selected output from `$CODEX_HOME/generated_images/...`.
+- Save-path precedence in built-in mode:
+  1. If the user names a destination, move or copy the selected output there.
+  2. If the image is meant for the current project, move or copy the final selected image into the workspace before finishing.
+  3. If the image is only for preview or brainstorming, render it inline; the underlying file can remain at the default `$CODEX_HOME/*` path.
+- Never leave a project-referenced asset only at the default `$CODEX_HOME/*` path.
+- Do not overwrite an existing asset unless the user explicitly asked for replacement; otherwise create a sibling versioned filename such as `hero-v2.png` or `item-icon-edited.png`.
+
+Shared prompt guidance for both modes lives in `references/prompting.md` and `references/sample-prompts.md`.
+
+Fallback-only docs/resources for CLI mode:
+- `references/cli.md`
+- `references/image-api.md`
+- `references/codex-network.md`
+- `scripts/image_gen.py`
+
+## When to use
+- Generate a new image (concept art, product shot, cover, website hero)
+- Generate a new image using one or more reference images for style, composition, or mood
+- Edit an existing image (inpainting, lighting or weather transformations, background replacement, object removal, compositing, transparent background)
+- Produce many assets or variants for one task
+
+## When not to use
+- Extending or matching an existing SVG/vector icon set, logo system, or illustration library inside the repo
+- Creating simple shapes, diagrams, wireframes, or icons that are better produced directly in SVG, HTML/CSS, or canvas
+- Making a small project-local asset edit when the source file already exists in an editable native format
+- Any task where the user clearly wants deterministic code-native output instead of a generated bitmap
+
+## Decision tree
+
+Think about two separate questions:
+
+1. **Intent:** is this a new image or an edit of an existing image?
+2. **Execution strategy:** is this one asset or many assets/variants?
+
+Intent:
+- If the user wants to modify an existing image while preserving parts of it, treat the request as **edit**.
+- If the user provides images only as references for style, composition, mood, or subject guidance, treat the request as **generate**.
+- If the user provides no images, treat the request as **generate**.
+
+Built-in edit semantics:
+- Built-in edit mode is for images already visible in the conversation context, such as attached images or images generated earlier in the thread.
+- If the user wants to edit a local image file with the built-in tool, first load it with built-in `view_image` tool so the image is visible in the conversation context, then proceed with the built-in edit flow.
+- Do not promise arbitrary filesystem-path editing through the built-in tool.
+- If a local file still needs direct file-path control, masks, or other explicit CLI-only parameters, use the explicit CLI fallback only when the user asks for it.
+- For edits, preserve invariants aggressively and save non-destructively by default.
+
+Execution strategy:
+- In the built-in default path, produce many assets or variants by issuing one `image_gen` call per requested asset or variant.
+- In the CLI fallback path, use the CLI `generate-batch` subcommand only when the user explicitly chose CLI mode and needs many prompts/assets.
+- For many distinct assets, do not use `n` as a substitute for separate prompts. `n` is for variants of one prompt; distinct assets need distinct built-in calls or distinct CLI `generate-batch` jobs.
+
+Assume the user wants a new image unless they clearly ask to change an existing one.
+
+## Workflow
+1. Decide the top-level mode: built-in by default, including transparent-output requests; fallback CLI only if explicitly requested or confirmed.
+2. Decide the intent: `generate` or `edit`.
+3. Decide whether the output is preview-only or meant to be consumed by the current project.
+4. Decide the execution strategy: single asset vs repeated built-in calls vs CLI `generate-batch`.
+5. Collect inputs up front: prompt(s), exact text (verbatim), constraints/avoid list, and any input images.
+6. For every input image, label its role explicitly:
+   - reference image
+   - edit target
+   - supporting insert/style/compositing input
+7. If the edit target is only on the local filesystem and you are staying on the built-in path, inspect it with `view_image` first so the image is available in conversation context.
+8. If the user asked for a photo, illustration, sprite, product image, banner, or other explicitly raster-style asset, use `image_gen` rather than substituting SVG/HTML/CSS placeholders. If the request is for an icon, logo, or UI graphic that should match existing repo-native SVG/vector/code assets, prefer editing those directly instead.
+9. Augment the prompt based on specificity:
+   - If the user's prompt is already specific and detailed, normalize it into a clear spec without adding creative requirements.
+   - If the user's prompt is generic, add tasteful augmentation only when it materially improves output quality.
+10. Use the built-in `image_gen` tool by default.
+11. For transparent-output requests, ask built-in `image_gen` for a transparent background and preserve the generated alpha channel.
+12. Inspect outputs and validate: subject, style, composition, text accuracy, and invariants/avoid items.
+13. Iterate with a single targeted change, then re-check.
+14. For preview-only work, render the image inline; the underlying file may remain at the default `$CODEX_HOME/generated_images/...` path.
+15. For project-bound work, move or copy the selected artifact into the workspace and update any consuming code or references. Never leave a project-referenced asset only at the default `$CODEX_HOME/generated_images/...` path.
+16. For batches or multi-asset requests, persist every requested deliverable final in the workspace unless the user explicitly asked to keep outputs preview-only. Discarded variants do not need to be kept unless requested.
+17. If the user explicitly chooses or confirms the CLI fallback, then use the fallback-only docs for model, quality, size, `input_fidelity`, masks, output format, output paths, and network setup.
+18. Always report the final saved path(s) for any workspace-bound asset(s), plus the final prompt or prompt set and whether the built-in tool or fallback CLI mode was used.
+
+## Transparent image requests
+
+Ask built-in `image_gen` for a genuinely transparent background and preserve its alpha.
+
+## Prompt augmentation
+
+Reformat user prompts into a structured, production-oriented spec. Make the user's goal clearer and more actionable, but do not blindly add detail.
+
+Treat this as prompt-shaping guidance, not a closed schema. Use only the lines that help, and add a short extra labeled line when it materially improves clarity.
+
+### Specificity policy
+
+Use the user's prompt specificity to decide how much augmentation is appropriate:
+
+- If the prompt is already specific and detailed, preserve that specificity and only normalize/structure it.
+- If the prompt is generic, you may add tasteful augmentation when it will materially improve the result.
+
+Allowed augmentations:
+- composition or framing hints
+- polish level or intended-use hints
+- practical layout guidance
+- reasonable scene concreteness that supports the stated request
+
+Not allowed augmentations:
+- extra characters or objects that are not implied by the request
+- brand names, slogans, palettes, or narrative beats that are not implied
+- arbitrary side-specific placement unless the surrounding layout supports it
+
+## Use-case taxonomy (exact slugs)
+
+Classify each request into one of these buckets and keep the slug consistent across prompts and references.
+
+Generate:
+- photorealistic-natural — candid/editorial lifestyle scenes with real texture and natural lighting.
+- product-mockup — product/packaging shots, catalog imagery, merch concepts.
+- ui-mockup — app/web interface mockups and wireframes; specify the desired fidelity.
+- infographic-diagram — diagrams/infographics with structured layout and text.
+- scientific-educational — classroom explainers, scientific diagrams, and learning visuals with required labels and accuracy constraints.
+- ads-marketing — campaign concepts and ad creatives with audience, brand position, scene, and exact tagline/copy.
+- productivity-visual — slide, chart, workflow, and data-heavy business visuals.
+- logo-brand — logo/mark exploration, vector-friendly.
+- illustration-story — comics, children’s book art, narrative scenes.
+- stylized-concept — style-driven concept art, 3D/stylized renders.
+- historical-scene — period-accurate/world-knowledge scenes.
+
+Edit:
+- text-localization — translate/replace in-image text, preserve layout.
+- identity-preserve — try-on, person-in-scene; lock face/body/pose.
+- precise-object-edit — remove/replace a specific element (including interior swaps).
+- lighting-weather — time-of-day/season/atmosphere changes only.
+- background-extraction — transparent background / clean cutout. Ask built-in `image_gen` for actual transparency.
+- style-transfer — apply reference style while changing subject/scene.
+- compositing — multi-image insert/merge with matched lighting/perspective.
+- sketch-to-render — drawing/line art to photoreal render.
+
+## Shared prompt schema
+
+Use the following labeled spec as shared prompt scaffolding for both top-level modes:
+
+```text
+Use case: <taxonomy slug>
+Asset type: <where the asset will be used>
+Primary request: <user's main prompt>
+Input images: <Image 1: role; Image 2: role> (optional)
+Scene/backdrop: <environment>
+Subject: <main subject>
+Style/medium: <photo/illustration/3D/etc>
+Composition/framing: <wide/close/top-down; placement>
+Lighting/mood: <lighting + mood>
+Color palette: <palette notes>
+Materials/textures: <surface details>
+Text (verbatim): "<exact text>"
+Constraints: <must keep/must avoid>
+Avoid: <negative constraints>
+```
+
+Notes:
+- `Asset type` and `Input images` are prompt scaffolding, not dedicated CLI flags.
+- `Scene/backdrop` refers to the visual setting. It is not the same as the fallback CLI `background` parameter, which controls output transparency behavior.
+- Fallback-only execution notes such as `Quality:`, `Input fidelity:`, masks, output format, and output paths belong in the CLI path only. Do not treat them as built-in `image_gen` tool arguments.
+
+Augmentation rules:
+- Keep it short.
+- Add only the details needed to improve the prompt materially.
+- For edits, explicitly list invariants (`change only X; keep Y unchanged`).
+- If any critical detail is missing and blocks success, ask a question; otherwise proceed.
+
+## Examples
+
+### Generation example (hero image)
+```text
+Use case: product-mockup
+Asset type: landing page hero
+Primary request: a minimal hero image of a ceramic coffee mug
+Style/medium: clean product photography
+Composition/framing: wide composition with usable negative space for page copy if needed
+Lighting/mood: soft studio lighting
+Constraints: no logos, no text, no watermark
+```
+
+### Edit example (invariants)
+```text
+Use case: precise-object-edit
+Asset type: product photo background replacement
+Primary request: replace only the background with a warm sunset gradient
+Constraints: change only the background; keep the product and its edges unchanged; no text; no watermark
+```
+
+## Prompting best practices
+- Structure prompt as scene/backdrop -> subject -> details -> constraints.
+- Include intended use (ad, UI mock, infographic) to set the mode and polish level.
+- Use camera/composition language for photorealism.
+- Only use SVG/vector stand-ins when the user explicitly asked for vector output or a non-image placeholder.
+- Quote exact text and specify typography + placement.
+- For tricky words, spell them letter-by-letter and require verbatim rendering.
+- For multi-image inputs, reference images by index and describe how they should be used.
+- For edits, repeat invariants every iteration to reduce drift.
+- Iterate with single-change follow-ups.
+- If the prompt is generic, add only the extra detail that will materially help.
+- If the prompt is already detailed, normalize it instead of expanding it.
+- For CLI fallback only, see `references/cli.md` and `references/image-api.md` for model, `quality`, `input_fidelity`, masks, output format, and output-path guidance.
+- For transparent images, ask built-in `image_gen` for actual transparency and preserve its alpha.
+
+More principles shared by both modes: `references/prompting.md`.
+Copy/paste specs shared by both modes: `references/sample-prompts.md`.
+
+## Guidance by asset type
+Asset-type templates (website assets, game assets, wireframes, logo) are consolidated in `references/sample-prompts.md`.
+
+## gpt-image-2 guidance for CLI fallback
+
+The fallback CLI defaults to `gpt-image-2`.
+
+- Use `gpt-image-2` for new CLI/API workflows unless the user confirms a different model.
+- CLI `gpt-image-2` does not support `background=transparent`; ask before using `gpt-image-1.5` unless the user explicitly requested that model.
+- `gpt-image-2` always uses high fidelity for image inputs; do not set `input_fidelity` with this model.
+- `gpt-image-2` supports `quality` values `low`, `medium`, `high`, and `auto`.
+- Use `quality low` for fast drafts, thumbnails, and quick iterations. Use `medium`, `high`, or `auto` for final assets, dense text, diagrams, identity-sensitive edits, or high-resolution outputs.
+- Square images are typically fastest to generate. Use `1024x1024` for fast square drafts.
+- If the user asks for 4K-style output, use `3840x2160` for landscape or `2160x3840` for portrait.
+- `gpt-image-2` size may be `auto` or `WIDTHxHEIGHT` if all constraints hold: max edge `<= 3840px`, both edges multiples of `16px`, long-to-short ratio `<= 3:1`, total pixels between `655,360` and `8,294,400`.
+
+Popular `gpt-image-2` sizes:
+- `1024x1024` square
+- `1536x1024` landscape
+- `1024x1536` portrait
+- `2048x2048` 2K square
+- `2048x1152` 2K landscape
+- `3840x2160` 4K landscape
+- `2160x3840` 4K portrait
+- `auto`
+
+## Fallback CLI mode only
+
+### Temp and output conventions
+These conventions apply only to the CLI fallback. They do not describe built-in `image_gen` output behavior.
+- Use `tmp/imagegen/` for intermediate files (for example JSONL batches); delete them when done.
+- Write final artifacts under `output/imagegen/`.
+- Use `--out` or `--out-dir` to control output paths; keep filenames stable and descriptive.
+
+### Dependencies
+Prefer `uv` for dependency management in this repo.
+
+Required Python package:
+```bash
+uv pip install openai
+```
+
+Optional for image inspection and downscaling:
+```bash
+uv pip install pillow
+```
+
+Portability note:
+- If you are using the installed skill outside this repo, install dependencies into that environment with its package manager.
+- In uv-managed environments, `uv pip install ...` remains the preferred path.
+
+### Environment
+- `OPENAI_API_KEY` must be set for live API calls.
+- Do not ask the user for `OPENAI_API_KEY` when using the built-in `image_gen` tool.
+- Never ask the user to paste the full key in chat. Ask them to set it locally and confirm when ready.
+
+If the key is missing, give the user these steps:
+1. Create an API key in the OpenAI platform UI: https://platform.openai.com/api-keys
+2. Set `OPENAI_API_KEY` as an environment variable in their system.
+3. Offer to guide them through setting the environment variable for their OS/shell if needed.
+
+If installation is not possible in this environment, tell the user which dependency is missing and how to install it into their active environment.
+
+### Script-mode notes
+- CLI commands + examples: `references/cli.md`
+- API parameter quick reference: `references/image-api.md`
+- Network approvals / sandbox settings for CLI mode: `references/codex-network.md`
+
+## Reference map
+- `references/prompting.md`: shared prompting principles for both modes.
+- `references/sample-prompts.md`: shared copy/paste prompt recipes for both modes.
+- `references/cli.md`: fallback-only CLI usage via `scripts/image_gen.py`.
+- `references/image-api.md`: fallback-only API/CLI parameter reference.
+- `references/codex-network.md`: fallback-only network/sandbox troubleshooting for CLI mode.
+- `scripts/image_gen.py`: fallback-only CLI implementation. Use only when the user explicitly chooses or confirms CLI mode.
+
+exec
+/bin/bash -lc "pwd; rg --files -g '*MEMORY*' -g '*contexto_carlos*' -g 'AGENTS.md' -g '*ref_full*' -g '*7D4211E9*' -g '*byd_song_plus_blanco*'; ls /tmp/claude-1000/-workspaces-Nexusv2-0launch18octubre/bf95d417-e3b7-45fb-96f0-6fe6cd3d633d/scratchpad/ref_full.jpg" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+/workspaces/Nexusv2.0launch18octubre
+visionagenciaIAV2.0-main 2/AGENTS.md
+AGENTS.md
+clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg
+clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg
+/tmp/claude-1000/-workspaces-Nexusv2-0launch18octubre/bf95d417-e3b7-45fb-96f0-6fe6cd3d633d/scratchpad/ref_full.jpg
+
+exec
+/bin/bash -lc 'cat AGENTS.md; ls clientes/Rafael_BYD/gancho_ref2' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+# Instrucciones para ChatGPT (Codex) en el workspace de Carlos
+
+Tienes acceso COMPLETO a este workspace (Modal, sandbox de Carlos): archivos, red, terminal, WhatsApp, Modal (GPU) y Glimmer (la IA de Meta). No digas que no tienes acceso: úsalo. Lee primero `/vol/claude-config/codex/contexto_carlos.md` (negocio, método, clientes). Responde en español, corto, para WhatsApp.
+
+
+## Lo que Carlos pide siempre (memoria de Claude)
+Antes de cualquier tarea lee TODAS las notas de `/vol/claude-config/projects/---modal-volumes-vo-N6gOPxHfXSf5HzbsmuqjJ3-workspaces-Nexusv2-0launch18octubre/memory/` (empieza por MEMORY.md). Son las reglas, preferencias y correcciones que Carlos le ha dado a Claude durante semanas: método, calidad, cómo calificar, a quién escribir, límites de gasto, cuentas y clientes. Síguelas igual que Claude. Si aprendes una regla nueva de Carlos, agrégala como nota nueva en esa carpeta (un archivo por regla, con el mismo formato) y su línea en MEMORY.md.
+
+
+## Manual de producción
+Para hacer videos tú solo (cuando Claude no esté) sigue `MANUAL_CHATGPT.md` (raíz): referencias, escenas con Qwen + MiniMax H3, ahorro de GPU, voz Fish, armado, Glimmer y estado de clientes.
+
+## Preguntarle a Claude
+Si necesitas algo que solo Claude sabe (por qué se decidió algo, dónde está un archivo, cómo se hizo un video), pregunta con `herramientas/preguntar_claude.sh "pregunta"`. Claude responde con su memoria y el workspace (solo lectura). Gasta uso de Claude: máximo 5 preguntas al día, cortas, y primero busca en la memoria y en los archivos.
+
+## Herramientas
+- **WhatsApp (WaAPI):** `python3 -c "import sys;sys.path.insert(0,'herramientas');from wa import accion; ..."`
+  - `accion('send-message',{'chatId':ID,'message':txt})`, `accion('fetch-messages',{'chatId':ID,'limit':20})`, `accion('get-chats',{})`, `accion('download-media',{'messageId':MID})` → `['data']['data']['media']['url']`.
+  - Mandar video/imagen a Carlos: `python3 herramientas/enviar_seguro.py RUTA "texto"`. Chat de Carlos: `44522318905388@lid`.
+  - Chats de clientes: José `257883358937112@lid`, Guillermo `256998142660619@lid`, Alberto `121135308009543@lid`, Giovanni `147832891793521@lid`, Iván `72125973008625@lid`, Rubén `25112875143230@lid`, Lisbeth `161641681395864@lid`, Víctor `244250780389552@lid`, Tatuador `250053667119335@lid`, Andrés `248292160077914@lid`, Jesús Puertas `77185511633028@lid`.
+- **Calificar un video con Glimmer (IA de Meta):** escribe `entregables/glimmer_evaluador/anuncios_<id>.json` = `[{"nombre":"CLIENTE_vX","video":"/ruta/absoluta.mp4","cliente":"datos reales del negocio"}]`, luego encola en la fila (corre sola):
+  `echo "python3 entregables/glimmer_evaluador/evaluar.py entregables/glimmer_evaluador/anuncios_<id>.json entregables/glimmer_evaluador/<id> && GASTO_PERFIL=carlosfavelajeje python3 gasto_modal.py run entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/<id>/lote.json --tokens 4500 > entregables/glimmer_evaluador/<id>/glimmer.log 2>&1" > entregables/fila/pendientes/<AAAAMMDD_HHMM>_<cliente>.sh`
+  Resultado: en `glimmer.log`, lo que sigue a `assistant to=user` (CALIFICACIÓN TOTAL, NOTAS, QUÉ LO FRENA, VEREDICTO). Tarda ~6-10 min. Estado de la fila: `tail entregables/fila/fila.log`.
+- **Calificaciones existentes:** `entregables/glimmer_evaluador/*/glimmer.log`.
+- **Formato de calificación para clientes:** `entregables/glimmer_evaluador/mensaje_calificacion.py` (`mensaje(nombre, hoy, proyectada, funciona, falta, pauta, hecho)`).
+- **Voz clonada (Fish Audio):** clave en `$FISH_API_KEY`; POST `https://api.fish.audio/v1/tts` con `{"text","format":"wav","reference_id":ID}` y header `model: s2-pro` o `s1`. Genera 4 tomas y elige la que Whisper (`faster_whisper`, modelo `medium`) transcriba igual al guion. IDs: José `74cae190c2c84b0caaca073f42f5de54`, Carlos `1f679152b5d64c09a8e8eeecd3eb5424`, Doctora `1cbf187942e14e2789215b6374e8323c`, Rubén `22eb1ea2a6ce44c882d721aea1003766`, Iván `2e7509fae4af43c0b4166202aeff3918`.
+- **Armadores de video (ffmpeg, sin GPU):** José `clientes/Jose/armado_20261029/armar_jose_v9.py` (voces por frase en `voz_v8/sN_0.mp3`, borra `tmp_v9c` si cambias voz), Guillermo `clientes/Guillermo/far12_v1/armar_far12_v3.py`, Doctora `clientes/Alberto/video/armar_implantes_ref.py --version X --tomas v6`, Iván `clientes/Ivan/video_v5_20261030/armar_ivan_v5.py`, Rubén `clientes/Ruben_Quiropraxia/video_v3/armar_ruben_v3.py`.
+- **GPU (escenas nuevas Qwen/MiniMax):** solo con `GASTO_PERFIL=carlosfavelajeje python3 gasto_modal.py run clientes/_escenas_carlos/escenas_carlos_modal.py::cuadros|animar --spec SPEC.json`, encolado en `entregables/fila_escenas/pendientes/`. Cuenta carlosfavelajeje: $30 de crédito, tope $28 (vigía activo); consulta antes de gastar.
+
+## Reglas (obligatorias)
+1. Escribir o mandar algo a un CLIENTE solo si Carlos lo pide en ese mensaje; si no, todo va primero a Carlos.
+2. Cada video que mandes lleva su calificación de Glimmer: separa **actual** (la que Glimmer dio al video) de **proyectada** (la que daría con los cambios). Nunca inventes calificaciones ni resultados.
+3. No borres archivos de clientes; versiona (v9c → v9d). No toques `.vol`, credenciales ni `gasto_modal.py`.
+4. Antes de dar algo por hecho, verifícalo (escucha con Whisper, revisa el video, lee el log). Si algo falla, dilo.
+5. Calidad: caras parecidas a la persona real, lugares reales, voz bien pronunciada, sin promesas de salud.
+6. Al terminar, responde a Carlos con: qué hiciste, rutas de los videos, y qué falta.
+
+
+## Cuando Claude se acabe (uso semanal agotado)
+Tú tomas el relevo completo:
+1. Revisa `buzon/fila_encargos.log` y `buzon/para_nexus2/`: los encargos que sigan ahí (no movidos a `buzon/hecho/`) están pendientes. Lee cada uno completo (y sus actualizaciones al final) y continúalo sin repetir lo ya hecho: revisa archivos nuevos del cliente, la fila de GPU y lo que ya se le mandó a Carlos.
+2. Un trabajo pesado a la vez: el sandbox tiene 1 CPU y 4 GB; con varios procesos en paralelo se cae.
+3. Glimmer rápido para guiones y revisiones: `https://carlosfavelajeje--glimmer-chat-glimmer-web.us-east.modal.run/chat` (POST `{"mensajes":[{"rol":"user","texto":"...","fotos":[base64]}],"tokens":4500}`, header `x-clave` = CLAVE del secreto Modal `glimmer-chat`). Calificación formal: la fila de `entregables/glimmer_evaluador/`.
+4. Meta Ads: tú no tienes Windsor. Deja el video final, miniatura, texto del anuncio y segmentación en `buzon/para_nexus/` y dile a Carlos que lo suba él en el Administrador de anuncios (o que lo haga Claude cuando vuelva).
+5. Prospectos nuevos («¡Hola! Quiero más información»): responde con el mensaje de la calificación de Facebook (solo lanzamos con 8+; ejemplos reales: limpieza 33 mensajes a $1.39, impermeabilización 18 mensajes a $2.87) y pide giro/ciudad, 3 fotos o videos, precio o promoción y un reel de referencia. Estamos en Sonora y trabajamos 100% en línea con todo México.
+
+codex
+Ya revisé el reel: los exteriores necesitan mucha distancia y obstáculos en primer plano; el interior, cámara mirando hacia la banca trasera. Las notas de `/vol/claude-config` no están en este entorno; continúo con las instrucciones y fotos disponibles.
+codex
+El cuadro A ya está generado: Rafael se ve pequeño, de cuerpo entero, con las manos en los bolsillos y el tronco a la izquierda. Estoy generando el ángulo B con la misma ropa y escala.
+exec
+/bin/bash -lc 'command -v magick || command -v convert; ls -la clientes/Rafael_BYD/gancho_ref2' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+total 8
+drwxrwxrwx+  2 codespace codespace 4096 Nov  5 22:35 .
+drwxrwxrwx+ 14 codespace codespace 4096 Nov  5 22:35 ..
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+from PIL import Image
+from pathlib import Path
+base=Path('clientes/Rafael_BYD/gancho_ref2')
+source=Path('/home/codespace/.codex/generated_images/01a1adda-3417-78e3-aacc-0d60e681fa63')
+for src,name in [('exec-4da48057-8323-4963-81de-58a18a9b1b00.png','RAF_lejos_A.png'),('exec-7d9f42d2-6b8b-4737-8985-a6675ba43798.png','RAF_lejos_B.png')]:
+ im=Image.open(source/src).convert('RGB')
+ w,h=im.size
+ targetw=round(h*9/16)
+ if w>targetw:
+  x=w-targetw if name=='RAF_lejos_B.png' else (w-targetw)//2
+  im=im.crop((x,0,x+targetw,h))
+ im.resize((720,1280),Image.Resampling.LANCZOS).save(base/name)
+ print(name,Image.open(base/name).size)
+PY" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 976ms:
+RAF_lejos_A.png (720, 1280)
+RAF_lejos_B.png (720, 1280)
+
+codex
+Los dos exteriores están guardados a 720×1280. Falta revisar y guardar el interior, comprobando que Rafael esté en la banca trasera y tenga la boca despejada.
+exec
+/bin/bash -lc "python3 - <<'PY'
+from PIL import Image
+from pathlib import Path
+b=Path('clientes/Rafael_BYD/gancho_ref2')
+im=Image.open('/home/codespace/.codex/generated_images/01a1adda-3417-78e3-aacc-0d60e681fa63/exec-bd5e29b3-e68f-48ca-b2f0-6a0e9489c50b.png')
+im.resize((720,1280),Image.Resampling.LANCZOS).save(b/'RAF_asiento_trasero.png')
+for p in b.glob('RAF_*.png'):
+ with Image.open(p) as im:
+  im.verify()
+ with Image.open(p) as im: print(str(p), im.size, im.format)
+(b/'prompts_generacion.txt').write_text('Herramienta: image_gen integrada. Ediciones basadas en foto real de Rafael y referencia del SUV; reel usado solo como referencia de composición.\\nA: Foto real vertical; Rafael cuerpo entero pequeño (un tercio de alto), manos en bolsillos, cámara a 15 metros, SUVs blancos estacionados, tronco desenfocado a izquierda, luz nublada CDMX.\\nB: Mismo Rafael, ropa, pose y luz; cámara desplazada 40 grados, agencia con cristal detrás, SUVs de lado, poste cercano a derecha.\\nInterior: Rafael sentado en banca trasera, cámara entre asientos delanteros mirando atrás, respaldos en primer plano, techo con manija, rostro nítido y boca entreabierta despejada.\\nComún: conservar identidad, piel natural, sin otras personas, texto ni logotipos inventados; placas tapadas; márgenes de seguridad. Exportación final PNG 720x1280.\\n',encoding='utf-8')
+PY" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 604ms:
+clientes/Rafael_BYD/gancho_ref2/RAF_lejos_B.png (720, 1280) PNG
+clientes/Rafael_BYD/gancho_ref2/RAF_asiento_trasero.png (720, 1280) PNG
+clientes/Rafael_BYD/gancho_ref2/RAF_lejos_A.png (720, 1280) PNG
+
+codex
+Listas las tres, guardadas y verificadas en PNG de **720×1280**:
+
+- [RAF_lejos_A.png](/workspaces/Nexusv2.0launch18octubre/clientes/Rafael_BYD/gancho_ref2/RAF_lejos_A.png): Rafael lejos, manos en bolsillos, SUV blancos y tronco a la izquierda.
+- [RAF_lejos_B.png](/workspaces/Nexusv2.0launch18octubre/clientes/Rafael_BYD/gancho_ref2/RAF_lejos_B.png): otro ángulo, agencia de cristal y poste a la derecha.
+- [RAF_asiento_trasero.png](/workspaces/Nexusv2.0launch18octubre/clientes/Rafael_BYD/gancho_ref2/RAF_asiento_trasero.png): Rafael atrás, cámara desde adelante y boca entreabierta despejada.
+
+Usé imagegen con las fotos reales. Dejé los prompts en `gancho_ref2/prompts_generacion.txt`.
+tokens used
+57,304
+Listas las tres, guardadas y verificadas en PNG de **720×1280**:
+
+- [RAF_lejos_A.png](/workspaces/Nexusv2.0launch18octubre/clientes/Rafael_BYD/gancho_ref2/RAF_lejos_A.png): Rafael lejos, manos en bolsillos, SUV blancos y tronco a la izquierda.
+- [RAF_lejos_B.png](/workspaces/Nexusv2.0launch18octubre/clientes/Rafael_BYD/gancho_ref2/RAF_lejos_B.png): otro ángulo, agencia de cristal y poste a la derecha.
+- [RAF_asiento_trasero.png](/workspaces/Nexusv2.0launch18octubre/clientes/Rafael_BYD/gancho_ref2/RAF_asiento_trasero.png): Rafael atrás, cámara desde adelante y boca entreabierta despejada.
+
+Usé imagegen con las fotos reales. Dejé los prompts en `gancho_ref2/prompts_generacion.txt`.

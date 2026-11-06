@@ -1,0 +1,5 @@
+Herramienta: image_gen integrada. Referencias: hoja completa de personaje, foto mariano_luz_final.png y benjamina_fachada.jpg.
+Prompts: fotografías verticales 9:16 de Mariano, identidad de las referencias, saco azul claro a cuadros, camisa blanca, jeans y zapatos cafés; sin micrófono, texto ni logos; luz de mediodía y piel natural.
+1. Plano aéreo amplio en picada, cuerpo de un tercio de altura, cuerda negra, arnés y guantes, fraccionamiento abajo.
+2. Plano entero frente a fachada completa, soltando arnés y correa, manos sin guantes.
+3. Cintura arriba, rostro frontal nítido, boca entreabierta hablando, gesto de invitación, sin arnés ni guantes, casa desenfocada.

@@ -1,0 +1,63 @@
+{
+ "carpeta": "veronica_3d_v1",
+ "salida": "clientes/VeronicaArguelles/video/v3d_v1",
+ "semilla": 23,
+ "ancho": 1280,
+ "alto": 720,
+ "refs": {
+  "sala": "clientes/VeronicaArguelles/fotos/1024_005054_24.jpg",
+  "cocina": "clientes/VeronicaArguelles/fotos/1024_005053_16.jpg",
+  "recamara": "clientes/VeronicaArguelles/fotos/1024_005055_30.jpg",
+  "bano": "clientes/VeronicaArguelles/fotos/1024_005052_13.jpg",
+  "balcon": "clientes/VeronicaArguelles/fotos/1024_005052_12.jpg",
+  "alberca": "clientes/VeronicaArguelles/fotos/1024_004948_02.jpg",
+  "cocina2": "clientes/VeronicaArguelles/fotos/1024_005054_22.jpg"
+ },
+ "cuadros": {
+  "S_sala": [
+   [
+    "sala"
+   ],
+   "Foto de arquitectura de interiores profesional, horizontal 16:9, misma habitación EXACTA de la imagen (mismas paredes, mismas ventanas, mismo piso de porcelanato claro, misma puerta, mismo ángulo de cámara), ahora DECORADA con home staging de lujo moderno en tonos beige, blanco cálido y madera natural, iluminación cálida suave, estilo departamento premium: sala con sofá grande curvo color crema, mesa de centro de madera, tapete grande, lámpara de piso, plantas, cuadros abstractos neutros y cortinas de lino.",
+   "personas, cambiar la arquitectura, cambiar ventanas, cambiar puertas, otra habitación, deformado, muebles flotando, desorden"
+  ],
+  "S_cocina": [
+   [
+    "cocina"
+   ],
+   "Foto de arquitectura de interiores profesional, horizontal 16:9, misma habitación EXACTA de la imagen (mismas paredes, mismas ventanas, mismo piso de porcelanato claro, misma puerta, mismo ángulo de cámara), ahora DECORADA con home staging de lujo moderno en tonos beige, blanco cálido y madera natural, iluminación cálida suave, estilo departamento premium: cocina con los MISMOS gabinetes de madera oscura y cubierta de granito, ahora con bancos altos de piel, frutero, flores, lámparas colgantes cálidas y accesorios elegantes.",
+   "personas, cambiar la arquitectura, cambiar ventanas, cambiar puertas, otra habitación, deformado, muebles flotando, desorden"
+  ],
+  "S_recamara": [
+   [
+    "recamara"
+   ],
+   "Foto de arquitectura de interiores profesional, horizontal 16:9, misma habitación EXACTA de la imagen (mismas paredes, mismas ventanas, mismo piso de porcelanato claro, misma puerta, mismo ángulo de cámara), ahora DECORADA con home staging de lujo moderno en tonos beige, blanco cálido y madera natural, iluminación cálida suave, estilo departamento premium: recámara principal con cama king con cabecera tapizada beige, ropa de cama blanca, buros de madera con lámparas, tapete, cortinas de lino y una planta.",
+   "personas, cambiar la arquitectura, cambiar ventanas, cambiar puertas, otra habitación, deformado, muebles flotando, desorden"
+  ],
+  "S_bano": [
+   [
+    "bano"
+   ],
+   "Foto de arquitectura de interiores profesional, horizontal 16:9, misma habitación EXACTA de la imagen (mismas paredes, mismas ventanas, mismo piso de porcelanato claro, misma puerta, mismo ángulo de cámara), ahora DECORADA con home staging de lujo moderno en tonos beige, blanco cálido y madera natural, iluminación cálida suave, estilo departamento premium: baño con el MISMO lavabo y cubierta, ahora con toallas blancas enrolladas, velas, plantas, espejo iluminado, accesorios de lujo tipo spa.",
+   "personas, cambiar la arquitectura, cambiar ventanas, cambiar puertas, otra habitación, deformado, muebles flotando, desorden"
+  ],
+  "S_balcon": [
+   [
+    "balcon"
+   ],
+   "Foto de arquitectura de interiores profesional, horizontal 16:9, misma habitación EXACTA de la imagen (mismas paredes, mismas ventanas, mismo piso de porcelanato claro, misma puerta, mismo ángulo de cámara), ahora DECORADA con home staging de lujo moderno en tonos beige, blanco cálido y madera natural, iluminación cálida suave, estilo departamento premium: balcón con dos camastros modernos, mesa de exterior, plantas en macetas grandes y luz de atardecer cálida.",
+   "personas, cambiar la arquitectura, cambiar ventanas, cambiar puertas, otra habitación, deformado, muebles flotando, desorden"
+  ],
+  "D_maqueta": [
+   [
+    "sala",
+    "cocina",
+    "recamara"
+   ],
+   "Render 3D isométrico tipo maqueta de corte (dollhouse) visto desde arriba en diagonal, horizontal 16:9, de UN departamento moderno completo SIN TECHO sobre fondo negro: sala con sofá crema, cocina con gabinetes de madera oscura y cubierta de granito como la segunda imagen, comedor, tres recámaras con camas, baños, balcón con camastros, pisos de porcelanato claro, muros blancos, iluminación cálida, acabado de render arquitectónico premium.",
+   "texto, letras, personas, edificio completo, ciudad"
+  ]
+ },
+ "tomas": []
+}

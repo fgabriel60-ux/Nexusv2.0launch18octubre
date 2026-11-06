@@ -1,0 +1,27 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-22dmaiaz3RLvp4AGUkD7Ud
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/XV/v8/xv_v8_modal.py
+├── ✓ Created Function cuadros.
+└── ✓ Created Function clips.
+clip M1 /datos/siena/out/xv_v8/M1_00001_.mp4
+clip M2 /datos/siena/out/xv_v8/M2_00001_.mp4
+clip M3 /datos/siena/out/xv_v8/M3_00001_.mp4
+clip M4 /datos/siena/out/xv_v8/M4_00001_.mp4
+clip M5 /datos/siena/out/xv_v8/M5_00001_.mp4
+clip M6 /datos/siena/out/xv_v8/M6_00001_.mp4
+clip M7 /datos/siena/out/xv_v8/M7_00001_.mp4
+clip M8 /datos/siena/out/xv_v8/M8_00001_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/XV/v8/clips/M1
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/XV/v8/clips/M2
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/XV/v8/clips/M3
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/XV/v8/clips/M4
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/XV/v8/clips/M5
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/XV/v8/clips/M6
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/XV/v8/clips/M7
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/XV/v8/clips/M8
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-22dmaiaz3RLvp4AGUkD7Ud

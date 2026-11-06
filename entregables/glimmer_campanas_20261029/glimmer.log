@@ -1,0 +1,574 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-V1Be9k4ALa9ZqvBXbqZmYE
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<29:39,  1.24s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:02<30:50,  1.29s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:02<12:27,  1.91it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:02<09:34,  2.49it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:02<07:39,  3.11it/s]
+[1ALoading weights:   1%|          | 14/1436 [00:03<02:13, 10.64it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:03<01:48, 13.02it/s]
+[1ALoading weights:   1%|▏         | 20/1436 [00:03<01:38, 14.31it/s]
+[1ALoading weights:   2%|▏         | 25/1436 [00:03<01:19, 17.86it/s]
+[1ALoading weights:   2%|▏         | 29/1436 [00:03<01:07, 20.84it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:03<01:08, 20.53it/s]
+[1ALoading weights:   3%|▎         | 39/1436 [00:04<00:53, 25.91it/s]
+[1ALoading weights:   3%|▎         | 42/1436 [00:04<01:06, 21.02it/s]
+[1ALoading weights:   3%|▎         | 47/1436 [00:04<00:54, 25.46it/s]
+[1ALoading weights:   4%|▎         | 52/1436 [00:04<00:46, 29.84it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:04<01:01, 22.42it/s]
+[1ALoading weights:   4%|▍         | 63/1436 [00:05<00:51, 26.56it/s]
+[1ALoading weights:   5%|▍         | 67/1436 [00:05<01:00, 22.65it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:05<00:46, 29.38it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:05<00:55, 24.62it/s]
+[1ALoading weights:   6%|▌         | 83/1436 [00:05<00:53, 25.32it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:06<00:51, 26.15it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:06<00:54, 24.54it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:06<00:43, 30.65it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:06<00:53, 24.87it/s]
+[1ALoading weights:   8%|▊         | 111/1436 [00:06<00:47, 27.85it/s]
+[1ALoading weights:   8%|▊         | 114/1436 [00:07<00:58, 22.43it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:07<00:42, 31.24it/s]
+[1ALoading weights:   9%|▉         | 126/1436 [00:07<00:58, 22.26it/s]
+[1ALoading weights:   9%|▉         | 134/1436 [00:07<00:41, 31.12it/s]
+[1ALoading weights:  10%|▉         | 139/1436 [00:08<00:56, 22.76it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:08<00:45, 28.45it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:08<00:55, 23.18it/s]
+[1ALoading weights:  11%|█         | 160/1436 [00:08<00:44, 28.37it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:09<00:55, 23.13it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:09<00:44, 28.31it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:09<00:55, 22.77it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:09<00:44, 28.27it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:09<00:52, 23.72it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [00:10<00:42, 29.30it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:10<00:52, 23.75it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:10<00:42, 28.63it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:10<00:52, 23.29it/s]
+[1ALoading weights:  15%|█▌        | 218/1436 [00:11<00:42, 28.45it/s]
+[1ALoading weights:  15%|█▌        | 222/1436 [00:11<00:58, 20.61it/s]
+[1ALoading weights:  16%|█▌        | 230/1436 [00:11<00:41, 29.09it/s]
+[1ALoading weights:  16%|█▋        | 235/1436 [00:11<00:54, 22.02it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:12<00:42, 27.91it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:12<00:52, 22.83it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:12<00:42, 27.76it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:12<00:51, 22.77it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:13<00:41, 27.83it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:13<00:49, 23.51it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:13<00:42, 27.52it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:13<00:48, 23.51it/s]
+[1ALoading weights:  20%|██        | 289/1436 [00:13<00:41, 27.46it/s]
+[1ALoading weights:  20%|██        | 293/1436 [00:14<00:48, 23.58it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:14<00:50, 22.50it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:14<00:39, 28.33it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:14<00:51, 21.87it/s]
+[1ALoading weights:  22%|██▏       | 315/1436 [00:14<00:38, 29.15it/s]
+[1ALoading weights:  22%|██▏       | 319/1436 [00:15<00:53, 20.94it/s]
+[1ALoading weights:  23%|██▎       | 326/1436 [00:15<00:39, 28.04it/s]
+[1ALoading weights:  23%|██▎       | 331/1436 [00:15<00:52, 20.91it/s]
+[1ALoading weights:  24%|██▎       | 338/1436 [00:15<00:39, 27.59it/s]
+[1ALoading weights:  24%|██▍       | 343/1436 [00:16<00:51, 21.42it/s]
+[1ALoading weights:  24%|██▍       | 350/1436 [00:16<00:38, 28.19it/s]
+[1ALoading weights:  25%|██▍       | 355/1436 [00:16<00:50, 21.33it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:16<00:40, 26.77it/s]
+[1ALoading weights:  26%|██▌       | 368/1436 [00:17<00:46, 22.73it/s]
+[1ALoading weights:  26%|██▌       | 375/1436 [00:17<00:36, 29.16it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:17<00:46, 22.91it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:17<00:37, 28.04it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:18<00:43, 24.10it/s]
+[1ALoading weights:  28%|██▊       | 398/1436 [00:18<00:35, 29.29it/s]
+[1ALoading weights:  28%|██▊       | 402/1436 [00:18<00:48, 21.28it/s]
+[1ALoading weights:  29%|██▊       | 410/1436 [00:18<00:34, 29.75it/s]
+[1ALoading weights:  29%|██▉       | 415/1436 [00:19<00:43, 23.45it/s]
+[1ALoading weights:  29%|██▉       | 422/1436 [00:19<00:33, 30.17it/s]
+[1ALoading weights:  30%|██▉       | 427/1436 [00:19<00:42, 23.61it/s]
+[1ALoading weights:  30%|███       | 436/1436 [00:19<00:33, 29.63it/s]
+[1ALoading weights:  31%|███       | 440/1436 [00:19<00:41, 24.06it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:20<00:33, 29.17it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:20<00:39, 24.61it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:20<00:33, 28.84it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:20<00:41, 23.36it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:21<00:34, 28.03it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:21<00:39, 24.25it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:21<00:33, 28.29it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:21<00:41, 22.96it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:21<00:33, 27.73it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:22<00:39, 23.92it/s]
+[1ALoading weights:  35%|███▌      | 507/1436 [00:22<00:30, 30.67it/s]
+[1ALoading weights:  36%|███▌      | 511/1436 [00:22<00:41, 22.40it/s]
+[1ALoading weights:  36%|███▌      | 518/1436 [00:22<00:31, 29.44it/s]
+[1ALoading weights:  36%|███▋      | 523/1436 [00:23<00:41, 22.11it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:23<00:31, 28.76it/s]
+[1ALoading weights:  37%|███▋      | 536/1436 [00:23<00:37, 24.27it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:23<00:30, 29.54it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:24<00:36, 24.26it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:24<00:29, 29.69it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:24<00:35, 24.52it/s]
+[1ALoading weights:  39%|███▉      | 566/1436 [00:24<00:32, 26.58it/s]
+[1ALoading weights:  40%|███▉      | 570/1436 [00:24<00:35, 24.08it/s]
+[1ALoading weights:  40%|████      | 578/1436 [00:25<00:31, 27.63it/s]
+[1ALoading weights:  40%|████      | 581/1436 [00:25<00:30, 27.77it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:25<00:33, 25.14it/s]
+[1ALoading weights:  41%|████      | 591/1436 [00:25<00:28, 29.98it/s]
+[1ALoading weights:  41%|████▏     | 595/1436 [00:25<00:34, 24.18it/s]
+[1ALoading weights:  42%|████▏     | 603/1436 [00:25<00:24, 33.54it/s]
+[1ALoading weights:  42%|████▏     | 608/1436 [00:26<00:34, 23.72it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:26<00:28, 29.03it/s]
+[1ALoading weights:  43%|████▎     | 620/1436 [00:26<00:34, 23.54it/s]
+[1ALoading weights:  44%|████▍     | 632/1436 [00:26<00:21, 38.22it/s]
+[1ALoading weights:  47%|████▋     | 670/1436 [00:26<00:07, 97.54it/s]
+[1ALoading weights:  49%|████▊     | 698/1436 [00:27<00:05, 131.95it/s]
+[1ALoading weights:  51%|█████     | 731/1436 [00:27<00:04, 173.52it/s]
+[1ALoading weights:  54%|█████▍    | 780/1436 [00:27<00:02, 241.39it/s]
+[1ALoading weights:  58%|█████▊    | 830/1436 [00:27<00:01, 303.78it/s]
+[1ALoading weights:  61%|██████    | 878/1436 [00:27<00:01, 344.20it/s]
+[1ALoading weights:  64%|██████▍   | 916/1436 [00:27<00:01, 352.51it/s]
+[1ALoading weights:  68%|██████▊   | 975/1436 [00:27<00:01, 410.14it/s]
+[1ALoading weights:  71%|███████▏  | 1024/1436 [00:27<00:00, 420.77it/s]
+[1ALoading weights:  75%|███████▍  | 1071/1436 [00:27<00:00, 428.86it/s]
+[1ALoading weights:  78%|███████▊  | 1125/1436 [00:28<00:00, 451.89it/s]
+[1ALoading weights:  82%|████████▏ | 1172/1436 [00:28<00:00, 456.57it/s]
+[1ALoading weights:  85%|████████▍ | 1219/1436 [00:28<00:00, 453.20it/s]
+[1ALoading weights:  89%|████████▉ | 1276/1436 [00:28<00:00, 476.84it/s]
+[1ALoading weights:  92%|█████████▏| 1324/1436 [00:28<00:00, 462.85it/s]
+[1ALoading weights:  96%|█████████▌| 1372/1436 [00:28<00:00, 456.25it/s]
+[1ALoading weights:  99%|█████████▊| 1418/1436 [00:28<00:00, 455.75it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:28<00:00, 50.03it/s] 
+[transformers] Both `max_new_tokens` (=6000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=6000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## GIOVANNI_CAMPANA
+ to=selfEres estratega y auditor de campañas de Meta Ads (Facebook/Instagram) para negocios en México. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento. Sé concreto y honesto; no inventes datos de Meta: si falta un dato, dilo y marca [CONFIRMAR].
+
+CAMPAÑA: Lic. Giovanni Pulido... etc.
+
+ENTREGA exactamente:
+1) CALIFICACIÓN DE LA CAMPAÑA (1-10) en: oferta, confianza, claridad del mensaje, calidad visual del anuncio, cumplimiento de políticas de Meta, probabilidad de mensajes baratos y probabilidad de mensajes calificados. Con una línea de razón cada una.
+2) Califica cada anuncio/video adjunto de 1 a 5 y di cuál subir primero.
+3) Estructura recomendada de la campaña: objetivo, optimización, público (edad, ubicación), segmentación por capas, presupuesto diario, placements, cuántos anuncios y cuánto tiempo antes de decidir, CPA de mensajes esperado como rango razonable (márcalo como estimación).
+4) Qué corregir antes de subirla (lista priorizada, textos exactos de reemplazo).
+5) Preguntas de precalificación para WhatsApp y mensaje de bienvenida exacto.
+6) Qué debe tener para llegar a 9/10 en todo y qué falta pedirle al cliente.
+7) Veredicto: ¿subir ya, subir con cambios o no subir?
+
+CAPACIDADES DE PRODUCCIÓN...
+
+We need to output exactly sections. Provide rating per price separately? "Califica la campaña con cada precio por separado y recomienda uno." So need rating for $18,000 and $20,000.
+
+Probably give two sets.
+
+Need to be concrete, honest, no invent data. If missing data mark [CONFIRMAR].
+
+We need to comply with Meta policies: no guarantees, no timelines. Anuncio A promises 15 días -> violation.
+
+Also legal services advertising restrictions? Meta has special ad category? Legal services is special ad category? In Mexico maybe not. But claims of guaranteed results prohibited.
+
+We need rating 1-10 for each metric.
+
+Let's craft.
+
+1) CALIFICACIÓN DE LA CAMPAÑA
+
+We need for each price separately? Probably give two tables.
+
+Maybe:
+
+Precio desde $18,000:
+oferta 6/10...
+etc.
+
+Precio desde $20,000:
+...
+
+Then recommend one.
+
+Let's do.
+
+Oferta: price point low for legal? Might attract cheap leads. 6/10.
+
+Confianza: photo real, credentials, 15 años, 90 divorcios. 7/10.
+
+Claridad del mensaje: 6/10.
+
+Calidad visual: 6/10.
+
+Cumplimiento políticas Meta: 4/10 due to 15 días guarantee.
+
+Probabilidad mensajes baratos: 8/10.
+
+Probabilidad mensajes calificados: 4/10.
+
+For $20k: oferta maybe 7/10? Actually higher price filters.
+
+Let's decide: $18k attracts more cheap messages, lower qualified. $20k slightly better qualification.
+
+Recommend $20,000? But client had no conversions at $18k. Might need prequalification.
+
+Maybe recommend $20,000 with "desde" and clear scope.
+
+Provide rating.
+
+2) Califica cada anuncio/video adjunto de 1 a 5 y di cuál subir primero.
+
+Anuncios estáticos:
+A «Tu tiempo merece menos trámites» 2/5 (promesa 15 días, rechazo)
+B «Tu tranquilidad merece un proceso claro» 3/5
+C «Tu familia merece un cierre en paz» 3/5
+
+Video cuadros: 2/5 (cara real pero texto "Su divorcios claro," incoherente, sin guion)
+
+Cuál subir primero: ninguno tal cual. Si forzado, B con correcciones.
+
+3) Estructura recomendada...
+
+Objetivo: Mensajes a WhatsApp
+Optimización: Mensajes
+Público: edad 30-65, ubicación Los Cabos BCS + 25km, maybe La Paz? [CONFIRMAR] radius.
+Segmentación por capas: broad + intereses? Maybe no.
+Presupuesto diario $100 MXN
+Placements: Advantage+ placements? Reels/Stories/Feed.
+Cuántos anuncios: 1-2 creatividades max.
+Tiempo antes de decidir: 7-10 días o 30-50 mensajes.
+CPA mensajes esperado rango razonable (estimación): $25-$70 MXN por mensaje [estimación].
+
+4) Qué corregir antes de subirla (lista priorizada, textos exactos de reemplazo)
+
+- Eliminar promesa 15 días.
+Replace "RESULTADOS EN 15 DÍAS" with "TRÁMITE 100% EN LÍNEA"
+- No garantías.
+- etc.
+
+Provide exact replacement texts.
+
+5) Preguntas de precalificación para WhatsApp y mensaje de bienvenida exacto.
+
+Provide 3-4 questions.
+
+Mensaje de bienvenida exacto.
+
+6) Qué debe tener para llegar a 9/10... falta pedirle al cliente: testimonios verificables, casos, etc.
+
+7) Veredicto: subir con cambios o no subir?
+
+Probably "subir con cambios" not subir ya.
+
+Need to ensure output format exactly as requested.
+
+Let's produce concise bullet points.
+
+Ensure Spanish.
+
+No show reasoning.
+
+Provide final answer.
+
+Potential nuance: Meta policy about legal services: no claims of guaranteed outcomes. Also personal attributes? "Tu tiempo merece..." is okay.
+
+Also need to note that anuncio A promises 15 días -> rejection.
+
+Also price display: "desde $18,000" okay.
+
+Need to mark [CONFIRMAR] if missing data. Maybe CPA range is estimation, so mark [estimación]. Also maybe radius.
+
+Let's produce.
+
+Make sections numbered.
+
+Ensure 1) CALIFICACIÓN DE LA CAMPAÑA (1-10) en: oferta, confianza, claridad del mensaje, calidad visual del anuncio, cumplimiento de políticas de Meta, probabilidad de mensajes baratos y probabilidad de mensajes calificados. Con una línea de razón cada una.
+
+We can give table.
+
+Maybe for each price.
+
+Let's do:
+
+Precio desde $18,000:
+oferta 6/10 - ...
+...
+
+Precio desde $20,000:
+...
+
+Recomendación: $20,000.
+
+2) Califica cada anuncio/video...
+
+3) Estructura recomendada...
+
+4) Qué corregir...
+
+5) Preguntas...
+
+6) Qué debe tener...
+
+7) Veredicto...
+
+Make sure not invent data of Meta. If we say CPA range, mark as estimación.
+
+Ok.
+
+Let's output.assistant to=user**1) CALIFICACIÓN DE LA CAMPAÑA**
+
+*Precio desde $18,000*
+- Oferta 6/10: Precio bajo atrae volumen pero no filtra intención de pago.
+- Confianza 7/10: Foto real, Lic. Giovanni Pulido, 15 años y +90 casos aportan credibilidad.
+- Claridad del mensaje 6/10: Beneficios claros pero mezcla “voluntario”, “en línea” y precio sin alcance definido.
+- Calidad visual del anuncio 6/10: Diseño legible, rojo/negro impacta, tipografía saturada.
+- Cumplimiento de políticas de Meta 4/10: Anuncio A promete “RESULTADOS EN 15 DÍAS” y garantías en servicio legal.
+- Probabilidad de mensajes baratos 8/10: Precio desde y promesa de rapidez genera curiosidad sin presupuesto.
+- Probabilidad de mensajes calificados 4/10: Historial previo sin contratación y cierre por referidos indica baja calificación.
+
+*Precio desde $20,000*
+- Oferta 7/10: Precio ligeramente superior filtra algo de curiosidad y alinea con referencia de ChatGPT.
+- Confianza 7/10: Igual que arriba.
+- Claridad del mensaje 6/10: Igual que arriba.
+- Calidad visual del anuncio 6/10: Igual que arriba.
+- Cumplimiento de políticas de Meta 4/10: Persiste el problema de “15 días” en anuncio A.
+- Probabilidad de mensajes baratos 7/10: Menor que a $18,000 pero sigue alta sin precalificación.
+- Probabilidad de mensajes calificados 5/10: Mejora marginal vs $18,000.
+
+Recomendación de precio: desde $20,000 con alcance y condiciones explicitadas.
+
+**2) Calificación de creatividades 1 a 5**
+- Anuncio estático A “Tu tiempo merece menos trámites”: 2/5. Promesa de 15 días y “DESDE $20,000” sin contexto. Riesgo de rechazo.
+- Anuncio estático B “Tu tranquilidad merece un proceso claro”: 3/5. Mensaje de proceso claro, precio desde $18,000 visible, foto real. Falta alcance.
+- Anuncio estático C “Tu familia merece un cierre en paz”: 3/5. Enfoque emocional, voluntario desde $18,000, discreción y respuesta rápida. Falta alcance.
+- Video cuadros 26 s con cara real: 2/5. Texto superpuesto incoherente “Su / Su / Su / divorcios / divorcios / claro, / claro, / claro,” sin guion, sin subtítulos, sin CTA clara.
+
+Cuál subir primero: Ninguno tal cual. Si se debe elegir base, B corregido.
+
+**3) Estructura recomendada de campaña**
+- Objetivo: Mensajes.
+- Optimización: Mensajes.
+- Público: Edad 30-65. Ubicación Los Cabos, BCS + radio 25 km [CONFIRMAR]. Sin intereses estrechos, Advantage+ Audience.
+- Segmentación por capas: Capa 1 Broad Los Cabos. Capa 2 Exclusión de personas que ya enviaron mensaje en 180 días.
+- Presupuesto diario: $100 MXN.
+- Placements: Advantage+ Placements, priorizar Reels/Stories/Feed.
+- Creatividades activas: 1-2 anuncios máximo.
+- Tiempo antes de decidir: 7-10 días o hasta 30-50 mensajes recibidos, lo que ocurra primero.
+- CPA de mensajes esperado: $25-$70 MXN por mensaje [estimación].
+
+**4) Qué corregir antes de subirla - priorizado**
+1. Eliminar promesa de plazo y garantía.
+Reemplazo en A: Quitar “RESULTADOS EN 15 DÍAS”. Sustituir por “TRÁMITE 100% EN LÍNEA”.
+2. Eliminar “Tú no pierdes días” y cualquier garantía de tiempo.
+Reemplazo: “Nosotros nos encargamos del papeleo del divorcio.”
+3. Definir alcance del precio.
+Reemplazo en todos: “Precio único sin sorpresas desde $20,000 para divorcio voluntario sin bienes. Los tiempos varían según el juzgado.”
+4. Unificar precio.
+Usar “desde $20,000” en todos los anuncios.
+5. Corregir video.
+No subir cuadros con texto “Su / divorcios / claro,”. Rehacer con guion y subtítulos en capa.
+
+**5) Precalificación WhatsApp**
+Mensaje de bienvenida exacto:
+“Hola, gracias por escribir a Lic. Giovanni Pulido, abogado en Los Cabos. Para ayudarte rápido, ¿podrías confirmar: 1) ¿Es divorcio voluntario o contencioso? 2) ¿Hay bienes en común? 3) ¿Viven ambos en BCS? 4) ¿Cuál es tu presupuesto aproximado para el trámite?”
+
+Preguntas de precalificación para el equipo:
+- Tipo de divorcio y si hay acuerdo de guarda/pensión.
+- Existencia de bienes inmuebles/deudas.
+- Disponibilidad para firma electrónica y documentos.
+- Presupuesto confirmado.
+
+**6) Para llegar a 9/10 en todo y falta pedir**
+- Alcance legal exacto del precio desde $20,000 y qué no incluye.
+- 2-3 testimonios verificables con nombre inicial y ciudad, sin prometer resultados.
+- Prueba de proceso: checklist de documentos y pasos reales.
+- Foto/portada con logo y datos reales sin texto inventado en video.
+- Confirmar si Meta exige categoría especial de anuncios legales en México [CONFIRMAR].
+
+**7) Veredicto**
+Subir con cambios. No subir ya. Corregir promesas de plazo/garantía, unificar precio a desde $20,000 con alcance claro, rehacer video con guion y subtítulos, y activar precalificación en WhatsApp antes de lanzar.
+
+######## LISBETH_CAMPANA
+ to=selfEres estratega y auditor de campañas de Meta Ads... Da SOLO la respuesta final, en español, sin mostrar tu razonamiento. Sé concreto y honesto; no inventes datos de Meta: si falta un dato, dilo y marca [CONFIRMAR].
+
+CAMPAÑA: Lisbeth Ríos, desarrollo de lotes en Tomatlán, Jalisco...
+
+ENTREGA exactamente:
+1) CALIFICACIÓN DE LA CAMPAÑA (1-10) en: oferta, confianza, claridad del mensaje, calidad visual del anuncio, cumplimiento de políticas de Meta, probabilidad de mensajes baratos y probabilidad de mensajes calificados. Con una línea de razón cada una.
+2) Califica cada anuncio/video adjunto de 1 a 5 y di cuál subir primero.
+3) Estructura recomendada de la campaña: objetivo, optimización, público (edad, ubicación), segmentación por capas, presupuesto diario, placements, cuántos anuncios y cuánto tiempo antes de decidir, CPA de mensajes esperado como rango razonable (márcalo como estimación).
+4) Qué corregir antes de subirla (lista priorizada, textos exactos de reemplazo).
+5) Preguntas de precalificación para WhatsApp y mensaje de bienvenida exacto.
+6) Qué debe tener para llegar a 9/10 en todo y qué falta pedirle al cliente.
+7) Veredicto: ¿subir ya, subir con cambios o no subir?
+
+CAPACIDADES DE PRODUCCIÓN...
+
+We need output exactly as requested. Provide concise honest. No invent data of Meta: if missing data mark [CONFIRMAR]. Budget daily is [CONFIRMAR]. Page Peniel in preparation.
+
+We need rating campaign 1-10 in several dimensions.
+
+We have image: cuadros del video más reciente (43 s) with subtitles virales: gancho selfie que se vuelve toma de dron, vista del terreno, hospital, etc.
+
+We need rate each ad/video attached 1 to 5 and which to upload first. The image shows multiple panels: top row 6 panels? Actually grid 3 rows? Let's see: image is 3x? The image shows 3 rows? First row 6 panels? Wait description: cuadros del video más reciente (43 s). The image shows a collage of frames. Probably it's one video with multiple frames shown. Might be just one video. But says califica cada anuncio/video adjunto. Maybe there are multiple videos? The image shows 12 panels? Let's count: top row 6 panels (3 pairs). bottom row 6 panels. Might be 2 videos side by side? Could be duplicate frames. Might be one video with before/after? The image shows left side woman, then same woman, then road, then satellite map etc. Possibly it's one video with 12 frames shown. Could be just one video. Might rate it 3/5? Hmm.
+
+Maybe the image shows two versions side by side (left/right). Could be A/B test. Might be two videos identical? The frames are duplicated left/right with slight differences. Could be one video.
+
+We can say: solo se adjunta un video collage (43 s). Calificación 3/5. No hay múltiples anuncios para comparar.
+
+Better to assume there is one video. Rate 3/5.
+
+Provide structure recommended: objective Messages, optimization Messages, audience age 28-55? Location: Jalisco, CDMX, Guadalajara, etc. Segmentation layers. Budget daily [CONFIRMAR]. Placements Advantage+ placements? Reels/Stories/Feed. Number of ads 3-5. Time before decide 5-7 days. CPA messages expected range reasonable (estimación). Must mark as estimation.
+
+We need not invent Meta data. CPA range is estimation, so mark as estimación.
+
+What to correct before upload: list prioritized, texts exact replacement.
+
+Issues: No "Tomatlán, Jalisco" on video? Need put. Prices not published ok. Need disclaimer? Policy compliance: real estate ads need... Might need "Anuncio de vivienda" special ad category? In Mexico, housing ads need disclaimer. Also need avoid discriminatory. Also need clear CTA WhatsApp. Subtitles viral but maybe text "a menos de dos" incomplete. "poblando Está cerca del" grammar. Need correct.
+
+Also need show water and light plus. Need show 34 lotes, medidas variables, quedan pocos 7x17. Need show documents.
+
+Also need avoid deepfake? Using AI edited? The woman is real? Might be AI generated? The frames show woman duplicated. Might be AI edit. Need ensure authenticity.
+
+Compliance: Meta policy for real estate: must not imply... Need "Todo con documentos en..." incomplete.
+
+Also need page Peniel in preparation -> can't run? Need page active.
+
+We need questions prequalification for WhatsApp and welcome message exact.
+
+What must have to reach 9/10 and what missing to ask client.
+
+Verdict: subir con cambios o no subir?
+
+Probably subir con cambios. Because page not ready, budget not confirmed, text errors, missing location, incomplete subtitles, no proof of water/light, no CTA clear.
+
+Provide final answer concise.
+
+We must output only final answer, no reasoning.
+
+Use Spanish.
+
+Let's structure with numbered sections.
+
+1) CALIFICACIÓN DE LA CAMPAÑA (1-10) en: oferta, confianza, claridad del mensaje, calidad visual del anuncio, cumplimiento de políticas de Meta, probabilidad de mensajes baratos y probabilidad de mensajes calificados. Con una línea de razón cada una.
+
+Provide each with score and reason.
+
+2) Califica cada anuncio/video adjunto de 1 a 5 y di cuál subir primero.
+
+Maybe say: Solo se visualiza un video collage de 43 s. Calificación 3/5. No hay variantes comparables.
+
+3) Estructura recomendada...
+
+Objective: Mensajes. Optimization: Mensajes. Audience age 30-60? Location: Jalisco, CDMX, Guadalajara, etc. Segmentation layers: broad + interest... Budget daily [CONFIRMAR]. Placements: Reels, Stories, Feed. Ads 3-5. Time 5-7 days. CPA messages expected range razonable (estimación) $... maybe $80-$250 MXN? Can't invent? Might be estimation. Mark as estimación.
+
+4) Qué corregir antes de subirla (lista priorizada, textos exactos de reemplazo).
+
+List: Add location text "Tomatlán, Jalisco" on first 3s. Fix subtitles: "a menos de dos" -> "a menos de dos minutos del..." etc. Need complete. Replace "poblando Está cerca del" with "Zona que ya se está poblando. Está cerca del..." etc. Add proof water/light. Add CTA "Escribe por WhatsApp para precio según medida". Add disclaimer documents. Remove duplicate frames. Ensure page Peniel active.
+
+Provide exact replacement texts.
+
+5) Preguntas de precalificación para WhatsApp y mensaje de bienvenida exacto.
+
+Provide 3-4 questions: presupuesto, medida de interés, tiempo de compra, necesita financiamiento.
+
+Welcome message exact.
+
+6) Qué debe tener para llegar a 9/10 en todo y qué falta pedirle al cliente.
+
+Need video with Lisbeth hablando a cámara real, not AI edit, show terreno real, planos, escrituras, video de agua/luz, testimonios, etc. Need budget confirmed, page active, etc.
+
+7) Veredicto: subir ya, subir con cambios o no subir?
+
+Veredicto: No subir. Subir con cambios.
+
+Probably "Subir con cambios obligatorios".
+
+Let's produce final answer.
+
+Ensure no reasoning shown. Just output.
+
+Make sure to mark [CONFIRMAR] where data missing: presupuesto diario.
+
+Also maybe CPA range can't be confirmed, mark estimación.
+
+Policy compliance score maybe 6/10.
+
+Let's craft.
+
+Need concise but complete.
+
+Use bullet points.
+
+Let's produce final.assistant to=user**1) CALIFICACIÓN DE LA CAMPAÑA**
+
+* Oferta: 6/10. Lotes con agua y luz y plusvalía en zona poblada es atractivo, pero no se muestra medida, disponibilidad real ni precio de referencia.
+* Confianza: 5/10. Lisbeth a cámara genera cercanía, pero el video es 43 s con cortes de IA y subtítulos incompletos que restan credibilidad.
+* Claridad del mensaje: 4/10. Falta “Tomatlán, Jalisco” en pantalla, el texto “a menos de dos / poblando Está cerca del” queda truncado y no se explica el plus de agua/luz ni documentos.
+* Calidad visual del anuncio: 6/10. Gancho selfie→dron funciona, pero hay duplicados, desenfoque y transiciones de IA que deforman rostro/manos.
+* Cumplimiento de políticas de Meta: 6/10. No se publican precios, bien. Riesgo por vivienda: falta categoría especial de anuncios y declaración clara de documentos; página Peniel en preparación.
+* Probabilidad de mensajes baratos: 7/10. Gancho visual y zona en crecimiento pueden bajar CPM, pero texto roto sube rechazo.
+* Probabilidad de mensajes calificados: 4/10. Sin precalificación ni prueba de agua/luz/escrituras llegarán curiosos y no compradores.
+
+**2) Calificación de anuncios adjuntos**
+
+Solo se visualiza un collage de un video de 43 s. No hay múltiples creatividades comparables para calificar por separado.
+Video collage actual: 3/5. Gancho de dron interesante, pero subtítulos incompletos, sin ubicación en pantalla y sin CTA claro.
+Subir primero: Ninguno en este estado. Requiere correcciones antes de activar.
+
+**3) Estructura recomendada**
+
+* Objetivo: Mensajes.
+* Optimización: Mensajes.
+* Público: 30-60 años. Ubicación: Jalisco, Área Metropolitana de Guadalajara, CDMX, Estado de México y destinos con compradores de segunda residencia en costa. [CONFIRMAR si se autoriza expansión a USA/México].
+* Segmentación por capas: Capa 1 Broad + intereses de bienes raíces/inversión. Capa 2 Lookalike de leads previos de Peniel si existen. Capa 3 Retargeting 30 días video 25% y visitantes de WhatsApp.
+* Presupuesto diario: [CONFIRMAR].
+* Placements: Advantage+ Placements con prioridad Reels, Stories y Feed. Formato 9:16 15-30 s.
+* Anuncios: 3 variaciones de 20-30 s con mismo guion y distintos ganchos.
+* Tiempo de aprendizaje: 5-7 días con gasto mínimo antes de decidir.
+* CPA de mensajes esperado: rango razonable estimación $80 - $250 MXN por mensaje iniciado. Estimación.
+
+**4) Qué corregir antes de subir, priorizado**
+
+1. Página. Peniel debe estar activa, con WhatsApp conectado y mensaje de bienvenida configurado. No se puede pautar con página en preparación.
+2. Ubicación en video. Insertar en capa de texto en los primeros 3 s: “Tomatlán, Jalisco”.
+3. Subtítulos y textos. Reemplazar textos truncados:
+   * “a menos de dos” → “A menos de 2 minutos de la carretera costera”
+   * “poblando Está cerca del” → “Zona que ya se está poblando. Está cerca del Hospital y del Tecnológico”
+   * “Todo con documentos en” → “Todo con documentos en regla”
+4. Mensaje de oferta. Añadir tarjeta de texto: “34 lotes, medidas variables. Quedan pocos de 7x17 m. Se puede construir casa grande con alberca y jardín.”
+5. Plus agua/luz. Añadir tarjeta: “Con agua y luz al venir a verlos” + mostrar toma real del medidor/toma.
+6. CTA. Cierre con texto en pantalla y voz: “Precio según medida. Escríbeme por WhatsApp para cotización.”
+7. Cumplimiento. Activar categoría especial de vivienda y evitar afirmaciones de exclusión. No inventar precios.
+
+**5) Precalificación WhatsApp**
+
+Mensaje de bienvenida exacto:
+“Hola, gracias por tu interés en los lotes en Tomatlán, Jalisco con Lisbeth Ríos. Para ayudarte rápido, ¿podrías responderme esto? 1) ¿Qué medida te interesa? 2) ¿Cuál es tu presupuesto aproximado por lote? 3) ¿Planeas construir a corto plazo o es inversión? 4) ¿Necesitas financiamiento?”
+
+Preguntas de precalificación para el equipo:
+* ¿Medida de interés y presupuesto por lote?
+* ¿Tiempo estimado de compra/construcción?
+* ¿Requiere financiamiento o compra de contado?
+* ¿Ha visitado Tomatlán antes?
+
+**6) Para llegar a 9/10 y qué falta pedir**
+
+Falta: video real de Lisbeth hablando a cámara en el terreno con audio limpio, recorrido con celular del lote, evidencia de agua y luz, plano del fraccionamiento con 34 lotes marcados, copia de escrituras/regularización, testimonio de vecino, y confirmación de presupuesto diario y página activa.
+Con eso se puede subir a 9/10 en oferta, confianza y claridad.
+
+**7) Veredicto**
+
+No subir. Subir con cambios obligatorios: activar página Peniel, corregir textos y ubicación, completar subtítulos, añadir prueba de agua/luz y documentos, y confirmar presupuesto diario [CONFIRMAR].
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-29T21:54:20+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-V1Be9k4ALa9ZqvBXbqZmYE
+
+== Reporte Modal fgabriel60 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_campanas_20261029/lote.json --tokens 6000
+Duración: 7.8 min  (código 0)
+  glimmer (ap-QPF85kIN4POd3C4eHQ385B): $0.367
+  glimmer (ap-V1Be9k4ALa9ZqvBXbqZmYE): $0.325
+  glimmer (ap-YWn75F9IH0fVGlvaXSmAbr): $0.025
+Gasto del trabajo: $0.717
+Saldo restante ≈ $13.08

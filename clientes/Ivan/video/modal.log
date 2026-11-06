@@ -1,0 +1,22 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-WqfHflt1Ndusi0AceYcWiz
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/Ivan/video/ivan_modal.py
+├── ✓ Uploaded PythonPackage:xv_modal
+└── ✓ Created Function lote.
+listo I1_cuarto
+listo I2_patio
+listo I3_sala
+listo I4_oficina
+listo I5_jardin
+listo I6_pasillo
+guardado I1_cuarto
+guardado I2_patio
+guardado I3_sala
+guardado I4_oficina
+guardado I5_jardin
+guardado I6_pasillo
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-WqfHflt1Ndusi0AceYcWiz

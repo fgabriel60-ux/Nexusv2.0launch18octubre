@@ -1,0 +1,522 @@
+"""Tablero de revisión de Carlos, servido desde Modal (cuenta charlyfavela666).
+
+Por qué existe: el tablero de claude.ai sirve para mirar, pero lo que Carlos
+ordena ahí se queda en su pantalla. Este corre dentro del volumen
+`nexus-workspace`, así que cuando Carlos aprueba un video o escribe una orden,
+la ESCRIBE en `buzon/para_nexus2/` y nexus3 la toma y la ejecuta.
+
+  modal deploy tablero_modal.py          # publica el tablero
+  Abrir:  https://charlyfavela666--tablero-nexus-web.us-east.modal.run/?k=<CLAVE>
+
+Datos que sirve:
+  datos.json  -> clientes y todas sus versiones calificadas (lo genera armar_tablero.py)
+  v/<id>.mp4  -> cada video calificado, ya comprimido
+  p/<id>.jpg  -> su miniatura, para revisar rápido sin cargar video
+
+La clave vive en el secreto de Modal `tablero-clave` (variable TABLERO_CLAVE), con
+`entregables/tablero/.clave` del volumen como respaldo. Sin clave correcta no abre:
+el tablero trae videos y datos de clientes.
+"""
+import pathlib
+
+import modal
+
+RAIZ = "/workspaces/Nexusv2.0launch18octubre"
+TABLERO = f"{RAIZ}/entregables/tablero"
+AQUI = pathlib.Path(__file__).resolve().parent
+
+imagen = (
+    modal.Image.debian_slim(python_version="3.12")
+    .apt_install("ffmpeg")          # 4 nov 2026: cuadros para el Glimmer rápido
+    .pip_install("fastapi[standard]")
+    .env({"MODAL_IMAGE_BUILDER_VERSION": "2025.06"})
+)
+app = modal.App("tablero-nexus", image=imagen)
+vol = modal.Volume.from_name("nexus-workspace")
+# La clave vive en el secreto `tablero-clave` (3 nov 2026). El archivo .clave del
+# volumen queda solo como respaldo si el secreto no estuviera.
+secreto = modal.Secret.from_name("tablero-clave")
+
+
+@app.function(volumes={"/vol": vol}, secrets=[secreto], min_containers=0, timeout=900)
+@modal.asgi_app()
+def web():
+    import json
+    import time
+
+    from fastapi import FastAPI, HTTPException, Request
+    from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
+
+    BASE = f"/vol{TABLERO}"
+    import os
+    _kf = pathlib.Path(BASE) / ".clave"
+    CLAVE = os.environ.get("TABLERO_CLAVE") or (_kf.read_text().strip() if _kf.exists() else "")
+    api = FastAPI()
+
+    def _permitido(req: Request) -> bool:
+        if not CLAVE:
+            return True          # sin clave configurada, no se bloquea el uso
+        dada = req.query_params.get("k") or req.headers.get("x-clave", "")
+        return dada == CLAVE
+
+    def _guard(req: Request):
+        if not _permitido(req):
+            raise HTTPException(401, "clave incorrecta")
+
+    @api.get("/", response_class=HTMLResponse)
+    def inicio(req: Request):
+        _guard(req)
+        vol.reload()
+        p = pathlib.Path(BASE) / "index.html"
+        if not p.exists():
+            return HTMLResponse("<p>Todavía no hay tablero. Corre armar_tablero.py.</p>", 404)
+        return HTMLResponse(p.read_text())
+
+    @api.get("/version")
+    def version():
+        """Marca de qué código está sirviendo el contenedor (para diagnosticar despliegues)."""
+        return {"version": "2026-11-05-claude-con-imagenes-codex",
+                "rutas": sorted({r.path for r in api.routes})}
+
+    @api.get("/datos.json")
+    def datos(req: Request):
+        _guard(req)
+        vol.reload()   # sin esto el contenedor sirve la copia que cargó al arrancar
+        p = pathlib.Path(BASE) / "datos.json"
+        if not p.exists():
+            return JSONResponse([], 404)
+        return JSONResponse(json.loads(p.read_text()))
+
+    @api.get("/v/{nombre}")
+    def video(nombre: str, req: Request):
+        _guard(req)
+        # Solo nombres simples: nada de subir de carpeta.
+        if "/" in nombre or ".." in nombre or not nombre.endswith(".mp4"):
+            raise HTTPException(400, "nombre inválido")
+        p = pathlib.Path(BASE) / "v" / nombre
+        if not p.exists():
+            raise HTTPException(404, "no está")
+        return FileResponse(str(p), media_type="video/mp4")
+
+    @api.get("/p/{nombre}")
+    def poster(nombre: str, req: Request):
+        """Miniatura del video: carga al instante, para revisar de un vistazo."""
+        _guard(req)
+        if "/" in nombre or ".." in nombre or not nombre.endswith(".jpg"):
+            raise HTTPException(400, "nombre inválido")
+        p = pathlib.Path(BASE) / "p" / nombre
+        if not p.exists():
+            raise HTTPException(404, "no está")
+        return FileResponse(str(p), media_type="image/jpeg")
+
+    # ---- Sección del cliente (4 nov 2026) --------------------------------
+    # Cada cliente entra con SU enlace y SU clave y ve solo lo suyo: su último
+    # video, la calificación de Glimmer más reciente con lo que hay que arreglar,
+    # y una caja donde dice qué quiere cambiar. Eso cae en el buzón y lo ejecuta
+    # Claude, igual que las órdenes de Carlos.
+    def _cliente(slug: str):
+        if "/" in slug or ".." in slug:
+            raise HTTPException(400, "nombre inválido")
+        vol.reload()
+        p = pathlib.Path(BASE) / "clientes" / f"{slug}.json"
+        if not p.exists():
+            raise HTTPException(404, "ese cliente no tiene sección todavía")
+        return json.loads(p.read_text())
+
+    def _guard_cliente(req: Request, datos: dict):
+        """Entra con la clave del cliente o con la clave maestra de Carlos."""
+        dada = req.query_params.get("k") or req.headers.get("x-clave", "")
+        if dada and dada in (datos.get("clave", ""), CLAVE):
+            return
+        raise HTTPException(401, "clave incorrecta")
+
+    @api.get("/c/{slug}", response_class=HTMLResponse)
+    def pagina_cliente(slug: str, req: Request):
+        d = _cliente(slug)
+        _guard_cliente(req, d)
+        p = pathlib.Path(BASE) / "cliente.html"
+        if not p.exists():
+            raise HTTPException(404, "falta cliente.html")
+        return HTMLResponse(p.read_text())
+
+    @api.get("/c/{slug}/datos.json")
+    def datos_cliente(slug: str, req: Request):
+        d = _cliente(slug)
+        _guard_cliente(req, d)
+        return JSONResponse(d)
+
+    @api.get("/cv/{nombre}")
+    def video_cliente(nombre: str, req: Request):
+        if "/" in nombre or ".." in nombre or not nombre.endswith(".mp4"):
+            raise HTTPException(400, "nombre inválido")
+        d = _cliente(nombre[:-4])
+        _guard_cliente(req, d)
+        p = pathlib.Path(BASE) / "cv" / nombre
+        if not p.exists():
+            raise HTTPException(404, "no está")
+        return FileResponse(str(p), media_type="video/mp4")
+
+    @api.post("/c/{slug}/pedido")
+    async def pedido_cliente(slug: str, req: Request):
+        d = _cliente(slug)
+        _guard_cliente(req, d)
+        cuerpo = await req.json()
+        texto = (cuerpo.get("texto") or "").strip()
+        marcados = cuerpo.get("arreglos") or []
+        recalificar = bool(cuerpo.get("recalificar"))
+        if not texto and not marcados and not recalificar:
+            return JSONResponse({"ok": False, "error": "no escribiste nada"}, 400)
+        sello = time.strftime("%Y%m%d_%H%M%S")
+        quien = d.get("cliente", slug)
+        lineas = [
+            f"# Pedido de {quien} desde su sección · {time.strftime('%d %b %Y %H:%M')} UTC",
+            "",
+            f"Video del que habla: `{d.get('video_ruta', '?')}` "
+            f"(calificación de Glimmer {d.get('calificacion', '?')}/10 del {d.get('fecha', '?')}).",
+            "",
+        ]
+        if texto:
+            lineas += ["## Lo que pidió con sus palabras", "", texto, ""]
+        if marcados:
+            lineas += ["## Arreglos que marcó de la lista de Glimmer", ""]
+            lineas += [f"- {m}" for m in marcados] + [""]
+        if recalificar:
+            lineas += ["## Pidió volver a calificar con Glimmer", ""]
+        lineas += [
+            "## Reglas",
+            "- Es el CLIENTE quien escribe, no Carlos: no le contestes al cliente sin que Carlos lo pida.",
+            "- Haz los cambios sobre la última versión y versiona (v7i → v7j).",
+            "- Al terminar, vuelve a calificar con Glimmer y actualiza su sección "
+            f"(`entregables/tablero/clientes/{slug}.json`) con la nota nueva.",
+            "- Avísale a Carlos con el video, la calificación actual y la proyectada.",
+        ]
+        destino = pathlib.Path(f"/vol{RAIZ}/buzon/para_nexus2")
+        destino.mkdir(parents=True, exist_ok=True)
+        archivo = destino / f"{sello}_pedido_{slug}.md"
+        archivo.write_text("\n".join(lineas))
+        # queda también en su sección, para que el cliente vea que sí llegó
+        d.setdefault("pedidos", []).insert(0, {"fecha": time.strftime("%d/%m %H:%M"), "en": time.time(),
+                                               "texto": texto, "arreglos": marcados,
+                                               "recalificar": recalificar})
+        d["auto_hecho"] = "contestó el cliente"   # ya no aplica la regla de los 10 minutos
+        (pathlib.Path(BASE) / "clientes" / f"{slug}.json").write_text(json.dumps(d, ensure_ascii=False))
+        vol.commit()
+        return JSONResponse({"ok": True, "archivo": archivo.name})
+
+    @api.post("/c/{slug}/actualizar")
+    async def actualizar_cliente(slug: str, req: Request):
+        """Endpoint para el Claude de Modal (4 nov 2026, regla de Carlos).
+
+        Cuando Claude termina una versión nueva, la publica aquí: el cliente ve en su
+        app el video nuevo, la calificación nueva y las sugerencias nuevas, y le vuelve
+        a correr el reloj de los 10 minutos. Pide la clave maestra, no la del cliente.
+        """
+        if (req.query_params.get("k") or req.headers.get("x-clave", "")) != CLAVE:
+            raise HTTPException(401, "esta ruta es solo para Claude")
+        d = _cliente(slug)
+        c = await req.json()
+        historial = d.setdefault("historial", [])
+        historial.insert(0, {"fecha": time.strftime("%d/%m %H:%M"),
+                             "calificacion": d.get("calificacion"),
+                             "version": d.get("version", "")})
+        for campo in ("calificacion", "proyectada", "rubros", "arreglos", "funciona",
+                      "video", "video_ruta", "video_nota", "fecha", "version", "rapido",
+                      "glimmer_crudo"):
+            if campo in c:
+                d[campo] = c[campo]
+        d["propuesto_en"] = time.time()    # arranca de nuevo el reloj de los 10 minutos
+        d["auto_hecho"] = None
+        d["aprobado"] = None
+        (pathlib.Path(BASE) / "clientes" / f"{slug}.json").write_text(json.dumps(d, ensure_ascii=False))
+        vol.commit()
+        return JSONResponse({"ok": True, "cliente": d.get("cliente"), "calificacion": d.get("calificacion")})
+
+    @api.post("/c/{slug}/aprobar")
+    async def aprobar_cliente(slug: str, req: Request):
+        """El cliente aprueba: se encarga que apliquen TODAS las sugerencias nuevas."""
+        d = _cliente(slug)
+        _guard_cliente(req, d)
+        sello = time.strftime("%Y%m%d_%H%M%S")
+        arreglos = [a.get("texto", "") for a in d.get("arreglos", [])]
+        lineas = [
+            f"# {d.get('cliente', slug)} APROBÓ los cambios · {time.strftime('%d %b %Y %H:%M')} UTC",
+            "",
+            f"Video actual: `{d.get('video_ruta', '?')}` · Glimmer {d.get('calificacion', '?')}/10 "
+            f"→ proyectada {d.get('proyectada', '?')}/10.",
+            "",
+            "## Aplicar estas sugerencias de Facebook",
+            "",
+        ] + [f"{i}. {a}" for i, a in enumerate(arreglos, 1)] + [
+            "",
+            "## Reglas",
+            "- Versiona el video, no sobreescribas.",
+            "- No inventes precios ni prueba social: si falta un dato real, sáltate ese arreglo y dilo.",
+            f"- Al terminar, publica el resultado con POST /c/{slug}/actualizar (clave maestra): "
+            "video nuevo, calificación nueva y sugerencias nuevas. Así el cliente lo ve en su app.",
+            "- Avísale a Carlos con la calificación nueva; si no llegó a 8, qué falta.",
+        ]
+        destino = pathlib.Path(f"/vol{RAIZ}/buzon/para_nexus2")
+        destino.mkdir(parents=True, exist_ok=True)
+        (destino / f"{sello}_aprobado_{slug}.md").write_text("\n".join(lineas))
+        d["aprobado"] = time.strftime("%d/%m %H:%M")
+        d["auto_hecho"] = "aprobado por el cliente"
+        (pathlib.Path(BASE) / "clientes" / f"{slug}.json").write_text(json.dumps(d, ensure_ascii=False))
+        vol.commit()
+        return JSONResponse({"ok": True, "n": len(arreglos)})
+
+    # ---- Glimmer RÁPIDO (4 nov 2026, pedido de Carlos) -------------------
+    # El tablero manda 10 cuadros del video al servicio `glimmer-rapido` (misma
+    # cuenta de Modal, sin claves) y devuelve la nota en segundos, en vez de los
+    # 6-10 min de la fila de `glimmer_evaluador`. El modelo queda caliente 4 min,
+    # así que la segunda calificación sale casi al instante.
+    PROMPT_RAPIDO = (
+        "Eres la IA de calidad de anuncios de Meta (Facebook/Instagram) para negocios en México. "
+        "Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. "
+        "Las imágenes son cuadros del video del anuncio, en orden. No inventes precios, datos ni resultados.\n\n"
+        "NEGOCIO: {cliente}\nVERSIÓN: {version}\n{contexto}\n"
+        "Responde EXACTAMENTE así:\n"
+        "CALIFICACION: X/10\nPROYECTADA: X/10\n"
+        "QUÉ LO FRENA:\n- (máximo 3 viñetas, cada una con el arreglo concreto y cuánto sube la nota)\n"
+        "QUÉ FALTA DEL CLIENTE:\n- (si no necesita nada, escribe Nada)\n"
+        "VEREDICTO: (subir ya / subir con cambios / no subir)"
+    )
+
+    @api.post("/rapido")
+    async def rapido(req: Request):
+        _guard(req)
+        import subprocess, tempfile
+        c = await req.json()
+        nombre = (c.get("video") or "").strip()        # p.ej. "6ae8962504.mp4"
+        if "/" in nombre or ".." in nombre or not nombre.endswith(".mp4"):
+            return JSONResponse({"ok": False, "error": "video inválido"}, 400)
+        vol.reload()
+        ruta = pathlib.Path(BASE) / "v" / nombre
+        if not ruta.exists():
+            return JSONResponse({"ok": False, "error": "ese video no está en el tablero"}, 404)
+        with tempfile.TemporaryDirectory() as tmp:
+            # 10 cuadros repartidos en todo el video
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(ruta), "-vf",
+                            "thumbnail=60,scale=480:-1", "-frames:v", "10", "-vsync", "0",
+                            f"{tmp}/c%02d.jpg"], check=False)
+            fotos = [p.read_bytes() for p in sorted(pathlib.Path(tmp).glob("c*.jpg"))][:10]
+        if not fotos:
+            return JSONResponse({"ok": False, "error": "no pude sacar cuadros del video"}, 500)
+        prompt = PROMPT_RAPIDO.format(cliente=c.get("cliente", "?"), version=c.get("version", "?"),
+                                      contexto=(c.get("contexto") or "")[:1200])
+        try:
+            import modal as _m
+            Rapido = _m.Cls.from_name("glimmer-rapido", "Rapido")
+            texto = Rapido().calificar.remote(prompt, fotos, 900)
+        except Exception as e:
+            return JSONResponse({"ok": False, "error": f"Glimmer no contestó: {e}"}, 502)
+        # se guarda en datos.json para no volver a pagarlo
+        pd = pathlib.Path(BASE) / "datos.json"
+        if pd.exists():
+            datos = json.loads(pd.read_text())
+            for r in datos:
+                for v in r.get("versiones", []):
+                    if (v.get("vurl") or "").endswith(nombre):
+                        v["rapido"] = texto
+                        v["rapido_en"] = time.strftime("%d/%m %H:%M")
+            pd.write_text(json.dumps(datos, ensure_ascii=False))
+            vol.commit()
+        return JSONResponse({"ok": True, "texto": texto})
+
+    @api.post("/aplicar")
+    async def aplicar(req: Request):
+        """Botón «Aplicar los cambios ya»: escribe el encargo en el buzón que lee nexus3 (5 nov 2026).
+
+        Carlos pidió un botón que de verdad dispare el trabajo en el Claude de Modal, sin tener que
+        juntar decisiones ni mandar órdenes a mano.
+        """
+        _guard(req)
+        c = await req.json()
+        slug = (c.get("slug") or "").strip()
+        cliente = c.get("cliente", slug)
+        version = c.get("version", "")
+        sin_gpu = bool(c.get("sin_gpu"))
+        tareas = c.get("tareas") or []
+        if not slug:
+            return JSONResponse({"ok": False, "error": "falta el cliente"}, 400)
+        sello = time.strftime("%Y%m%d_%H%M%S")
+        lineas = [
+            f"# Carlos pidió APLICAR LOS CAMBIOS de {cliente} · {time.strftime('%d %b %Y %H:%M')} UTC",
+            "",
+            f"Salió del botón del tablero. Versión elegida: **{version or '(la mejor calificada)'}**.",
+            "",
+            ("**Sin GPU**: estos arreglos son de texto en capa, corte con ffmpeg, color y audio. "
+             "No gastes en escenas nuevas de Qwen ni MiniMax." if sin_gpu else
+             "Ojo: este cliente necesita escenas nuevas (Qwen/MiniMax). Confirma con Carlos antes de gastar GPU."),
+            "",
+            "## Lo que hay que aplicar (de la calificación de Glimmer)",
+            "",
+        ] + [f"- {t}" for t in tareas] + [
+            "",
+            "## Reglas",
+            "- Versiona, no sobrescribas.",
+            "- Al terminar, recalifica en el portal de Glimmer y actualiza su sección del tablero.",
+            "- Manda a Carlos el resultado con calificación actual y proyectada separadas.",
+            "- No le escribas al cliente sin que Carlos lo pida.",
+        ]
+        destino = pathlib.Path(f"/vol{RAIZ}/buzon/para_nexus2")
+        destino.mkdir(parents=True, exist_ok=True)
+        archivo = destino / f"{sello}_aplicar_{slug}.md"
+        archivo.write_text("\n".join(lineas))
+        vol.commit()
+        return JSONResponse({"ok": True, "archivo": archivo.name})
+
+    @api.post("/campana")
+    async def campana(req: Request):
+        """Marca que un cliente YA tiene campaña corriendo: se va hasta abajo."""
+        _guard(req)
+        c = await req.json()
+        cliente = c.get("cliente", "")
+        hecha = bool(c.get("hecha", True))
+        vol.reload()
+        pd = pathlib.Path(BASE) / "datos.json"
+        if not pd.exists():
+            return JSONResponse({"ok": False, "error": "no hay datos"}, 404)
+        datos = json.loads(pd.read_text())
+        tocado = False
+        for r in datos:
+            if r.get("cliente") == cliente:
+                r["campana"] = hecha
+                tocado = True
+        if not tocado:
+            return JSONResponse({"ok": False, "error": "ese cliente no está"}, 404)
+        pd.write_text(json.dumps(datos, ensure_ascii=False))
+        vol.commit()
+        return JSONResponse({"ok": True, "cliente": cliente, "campana": hecha})
+
+    @api.post("/plan")
+    async def disparar_plan(req: Request):
+        """Botón del tablero: manda a nexus3 a ejecutar el plan de subida de ESE cliente.
+
+        El plan no se inventa aquí: sale de lo que ya está en su ficha (el análisis de la
+        IA de Facebook y el plan de Glimmer), para que nexus3 trabaje con lo acordado y no
+        con una interpretación nueva.
+        """
+        _guard(req)
+        cuerpo = await req.json()
+        slug = (cuerpo.get("slug") or "").strip()
+        if not slug:
+            return JSONResponse({"ok": False, "error": "sin cliente"}, 400)
+        vol.reload()
+        datos = json.loads((pathlib.Path(BASE) / "datos.json").read_text())
+        ficha = next((c for c in datos[1:] if c.get("slug") == slug or c.get("cliente") == slug), None)
+        if not ficha:
+            return JSONResponse({"ok": False, "error": f"no encuentro a {slug}"}, 404)
+
+        quien = ficha.get("cliente", slug)
+        sello = time.strftime("%Y%m%d_%H%M%S")
+        fb = ficha.get("facebook") or {}
+        lineas = [
+            f"# DISPARO DESDE EL TABLERO · {quien} · {time.strftime('%d %b %Y %H:%M')} UTC",
+            "",
+            "Carlos apretó el botón para que ejecutes el plan de este cliente. Es orden directa.",
+            "",
+            f"- Calificación de hoy: {ficha.get('mejor', '?')}/10 · proyectada {ficha.get('proyectada', '?')}/10",
+            f"- Versiones que ya existen: {ficha.get('n', '?')}",
+            f"- Lo que falta de él: {ficha.get('falta_de_el') or 'nada'}",
+            "",
+        ]
+        if fb.get("texto"):
+            lineas += [f"## Plan de la IA de Facebook (nota {fb.get('nota', '?')}/10)", "",
+                       fb["texto"], ""]
+        lineas += [
+            "## Qué tienes que hacer",
+            "1. Aplica los arreglos del plan sobre la ÚLTIMA versión y versiona (v7i → v7j).",
+            "2. TODAS las imágenes y cuadros se generan con Codex, no con otro generador:",
+            "   `codex exec --skip-git-repo-check --sandbox workspace-write -C <raíz> \"<encargo>\" < /dev/null`",
+            "   El `< /dev/null` no es opcional: sin él Codex se queda esperando entrada y nunca arranca.",
+            "   En el encargo a Codex pásale SIEMPRE las fotos reales del cliente y pídele piel con",
+            "   textura, manos escondidas o correctas, y el texto en español con acentos.",
+            "3. Avísale a Carlos del PROGRESO por WhatsApp conforme avanzas, no solo al final:",
+            "   `python3 herramientas/enviar_seguro.py <archivo> \"<texto>\"` para mandarle un cuadro",
+            "   o el video, y para solo texto usa `wa.accion('send-message', ...)` a su chat.",
+            "   Un aviso al empezar, uno con el primer cuadro y uno al terminar con la calificación.",
+            "4. Vuelve a calificar con Glimmer y guarda la nota nueva.",
+            "5. Deja el video en `entregables/tablero/v/` y actualiza `entregables/tablero/datos.json`",
+            "   con la versión nueva: el tablero lo detecta solo y le avisa a Carlos con un sonido.",
+            "6. Avísale a Carlos con la ruta, la calificación actual y la proyectada.",
+            "",
+            "## Reglas",
+            "- No le escribas al cliente si Carlos no lo pidió en ese mensaje.",
+            "- Nunca inventes calificaciones ni resultados: si algo falla, dilo.",
+        ]
+        texto = "\n".join(lineas)
+        destino = pathlib.Path(f"/vol{RAIZ}/buzon/para_nexus2")
+        destino.mkdir(parents=True, exist_ok=True)
+        archivo = destino / f"{sello}_plan_{slug}.md"
+        archivo.write_text(texto)
+
+        # 5 nov 2026, aclaración de Carlos: el encargo lo trabaja CLAUDE en nexus3 (por eso queda
+        # en buzon/para_nexus2); lo que se hace con Codex son las IMÁGENES, porque su generador
+        # es el que escribe bien el texto dentro del cuadro. Por eso ya no se encola en una fila
+        # aparte de ChatGPT: la instrucción de usar Codex va dentro del propio encargo.
+
+        # deja constancia para que el tablero pueda avisar cuando llegue el video
+        disp = pathlib.Path(BASE) / "disparos.json"
+        try:
+            hist = json.loads(disp.read_text())
+        except Exception:
+            hist = []
+        hist.insert(0, {"slug": slug, "cliente": quien, "en": time.time(), "archivo": archivo.name})
+        disp.write_text(json.dumps(hist[:50], ensure_ascii=False))
+        vol.commit()
+        return JSONResponse({"ok": True, "cliente": quien, "archivo": archivo.name,
+                             "plan": bool(fb.get("texto")), "motor": "claude+codex"})
+
+    @api.get("/novedades")
+    def novedades(req: Request, desde: float = 0):
+        """Dice si llegó un video nuevo después de `desde`, para avisar con sonido."""
+        _guard(req)
+        vol.reload()
+        nuevos = []
+        carpeta = pathlib.Path(BASE) / "v"
+        if carpeta.exists():
+            for f in carpeta.iterdir():
+                if f.suffix == ".mp4" and f.stat().st_mtime > desde:
+                    nuevos.append({"archivo": f.name, "en": f.stat().st_mtime})
+        nuevos.sort(key=lambda x: -x["en"])
+        d = pathlib.Path(BASE) / "datos.json"
+        return {"ahora": time.time(), "nuevos": nuevos[:10],
+                "datos_en": d.stat().st_mtime if d.exists() else 0}
+
+    @api.post("/orden")
+    async def orden(req: Request):
+        """Lo que Carlos aprueba u ordena aquí queda como encargo para nexus3."""
+        _guard(req)
+        cuerpo = await req.json()
+        decisiones = cuerpo.get("decisiones") or []
+        if not decisiones:
+            return JSONResponse({"ok": False, "error": "sin decisiones"}, 400)
+
+        sello = time.strftime("%Y%m%d_%H%M%S")
+        lineas = [
+            f"# Órdenes de Carlos desde el tablero · {time.strftime('%d %b %Y %H:%M')} UTC",
+            "",
+            "Carlos revisó los videos en el tablero y dejó esto. Es su palabra directa:",
+            "cuál video es el bueno y qué hacer. **No elijas otro video ni inventes la versión.**",
+            "",
+        ]
+        for i, d in enumerate(decisiones, 1):
+            tipo = "APROBADO" if d.get("tipo") == "aprobado" else "ORDEN"
+            lineas.append(f"{i}. **{d.get('cliente', '?')}** · {tipo}: {d.get('texto', '')}")
+        lineas += [
+            "",
+            "## Reglas",
+            "- Trabaja SOLO la versión que Carlos aprobó aquí.",
+            "- Separa lo que nos toca de lo que falta que mande el cliente; lo nuestro se hace ya.",
+            "- No le escribas al cliente sin que Carlos lo pida en ese mensaje.",
+            "- Al terminar, reporta en `buzon/para_nexus/` con rutas y calificación de Glimmer.",
+        ]
+
+        destino = pathlib.Path(f"/vol{RAIZ}/buzon/para_nexus2")
+        destino.mkdir(parents=True, exist_ok=True)
+        archivo = destino / f"{sello}_ordenes_tablero.md"
+        archivo.write_text("\n".join(lineas))
+        vol.commit()
+        return JSONResponse({"ok": True, "archivo": archivo.name, "n": len(decisiones)})
+
+    return api

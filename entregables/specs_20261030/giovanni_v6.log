@@ -1,0 +1,145 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-z62ryxsvOVxq24AmWcBIsF
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+/usr/local/lib/python3.12/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+[1ALoading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]
+[1ALoading pipeline components...:  17%|█▋        | 1/6 [00:01<00:09,  1.81s/it]/usr/local/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+[1ALoading pipeline components...:  33%|███▎      | 2/6 [00:02<00:03,  1.10it/s]
+
+[1A
+[1ALoading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+[1A
+[1ALoading checkpoint shards:  20%|██        | 1/5 [00:15<01:02, 15.65s/it][A
+
+[1A
+[1ALoading checkpoint shards:  40%|████      | 2/5 [00:28<00:41, 13.88s/it][A
+
+[1A
+[1ALoading checkpoint shards:  60%|██████    | 3/5 [00:45<00:30, 15.44s/it][A[modal-client] 2026-10-31T04:08:52+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=65.46, time_since_heartbeat_success=65.46, error=ConnectionError('Deadline exceeded'))
+
+
+[1A
+[1ALoading checkpoint shards:  80%|████████  | 4/5 [01:14<00:20, 20.81s/it][A
+
+[1A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [01:18<00:00, 14.66s/it][A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [01:18<00:00, 15.68s/it]
+
+[1ALoading pipeline components...:  50%|█████     | 3/6 [01:20<01:49, 36.34s/it]
+[1ALoading pipeline components...:  67%|██████▋   | 4/6 [01:20<00:44, 22.05s/it]
+[1ALoading pipeline components...:  83%|████████▎ | 5/6 [01:20<00:14, 14.14s/it][transformers] Qwen2_5_VLConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. 
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section'}
+
+
+[1A
+[1ALoading weights:   0%|          | 0/729 [00:00<?, ?it/s][A
+
+[1A
+[1ALoading weights:   6%|▌         | 42/729 [00:00<00:01, 350.41it/s][A
+
+[1A
+[1ALoading weights:  11%|█         | 78/729 [00:00<00:03, 195.28it/s][A
+
+[1A
+[1ALoading weights:  14%|█▍        | 101/729 [00:00<00:03, 196.73it/s][A
+
+[1A
+[1ALoading weights:  17%|█▋        | 123/729 [00:00<00:03, 170.85it/s][A
+
+[1A
+[1ALoading weights:  22%|██▏       | 162/729 [00:00<00:02, 219.80it/s][A
+
+[1A
+[1ALoading weights:  26%|██▌       | 187/729 [00:00<00:02, 219.94it/s][A
+
+[1A
+[1ALoading weights:  31%|███       | 223/729 [00:00<00:02, 252.84it/s][A
+
+[1A
+[1ALoading weights:  35%|███▍      | 252/729 [00:01<00:01, 253.86it/s][A
+
+[1A
+[1ALoading weights:  43%|████▎     | 311/729 [00:01<00:01, 336.47it/s][A
+
+[1A
+[1ALoading weights:  49%|████▉     | 360/729 [00:01<00:00, 378.58it/s][A
+
+[1A
+[1ALoading weights:  60%|██████    | 440/729 [00:01<00:00, 488.16it/s][A
+
+[1A
+[1ALoading weights:  70%|██████▉   | 507/729 [00:01<00:00, 531.67it/s][A
+
+[1A
+[1ALoading weights:  78%|███████▊  | 569/729 [00:01<00:00, 553.58it/s][A
+[1ALoading weights: 100%|██████████| 729/729 [00:01<00:00, 433.12it/s]
+
+[1ALoading pipeline components...: 100%|██████████| 6/6 [01:22<00:00, 10.06s/it]Loading pipeline components...: 100%|██████████| 6/6 [01:22<00:00, 13.83s/it]
+guidance_scale is passed as 1.0, but ignored since the model is not guidance-distilled.
+
+[1A  0%|          | 0/40 [00:00<?, ?it/s]
+[1A  2%|▎         | 1/40 [00:02<01:53,  2.91s/it]
+[1A  5%|▌         | 2/40 [00:06<01:55,  3.04s/it]
+[1A  8%|▊         | 3/40 [00:09<01:54,  3.09s/it]
+[1A 10%|█         | 4/40 [00:12<01:51,  3.11s/it]
+[1A 12%|█▎        | 5/40 [00:15<01:49,  3.12s/it]
+[1A 15%|█▌        | 6/40 [00:18<01:46,  3.12s/it]
+[1A 18%|█▊        | 7/40 [00:21<01:43,  3.13s/it]
+[1A 20%|██        | 8/40 [00:24<01:40,  3.13s/it]
+[1A 22%|██▎       | 9/40 [00:28<01:37,  3.13s/it]
+[1A 25%|██▌       | 10/40 [00:31<01:34,  3.13s/it]
+[1A 28%|██▊       | 11/40 [00:34<01:30,  3.14s/it]
+[1A 30%|███       | 12/40 [00:37<01:27,  3.14s/it]
+[1A 32%|███▎      | 13/40 [00:40<01:24,  3.14s/it]
+[1A 35%|███▌      | 14/40 [00:43<01:21,  3.14s/it]
+[1A 38%|███▊      | 15/40 [00:46<01:18,  3.14s/it]
+[1A 40%|████      | 16/40 [00:49<01:15,  3.14s/it]
+[1A 42%|████▎     | 17/40 [00:53<01:12,  3.14s/it]
+[1A 45%|████▌     | 18/40 [00:56<01:09,  3.14s/it]
+[1A 48%|████▊     | 19/40 [00:59<01:05,  3.14s/it]
+[1A 50%|█████     | 20/40 [01:02<01:02,  3.14s/it]
+[1A 52%|█████▎    | 21/40 [01:05<00:59,  3.14s/it]
+[1A 55%|█████▌    | 22/40 [01:08<00:56,  3.14s/it]
+[1A 57%|█████▊    | 23/40 [01:11<00:53,  3.14s/it]
+[1A 60%|██████    | 24/40 [01:15<00:50,  3.14s/it]
+[1A 62%|██████▎   | 25/40 [01:18<00:47,  3.14s/it]
+[1A 65%|██████▌   | 26/40 [01:21<00:43,  3.14s/it]
+[1A 68%|██████▊   | 27/40 [01:24<00:40,  3.14s/it]
+[1A 70%|███████   | 28/40 [01:27<00:37,  3.14s/it]
+[1A 72%|███████▎  | 29/40 [01:30<00:34,  3.14s/it]
+[1A 75%|███████▌  | 30/40 [01:33<00:31,  3.14s/it]
+[1A 78%|███████▊  | 31/40 [01:37<00:28,  3.14s/it]
+[1A 80%|████████  | 32/40 [01:40<00:25,  3.14s/it]
+[1A 82%|████████▎ | 33/40 [01:43<00:21,  3.14s/it]
+[1A 85%|████████▌ | 34/40 [01:46<00:18,  3.14s/it]
+[1A 88%|████████▊ | 35/40 [01:49<00:15,  3.14s/it]
+[1A 90%|█████████ | 36/40 [01:52<00:12,  3.14s/it]
+[1A 92%|█████████▎| 37/40 [01:55<00:09,  3.14s/it]
+[1A 95%|█████████▌| 38/40 [01:58<00:06,  3.14s/it]
+[1A 98%|█████████▊| 39/40 [02:02<00:03,  3.14s/it]
+[1A100%|██████████| 40/40 [02:05<00:00,  3.14s/it]
+[1A100%|██████████| 40/40 [02:05<00:00,  3.13s/it]
+cuadro GB6
+guardado GB6.png
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-z62ryxsvOVxq24AmWcBIsF
+
+== Reporte Modal fgabriel60 ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::cuadros --spec entregables/specs_20261030/giovanni_v6.json
+Duración: 4.2 min  (código 0)
+  glimmer (ap-7SM2PFPoa2VCIiNvtIlYDf): $0.114
+  escenas-carlos (ap-z62ryxsvOVxq24AmWcBIsF): $0.175
+Gasto del trabajo: $0.289
+Saldo restante ≈ $0.81

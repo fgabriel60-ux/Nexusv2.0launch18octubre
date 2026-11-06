@@ -1,0 +1,26 @@
+{
+ "carpeta": "jose_v9b_20261030",
+ "salida": "clientes/Jose/obrero_v9_20261030/salida",
+ "semilla": 44,
+ "refs": {
+  "n6": "clientes/Jose/obrero_v9_20261030/salida/P6_terminada.png"
+ },
+ "cuadros": {
+  "P0c_problema": [
+   [
+    "n6"
+   ],
+   "Usa el mismo personaje animado estilo Pixar 3D de la imagen: obrero con casco blanco con logo JR, chaleco azul JR, playera blanca de manga larga, pantalón azul y botas negras. Está de pie en una azotea plana gris de Puebla, día nublado con lluvia ligera, volcán nevado tranquilo al fondo y casas de colores. Con cara de preocupación señala con el dedo un CHARCO PEQUEÑO Y SUPERFICIAL de agua de lluvia sobre la losa, con reflejo, y junto a él una fisura capilar muy delgada y corta, apenas visible como una línea fina. La losa está entera y plana: sin hoyos, sin grietas grandes, sin pedazos rotos. Un solo obrero. Vertical 9:16, sin texto.",
+   "grieta grande, hoyo, losa rota, pedazos de concreto, cráter, daño estructural, dos obreros, persona duplicada, texto, letras, manos arriba"
+  ]
+ },
+ "tomas": [
+  [
+   "V0c_problema",
+   "P0c_problema",
+   "Vertical animated shot: light rain falls on the flat grey roof, the single cartoon worker looks worried and points at the small shallow puddle, small ripples from raindrops, slow push-in. His mouth stays closed. Calm snowy volcano. No text. Audio: soft rain, no speech.",
+   5.0,
+   null
+  ]
+ ]
+}

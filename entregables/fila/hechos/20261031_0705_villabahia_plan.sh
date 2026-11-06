@@ -1,0 +1,1 @@
+GASTO_PERFIL=carlosfavelajeje python3 gasto_modal.py run entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/villabahia_estrategia/lote.json --tokens 4500 > entregables/glimmer_evaluador/villabahia_estrategia/glimmer.log 2>&1

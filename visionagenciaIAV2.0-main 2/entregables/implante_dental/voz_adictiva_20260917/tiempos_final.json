@@ -1,0 +1,224 @@
+{
+ "pregunta": [
+  {
+   "inicio_s": 0.1,
+   "nombre": "HOOK",
+   "dura_s": 2.85,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "¿Te falta un diente? Esto es lo que pasa por dentro."
+  },
+  {
+   "inicio_s": 5.1,
+   "nombre": "ANESTESIA",
+   "dura_s": 3.37,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Empieza con anestesia. No duele: ni lo vas a sentir."
+  },
+  {
+   "inicio_s": 10.1,
+   "nombre": "ADENTRO",
+   "dura_s": 2.06,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Y aquí está lo que nadie te enseña."
+  },
+  {
+   "inicio_s": 15.1,
+   "nombre": "PREPARA",
+   "dura_s": 3.6,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "El dentista abre un espacio en el hueso, justo donde estaba tu raíz."
+  },
+  {
+   "inicio_s": 20.1,
+   "nombre": "TITANIO",
+   "dura_s": 3.5,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Ahí entra un tornillo de titanio. Esa va a ser tu nueva raíz."
+  },
+  {
+   "inicio_s": 25.1,
+   "nombre": "INTEGRA",
+   "dura_s": 3.16,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Con los meses tu hueso crece alrededor y lo deja firme."
+  },
+  {
+   "inicio_s": 30.1,
+   "nombre": "CORONA",
+   "dura_s": 1.7,
+   "tramo_s": 1.7,
+   "tempo": 1.045,
+   "encima": false,
+   "texto": "Encima va tu corona nueva."
+  },
+  {
+   "inicio_s": 32.0,
+   "nombre": "CIERRE",
+   "dura_s": 2.93,
+   "tramo_s": 2.95,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Vuelve a sonreír. Pregunta en Veneers Dental."
+  }
+ ],
+ "pregunta_fon": [
+  {
+   "inicio_s": 0.1,
+   "nombre": "HOOK",
+   "dura_s": 2.85,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "¿Te falta un diente? Esto es lo que pasa por dentro."
+  },
+  {
+   "inicio_s": 5.1,
+   "nombre": "ANESTESIA",
+   "dura_s": 3.53,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Empieza con anestesia. No duele: ni lo vas a sentir."
+  },
+  {
+   "inicio_s": 10.1,
+   "nombre": "ADENTRO",
+   "dura_s": 1.83,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Y aquí está lo que nadie te enseña."
+  },
+  {
+   "inicio_s": 15.1,
+   "nombre": "PREPARA",
+   "dura_s": 3.89,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "El dentista abre un espacio en el hueso, justo donde estaba tu raíz."
+  },
+  {
+   "inicio_s": 20.1,
+   "nombre": "TITANIO",
+   "dura_s": 3.6,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Ahí entra un tornillo de titanio. Esa va a ser tu nueva raíz."
+  },
+  {
+   "inicio_s": 25.1,
+   "nombre": "INTEGRA",
+   "dura_s": 3.27,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Con los meses tu hueso crece alrededor y lo deja firme."
+  },
+  {
+   "inicio_s": 30.1,
+   "nombre": "CORONA",
+   "dura_s": 1.7,
+   "tramo_s": 1.7,
+   "tempo": 1.076,
+   "encima": false,
+   "texto": "Encima va tu corona nueva."
+  },
+  {
+   "inicio_s": 32.0,
+   "nombre": "CIERRE",
+   "dura_s": 2.77,
+   "tramo_s": 2.95,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Vuelve a sonreír. Pregunta en Viníers Dental."
+  }
+ ],
+ "agenda": [
+  {
+   "inicio_s": 0.1,
+   "nombre": "HOOK",
+   "dura_s": 2.77,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "¿Te falta un diente? Esto es lo que pasa por dentro."
+  },
+  {
+   "inicio_s": 5.1,
+   "nombre": "ANESTESIA",
+   "dura_s": 3.37,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Empieza con anestesia. No duele: ni lo vas a sentir."
+  },
+  {
+   "inicio_s": 10.1,
+   "nombre": "ADENTRO",
+   "dura_s": 1.83,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Y aquí está lo que nadie te enseña."
+  },
+  {
+   "inicio_s": 15.1,
+   "nombre": "PREPARA",
+   "dura_s": 3.6,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "El dentista abre un espacio en el hueso, justo donde estaba tu raíz."
+  },
+  {
+   "inicio_s": 20.1,
+   "nombre": "TITANIO",
+   "dura_s": 3.5,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Ahí entra un tornillo de titanio. Esa va a ser tu nueva raíz."
+  },
+  {
+   "inicio_s": 25.1,
+   "nombre": "INTEGRA",
+   "dura_s": 3.21,
+   "tramo_s": 4.8,
+   "tempo": 1.0,
+   "encima": false,
+   "texto": "Con los meses tu hueso crece alrededor y lo deja firme."
+  },
+  {
+   "inicio_s": 30.1,
+   "nombre": "CORONA",
+   "dura_s": 2.35,
+   "tramo_s": 2.35,
+   "tempo": 1.067,
+   "encima": false,
+   "texto": "Encima, una corona igual a tus dientes."
+  },
+  {
+   "inicio_s": 32.65,
+   "nombre": "CIERRE",
+   "dura_s": 2.3,
+   "tramo_s": 2.3,
+   "tempo": 1.068,
+   "encima": false,
+   "texto": "Agenda tu valoración en Veneers Dental."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "carpeta": "mariano_helicoptero_bug_v1",
+ "salida": "clientes/Mariano/video/helicoptero/bug_v1",
+ "semilla": 73,
+ "refs": {
+  "m": "clientes/Mariano/video/hablando_v1/mariano_hook_ref.png",
+  "casa": "clientes/Mariano/video/helicoptero/ref/bugambilia_fachada.png"
+ },
+ "cuadros": {
+  "H1_heli": [
+   [
+    "m",
+    "casa"
+   ],
+   "Foto realista vertical 9:16 tomada con dron, cielo azul con nubes blancas y sol: un helicóptero NEGRO moderno flotando en el aire a baja altura justo ARRIBA de la MISMA casa REAL de la segunda imagen (casa moderna de dos pisos color beige arena, puerta negra, ventanas con marco blanco, franjas de pasto en la entrada de concreto), vista desde arriba en diagonal. En la puerta lateral abierta del helicóptero va sentado el MISMO hombre de la primera imagen (barba corta, saco azul claro de cuadros, camisa blanca, jeans, zapatos cafés), con los pies hacia afuera, sonriendo. Una cuerda negra cuelga de la puerta hacia la entrada de la casa. Luz de día natural, nítido.",
+   "texto, letras, logotipos inventados, marca de agua, cara distinta, persona duplicada, dos personas iguales, deforme, borroso, manos extra, dedos extra, caricatura, render 3D, imagen estirada, casa de dos aguas, techo inclinado, otra casa"
+  ],
+  "H2_cuerda": [
+   [
+    "m",
+    "casa"
+   ],
+   "Foto realista vertical 9:16 a la altura del piso, gran angular: la MISMA casa REAL de la segunda imagen (casa moderna de dos pisos color beige arena, puerta negra, ventanas con marco blanco, franjas de pasto en la entrada de concreto) de frente ocupando el fondo, cielo azul. el MISMO hombre de la primera imagen (barba corta, saco azul claro de cuadros, camisa blanca, jeans, zapatos cafés) BAJANDO por una cuerda negra vertical que cae desde arriba, sus dos manos agarrando la cuerda, piernas juntas, a un metro y medio sobre la entrada de concreto, saco ondeando, sonriendo a la cámara, su sombra en el concreto. Cuerpo completo visible.",
+   "texto, letras, logotipos inventados, marca de agua, cara distinta, persona duplicada, dos personas iguales, deforme, borroso, manos extra, dedos extra, caricatura, render 3D, imagen estirada, casa de dos aguas, techo inclinado, otra casa"
+  ],
+  "H3_habla": [
+   [
+    "m",
+    "casa"
+   ],
+   "Foto realista vertical 9:16, plano medio-americano (de las rodillas hacia arriba) a la altura de los ojos: el MISMO hombre de la primera imagen (barba corta, saco azul claro de cuadros, camisa blanca, jeans, zapatos cafés) DE PIE frente a la MISMA casa REAL de la segunda imagen (casa moderna de dos pisos color beige arena, puerta negra, ventanas con marco blanco, franjas de pasto en la entrada de concreto), mirando directo a la cámara con sonrisa segura, sosteniendo en una mano un rollo de cuerda negra enrollada, la otra mano relajada. Cielo azul, luz de día, nítido, rostro idéntico a la primera imagen.",
+   "texto, letras, logotipos inventados, marca de agua, cara distinta, persona duplicada, dos personas iguales, deforme, borroso, manos extra, dedos extra, caricatura, render 3D, imagen estirada, casa de dos aguas, techo inclinado, otra casa"
+  ]
+ },
+ "tomas": [
+  [
+   "KH1_heli",
+   "H1b_heli",
+   "Vertical realistic drone shot. A black helicopter hovers above a modern beige two-story house, rotor blades spinning fast. The man in the light blue blazer hangs from the black rope below it holding with both hands and slides down toward the house. Slight camera drift. Natural physics. No text. Audio: loud helicopter rotor noise.",
+   3.0,
+   null
+  ],
+  [
+   "KH2_cuerda",
+   "H2_cuerda",
+   "Vertical realistic shot at ground level in front of a modern beige house. The man in the light blue blazer slides down the black rope and lands softly on his feet on the concrete driveway, lets go of the rope and smiles at camera. Natural physics, blazer moving with wind. No text. Audio: whoosh, rope friction, helicopter wind.",
+   3.0,
+   null,
+   "H3_habla"
+  ],
+  [
+   "KH3_habla",
+   "H3_habla",
+   "Vertical realistic medium shot. The man in the light blue blazer stands in front of the modern beige house holding a coiled black rope, talks directly to the camera with natural confident expression and small hand gestures, slow camera push-in. Lips synced to the speech. No text.",
+   8.0,
+   "BUG"
+  ]
+ ],
+ "voces": {
+  "BUG": "clientes/Mariano/video/helicoptero/voz/BUG.wav"
+ }
+}

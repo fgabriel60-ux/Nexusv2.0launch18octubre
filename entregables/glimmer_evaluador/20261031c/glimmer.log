@@ -1,0 +1,208 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-K9so17qsslCXhNzv9FdUGT
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/entregables/glimmer_estrategias_20261029/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:02<1:11:11,  2.98s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:03<14:16,  1.67it/s]  
+[1ALoading weights:   0%|          | 6/1436 [00:03<09:39,  2.47it/s]
+[1ALoading weights:   1%|          | 13/1436 [00:03<03:16,  7.25it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:03<03:03,  7.74it/s]
+[1ALoading weights:   2%|▏         | 28/1436 [00:04<01:31, 15.32it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:04<01:35, 14.77it/s]
+[1ALoading weights:   3%|▎         | 37/1436 [00:04<01:29, 15.71it/s]
+[1ALoading weights:   3%|▎         | 41/1436 [00:04<01:17, 18.08it/s]
+[1ALoading weights:   3%|▎         | 44/1436 [00:05<01:15, 18.47it/s]
+[1ALoading weights:   3%|▎         | 49/1436 [00:05<01:00, 22.93it/s]
+[1ALoading weights:   4%|▎         | 53/1436 [00:05<01:07, 20.64it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:05<01:10, 19.51it/s]
+[1ALoading weights:   4%|▍         | 62/1436 [00:05<00:51, 26.57it/s]
+[1ALoading weights:   5%|▍         | 66/1436 [00:06<01:18, 17.36it/s]
+[1ALoading weights:   5%|▌         | 72/1436 [00:06<00:58, 23.34it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:06<00:53, 25.33it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:06<01:07, 20.09it/s]
+[1ALoading weights:   6%|▌         | 85/1436 [00:06<00:55, 24.40it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:07<01:05, 20.50it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:07<01:09, 19.35it/s]
+[1ALoading weights:   7%|▋         | 98/1436 [00:07<00:50, 26.26it/s]
+[1ALoading weights:   7%|▋         | 102/1436 [00:07<01:14, 18.01it/s]
+[1ALoading weights:   7%|▋         | 107/1436 [00:07<01:01, 21.66it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:07<00:50, 26.26it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:08<01:03, 20.63it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:08<00:49, 26.59it/s]
+[1ALoading weights:   9%|▉         | 126/1436 [00:08<01:10, 18.57it/s]
+[1ALoading weights:   9%|▉         | 133/1436 [00:08<00:50, 26.02it/s]
+[1ALoading weights:  10%|▉         | 138/1436 [00:09<01:10, 18.54it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:09<00:49, 25.76it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:09<01:00, 21.34it/s]
+[1ALoading weights:  11%|█         | 158/1436 [00:10<00:49, 25.81it/s]
+[1ALoading weights:  11%|█▏        | 162/1436 [00:10<01:06, 19.12it/s]
+[1ALoading weights:  12%|█▏        | 169/1436 [00:10<00:52, 24.13it/s]
+[1ALoading weights:  12%|█▏        | 173/1436 [00:10<00:57, 21.93it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:10<01:01, 20.51it/s]
+[1ALoading weights:  13%|█▎        | 183/1436 [00:11<00:45, 27.63it/s]
+[1ALoading weights:  13%|█▎        | 187/1436 [00:11<01:05, 19.06it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [00:11<00:49, 25.07it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:12<00:59, 20.76it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:12<00:48, 25.24it/s]
+[1ALoading weights:  15%|█▍        | 211/1436 [00:12<01:02, 19.59it/s]
+[1ALoading weights:  15%|█▌        | 218/1436 [00:12<00:54, 22.47it/s]
+[1ALoading weights:  15%|█▌        | 221/1436 [00:12<00:52, 22.98it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:13<00:55, 21.94it/s]
+[1ALoading weights:  16%|█▌        | 229/1436 [00:13<00:54, 22.28it/s]
+[1ALoading weights:  16%|█▌        | 233/1436 [00:13<00:50, 23.78it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:13<00:53, 22.31it/s]
+[1ALoading weights:  17%|█▋        | 241/1436 [00:13<00:43, 27.41it/s]
+[1ALoading weights:  17%|█▋        | 245/1436 [00:13<00:52, 22.74it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:14<00:56, 20.98it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:14<00:42, 27.46it/s]
+[1ALoading weights:  18%|█▊        | 259/1436 [00:14<00:58, 20.11it/s]
+[1ALoading weights:  19%|█▊        | 267/1436 [00:14<00:40, 29.03it/s]
+[1ALoading weights:  19%|█▉        | 271/1436 [00:15<00:59, 19.69it/s]
+[1ALoading weights:  19%|█▉        | 275/1436 [00:15<00:51, 22.35it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:15<00:44, 26.21it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:15<00:56, 20.24it/s]
+[1ALoading weights:  20%|██        | 290/1436 [00:15<00:43, 26.49it/s]
+[1ALoading weights:  20%|██        | 294/1436 [00:16<01:02, 18.23it/s]
+[1ALoading weights:  21%|██        | 301/1436 [00:16<00:44, 25.60it/s]
+[1ALoading weights:  21%|██▏       | 306/1436 [00:16<00:59, 19.03it/s]
+[1ALoading weights:  22%|██▏       | 312/1436 [00:16<00:46, 24.23it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:16<00:42, 26.43it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:17<00:53, 20.93it/s]
+[1ALoading weights:  23%|██▎       | 325/1436 [00:17<00:43, 25.26it/s]
+[1ALoading weights:  23%|██▎       | 329/1436 [00:17<00:51, 21.46it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:17<00:54, 20.19it/s]
+[1ALoading weights:  24%|██▎       | 340/1436 [00:18<00:41, 26.37it/s]
+[1ALoading weights:  24%|██▍       | 344/1436 [00:18<00:52, 20.67it/s]
+[1ALoading weights:  24%|██▍       | 349/1436 [00:18<00:51, 21.00it/s]
+[1ALoading weights:  25%|██▍       | 353/1436 [00:18<00:46, 23.17it/s]
+[1ALoading weights:  25%|██▍       | 356/1436 [00:18<00:50, 21.43it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:19<00:39, 27.18it/s]
+[1ALoading weights:  26%|██▌       | 367/1436 [00:19<00:52, 20.27it/s]
+[1ALoading weights:  26%|██▌       | 373/1436 [00:19<00:40, 26.45it/s]
+[1ALoading weights:  26%|██▋       | 377/1436 [00:19<00:48, 22.04it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:19<00:51, 20.53it/s]
+[1ALoading weights:  27%|██▋       | 386/1436 [00:20<00:38, 27.31it/s]
+[1ALoading weights:  27%|██▋       | 390/1436 [00:20<00:56, 18.63it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:20<00:39, 26.38it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:21<00:49, 20.70it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:21<00:39, 25.63it/s]
+[1ALoading weights:  29%|██▉       | 416/1436 [00:21<00:48, 21.15it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:21<00:38, 25.96it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:22<00:47, 21.15it/s]
+[1ALoading weights:  30%|███       | 434/1436 [00:22<00:38, 26.23it/s]
+[1ALoading weights:  31%|███       | 438/1436 [00:22<00:52, 19.02it/s]
+[1ALoading weights:  31%|███       | 446/1436 [00:22<00:36, 27.27it/s]
+[1ALoading weights:  31%|███▏      | 451/1436 [00:23<00:49, 19.87it/s]
+[1ALoading weights:  32%|███▏      | 458/1436 [00:23<00:44, 22.00it/s]
+[1ALoading weights:  32%|███▏      | 462/1436 [00:23<00:48, 20.03it/s]
+[1ALoading weights:  33%|███▎      | 469/1436 [00:23<00:37, 25.56it/s]
+[1ALoading weights:  33%|███▎      | 473/1436 [00:23<00:42, 22.64it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:24<00:43, 22.11it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:24<00:35, 26.58it/s]
+[1ALoading weights:  34%|███▍      | 487/1436 [00:24<00:46, 20.29it/s]
+[1ALoading weights:  34%|███▍      | 494/1436 [00:24<00:41, 22.62it/s]
+[1ALoading weights:  35%|███▍      | 497/1436 [00:25<00:40, 23.10it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:25<00:41, 22.41it/s]
+[1ALoading weights:  35%|███▌      | 505/1436 [00:25<00:44, 21.13it/s]
+[1ALoading weights:  35%|███▌      | 509/1436 [00:25<00:39, 23.61it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:25<00:43, 21.08it/s]
+[1ALoading weights:  36%|███▌      | 518/1436 [00:25<00:39, 23.42it/s]
+[1ALoading weights:  36%|███▋      | 521/1436 [00:26<00:39, 23.37it/s]
+[1ALoading weights:  36%|███▋      | 524/1436 [00:26<00:39, 23.18it/s]
+[1ALoading weights:  37%|███▋      | 529/1436 [00:26<00:41, 21.79it/s]
+[1ALoading weights:  37%|███▋      | 533/1436 [00:26<00:38, 23.48it/s]
+[1ALoading weights:  37%|███▋      | 536/1436 [00:26<00:40, 22.01it/s]
+[1ALoading weights:  38%|███▊      | 542/1436 [00:26<00:30, 29.42it/s]
+[1ALoading weights:  38%|███▊      | 546/1436 [00:27<00:46, 19.20it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:27<00:33, 26.23it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:27<00:40, 21.38it/s]
+[1ALoading weights:  39%|███▉      | 566/1436 [00:27<00:32, 26.44it/s]
+[1ALoading weights:  40%|███▉      | 570/1436 [00:28<00:46, 18.71it/s]
+[1ALoading weights:  40%|████      | 578/1436 [00:28<00:32, 26.59it/s]
+[1ALoading weights:  41%|████      | 582/1436 [00:28<00:44, 19.02it/s]
+[1ALoading weights:  41%|████      | 592/1436 [00:29<00:32, 25.75it/s]
+[1ALoading weights:  42%|████▏     | 596/1436 [00:29<00:40, 20.99it/s]
+[1ALoading weights:  42%|████▏     | 604/1436 [00:29<00:32, 25.37it/s]
+[1ALoading weights:  42%|████▏     | 608/1436 [00:29<00:39, 20.87it/s]
+[1ALoading weights:  43%|████▎     | 615/1436 [00:30<00:34, 23.71it/s]
+[1ALoading weights:  43%|████▎     | 618/1436 [00:30<00:42, 19.24it/s]
+[1ALoading weights:  44%|████▍     | 629/1436 [00:30<00:26, 30.69it/s]
+[1ALoading weights:  46%|████▌     | 658/1436 [00:30<00:11, 70.72it/s]
+[1ALoading weights:  48%|████▊     | 683/1436 [00:30<00:07, 102.74it/s]
+[1ALoading weights:  50%|████▉     | 711/1436 [00:30<00:05, 135.81it/s]
+[1ALoading weights:  52%|█████▏    | 748/1436 [00:31<00:03, 187.74it/s]
+[1ALoading weights:  55%|█████▌    | 794/1436 [00:31<00:02, 245.88it/s]
+[1ALoading weights:  58%|█████▊    | 831/1436 [00:31<00:02, 274.89it/s]
+[1ALoading weights:  61%|██████    | 871/1436 [00:31<00:01, 297.73it/s]
+[1ALoading weights:  63%|██████▎   | 910/1436 [00:31<00:01, 316.06it/s]
+[1ALoading weights:  66%|██████▌   | 950/1436 [00:31<00:01, 331.07it/s]
+[1ALoading weights:  69%|██████▉   | 990/1436 [00:31<00:01, 349.00it/s]
+[1ALoading weights:  72%|███████▏  | 1027/1436 [00:31<00:01, 346.52it/s]
+[1ALoading weights:  74%|███████▍  | 1068/1436 [00:31<00:01, 353.63it/s]
+[1ALoading weights:  78%|███████▊  | 1115/1436 [00:31<00:00, 377.58it/s]
+[1ALoading weights:  80%|████████  | 1154/1436 [00:32<00:00, 364.91it/s]
+[1ALoading weights:  83%|████████▎ | 1199/1436 [00:32<00:00, 375.35it/s]
+[1ALoading weights:  86%|████████▌ | 1237/1436 [00:32<00:00, 373.78it/s]
+[1ALoading weights:  89%|████████▉ | 1280/1436 [00:32<00:00, 386.07it/s]
+[1ALoading weights:  92%|█████████▏| 1322/1436 [00:32<00:00, 382.86it/s]
+Stopping app - user stopped from CLI.
+[1ALoading weights:  95%|█████████▍| 1361/1436 [00:32<00:00, 369.35it/s]
+[1ALoading weights:  97%|█████████▋| 1399/1436 [00:32<00:00, 366.77it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:32<00:00, 43.75it/s] 
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub │
+│ re/entregables/glimmer_estrategias_20261029/glimmer_modal.py:47 in main      │
+│                                                                              │
+│   46 │   │   │   t["fotos"] = [pathlib.Path(f).read_bytes() for f in t["foto │
+│ ❱ 47 │   │   for t, r in zip(trabajos, consultar_lote.remote(trabajos, token │
+│   48 │   │   │   print(f"\n######## {t['nombre']}\n{r}")                     │
+│                                                                              │
+│ /usr/local/lib/python3.12/site-packages/modal/_object.py:49 in wrapped       │
+│                                                                              │
+│    48 │   │   await self.hydrate()                                           │
+│ ❱  49 │   │   return await method(self, *args, **kwargs)                     │
+│    50                                                                        │
+│                                                                              │
+│ /usr/local/lib/python3.12/site-packages/modal/_functions.py:2081 in remote   │
+│                                                                              │
+│   2080 │   │                                                                 │
+│ ❱ 2081 │   │   return await self._call_function(args, kwargs)                │
+│   2082                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.12/site-packages/modal/_functions.py:2018 in          │
+│ _call_function                                                               │
+│                                                                              │
+│   2017 │   │                                                                 │
+│ ❱ 2018 │   │   return await invocation.run_function()                        │
+│   2019                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.12/site-packages/modal/_functions.py:498 in           │
+│ run_function                                                                 │
+│                                                                              │
+│    497 │   │   │   if await_response.output.result.status in TERMINAL_STATUS │
+│ ❱  498 │   │   │   │   return await _process_result(                         │
+│    499 │   │   │   │   │   await_response.output.result, await_response.outp │
+│                                                                              │
+│ /usr/local/lib/python3.12/site-packages/modal/_utils/function_utils.py:574   │
+│ in _process_result                                                           │
+│                                                                              │
+│   573 │   │                                                                  │
+│ ❱ 574 │   │   raise RemoteError(result.exception)                            │
+│   575                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RemoteError
+
+== Reporte Modal fgabriel60 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261031c/lote.json --tokens 4500
+Duración: 1.2 min  (código 1)
+  glimmer (ap-K9so17qsslCXhNzv9FdUGT): $0.043
+  glimmer (ap-OIPBgxBc9jX0sv4ioy2pu7): $0.044
+Gasto del trabajo: $0.086
+Saldo restante ≈ $0.24

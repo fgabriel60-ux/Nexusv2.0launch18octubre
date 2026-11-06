@@ -1,0 +1,18 @@
+{
+ "costo_real": 0.54,
+ "saldo_antes": 5.01,
+ "saldo_despues": 4.47,
+ "segundos": 153,
+ "video": {
+  "width": "448",
+  "height": "832",
+  "r_frame_rate": "24/1",
+  "nb_frames": "425",
+  "duration": "17.708333"
+ },
+ "whatsapp": {
+  "texto": "success",
+  "video": "success",
+  "tira": "success"
+ }
+}

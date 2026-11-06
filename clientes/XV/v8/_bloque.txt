@@ -1,0 +1,32 @@
+VERT = "Foto vertical 9:16 hiperrealista de cine, sin texto, sin letras, sin logotipos. "
+LOOK = ("Look de video musical de fiesta de quinceañera: ESTE salón cálido con candiles de cristal, arco de flores blancas y letras XV iluminadas, "
+        "luz dorada cálida con acentos de escenario magenta y azul, neblina suave, grano fino de cine. ")
+SINCARA = "No se ve ninguna cara de frente: espalda, silueta a contraluz, manos o detalle. "
+CUADROS = {   # v8: escenas que le faltan al video musical (apertura, preparación, detalles, contraluz, clímax), en el MISMO salón y con el MISMO vestido
+    "H1": (["salon"], "Vista aérea nocturna tipo dron de un salón de eventos elegante iluminado con luces cálidas doradas, jardín con focos colgantes, cielo azul profundo de noche, "
+           "por las ventanas se ven los candiles encendidos. " + VERT),
+    "H2": (["vestido"], "Este MISMO vestido verde esmeralda de quinceañera colgado de un gancho dorado junto a una ventana con cortinas, luz dorada de tarde, polvo brillando en el aire, "
+           "recámara elegante, la tiara sobre un tocador. Sin personas. " + VERT),
+    "H3": (["retrato"], "Macro extremo de la tiara verde esmeralda y plateada sobre el cabello oscuro rizado, vista desde atrás, destellos de luz en los cristales, fondo desenfocado cálido. " + SINCARA + VERT),
+    "H4": (["vestido", "salon"], "Quinceañera de espaldas con este MISMO vestido verde esmeralda (imagen 1) entrando al salón de la imagen 2, silueta a contraluz con luz dorada y neblina, "
+           "las puertas abiertas y los candiles al fondo. " + SINCARA + LOOK + VERT),
+    "H5": (["vestido_pista", "salon"], "Este MISMO vestido verde esmeralda girando y abriéndose en vuelo en la pista del salón, toma baja de la cintura para abajo, confeti dorado cayendo, "
+           "luces de escenario. " + SINCARA + LOOK + VERT),
+    "H6": (["vestido", "salon"], "Retrato de espalda de la quinceañera con este MISMO vestido verde esmeralda frente al arco de flores blancas y las letras XV, neblina, "
+           "contraluz rosa y azul del escenario. " + SINCARA + LOOK + VERT),
+    "H7": (["robot", "salon"], "Este MISMO robot de luces LED azules y verdes bailando en la pista de este salón con candiles, chorros de humo blanco de CO2 a los lados, "
+           "invitados como siluetas a contraluz con brazos arriba. " + SINCARA + LOOK + VERT),
+}
+SUAVE = " Cinematic music-video camera, smooth motion, warm film look. Audio: soft party ambience, no speech."
+TOMAS = {
+    "M1": ("H1", "Slow aerial drone push-in toward the glowing event hall at night, warm lights twinkle." + SUAVE),
+    "M2": ("H2", "Slow dolly toward the emerald ball gown hanging by the window, dust sparkles drift in golden light, curtain moves gently." + SUAVE),
+    "M3": ("H3", "Extreme macro slow orbit around the emerald tiara, light glints sparkle on the crystals, shallow depth of field." + SUAVE),
+    "M4": ("H4", "The girl in the emerald ball gown walks slowly away from camera through the open doors into the hall, backlit, haze, slow motion." + SUAVE),
+    "M5": ("H5", "The emerald gown spins and flares in slow motion on the dance floor, golden confetti falling, camera low." + SUAVE),
+    "M6": ("H6", "Slow push-in on the girl from behind facing the white flower arch and glowing XV letters, haze drifts, pink and blue light pulses." + SUAVE),
+    "M7": ("H7", "The LED robot dances energetically as CO2 jets blast white smoke, guests jump with raised arms, lights flash." + SUAVE),
+    "M8": ("H1", "Slow aerial drone pulling back and rising away from the glowing event hall at night, ending wide." + SUAVE),
+}
+
+

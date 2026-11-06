@@ -1,0 +1,92 @@
+{
+ "frases": [
+  {
+   "voz": "¿Apagón en tu casa o negocio? Buscas una planta de luz o reparación de generador?",
+   "pantalla": [
+    "¿APAGÓN?",
+    "BUSCAS PLANTA DE LUZ?"
+   ],
+   "toma": {
+    "tipo": "ia",
+    "refs": [
+     "M05",
+     "M07"
+    ],
+    "cuadro": "Una planta de luz roja en un patio, con una toma de corriente en primer plano y un fondo de casa moderna, iluminada por la luz del día.",
+    "movimiento": "The camera slowly zooms in on the generator, then pans slightly to the right to show the outlet and the house in the background."
+   },
+   "segundos": 6.26
+  },
+  {
+   "voz": "Vendemos y reparamos plantas de luz, motores eléctricos y soldadoras inversoras.",
+   "pantalla": [
+    "VENTA Y REPARACIÓN",
+    "PLANTAS DE LUZ, MOTORES, SOLDADORAS"
+   ],
+   "toma": {
+    "tipo": "foto",
+    "clave": "M14"
+   },
+   "segundos": 6.28
+  },
+  {
+   "voz": "Somos centro autorizado Energy Controlled, con todo el equipo original.",
+   "pantalla": [
+    "CENTRO AUTORIZADO",
+    "ENERGY CONTROLLED"
+   ],
+   "toma": {
+    "tipo": "foto",
+    "clave": "M07"
+   },
+   "segundos": 6.39
+  },
+  {
+   "voz": "Aquí hacemos todo, no mandamos nada afuera, solo con nuestro taller propio.",
+   "pantalla": [
+    "HACEMOS TODO",
+    "TALLER PROPIO"
+   ],
+   "toma": {
+    "tipo": "video",
+    "clave": "M11",
+    "inicio": 0.0
+   },
+   "segundos": 6.86
+  },
+  {
+   "voz": "Mándanos una foto de tu equipo por WhatsApp y te decimos qué necesita.",
+   "pantalla": [
+    "MÁNDANOS FOTO",
+    "TE DECIMOS QUÉ NECESITA"
+   ],
+   "toma": {
+    "tipo": "foto",
+    "clave": "M18"
+   },
+   "segundos": 5.24
+  }
+ ],
+ "tarjeta": {
+  "nombre": "PLANTAS DE LUZ",
+  "subtitulo": "VENTA Y REPARACIÓN",
+  "linea": "CENTRO AUTORIZADO ENERGY CONTROLLED",
+  "telefono": "55 5461 5710"
+ },
+ "pedir_al_cliente": [
+  "M01",
+  "M02",
+  "M03",
+  "M04",
+  "M06",
+  "M08",
+  "M09",
+  "M10",
+  "M12",
+  "M13",
+  "M15",
+  "M16",
+  "M17",
+  "M19"
+ ]
+}

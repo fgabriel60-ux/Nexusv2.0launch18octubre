@@ -1,0 +1,30 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montserrat,48,&H00FFFFFF,&H0000D7FF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,4,1,2,48,48,280,1
+Style: Title,Montserrat,38,&H00FFFFFF,&H0000D7FF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,3,2,0,8,35,35,85,1
+Style: CTA,Montserrat,35,&H0066D325,&H0000D7FF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,3,2,0,2,35,35,130,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:00:01.46,Default,,0,0,0,,{\kf54}¿Eres {\kf70}constructora {\kf22}o
+Dialogue: 2,0:00:01.46,0:00:02.86,Default,,0,0,0,,{\kf68}desarrollador? {\kf8}En {\kf52}Servilín
+Dialogue: 2,0:00:02.86,0:00:04.16,Default,,0,0,0,,{\kf46}hacemos {\kf66}limpieza {\kf18}de
+Dialogue: 2,0:00:04.16,0:00:05.10,Default,,0,0,0,,{\kf20}obra {\kf48}fina {\kf26}para
+Dialogue: 2,0:00:05.10,0:00:07.16,Default,,0,0,0,,{\kf56}empresas. {\kf56}Retiramos {\kf48}polvo,
+Dialogue: 2,0:00:07.38,0:00:08.28,Default,,0,0,0,,{\kf30}cemento {\kf14}y {\kf46}restos
+Dialogue: 2,0:00:08.28,0:00:09.80,Default,,0,0,0,,{\kf18}de {\kf52}pintura. {\kf58}Limpiamos
+Dialogue: 2,0:00:09.80,0:00:10.94,Default,,0,0,0,,{\kf54}ventanas {\kf22}y {\kf38}pisos
+Dialogue: 2,0:00:10.94,0:00:12.42,Default,,0,0,0,,{\kf24}con {\kf46}personal {\kf78}uniformado,
+Dialogue: 2,0:00:12.68,0:00:14.08,Default,,0,0,0,,{\kf50}capacitado {\kf22}y {\kf68}supervisado.
+Dialogue: 2,0:00:14.26,0:00:15.02,Default,,0,0,0,,{\kf10}Tu {\kf30}obra {\kf36}lista
+Dialogue: 2,0:00:15.02,0:00:16.46,Default,,0,0,0,,{\kf30}para {\kf54}entregar. {\kf60}Solicita
+Dialogue: 2,0:00:16.46,0:00:17.52,Default,,0,0,0,,{\kf32}una {\kf44}propuesta {\kf30}por
+Dialogue: 2,0:00:17.52,0:00:19.10,Default,,0,0,0,,{\kf54}WhatsApp. {\kf22}Dinos {\kf20}qué
+Dialogue: 2,0:00:19.10,0:00:20.06,Default,,0,0,0,,{\kf32}tipo {\kf22}de {\kf42}inmueble
+Dialogue: 2,0:00:20.06,0:00:21.06,Default,,0,0,0,,{\kf30}y {\kf36}cuántos {\kf34}metros
+Dialogue: 2,0:00:21.06,0:00:21.62,Default,,0,0,0,,{\kf56}cuadrados.
+Dialogue: 1,0:00:00.00,0:00:22.15,Title,,0,0,0,,SERVILIN · LIMPIEZA DE OBRA FINA\NSOLO EMPRESAS · NO ES VACANTE
+Dialogue: 1,0:00:00.00,0:00:22.15,CTA,,0,0,0,,COTIZA POR WHATSAPP\NTipo de inmueble + m²

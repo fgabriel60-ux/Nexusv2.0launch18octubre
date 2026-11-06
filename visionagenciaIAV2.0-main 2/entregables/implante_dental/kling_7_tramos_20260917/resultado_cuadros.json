@@ -1,0 +1,10 @@
+{
+ "cuadros": {
+  "R10_anestesia_sale": "ok",
+  "R15_fresa_dentro": "ok"
+ },
+ "saldo": {
+  "antes": 18.12,
+  "despues": 17.91
+ }
+}

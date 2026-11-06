@@ -1,0 +1,24 @@
+{
+  "carpeta": "entregables/anuncios_imagen_20261104",
+  "salida": "entregables/anuncios_imagen_20261104/cuadros",
+  "semilla": 21,
+  "ancho": 1024,
+  "alto": 1280,
+  "pasos": 30,
+  "refs": {
+    "mariano": "clientes/Mariano/fotos/mariano_luz_final.png",
+    "benjamina": "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg",
+    "salvia": "clientes/Mariano/anuncios/refs/salvia_fachada.jpg",
+    "rafael": "clientes/Rafael_BYD/refs/rafael_cara.jpg",
+    "rafael_auto": "clientes/Rafael_BYD/refs/rafael_cara_auto.jpg",
+    "byd": "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
+  },
+  "cuadros": {
+    "MAR_A2": [["mariano", "benjamina"], "El mismo hombre de la primera foto, misma cara, misma barba, mismo saco azul claro y camisa blanca, de pie en la banqueta frente a la casa blanca de dos pisos de la segunda foto. Plano medio, de la cintura para arriba, mirando a la cámara con sonrisa tranquila, brazo relajado señalando la casa. Luz natural de la tarde, cielo despejado, fotografía real de celular, vertical.", "otra cara, cara deforme, traje distinto, casa distinta, texto"],
+    "MAR_B2": [["mariano", "salvia"], "El mismo hombre de la primera foto, misma cara y mismo saco azul claro, parado en la entrada de la casa blanca de la segunda foto, sosteniendo un llavero en la mano a la altura del pecho y mirando a la cámara. Plano medio, luz dorada de la tarde, fotografía real de celular, vertical, fondo la fachada de la casa.", "otra cara, llaves gigantes, manos deformes, texto"],
+    "RAF_1A": [["rafael", "byd"], "El mismo hombre de la primera foto, misma cara y mismo polo azul marino, de pie junto al auto blanco BYD de la segunda foto dentro del piso de exhibición de la agencia, cuerpo medio, mano apoyada en el cofre, mirando a la cámara con sonrisa amable. Luz limpia de interior de agencia, piso brillante, fotografía real, vertical.", "otra cara, logo inventado, texto, auto deforme"],
+    "RAF_1B": [["rafael_auto", "byd"], "El mismo hombre de la primera foto, misma cara y mismo polo azul marino, abriendo la puerta del conductor del auto blanco BYD de la segunda foto, mano en la manija, cuerpo de lado mirando a la cámara. Interior de agencia iluminado, plano medio, fotografía real, vertical.", "otra cara, mano deforme, dedos extra, texto"],
+    "RAF_2A": [["rafael"], "La misma persona de la foto, misma cara y mismo polo azul marino, primer plano a la altura de los ojos, sonriendo de manera natural, con un auto blanco desenfocado detrás dentro de una agencia. Retrato real de celular, luz suave, vertical.", "otra cara, piel plástica, texto"],
+    "RAF_2B": [["rafael"], "La misma persona de la foto, misma cara y mismo polo azul marino, de pie en el piso de exhibición de una agencia de autos con un celular en la mano a la altura del pecho, mirando a la cámara con gesto amable. Plano medio, fotografía real, vertical, auto blanco desenfocado al fondo.", "otra cara, pantalla con texto, logotipos inventados, manos deformes"]
+  }
+}

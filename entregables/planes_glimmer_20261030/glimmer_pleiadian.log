@@ -1,0 +1,313 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-0Ga34TSEYwrMZDHdMeEhLF
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/entregables/glimmer_estrategias_20261029/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:00<21:29,  1.11it/s]
+[1ALoading weights:   0%|          | 2/1436 [00:02<27:36,  1.15s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:02<11:57,  2.00it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:02<07:08,  3.34it/s]
+[1ALoading weights:   1%|          | 14/1436 [00:02<02:08, 11.06it/s]
+[1ALoading weights:   1%|▏         | 18/1436 [00:03<02:06, 11.24it/s]
+[1ALoading weights:   2%|▏         | 28/1436 [00:03<01:10, 19.88it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:03<01:16, 18.26it/s]
+[1ALoading weights:   3%|▎         | 39/1436 [00:03<01:00, 23.03it/s]
+[1ALoading weights:   3%|▎         | 43/1436 [00:03<01:05, 21.14it/s]
+[1ALoading weights:   4%|▎         | 52/1436 [00:04<00:50, 27.40it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:04<00:59, 23.05it/s]
+[1ALoading weights:   4%|▍         | 63/1436 [00:04<00:51, 26.78it/s]
+[1ALoading weights:   5%|▍         | 67/1436 [00:04<01:00, 22.56it/s]
+[1ALoading weights:   5%|▌         | 75/1436 [00:05<00:49, 27.60it/s]
+[1ALoading weights:   6%|▌         | 79/1436 [00:05<00:56, 23.91it/s]
+[1ALoading weights:   6%|▌         | 88/1436 [00:05<00:44, 30.14it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:05<00:55, 24.36it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:05<00:44, 30.24it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:06<00:55, 24.08it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:06<00:45, 28.83it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:06<00:56, 23.22it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:06<00:46, 28.14it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [00:07<00:55, 23.48it/s]
+[1ALoading weights:   9%|▉         | 136/1436 [00:07<00:44, 29.04it/s]
+[1ALoading weights:  10%|▉         | 140/1436 [00:07<00:55, 23.52it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:07<00:43, 29.47it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:08<00:52, 24.66it/s]
+[1ALoading weights:  11%|█         | 160/1436 [00:08<00:43, 29.63it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:08<00:50, 24.95it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:08<00:42, 30.03it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:08<00:49, 25.29it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:09<00:41, 30.03it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:09<00:50, 24.63it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [00:09<00:42, 29.16it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:09<00:50, 24.43it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:09<00:42, 29.03it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:10<00:50, 24.00it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:10<00:41, 29.58it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:10<00:49, 24.55it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:10<00:40, 29.93it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:11<00:49, 24.38it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:11<00:40, 29.48it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:11<00:49, 24.21it/s]
+[1ALoading weights:  18%|█▊        | 254/1436 [00:11<00:44, 26.42it/s]
+[1ALoading weights:  18%|█▊        | 257/1436 [00:12<00:53, 22.22it/s]
+[1ALoading weights:  19%|█▊        | 266/1436 [00:12<00:35, 33.03it/s]
+[1ALoading weights:  19%|█▉        | 271/1436 [00:12<00:47, 24.60it/s]
+[1ALoading weights:  19%|█▉        | 278/1436 [00:12<00:36, 31.50it/s]
+[1ALoading weights:  20%|█▉        | 283/1436 [00:12<00:50, 23.04it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:13<00:38, 29.40it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:13<00:47, 24.17it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:13<00:38, 29.64it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:13<00:45, 24.99it/s]
+[1ALoading weights:  22%|██▏       | 313/1436 [00:13<00:39, 28.59it/s]
+[1ALoading weights:  22%|██▏       | 317/1436 [00:14<00:53, 20.78it/s]
+[1ALoading weights:  23%|██▎       | 328/1436 [00:14<00:35, 30.86it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:14<00:42, 25.81it/s]
+[1ALoading weights:  24%|██▎       | 338/1436 [00:14<00:35, 30.56it/s]
+[1ALoading weights:  24%|██▍       | 342/1436 [00:15<00:47, 23.06it/s]
+[1ALoading weights:  24%|██▍       | 350/1436 [00:15<00:34, 31.12it/s]
+[1ALoading weights:  25%|██▍       | 355/1436 [00:15<00:46, 23.41it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:15<00:35, 29.87it/s]
+[1ALoading weights:  26%|██▌       | 368/1436 [00:16<00:43, 24.79it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:16<00:35, 29.49it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:16<00:43, 24.35it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:16<00:35, 29.74it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:16<00:42, 24.55it/s]
+[1ALoading weights:  28%|██▊       | 397/1436 [00:17<00:47, 21.83it/s]
+[1ALoading weights:  28%|██▊       | 402/1436 [00:17<00:42, 24.48it/s]
+[1ALoading weights:  29%|██▊       | 410/1436 [00:17<00:35, 29.11it/s]
+[1ALoading weights:  29%|██▉       | 414/1436 [00:17<00:41, 24.44it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:18<00:31, 32.09it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:18<00:39, 25.27it/s]
+[1ALoading weights:  30%|███       | 435/1436 [00:18<00:34, 28.95it/s]
+[1ALoading weights:  31%|███       | 439/1436 [00:18<00:40, 24.39it/s]
+[1ALoading weights:  31%|███       | 447/1436 [00:18<00:30, 32.86it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:19<00:40, 24.10it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:19<00:33, 28.75it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:19<00:41, 23.39it/s]
+[1ALoading weights:  33%|███▎      | 468/1436 [00:19<00:37, 25.76it/s]
+[1ALoading weights:  33%|███▎      | 473/1436 [00:20<00:44, 21.42it/s]
+[1ALoading weights:  34%|███▎      | 482/1436 [00:20<00:30, 31.28it/s]
+[1ALoading weights:  34%|███▍      | 487/1436 [00:20<00:39, 23.82it/s]
+[1ALoading weights:  34%|███▍      | 494/1436 [00:20<00:31, 30.27it/s]
+[1ALoading weights:  35%|███▍      | 499/1436 [00:21<00:40, 23.32it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:21<00:32, 28.93it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:21<00:38, 23.98it/s]
+[1ALoading weights:  36%|███▌      | 520/1436 [00:21<00:31, 28.77it/s]
+[1ALoading weights:  36%|███▋      | 524/1436 [00:22<00:38, 23.59it/s]
+[1ALoading weights:  37%|███▋      | 532/1436 [00:22<00:31, 28.46it/s]
+[1ALoading weights:  37%|███▋      | 536/1436 [00:22<00:37, 23.89it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:22<00:30, 29.61it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:22<00:36, 24.51it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:23<00:29, 29.67it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:23<00:34, 25.41it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:23<00:29, 29.02it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:23<00:35, 24.36it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:24<00:29, 29.18it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:24<00:36, 23.60it/s]
+[1ALoading weights:  41%|████      | 592/1436 [00:24<00:28, 29.51it/s]
+[1ALoading weights:  42%|████▏     | 596/1436 [00:24<00:34, 24.37it/s]
+[1ALoading weights:  42%|████▏     | 604/1436 [00:24<00:28, 29.17it/s]
+[1ALoading weights:  42%|████▏     | 608/1436 [00:25<00:34, 23.78it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:25<00:27, 29.33it/s]
+[1ALoading weights:  43%|████▎     | 620/1436 [00:25<00:33, 24.07it/s]
+[1ALoading weights:  44%|████▍     | 636/1436 [00:25<00:17, 44.95it/s]
+[1ALoading weights:  47%|████▋     | 670/1436 [00:25<00:07, 96.62it/s]
+[1ALoading weights:  49%|████▉     | 703/1436 [00:25<00:05, 143.54it/s]
+[1ALoading weights:  51%|█████▏    | 736/1436 [00:26<00:03, 181.93it/s]
+[1ALoading weights:  54%|█████▍    | 780/1436 [00:26<00:02, 239.14it/s]
+[1ALoading weights:  58%|█████▊    | 827/1436 [00:26<00:02, 291.54it/s]
+[1ALoading weights:  60%|██████    | 862/1436 [00:26<00:01, 295.39it/s]
+[1ALoading weights:  63%|██████▎   | 911/1436 [00:26<00:01, 344.77it/s]
+[1ALoading weights:  68%|██████▊   | 970/1436 [00:26<00:01, 411.07it/s]
+[1ALoading weights:  71%|███████   | 1018/1436 [00:26<00:00, 424.87it/s]
+[1ALoading weights:  74%|███████▍  | 1063/1436 [00:26<00:00, 416.92it/s]
+[1ALoading weights:  77%|███████▋  | 1112/1436 [00:26<00:00, 434.29it/s]
+[1ALoading weights:  81%|████████  | 1158/1436 [00:27<00:00, 441.06it/s]
+[1ALoading weights:  84%|████████▍ | 1203/1436 [00:27<00:00, 432.02it/s]
+[1ALoading weights:  87%|████████▋ | 1247/1436 [00:27<00:00, 432.34it/s]
+[1ALoading weights:  91%|█████████ | 1303/1436 [00:27<00:00, 456.89it/s]
+[1ALoading weights:  94%|█████████▍| 1354/1436 [00:27<00:00, 460.24it/s]
+[1ALoading weights:  98%|█████████▊| 1401/1436 [00:27<00:00, 458.54it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:27<00:00, 52.00it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## PLAN_Pleiadian
+ to=selfEres estratega de anuncios de Meta y director de video para negocios en México. Da SOLO la respuesta final en español, sin razonamiento. No inventes precios ni datos: [CONFIRMAR] si falta.
+CLIENTE NUEVO: Pleiadian Brewing Co., cervecería artesanal en Plaza Puerta del Sur, Calz. Industrial, Nogales, Sonora (frontera con Arizona). Martes a sábado 5 pm–12 am. WhatsApp 631 194 2065. Temática cósmica/espacial (logo, aliens, «otra órbita»). Cervezas: Black Hole (Dry Stout 4.8%, notas de café y chocolate — «la de café», la favorita), Interstellar (Pale Ale cítrica), Seven Sisters (Blonde tropical), Merope (Vienna, miel y nuez), Eclipsed (IPA 7.2%). Cocina asociada: Desierto Restaurante («Food by Desierto»: hamburguesas, papas, tacos, alitas) y noches de pizza con Dinos Pizza. Terraza, DJ Sessions los viernes, «Miércoles de Café», eventos privados, crowlers. La imagen: 12 publicaciones reales de su Instagram (taproom con neón, latas, pintas, pizza, flyers de DJ).
+IDEA DEL DUEÑO DE LA AGENCIA: video estilo influencer/creadora de contenido: una chica a cámara, emocionada, diciendo «No saben lo que encontré en esta plaza de Nogales… cocina y cerveza artesanal, y es increíble el sabor de la de café». Producción: escenas generadas con IA a partir de fotos reales del lugar (taproom, barra, latas, comida) + voz clonada; también tomas reales del cliente si las manda.
+Objetivo: mensajes por WhatsApp para reservar mesa, eventos y grupos; atraer gente de Nogales Sonora y Nogales Arizona.
+Da el PLAN 10/10/10: 1) gancho de 3 s (8 opciones con la idea del dueño, elige el mejor); 2) guion de 20-25 s escena por escena (qué se ve, qué dice la chica palabra por palabra, texto en pantalla); 3) qué reel viral de Instagram de este tipo replicar (formato «found this hidden spot» / «lugar escondido»); 4) oferta y CTA a WhatsApp (sin inventar promociones); 5) segmentación de Meta (incluye si conviene Arizona y restricción de edad por alcohol, +18/+21); 6) políticas de Meta para anuncios de alcohol que debemos cumplir; 7) qué fotos/videos y datos pedirle al cliente; 8) calificación proyectada 10/10/10.
+
+Da SOLO la respuesta final en español, sin razonamiento. No inventes precios ni datos: [CONFIRMAR] si falta.
+
+We need output plan 10/10/10 with items 1-8.
+
+Must not invent prices nor data: [CONFIRMAR] if missing.
+
+We need to confirm if missing data. Probably need confirm some data like exact address? It says Plaza Puerta del Sur, Calz. Industrial, Nogales, Sonora. Might be enough. Hours martes a sábado 5 pm–12 am. WhatsApp given. No price. No promotion. So we must not invent promotions. Offer and CTA to WhatsApp without inventing promotions. So just CTA to WhatsApp for reservation.
+
+We must give 8 hook options with idea of owner, choose best.
+
+Provide script 20-25 s scene by scene what is seen, what girl says word for word, on-screen text.
+
+What reel viral to replicate.
+
+Offer and CTA.
+
+Segmentation.
+
+Policies.
+
+What photos/videos and data to ask client.
+
+Rating projected 10/10/10.
+
+Must be in Spanish.
+
+No reasoning. Just final answer.
+
+Ensure not invent prices. Don't invent promotions. If missing data, mark [CONFIRMAR].
+
+Potential missing: exact location within plaza, maybe local number? WhatsApp given. Might need confirm if WhatsApp is for reservations? Probably assume.
+
+Maybe need confirm if "Miércoles de Café" is a promotion? It's an event. Could mention.
+
+We must not invent prices. So no price.
+
+We must ensure compliance with Meta alcohol policies: no targeting under 18, etc.
+
+Provide segmentation: Nogales Sonora radius, Nogales Arizona radius, age +18/+21? Mexico legal 18, US 21. Might need +21 for Arizona? Could do +18 for Mexico and +21 for US. Or set +21 to be safe.
+
+Provide 10/10/10 rating: maybe 8/10/7? Need projected.
+
+We must output only final answer.
+
+Let's craft structured.
+
+1) Gancho 3s 8 opciones...
+
+Choose best.
+
+2) Guion 20-25s...
+
+3) Reel viral replicar...
+
+4) Oferta y CTA...
+
+5) Segmentación...
+
+6) Políticas...
+
+7) Qué pedir...
+
+8) Calificación proyectada...
+
+Make sure no invented prices.
+
+Use [CONFIRMAR] if falta data. Maybe need confirm if DJ Sessions los viernes hora exacta? It says DJ Sessions los viernes. Could be 02 OCT 8PM from image. But not confirm. Might need [CONFIRMAR] hora de DJ Sessions y de Miércoles de Café.
+
+Also confirm if WhatsApp acepta reservas para eventos privados y grupos.
+
+Also confirm if hay restricciones de edad en el local.
+
+Maybe confirm dirección exacta.
+
+Let's add [CONFIRMAR] where needed.
+
+Output in Spanish.
+
+No reasoning.
+
+Let's produce final.assistant to=user**PLAN 10/10/10 – Pleiadian Brewing Co.**
+
+**1) Gancho de 3 s – 8 opciones con la idea del dueño**
+1. “No saben lo que encontré en esta plaza de Nogales…”
+2. “Paren todo, encontré cerveza artesanal y cocina en Nogales…”
+3. “Esta es la cervecería escondida de Nogales que todos buscan…”
+4. “Vine por pizza y me quedé por la cerveza de café…”
+5. “La de café que todos mencionan está en Nogales y es real…”
+6. “Encontré otra órbita en Plaza Puerta del Sur…”
+7. “Si cruzas a Nogales Sonora, tienes que probar esto…”
+8. “Cerveza artesanal, terraza y DJ en Nogales, ¿dónde?”
+
+**Mejor gancho elegido:** “No saben lo que encontré en esta plaza de Nogales…”
+
+**2) Guion 20-25 s escena por escena**
+0-3s – Primer plano chica a cámara emocionada, fondo neón Pleiadian. 
+Dice: “No saben lo que encontré en esta plaza de Nogales…”
+Texto en pantalla: “Lugar escondido en Nogales”
+
+3-8s – Corte a foto real del taproom con neón Pleiadian y barra. 
+Dice: “Cocina y cerveza artesanal, y es increíble el sabor de la de café.”
+Texto en pantalla: “Pleiadian Brewing Co. – Plaza Puerta del Sur”
+
+8-13s – Secuencia IA/foto real: pinta de Black Hole, lata, pizza con Dinos Pizza, hamburguesa Food by Desierto.
+Dice: “Tienen Black Hole, la de café con notas de chocolate, Interstellar, Seven Sisters, Merope y Eclipsed.”
+Texto en pantalla: “Black Hole Dry Stout 4.8% – la de café”
+
+13-18s – Terraza, DJ Sessions viernes, Miércoles de Café.
+Dice: “Terraza, DJ los viernes, Miércoles de Café y eventos privados. Abierta martes a sábado 5 pm a 12 am.”
+Texto en pantalla: “Martes a sábado 5pm-12am”
+
+18-23s – Chica a cámara con vaso en mano, sonrisa.
+Dice: “Si vas a Nogales Sonora o vienes de Arizona, es parada obligada. Te paso el WhatsApp.”
+Texto en pantalla: “Reserva por WhatsApp” + “631 194 2065”
+
+**3) Reel viral a replicar**
+Formato “found this hidden spot / lugar escondido en mi ciudad”. 
+Hook cara a cámara + descubrimiento, transiciones rápidas con fotos reales del local, close-ups de cerveza y comida, texto grande en pantalla, cierre con CTA a WhatsApp. Estilo UGC creadora local, iluminación natural, ritmo 1 corte/1.5s.
+
+**4) Oferta y CTA a WhatsApp**
+Sin promoción inventada.
+CTA: “Reserva tu mesa, pregunta por eventos privados, grupos y crowlers por WhatsApp.”
+Texto en pantalla final: “Pleiadian Brewing Co. Plaza Puerta del Sur, Calz. Industrial, Nogales, Sonora. WhatsApp 631 194 2065”
+[CONFIRMAR] si el WhatsApp 631 194 2065 está habilitado para reservas de mesa, eventos privados y grupos y si se aceptan mensajes de Nogales Arizona.
+
+**5) Segmentación de Meta**
+Ubicación: 
+- Radio 10-15 km Nogales, Sonora, México.
+- Radio 10-15 km Nogales, Arizona, USA. [CONFIRMAR] si conviene activar audiencia transfronteriza.
+Intereses: cerveza artesanal, craft beer, foodie, pizza, DJ, terraza, Nogales.
+Edad: +18 México / +21 USA. Configurar campaña con restricción de edad mínima 21 para cumplir con política de alcohol en EE.UU. y 18 en México. [CONFIRMAR] política interna de acceso del local.
+Idioma: Español, Inglés.
+Objetivo: Mensajes a WhatsApp.
+
+**6) Políticas de Meta para anuncios de alcohol que debemos cumplir**
+- Anuncio aprobado solo para mayores de edad. Edad mínima 18 en México, 21 en EE.UU.
+- No prometer ni insinuar aumento de popularidad, éxito social o mejora de estado por consumir alcohol.
+- No mostrar consumo excesivo, menores, conducción bajo efectos, embarazo, situaciones de riesgo.
+- No usar lenguaje que incite al consumo irresponsable.
+- Incluir declaración de edad y no dirigir a menores.
+- Destino a WhatsApp permitido, sin promociones de precio inventadas.
+- Creatividades con temática cósmica/alien permitidas siempre que no sexualicen.
+
+**7) Qué fotos/videos y datos pedirle al cliente**
+- Fotos reales en alta resolución de taproom, neón, barra, terraza, latas y pintas de Black Hole, Interstellar, Seven Sisters, Merope, Eclipsed.
+- Fotos de Food by Desierto: hamburguesas, papas, tacos, alitas y noches de pizza con Dinos Pizza.
+- Video corto del interior, gente en terraza, DJ Sessions viernes.
+- Confirmar horario exacto de DJ Sessions y de Miércoles de Café. [CONFIRMAR]
+- Confirmar dirección exacta dentro de Plaza Puerta del Sur, Calz. Industrial, Nogales, Sonora.
+- Confirmar si se aceptan reservas por WhatsApp 631 194 2065 y horarios de atención por WhatsApp.
+- Confirmar política de edad de ingreso al local. [CONFIRMAR]
+- Logos en PNG, paleta de colores y autorización de uso de imagen.
+
+**8) Calificación proyectada 10/10/10**
+Creatividad 8/10 – Fuerte UGC y temática, mejora con tomas reales del cliente.
+Relevancia 9/10 – Mensaje claro para Nogales Sonora/Arizona, producto diferenciado.
+Conversión 7/10 – Depende de respuesta rápida por WhatsApp y confirmación de datos operativos.
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-0Ga34TSEYwrMZDHdMeEhLF
+
+== Reporte Modal fgabriel60 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/planes_glimmer_20261030/lote_pleiadian.json --tokens 4500
+Duración: 4.0 min  (código 0)
+  glimmer (ap-0Ga34TSEYwrMZDHdMeEhLF): $0.165
+Gasto del trabajo: $0.165
+Saldo restante ≈ $1.46

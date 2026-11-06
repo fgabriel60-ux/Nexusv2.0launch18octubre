@@ -1,0 +1,71 @@
+{
+ "carpeta": "jose_v9_20261030",
+ "salida": "clientes/Jose/obrero_v9_20261030/salida",
+ "semilla": 31,
+ "refs": {
+  "v1": "clientes/Jose/obrero_v4_20261030/salida/V1_barre.png",
+  "n6": "clientes/Jose/obrero_v6_20261030/salida/N6_terminada.png",
+  "v5": "clientes/Jose/obrero_v4_20261030/salida/V5_poliuretano.png"
+ },
+ "cuadros": {
+  "P0_problema": [
+   [
+    "v1",
+    "n6"
+   ],
+   "Estilo animación 3D tipo Pixar, mismo personaje: casco blanco GRUPO JR, chaleco azul, misma cara joven. El mismo obrero de la primera imagen, sobre una azotea de losa gris de concreto (el lugar de la segunda imagen) bajo una lluvia suave y cielo nublado; está preocupado, con los brazos ABAJO, inclinado señalando con una mano un charco de agua y una grieta en la losa gris. NO levanta los brazos. Boca cerrada. Volcán nevado tranquilo al fondo, sin humo. Sin texto."
+  ],
+  "P5_poliuretano": [
+   [
+    "v5"
+   ],
+   "Estilo animación 3D tipo Pixar, mismo personaje: casco blanco GRUPO JR, chaleco azul, misma cara joven. Conserva la misma escena: aplica con rodillo el recubrimiento blanco. La losa es PERFECTAMENTE PLANA, LISA y BLANCA, sin bultos, sin abolladuras, sin ondas, como una superficie recién impermeabilizada de acabado uniforme. Boca cerrada. Volcán tranquilo sin humo. Sin texto nuevo."
+  ],
+  "P6_terminada": [
+   [
+    "n6"
+   ],
+   "Estilo animación 3D tipo Pixar, mismo personaje: casco blanco GRUPO JR, chaleco azul, misma cara joven. Conserva al mismo obrero de pie con las manos en la cintura. La losa es PERFECTAMENTE PLANA, LISA y BLANCA, sin bultos, sin abolladuras, sin ondas, como una superficie recién impermeabilizada de acabado uniforme. Boca cerrada. Volcán tranquilo sin humo. Sin texto."
+  ],
+  "P8_final": [
+   [
+    "n6"
+   ],
+   "Estilo animación 3D tipo Pixar, mismo personaje: casco blanco GRUPO JR, chaleco azul, misma cara joven. Toma ABIERTA desde arriba y a lo lejos: se ve COMPLETA la azotea terminada, La losa es PERFECTAMENTE PLANA, LISA y BLANCA, sin bultos, sin abolladuras, sin ondas, como una superficie recién impermeabilizada de acabado uniforme. con pretiles; el obrero pequeño a un lado sonríe con la boca cerrada. Casas mexicanas alrededor y volcán nevado tranquilo, sin humo, cielo azul. Sin texto."
+  ]
+ },
+ "tomas": [
+  [
+   "V0_problema",
+   "P0_problema",
+   "Vertical animated shot: light rain falls on the grey concrete roof, the cartoon worker looks worried and points at the puddle and crack on the slab, arms stay down, slow push-in. His mouth stays CLOSED; he never talks. No text. Audio: soft ambient, no speech.",
+   5.0,
+   null,
+   null
+  ],
+  [
+   "V5_poliuretano",
+   "P5_poliuretano",
+   "Vertical animated shot: the cartoon worker rolls glossy white coating over the perfectly flat smooth slab, the white area grows evenly, no bumps, slow lateral dolly. His mouth stays CLOSED; he never talks. No text. Audio: soft ambient, no speech.",
+   5.0,
+   null,
+   null
+  ],
+  [
+   "V6_terminada",
+   "P6_terminada",
+   "Vertical animated shot: the cartoon worker stands proudly on the perfectly flat smooth white roof and nods slowly, slow orbit. His mouth stays CLOSED; he never talks. No text. Audio: soft ambient, no speech.",
+   4.0,
+   null,
+   null
+  ],
+  [
+   "V8_final",
+   "P8_final",
+   "Vertical animated shot: slow drone pull-back revealing the whole perfectly flat smooth white finished roof, the small cartoon worker smiles, calm snowy volcano, no smoke. His mouth stays CLOSED; he never talks. No text. Audio: soft ambient, no speech.",
+   5.0,
+   null,
+   null
+  ]
+ ]
+}

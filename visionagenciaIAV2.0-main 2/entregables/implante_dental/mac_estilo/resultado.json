@@ -1,0 +1,46 @@
+{
+ "estilo": {
+  "escena": "CHICA_IMPLANTE_ESTILO_APROBADO",
+  "boca_interior": {
+   "vertices_labios": 20,
+   "lazos_abiertos": 2
+  },
+  "dientes_ensanchados": {
+   "AP_Natural_tooth_0": [
+    0.78,
+    1
+   ],
+   "AP_Natural_tooth_1": [
+    0.82,
+    1.02
+   ],
+   "AP_Natural_tooth_2": [
+    0.72,
+    1
+   ],
+   "AP_Natural_tooth_3": [
+    0.78,
+    0.98
+   ],
+   "AP_Definitive_crown": [
+    0.82,
+    1
+   ],
+   "AP_Diente_distal_2": [
+    0.45,
+    0.84
+   ],
+   "AP_Diente_distal_0": [
+    0.56,
+    0.8
+   ],
+   "AP_Diente_distal_1": [
+    0.43,
+    0.6
+   ]
+  },
+  "cambios": 50
+ },
+ "modelo": null,
+ "copia": "/Users/juancarlos/Desktop/IMPLANTE_DENTAL/CHICA_IMPLANTE_ESTILO_HOJA.blend"
+}

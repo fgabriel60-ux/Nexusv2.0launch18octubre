@@ -1,0 +1,78 @@
+{
+ "carpeta": "jesus_v3_20261030",
+ "salida": "entregables/jesus_puertas_20261028/v3/salida",
+ "semilla": 9,
+ "refs": {
+  "puerta": "clientes/Jesus_Puertas/whatsapp/del_cliente/20261027_175651_image.jpg",
+  "cocina": "clientes/Jesus_Puertas/whatsapp/del_cliente/20261027_175920_image.jpg"
+ },
+ "cuadros": {
+  "Q1_corte": [
+   [
+    "puerta"
+   ],
+   "Foto REAL vertical 9:16 estilo reel de taller cinematográfico (como @far12): taller de carpintería mexicano con techo de lámina, luz cálida, aserrín en el aire, herramientas reales; carpintero adulto con camisa de trabajo azul marino y mandil, la cara de perfil o tapada. Sin texto, sin logotipos. El carpintero corta una tabla gruesa de madera de parota en la sierra de mesa, aserrín volando. La madera tiene el mismo color y veta de la puerta de la imagen."
+  ],
+  "Q2_cepillo": [
+   [
+    "puerta"
+   ],
+   "Foto REAL vertical 9:16 estilo reel de taller cinematográfico (como @far12): taller de carpintería mexicano con techo de lámina, luz cálida, aserrín en el aire, herramientas reales; carpintero adulto con camisa de trabajo azul marino y mandil, la cara de perfil o tapada. Sin texto, sin logotipos. Primer plano de las manos del carpintero pasando el cepillo eléctrico sobre una tabla de parota, virutas saliendo."
+  ],
+  "Q3_lija": [
+   [
+    "puerta"
+   ],
+   "Foto REAL vertical 9:16 estilo reel de taller cinematográfico (como @far12): taller de carpintería mexicano con techo de lámina, luz cálida, aserrín en el aire, herramientas reales; carpintero adulto con camisa de trabajo azul marino y mandil, la cara de perfil o tapada. Sin texto, sin logotipos. El carpintero lija con lijadora orbital el tablero de una puerta de parota sobre el banco de trabajo, polvo en la luz."
+  ],
+  "Q4_barniz": [
+   [
+    "puerta"
+   ],
+   "Foto REAL vertical 9:16 estilo reel de taller cinematográfico (como @far12): taller de carpintería mexicano con techo de lámina, luz cálida, aserrín en el aire, herramientas reales; carpintero adulto con camisa de trabajo azul marino y mandil, la cara de perfil o tapada. Sin texto, sin logotipos. El carpintero aplica barniz con pistola de aire a la puerta de parota terminada, parada en un caballete, la madera brilla."
+  ],
+  "Q5_gabinete": [
+   [
+    "cocina"
+   ],
+   "Foto REAL vertical 9:16 estilo reel de taller cinematográfico (como @far12): taller de carpintería mexicano con techo de lámina, luz cálida, aserrín en el aire, herramientas reales; carpintero adulto con camisa de trabajo azul marino y mandil, la cara de perfil o tapada. Sin texto, sin logotipos. El carpintero atornilla las bisagras de un gabinete de melamina color madera como los de la cocina de la imagen, primer plano de manos."
+  ]
+ },
+ "tomas": [
+  [
+   "Z1_corte",
+   "Q1_corte",
+   "Vertical realistic cinematic woodworking shot, handheld close camera, real workshop sound, no speech, no text.",
+   3.0,
+   null
+  ],
+  [
+   "Z2_cepillo",
+   "Q2_cepillo",
+   "Vertical realistic cinematic woodworking shot, handheld close camera, real workshop sound, no speech, no text.",
+   3.0,
+   null
+  ],
+  [
+   "Z3_lija",
+   "Q3_lija",
+   "Vertical realistic cinematic woodworking shot, handheld close camera, real workshop sound, no speech, no text.",
+   3.0,
+   null
+  ],
+  [
+   "Z4_barniz",
+   "Q4_barniz",
+   "Vertical realistic cinematic woodworking shot, handheld close camera, real workshop sound, no speech, no text.",
+   3.0,
+   null
+  ],
+  [
+   "Z5_gabinete",
+   "Q5_gabinete",
+   "Vertical realistic cinematic woodworking shot, handheld close camera, real workshop sound, no speech, no text.",
+   3.0,
+   null
+  ]
+ ]
+}

@@ -1,0 +1,1 @@
+python3 gasto_modal.py run clientes/Jose/obrero_v6_20261030/jose_v7_modal.py > clientes/Jose/obrero_v6_20261030/modal_v7.log 2>&1 && python3 clientes/Jose/armado_20261029/armar_jose_v7.py > clientes/Jose/obrero_v6_20261030/armado_v7.log 2>&1

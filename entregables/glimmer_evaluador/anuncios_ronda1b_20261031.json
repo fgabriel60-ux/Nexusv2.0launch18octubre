@@ -1,0 +1,22 @@
+[
+ {
+  "nombre": "MARIANO_SPIDERMAN_v2",
+  "video": "/workspaces/Nexusv2.0launch18octubre/clientes/Mariano/video/Vizcaino_v5_gancho_spiderman_v2.mp4",
+  "cliente": "Mariano vende casas en desarrollo Catania, Vizcaíno, Rosarito B.C. Gancho estilo Spiderman de la referencia."
+ },
+ {
+  "nombre": "VERONICA_v1",
+  "video": "/workspaces/Nexusv2.0launch18octubre/clientes/VeronicaArguelles/video/VeronicaArguelles_qwen_v1.mp4",
+  "cliente": "Verónica Arguelles vende departamentos en Torre El Charro, Tampico. Precios en pesos."
+ },
+ {
+  "nombre": "RACHEL_v1",
+  "video": "/workspaces/Nexusv2.0launch18octubre/clientes/Micropigmentacion6861607879/video/Micropigmentacion6861607879_qwen_v1.mp4",
+  "cliente": "Rachel, Clou SPA, micropigmentación de cejas y labios en Mexicali."
+ },
+ {
+  "nombre": "BDPRO_v2",
+  "video": "/workspaces/Nexusv2.0launch18octubre/clientes/PistasBaile/video/BDPro_proceso_vs_resultado_v2.mp4",
+  "cliente": "BD Pro Monterrey, renta de pistas de baile para eventos (bodas, XV)."
+ }
+]

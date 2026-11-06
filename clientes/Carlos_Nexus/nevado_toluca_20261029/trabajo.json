@@ -1,0 +1,35 @@
+{
+ "id": "nevado_toluca_dios_20261029",
+ "carpeta": "nevado_toluca_dios_20261029",
+ "semilla": 12,
+ "tam": [
+  704,
+  1280
+ ],
+ "refs": {
+  "lienzo": "/vol/obrero/refs/lienzo_toluca.png"
+ },
+ "cuadros": {
+  "T1_dormido": [
+   [
+    "lienzo"
+   ],
+   "Película animada 3D estilo Disney Moana, iluminación cálida de amanecer, colores vivos, foto vertical 9:16, sin texto, sin letras. Usa la imagen solo como cielo de amanecer; crea toda la escena. El Nevado de Toluca visto de lejos al amanecer sobre un valle verde de México: la montaña es un dios gigante de tierra y roca dormido, acostado de lado como Te Fiti, con la cima nevada como su hombro y cabeza, el cráter con dos lagunas azules gemelas (la del Sol y la de la Luna) como sus ojos cerrados, cobertura de pasto y bosque de pinos sobre su cuerpo, nieve en la cima, neblina baja en el valle."
+  ],
+  "T2_se_levanta": [
+   [
+    "lienzo"
+   ],
+   "Película animada 3D estilo Disney Moana, iluminación cálida de amanecer, colores vivos, foto vertical 9:16, sin texto, sin letras. Usa la imagen solo como cielo de amanecer; crea toda la escena. El mismo Nevado de Toluca convertido en un dios gigante de tierra y roca que se incorpora y se levanta, como Te Fiti o Te Ka despertando: torso y cabeza erguidos sobre el valle, brazos de roca con pasto y pinos, ojos brillantes como las dos lagunas azules del cráter, cima nevada como corona, pequeñas rocas y polvo cayendo, rayos de sol del amanecer detrás, el valle verde a sus pies muy pequeño."
+  ]
+ },
+ "tomas": [
+  [
+   "S_despierta",
+   "T1_dormido",
+   "Vertical epic wide shot: the giant sleeping mountain god slowly opens its glowing blue eyes and rises up from lying on its side to a standing upright pose, earth and rocks crumbling and falling, dust and mist swirling in the valley, camera slowly tilting up to follow, Moana style animation, cinematic.",
+   5.0,
+   "T2_se_levanta"
+  ]
+ ]
+}

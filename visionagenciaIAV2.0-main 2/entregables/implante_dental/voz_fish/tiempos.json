@@ -1,0 +1,92 @@
+[
+ {
+  "marcador": "ROSTRO",
+  "cuadro": 1,
+  "inicio_s": 0.12,
+  "dura_s": 4.05,
+  "tramo_s": 4.65,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "¿Te falta un diente? Así se reemplaza con un implante, paso a paso."
+ },
+ {
+  "marcador": "CLOSEUP",
+  "cuadro": 150,
+  "inicio_s": 5.09,
+  "dura_s": 1.23,
+  "tramo_s": 1.35,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "Este es el espacio."
+ },
+ {
+  "marcador": "ANESTESIA",
+  "cuadro": 200,
+  "inicio_s": 6.75,
+  "dura_s": 5.01,
+  "tramo_s": 5.01,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "Primero, anestesia local en la encía. No sientes dolor."
+ },
+ {
+  "marcador": "CORTE",
+  "cuadro": 360,
+  "inicio_s": 12.09,
+  "dura_s": 1.68,
+  "tramo_s": 1.68,
+  "tempo": 1.011,
+  "encima": false,
+  "texto": "Ahora, veamos por dentro."
+ },
+ {
+  "marcador": "PREPARACION",
+  "cuadro": 420,
+  "inicio_s": 14.09,
+  "dura_s": 4.34,
+  "tramo_s": 6.35,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "El dentista prepara el hueso con precisión, justo donde estaba la raíz."
+ },
+ {
+  "marcador": "IMPLANTE",
+  "cuadro": 620,
+  "inicio_s": 20.75,
+  "dura_s": 2.61,
+  "tramo_s": 3.68,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "Coloca un tornillo de titanio dentro del hueso."
+ },
+ {
+  "marcador": "INTEGRACION",
+  "cuadro": 740,
+  "inicio_s": 24.75,
+  "dura_s": 3.74,
+  "tramo_s": 3.85,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "Con los meses, el hueso crece a su alrededor y lo fija."
+ },
+ {
+  "marcador": "CORONA",
+  "cuadro": 865,
+  "inicio_s": 28.92,
+  "dura_s": 4.15,
+  "tramo_s": 4.18,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "Encima va el pilar, y una corona del color de tus dientes."
+ },
+ {
+  "marcador": "SONRISA",
+  "cuadro": 1000,
+  "inicio_s": 33.42,
+  "dura_s": 1.23,
+  "tramo_s": 1.38,
+  "tempo": 1.0,
+  "encima": false,
+  "texto": "Y vuelves a sonreír."
+ }
+]

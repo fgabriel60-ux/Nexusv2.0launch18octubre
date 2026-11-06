@@ -1,0 +1,125 @@
+{
+ "nota": "Desglose por ubicaci\u00f3n, periodo completo 2026-06-17..2026-07-09, anuncio 120251563209080651. Transcrito de respuesta en l\u00ednea. NO mezclar con totales.",
+ "result": [
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-07-09",
+   "publisher_platform": "facebook",
+   "platform_position": "facebook_reels",
+   "spend": 93.9821,
+   "impressions": 590,
+   "link_clicks": 9,
+   "conversaciones": 6
+  },
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-07-09",
+   "publisher_platform": "facebook",
+   "platform_position": "feed",
+   "spend": 746.6825,
+   "impressions": 5652,
+   "link_clicks": 122,
+   "conversaciones": 62
+  },
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-07-09",
+   "publisher_platform": "instagram",
+   "platform_position": "feed",
+   "spend": 46.8015,
+   "impressions": 218,
+   "link_clicks": 5,
+   "conversaciones": 3
+  },
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-07-09",
+   "publisher_platform": "instagram",
+   "platform_position": "instagram_reels",
+   "spend": 43.0445,
+   "impressions": 173,
+   "link_clicks": 12,
+   "conversaciones": 9
+  },
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-07-09",
+   "publisher_platform": "instagram",
+   "platform_position": "instagram_stories",
+   "spend": 22.8222,
+   "impressions": 114,
+   "link_clicks": 3,
+   "conversaciones": 2
+  },
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-07-09",
+   "publisher_platform": "facebook",
+   "platform_position": "facebook_stories",
+   "spend": 7.5678,
+   "impressions": 52,
+   "link_clicks": 4,
+   "conversaciones": 1
+  },
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-07-09",
+   "publisher_platform": "facebook",
+   "platform_position": "instream_video",
+   "spend": 1.33,
+   "impressions": 25,
+   "link_clicks": 1,
+   "conversaciones": 1
+  },
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-07-09",
+   "publisher_platform": "facebook",
+   "platform_position": "marketplace",
+   "spend": 2.14,
+   "impressions": 58,
+   "link_clicks": 1,
+   "conversaciones": 0
+  },
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-07-09",
+   "publisher_platform": "facebook",
+   "platform_position": "facebook_reels_overlay",
+   "spend": 0.28,
+   "impressions": 9,
+   "link_clicks": 0,
+   "conversaciones": 0
+  },
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-07-09",
+   "publisher_platform": "facebook",
+   "platform_position": "search",
+   "spend": 1.5895,
+   "impressions": 10,
+   "link_clicks": 0,
+   "conversaciones": 0
+  },
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-07-09",
+   "publisher_platform": "facebook",
+   "platform_position": "facebook_notification",
+   "spend": 0.11,
+   "impressions": 1,
+   "link_clicks": 0,
+   "conversaciones": 0
+  },
+  {
+   "ad_id": "120251563209080651",
+   "periodo": "2026-06-17..2026-07-09",
+   "publisher_platform": "facebook",
+   "platform_position": "facebook_profile_feed",
+   "spend": 0.28,
+   "impressions": 2,
+   "link_clicks": 0,
+   "conversaciones": 0
+  }
+ ]
+}

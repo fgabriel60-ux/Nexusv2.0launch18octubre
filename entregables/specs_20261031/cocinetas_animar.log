@@ -1,0 +1,30 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-l21xYEisyhGrOWGA7LWSqD
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma KT0_transforma
+toma KT1_cocina
+toma KT2_cocina2
+toma KT3_closet
+toma KT4_barra
+guardado KT0_transforma.mp4
+guardado KT1_cocina.mp4
+guardado KT2_cocina2.mp4
+guardado KT3_closet.mp4
+guardado KT4_barra.mp4
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-l21xYEisyhGrOWGA7LWSqD
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261031/cocinetas_v1.json
+Duración: 7.0 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.033
+  escenas-carlos (ap-l21xYEisyhGrOWGA7LWSqD): $0.270
+Gasto del trabajo: $0.303
+Saldo restante ≈ $9.34

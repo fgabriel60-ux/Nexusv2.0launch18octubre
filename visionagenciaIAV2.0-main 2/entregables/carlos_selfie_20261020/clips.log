@@ -1,0 +1,15 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-Mvx8FWFDrKBfYARS3ULwyZ
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/carlos_selfie_20261020/carlos_selfie_modal.py
+├── ✓ Created Function cuadros.
+└── ✓ Created Function clips.
+clip N1 328 /datos/siena/out/carlos_selfie/N1_00001_.mp4
+clip X1 328 /datos/siena/out/carlos_selfie/X1_00001_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/carlos_selfie_20261020/clips/N1
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/carlos_selfie_20261020/clips/X1
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-Mvx8FWFDrKBfYARS3ULwyZ

@@ -1,0 +1,22 @@
+{
+ "carpeta": "entregables/rafael_lipsync_20261105",
+ "salida": "entregables/rafael_lipsync_20261105/cuadros",
+ "semilla": 21,
+ "ancho": 720,
+ "alto": 1280,
+ "pasos": 30,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "RAF_habla",
+   "RAF_polo_3_adentro",
+   "El hombre sentado dentro del auto habla a la cámara explicando algo, con movimiento natural de labios, cejas y cabeza. La cámara se acerca muy despacio. SIN VOZ GENERADA, sin diálogo ni voz en off del modelo: el único sonido de la escena sería el ambiente del auto.",
+   6,
+   "gancho"
+  ]
+ ],
+ "voces": {
+  "gancho": "clientes/Rafael_BYD/voz_gancho/gancho_t2.wav"
+ }
+}

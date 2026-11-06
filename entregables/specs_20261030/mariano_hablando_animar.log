@@ -1,0 +1,27 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-MSivehrAJRVflE3F0fYKpf
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma HM1_salvia
+toma HM2_padel
+toma HM3_calle
+guardado HM1_salvia.mp4
+guardado HM2_padel.mp4
+guardado HM3_calle.mp4
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-30T21:19:15+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-MSivehrAJRVflE3F0fYKpf
+
+== Reporte Modal fgabriel60 ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261030/mariano_hablando_v1.json
+Duración: 9.0 min  (código 0)
+  glimmer (ap-k1TWb7022udE33npzce7L3): $0.247
+  escenas-carlos (ap-MSivehrAJRVflE3F0fYKpf): $0.422
+Gasto del trabajo: $0.669
+Saldo restante ≈ $3.85

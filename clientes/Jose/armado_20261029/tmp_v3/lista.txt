@@ -1,0 +1,6 @@
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v3/J1_gancho.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v3/J2_prepara.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v3/J3_cubeta.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v3/J4_rodillo.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v3/J5_lluvia.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v3/J6_cierre.mp4'

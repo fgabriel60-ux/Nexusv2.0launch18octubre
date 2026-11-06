@@ -1,0 +1,64 @@
+{
+ "carpeta": "mariano_spiderman_r4",
+ "salida": "clientes/Mariano/video/spiderman/r4/salida",
+ "semilla": 41,
+ "refs": {
+  "m": "clientes/Mariano/video/hablando_v1/mariano_hook_ref.png",
+  "casa": "clientes/Mariano/video/spiderman/refs/salvia_fachada.png"
+ },
+ "cuadros": {
+  "SP1_techo": [
+   [
+    "m",
+    "casa"
+   ],
+   "Foto realista vertical 9:16 con lente gran angular desde el piso de concreto de la entrada, cámara baja, cielo azul con sol fuerte: la MISMA casa REAL de la segunda imagen (casa moderna de dos pisos color beige con TECHO PLANO, ventanas con paneles gris oscuro, entrada con pasto en franjas y piso de concreto), vista completa. el MISMO hombre de la primera imagen (misma cara, barba, peinado, saco azul claro, camisa blanca, jeans, cinturón café, zapatos cafés, ropa normal) aparece PEQUEÑO de pie en la orilla del techo plano de esa casa, a punto de saltar hacia la cámara, brazos abiertos. Sombras largas en el concreto.",
+   "texto, letras, disfraz, traje de superhéroe, traje rojo, máscara, casa de dos aguas, techo inclinado, otra casa, otra persona, cara diferente, persona duplicada, borroso, deformado"
+  ],
+  "SP2_aire": [
+   [
+    "m",
+    "casa"
+   ],
+   "Foto realista vertical 9:16 con lente gran angular desde el piso de la entrada, cámara baja: la MISMA casa REAL de la segunda imagen (casa moderna de dos pisos color beige con TECHO PLANO, ventanas con paneles gris oscuro, entrada con pasto en franjas y piso de concreto), al fondo. el MISMO hombre de la primera imagen (misma cara, barba, peinado, saco azul claro, camisa blanca, jeans, cinturón café, zapatos cafés, ropa normal) va EN EL AIRE a media altura cayendo hacia la cámara después de saltar del techo, brazos y piernas abiertos, saco ondeando, su sombra en el concreto.",
+   "texto, letras, disfraz, traje de superhéroe, traje rojo, máscara, casa de dos aguas, techo inclinado, otra casa, otra persona, cara diferente, persona duplicada, borroso, deformado"
+  ],
+  "SP3_aterriza": [
+   [
+    "m",
+    "casa"
+   ],
+   "Foto realista vertical 9:16 con lente gran angular muy cerca, cámara baja en el concreto de la entrada frente a la MISMA casa REAL de la segunda imagen (casa moderna de dos pisos color beige con TECHO PLANO, ventanas con paneles gris oscuro, entrada con pasto en franjas y piso de concreto), el MISMO hombre de la primera imagen (misma cara, barba, peinado, saco azul claro, camisa blanca, jeans, cinturón café, zapatos cafés, ropa normal) acaba de ATERRIZAR como superhéroe de película: muy agachado, piernas abiertas, UNA MANO TOCANDO EL PISO, la otra mano hacia atrás, cabeza arriba mirando a la cámara con media sonrisa, polvo leve del impacto, grieta pequeña en el concreto, sombra marcada, sol fuerte.",
+   "texto, letras, disfraz, traje de superhéroe, traje rojo, máscara, casa de dos aguas, techo inclinado, otra casa, otra persona, cara diferente, persona duplicada, borroso, deformado"
+  ],
+  "SP4_depie": [
+   [
+    "m",
+    "casa"
+   ],
+   "Foto realista vertical 9:16 con lente gran angular, cámara baja en la entrada frente a la MISMA casa REAL de la segunda imagen (casa moderna de dos pisos color beige con TECHO PLANO, ventanas con paneles gris oscuro, entrada con pasto en franjas y piso de concreto), el MISMO hombre de la primera imagen (misma cara, barba, peinado, saco azul claro, camisa blanca, jeans, cinturón café, zapatos cafés, ropa normal) de pie, de cuerpo completo, sonriendo y hablando a la cámara con una mano abierta, sombra larga, sol fuerte.",
+   "texto, letras, disfraz, traje de superhéroe, traje rojo, máscara, casa de dos aguas, techo inclinado, otra casa, otra persona, cara diferente, persona duplicada, borroso, deformado"
+  ]
+ },
+ "tomas": [
+  [
+   "SPT1_salto",
+   "SP1_techo",
+   "Vertical realistic wide-angle shot, low camera in the driveway: the man standing on the edge of the flat roof jumps off and falls fast toward the camera in one continuous motion, then lands hard on the concrete in a superhero landing: deep crouch, legs wide, one hand on the ground, small dust burst, long shadow. Same man, same clothes, same real house. Fast, energetic. No text. Audio: whoosh and a heavy landing thud, no speech.",
+   3.0,
+   null,
+   "SP3_aterriza"
+  ],
+  [
+   "SPT2_habla",
+   "SP3_aterriza",
+   "Vertical realistic wide-angle shot, low camera: from the superhero landing crouch the man rises quickly to standing and talks directly to the camera in Spanish with natural lip movement exactly matching the speech, confident smile, open hand gesture. Same man, same clothes, same real house. No text.",
+   4.9,
+   "gancho",
+   "SP4_depie"
+  ]
+ ],
+ "voces": {
+  "gancho": "clientes/Mariano/video/spiderman/voz/gancho.wav"
+ }
+}

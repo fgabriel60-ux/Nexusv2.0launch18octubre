@@ -1,0 +1,723 @@
+Reading additional input from stdin...
+OpenAI Codex v0.166.0
+--------
+workdir: /workspaces/Nexusv2.0launch18octubre
+model: gpt-6.1-sol
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: low
+reasoning summaries: none
+session id: 01a1adba-7159-73d1-8223-338b8b8e3f03
+--------
+user
+Haz 4 anuncios, 2 por cliente, cada uno con SU PROPIA identidad visual. Trabaja en
+/workspaces/Nexusv2.0launch18octubre.
+
+LEE PRIMERO ESTE ARCHIVO COMPLETO, es la guía y manda sobre todo lo demás:
+  entregables/glimmer_identidad_20261105/IDENTIDAD_VISUAL.md
+Trae, para cada cliente, su paleta con códigos, su tipografía, cómo tratar la foto, la composición,
+el tono del texto y una REGLA DE ORO. Respétalas al pie.
+
+OJO, ESTO ES LO IMPORTANTE: antes hicimos estos anuncios en negro con amarillo neón y estuvo mal.
+Ese estilo es el de la AGENCIA vendiéndole a concesionarias e inmobiliarias, no el de estos dos
+clientes, que le venden a familias. La guía lo dice expresamente. Nada de negro de fondo ni de
+amarillo neón en estos cuatro.
+
+Formato 1080x1350 los cuatro. Guárdalos en entregables/anuncios_imagen_20261104/v5_identidad/
+
+=== RAFAEL · asesor BYD en Azcapotzalco, CDMX ===
+Identidad: azul marino #0B1F3A de fondo, blanco, gris claro #E6E8EB y verde esmeralda #00A86B solo
+para el botón. Titular en Plus Jakarta Sans ExtraBold, texto en Inter. Foto del auto a plena luz
+natural en calle de ciudad, ángulo tres cuartos frontal un poco bajo. Nada de estudio oscuro.
+Fotos reales a usar:
+  clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg  (el auto)
+  clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg  (él, polo oscuro)
+
+1) RAFAEL_v5_ahorro.png
+   Titular: Menos gasolina, más kilómetros con tu familia
+   Apoyo: Híbridos y eléctricos BYD · hasta 1,145 km de autonomía
+   Botón verde esmeralda: Pide tu prueba de manejo
+   Pie: Rafael · Asesor BYD · Azcapotzalco
+
+2) RAFAEL_v5_prueba.png
+   Titular: Autonomía real para el tráfico de Azcapotzalco
+   Apoyo: Song Plus, King y Dolphin · prueba de manejo sin compromiso
+   Botón verde esmeralda: Escríbeme por WhatsApp
+   Pie: Rafael · Asesor BYD · Azcapotzalco
+
+=== MARIANO · Vizcaíno Residencial, Rosarito, Baja California ===
+Identidad: blanco cálido #F7F5F2 de fondo, texto en azul piedra #2F4550, bloques en arena #D9C7A1
+y terracota suave #C1664C solo para el botón. Titular en Sora SemiBold, texto en Inter. Foto de la
+fachada en luz natural de mañana o tarde, cielo despejado, a la altura del ojo. Luz cálida.
+Fotos reales a usar:
+  clientes/Mariano/anuncios/refs/benjamina_fachada.jpg  (la casa)
+  clientes/Mariano/fotos/mariano_luz_final.png  (él, saco azul claro)
+
+3) MARIANO_v5_benjamina.png
+   Titular: Casa nueva en Rosarito, lista para tu familia
+   Apoyo: Modelo Benjamina · desde 2 millones 800 mil pesos
+   Tres datos cortos: Dos pisos · Privada con cancha de pádel · Infonavit y crédito hipotecario
+   Botón terracota: Agenda tu visita
+   Pie: Mariano · Vizcaíno Residencial · Rosarito, B.C.
+
+4) MARIANO_v5_modelos.png
+   Titular: Cuatro modelos, un mismo fraccionamiento privado
+   Apoyo: Desde 1 millón 400 mil pesos
+   Lista corta: Sotol 1.4 · Bugambilia 2.4 · Benjamina 2.8 · Salvia 4 recámaras 3.1 (millones)
+   Botón terracota: Escríbeme «Vizcaíno»
+   Pie: Mariano · Vizcaíno Residencial · Rosarito, B.C.
+
+REGLAS:
+- Esos precios y modelos son datos reales. Escríbelos tal cual. No inventes ningún otro número.
+- Texto perfecto en español con acentos, sin letras inventadas.
+- Las personas con piel de textura real, manos correctas o fuera de cuadro, ropa con arrugas.
+- Si aparece una matrícula, tápala.
+- Márgenes de 80 px, nada pegado al borde.
+Cuando termines dime qué quedó en cada ruta y, en una línea por anuncio, cómo cumpliste su regla de oro.
+codex
+Voy a leer la guía completa y las notas de Carlos; después preparo los cuatro anuncios con sus fotos reales y reviso texto, colores y márgenes.
+exec
+/bin/bash -lc 'cat entregables/glimmer_identidad_20261105/IDENTIDAD_VISUAL.md' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+Perfecto. Aquí tienes la identidad visual propia, accionable y lista para convertir en prompt, para cada cliente. Sin inventar datos que no diste.
+
+# CLIENTE 1 — RAFAEL HERNÁNDEZ, asesor de autos BYD en Azcapotzalco
+
+**1. IDEA CENTRAL**  
+“Tranquilidad económica e inteligente para la familia que se mueve en CDMX.”  
+Porque el comprador busca ahorrar en gasolina/mantenimiento, tecnología accesible y espacio práctico para familia o trabajo, sin pagar precio premium. La identidad debe transmitir ahorro real, confianza y modernidad cercana.
+
+**2. PALETA**  
+- **Azul marino #0B1F3A** → fondo principal. Transmite confianza y profesionalismo; conecta con el polo de Rafael y con la estética tecnológica de BYD.  
+- **Blanco #FFFFFF** → texto principal y áreas de respiro. Legibilidad máxima en móvil y sensación de limpieza/electricidad.  
+- **Gris claro #E6E8EB** → fondo secundario / bloques de información. Reduce fatiga visual en anuncios con datos de financiamiento.  
+- **Verde esmeralda #00A86B** → acento y botón CTA. Refuerza lo eléctrico/híbrido y el ahorro. Evita “verde neón” para no verse barato.  
+**No usar:** negro absoluto como fondo dominante, amarillo neón, rojos intensos. Rompen la confianza financiera y chocan con la identidad de BYD. El negro/amarillo es de la agencia, no del cliente.
+
+**3. TIPOGRAFÍA**  
+Carácter: titular fuerte, legible, sin exagerar condensación; texto claro y compacto.  
+Google Fonts: **Titular:** *Plus Jakarta Sans ExtraBold* o *Manrope ExtraBold*. **Texto:** *Inter Medium/Regular*.  
+Tamaños 1080x1350: Titular 72–84 px, sub 42–48 px, cuerpo 32–36 px, CTA 44–52 px. Interlineado titular 1.05, cuerpo 1.35.
+
+**4. TRATAMIENTO DE LA FOTO**  
+- **Producto:** auto a plena luz natural, exterior urbano de Azcapotzalco, ángulo a 3/4 frontal ligeramente bajo para dar presencia. Se ven espacio interior, cajuela y manijas; badge BYD visible. Color del auto en tonos reales (blanco, gris, azul).  
+- **Persona:** Rafael con polo azul marino, de pie junto al auto, mirada a cámara, expresión relajada. Evitar poses de “agencia”.  
+- **Iluminación:** natural suave, sin filtros duros.  
+- **Qué SIEMPRE:** matrícula tapada si aparece, logo BYD visible, contexto urbano cercano.  
+- **Qué NUNCA:** fondos negros, amarillo neón, humo, efectos de tablero técnico, autos en estudio oscuro.
+
+**5. COMPOSICIÓN 1080x1350**  
+- 60% superior: foto del auto con Rafael pequeño al lado o en esquina inferior de la foto.  
+- 40% inferior: bloque de información sobre fondo azul marino.  
+- Jerarquía: Titular grande centrado → 1 beneficio cuantificado → CTA botón verde esmeralda.  
+- Márgenes seguros 80 px. Nada invade bordes.
+
+**6. TONO DEL TEXTO**  
+De **tú**, cercano y directo, con números. Habla de ahorro, familia y practicidad.  
+Usa: ahorro, mensualidad, autonomía, espacio, prueba de manejo, financiamiento.  
+Evita: “dolor”, “tablero técnico”, jerga de agencia, superlativos vacíos.  
+Titulares 6–8 palabras:  
+- “Menos gasolina, más kilómetros con tu familia.”  
+- “Autonomía real para el tráfico de Azcapotzalco.”  
+- “Prueba de manejo sin compromiso hoy mismo.”
+
+**7. DIFERENCIA CON EL ESTILO AGENCIA**  
+Fondo azul marino en vez de negro; verde esmeralda en vez de amarillo neón; fotografía natural urbana en vez de estética de tablero técnico; tipografía moderna sin condensación extrema; foco en ahorro familiar, no en “dolor” abstracto.
+
+**REGLA DE ORO**  
+Si el anuncio no muestra el auto en contexto real de CDMX con un mensaje claro de ahorro/mensualidad y el botón en verde esmeralda sobre azul marino, deja de ser de Rafael.
+
+---
+
+# CLIENTE 2 — MARIANO, asesor inmobiliario de Vizcaíno Residencial, Rosarito
+
+**1. IDEA CENTRAL**  
+“Casa nueva, luz del Pacífico y vida en familia, sin complicaciones de crédito.”  
+Porque el comprador quiere una vivienda moderna, luminosa, en entorno tranquilo con amenidades, y claridad en precios y financiamiento Infonavit/hipotecario.
+
+**2. PALETA**  
+- **Blanco cálido #F7F5F2** → fondo principal. Refleja las fachadas blancas de las casas y la luz de Baja.  
+- **Azul piedra #2F4550** → texto principal. Seriedad y confianza para la decisión de compra.  
+- **Arena #D9C7A1** → bloques secundarios / separadores. Remite a la costa sin ser turístico.  
+- **Terracota suave #C1664C** → acento y botón CTA. Calidez humana y diferenciación elegante.  
+**No usar:** negro absoluto dominante, amarillo neón. Se sienten fríos/agresivos y rompen la sensación de hogar luminoso. Tampoco verdes muy saturados que compitan con el paisaje.
+
+**3. TIPOGRAFÍA**  
+Carácter: titular limpio y estable, con presencia; texto legible y cercano.  
+Google Fonts: **Titular:** *Sora SemiBold* o *Outfit SemiBold*. **Texto:** *Inter Regular/Medium*.  
+Tamaños 1080x1350: Titular 68–80 px, sub 40–46 px, cuerpo 30–34 px, CTA 42–48 px. Interlineado titular 1.08, cuerpo 1.4.
+
+**4. TRATAMIENTO DE LA FOTO**  
+- **Producto:** fachada frontal de la casa en luz natural de mañana/tarde, cielo despejado, calle ancha con pasto visible, dos pisos, blancos nítidos. Ángulo recto a la altura del ojo.  
+- **Persona:** Mariano con saco azul claro, camisa blanca, jeans y zapatos cafés, de pie frente a la casa o en la entrada, sonrisa contenida.  
+- **Iluminación:** natural, cálida, sin filtros fríos.  
+- **Qué SIEMPRE:** modelo y precio del modelo visible, contexto del fraccionamiento, cielo/luz.  
+- **Qué NUNCA:** fondos negros, amarillo neón, grano excesivo, efectos tipo “tablero técnico”, fotos nocturnas dramáticas.
+
+**5. COMPOSICIÓN 1080x1350**  
+- 65% superior: foto de la casa con luz natural.  
+- 35% inferior: bloque blanco con texto sobre fondo blanco cálido y barra delgada arena como separador.  
+- Titular grande a la izquierda, precio alineado a la derecha; CTA terracota centrado bajo el texto.
+
+**6. TONO DEL TEXTO**  
+De **tú**, cercano y seguro. Claro con precios y opciones de crédito.  
+Usa: casa nueva, recámaras, Infonavit, crédito hipotecario, fraccionamiento privado, cancha de pádel, entrega.  
+Evita: “dolor”, “tablero técnico”, jerga de agencia, promesas vagas.  
+Titulares 6–8 palabras:  
+- “Tu casa nueva en Rosarito, con luz todo el día.”  
+- “Modelos desde 1.4 millones con Infonavit.”  
+- “Vive en privado con cancha de pádel cerca.”
+
+**7. DIFERENCIA CON EL ESTILO AGENCIA**  
+Fondo blanco cálido en vez de negro; acento terracota en vez de amarillo neón; fotografía luminosa de arquitectura real en vez de estética técnica; tipografía estable y legible; foco en hogar y claridad de precio, no en “dolores”.
+
+**REGLA DE ORO**  
+Si el anuncio no muestra la casa blanca en luz natural con precio y opción de crédito visibles, y el CTA en terracota sobre fondo claro, deja de ser de Mariano.
+
+exec
+/bin/bash -lc 'cat /vol/claude-config/codex/contexto_carlos.md; cat /vol/claude-config/projects/---modal-volumes-vo-N6gOPxHfXSf5HzbsmuqjJ3-workspaces-Nexusv2-0launch18octubre/memory/MEMORY.md' in /workspaces/Nexusv2.0launch18octubre
+ exited 1 in 0ms:
+cat: /vol/claude-config/codex/contexto_carlos.md: No such file or directory
+cat: /vol/claude-config/projects/---modal-volumes-vo-N6gOPxHfXSf5HzbsmuqjJ3-workspaces-Nexusv2-0launch18octubre/memory/MEMORY.md: No such file or directory
+
+exec
+/bin/bash -lc 'cat /home/codespace/.codex/skills/.system/imagegen/SKILL.md' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+---
+name: "imagegen"
+description: "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas."
+---
+
+# Image Generation Skill
+
+Generates or edits images for the current project (for example website assets, game assets, UI mockups, product mockups, wireframes, logo design, photorealistic images, or infographics).
+
+## Top-level modes and rules
+
+This skill has exactly two top-level modes:
+
+- **Default built-in tool mode (preferred):** built-in `image_gen` tool for image generation, editing, and transparent-image requests. Does not require `OPENAI_API_KEY`.
+- **Fallback CLI mode:** `scripts/image_gen.py` CLI. Use when the user explicitly asks for or confirms the CLI/API/model path. Requires `OPENAI_API_KEY`.
+
+Within CLI fallback, the CLI exposes three subcommands:
+
+- `generate`
+- `edit`
+- `generate-batch`
+
+Rules:
+- Use the built-in `image_gen` tool by default for normal image generation and editing requests.
+- Do not switch to CLI fallback for ordinary quality, size, or file-path control.
+- For transparent images, ask built-in `image_gen` for a transparent background and preserve the generated alpha.
+- Never silently switch from built-in `image_gen` or CLI `gpt-image-2` to CLI `gpt-image-1.5`; ask the user first unless they explicitly requested `gpt-image-1.5`.
+- The word `batch` by itself does not mean CLI fallback. If the user asks for many assets or says to batch-generate assets without explicitly asking for CLI/API/model controls, stay on the built-in path and issue one built-in call per requested asset or variant.
+- If the built-in tool fails or is unavailable, tell the user the CLI fallback exists and that it requires `OPENAI_API_KEY`. Proceed only if the user explicitly asks for that fallback.
+- If the user explicitly asks for CLI mode, use the bundled `scripts/image_gen.py` workflow. Do not create one-off SDK runners.
+- Never modify `scripts/image_gen.py`. If something is missing, ask the user before doing anything else.
+
+Built-in save-path policy:
+- In built-in tool mode, Codex saves generated images under `$CODEX_HOME/*` by default.
+- Do not describe or rely on OS temp as the default built-in destination.
+- Do not describe or rely on a destination-path argument (if any) on the built-in `image_gen` tool. If a specific location is needed, generate first and then move or copy the selected output from `$CODEX_HOME/generated_images/...`.
+- Save-path precedence in built-in mode:
+  1. If the user names a destination, move or copy the selected output there.
+  2. If the image is meant for the current project, move or copy the final selected image into the workspace before finishing.
+  3. If the image is only for preview or brainstorming, render it inline; the underlying file can remain at the default `$CODEX_HOME/*` path.
+- Never leave a project-referenced asset only at the default `$CODEX_HOME/*` path.
+- Do not overwrite an existing asset unless the user explicitly asked for replacement; otherwise create a sibling versioned filename such as `hero-v2.png` or `item-icon-edited.png`.
+
+Shared prompt guidance for both modes lives in `references/prompting.md` and `references/sample-prompts.md`.
+
+Fallback-only docs/resources for CLI mode:
+- `references/cli.md`
+- `references/image-api.md`
+- `references/codex-network.md`
+- `scripts/image_gen.py`
+
+## When to use
+- Generate a new image (concept art, product shot, cover, website hero)
+- Generate a new image using one or more reference images for style, composition, or mood
+- Edit an existing image (inpainting, lighting or weather transformations, background replacement, object removal, compositing, transparent background)
+- Produce many assets or variants for one task
+
+## When not to use
+- Extending or matching an existing SVG/vector icon set, logo system, or illustration library inside the repo
+- Creating simple shapes, diagrams, wireframes, or icons that are better produced directly in SVG, HTML/CSS, or canvas
+- Making a small project-local asset edit when the source file already exists in an editable native format
+- Any task where the user clearly wants deterministic code-native output instead of a generated bitmap
+
+## Decision tree
+
+Think about two separate questions:
+
+1. **Intent:** is this a new image or an edit of an existing image?
+2. **Execution strategy:** is this one asset or many assets/variants?
+
+Intent:
+- If the user wants to modify an existing image while preserving parts of it, treat the request as **edit**.
+- If the user provides images only as references for style, composition, mood, or subject guidance, treat the request as **generate**.
+- If the user provides no images, treat the request as **generate**.
+
+Built-in edit semantics:
+- Built-in edit mode is for images already visible in the conversation context, such as attached images or images generated earlier in the thread.
+- If the user wants to edit a local image file with the built-in tool, first load it with built-in `view_image` tool so the image is visible in the conversation context, then proceed with the built-in edit flow.
+- Do not promise arbitrary filesystem-path editing through the built-in tool.
+- If a local file still needs direct file-path control, masks, or other explicit CLI-only parameters, use the explicit CLI fallback only when the user asks for it.
+- For edits, preserve invariants aggressively and save non-destructively by default.
+
+Execution strategy:
+- In the built-in default path, produce many assets or variants by issuing one `image_gen` call per requested asset or variant.
+- In the CLI fallback path, use the CLI `generate-batch` subcommand only when the user explicitly chose CLI mode and needs many prompts/assets.
+- For many distinct assets, do not use `n` as a substitute for separate prompts. `n` is for variants of one prompt; distinct assets need distinct built-in calls or distinct CLI `generate-batch` jobs.
+
+Assume the user wants a new image unless they clearly ask to change an existing one.
+
+## Workflow
+1. Decide the top-level mode: built-in by default, including transparent-output requests; fallback CLI only if explicitly requested or confirmed.
+2. Decide the intent: `generate` or `edit`.
+3. Decide whether the output is preview-only or meant to be consumed by the current project.
+4. Decide the execution strategy: single asset vs repeated built-in calls vs CLI `generate-batch`.
+5. Collect inputs up front: prompt(s), exact text (verbatim), constraints/avoid list, and any input images.
+6. For every input image, label its role explicitly:
+   - reference image
+   - edit target
+   - supporting insert/style/compositing input
+7. If the edit target is only on the local filesystem and you are staying on the built-in path, inspect it with `view_image` first so the image is available in conversation context.
+8. If the user asked for a photo, illustration, sprite, product image, banner, or other explicitly raster-style asset, use `image_gen` rather than substituting SVG/HTML/CSS placeholders. If the request is for an icon, logo, or UI graphic that should match existing repo-native SVG/vector/code assets, prefer editing those directly instead.
+9. Augment the prompt based on specificity:
+   - If the user's prompt is already specific and detailed, normalize it into a clear spec without adding creative requirements.
+   - If the user's prompt is generic, add tasteful augmentation only when it materially improves output quality.
+10. Use the built-in `image_gen` tool by default.
+11. For transparent-output requests, ask built-in `image_gen` for a transparent background and preserve the generated alpha channel.
+12. Inspect outputs and validate: subject, style, composition, text accuracy, and invariants/avoid items.
+13. Iterate with a single targeted change, then re-check.
+14. For preview-only work, render the image inline; the underlying file may remain at the default `$CODEX_HOME/generated_images/...` path.
+15. For project-bound work, move or copy the selected artifact into the workspace and update any consuming code or references. Never leave a project-referenced asset only at the default `$CODEX_HOME/generated_images/...` path.
+16. For batches or multi-asset requests, persist every requested deliverable final in the workspace unless the user explicitly asked to keep outputs preview-only. Discarded variants do not need to be kept unless requested.
+17. If the user explicitly chooses or confirms the CLI fallback, then use the fallback-only docs for model, quality, size, `input_fidelity`, masks, output format, output paths, and network setup.
+18. Always report the final saved path(s) for any workspace-bound asset(s), plus the final prompt or prompt set and whether the built-in tool or fallback CLI mode was used.
+
+## Transparent image requests
+
+Ask built-in `image_gen` for a genuinely transparent background and preserve its alpha.
+
+## Prompt augmentation
+
+Reformat user prompts into a structured, production-oriented spec. Make the user's goal clearer and more actionable, but do not blindly add detail.
+
+Treat this as prompt-shaping guidance, not a closed schema. Use only the lines that help, and add a short extra labeled line when it materially improves clarity.
+
+### Specificity policy
+
+Use the user's prompt specificity to decide how much augmentation is appropriate:
+
+- If the prompt is already specific and detailed, preserve that specificity and only normalize/structure it.
+- If the prompt is generic, you may add tasteful augmentation when it will materially improve the result.
+
+Allowed augmentations:
+- composition or framing hints
+- polish level or intended-use hints
+- practical layout guidance
+- reasonable scene concreteness that supports the stated request
+
+Not allowed augmentations:
+- extra characters or objects that are not implied by the request
+- brand names, slogans, palettes, or narrative beats that are not implied
+- arbitrary side-specific placement unless the surrounding layout supports it
+
+## Use-case taxonomy (exact slugs)
+
+Classify each request into one of these buckets and keep the slug consistent across prompts and references.
+
+Generate:
+- photorealistic-natural — candid/editorial lifestyle scenes with real texture and natural lighting.
+- product-mockup — product/packaging shots, catalog imagery, merch concepts.
+- ui-mockup — app/web interface mockups and wireframes; specify the desired fidelity.
+- infographic-diagram — diagrams/infographics with structured layout and text.
+- scientific-educational — classroom explainers, scientific diagrams, and learning visuals with required labels and accuracy constraints.
+- ads-marketing — campaign concepts and ad creatives with audience, brand position, scene, and exact tagline/copy.
+- productivity-visual — slide, chart, workflow, and data-heavy business visuals.
+- logo-brand — logo/mark exploration, vector-friendly.
+- illustration-story — comics, children’s book art, narrative scenes.
+- stylized-concept — style-driven concept art, 3D/stylized renders.
+- historical-scene — period-accurate/world-knowledge scenes.
+
+Edit:
+- text-localization — translate/replace in-image text, preserve layout.
+- identity-preserve — try-on, person-in-scene; lock face/body/pose.
+- precise-object-edit — remove/replace a specific element (including interior swaps).
+- lighting-weather — time-of-day/season/atmosphere changes only.
+- background-extraction — transparent background / clean cutout. Ask built-in `image_gen` for actual transparency.
+- style-transfer — apply reference style while changing subject/scene.
+- compositing — multi-image insert/merge with matched lighting/perspective.
+- sketch-to-render — drawing/line art to photoreal render.
+
+## Shared prompt schema
+
+Use the following labeled spec as shared prompt scaffolding for both top-level modes:
+
+```text
+Use case: <taxonomy slug>
+Asset type: <where the asset will be used>
+Primary request: <user's main prompt>
+Input images: <Image 1: role; Image 2: role> (optional)
+Scene/backdrop: <environment>
+Subject: <main subject>
+Style/medium: <photo/illustration/3D/etc>
+Composition/framing: <wide/close/top-down; placement>
+Lighting/mood: <lighting + mood>
+Color palette: <palette notes>
+Materials/textures: <surface details>
+Text (verbatim): "<exact text>"
+Constraints: <must keep/must avoid>
+Avoid: <negative constraints>
+```
+
+Notes:
+- `Asset type` and `Input images` are prompt scaffolding, not dedicated CLI flags.
+- `Scene/backdrop` refers to the visual setting. It is not the same as the fallback CLI `background` parameter, which controls output transparency behavior.
+- Fallback-only execution notes such as `Quality:`, `Input fidelity:`, masks, output format, and output paths belong in the CLI path only. Do not treat them as built-in `image_gen` tool arguments.
+
+Augmentation rules:
+- Keep it short.
+- Add only the details needed to improve the prompt materially.
+- For edits, explicitly list invariants (`change only X; keep Y unchanged`).
+- If any critical detail is missing and blocks success, ask a question; otherwise proceed.
+
+## Examples
+
+### Generation example (hero image)
+```text
+Use case: product-mockup
+Asset type: landing page hero
+Primary request: a minimal hero image of a ceramic coffee mug
+Style/medium: clean product photography
+Composition/framing: wide composition with usable negative space for page copy if needed
+Lighting/mood: soft studio lighting
+Constraints: no logos, no text, no watermark
+```
+
+### Edit example (invariants)
+```text
+Use case: precise-object-edit
+Asset type: product photo background replacement
+Primary request: replace only the background with a warm sunset gradient
+Constraints: change only the background; keep the product and its edges unchanged; no text; no watermark
+```
+
+## Prompting best practices
+- Structure prompt as scene/backdrop -> subject -> details -> constraints.
+- Include intended use (ad, UI mock, infographic) to set the mode and polish level.
+- Use camera/composition language for photorealism.
+- Only use SVG/vector stand-ins when the user explicitly asked for vector output or a non-image placeholder.
+- Quote exact text and specify typography + placement.
+- For tricky words, spell them letter-by-letter and require verbatim rendering.
+- For multi-image inputs, reference images by index and describe how they should be used.
+- For edits, repeat invariants every iteration to reduce drift.
+- Iterate with single-change follow-ups.
+- If the prompt is generic, add only the extra detail that will materially help.
+- If the prompt is already detailed, normalize it instead of expanding it.
+- For CLI fallback only, see `references/cli.md` and `references/image-api.md` for model, `quality`, `input_fidelity`, masks, output format, and output-path guidance.
+- For transparent images, ask built-in `image_gen` for actual transparency and preserve its alpha.
+
+More principles shared by both modes: `references/prompting.md`.
+Copy/paste specs shared by both modes: `references/sample-prompts.md`.
+
+## Guidance by asset type
+Asset-type templates (website assets, game assets, wireframes, logo) are consolidated in `references/sample-prompts.md`.
+
+## gpt-image-2 guidance for CLI fallback
+
+The fallback CLI defaults to `gpt-image-2`.
+
+- Use `gpt-image-2` for new CLI/API workflows unless the user confirms a different model.
+- CLI `gpt-image-2` does not support `background=transparent`; ask before using `gpt-image-1.5` unless the user explicitly requested that model.
+- `gpt-image-2` always uses high fidelity for image inputs; do not set `input_fidelity` with this model.
+- `gpt-image-2` supports `quality` values `low`, `medium`, `high`, and `auto`.
+- Use `quality low` for fast drafts, thumbnails, and quick iterations. Use `medium`, `high`, or `auto` for final assets, dense text, diagrams, identity-sensitive edits, or high-resolution outputs.
+- Square images are typically fastest to generate. Use `1024x1024` for fast square drafts.
+- If the user asks for 4K-style output, use `3840x2160` for landscape or `2160x3840` for portrait.
+- `gpt-image-2` size may be `auto` or `WIDTHxHEIGHT` if all constraints hold: max edge `<= 3840px`, both edges multiples of `16px`, long-to-short ratio `<= 3:1`, total pixels between `655,360` and `8,294,400`.
+
+Popular `gpt-image-2` sizes:
+- `1024x1024` square
+- `1536x1024` landscape
+- `1024x1536` portrait
+- `2048x2048` 2K square
+- `2048x1152` 2K landscape
+- `3840x2160` 4K landscape
+- `2160x3840` 4K portrait
+- `auto`
+
+## Fallback CLI mode only
+
+### Temp and output conventions
+These conventions apply only to the CLI fallback. They do not describe built-in `image_gen` output behavior.
+- Use `tmp/imagegen/` for intermediate files (for example JSONL batches); delete them when done.
+- Write final artifacts under `output/imagegen/`.
+- Use `--out` or `--out-dir` to control output paths; keep filenames stable and descriptive.
+
+### Dependencies
+Prefer `uv` for dependency management in this repo.
+
+Required Python package:
+```bash
+uv pip install openai
+```
+
+Optional for image inspection and downscaling:
+```bash
+uv pip install pillow
+```
+
+Portability note:
+- If you are using the installed skill outside this repo, install dependencies into that environment with its package manager.
+- In uv-managed environments, `uv pip install ...` remains the preferred path.
+
+### Environment
+- `OPENAI_API_KEY` must be set for live API calls.
+- Do not ask the user for `OPENAI_API_KEY` when using the built-in `image_gen` tool.
+- Never ask the user to paste the full key in chat. Ask them to set it locally and confirm when ready.
+
+If the key is missing, give the user these steps:
+1. Create an API key in the OpenAI platform UI: https://platform.openai.com/api-keys
+2. Set `OPENAI_API_KEY` as an environment variable in their system.
+3. Offer to guide them through setting the environment variable for their OS/shell if needed.
+
+If installation is not possible in this environment, tell the user which dependency is missing and how to install it into their active environment.
+
+### Script-mode notes
+- CLI commands + examples: `references/cli.md`
+- API parameter quick reference: `references/image-api.md`
+- Network approvals / sandbox settings for CLI mode: `references/codex-network.md`
+
+## Reference map
+- `references/prompting.md`: shared prompting principles for both modes.
+- `references/sample-prompts.md`: shared copy/paste prompt recipes for both modes.
+- `references/cli.md`: fallback-only CLI usage via `scripts/image_gen.py`.
+- `references/image-api.md`: fallback-only API/CLI parameter reference.
+- `references/codex-network.md`: fallback-only network/sandbox troubleshooting for CLI mode.
+- `scripts/image_gen.py`: fallback-only CLI implementation. Use only when the user explicitly chooses or confirms CLI mode.
+
+exec
+/bin/bash -lc "rg --files -g '*MEMORY*' -g '*contexto_carlos*' -g '*ttf' -g 'AGENTS.md' -g '*woff*' | head -70; ls clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg clientes/Mariano/anuncios/refs/benjamina_fachada.jpg clientes/Mariano/fotos/mariano_luz_final.png" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+visionagenciaIAV2.0-main 2/AGENTS.md
+visionagenciaIAV2.0-main 2/entregables/cinthia_payan_logo_20261027/fuentes/Quicksand.ttf
+visionagenciaIAV2.0-main 2/entregables/cinthia_payan_logo_20261027/fuentes/JosefinSans.ttf
+visionagenciaIAV2.0-main 2/entregables/cinthia_payan_logo_20261027/fuentes/Lora.ttf
+visionagenciaIAV2.0-main 2/entregables/cinthia_payan_logo_20261027/fuentes/PlayfairDisplay.ttf
+visionagenciaIAV2.0-main 2/entregables/modelos_modal/fuentes/Montserrat.ttf
+visionagenciaIAV2.0-main 2/entregables/modelos_modal/fuentes/Anton-Regular.ttf
+visionagenciaIAV2.0-main 2/entregables/modelos_modal/fuentes/BebasNeue-Regular.ttf
+visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/fuentes/Montserrat.ttf
+visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/fuentes/Cormorant.ttf
+visionagenciaIAV2.0-main 2/entregables/360salud_cartel_beneficios_20260914/fuentes/RobotoCondensed.ttf
+AGENTS.md
+clientes/_productor/fuentes/PlayfairDisplay[wght].ttf
+clientes/_productor/fuentes/PlayfairDisplay-Italic[wght].ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/fuentes/Montserrat.ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/fuentes/RobotoCondensed.ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/fuentes/PlayfairDisplay[wght].ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/subs_implante_20260918/fuentes/PlayfairDisplay-Italic[wght].ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fuentes/NotoSerif-Italic.ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fuentes/SourceSerif4-Italic.ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fuentes/Literata-Italic.ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fuentes/CrimsonPro-Italic.ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fuentes/Alegreya-Italic.ttf
+visionagenciaIAV2.0-main 2/entregables/implante_dental/final_alberto/fuentes/Merriweather-Italic.ttf
+clientes/Carlos_Nexus/pixar/fonts/Inter-Bold.ttf
+clientes/Carlos_Nexus/pixar/fonts/Inter-Medium.ttf
+clientes/Carlos_Nexus/pixar/fonts/Inter-ExtraBold.ttf
+clientes/Carlos_Nexus/pixar/fonts/InterDisplay-Bold.ttf
+clientes/Carlos_Nexus/pixar/fonts/Inter-Black.ttf
+clientes/Carlos_Nexus/pixar/fonts/Inter-SemiBold.ttf
+clientes/Carlos_Nexus/pixar/fonts/InterDisplay-Black.ttf
+clientes/Carlos_Nexus/pixar/fonts/Inter-Regular.ttf
+clientes/Mariano/anuncios/refs/benjamina_fachada.jpg
+clientes/Mariano/fotos/mariano_luz_final.png
+clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg
+clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg
+
+codex
+La guía está leída. Usaré la habilidad imagegen para las cuatro piezas, con las fotos como referencia y cada identidad por separado. Las notas de `/vol/claude-config/` no están en este entorno. La foto del BYD está en interior, así que adaptaré la escena a luz natural urbana, como exige la guía.
+exec
+/bin/bash -lc "mkdir -p entregables/anuncios_imagen_20261104/v5_identidad; cat AGENTS.md; ls -la /vol; rg --files -g '*contexto*' -g 'MEMORY.md' -g '*memoria*' | head -25" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+# Instrucciones para ChatGPT (Codex) en el workspace de Carlos
+
+Tienes acceso COMPLETO a este workspace (Modal, sandbox de Carlos): archivos, red, terminal, WhatsApp, Modal (GPU) y Glimmer (la IA de Meta). No digas que no tienes acceso: úsalo. Lee primero `/vol/claude-config/codex/contexto_carlos.md` (negocio, método, clientes). Responde en español, corto, para WhatsApp.
+
+
+## Lo que Carlos pide siempre (memoria de Claude)
+Antes de cualquier tarea lee TODAS las notas de `/vol/claude-config/projects/---modal-volumes-vo-N6gOPxHfXSf5HzbsmuqjJ3-workspaces-Nexusv2-0launch18octubre/memory/` (empieza por MEMORY.md). Son las reglas, preferencias y correcciones que Carlos le ha dado a Claude durante semanas: método, calidad, cómo calificar, a quién escribir, límites de gasto, cuentas y clientes. Síguelas igual que Claude. Si aprendes una regla nueva de Carlos, agrégala como nota nueva en esa carpeta (un archivo por regla, con el mismo formato) y su línea en MEMORY.md.
+
+
+## Manual de producción
+Para hacer videos tú solo (cuando Claude no esté) sigue `MANUAL_CHATGPT.md` (raíz): referencias, escenas con Qwen + MiniMax H3, ahorro de GPU, voz Fish, armado, Glimmer y estado de clientes.
+
+## Preguntarle a Claude
+Si necesitas algo que solo Claude sabe (por qué se decidió algo, dónde está un archivo, cómo se hizo un video), pregunta con `herramientas/preguntar_claude.sh "pregunta"`. Claude responde con su memoria y el workspace (solo lectura). Gasta uso de Claude: máximo 5 preguntas al día, cortas, y primero busca en la memoria y en los archivos.
+
+## Herramientas
+- **WhatsApp (WaAPI):** `python3 -c "import sys;sys.path.insert(0,'herramientas');from wa import accion; ..."`
+  - `accion('send-message',{'chatId':ID,'message':txt})`, `accion('fetch-messages',{'chatId':ID,'limit':20})`, `accion('get-chats',{})`, `accion('download-media',{'messageId':MID})` → `['data']['data']['media']['url']`.
+  - Mandar video/imagen a Carlos: `python3 herramientas/enviar_seguro.py RUTA "texto"`. Chat de Carlos: `44522318905388@lid`.
+  - Chats de clientes: José `257883358937112@lid`, Guillermo `256998142660619@lid`, Alberto `121135308009543@lid`, Giovanni `147832891793521@lid`, Iván `72125973008625@lid`, Rubén `25112875143230@lid`, Lisbeth `161641681395864@lid`, Víctor `244250780389552@lid`, Tatuador `250053667119335@lid`, Andrés `248292160077914@lid`, Jesús Puertas `77185511633028@lid`.
+- **Calificar un video con Glimmer (IA de Meta):** escribe `entregables/glimmer_evaluador/anuncios_<id>.json` = `[{"nombre":"CLIENTE_vX","video":"/ruta/absoluta.mp4","cliente":"datos reales del negocio"}]`, luego encola en la fila (corre sola):
+  `echo "python3 entregables/glimmer_evaluador/evaluar.py entregables/glimmer_evaluador/anuncios_<id>.json entregables/glimmer_evaluador/<id> && GASTO_PERFIL=carlosfavelajeje python3 gasto_modal.py run entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/<id>/lote.json --tokens 4500 > entregables/glimmer_evaluador/<id>/glimmer.log 2>&1" > entregables/fila/pendientes/<AAAAMMDD_HHMM>_<cliente>.sh`
+  Resultado: en `glimmer.log`, lo que sigue a `assistant to=user` (CALIFICACIÓN TOTAL, NOTAS, QUÉ LO FRENA, VEREDICTO). Tarda ~6-10 min. Estado de la fila: `tail entregables/fila/fila.log`.
+- **Calificaciones existentes:** `entregables/glimmer_evaluador/*/glimmer.log`.
+- **Formato de calificación para clientes:** `entregables/glimmer_evaluador/mensaje_calificacion.py` (`mensaje(nombre, hoy, proyectada, funciona, falta, pauta, hecho)`).
+- **Voz clonada (Fish Audio):** clave en `$FISH_API_KEY`; POST `https://api.fish.audio/v1/tts` con `{"text","format":"wav","reference_id":ID}` y header `model: s2-pro` o `s1`. Genera 4 tomas y elige la que Whisper (`faster_whisper`, modelo `medium`) transcriba igual al guion. IDs: José `74cae190c2c84b0caaca073f42f5de54`, Carlos `1f679152b5d64c09a8e8eeecd3eb5424`, Doctora `1cbf187942e14e2789215b6374e8323c`, Rubén `22eb1ea2a6ce44c882d721aea1003766`, Iván `2e7509fae4af43c0b4166202aeff3918`.
+- **Armadores de video (ffmpeg, sin GPU):** José `clientes/Jose/armado_20261029/armar_jose_v9.py` (voces por frase en `voz_v8/sN_0.mp3`, borra `tmp_v9c` si cambias voz), Guillermo `clientes/Guillermo/far12_v1/armar_far12_v3.py`, Doctora `clientes/Alberto/video/armar_implantes_ref.py --version X --tomas v6`, Iván `clientes/Ivan/video_v5_20261030/armar_ivan_v5.py`, Rubén `clientes/Ruben_Quiropraxia/video_v3/armar_ruben_v3.py`.
+- **GPU (escenas nuevas Qwen/MiniMax):** solo con `GASTO_PERFIL=carlosfavelajeje python3 gasto_modal.py run clientes/_escenas_carlos/escenas_carlos_modal.py::cuadros|animar --spec SPEC.json`, encolado en `entregables/fila_escenas/pendientes/`. Cuenta carlosfavelajeje: $30 de crédito, tope $28 (vigía activo); consulta antes de gastar.
+
+## Reglas (obligatorias)
+1. Escribir o mandar algo a un CLIENTE solo si Carlos lo pide en ese mensaje; si no, todo va primero a Carlos.
+2. Cada video que mandes lleva su calificación de Glimmer: separa **actual** (la que Glimmer dio al video) de **proyectada** (la que daría con los cambios). Nunca inventes calificaciones ni resultados.
+3. No borres archivos de clientes; versiona (v9c → v9d). No toques `.vol`, credenciales ni `gasto_modal.py`.
+4. Antes de dar algo por hecho, verifícalo (escucha con Whisper, revisa el video, lee el log). Si algo falla, dilo.
+5. Calidad: caras parecidas a la persona real, lugares reales, voz bien pronunciada, sin promesas de salud.
+6. Al terminar, responde a Carlos con: qué hiciste, rutas de los videos, y qué falta.
+
+
+## Cuando Claude se acabe (uso semanal agotado)
+Tú tomas el relevo completo:
+1. Revisa `buzon/fila_encargos.log` y `buzon/para_nexus2/`: los encargos que sigan ahí (no movidos a `buzon/hecho/`) están pendientes. Lee cada uno completo (y sus actualizaciones al final) y continúalo sin repetir lo ya hecho: revisa archivos nuevos del cliente, la fila de GPU y lo que ya se le mandó a Carlos.
+2. Un trabajo pesado a la vez: el sandbox tiene 1 CPU y 4 GB; con varios procesos en paralelo se cae.
+3. Glimmer rápido para guiones y revisiones: `https://carlosfavelajeje--glimmer-chat-glimmer-web.us-east.modal.run/chat` (POST `{"mensajes":[{"rol":"user","texto":"...","fotos":[base64]}],"tokens":4500}`, header `x-clave` = CLAVE del secreto Modal `glimmer-chat`). Calificación formal: la fila de `entregables/glimmer_evaluador/`.
+4. Meta Ads: tú no tienes Windsor. Deja el video final, miniatura, texto del anuncio y segmentación en `buzon/para_nexus/` y dile a Carlos que lo suba él en el Administrador de anuncios (o que lo haga Claude cuando vuelva).
+5. Prospectos nuevos («¡Hola! Quiero más información»): responde con el mensaje de la calificación de Facebook (solo lanzamos con 8+; ejemplos reales: limpieza 33 mensajes a $1.39, impermeabilización 18 mensajes a $2.87) y pide giro/ciudad, 3 fotos o videos, precio o promoción y un reel de referencia. Estamos en Sonora y trabajamos 100% en línea con todo México.
+ls: cannot access '/vol': No such file or directory
+visionagenciaIAV2.0-main 2/entregables/historial_comparable_20260916/_fuente/q13_contexto_whatsapp_agregado.json
+visionagenciaIAV2.0-main 2/entregables/historial_comparable_20260916/04_equivalencias_contexto.md
+
+codex
+La primera pieza ya tiene el auto en exterior, la matrícula cubierta y el botón esmeralda sobre azul marino. Estoy preparando la segunda y las dos de Mariano; después comprobaré el tamaño final y los márgenes de 80 px.
+exec
+/bin/bash -lc 'command -v magick || command -v convert; ls entregables/anuncios_imagen_20261104/v5_identidad' in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+exec
+/bin/bash -lc "command -v ffmpeg; node -e \"try{console.log(require.resolve('sharp'))}catch(e){}\"" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+/home/codespace/.local/bin/ffmpeg
+
+apply patch
+patch: completed
+/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v5_identidad/produccion.json
+diff --git a/entregables/anuncios_imagen_20261104/v5_identidad/produccion.json b/entregables/anuncios_imagen_20261104/v5_identidad/produccion.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..a724d119b93068125e91d6c0b2f3cd3345392746
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v5_identidad/produccion.json
+@@ -0,0 +1,10 @@
++{
++  "herramienta": "image_gen integrada",
++  "guia": "entregables/glimmer_identidad_20261105/IDENTIDAD_VISUAL.md",
++  "prompts": [
++    "Use case: ads-marketing. Create ONE finished Spanish family-focused BYD advisor ad, portrait EXACT 1080x1350 (4:5). Reference image 1 is the actual white BYD Song Plus, preserve its car design and badge; relocate it to a real-looking daytime residential urban street in Azcapotzalco CDMX, front three-quarter slightly low view. Reference image 2 is Rafael: preserve his facial identity faithfully, navy polo with fabric wrinkles, natural skin texture, chest-up small at lower corner of photo, hands outside frame. NO dark studio. Cover license plate with plain neutral rectangle. Layout top 60% airy natural daylight photo, bottom 40% solid navy #0B1F3A information panel; headline may sit in navy header overlay within upper photo to allow LARGE highly readable typography without crowding. All text and essential subjects >=80 pixels from all edges. Navy #0B1F3A, white #FFFFFF, light gray #E6E8EB; ONLY emerald #00A86B for CTA button. Never black background or neon yellow. Headline Plus Jakarta Sans ExtraBold, body Inter. Beautiful clean modern family advertising, no extra text or numbers. Exact copy follows. Center headline, readable clear benefit, large emerald button on navy, footer. Render accents and punctuation perfectly. Headline: \"Menos gasolina, más kilómetros con tu familia\"\nSupport: \"Híbridos y eléctricos BYD · hasta 1,145 km de autonomía\"\nButton: \"Pide tu prueba de manejo\"\nFooter: \"Rafael · Asesor BYD · Azcapotzalco\"",
++    null,
++    null
++  ],
++  "nota": "Escenas adaptadas con IA a partir de las fotos reales de referencia. No son fotografías documentales del exterior."
++}
+
+exec
+/bin/bash -lc "ffmpeg -v error -i /home/codespace/.codex/generated_images/01a1adba-7159-73d1-8223-338b8b8e3f03/exec-0fadba2f-dcb1-428c-b46f-5fe826c26152.png -vf 'scale=920:1190:flags=lanczos,pad=1080:1350:80:80:color=0x0B1F3A' -frames:v 1 entregables/anuncios_imagen_20261104/v5_identidad/RAFAEL_v5_ahorro.png" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 348ms:
+exec
+/bin/bash -lc "ffmpeg -v error -i /home/codespace/.codex/generated_images/01a1adba-7159-73d1-8223-338b8b8e3f03/exec-c7e01cc1-f08a-446f-a721-913f8241aacb.png -vf 'scale=920:1190:flags=lanczos,pad=1080:1350:80:80:color=0x0B1F3A' -frames:v 1 entregables/anuncios_imagen_20261104/v5_identidad/RAFAEL_v5_prueba.png" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 299ms:
+codex
+Las dos piezas de Rafael ya están guardadas en 1080×1350. La de Benjamina muestra el precio completo, las opciones de crédito y el botón terracota. En la de cuatro modelos también incluí el crédito para cumplir la regla de oro de Mariano.
+exec
+/bin/bash -lc "ffmpeg -v error -i /home/codespace/.codex/generated_images/01a1adba-7159-73d1-8223-338b8b8e3f03/exec-c0b4b295-ad01-4177-9318-288cdee85474.png -vf 'scale=920:1190:flags=lanczos,pad=1080:1350:80:80:color=0xF7F5F2' -frames:v 1 entregables/anuncios_imagen_20261104/v5_identidad/MARIANO_v5_benjamina.png" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 281ms:
+apply patch
+patch: completed
+/workspaces/Nexusv2.0launch18octubre/entregables/anuncios_imagen_20261104/v5_identidad/prompts_finales.json
+diff --git a/entregables/anuncios_imagen_20261104/v5_identidad/produccion.json b/entregables/anuncios_imagen_20261104/v5_identidad/produccion.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..a724d119b93068125e91d6c0b2f3cd3345392746
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v5_identidad/produccion.json
+@@ -0,0 +1,10 @@
++{
++  "herramienta": "image_gen integrada",
++  "guia": "entregables/glimmer_identidad_20261105/IDENTIDAD_VISUAL.md",
++  "prompts": [
++    "Use case: ads-marketing. Create ONE finished Spanish family-focused BYD advisor ad, portrait EXACT 1080x1350 (4:5). Reference image 1 is the actual white BYD Song Plus, preserve its car design and badge; relocate it to a real-looking daytime residential urban street in Azcapotzalco CDMX, front three-quarter slightly low view. Reference image 2 is Rafael: preserve his facial identity faithfully, navy polo with fabric wrinkles, natural skin texture, chest-up small at lower corner of photo, hands outside frame. NO dark studio. Cover license plate with plain neutral rectangle. Layout top 60% airy natural daylight photo, bottom 40% solid navy #0B1F3A information panel; headline may sit in navy header overlay within upper photo to allow LARGE highly readable typography without crowding. All text and essential subjects >=80 pixels from all edges. Navy #0B1F3A, white #FFFFFF, light gray #E6E8EB; ONLY emerald #00A86B for CTA button. Never black background or neon yellow. Headline Plus Jakarta Sans ExtraBold, body Inter. Beautiful clean modern family advertising, no extra text or numbers. Exact copy follows. Center headline, readable clear benefit, large emerald button on navy, footer. Render accents and punctuation perfectly. Headline: \"Menos gasolina, más kilómetros con tu familia\"\nSupport: \"Híbridos y eléctricos BYD · hasta 1,145 km de autonomía\"\nButton: \"Pide tu prueba de manejo\"\nFooter: \"Rafael · Asesor BYD · Azcapotzalco\"",
++    null,
++    null
++  ],
++  "nota": "Escenas adaptadas con IA a partir de las fotos reales de referencia. No son fotografías documentales del exterior."
++}
+diff --git a/entregables/anuncios_imagen_20261104/v5_identidad/prompts_finales.json b/entregables/anuncios_imagen_20261104/v5_identidad/prompts_finales.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..a3da313e80a4f8c55b0e5cff3fb666a64c004680
+--- /dev/null
++++ b/entregables/anuncios_imagen_20261104/v5_identidad/prompts_finales.json
+@@ -0,0 +1,22 @@
++{
++  "herramienta": "image_gen integrada",
++  "prompts": [
++    {
++      "archivo": "RAFAEL_v5_ahorro.png",
++      "prompt": "Use case: ads-marketing. Create ONE finished Spanish family-focused BYD advisor ad, portrait EXACT 1080x1350 (4:5). Reference image 1 is the actual white BYD Song Plus, preserve its car design and badge; relocate it to a real-looking daytime residential urban street in Azcapotzalco CDMX, front three-quarter slightly low view. Reference image 2 is Rafael: preserve his facial identity faithfully, navy polo with fabric wrinkles, natural skin texture, chest-up small at lower corner of photo, hands outside frame. NO dark studio. Cover license plate with plain neutral rectangle. Layout top 60% airy natural daylight photo, bottom 40% solid navy #0B1F3A information panel; headline may sit in navy header overlay within upper photo to allow LARGE highly readable typography without crowding. All text and essential subjects >=80 pixels from all edges. Navy #0B1F3A, white #FFFFFF, light gray #E6E8EB; ONLY emerald #00A86B for CTA button. Never black background or neon yellow. Headline Plus Jakarta Sans ExtraBold, body Inter. Beautiful clean modern family advertising, no extra text or numbers. Exact copy follows. Center headline, readable clear benefit, large emerald button on navy, footer. Render accents and punctuation perfectly. Headline: \"Menos gasolina, más kilómetros con tu familia\"\nSupport: \"Híbridos y eléctricos BYD · hasta 1,145 km de autonomía\"\nButton: \"Pide tu prueba de manejo\"\nFooter: \"Rafael · Asesor BYD · Azcapotzalco\""
++    },
++    {
++      "archivo": "RAFAEL_v5_prueba.png",
++      "prompt": "Use case: ads-marketing. Create ONE finished Spanish family-focused BYD advisor ad, portrait EXACT 1080x1350 (4:5). Reference image 1 is the actual white BYD Song Plus, preserve its car design and badge; relocate it to a real-looking daytime residential urban street in Azcapotzalco CDMX, front three-quarter slightly low view. Reference image 2 is Rafael: preserve his facial identity faithfully, navy polo with fabric wrinkles, natural skin texture, chest-up small at lower corner of photo, hands outside frame. NO dark studio. Cover license plate with plain neutral rectangle. Layout top 60% airy natural daylight photo, bottom 40% solid navy #0B1F3A information panel; headline may sit in navy header overlay within upper photo to allow LARGE highly readable typography without crowding. All text and essential subjects >=80 pixels from all edges. Navy #0B1F3A, white #FFFFFF, light gray #E6E8EB; ONLY emerald #00A86B for CTA button. Never black background or neon yellow. Headline Plus Jakarta Sans ExtraBold, body Inter. Beautiful clean modern family advertising, no extra text or numbers. Exact copy follows. Center headline, readable clear benefit, large emerald button on navy, footer. Render accents and punctuation perfectly. Headline: \"Autonomía real para el tráfico de Azcapotzalco\"\nSupport: \"Song Plus, King y Dolphin · prueba de manejo sin compromiso\"\nButton: \"Escríbeme por WhatsApp\"\nFooter: \"Rafael · Asesor BYD · Azcapotzalco\"\nThe headline MUST have 80px horizontal margins, use three lines if needed. Photo top exactly 60%, lower navy panel 40%. Include small editorial phrase \"Ahorro para tu familia\" to fulfill savings message."
++    },
++    {
++      "archivo": "MARIANO_v5_benjamina.png",
++      "prompt": "Use case: ads-marketing. ONE finished Spanish residential real estate ad, EXACT portrait 1080x1350 (4:5). Reference 1 actual Benjamina house facade: preserve EXACT architecture, doors, windows, two floors and white facade; show eye-level facade, clear sky, warm natural daylight and lawn. Reference 2 Mariano: preserve actual face identity, light blue blazer, white shirt, fabric wrinkles, realistic skin, small chest-up inset at lower corner of photo, hands outside crop. Top 65% house photo, lower 35% warm white #F7F5F2 information panel with thin sand #D9C7A1 separator. Headline can be in warm white header overlay upper photo to preserve large readable text and airy layout. Text stone blue #2F4550, sand information accents, terracotta #C1664C ONLY CTA. NO black background or neon yellow. Sora SemiBold headline, Inter body. Text and important subjects inside 80px safe margins. Headline left-aligned, price right-aligned, CTA centered. Elegant warm family-focused architecture advertising, no invented details or numbers. Need house in sunlight, price AND mortgage option visible, terracotta CTA on light ground. Exact copy follows; render all accents perfectly. Headline: \"Casa nueva en Rosarito, lista para tu familia\"\nSupport: \"Modelo Benjamina · desde 2 millones 800 mil pesos\"\nThree short facts: \"Dos pisos · Privada con cancha de pádel · Infonavit y crédito hipotecario\"\nButton: \"Agenda tu visita\"\nFooter: \"Mariano · Vizcaíno Residencial · Rosarito, B.C.\"\nMake all copy comfortably readable, avoid crowding, do not omit a single word."
++    },
++    {
++      "archivo": "MARIANO_v5_modelos.png",
++      "prompt": "Use case: ads-marketing. ONE finished Spanish residential real estate ad, EXACT portrait 1080x1350 (4:5). Reference 1 actual Benjamina house facade: preserve EXACT architecture, doors, windows, two floors and white facade; show eye-level facade, clear sky, warm natural daylight and lawn. Reference 2 Mariano: preserve actual face identity, light blue blazer, white shirt, fabric wrinkles, realistic skin, small chest-up inset at lower corner of photo, hands outside crop. Top 65% house photo, lower 35% warm white #F7F5F2 information panel with thin sand #D9C7A1 separator. Headline can be in warm white header overlay upper photo to preserve large readable text and airy layout. Text stone blue #2F4550, sand information accents, terracotta #C1664C ONLY CTA. NO black background or neon yellow. Sora SemiBold headline, Inter body. Text and important subjects inside 80px safe margins. Headline left-aligned, price right-aligned, CTA centered. Elegant warm family-focused architecture advertising, no invented details or numbers. Need house in sunlight, price AND mortgage option visible, terracotta CTA on light ground. Exact copy follows; render all accents perfectly. Headline: \"Cuatro modelos, un mismo fraccionamiento privado\"\nSupport price: \"Desde 1 millón 400 mil pesos\"\nShort list EXACT: \"Sotol 1.4 · Bugambilia 2.4 · Benjamina 2.8 · Salvia 4 recámaras 3.1 (millones)\"\nAdditional small credit line REQUIRED by golden rule: \"Infonavit y crédito hipotecario\"\nButton: \"Escríbeme «Vizcaíno»\"\nFooter: \"Mariano · Vizcaíno Residencial · Rosarito, B.C.\"\nArrange list in clean short rows preserving each model, number and \"(millones)\". Headline in 3 lines if needed. Make text clearly readable."
++    }
++  ],
++  "acabado": "1080x1350, marco de seguridad de 80 px con color de fondo de cada cliente. Escenas adaptadas con IA usando las referencias indicadas."
++}
+
+exec
+/bin/bash -lc "ffmpeg -v error -i /home/codespace/.codex/generated_images/01a1adba-7159-73d1-8223-338b8b8e3f03/exec-b53b7368-c343-48d6-b4f8-2266061ce45f.png -vf 'scale=920:1190:flags=lanczos,pad=1080:1350:80:80:color=0xF7F5F2' -frames:v 1 entregables/anuncios_imagen_20261104/v5_identidad/MARIANO_v5_modelos.png" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 212ms:
+exec
+/bin/bash -lc 'for f in entregables/anuncios_imagen_20261104/v5_identidad/*.png; do ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0 "$f"; done' in /workspaces/Nexusv2.0launch18octubre
+ exited 127 in 0ms:
+/bin/bash: line 1: ffprobe: command not found
+/bin/bash: line 1: ffprobe: command not found
+/bin/bash: line 1: ffprobe: command not found
+/bin/bash: line 1: ffprobe: command not found
+
+exec
+/bin/bash -lc "node -e 'const fs=require(\"fs\"),p=\"entregables/anuncios_imagen_20261104/v5_identidad/\";for(const n of fs.readdirSync(p).filter(x=>x.endsWith(\".png\"))){const b=fs.readFileSync(p+n);console.log(n,b.readUInt32BE(16)+\"x\"+b.readUInt32BE(20));}'" in /workspaces/Nexusv2.0launch18octubre
+ succeeded in 0ms:
+MARIANO_v5_benjamina.png 1080x1350
+MARIANO_v5_modelos.png 1080x1350
+RAFAEL_v5_ahorro.png 1080x1350
+RAFAEL_v5_prueba.png 1080x1350
+
+codex
+Guardé los cuatro en **1080×1350**, con márgenes de 80 px:
+
+- [RAFAEL_v5_ahorro.png](entregables/anuncios_imagen_20261104/v5_identidad/RAFAEL_v5_ahorro.png): auto en exterior urbano, ahorro familiar y botón esmeralda sobre marino.
+- [RAFAEL_v5_prueba.png](entregables/anuncios_imagen_20261104/v5_identidad/RAFAEL_v5_prueba.png): contexto de Azcapotzalco, ahorro visible y CTA esmeralda sobre marino.
+- [MARIANO_v5_benjamina.png](entregables/anuncios_imagen_20261104/v5_identidad/MARIANO_v5_benjamina.png): casa blanca iluminada, precio y crédito visibles, CTA terracota sobre claro.
+- [MARIANO_v5_modelos.png](entregables/anuncios_imagen_20261104/v5_identidad/MARIANO_v5_modelos.png): fachada luminosa, modelos y precios, crédito visible y CTA terracota.
+
+Revisé visualmente los textos. Las escenas se adaptaron con IA desde tus referencias; las tipografías fueron solicitadas al generador, pero no puedo certificar que reproduzca las fuentes exactas.
+tokens used
+45,817
+Guardé los cuatro en **1080×1350**, con márgenes de 80 px:
+
+- [RAFAEL_v5_ahorro.png](entregables/anuncios_imagen_20261104/v5_identidad/RAFAEL_v5_ahorro.png): auto en exterior urbano, ahorro familiar y botón esmeralda sobre marino.
+- [RAFAEL_v5_prueba.png](entregables/anuncios_imagen_20261104/v5_identidad/RAFAEL_v5_prueba.png): contexto de Azcapotzalco, ahorro visible y CTA esmeralda sobre marino.
+- [MARIANO_v5_benjamina.png](entregables/anuncios_imagen_20261104/v5_identidad/MARIANO_v5_benjamina.png): casa blanca iluminada, precio y crédito visibles, CTA terracota sobre claro.
+- [MARIANO_v5_modelos.png](entregables/anuncios_imagen_20261104/v5_identidad/MARIANO_v5_modelos.png): fachada luminosa, modelos y precios, crédito visible y CTA terracota.
+
+Revisé visualmente los textos. Las escenas se adaptaron con IA desde tus referencias; las tipografías fueron solicitadas al generador, pero no puedo certificar que reproduzca las fuentes exactas.

@@ -1,0 +1,14 @@
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Needle", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Needle_hub", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Syringe_barrel", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Syringe_inset", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "AP_Plunger", Modifier: "Normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bpy.rna): ./source/blender/python/intern/bpy_rna.cc:1343 pyrna_enum_to_py: current value '0' matches no enum in 'View3DShading', '(null)', 'wireframe_color_type'
+WARN (bpy.rna): ./source/blender/python/intern/bpy_rna.cc:1343 pyrna_enum_to_py: current value '0' matches no enum in 'View3DShading', '(null)', 'wireframe_color_type'
+{'applied': True, 'version': 'STICKER_20260915_v3', 'needle_length_factor': 1.65, 'curl_frames': [350, 415], 'photo_packed': True}
+{'already_applied': True}
+Info: Saved "DENTAL_STICKER.blend"
+Blender 4.0.2
+Read blend: "/workspaces/visionagenciaIAV2.0/entregables/implante_dental/mejora_sticker/SESION_ACTUAL.blend"
+
+Blender quit

@@ -1,0 +1,53 @@
+{
+ "carpeta": "rachel_v1_20261030",
+ "salida": "clientes/Micropigmentacion6861607879/video_v2/salida",
+ "semilla": 23,
+ "refs": {
+  "especialista": "clientes/Micropigmentacion6861607879/whatsapp/1021_152714_C525B5.jpg",
+  "cabina": "clientes/Micropigmentacion6861607879/whatsapp/cabina_2.jpg",
+  "recepcion": "clientes/Micropigmentacion6861607879/whatsapp/cabina_34.jpg"
+ },
+ "cuadros": {
+  "R1_llega": [
+   [
+    "cabina",
+    "recepcion"
+   ],
+   "Foto realista vertical 9:16 en la cabina REAL de la primera imagen: paredes azul grisáceo, camilla con funda rosa, piso de azulejo blanco, lámpara de brazo, mesa con charola; luz cálida, estilo reel de Instagram de especialista en cejas, cinematográfico, sin texto, sin letras, sin logotipos. Una princesa de cuento ORIGINAL (no es ningún personaje de película): mujer joven de piel clara, cabello castaño largo con trenza, corona dorada pequeña, vestido largo morado lila con bordados dorados; tiene las cejas despeinadas, delgadas y sin forma, cara tímida; entra a la recepción de la segunda imagen (barra curva con figuras de Buda)  junto a El pequeño compañero de la princesa es un dragoncito bebé ORIGINAL color lila, tierno, de estilo realista 3D. Plano entero."
+  ],
+  "R2_especialista": [
+   [
+    "especialista",
+    "cabina"
+   ],
+   "Foto realista vertical 9:16 en la cabina REAL de la segunda imagen: paredes azul grisáceo, camilla con funda rosa, piso de azulejo blanco, lámpara de brazo, mesa con charola; luz cálida, estilo reel de Instagram de especialista en cejas, cinematográfico, sin texto, sin letras, sin logotipos. La MISMA mujer de la imagen (misma cara, mismo cabello negro largo ondulado, mismos rasgos y cejas perfectas) con uniforme beige de especialista y guantes negros, sentada junto a la camilla, saluda a la cámara con una mano y sonríe. Plano medio."
+  ],
+  "R3_procedimiento": [
+   [
+    "especialista",
+    "cabina"
+   ],
+   "Foto realista vertical 9:16 en la cabina REAL de la segunda imagen: paredes azul grisáceo, camilla con funda rosa, piso de azulejo blanco, lámpara de brazo, mesa con charola; luz cálida, estilo reel de Instagram de especialista en cejas, cinematográfico, sin texto, sin letras, sin logotipos. La MISMA especialista de la imagen (misma cara, cabello negro), con guantes negros y cubrebocas transparente, trabaja con precisión las cejas de Una princesa de cuento ORIGINAL (no es ningún personaje de película): mujer joven de piel clara, cabello castaño largo con trenza, corona dorada pequeña, vestido largo morado lila con bordados dorados que está acostada en la camilla con los ojos cerrados y tranquila. Plano medio, de lado."
+  ],
+  "R4_cejas": [
+   [
+    "cabina"
+   ],
+   "Foto realista vertical 9:16 en la cabina REAL de la primera imagen: paredes azul grisáceo, camilla con funda rosa, piso de azulejo blanco, lámpara de brazo, mesa con charola; luz cálida, estilo reel de Instagram de especialista en cejas, cinematográfico, sin texto, sin letras, sin logotipos. Primer plano de la cara de Una princesa de cuento ORIGINAL (no es ningún personaje de película): mujer joven de piel clara, cabello castaño largo con trenza, corona dorada pequeña, vestido largo morado lila con bordados dorados,  ahora con cejas perfectas, naturales, bien definidas y simétricas, sonriendo frente al espejo dorado, encantada."
+  ],
+  "R5_corazon": [
+   [
+    "cabina"
+   ],
+   "Foto realista vertical 9:16 en la cabina REAL de la primera imagen: paredes azul grisáceo, camilla con funda rosa, piso de azulejo blanco, lámpara de brazo, mesa con charola; luz cálida, estilo reel de Instagram de especialista en cejas, cinematográfico, sin texto, sin letras, sin logotipos. Una princesa de cuento ORIGINAL (no es ningún personaje de película): mujer joven de piel clara, cabello castaño largo con trenza, corona dorada pequeña, vestido largo morado lila con bordados dorados; con cejas perfectas, hace un corazón con las manos a la cámara junto a El pequeño compañero de la princesa es un dragoncito bebé ORIGINAL color lila, tierno, de estilo realista 3D. Plano entero, felices."
+  ],
+  "R6_cierre": [
+   [
+    "especialista",
+    "cabina"
+   ],
+   "Foto realista vertical 9:16 en la cabina REAL de la segunda imagen: paredes azul grisáceo, camilla con funda rosa, piso de azulejo blanco, lámpara de brazo, mesa con charola; luz cálida, estilo reel de Instagram de especialista en cejas, cinematográfico, sin texto, sin letras, sin logotipos. La MISMA especialista de la imagen (misma cara, cabello negro largo) con uniforme beige, de pie en su cabina, hace un corazón con las manos con guantes negros y sonríe a la cámara. Plano medio-entero."
+  ]
+ },
+ "tomas": []
+}

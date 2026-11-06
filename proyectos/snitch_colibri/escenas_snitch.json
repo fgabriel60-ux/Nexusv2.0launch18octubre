@@ -1,0 +1,30 @@
+{
+  "carpeta": "proyectos/snitch_colibri",
+  "salida": "proyectos/snitch_colibri/cuadros",
+  "semilla": 31,
+  "ancho": 720,
+  "alto": 1280,
+  "pasos": 30,
+  "refs": {
+    "esfera": "proyectos/snitch_colibri/refs/esfera_dorada.png",
+    "alas": "proyectos/snitch_colibri/refs/alas_mylar.png",
+    "mecanismo": "proyectos/snitch_colibri/refs/mecanismo_interior.png",
+    "taller": "proyectos/snitch_colibri/refs/mesa_taller.png"
+  },
+  "cuadros": {
+    "SN_REPOSO": [["esfera", "taller"], "La esfera dorada de latón grabado de la primera foto, del tamaño de una pelota de golf, cerrada y con las alas plegadas contra el cuerpo, apoyada sobre la mesa de taller de madera de la segunda foto entre un calibrador y unas pinzas finas. Primer plano cenital ligeramente inclinado, luz lateral suave de ventana, reflejos cálidos en el latón, fotografía real de macro, vertical.", "texto, logotipos, esfera de plástico, brillo plano, mano"],
+    "SN_ABRE": [["esfera", "alas"], "La misma esfera dorada de la primera foto con el par de alas de Mylar dorado translúcido y nervaduras de fibra de carbono de la segunda foto desplegándose hacia los lados desde la ranura superior, a medio abrir. Fondo negro mate, luz lateral que atraviesa la membrana de las alas y la vuelve iridiscente, macro real, vertical.", "alas de plumas, alas de insecto gigantes, texto, caricatura"],
+    "SN_VUELO": [["esfera", "alas"], "La misma esfera dorada de la primera foto flotando en el aire a la altura del pecho, con las alas de la segunda foto borrosas por el batido rapidísimo formando dos arcos translúcidos arriba del cuerpo, como un colibrí en vuelo estacionario. Fondo de habitación en penumbra desenfocado, luz de ventana recortando la esfera, fotografía real con obturador lento en las alas y la esfera nítida, vertical.", "alas nítidas, alas de pájaro, plumas, texto, esfera borrosa"],
+    "SN_MECANISMO": [["mecanismo", "taller"], "El mecanismo dorado de engranajes diminutos de la primera foto, con la corona dentada, la palanca ranurada y los dos tambores con cinta, dentro de la media cáscara esférica abierta, apoyado en la mesa de taller de la segunda foto junto a un plano técnico impreso. Macro extremo, profundidad de campo corta, luz dura lateral que marca los dientes de los engranajes, fotografía real, vertical.", "engranajes de plástico, reloj de pulsera, texto legible, render 3d"],
+    "SN_MANO": [["esfera", "alas"], "La misma esfera dorada de la primera foto con las alas de la segunda foto batiendo, esquivando una mano abierta que intenta atraparla y queda a un palmo, la esfera desviándose hacia arriba. Plano medio, fondo de taller desenfocado, luz de tarde, fotografía real con la mano ligeramente borrosa por el movimiento y la esfera nítida, vertical.", "mano deforme, seis dedos, texto, esfera gigante"],
+    "SN_BASCULA": [["esfera", "taller"], "La esfera dorada de la primera foto montada en un soporte sobre una báscula digital de cocina en la mesa de taller de la segunda foto, con las alas extendidas y quietas, la pantalla de la báscula encendida. Primer plano a la altura de la mesa, luz fría de lámpara de trabajo, fotografía real de banco de pruebas, vertical.", "números legibles en la pantalla, texto, báscula de baño"]
+  },
+  "tomas": [
+    ["T1_REPOSO",    "SN_REPOSO",    "La esfera dorada quieta sobre la mesa; la cámara se acerca muy lentamente mientras un reflejo recorre el latón grabado. Nada más se mueve.", 4, null],
+    ["T2_ABRE",      "SN_ABRE",      "Las alas de Mylar terminan de desplegarse hacia los lados con un movimiento mecánico firme y se quedan extendidas, temblando apenas.", 4, null],
+    ["T3_VUELO",     "SN_VUELO",     "La esfera flota en el aire manteniéndose a la misma altura, con las alas batiendo tan rápido que solo se ven dos arcos borrosos; el cuerpo oscila mínimamente y deriva un poco hacia la izquierda.", 5, null],
+    ["T4_MECANISMO", "SN_MECANISMO", "La corona dentada gira y la palanca ranurada oscila de lado a lado mientras la cinta tira del tambor; macro fijo, solo el mecanismo se mueve.", 4, null],
+    ["T5_MANO",      "SN_MANO",      "La mano se cierra para atrapar la esfera y la esfera se desvía hacia arriba justo antes, escapando del encierro, con las alas borrosas.", 4, null]
+  ],
+  "voces": {}
+}

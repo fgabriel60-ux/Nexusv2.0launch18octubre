@@ -1,0 +1,57 @@
+{
+ "final": "IMPLANTE_ALBERTO_FINAL_35s.mp4",
+ "duracion_s": 35.0,
+ "voz": "FINAL_AGENDA_35s.mp3",
+ "tramos": [
+  {
+   "tramo": 1,
+   "archivo": "CLIPS/T1_rostro_a_closeup.mp4",
+   "modelo": "Kling 2.6 pro (cuadros llave)",
+   "costo": 0.35,
+   "que": "rostro con el hueco, la cámara entra al macro"
+  },
+  {
+   "tramo": 2,
+   "archivo": "CLIPS/T2_anestesia.mp4",
+   "modelo": "Kling 2.6 pro (cuadros llave)",
+   "costo": 0.35,
+   "que": "la jeringa entra, anestesia y se retira"
+  },
+  {
+   "tramo": 3,
+   "archivo": "PRUEBA_SEEDANCE_T3.mp4",
+   "modelo": "Seedance 2.0 fast 1080p",
+   "costo": 2.5,
+   "que": "el rostro se despega como calcomanía y entra la fresa"
+  },
+  {
+   "tramo": 4,
+   "archivo": "CLIPS/T4_canal_y_tornillo.mp4",
+   "modelo": "Kling 2.6 pro (cuadros llave)",
+   "costo": 0.35,
+   "que": "la fresa termina el canal y sube el tornillo"
+  },
+  {
+   "tramo": 5,
+   "archivo": "PRUEBA_REF2VIDEO_T5.mp4",
+   "modelo": "Kling o3 pro + video Blender",
+   "costo": 0.84,
+   "que": "el tornillo se atornilla hasta el fondo e integra"
+  },
+  {
+   "tramo": 6,
+   "archivo": "CLIPS/T6_pilar_y_corona.mp4",
+   "modelo": "Kling 2.6 pro (cuadros llave)",
+   "costo": 0.35,
+   "que": "el hueso integra y la corona sube y se asienta"
+  },
+  {
+   "tramo": 7,
+   "archivo": "CLIPS_SEEDANCE/T7_morph_sonrisa_480p.mp4",
+   "modelo": "Seedance 2.0 fast 480p",
+   "costo": 0.5,
+   "que": "la piel regresa y la sonrisa se abre"
+  }
+ ],
+ "costo_clips_usados": 5.24
+}

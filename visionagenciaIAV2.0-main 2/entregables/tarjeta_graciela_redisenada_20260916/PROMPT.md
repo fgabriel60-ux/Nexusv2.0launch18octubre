@@ -1,0 +1,18 @@
+# Rediseño Casa Comercial Graciela
+
+Generado con la herramienta integrada image_gen. Propuesta visual raster; no es un archivo de preimpresión con sangrado ni texto vectorial.
+
+Se usaron la tarjeta original y la segunda propuesta de muebles del trabajo de Papá, conservadas localmente. Se verificaron visualmente el nombre, propietario y teléfono en la salida. No se envió por WhatsApp.
+
+## Prompt utilizado
+
+Use case: ads-marketing / business card redesign.
+Create one polished, beautifully art-directed flat business card FRONT design, horizontal 90:55 aspect ratio, high resolution. This is the actual flat artwork filling the entire image edge to edge, not a photograph of a card or a mockup, no outside background, no perspective.
+Input 1: old business card to redesign, factual information reference only. Input 2: supporting furniture photograph; preserve recognizable warm wooden chest of drawers and small dining set as the product subjects, show both elegantly in the new composition.
+Design direction: refined contemporary furniture atelier, warm ivory and very dark walnut palette sampled from the references, thoughtful asymmetrical editorial grid, superb typography, generous negative space, restrained hairline rules. Give Graciela a distinctive and exceptionally beautiful large high-contrast serif wordmark with subtle tasteful custom letterforms, exquisitely readable. Small tracked CASA COMERCIAL above. Left approximately 52% typography on warm ivory, right approximately 48% meticulously composed warm furniture photography including both chest of drawers and dining table, with artful crop that does not remove either subject. A full-width deep walnut footer approximately 22% height anchors contact information, light ivory typography. Owner name left of footer, phone prominently on right, with enough room and safe margins. Original design should feel premium, confident, warm, professional and expertly typeset, not template-like. One refined subtle hairline architectural frame/detail may connect the typography and photo. Prioritize readability at actual business card size. No added logos, slogan, claims, social networks, email, address or QR code.
+Exact required text, reproduce perfectly and only once each:
+"CASA COMERCIAL"
+"Graciela"
+"Prop. Marco Antonio Ortiz"
+"631 123 1961"
+Keep all required letters and all telephone digits exact. At least 4mm equivalent internal safe margins around text. Deliver only the finished single card artwork.

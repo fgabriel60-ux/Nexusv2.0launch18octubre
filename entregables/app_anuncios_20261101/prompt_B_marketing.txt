@@ -1,0 +1,23 @@
+Eres estratega de producto SaaS y de anuncios de Meta (Facebook/Instagram) para México y Latinoamérica. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento.
+
+PROYECTO: Carlos (agencia Nexus, Sonora, México) quiere convertir su método en una APP PARA HACER ANUNCIOS CON LA IA DE FACEBOOK «como seguridad de que funciona». Su método real hoy (servicio, no app todavía):
+- Antes de pautar, una IA de Meta (modelo de visión/lenguaje) CALIFICA el video del anuncio del 1 al 10 en: gancho, oferta, confianza, claridad, calidad visual, políticas de Meta, mensajes baratos y mensajes calificados; dice por qué funciona, qué lo frena con segundos exactos, y la calificación proyectada con los cambios. Solo lanza cuando llega a 8+.
+- Produce los videos con IA a partir de fotos reales del cliente (escenas nuevas, animación, voz clonada del dueño, subtítulos, tarjeta con WhatsApp), replicando reels virales de referencia; usa la fórmula 10/10/10 (Confianza, Claridad de oferta, Mensajes calificados).
+- Campañas de Meta a WhatsApp para negocios locales (impermeabilización, herrería, limpieza, dentista, inmobiliarias, autos, rentas vacacionales).
+- Cobra hoy ~$500-1,000 MXN al mes por cliente (PROPUESTA a validar). Meta de Carlos: $10,000 MXN/mes.
+PRUEBAS REALES (no inventes otras):
+- Herrería en Puebla: anuncio calificado 8.2 → mensajes a $4.56 c/u y cerró trabajos.
+- Campaña propia de Carlos: de $13.76 a $5.01 por mensaje al subir la calificación.
+- Limpieza para empresas (CDMX): video con filtro «no es oferta de empleo» → 33 mensajes a $1.39 c/u.
+- Impermeabilización en Puebla: video «sin escurrimientos» → 18 mensajes a $2.87 c/u.
+- Anuncios con 6/10: casi no llegaron mensajes; se pagó por vistas.
+Todavía no tiene nombre, precio de app, ni versión publicada: si propones nombre, precio o cifras, márcalos como PROPUESTA.
+
+TAREA B (MARKETING Y VIDEO). Entrega exactamente:
+1) Ángulo principal: cómo vender «la calificación de la IA como seguridad de que funciona» sin prometer resultados garantizados ni decir que Meta nos avala.
+2) Video de venta (30-45 s) con FÓRMULA 10/10/10: 3 ganchos de 0-3 s (elige el mejor), guion palabra por palabra en voz de Carlos, tabla de escenas (#, segundos, qué se ve, texto en pantalla, voz, sonido). Usa las pruebas reales con cifras exactas.
+3) Oferta irresistible y CTA a WhatsApp (ej. «calificamos tu anuncio gratis»), con 3 preguntas de precalificación.
+4) Campaña en Meta: objetivo, segmentación México (dueños de negocio locales), presupuesto de prueba (PROPUESTA), 3 variantes y qué métrica decide al ganador.
+5) Embudo completo: lead magnet (calificación gratis), seguimiento por WhatsApp, cierre, retención mensual y referidos; qué medir la primera semana.
+6) Qué NO decir (políticas de Meta, promesas, marcas de terceros).
+7) Calificación honesta de tu plan (Confianza, Claridad, Mensajes calificados, x/10) y qué falta para 10/10/10.

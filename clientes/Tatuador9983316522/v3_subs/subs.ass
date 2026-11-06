@@ -1,0 +1,48 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Viral,Montserrat,66,&H00FFFFFF,&H00241E12,&H96000000,1,1,5,2,2,40,40,170,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.04,Viral,,0,0,0,,¿BUSCAS
+Dialogue: 0,0:00:01.04,0:00:01.22,Viral,,0,0,0,,UN
+Dialogue: 0,0:00:01.22,0:00:01.56,Viral,,0,0,0,,TATUAJE
+Dialogue: 0,0:00:01.56,0:00:01.70,Viral,,0,0,0,,EN
+Dialogue: 0,0:00:01.70,0:00:01.98,Viral,,0,0,0,,CANCÚN
+Dialogue: 0,0:00:01.98,0:00:02.50,Viral,,0,0,0,,CENTRO?
+Dialogue: 0,0:00:02.92,0:00:03.22,Viral,,0,0,0,,SOY
+Dialogue: 0,0:00:03.22,0:00:03.60,Viral,,0,0,0,,ADRIÁN
+Dialogue: 0,0:00:03.60,0:00:04.12,Viral,,0,0,0,,SANTANA,
+Dialogue: 0,0:00:04.38,0:00:04.94,Viral,,0,0,0,,ESTOY
+Dialogue: 0,0:00:04.94,0:00:05.32,Viral,,0,0,0,,FRENTE
+Dialogue: 0,0:00:05.32,0:00:05.54,Viral,,0,0,0,,AL
+Dialogue: 0,0:00:05.54,0:00:05.86,Viral,,0,0,0,,PALACIO
+Dialogue: 0,0:00:05.86,0:00:06.40,Viral,,0,0,0,,MUNICIPAL
+Dialogue: 0,0:00:06.40,0:00:06.56,Viral,,0,0,0,,EN
+Dialogue: 0,0:00:06.56,0:00:06.68,Viral,,0,0,0,,EL
+Dialogue: 0,0:00:06.68,0:00:06.98,Viral,,0,0,0,,CENTRO
+Dialogue: 0,0:00:06.98,0:00:07.16,Viral,,0,0,0,,DE
+Dialogue: 0,0:00:07.16,0:00:07.70,Viral,,0,0,0,,CANCÚN.
+Dialogue: 0,0:00:08.22,0:00:08.78,Viral,,0,0,0,,ESCRÍBEME
+Dialogue: 0,0:00:08.78,0:00:09.02,Viral,,0,0,0,,AHORA
+Dialogue: 0,0:00:09.02,0:00:09.14,Viral,,0,0,0,,Y
+Dialogue: 0,0:00:09.12,0:00:09.48,Viral,,0,0,0,,ASEGURA
+Dialogue: 0,0:00:09.48,0:00:09.60,Viral,,0,0,0,,TU
+Dialogue: 0,0:00:09.60,0:00:09.84,Viral,,0,0,0,,LUGAR.
+Dialogue: 0,0:00:10.52,0:00:10.68,Viral,,0,0,0,,LAS
+Dialogue: 0,0:00:10.68,0:00:10.90,Viral,,0,0,0,,CITAS
+Dialogue: 0,0:00:10.90,0:00:11.06,Viral,,0,0,0,,SE
+Dialogue: 0,0:00:11.06,0:00:11.40,Viral,,0,0,0,,AGENDAN
+Dialogue: 0,0:00:11.40,0:00:11.52,Viral,,0,0,0,,CON
+Dialogue: 0,0:00:11.52,0:00:12.22,Viral,,0,0,0,,ANTICIPACIÓN,
+Dialogue: 0,0:00:12.32,0:00:12.44,Viral,,0,0,0,,NO
+Dialogue: 0,0:00:12.40,0:00:12.52,Viral,,0,0,0,,TE
+Dialogue: 0,0:00:12.52,0:00:12.74,Viral,,0,0,0,,QUEDES
+Dialogue: 0,0:00:12.74,0:00:12.98,Viral,,0,0,0,,FUERA.

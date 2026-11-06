@@ -1,0 +1,26 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-Czs4Qp5ZLlburYBE7oIu0N
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_tomas.
+└── ✓ Created Function gen_cuadros.
+toma KT1_salto
+toma KT2_cae
+guardado KT1_salto.mp4
+guardado KT2_cae.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-Czs4Qp5ZLlburYBE7oIu0N
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261031/mariano_spiderman_r6.json
+Duración: 3.7 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.021
+  escenas-carlos (ap-Czs4Qp5ZLlburYBE7oIu0N): $0.172
+  glimmer (ap-N4ooL5iwQmuCydGkGaJWOm): $0.197
+Gasto del trabajo: $0.389
+Saldo restante ≈ $17.96

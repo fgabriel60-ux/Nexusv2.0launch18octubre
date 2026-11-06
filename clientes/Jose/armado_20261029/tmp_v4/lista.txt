@@ -1,0 +1,8 @@
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v4/V1_barre.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v4/V2_cubetas.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v4/V3_mezcla.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v4/V4_primario.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v4/V5_poliuretano.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v4/V6_terminada.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v4/V7_lluvia.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Jose/armado_20261029/tmp_v4/V8_cierre.mp4'

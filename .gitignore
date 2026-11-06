@@ -1,0 +1,13 @@
+.env
+
+# medios pesados (transferir aparte)
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.zip
+*.onnx
+clientes/XV/originales/
+node_modules/
+entregables/tablero/.clave
+_URLS.txt

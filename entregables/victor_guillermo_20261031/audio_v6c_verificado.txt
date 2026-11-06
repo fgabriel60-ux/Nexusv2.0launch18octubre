@@ -1,0 +1,1 @@
+Audio PCM coincide en los primeros 22.080 s: True. Duraciones: 22.155 / 22.080 s. Diferencia solo en cola de silencio al terminar el video.

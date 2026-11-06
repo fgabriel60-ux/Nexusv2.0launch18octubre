@@ -1,0 +1,186 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-V8UTTbEW40o3C7Cwaqidid
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/_escenas_carlos/escenas_carlos
+│   _modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+/usr/local/lib/python3.12/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+[1ALoading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]
+[1ALoading pipeline components...:  17%|█▋        | 1/6 [00:00<00:01,  2.99it/s]
+[1ALoading pipeline components...:  33%|███▎      | 2/6 [00:00<00:02,  1.96it/s]
+[1ALoading pipeline components...:  50%|█████     | 3/6 [00:01<00:01,  2.95it/s]
+
+[1A
+[1ALoading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+[1A
+[1ALoading checkpoint shards:  20%|██        | 1/5 [00:02<00:09,  2.34s/it][A
+
+[1ALoading checkpoint shards:  40%|████      | 2/5 [00:04<00:07,  2.33s/it][A
+
+[1A
+[1ALoading checkpoint shards:  60%|██████    | 3/5 [00:07<00:04,  2.34s/it][A
+
+[1A
+[1ALoading checkpoint shards:  80%|████████  | 4/5 [00:09<00:02,  2.32s/it][A
+
+[1A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [00:09<00:00,  1.56s/it][A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [00:09<00:00,  1.90s/it]
+
+[1ALoading pipeline components...:  67%|██████▋   | 4/6 [00:10<00:08,  4.06s/it]
+[1ALoading pipeline components...:  83%|████████▎ | 5/6 [00:11<00:02,  2.65s/it][transformers] Qwen2_5_VLConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. 
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section'}
+
+
+[1A
+[1ALoading weights:   0%|          | 0/729 [00:00<?, ?it/s][A
+
+[1A
+[1ALoading weights:   1%|          | 9/729 [00:00<00:09, 76.48it/s][A
+
+[1A
+[1ALoading weights:   3%|▎         | 24/729 [00:00<00:06, 116.68it/s][A
+
+[1A
+[1ALoading weights:   6%|▌         | 44/729 [00:00<00:04, 146.01it/s][A
+
+[1A
+[1ALoading weights:   9%|▊         | 63/729 [00:00<00:04, 161.84it/s][A
+
+[1A
+[1ALoading weights:  13%|█▎        | 92/729 [00:00<00:03, 201.59it/s][A
+
+[1A
+[1ALoading weights:  16%|█▌        | 113/729 [00:00<00:03, 172.79it/s][A
+
+[1A
+[1ALoading weights:  18%|█▊        | 134/729 [00:00<00:03, 164.16it/s][A
+
+[1A
+[1ALoading weights:  22%|██▏       | 163/729 [00:00<00:02, 197.59it/s][A
+
+[1A
+[1ALoading weights:  25%|██▌       | 184/729 [00:01<00:02, 186.53it/s][A
+
+[1A
+[1ALoading weights:  28%|██▊       | 204/729 [00:01<00:03, 155.66it/s][A
+
+[1A
+[1ALoading weights:  33%|███▎      | 239/729 [00:01<00:02, 201.92it/s][A
+
+[1A
+[1ALoading weights:  36%|███▌      | 262/729 [00:01<00:02, 177.92it/s][A
+
+[1A
+[1ALoading weights:  39%|███▊      | 282/729 [00:01<00:02, 172.64it/s][A
+
+[1A
+[1ALoading weights:  41%|████▏     | 301/729 [00:01<00:02, 166.51it/s][A
+
+[1A
+[1ALoading weights:  49%|████▊     | 355/729 [00:01<00:01, 253.23it/s][A
+
+[1A
+[1ALoading weights:  57%|█████▋    | 415/729 [00:01<00:00, 335.90it/s][A
+
+[1A
+[1ALoading weights:  64%|██████▎   | 463/729 [00:02<00:00, 365.46it/s][A
+
+[1A
+[1ALoading weights:  70%|███████   | 512/729 [00:02<00:00, 398.18it/s][A
+
+[1A
+[1ALoading weights:  81%|████████▏ | 594/729 [00:02<00:00, 513.34it/s][A
+
+[1A
+[1ALoading weights:  89%|████████▉ | 650/729 [00:02<00:00, 511.50it/s][A
+[1ALoading weights: 100%|██████████| 729/729 [00:02<00:00, 291.99it/s]
+
+[1ALoading pipeline components...: 100%|██████████| 6/6 [00:14<00:00,  2.79s/it]
+[1ALoading pipeline components...: 100%|██████████| 6/6 [00:14<00:00,  2.35s/it]
+guidance_scale is passed as 1.0, but ignored since the model is not guidance-distilled.
+
+[1A  0%|          | 0/28 [00:00<?, ?it/s]
+[1A  4%|▎         | 1/28 [00:04<02:00,  4.47s/it]
+[1A  7%|▋         | 2/28 [00:09<02:01,  4.69s/it]
+[1A 11%|█         | 3/28 [00:14<01:59,  4.77s/it]
+[1A 14%|█▍        | 4/28 [00:19<01:55,  4.80s/it]
+[1A 18%|█▊        | 5/28 [00:23<01:50,  4.82s/it]
+[1A 21%|██▏       | 6/28 [00:28<01:46,  4.83s/it]
+[1A 25%|██▌       | 7/28 [00:33<01:41,  4.84s/it]
+[1A 29%|██▊       | 8/28 [00:38<01:36,  4.84s/it]
+[1A 32%|███▏      | 9/28 [00:43<01:32,  4.85s/it]
+[1A 36%|███▌      | 10/28 [00:48<01:27,  4.86s/it]
+[1A 39%|███▉      | 11/28 [00:53<01:22,  4.86s/it]
+[1A 43%|████▎     | 12/28 [00:57<01:17,  4.86s/it]
+[1A 46%|████▋     | 13/28 [01:02<01:12,  4.87s/it]
+[1A 50%|█████     | 14/28 [01:07<01:08,  4.87s/it]
+[1A 54%|█████▎    | 15/28 [01:12<01:03,  4.87s/it]
+[1A 57%|█████▋    | 16/28 [01:17<00:58,  4.88s/it]
+[1A 61%|██████    | 17/28 [01:22<00:53,  4.88s/it]
+[1A 64%|██████▍   | 18/28 [01:27<00:48,  4.88s/it]
+[1A 68%|██████▊   | 19/28 [01:32<00:43,  4.89s/it]
+[1A 71%|███████▏  | 20/28 [01:36<00:39,  4.89s/it]
+[1A 75%|███████▌  | 21/28 [01:41<00:34,  4.89s/it]
+[1A 79%|███████▊  | 22/28 [01:46<00:29,  4.89s/it]
+[1A 82%|████████▏ | 23/28 [01:51<00:24,  4.89s/it]
+[1A 86%|████████▌ | 24/28 [01:56<00:19,  4.89s/it]
+[1A 89%|████████▉ | 25/28 [02:01<00:14,  4.89s/it]
+[1A 93%|█████████▎| 26/28 [02:06<00:09,  4.89s/it]
+[1A 96%|█████████▋| 27/28 [02:11<00:04,  4.89s/it]
+[1A100%|██████████| 28/28 [02:16<00:00,  4.89s/it]
+[1A100%|██████████| 28/28 [02:16<00:00,  4.86s/it]
+cuadro RX1_afuera
+guidance_scale is passed as 1.0, but ignored since the model is not guidance-distilled.
+
+[1A  0%|          | 0/28 [00:00<?, ?it/s]
+[1A  4%|▎         | 1/28 [00:04<02:01,  4.49s/it]
+[1A  7%|▋         | 2/28 [00:09<02:02,  4.73s/it]
+[1A 11%|█         | 3/28 [00:14<02:00,  4.80s/it]
+[1A 14%|█▍        | 4/28 [00:19<01:56,  4.84s/it]
+[1A 18%|█▊        | 5/28 [00:24<01:51,  4.86s/it]
+[1A 21%|██▏       | 6/28 [00:28<01:47,  4.87s/it]
+[1A 25%|██▌       | 7/28 [00:33<01:42,  4.88s/it]
+[1A 29%|██▊       | 8/28 [00:38<01:37,  4.88s/it]
+[1A 32%|███▏      | 9/28 [00:43<01:32,  4.89s/it]
+[1A 36%|███▌      | 10/28 [00:48<01:28,  4.89s/it]
+[1A 39%|███▉      | 11/28 [00:53<01:23,  4.89s/it]
+[1A 43%|████▎     | 12/28 [00:58<01:18,  4.89s/it]
+[1A 46%|████▋     | 13/28 [01:03<01:13,  4.89s/it]
+[1A 50%|█████     | 14/28 [01:08<01:08,  4.89s/it]
+[1A 54%|█████▎    | 15/28 [01:13<01:03,  4.90s/it]
+[1A 57%|█████▋    | 16/28 [01:17<00:58,  4.89s/it]
+[1A 61%|██████    | 17/28 [01:22<00:53,  4.90s/it]
+[1A 64%|██████▍   | 18/28 [01:27<00:48,  4.89s/it]
+[1A 68%|██████▊   | 19/28 [01:32<00:44,  4.90s/it]
+[1A 71%|███████▏  | 20/28 [01:37<00:39,  4.90s/it]
+[1A 75%|███████▌  | 21/28 [01:42<00:34,  4.90s/it]
+[1A 79%|███████▊  | 22/28 [01:47<00:29,  4.90s/it]
+[1A 82%|████████▏ | 23/28 [01:52<00:24,  4.90s/it]
+[1A 86%|████████▌ | 24/28 [01:57<00:19,  4.89s/it]
+[1A 89%|████████▉ | 25/28 [02:01<00:14,  4.90s/it]
+[1A 93%|█████████▎| 26/28 [02:06<00:09,  4.89s/it]
+[1A 96%|█████████▋| 27/28 [02:11<00:04,  4.89s/it]
+[1A100%|██████████| 28/28 [02:16<00:00,  4.89s/it]
+[1A100%|██████████| 28/28 [02:16<00:00,  4.88s/it]
+cuadro RX2_dentro
+guardado RX1_afuera.png
+guardado RX2_dentro.png
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-V8UTTbEW40o3C7Cwaqidid
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::cuadros --spec entregables/specs_20261101/rafael_byd_gancho_v2.json
+Duración: 5.7 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.030
+  escenas-carlos (ap-V8UTTbEW40o3C7Cwaqidid): $0.238
+Gasto del trabajo: $0.269
+Saldo restante ≈ $28.31

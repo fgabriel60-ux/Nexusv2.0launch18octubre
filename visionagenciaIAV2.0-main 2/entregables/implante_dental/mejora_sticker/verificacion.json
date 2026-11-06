@@ -1,0 +1,91 @@
+{
+  "source_unchanged": true,
+  "idempotent": true,
+  "voice_packed": true,
+  "checks": [
+    {
+      "frame": 1,
+      "face_visible": true,
+      "face_min_x": -9.350000381469727,
+      "face_min_y": -4.507500171661377
+    },
+    {
+      "frame": 240,
+      "face_visible": true,
+      "face_min_x": -9.350000381469727,
+      "face_min_y": -4.507500171661377
+    },
+    {
+      "frame": 350,
+      "face_visible": true,
+      "face_min_x": -9.350000381469727,
+      "face_min_y": -4.507500171661377
+    },
+    {
+      "frame": 365,
+      "face_visible": true,
+      "face_min_x": -9.350000381469727,
+      "face_min_y": -5.8608317375183105
+    },
+    {
+      "frame": 380,
+      "face_visible": true,
+      "face_min_x": -9.350000381469727,
+      "face_min_y": -6.507500171661377
+    },
+    {
+      "frame": 395,
+      "face_visible": true,
+      "face_min_x": -24.385873794555664,
+      "face_min_y": -6.507500171661377
+    },
+    {
+      "frame": 413,
+      "face_visible": true,
+      "face_min_x": -33.50540542602539,
+      "face_min_y": -6.507500171661377
+    },
+    {
+      "frame": 415,
+      "face_visible": true,
+      "face_min_x": -33.50540542602539,
+      "face_min_y": -6.507500171661377
+    },
+    {
+      "frame": 416,
+      "face_visible": false,
+      "face_min_x": -33.50540542602539,
+      "face_min_y": -6.507500171661377
+    },
+    {
+      "frame": 620,
+      "face_visible": false,
+      "face_min_x": -33.50540542602539,
+      "face_min_y": -6.507500171661377
+    },
+    {
+      "frame": 750,
+      "face_visible": false,
+      "face_min_x": -33.50540542602539,
+      "face_min_y": -6.507500171661377
+    },
+    {
+      "frame": 950,
+      "face_visible": false,
+      "face_min_x": -33.50540542602539,
+      "face_min_y": -6.507500171661377
+    },
+    {
+      "frame": 998,
+      "face_visible": true,
+      "face_min_x": -9.350000381469727,
+      "face_min_y": -4.507500171661377
+    },
+    {
+      "frame": 1050,
+      "face_visible": true,
+      "face_min_x": -9.350000381469727,
+      "face_min_y": -4.507500171661377
+    }
+  ]
+}

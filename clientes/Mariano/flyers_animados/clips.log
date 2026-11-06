@@ -1,0 +1,21 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-7BrzVMt6ZABhZri66tHkmc
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/Mariano/flyers_animados/flyers
+│   _modal.py
+├── ✓ Created Function cuadros.
+└── ✓ Created Function clips.
+clip A1 /datos/siena/out/mariano_flyers/A1_00001_.mp4
+clip A2 /datos/siena/out/mariano_flyers/A2_00001_.mp4
+clip A3 /datos/siena/out/mariano_flyers/A3_00001_.mp4
+clip A4 /datos/siena/out/mariano_flyers/A4_00001_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/Mariano/flyers_animados/clips/A1
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/Mariano/flyers_animados/clips/A2
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/Mariano/flyers_animados/clips/A3
+guardado /workspaces/Nexusv2.0launch18octubre/clientes/Mariano/flyers_animados/clips/A4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-7BrzVMt6ZABhZri66tHkmc
+FIN

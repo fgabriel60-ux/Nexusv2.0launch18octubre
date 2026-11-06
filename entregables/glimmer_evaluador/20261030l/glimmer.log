@@ -1,0 +1,691 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-3RVnOV6S9ENBHyeFw3jBg3
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/entregables/glimmer_estrategias_20261029/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:02<56:11,  2.35s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:02<11:59,  1.99it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:02<07:29,  3.18it/s]
+[1ALoading weights:   1%|          | 13/1436 [00:02<02:47,  8.47it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:03<02:03, 11.54it/s]
+[1ALoading weights:   1%|▏         | 20/1436 [00:03<01:48, 13.01it/s]
+[1ALoading weights:   2%|▏         | 28/1436 [00:03<01:08, 20.69it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:03<01:16, 18.35it/s]
+[1ALoading weights:   3%|▎         | 37/1436 [00:03<01:08, 20.33it/s]
+[1ALoading weights:   3%|▎         | 41/1436 [00:03<01:00, 23.12it/s]
+[1ALoading weights:   3%|▎         | 44/1436 [00:04<01:03, 22.07it/s]
+[1ALoading weights:   4%|▎         | 51/1436 [00:04<00:52, 26.30it/s]
+[1ALoading weights:   4%|▍         | 54/1436 [00:04<01:03, 21.63it/s]
+[1ALoading weights:   4%|▍         | 61/1436 [00:04<00:45, 29.89it/s]
+[1ALoading weights:   5%|▍         | 65/1436 [00:04<00:53, 25.53it/s]
+[1ALoading weights:   5%|▍         | 69/1436 [00:05<00:53, 25.60it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:05<00:45, 29.99it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:05<00:55, 24.32it/s]
+[1ALoading weights:   6%|▌         | 88/1436 [00:05<00:44, 30.02it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:05<00:55, 24.36it/s]
+[1ALoading weights:   7%|▋         | 98/1436 [00:06<00:51, 26.04it/s]
+[1ALoading weights:   7%|▋         | 101/1436 [00:06<00:51, 26.00it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:06<00:56, 23.75it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:06<00:43, 30.69it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:06<00:53, 24.88it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:06<00:48, 26.87it/s]
+[1ALoading weights:   9%|▊         | 125/1436 [00:07<00:49, 26.75it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [00:07<00:53, 24.56it/s]
+[1ALoading weights:   9%|▉         | 136/1436 [00:07<00:40, 32.44it/s]
+[1ALoading weights:  10%|▉         | 140/1436 [00:07<00:50, 25.66it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:07<00:40, 31.56it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:08<00:49, 25.70it/s]
+[1ALoading weights:  11%|█         | 158/1436 [00:08<00:45, 28.17it/s]
+[1ALoading weights:  11%|█▏        | 162/1436 [00:08<00:52, 24.48it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:08<00:37, 33.50it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:08<00:45, 27.43it/s]
+[1ALoading weights:  13%|█▎        | 181/1436 [00:09<00:47, 26.27it/s]
+[1ALoading weights:  13%|█▎        | 185/1436 [00:09<00:44, 28.29it/s]
+[1ALoading weights:  13%|█▎        | 189/1436 [00:09<00:44, 28.22it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [00:09<00:39, 31.16it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:09<00:49, 25.05it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:09<00:39, 31.11it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:10<00:49, 24.61it/s]
+[1ALoading weights:  15%|█▌        | 217/1436 [00:10<00:46, 26.26it/s]
+[1ALoading weights:  15%|█▌        | 221/1436 [00:10<00:43, 27.84it/s]
+[1ALoading weights:  16%|█▌        | 225/1436 [00:10<00:43, 27.70it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:10<00:38, 31.28it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:11<00:48, 24.70it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:11<00:38, 31.04it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:11<00:46, 25.33it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:11<00:39, 29.78it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:12<00:48, 24.44it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:12<00:39, 29.68it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:12<00:48, 24.08it/s]
+[1ALoading weights:  19%|█▉        | 280/1436 [00:12<00:39, 29.27it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:12<00:47, 24.39it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:13<00:38, 30.09it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:13<00:44, 25.39it/s]
+[1ALoading weights:  21%|██        | 303/1436 [00:13<00:34, 32.55it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:13<00:45, 24.75it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:13<00:37, 29.50it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:14<00:45, 24.63it/s]
+[1ALoading weights:  23%|██▎       | 328/1436 [00:14<00:37, 29.83it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:14<00:43, 25.64it/s]
+[1ALoading weights:  24%|██▎       | 340/1436 [00:15<00:49, 22.28it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:15<00:33, 32.07it/s]
+[1ALoading weights:  25%|██▍       | 356/1436 [00:15<00:40, 26.85it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:15<00:33, 31.72it/s]
+[1ALoading weights:  26%|██▌       | 368/1436 [00:15<00:40, 26.41it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:16<00:33, 31.31it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:16<00:41, 25.64it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:16<00:33, 30.98it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:16<00:40, 25.52it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:16<00:33, 30.95it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:17<00:41, 24.72it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:17<00:34, 30.07it/s]
+[1ALoading weights:  29%|██▉       | 416/1436 [00:17<00:40, 25.20it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:17<00:33, 29.88it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:18<00:40, 25.01it/s]
+[1ALoading weights:  30%|███       | 434/1436 [00:18<00:37, 26.91it/s]
+[1ALoading weights:  31%|███       | 438/1436 [00:18<00:40, 24.60it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:18<00:30, 32.80it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:18<00:37, 26.24it/s]
+[1ALoading weights:  32%|███▏      | 458/1436 [00:19<00:30, 31.67it/s]
+[1ALoading weights:  32%|███▏      | 462/1436 [00:19<00:43, 22.17it/s]
+[1ALoading weights:  33%|███▎      | 469/1436 [00:19<00:37, 25.51it/s]
+[1ALoading weights:  33%|███▎      | 474/1436 [00:19<00:38, 24.70it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:20<00:29, 32.23it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:20<00:37, 25.41it/s]
+[1ALoading weights:  34%|███▍      | 494/1436 [00:20<00:37, 24.80it/s]
+[1ALoading weights:  35%|███▍      | 498/1436 [00:20<00:36, 25.71it/s]
+[1ALoading weights:  35%|███▌      | 506/1436 [00:20<00:31, 29.92it/s]
+[1ALoading weights:  36%|███▌      | 510/1436 [00:21<00:37, 24.82it/s]
+[1ALoading weights:  36%|███▌      | 520/1436 [00:21<00:27, 33.40it/s]
+[1ALoading weights:  36%|███▋      | 524/1436 [00:21<00:34, 26.15it/s]
+[1ALoading weights:  37%|███▋      | 528/1436 [00:21<00:35, 25.42it/s]
+[1ALoading weights:  37%|███▋      | 533/1436 [00:21<00:31, 28.70it/s]
+[1ALoading weights:  37%|███▋      | 537/1436 [00:22<00:31, 28.97it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:22<00:25, 34.58it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:22<00:32, 27.20it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:22<00:27, 32.17it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:22<00:33, 25.92it/s]
+[1ALoading weights:  39%|███▉      | 566/1436 [00:23<00:30, 28.68it/s]
+[1ALoading weights:  40%|███▉      | 570/1436 [00:23<00:35, 24.28it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:23<00:25, 33.23it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:23<00:31, 26.73it/s]
+[1ALoading weights:  41%|████      | 590/1436 [00:23<00:26, 32.07it/s]
+[1ALoading weights:  41%|████▏     | 594/1436 [00:24<00:37, 22.63it/s]
+[1ALoading weights:  42%|████▏     | 604/1436 [00:24<00:26, 30.90it/s]
+[1ALoading weights:  42%|████▏     | 608/1436 [00:24<00:32, 25.63it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:24<00:26, 31.00it/s]
+[1ALoading weights:  43%|████▎     | 620/1436 [00:25<00:32, 25.19it/s]
+[1ALoading weights:  44%|████▍     | 634/1436 [00:25<00:18, 43.04it/s]
+[1ALoading weights:  47%|████▋     | 670/1436 [00:25<00:07, 100.02it/s]
+[1ALoading weights:  49%|████▊     | 697/1436 [00:25<00:05, 133.14it/s]
+[1ALoading weights:  51%|█████     | 729/1436 [00:25<00:04, 170.54it/s]
+[1ALoading weights:  54%|█████▍    | 774/1436 [00:25<00:02, 233.95it/s]
+[1ALoading weights:  58%|█████▊    | 830/1436 [00:25<00:01, 307.57it/s]
+[1ALoading weights:  61%|██████    | 877/1436 [00:25<00:01, 342.49it/s]
+[1ALoading weights:  64%|██████▍   | 926/1436 [00:25<00:01, 378.27it/s]
+[1ALoading weights:  68%|██████▊   | 974/1436 [00:25<00:01, 402.23it/s]
+[1ALoading weights:  71%|███████▏  | 1024/1436 [00:26<00:00, 413.36it/s]
+[1ALoading weights:  75%|███████▍  | 1072/1436 [00:26<00:00, 430.58it/s]
+[1ALoading weights:  78%|███████▊  | 1122/1436 [00:26<00:00, 444.71it/s]
+[1ALoading weights:  81%|████████▏ | 1168/1436 [00:26<00:00, 419.52it/s]
+[1ALoading weights:  84%|████████▍ | 1212/1436 [00:26<00:00, 420.18it/s]
+[1ALoading weights:  88%|████████▊ | 1264/1436 [00:26<00:00, 444.23it/s]
+[1ALoading weights:  92%|█████████▏| 1314/1436 [00:26<00:00, 458.89it/s]
+[1ALoading weights:  95%|█████████▍| 1361/1436 [00:26<00:00, 449.26it/s]
+[1ALoading weights:  98%|█████████▊| 1407/1436 [00:26<00:00, 443.23it/s]Loading weights: 100%|██████████| 1436/1436 [00:26<00:00, 53.21it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## GIOVANNI_v5
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+NEGOCIO: Lic. Giovanni Pulido, abogado en Los Cabos, BCS. Divorcio voluntario desde $20,000, precio único; trámite 100% en línea; más de 90 divorcios resueltos; más de 15 años de experiencia; confidencialidad. WhatsApp 624 136 3328. Los tiempos varían según el juzgado (no se prometen plazos).
+Objetivo: campaña de mensajes a WhatsApp con mensajes baratos y CALIFICADOS (gente que sí compra).
+
+VIDEO DEL ANUNCIO (30.1 s, 9:16). Imágenes adjuntas = 30 cuadros repartidos en TODO el video (2 hojas de 15, con el segundo de cada cuadro arriba a la izquierda). Los subtítulos y tarjetas son capas de texto exactas.
+TRANSCRIPCIÓN DE LO QUE SE DICE (con tiempos):
+[  0.0-  5.0s] Más de 90 divorcios resueltos en los cabos trámite 100% en línea, soy el
+[  5.0-  9.6s] licenciado y ovani pulido, abogado con más de 15 años de experiencia.
+[  9.6- 14.0s] Buscamos el acuerdo en el divorcio con total confidencialidad.
+[ 14.0- 19.0s] Divorcio voluntario desde 20.000 pesos, precio único sin sorpresas.
+[ 19.0- 27.0s] Escríbeme por WhatsApp al 624-136-3328. Los tiempos varían según el juzgado.
+
+Responde EXACTAMENTE con este formato:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+CAPACIDADES...
+
+We need to evaluate video based on frames and transcription.
+
+We have frames timestamps: 0.5s,1.5s,2.5s,3.5s,4.5s,5.5s,6.5s,7.5s,8.5s,9.5s,10.5s,11.5s,12.5s,13.5s,14.5s,15.5s,16.5s,17.5s,18.5s,19.5s,20.5s,21.5s,22.6s,23.6s,24.6s,25.6s,26.6s,27.6s,28.6s,29.6s
+
+We need to see text overlays.
+
+First row: DE, RESUELTOS, CABOS, %, LÍNEA. With +90 DIVORCIOS RESUELTOS En Los Cabos - Trámite 100% en línea. So first 5 seconds builds phrase "DE RESUELTOS CABOS % LÍNEA"? Actually transcription says "Más de 90 divorcios resueltos en los cabos trámite 100% en línea". The on-screen words: DE, RESUELTOS, CABOS, %, LÍNEA. That matches.
+
+Second row: GIOVANNI, PULIDO, MÁS, DE, EXPERIENCIA. So "GIOVANNI PULIDO MÁS DE EXPERIENCIA". Transcription says licenciado y ovani pulido, abogado con más de 15 años de experiencia. Note transcription says "y ovani" maybe typo for Giovanni. On screen shows GIOVANNI PULIDO MÁS DE EXPERIENCIA. Good.
+
+Third row: ACUERDO, DIVORCIO, CON, CONFIDENCIALIDAD, VOLUNTARIO. Background changes to arch rock. Text bottom: DIVORCIO VOLUNTARIO Desde $20,000 - Precio único. So phrase "ACUERDO DIVORCIO CON CONFIDENCIALIDAD VOLUNTARIO". Transcription: Buscamos el acuerdo en el divorcio con total confidencialidad. Good.
+
+Fourth row: $20,000, PESOS, SIN, SORPRESAS, POR. Background still arch. So " $20,000 PESOS SIN SORPRESAS". Then 19.5s changes background to office, text POR. So transition.
+
+Fifth row: AL, 136, 3328, 3328, TIEMPOS. Wait 23.6s shows 3328 again? Actually 22.6s 3328, 23.6s 3328. Might be duplicate. Then 24.6s TIEMPOS. 25.6s EL. So phrase "AL 136 3328 3328 TIEMPOS EL"? Hmm transcription says Escríbeme por WhatsApp al 624-136-3328. Los tiempos varían según el juzgado. On screen shows POR AL 136 3328 3328 TIEMPOS EL. Might be building "POR AL 136 3328 TIEMPOS EL"? The WhatsApp number is 624 136 3328. They show 136 and 3328 but missing 624. Maybe 624 is in static text bottom. Bottom text: WHATSAPP 624 136 3328 Los tiempos varían según el juzgado. So okay.
+
+Last row: 26.6s,27.6s,28.6s,29.6s black screen with LIC. GIOVANNI PULIDO ABOGADO EN LOS CABOS DIVORCIO VOLUNTARIO DESDE $20,000 Precio único · sin sorpresas Trámite 100% en línea · Confidencial Escribeme por WhatsApp 624 136 3328
+
+So video ends with clear CTA.
+
+Now evaluate.
+
+We need rating total X/10. Notes: Gancho, Oferta, Confianza, Claridad, Calidad visual, Políticas de Meta, Mensajes baratos, Mensajes calificados.
+
+We must use only data. No invent prices etc.
+
+Potential issues: transcription says "licenciado y ovani pulido" maybe mispronunciation? Might be audio issue. Also the on-screen words are fragmented, maybe confusing. The video shows man with arms crossed, static. Might be low engagement. The hook first 3 seconds: "Más de 90 divorcios resueltos..." good social proof. But text appears word by word, maybe slow.
+
+Policy of Meta: legal services allowed? Divorce lawyer is professional services. Must not make misleading claims. They say "más de 90 divorcios resueltos" okay. "trámite 100% en línea" okay. "desde $20,000 precio único sin sorpresas" okay. "Los tiempos varían según el juzgado" disclaimer present. No guarantee. Should be okay.
+
+Messages baratos? Might be broad. Messages calificados? Might be okay but maybe too generic.
+
+Quality visual: images look AI generated? The man looks same, background library, arch. Might be AI generated. Could be okay but maybe uncanny.
+
+We need to give rating.
+
+Let's think: Gancho maybe 7/10. Oferta 8/10 (price clear). Confianza 7/10 (90 cases, 15 years). Claridad 6/10 (word-by-word text may be confusing, number 624 missing in overlay). Calidad visual 6/10 (static AI). Políticas de Meta 8/10 (disclaimer present). Mensajes baratos 7/10 (broad interest). Mensajes calificados 6/10 (no qualification filter).
+
+Total maybe 6.8? Need integer? Probably X/10 integer. Let's give 6/10.
+
+Provide POR QUÉ FUNCIONA: 3-5 bullets with exact second.
+
+Examples:
+- 0.5-4.5s: "DE RESUELTOS CABOS % LÍNEA" + "+90 DIVORCIOS RESUELTOS En Los Cabos - Trámite 100% en línea" + audio "Más de 90 divorcios resueltos..." → prueba social inmediata y beneficio de trámite en línea.
+- 5.5-9.5s: "GIOVANNI PULIDO MÁS DE EXPERIENCIA" + audio "licenciado... más de 15 años de experiencia" → autoridad personal.
+- 14.5-18.5s: "$20,000 PESOS SIN SORPRESAS" + audio "Divorcio voluntario desde 20.000 pesos, precio único sin sorpresas" → precio claro y sin sorpresas reduce fricción.
+- 26.6-29.6s: tarjeta final negra con "DIVORCIO VOLUNTARIO DESDE $20,000 Precio único · sin sorpresas Trámite 100% en línea · Confidencial Escribeme por WhatsApp 624 136 3328" → CTA fijo y datos completos para decisión rápida.
+
+QUÉ LO FRENA: 1-3 bullets with second exact and concrete fix viable.
+
+Potential issues:
+- 5.0-9.6s audio dice "licenciado y ovani pulido" en vez de "Giovanni Pulido". Arreglo: regrabar voz clonada con guion exacto "licenciado Giovanni Pulido" manteniendo el mismo clip y sincronía de labios con MiniMax H3.
+- 19.5-25.6s el número de WhatsApp se construye con palabras "POR AL 136 3328 TIEMPOS EL" y el 624 solo queda en texto pequeño inferior. Arreglo: mantener el texto inferior y añadir en capa de texto grande y fijo "WhatsApp 624 136 3328" desde 19.5s hasta el final, sin generar texto dentro del video.
+- 0.5-9.5s el rostro está estático con brazos cruzados y fondo de biblioteca sin movimiento. Arreglo: aplicar animación imagen→video con MiniMax H3 de push-in suave de 5 s sobre el primer plano del 0.5s y otro sobre el 5.5s, con primer y último cuadro fijados para evitar deformación, manteniendo la capa de texto aparte.
+
+Verdict: Subir con cambios, calificación proyectada maybe 8/10.
+
+Need exact format.
+
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: ...
+QUÉ LO FRENA: ...
+VEREDICTO: ...
+
+Make sure Spanish clear.
+
+No invent prices. Use data.
+
+Check transcription: "licenciado y ovani pulido" maybe typo. Should we note? Yes.
+
+Also note that 23.6s shows 3328 duplicate, maybe error. Could be 624? Actually 21.5s 136, 22.6s 3328, 23.6s 3328 duplicate. Might be mistake. Could suggest fix.
+
+We must not invent. Use only data.
+
+Maybe also note that the video shows "MÁS DE EXPERIENCIA" but transcription says "más de 15 años de experiencia". The on-screen doesn't show 15 años. Could be missing. That's a clarity issue. Could suggest add "15 AÑOS" in text layer.
+
+But capacity allows text in layer. So we can suggest add.
+
+We need 1-3 bullets.
+
+Let's propose:
+
+- 5.0-9.6s audio dice "y ovani pulido" y el texto en pantalla dice "GIOVANNI PULIDO MÁS DE EXPERIENCIA" sin mencionar "15 años". Arreglo: corregir voz clonada con guion exacto "licenciado Giovanni Pulido, abogado con más de 15 años de experiencia" y añadir en capa de texto "15 AÑOS" junto a "MÁS DE EXPERIENCIA" entre 7.5s y 9.5s.
+
+- 19.5-25.6s el número se arma palabra por palabra y el 624 solo aparece en texto pequeño inferior. Arreglo: mantener el texto inferior y añadir en capa de texto grande y fijo "WhatsApp 624 136 3328" desde 19.5s hasta 25.6s.
+
+- 0.5-9.5s imagen estática con rostro AI y brazos cruzados. Arreglo: generar con MiniMax H3 un push-in suave de ~5 s sobre el plano de biblioteca del 0.5s y otro sobre el 5.5s, con primer y último cuadro fijados, texto en capa aparte.
+
+Verdict: Subir con cambios, calificación proyectada 8/10.
+
+Make sure format exact.
+
+Let's produce final answer.
+
+Ensure no reasoning shown.
+
+Output only final.
+
+Let's craft.
+
+CALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 7/10 · Oferta 8/10 · Confianza 7/10 · Claridad 6/10 · Calidad visual 6/10 · Políticas de Meta 8/10 · Mensajes baratos 7/10 · Mensajes calificados 6/10
+
+POR QUÉ FUNCIONA:
+- 0.5s a 4.5s: texto "DE RESUELTOS CABOS % LÍNEA" con leyenda "+90 DIVORCIOS RESUELTOS En Los Cabos - Trámite 100% en línea" y audio "Más de 90 divorcios resueltos en los cabos trámite 100% en línea" entrega prueba social y beneficio de trámite en línea al inicio.
+- 5.5s a 9.5s: texto "GIOVANNI PULIDO MÁS DE EXPERIENCIA" con audio "licenciado... abogado con más de 15 años de experiencia" refuerza autoridad personal.
+- 14.5s a 18.5s: texto "$20,000 PESOS SIN SORPRESAS" con audio "Divorcio voluntario desde 20.000 pesos, precio único sin sorpresas" muestra precio claro y sin sorpresas.
+- 26.6s a 29.6s: tarjeta final negra con "LIC. GIOVANNI PULIDO ABOGADO EN LOS CABOS DIVORCIO VOLUNTARIO DESDE $20,000 Precio único · sin sorpresas Trámite 100% en línea · Confidencial Escribeme por WhatsApp 624 136 3328" deja CTA y datos completos fijos para decisión rápida.
+
+QUÉ LO FRENA:
+- 5.0s a 9.6s el audio dice "licenciado y ovani pulido" y en pantalla aparece "MÁS DE EXPERIENCIA" sin el "15 años". Arreglo viable: regrabar voz clonada con guion exacto "licenciado Giovanni Pulido, abogado con más de 15 años de experiencia" y añadir en capa de texto "15 AÑOS" junto a "MÁS DE EXPERIENCIA" entre 7.5s y 9.5s.
+- 19.5s a 25.6s el número de WhatsApp se construye con "POR AL 136 3328 TIEMPOS EL" y el 624 solo queda en texto pequeño inferior. Arreglo viable: mantener el texto inferior y añadir en capa de texto grande y fijo "WhatsApp 624 136 3328" desde 19.5s hasta 25.6s.
+- 0.5s a 9.5s el plano del asesor está estático con brazos cruzados y fondo de biblioteca. Arreglo viable: aplicar con MiniMax H3 un push-in suave de ~5 s sobre el cuadro de 0.5s y otro sobre el de 5.5s con primer y último cuadro fijados, manteniendo todo el texto en capa aparte.
+
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+
+Check format: VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+We have that.
+
+Make sure no extra commentary.
+
+Let's output.assistant to=userCALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 7/10 · Oferta 8/10 · Confianza 7/10 · Claridad 6/10 · Calidad visual 6/10 · Políticas de Meta 8/10 · Mensajes baratos 7/10 · Mensajes calificados 6/10
+POR QUÉ FUNCIONA:
+- 0.5s a 4.5s: texto “DE RESUELTOS CABOS % LÍNEA” con leyenda “+90 DIVORCIOS RESUELTOS En Los Cabos - Trámite 100% en línea” y audio “Más de 90 divorcios resueltos en los cabos trámite 100% en línea” entrega prueba social y beneficio de trámite en línea al inicio.
+- 5.5s a 9.5s: texto “GIOVANNI PULIDO MÁS DE EXPERIENCIA” con audio “licenciado… abogado con más de 15 años de experiencia” refuerza autoridad personal.
+- 14.5s a 18.5s: texto “$20,000 PESOS SIN SORPRESAS” con audio “Divorcio voluntario desde 20.000 pesos, precio único sin sorpresas” muestra precio claro y sin sorpresas.
+- 26.6s a 29.6s: tarjeta final negra con “LIC. GIOVANNI PULIDO ABOGADO EN LOS CABOS DIVORCIO VOLUNTARIO DESDE $20,000 Precio único · sin sorpresas Trámite 100% en línea · Confidencial Escribeme por WhatsApp 624 136 3328” deja CTA y datos completos fijos para decisión rápida.
+QUÉ LO FRENA:
+- 5.0s a 9.6s el audio dice “licenciado y ovani pulido” y en pantalla aparece “MÁS DE EXPERIENCIA” sin el “15 años”. Arreglo viable: regrabar voz clonada con guion exacto “licenciado Giovanni Pulido, abogado con más de 15 años de experiencia” y añadir en capa de texto “15 AÑOS” junto a “MÁS DE EXPERIENCIA” entre 7.5s y 9.5s.
+- 19.5s a 25.6s el número de WhatsApp se construye con “POR AL 136 3328 TIEMPOS EL” y el 624 solo queda en texto pequeño inferior. Arreglo viable: mantener el texto inferior y añadir en capa de texto grande y fijo “WhatsApp 624 136 3328” desde 19.5s hasta 25.6s.
+- 0.5s a 9.5s el plano del asesor está estático con brazos cruzados y fondo de biblioteca. Arreglo viable: aplicar con MiniMax H3 un push-in suave de ~5 s sobre el cuadro de 0.5s y otro sobre el de 5.5s con primer y último cuadro fijados, manteniendo todo el texto en capa aparte.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+
+######## JOSE_v9c
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+NEGOCIO: José, Grupo JR, impermeabilización de azoteas en Puebla. Poliuretano acrílico 12 años + primario fibratado elástico. Desde $150/m², sellador + 2 capas. WhatsApp 221 573 3127. Video Pixar con un obrero animado y voz clonada de José.
+Objetivo: campaña de mensajes a WhatsApp con mensajes baratos y CALIFICADOS (gente que sí compra).
+
+VIDEO DEL ANUNCIO (27.8 s, 9:16). Imágenes adjuntas = 30 cuadros repartidos en TODO el video (2 hojas de 15, con el segundo de cada cuadro arriba a la izquierda). Los subtítulos y tarjetas son capas de texto exactas.
+TRANSCRIPCIÓN DE LO QUE SE DICE (con tiempos):
+[  0.1-  5.8s] Se te filtra el agua cuando llueve, en grupo J-R lo resolvemos.
+[  5.8- 10.2s] Seamos poliuretano acrílico de 12 años más primario fibratado elástico.
+[ 10.2- 13.3s] Primero el primario, para una base sólida.
+[ 13.3- 16.7s] Luego la protección continua, sin uniones.
+[ 16.7- 20.3s] Tulosa, queda lista para la temporada de lluvias.
+[ 20.3- 24.3s] Mándanos fotos de tu azotea por WhatsApp y te cotizamos hoy.
+
+Responde EXACTAMENTE con este formato:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+CAPACIDADES...
+
+We need to evaluate video. Use only data. Transcription has error: "Seamos poliuretano..." maybe "Usamos". But we must use data. Also transcription says "Tulosa" maybe "Tu losa". The video frames show text: SECADO RÁPIDO top. Subtitles: SE EL LLUEVE LO RESOLVEMOS etc. The frames show "¿SE TE FILTRA EL AGUA? Impermeabilizamos tu losa en Puebla". At 6.0s etc shows buckets. At 17.1s LOSA, 18.1s LISTA, 19.0s TEMPORADA, 19.9s LLUVIAS. At 20.9s FOTOS, 21.8s AZOTEA, 22.7s Y, 23.6s COTIZAMOS. Final cards with GRUPO JR IMPERMEABILIZANTES SECADO RÁPIDO QUE LLUEVA, TU LOSA AGUANTA DESDE $150 POR M² Sellador + 2 capas 10% de descuento en más de 100 m² Escribeme por WhatsApp WhatsApp 221 573 3127 - Puebla y alrededores.
+
+We need rating. Likely total maybe 6/10? Need assess.
+
+Gancho: 0.5s to 5.8s shows problem. Good. But maybe 0.5s first frame shows SE. Might be okay.
+
+Oferta: Desde $150/m² sellador+2 capas appears at 17.1s onward. Also final cards 24.6s onward. Clear.
+
+Confianza: Poliuretano acrílico 12 años + primario fibratado elástico shown 7.0s etc. Grupo JR branding. WhatsApp.
+
+Claridad: Transcription has "Seamos poliuretano..." maybe error. Also "Tulosa" maybe typo. Might confuse.
+
+Calidad visual: Pixar style, consistent. SECADO RÁPIDO top constant. Might be okay.
+
+Políticas de Meta: No claims false? "12 años" is product spec. "Secado rápido" maybe okay. No prohibited. Might be okay.
+
+Mensajes baratos: CTA mandar fotos por WhatsApp y cotizamos hoy. Good for qualification.
+
+Mensajes calificados: Ask for photos filters serious leads. Good.
+
+But issues: transcription error at 5.8-10.2s "Seamos poliuretano..." should be "Usamos". Also 16.7-20.3s "Tulosa" should be "Tu losa". Also video shows "SECADO RÁPIDO" top all time, but transcription doesn't mention. Might be okay.
+
+Also the video shows "QUE LLUEVA, TU LOSA AGUANTA" in final cards, not in transcription. That's okay? Transcription is what is said. Text on screen is separate.
+
+Potential frena: The voice says "Seamos poliuretano..." which is confusing. Need fix voice line. Also "Tulosa" mispronunciation. Also the CTA appears at 20.3-24.3s but the visual shows FOTOS AZOTEA Y COTIZAMOS from 20.9s to 23.6s, good.
+
+Also the price appears at 17.1s "DESDE $150 POR M² Sellador + 2 capas". Good.
+
+Maybe the hook is weak because first 5 seconds shows character looking sad but no clear problem statement? Actually transcription says problem.
+
+Maybe the video lacks social proof / real photos. Could add real roof photos.
+
+We need give rating numbers. Let's propose:
+
+CALIFICACIÓN TOTAL: 6.5/10
+
+NOTAS: Gancho 7/10 · Oferta 8/10 · Confianza 6/10 · Claridad 5/10 · Calidad visual 8/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 8/10
+
+POR QUÉ FUNCIONA:
+- 0.5-5.1s: pregunta “¿SE TE FILTRA EL AGUA?” con charco y volcán de Puebla, identifica dolor inmediato y localización.
+- 6.0-8.8s: muestra cubetas “POLIURETANO ACRÍLICO 12 AÑOS” y “PRIMARIO FIBRATADO ELÁSTICO”, nombra producto y duración.
+- 17.1-19.9s: personaje con manos en cintura dice “LOSA LISTA TEMPORADA LLUVIAS” y aparece “DESDE $150 POR M² Sellador + 2 capas”, precio y alcance claros.
+- 20.9-23.6s: secuencia “FOTOS AZOTEA Y COTIZAMOS” + WhatsApp 221 573 3127, CTA de acción concreta que califica.
+
+QUÉ LO FRENA:
+- 5.8-10.2s: la voz clonada dice “Seamos poliuretano acrílico…” en vez de “Usamos”. Suena forzado y baja claridad. Arreglo viable: regrabar esa frase con Fish Audio con guion correcto y mantener labios sincronizados con MiniMax H3.
+- 16.7-20.3s: la voz dice “Tulosa, queda lista…” en vez de “Tu losa”. Confunde. Arreglo viable: reemplazar audio de esa frase por versión corregida y ajustar subtítulo palabra por palabra.
+- 24.6-27.3s: tarjetas finales muestran “10 % de descuento en más de 100 m²” que no aparece en la transcripción ni en los datos entregados. Si el cliente no confirmó ese descuento, quitar texto de capa y dejar solo datos confirmados: Desde $150 por m², Sellador + 2 capas, WhatsApp 221 573 3127, Puebla y alrededores.
+
+VEREDICTO: «Subir con cambios», calificación proyectada 8.5/10 con corrección de las dos frases de voz, limpieza del texto de descuento no confirmado y subtítulos palabra por palabra alineados a la voz corregida.
+
+Need ensure format exactly.
+
+The format requires:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+Make sure bullet points? Probably dash or •. Use viñetas cortas.
+
+We must not invent prices, times, distances nor guarantees. We used $150/m² which is given. 12 años given. Secado rápido is in video. 10% discount appears in final cards. The data given: Desde $150/m², sellador + 2 capas. WhatsApp... No mention of 10% discount in business data. The business data says: Desde $150/m², sellador + 2 capas. WhatsApp... No discount. So the 10% discount in video is not confirmed. So we must mark [CONFIRMAR] or note. The instruction: Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías. The discount is in the video frames but not in business data. So we should flag as [CONFIRMAR]. In QUÉ LO FRENA we can say discount not confirmed.
+
+We should not assume discount is valid. So we should note that.
+
+Also transcription says "Seamos poliuretano..." maybe transcription error but we must use data. The transcription is given. So we must refer to that.
+
+We must not invent times beyond given. The frames have timestamps. We can reference seconds from frames: 0.5s, 1.4s etc. Use those.
+
+The transcription times: 0.1-5.8s etc.
+
+We can combine.
+
+Make sure rating numbers are plausible.
+
+Maybe total 6/10.
+
+Let's produce final answer in Spanish.
+
+Ensure no reasoning shown.
+
+Output exactly format.
+
+Potential nuance: POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, each señalando el segundo exacto del video y por qué hace que la gente escriba.
+
+We can use 0.5-5.1s etc.
+
+QUÉ LO FRENA: 1 a 3 viñetas with second exact and arreglo concreto.
+
+Make sure arreglo viable with capabilities: we can re-record voice with Fish Audio, edit text layer, use Qwen-Image-Edit etc.
+
+We cannot do new real drone shots.
+
+Ok.
+
+Let's produce final.
+
+Make sure CALIFICACIÓN TOTAL line first.
+
+NOTAS line with bullet separators ·
+
+Make sure VEREDICTO line includes «Subir con cambios» and calificación proyectada.
+
+Let's output.
+
+Potential improvement: Gancho 7/10, Oferta 8/10, Confianza 6/10, Claridad 4/10, Calidad visual 8/10, Políticas 9/10, Mensajes baratos 7/10, Mensajes calificados 8/10. Total maybe 6.5.
+
+Let's pick total 6/10.
+
+I'll give total 6.5/10.
+
+Make sure format exact.
+
+Let's produce final answer.assistant to=userCALIFICACIÓN TOTAL: 6.5/10
+NOTAS: Gancho 7/10 · Oferta 8/10 · Confianza 6/10 · Claridad 5/10 · Calidad visual 8/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 8/10
+POR QUÉ FUNCIONA:
+- 0.5-5.1s: “¿SE TE FILTRA EL AGUA? Impermeabilizamos tu losa en Puebla” con charco y volcán de fondo, dolor local inmediato que genera identificación.
+- 6.0-8.8s: personaje señala cubetas con texto en pantalla “POLIURETANO ACRÍLICO 12 AÑOS” y “PRIMARIO FIBRATADO ELÁSTICO”, nombra producto y duración.
+- 17.1-19.9s: “LOSA LISTA TEMPORADA LLUVIAS” con overlay “DESDE $150 POR M² Sellador + 2 capas”, precio y alcance claros para decisión rápida.
+- 20.9-23.6s: secuencia “FOTOS AZOTEA Y COTIZAMOS” + “GRUPO JR WhatsApp 221 573 3127”, CTA concreto de enviar fotos que califica al que escribe.
+QUÉ LO FRENA:
+- 5.8-10.2s: la voz clonada dice “Seamos poliuretano acrílico de 12 años más primario fibratado elástico”. Suena forzado y baja claridad. Arreglo viable: regrabar la frase con Fish Audio con guion correcto “Usamos poliuretano acrílico de 12 años más primario fibratado elástico” y mantener sincronía labial con MiniMax H3.
+- 16.7-20.3s: la voz dice “Tulosa, queda lista para la temporada de lluvias”. Confunde la palabra “Tu losa”. Arreglo viable: reemplazar audio de esa frase por versión corregida y ajustar subtítulo palabra por palabra en capa de texto.
+- 24.6-27.3s: tarjetas finales muestran “10 % de descuento en más de 100 m²”. Ese descuento no está en los datos del negocio entregados [CONFIRMAR]. Arreglo viable: quitar el texto de descuento de la capa y dejar solo datos confirmados: Desde $150 por m², Sellador + 2 capas, WhatsApp 221 573 3127, Puebla y alrededores.
+VEREDICTO: «Subir con cambios», calificación proyectada 8.5/10 con corrección de las dos frases de voz, limpieza del texto de descuento no confirmado y subtítulos alineados a la voz corregida.
+
+######## DOCTORA_v6c
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+NEGOCIO: Veneers Dental, Dra. Ángeles, Nogales, Sonora (Av. Álvaro Obregón 695). Implante dental desde $12,500 (corona aparte). WhatsApp 631 165 1910. Video: la doctora hablando a cámara (voz clonada) con burbujas 3D, precio en pantalla desde el segundo 13.
+Objetivo: campaña de mensajes a WhatsApp con mensajes baratos y CALIFICADOS (gente que sí compra).
+
+VIDEO DEL ANUNCIO (33.5 s, 9:16). Imágenes adjuntas = 30 cuadros repartidos en TODO el video (2 hojas de 15, con el segundo de cada cuadro arriba a la izquierda). Los subtítulos y tarjetas son capas de texto exactas.
+TRANSCRIPCIÓN DE LO QUE SE DICE (con tiempos):
+[  0.0-  2.8s] ¿Prefalco un diente? No lo dejes así.
+[  2.8-  8.0s] Cuando pierdes una pieza, el hueso de esa zona puede irse perdiendo con el tiempo
+[  8.0- 10.5s] y los dientes del lado se pueden mover.
+[ 10.5- 12.8s] La solución es un implante dental.
+[ 12.8- 18.0s] Una raíz de titanio que se coloca dentro del hueso como una raíz nueva.
+[ 18.0- 22.0s] Se coloca con amistecía local y la corona va a parte.
+[ 22.0- 23.5s] ¿A quién vinir dental?
+[ 23.5- 26.5s] El implante va desde 12.500 pesos.
+[ 26.5- 30.0s] Escríbenos por WhatsApp y agenda tu valoración.
+
+Responde EXACTAMENTE con este formato:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+CAPACIDADES...
+
+We need to produce rating. Use only data given. Note transcription has errors: "¿Prefalco un diente?" maybe "¿Te falta un diente?" The subtitles in images show "¿Te falta un". So transcription may be off. Use data given? It says use only data below; if missing mark [CONFIRMAR]. The transcription provided has errors: "¿Prefalco un diente?" "amistecía local" "¿A quién vinir dental?" Probably transcription errors. Should we use the subtitles from images? The images show text: 0.6s ¿Te falta un ; 2.8s No lo dejes así. ; 3.9s Cuando pierdes una ; 5.0s el hueso ; 6.1s puede ; 7.3s con el ; 8.4s y ; 9.5s se ; 10.6s La ; 11.7s La solución es ; 12.9s La solución es un implante dental: ; 14.0s una raíz de titanio ; 15.1s que se ; 16.2s que se coloca dentro del hueso, ; 17.3s como una raíz nueva. ; 18.4s Se coloca ; 19.6s Se coloca con anestesia ; 20.7s y la ; 21.8s y la corona va aparte. ; 22.9s como una raíz nueva? Wait 17.3s como una raíz nueva. ; 22.9s? Actually 22.9s is first frame of second sheet. The subtitles: 22.9s? The image shows no subtitle? Wait 22.9s frame shows "Aquí en Veneers". Hmm.
+
+The transcription given is to be used. It says TRANSCRIPCIÓN DE LO QUE SE DICE (con tiempos). So we must use that transcription, not the on-screen text? Might be conflict. Probably use transcription as source of what is said. But the on-screen text is also data. The instruction: Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+We have video frames with timestamps. The transcription has times. Might be mismatched. We need to evaluate.
+
+We need rating total and notes.
+
+We need to assess Gancho, Oferta, Confianza, Claridad, Calidad visual, Políticas de Meta, Mensajes baratos, Mensajes calificados.
+
+We need POR QUÉ FUNCIONA: 3-5 bullet points with exact second and why.
+
+QUÉ LO FRENA: 1-3 bullet points with exact second and concrete fix viable with capabilities.
+
+VEREDICTO: Subir ya / Subir con cambios / No subir, and projected rating.
+
+We must not invent prices, times, distances, guarantees. Use given.
+
+Potential issues: transcription errors: "¿Prefalco un diente?" maybe typo. "amistecía local" should be anestesia local. "¿A quién vinir dental?" unclear. Might be "Aquí en Veneers Dental". The on-screen text at 22.9s shows "Aquí en Veneers". So transcription is wrong. Should we note? Might be a problem for clarity.
+
+Also video shows price from second 13 (11.7s? Actually 12.9s shows price banner). The transcription says price at 23.5-26.5s. The on-screen price banner appears at 12.9s. So discrepancy.
+
+We must use only data below. The data includes both video description and transcription. Conflict. Might need to mark [CONFIRMAR] for missing/incorrect.
+
+The instruction: Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+We have conflicting times for price. The video description says precio en pantalla desde el segundo 13. Transcription says price spoken at 23.5-26.5s. Both are data. Could be both true: price on screen from 13s, spoken later. That's okay.
+
+The transcription has errors like "¿Prefalco un diente?" The on-screen text shows "¿Te falta un". Which to trust? The transcription is of what is said. The on-screen is subtitles. Might be mismatch due to voice clone error. Could be a problem.
+
+We need to evaluate.
+
+Let's analyze video frames:
+
+0.6s: ¿Te falta un
+1.7s: (no subtitle)
+2.8s: No lo dejes así.
+3.9s: Cuando pierdes una
+5.0s: el hueso
+6.1s: puede
+7.3s: con el
+8.4s: y
+9.5s: se
+10.6s: La (blurred)
+11.7s: La solución es un
+12.9s: La solución es un implante dental: (price banner appears)
+14.0s: una raíz de titanio
+15.1s: que se
+16.2s: que se coloca dentro del hueso,
+17.3s: como una raíz nueva.
+18.4s: Se coloca
+19.6s: Se coloca con anestesia
+20.7s: y la
+21.8s: y la corona va aparte.
+22.9s: Aquí en Veneers (logo)
+24.0s: tu implante
+25.2s: $12,500
+26.3s: $12,500 pesos.
+27.4s: Escríbenos
+28.5s: y
+29.6s: y agenda tu valoración.
+30.7s: IMPLANTE DENTAL Raíz de titanio - anestesia local DESDE $12,500 MXN La corona va aparte WhatsApp 631 165 1910 Av. Álvaro Obregón 695 - Nogales, Son.
+31.9s same
+33.0s same
+
+So video has clear CTA at end with WhatsApp and address.
+
+Potential strengths: price shown early (12.9s), clear offer, CTA with WhatsApp, address, professional setting.
+
+Weaknesses: transcription errors suggest voice clone mismatch? The spoken words per transcription: "¿Prefalco un diente? No lo dejes así." Might be misheard. The on-screen says "¿Te falta un". So maybe voice says "¿Te falta un diente?" but transcription says "¿Prefalco". Could be transcription error in prompt. Might be a problem for clarity.
+
+Also at 22.0-23.5s transcription says "¿A quién vinir dental?" which is nonsense. On-screen at 22.9s says "Aquí en Veneers". So spoken text is wrong.
+
+Also "Se coloca con amistecía local" should be anestesia. On-screen says anestesia.
+
+So the voice clone is inaccurate, causing confusion. That hurts clarity and trust.
+
+Also the video has a blurred frame at 10.6s (woman blurred). Might be a glitch.
+
+Also the hook is weak? "¿Te falta un diente? No lo dejes así." That's okay.
+
+Offer is clear: implante desde $12,500 corona aparte.
+
+Confidence: doctor on camera, dental office background, logo.
+
+Clarity: subtitles word by word, but voice mismatch.
+
+Quality visual: AI generated? Looks decent but some frames have 3D graphics.
+
+Policies of Meta: medical claims? It's okay, no guarantee. Price is shown. No before/after? Might be okay.
+
+Mensajes baratos: price is low, CTA to WhatsApp, good for cheap messages.
+
+Mensajes calificados: maybe not enough qualification, no filter for missing tooth, no mention of consultation cost, etc. Might attract curiosity.
+
+We need rating.
+
+Let's propose:
+
+CALIFICACIÓN TOTAL: 6/10
+
+NOTAS: Gancho 6/10 · Oferta 8/10 · Confianza 6/10 · Claridad 4/10 · Calidad visual 7/10 · Políticas de Meta 8/10 · Mensajes baratos 8/10 · Mensajes calificados 5/10
+
+Why works:
+- 12.9s price banner "IMPLANTE DENTAL DESDE $12,500 MXN" appears on screen early, anchors price.
+- 14.0s-16.2s visual of titanium root + text "una raíz de titanio que se coloca dentro del hueso" educates and reduces fear.
+- 30.7s-33.0s final card with WhatsApp 631 165 1910, address Av. Álvaro Obregón 695 - Nogales, Son., and "La corona va aparte" gives clear next step.
+
+What holds it back:
+- 0.0-2.8s transcription says "¿Prefalco un diente?" vs on-screen "¿Te falta un". Voice clone mismatch creates confusion; fix with re-cloning voice per exact guion and re-sync subtitles word by word using Fish Audio and edición con ffmpeg.
+- 22.0-23.5s transcription "¿A quién vinir dental?" vs on-screen "Aquí en Veneers". Spoken phrase is incomprensible; replace audio segment 22.0-23.5s with correct phrase "Aquí en Veneers Dental" using voz clonada and keep same visual.
+- 10.6s frame shows woman blurred; quality drop. Replace that 0.5s clip with a clean Qwen-Image-Edit-2511 frame of same pose or cut with ffmpeg to avoid blur.
+
+Verdict: Subir con cambios, calificación proyectada 8/10.
+
+Need exact format.
+
+Make sure bullet points short.
+
+We must not invent times not given. Use seconds from frames and transcription.
+
+The transcription times: [0.0-2.8s] ¿Prefalco un diente? No lo dejes así.
+[2.8-8.0s] Cuando pierdes una pieza, el hueso de esa zona puede irse perdiendo con el tiempo
+[8.0-10.5s] y los dientes del lado se pueden mover.
+[10.5-12.8s] La solución es un implante dental.
+[12.8-18.0s] Una raíz de titanio que se coloca dentro del hueso como una raíz nueva.
+[18.0-22.0s] Se coloca con amistecía local y la corona va a parte.
+[22.0-23.5s] ¿A quién vinir dental?
+[23.5-26.5s] El implante va desde 12.500 pesos.
+[26.5-30.0s] Escríbenos por WhatsApp y agenda tu valoración.
+
+We can reference those times.
+
+Also frames timestamps: 0.6s,1.7s etc. Might use those.
+
+The instruction says señalando el segundo exacto del video. Could use either.
+
+Better use the timestamps from frames as they are exact.
+
+Let's pick:
+
+POR QUÉ FUNCIONA:
+- 12.9s: aparece tarjeta "IMPLANTE DENTAL DESDE $12,500 MXN" + subtítulo "La solución es un implante dental:" → precio visible temprano y oferta clara.
+- 14.0s: gráfico 3D de raíz de titanio con texto "una raíz de titanio" → explica beneficio y reduce objeción.
+- 30.7s: card final con WhatsApp 631 165 1910, dirección Av. Álvaro Obregón 695 - Nogales, Son. y "La corona va aparte" → CTA accionable y datos reales.
+
+Maybe also 21.8s "y la corona va aparte." clarifies scope.
+
+QUÉ LO FRENA:
+- 0.0-2.8s: voz clonada dice según transcripción "¿Prefalco un diente?" mientras el subtítulo muestra "¿Te falta un". Incoherencia audio-texto. Arreglo viable: regrabar esa frase con Fish Audio usando el guion exacto "¿Te falta un diente? No lo dejes así." y re-sincronizar subtítulos.
+- 18.0-22.0s: transcripción indica "Se coloca con amistecía local". El subtítulo en pantalla a 19.6s dice "anestesia". Error de voz. Arreglo viable: reemplazar audio 18.0-22.0s por voz clonada correcta "Se coloca con anestesia local y la corona va aparte." manteniendo el mismo visual.
+- 10.6s: cuadro con la doctora desenfocada interrumpe continuidad. Arreglo viable: cortar ese fotograma con ffmpeg o reemplazar por un cuadro limpio generado con Qwen-Image-Edit-2511 a partir de foto real, misma pose.
+
+Verdict: Subir con cambios, calificación proyectada 8/10.
+
+Make sure format exactly:
+
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: ...
+QUÉ LO FRENA: ...
+VEREDICTO: ...
+
+Use bullet points with hyphens or •? Probably viñetas cortas. Use dash.
+
+Ensure Spanish.
+
+No extra reasoning.
+
+Let's output.
+
+Potential nuance: The transcription says "¿Prefalco un diente?" maybe it's a typo for "¿Te falta un diente?" We should not assume. Use data as given. So we can say transcription says "¿Prefalco un diente?" which is incomprensible.
+
+We must not invent prices. Price is $12,500 MXN. Good.
+
+We must not invent guarantees. No.
+
+We should mark [CONFIRMAR] if missing something. Maybe the exact spoken phrase at 22.0-23.5s is unclear. Could mark [CONFIRMAR] for that phrase? The instruction says if falta algo, marca [CONFIRMAR]. Might be okay.
+
+We could keep as is.
+
+Final answer.
+
+Let's produce final.assistant to=userCALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 6/10 · Oferta 8/10 · Confianza 6/10 · Claridad 4/10 · Calidad visual 7/10 · Políticas de Meta 8/10 · Mensajes baratos 8/10 · Mensajes calificados 5/10
+POR QUÉ FUNCIONA:
+- 12.9s: aparece la tarjeta “IMPLANTE DENTAL DESDE $12,500 MXN” junto al subtítulo “La solución es un implante dental:”. Precio visible desde el segundo 13 y oferta clara.
+- 14.0s-16.2s: gráfico 3D de raíz de titanio con textos “una raíz de titanio” / “que se coloca dentro del hueso”. Explica el procedimiento y baja objeción.
+- 21.8s: subtítulo “y la corona va aparte.” deja el alcance del precio sin ambigüedad.
+- 30.7s-33.0s: card final con “IMPLANTE DENTAL Raíz de titanio - anestesia local DESDE $12,500 MXN La corona va aparte”, WhatsApp 631 165 1910 y Av. Álvaro Obregón 695 - Nogales, Son. CTA accionable con datos reales.
+QUÉ LO FRENA:
+- 0.0-2.8s: la transcripción indica “¿Prefalco un diente? No lo dejes así.” mientras en pantalla a 0.6s se lee “¿Te falta un”. Incoherencia audio-texto. Arreglo viable: regrabar la frase con Fish Audio con el guion exacto y re-sincronizar subtítulos palabra por palabra.
+- 18.0-22.0s: transcripción dice “Se coloca con amistecía local y la corona va a parte.” El subtítulo en 19.6s muestra “anestesia”. Error de voz clonada. Arreglo viable: reemplazar el audio 18.0-22.0s por voz clonada correcta “Se coloca con anestesia local y la corona va aparte.” manteniendo el mismo visual.
+- 10.6s: cuadro con la doctora desenfocada interrumpe la continuidad. Arreglo viable: cortar el fotograma con ffmpeg o sustituirlo por un cuadro limpio generado con Qwen-Image-Edit-2511 a partir de foto real con misma pose.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-3RVnOV6S9ENBHyeFw3jBg3
+
+== Reporte Modal fgabriel60 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261030l/lote.json --tokens 4500
+Duración: 21.6 min  (código 0)
+  glimmer (ap-3RVnOV6S9ENBHyeFw3jBg3): $0.717
+  escenas-carlos (ap-MSivehrAJRVflE3F0fYKpf): $0.114
+  escenas-carlos (ap-Xy6l6N7Rkr4ixEmcO2Qrqx): $0.609
+  escenas-carlos (ap-cIlwHf102ZQvSLCwEr9Zj1): $0.066
+Gasto del trabajo: $1.506
+Saldo restante ≈ $2.28

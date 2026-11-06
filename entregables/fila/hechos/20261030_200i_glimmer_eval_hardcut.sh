@@ -1,0 +1,1 @@
+python3 entregables/glimmer_evaluador/evaluar.py entregables/glimmer_evaluador/anuncios_20261030i.json entregables/glimmer_evaluador/20261030i && python3 gasto_modal.py run entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261030i/lote.json --tokens 4500 > entregables/glimmer_evaluador/20261030i/glimmer.log 2>&1

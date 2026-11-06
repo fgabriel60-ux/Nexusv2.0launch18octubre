@@ -1,0 +1,40 @@
+IMPLANTE DENTAL EN GENJUTSU · PASO A PASO (15 sep 2026)
+
+Genjutsu (higgsfield.ai/genjutsu) acepta videos de movimiento de 3 a 30 s y hasta 40 imágenes.
+La animación dura 35 s, por eso va en dos tramos. Cada carpeta trae TODO lo de ese tramo.
+
+  TRAMO_A/   0–18 s    rostro con hueco, close-up, anestesia, el rostro se despega, preparación   (imágenes 01–05)
+  TRAMO_B/   17–35 s   implante, integración, pilar y corona, morph a la sonrisa feliz            (imágenes 05–10)
+  MONTAJE/   video de movimiento completo (35 s) y la voz IMPLANTE_VOZ_35s para pegar al final
+
+------------------------------------------------------------------
+POR CADA TRAMO (empieza por el A)
+------------------------------------------------------------------
+1. En Genjutsu elige Motion Transfer.
+2. Sube 00_VIDEO_TRAMO_X.mp4 como video de referencia de movimiento.
+3. Sube las imágenes numeradas de esa carpeta, en orden. El prompt las llama por número ("image 05").
+4. Abre PROMPT_TRAMO_X.txt y copia SOLO lo que está entre las líneas de "PEGAR EN GENJUTSU".
+5. Formato vertical 9:16. Duración: la del video.
+6. Genera.
+
+------------------------------------------------------------------
+ANTES DE ACEPTAR UNA GENERACIÓN
+------------------------------------------------------------------
+[ ] Es la misma mujer en todas las tomas de la cara, con UN solo diente faltante arriba.
+[ ] Siempre dientes de ARRIBA vistos de frente: 4 dientes y el hueco; sin muelas ni mandíbula de abajo.
+[ ] El implante apunta hacia arriba, dentro del hueso, justo sobre el hueco.
+[ ] La corona queda del mismo color y forma que los dientes vecinos: 5 dientes completos.
+[ ] Al final la cara pasa (morph) a la sonrisa feliz con todos los dientes, sin hueco.
+[ ] Fondo oscuro con bokeh turquesa y naranja, encías rosas con brillo cálido, como la hoja de Alberto.
+Si solo falla un tramo, repite ese; no hace falta rehacer los dos.
+
+------------------------------------------------------------------
+MONTAJE FINAL
+------------------------------------------------------------------
+- Los tramos se enciman 1 segundo (A termina en 18, B empieza en 17). Corta en el segundo encimado donde el
+  empalme se vea mejor.
+- Quita el audio que traiga Genjutsu y pon MONTAJE/IMPLANTE_VOZ_35s.mp3 desde el segundo 0; va cuadrada con la
+  animación (cada frase cae en su fase).
+- El video de movimiento es un render rápido de Blender (Workbench): solo sirve para el movimiento, no para el look.
+- Desde el segundo 32.8 el video se funde con el cuadro 10 (ella sonriendo feliz, todos los dientes) y se queda así
+  hasta el 35, para que Genjutsu termine con la sonrisa bien. Si rehaces el tramo B, usa 00_VIDEO_TRAMO_B.mp4 nuevo.

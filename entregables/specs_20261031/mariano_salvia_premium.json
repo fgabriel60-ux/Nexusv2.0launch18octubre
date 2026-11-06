@@ -1,0 +1,58 @@
+{
+ "carpeta": "mariano_salvia_premium",
+ "salida": "clientes/Mariano/video/salvia_premium/salida",
+ "semilla": 15,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "SV1_fachada_v",
+   "SV1_fachada",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow gimbal push toward the modern beige two-story house entrance, sunny blue sky. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "SV2_sala_v",
+   "SV2_sala",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow smooth gimbal glide into the living room toward the dining area, warm daylight. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "SV3_comedor_v",
+   "SV3_comedor",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow lateral gimbal slide along the dining table, chandelier, soft light. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "SV4_cocina_v",
+   "SV4_cocina",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow gimbal pan from the terrace planters revealing the community pool and padel court in the distance. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "SV5_estancia_v",
+   "SV5_estancia",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow push in to the family room with framed art and cozy sofa. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "SV6_recamara_v",
+   "SV6_recamara",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow gimbal arc revealing the master bedroom with TV and vanity. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "SV7_terraza_v",
+   "SV7_terraza",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow cinematic glide across the rooftop terrace with pergola and mountain view. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ]
+ ]
+}

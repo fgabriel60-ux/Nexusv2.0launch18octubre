@@ -1,0 +1,26 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montserrat,48,&H00FFFFFF,&H0000D7FF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,4,1,2,48,48,280,1
+Style: Title,Montserrat,38,&H00FFFFFF,&H0000D7FF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,3,2,0,8,35,35,85,1
+Style: CTA,Montserrat,35,&H0066D325,&H0000D7FF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,3,2,0,2,35,35,130,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:14.42,Title,,0,0,0,,VICENS · ZAGUANES A LA MEDIDA\NPUEBLA Y ALREDEDORES
+Dialogue: 1,0:00:00.00,0:00:14.42,CTA,,0,0,0,,WHATSAPP 231 231 1066\NFoto + medidas + colonia
+Dialogue: 2,0:00:00.00,0:00:01.20,Default,,0,0,0,,{\kf14}¿Tu {\kf20}casa {\kf38}necesita {\kf48}zaguán?
+Dialogue: 2,0:00:01.40,0:00:02.66,Default,,0,0,0,,{\kf10}En {\kf26}Puebla, {\kf40}Proyectos {\kf40}Metálicos
+Dialogue: 2,0:00:02.66,0:00:03.88,Default,,0,0,0,,{\kf34}Vicens {\kf32}hace {\kf38}zaguanes {\kf18}a
+Dialogue: 2,0:00:03.88,0:00:04.32,Default,,0,0,0,,{\kf16}la {\kf28}medida.
+Dialogue: 2,0:00:04.84,0:00:06.04,Default,,0,0,0,,{\kf30}Cuidamos {\kf20}los {\kf40}detalles, {\kf30}desde
+Dialogue: 2,0:00:06.04,0:00:06.88,Default,,0,0,0,,{\kf18}el {\kf28}armado {\kf20}hasta {\kf18}el
+Dialogue: 2,0:00:06.88,0:00:07.36,Default,,0,0,0,,{\kf48}acabado.
+Dialogue: 2,0:00:07.84,0:00:08.62,Default,,0,0,0,,{\kf16}Más {\kf18}de {\kf20}quince {\kf24}años
+Dialogue: 2,0:00:08.62,0:00:09.30,Default,,0,0,0,,{\kf24}de {\kf44}experiencia.
+Dialogue: 2,0:00:10.10,0:00:11.04,Default,,0,0,0,,{\kf24}Mándanos {\kf20}por {\kf26}WhatsApp {\kf24}una
+Dialogue: 2,0:00:11.04,0:00:12.12,Default,,0,0,0,,{\kf32}foto, {\kf10}las {\kf30}medidas {\kf20}y
+Dialogue: 2,0:00:12.12,0:00:13.32,Default,,0,0,0,,{\kf18}tu {\kf40}colonia {\kf20}para {\kf42}cotizar
+Dialogue: 2,0:00:13.32,0:00:13.90,Default,,0,0,0,,{\kf18}tu {\kf40}zaguán.

@@ -1,0 +1,43 @@
+{
+ "carpeta": "entregables/mariano_v2_20261105",
+ "salida": "entregables/mariano_v2_20261105/cuadros",
+ "semilla": 21,
+ "ancho": 720,
+ "alto": 1280,
+ "pasos": 30,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "M1_rapel",
+   "MAR2_rapel",
+   "El hombre desciende colgado de la cuerda sobre el fraccionamiento; la cuerda se mueve apenas y el suelo se acerca despacio. Sujeta la cuerda con los guantes, sin cambiar de postura. SONIDO: solo el ambiente propio de la escena, sin NINGUNA voz, sin diálogo y sin voz en off. Nadie habla en esta toma. Se oiría el viento de la altura y el roce de la cuerda.",
+   3,
+   null
+  ],
+  [
+   "M2_cerca",
+   "MAR2_rapel_toma_cercana",
+   "Sigue bajando, ahora más cerca: la cámara lo acompaña mientras desciende y el fraccionamiento queda abajo. Él mira hacia la casa. SONIDO: solo el ambiente propio de la escena, sin NINGUNA voz, sin diálogo y sin voz en off. Nadie habla en esta toma. Viento y el crujido del arnés.",
+   2,
+   null
+  ],
+  [
+   "M3_arnes",
+   "MAR2_suelta_arnes",
+   "Ya en el suelo, se zafa el arnés de un tirón y lo deja caer a un lado; movimiento decidido, sin moverse de lugar. La cámara no se mueve. SONIDO: solo el ambiente propio de la escena, sin NINGUNA voz, sin diálogo y sin voz en off. Nadie habla en esta toma. Se oiría el chasquido de la hebilla y la correa al caer.",
+   2,
+   null
+  ],
+  [
+   "M4_habla",
+   "MAR2_habla",
+   "El hombre habla a la cámara presentando la casa, con movimiento natural de labios, cejas y cabeza, gesto de invitación. De pie, quieto, sin caminar. La cámara se acerca muy despacio.",
+   4,
+   "gancho"
+  ]
+ ],
+ "voces": {
+  "gancho": "clientes/Mariano/gancho_rapel/voz/gancho_t1.wav"
+ }
+}

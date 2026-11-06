@@ -1,0 +1,8 @@
+file '/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/Victor_seg0.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/Victor_seg1.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/Victor_seg2.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/Victor_seg3.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/Victor_seg4.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/Victor_seg5.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/Victor_seg6.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/entregables/victor_guillermo_20261031/Victor_seg7.mp4'

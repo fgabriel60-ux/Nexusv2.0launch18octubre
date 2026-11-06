@@ -1,0 +1,13 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-5z1G0wZsA91okSwC4wonzK
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/lisbeth_20261013/lisbeth_modal_v9.py
+├── ✓ Created Function cuadros.
+└── ✓ Created Function clips.
+clip K 124 /datos/siena/out/lisbeth_v9/K_00001_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/lisbeth_20261013/clips_v9/K
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela1/main/ap-5z1G0wZsA91okSwC4wonzK

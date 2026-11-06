@@ -1,0 +1,541 @@
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Snitch-Colibrí</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Plano de taller: columna editorial angosta para el texto, bandas a todo lo ancho para los dibujos y la calculadora */
+:root{
+  --bg:#EDEFF2; --panel:#F7F8FA; --band:#E2E5EA; --ink:#14171C; --muted:#5A6068;
+  --line:#C4C9D1; --brass:#8A6212; --gold:#B8873A; --patina:#2F6F62; --alert:#A8431C;
+  --disp:"Fraunces",Georgia,serif; --body:"Public Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E1116; --panel:#171B22; --band:#12161C; --ink:#E7E5E0; --muted:#98A0AA;
+  --line:#2C333D; --brass:#C89A3C; --gold:#E8C86A; --patina:#5FAE9B; --alert:#E0714A; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0E1116; --panel:#171B22; --band:#12161C; --ink:#E7E5E0; --muted:#98A0AA;
+  --line:#2C333D; --brass:#C89A3C; --gold:#E8C86A; --patina:#5FAE9B; --alert:#E0714A; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg); color:var(--ink); font-family:var(--body); line-height:1.6; margin:0}
+.wrap{max-width:62rem; margin:0 auto; padding-left:max(16px,env(safe-area-inset-left,0px)); padding-right:max(16px,env(safe-area-inset-right,0px))}
+.col{max-width:36rem}
+h1{font-family:var(--disp); font-weight:700; font-size:clamp(2.3rem,7vw,3.9rem); line-height:1.02; letter-spacing:-.02em; margin:.1em 0 .3em; text-wrap:balance}
+h2{font-family:var(--disp); font-weight:600; font-size:clamp(1.45rem,3.6vw,1.95rem); line-height:1.15; margin:0 0 .5rem; text-wrap:balance}
+h3{font-family:var(--body); font-weight:600; font-size:1.02rem; margin:1.6rem 0 .3rem}
+p{margin:0 0 1rem}
+.eyebrow{font-family:var(--mono); font-size:.72rem; letter-spacing:.16em; text-transform:uppercase; color:var(--brass); margin:0}
+.lede{font-size:1.1rem; color:var(--muted); max-width:34rem}
+.band{background:var(--band); border-top:1px solid var(--line); border-bottom:1px solid var(--line)}
+section{padding-block:clamp(2.2rem,5vw,3.4rem)}
+header{padding-block:clamp(2.4rem,6vw,4rem) clamp(1.6rem,4vw,2.4rem)}
+.num{font-family:var(--mono); font-variant-numeric:tabular-nums}
+.verdict{display:flex; flex-wrap:wrap; gap:1.6rem 2.4rem; margin-top:1.8rem; padding-top:1.4rem; border-top:1px solid var(--line)}
+.verdict div{min-width:0}
+.verdict b{display:block; font-family:var(--mono); font-size:1.7rem; font-weight:500; color:var(--gold); font-variant-numeric:tabular-nums; line-height:1.1}
+.verdict span{font-size:.82rem; color:var(--muted)}
+table{width:100%; border-collapse:collapse; font-size:.9rem; margin:1rem 0}
+th,td{text-align:left; padding:.5rem .7rem .5rem 0; border-bottom:1px solid var(--line); vertical-align:top}
+th{font-family:var(--mono); font-size:.7rem; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); font-weight:500}
+td.n,th.n{text-align:right; font-family:var(--mono); font-variant-numeric:tabular-nums; padding-right:0}
+.scroll{overflow-x:auto}
+.pill{display:inline-block; font-family:var(--mono); font-size:.68rem; letter-spacing:.08em; text-transform:uppercase; padding:.18em .5em; border-radius:2px; border:1px solid currentColor}
+.ok{color:var(--patina)} .no{color:var(--alert)}
+figure{margin:0}
+.stage{background:var(--panel); border:1px solid var(--line); border-radius:3px; padding:.6rem}
+canvas{display:block; width:100%; height:auto; max-width:100%}
+.controls{display:flex; flex-wrap:wrap; gap:.7rem 1.2rem; align-items:center; margin-top:.9rem; font-size:.84rem}
+.controls label{display:flex; align-items:center; gap:.5rem; color:var(--muted)}
+button{font-family:var(--mono); font-size:.76rem; letter-spacing:.06em; text-transform:uppercase; background:transparent; color:var(--ink); border:1px solid var(--line); border-radius:2px; padding:.4rem .7rem; cursor:pointer}
+button[aria-pressed="true"]{background:var(--brass); border-color:var(--brass); color:var(--panel)}
+input[type=range]{accent-color:var(--brass); width:9rem; max-width:40vw}
+.stages{display:grid; grid-template-columns:repeat(auto-fit,minmax(13rem,1fr)); gap:1.3rem; margin-top:1.8rem}
+.stages article{min-width:0; border-top:2px solid var(--brass); padding-top:.6rem}
+.stages h3{margin:0 0 .25rem; font-size:.95rem}
+.stages p{font-size:.86rem; color:var(--muted); margin:0}
+.stages .k{font-family:var(--mono); font-size:.7rem; color:var(--brass); letter-spacing:.1em}
+.two{display:grid; grid-template-columns:1fr; gap:1.8rem}
+@media(min-width:48rem){.two{grid-template-columns:1.15fr .85fr; align-items:start}}
+.readout{display:grid; grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr)); gap:1rem 1.4rem; margin-top:1.2rem}
+.readout div{min-width:0}
+.readout b{display:block; font-family:var(--mono); font-size:1.35rem; font-weight:500; font-variant-numeric:tabular-nums; line-height:1.15}
+.readout span{font-size:.76rem; color:var(--muted)}
+.meter{height:5px; background:var(--line); border-radius:3px; overflow:hidden; margin-top:.5rem}
+.meter i{display:block; height:100%; background:var(--patina); transition:width .18s, background .18s}
+.sliders{display:grid; grid-template-columns:repeat(auto-fit,minmax(14rem,1fr)); gap:.9rem 1.6rem}
+.sliders label{display:grid; grid-template-columns:1fr auto; gap:.2rem .6rem; font-size:.84rem; align-items:center}
+.sliders label input{grid-column:1/-1; width:100%; max-width:none}
+.sliders em{font-family:var(--mono); font-style:normal; font-variant-numeric:tabular-nums; color:var(--brass)}
+ol.plan{counter-reset:s; list-style:none; padding:0; margin:1.2rem 0 0}
+ol.plan li{counter-increment:s; display:grid; grid-template-columns:2.1rem 1fr; gap:.1rem .9rem; padding:.85rem 0; border-top:1px solid var(--line)}
+ol.plan li::before{content:counter(s); font-family:var(--mono); color:var(--brass); font-size:1.1rem}
+ol.plan b{font-weight:600; font-size:.98rem}
+ol.plan p{margin:.15rem 0 0; font-size:.87rem; color:var(--muted); grid-column:2}
+.note{border-left:2px solid var(--gold); padding:.1rem 0 .1rem 1rem; margin:1.4rem 0; font-size:.92rem; color:var(--muted)}
+footer{padding-block:2.2rem 3rem; font-size:.8rem; color:var(--muted); font-family:var(--mono)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+</style>
+
+<header class="wrap">
+  <p class="eyebrow">Ornitóptero · 29.4 g · vuelo estacionario</p>
+  <h1>Snitch-Colibrí</h1>
+  <p class="lede">Una esfera dorada de 55 mm que vuela de verdad, con la mecánica de batido de
+  un colibrí: dos alas, 31 aletazos por segundo, ángulo de ataque sin servos.</p>
+  <div class="verdict">
+    <div><b class="num">39.9 g</b><span>sustentación para 29.4 g de masa</span></div>
+    <div><b class="num">1.36×</b><span>margen de empuje (mínimo volable 1.20)</span></div>
+    <div><b class="num">11.5 min</b><span>autonomía con 300 mAh</span></div>
+    <div><b class="num">~99 USD</b><span>materiales, con repuestos</span></div>
+  </div>
+</header>
+
+<section class="band"><div class="wrap">
+  <div class="col">
+    <h2>Lo que vuela y lo que no</h2>
+    <p>Los números salen de un modelo de elemento de pala para alas batientes, validado
+    primero contra un colibrí real (4.5 g) y contra el Nano Hummingbird de AeroVironment
+    (19 g, voló libre 11 minutos en 2011) antes de usarlo para diseñar.</p>
+  </div>
+  <div class="scroll"><table>
+    <thead><tr><th>Variante</th><th class="n">Masa</th><th class="n">Sustentación</th><th class="n">Margen</th><th>Veredicto</th></tr></thead>
+    <tbody>
+      <tr><td><b>A — esfera de 55 mm</b><br><span style="color:var(--muted)">alas de 150 mm, 31 Hz, con clap</span></td><td class="n">29.4 g</td><td class="n">39.9 g</td><td class="n">1.36×</td><td><span class="pill ok">Vuela</span></td></tr>
+      <tr><td><b>B — sin clap-and-fling</b><br><span style="color:var(--muted)">lo mismo con amplitud de 160°</span></td><td class="n">25.0 g</td><td class="n">22.6 g</td><td class="n">0.90×</td><td><span class="pill no">No vuela</span></td></tr>
+      <tr><td><b>C — esfera canónica de 40 mm</b><br><span style="color:var(--muted)">el tamaño del libro</span></td><td class="n">12.0 g</td><td class="n">7.1 g</td><td class="n">0.59×</td><td><span class="pill no">No, batiendo</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="col">
+    <p class="note">De aquí salen las dos reglas que no se negocian: <b>amplitud de 180° con las
+    alas tocándose arriba</b> (es el 20 % de sustentación que separa A de B) y <b>techo de masa
+    de 33 g</b>, donde el margen cae a 1.20 y se acaba la autoridad de control.</p>
+  </div>
+</div></section>
+
+<section class="wrap">
+  <p class="eyebrow">Planta del mecanismo</p>
+  <h2>De 15 000 rpm en un sentido a 177° de ida y vuelta</h2>
+  <div class="col"><p>El motor gira rápido y siempre igual. El ala tiene que barrer casi media
+  vuelta, frenar, voltearse y regresar, 31 veces por segundo. Vista desde arriba, con el
+  cuerpo de la esfera al centro y la nariz hacia arriba. A velocidad real esto es invisible:
+  el dibujo corre a 1/20.</p></div>
+  <figure class="stage">
+    <canvas id="c1" width="1120" height="620" role="img"
+      aria-label="Planta animada: la corona gira, dos pines mueven dos palancas ranuradas, la cinta amplifica el giro al doble y las dos alas barren 177 grados hasta tocarse adelante y atrás."></canvas>
+    <div class="controls">
+      <button id="play" aria-pressed="true">Pausa</button>
+      <label>Velocidad <input id="speed" type="range" min="1" max="60" value="20" step="1"><em class="num" id="speedv" style="font-style:normal;font-family:var(--mono);color:var(--brass)">1/20</em></label>
+      <label>Fase <input id="phase" type="range" min="0" max="359" value="0" step="1"></label>
+      <label><input id="cotas" type="checkbox" checked> Cotas</label>
+    </div>
+  </figure>
+  <div class="stages">
+    <article><p class="k">Etapa 1</p><h3>Reducción 8:1</h3><p>Piñón de 9 dientes en el motor, corona de 72 (Ø 28.8 mm). 15 000 rpm ÷ 8 ÷ 60 = 31 Hz de batido.</p></article>
+    <article><p class="k">Etapa 2</p><h3>Palanca ranurada</h3><p>Dos pines a 180° en la corona, a r = 2.8 mm, corriendo en ranuras cuyos pivotes están a d = 4.0 mm. θ = asin(r/d) = ±44.4°.</p></article>
+    <article><p class="k">Etapa 3</p><h3>Cinta 2:1</h3><p>Tambor de Ø 19.2 mm tirando de una cinta de Kevlar hacia un tambor de Ø 9.6 en el eje del ala: 88.8° × 2 = <b>177.6°</b>. Sin dientes que se salten y sin juego.</p></article>
+    <article><p class="k">Etapa 4</p><h3>Muñeca pasiva</h3><p>El ángulo de ataque no lo mueve ningún motor: el aire lo voltea en cada extremo. Es lo de abajo.</p></article>
+  </div>
+  <div class="col"><p class="note">La cinta sustituye a un par de sectores dentados por una razón
+  geométrica: con engranajes, los ejes de las dos alas quedan a 37 mm uno del otro y las alas ya
+  no alcanzan a tocarse. La cinta deja poner los ejes a 11 mm, y entonces el clap existe. Es
+  también la solución del Nano Hummingbird, que transmite por cuerda.</p></div>
+</section>
+
+<section class="band"><div class="wrap">
+  <p class="eyebrow">Sección A-A · muñeca de torsión</p>
+  <h2>El ocho del colibrí sale solo</h2>
+  <div class="two">
+    <figure class="stage">
+      <canvas id="c2" width="900" height="620" role="img"
+        aria-label="Corte del ala a lo largo del borde de ataque: el eje de carbono, el casquillo libre, el centro de presión dos milímetros detrás del eje y los dos topes que fijan el ángulo de ataque mientras el ala se voltea sola en cada extremo del barrido."></canvas>
+      <div class="controls">
+        <label>Ángulo de ataque <input id="aoa" type="range" min="20" max="55" value="38" step="1"><em class="num" id="aoav" style="font-family:var(--mono);color:var(--brass)">38°</em></label>
+      </div>
+    </figure>
+    <div>
+      <p>Un ala rígida que solo bate da cero sustentación neta: lo que gana bajando lo pierde
+      subiendo. El colibrí resuelve eso volteando el ala en cada extremo, y aquí se copia sin
+      gastar un gramo en actuadores.</p>
+      <p>El ala se monta en un casquillo <b>libre</b> sobre el borde de ataque, con el centro de
+      presión <b>2 mm por detrás</b> de ese eje. La presión del aire la empuja a girar; dos topes
+      impresos la detienen en el ángulo elegido. Al llegar al extremo del barrido, el flujo se
+      invierte y la voltea al otro tope. Sola.</p>
+      <h3>Lo que define el ángulo de ataque</h3>
+      <p>Los topes, y nada más. Se imprimen ajustables para barrer de 30° a 45°; un colibrí en
+      estacionario usa cerca de 38°. El plano de batido va inclinado 20° respecto a la
+      horizontal, y esa inclinación más el retardo de la torsión es lo que traza el <b>ocho
+      horizontal</b> característico. No hay que programarlo: aparece.</p>
+      <p>Reparto de sustentación: cerca del 75 % en la ida y 25 % en la vuelta, igual que el
+      pájaro.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="wrap">
+  <p class="eyebrow">Calculadora de diseño</p>
+  <h2>Mueve un número y mira si todavía vuela</h2>
+  <div class="col"><p>La misma física que el documento, en vivo. Arranca en el diseño final.
+  El margen de empuje es el número que manda: abajo de 1.20 no hay con qué controlarlo.</p></div>
+  <div class="stage" style="margin-top:1.2rem; padding:1.2rem">
+    <div class="sliders">
+      <label>Semi-envergadura del ala <em class="num"><span id="vR">75</span> mm</em><input id="sR" type="range" min="50" max="100" value="75" step="1"></label>
+      <label>Cuerda media <em class="num"><span id="vc">30</span> mm</em><input id="sc" type="range" min="20" max="40" value="30" step="1"></label>
+      <label>Frecuencia de batido <em class="num"><span id="vf">31</span> Hz</em><input id="sf" type="range" min="18" max="45" value="31" step="1"></label>
+      <label>Amplitud de barrido <em class="num"><span id="va">180</span>°</em><input id="sa" type="range" min="110" max="185" value="180" step="1"></label>
+      <label>Masa total <em class="num"><span id="vm">29.4</span> g</em><input id="sm" type="range" min="18" max="42" value="29.4" step="0.2"></label>
+      <label>Batería 1S <em class="num"><span id="vb">300</span> mAh</em><input id="sb" type="range" min="100" max="600" value="300" step="10"></label>
+    </div>
+    <div class="readout">
+      <div><b class="num" id="oL">—</b><span>sustentación</span></div>
+      <div><b class="num" id="oM">—</b><span id="oMl">margen de empuje</span><div class="meter"><i id="oMb"></i></div></div>
+      <div><b class="num" id="oP">—</b><span>potencia eléctrica</span></div>
+      <div><b class="num" id="oT">—</b><span>autonomía</span></div>
+      <div><b class="num" id="oI">—</b><span id="oIl">corriente de la batería</span></div>
+      <div><b class="num" id="oX">—</b><span>masa máxima volable</span></div>
+    </div>
+    <p id="oCl" style="margin:1.1rem 0 0; font-size:.86rem; color:var(--muted)"></p>
+  </div>
+</section>
+
+<section class="band"><div class="wrap">
+  <div class="two">
+    <div>
+      <p class="eyebrow">Presupuesto de masa</p>
+      <h2>El documento que de verdad manda</h2>
+      <p style="color:var(--muted); font-size:.93rem">Techo absoluto 33 g. Cada tornillo se pesa.</p>
+      <div class="scroll"><table>
+        <thead><tr><th class="n">g</th><th>Pieza</th></tr></thead>
+        <tbody>
+          <tr><td class="n">5.0</td><td>motor coreless 8520, uno central</td></tr>
+          <tr><td class="n">2.0</td><td>corona 72d + piñón 9d + cigüeñal + pines</td></tr>
+          <tr><td class="n">1.2</td><td>2 tambores + cinta de Kevlar + tensores</td></tr>
+          <tr><td class="n">1.4</td><td>2 alas, carbono 1.0/0.6 mm y Mylar de 6 µm</td></tr>
+          <tr><td class="n">0.5</td><td>2 resortes de resonancia y muñecas</td></tr>
+          <tr><td class="n">2.2</td><td>bastidor interno de resina, en cercha</td></tr>
+          <tr><td class="n">6.5</td><td>LiPo 1S 300 mAh HV</td></tr>
+          <tr><td class="n">2.8</td><td>placa brushed 1S con giroscopio</td></tr>
+          <tr><td class="n">3.3</td><td>3 microservos lineales de 1.1 g</td></tr>
+          <tr><td class="n">3.5</td><td>2 cáscaras de PETG, pared 0.35 mm</td></tr>
+          <tr><td class="n">1.0</td><td>cables, tornillos, pegamento</td></tr>
+          <tr><td class="n"><b>29.4</b></td><td><b>total</b></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div>
+      <p class="eyebrow">Control</p>
+      <h2>Tres ejes, cero sensores a bordo</h2>
+      <div class="scroll"><table>
+        <thead><tr><th>Eje</th><th>Cómo</th><th class="n">Autoridad</th></tr></thead>
+        <tbody>
+          <tr><td>Altura</td><td>frecuencia de batido</td><td class="n">31 ± 5 Hz</td></tr>
+          <tr><td>Cabeceo</td><td>servo inclina el plano de batido</td><td class="n">±8°</td></tr>
+          <tr><td>Alabeo</td><td>servo lo inclina de lado</td><td class="n">±8°</td></tr>
+          <tr><td>Guiñada</td><td>cambia el tope de una sola ala</td><td class="n">±6°</td></tr>
+        </tbody>
+      </table></div>
+      <p style="font-size:.9rem">Sin el giroscopio de la placa es impilotable: el periodo
+      natural de cabeceo es de décimas de segundo, más rápido que una mano.</p>
+      <h3>El carácter de snitch va en el firmware</h3>
+      <p style="font-size:.9rem"><b>Errático:</b> ruido de Perlin de 0.5 a 2 Hz inyectado como
+      consigna de alabeo y cabeceo sobre el hover estabilizado. Da el zigzag sin que se caiga.<br>
+      <b>Esquiva:</b> no caben sensores en 29 g, así que el lazo va por fuera — una webcam fija
+      ve la esfera y las manos, y una PC manda la corrección por el mismo enlace.<br>
+      <b>Lo que no se puede:</b> la snitch del libro vuela media hora. Aquí son 11.5 minutos, y
+      es química de batería, no diseño.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="wrap">
+  <p class="eyebrow">Construcción</p>
+  <h2>Seis etapas, cada una con su criterio para pasar</h2>
+  <div class="col"><p>No se pasa de etapa sin cumplir el criterio. Cada una es un fin de semana,
+  y las cáscaras doradas van al final: no se mete masa de adorno antes de volar.</p></div>
+  <ol class="plan">
+    <li><b>Banco de batido</b><p>Mecanismo atornillado a una báscula de cocina, sin esfera ni batería, con fuente de banco. <b>Criterio:</b> ≥ 35 g de empuje a 31 Hz y 10 minutos seguidos sin romperse. Si no da 35 g, aquí se ajustan amplitud y topes, que es donde sale barato.</p></li>
+    <li><b>Alas</b><p>Tres juegos con cuerda de 28, 30 y 32 mm, medidos en el banco. <b>Criterio:</b> quedarse con el que dé más empuje por watt, no el que dé más empuje.</p></li>
+    <li><b>Resorte de resonancia</b><p>Alambre de piano de 0.5 mm, espira de 1.5 mm, 2 vueltas (k = 0.072 N·m/rad para 31 Hz). Se sintoniza barriendo frecuencia y midiendo corriente. <b>Criterio:</b> el consumo a 31 Hz baja al menos 15 % respecto a sin resorte.</p></li>
+    <li><b>Vuelo atado</b><p>Todo montado, hilo de 0.1 mm a un contrapeso que le quita 8 g. <b>Criterio:</b> se sostiene y responde a los tres ejes.</p></li>
+    <li><b>Vuelo libre</b><p>Quitar el hilo, sobre una cama. <b>Criterio:</b> 30 segundos de estacionario a media altura.</p></li>
+    <li><b>Cáscaras y plegado</b><p>Dos mitades de PETG de 0.35 mm, doradas, y bisagra vertical con pasador de resorte para plegar las alas a mano. <b>Criterio:</b> no pasar de 33 g. El despliegue automático por trinquete centrífugo es para la versión 2, cuando ya vuele.</p></li>
+  </ol>
+  <p class="note">Los tambores y el bastidor van en <b>resina SLA</b>, no en FDM: a 0.2 mm de capa
+  los dientes del módulo 0.4 salen redondeados y el engrane se salta.</p>
+</section>
+
+<section class="band"><div class="wrap">
+  <div class="col">
+    <p class="eyebrow">Variante C</p>
+    <h2>La esfera de 40 mm del libro</h2>
+    <p>Batiendo es imposible y el número lo dice sin ambigüedad: 7.1 g de sustentación para
+    12 g de masa. A ese tamaño el ala no tiene con qué. Quedan dos caminos honestos, y el
+    primero es el más espectacular de los tres para exhibición y para cámara.</p>
+    <h3>1 · Levitación magnética con energía inalámbrica</h3>
+    <p>Base con electroimán y sensor Hall en lazo cerrado; la esfera lleva un imán de neodimio
+    de 6 mm y flota a 25 mm. Las alas baten con un micromotor alimentado por acoplamiento
+    inductivo desde la misma base: <b>autonomía ilimitada</b>, y la esfera gira sobre sí misma.
+    No recorre la sala, pero flota de verdad y bate de verdad.</p>
+    <h3>2 · Atada a brazo giratorio</h3>
+    <p>Hilo de pescar de 0.1 mm desde un eje en el techo. Vuela en círculo real y en cámara el
+    hilo no se ve.</p>
+  </div>
+</div></section>
+
+<footer class="wrap">Modelo cuasi-estacionario de elemento de pala, validado contra colibrí Amazilia y Nano Hummingbird (AeroVironment, 2011) · cálculos en calculos_vuelo.py</footer>
+
+<script>
+(function(){
+"use strict";
+var TAU=Math.PI*2, DEG=Math.PI/180;
+// --- geometria del mecanismo, en milimetros reales ---
+var M={ r:2.8, d:4.0, corona:14.4, cx:0, cy:-19, tamborG:9.6, tamborP:4.8,
+        alaX:5.5, alaY:7, R:75, c:30, esfera:27.5 };
+function theta(phi){ // palanca izquierda: manivela y palanca ranurada
+  return Math.atan2(M.r*Math.sin(phi), M.r*Math.cos(phi)+M.d);
+}
+function psi(phi){ return 2*theta(phi); }           // amplificacion 2:1 por cinta
+function tors(phi, tope){                            // torsion pasiva de la muneca
+  var h=0.0015, v=(psi(phi+h)-psi(phi-h))/(2*h);
+  return tope*Math.tanh(v/0.55);
+}
+function col(n){ return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+
+// ---------- lienzo 1: planta ----------
+var c1=document.getElementById("c1"), g1=c1.getContext("2d");
+var VIEW={x0:-100,x1:100,y0:-58,y1:92};
+function fit(cv,ctx,view){
+  var dpr=Math.min(window.devicePixelRatio||1,2), w=cv.clientWidth||900;
+  var ar=(view.y1-view.y0)/(view.x1-view.x0), h=w*ar;
+  cv.width=Math.round(w*dpr); cv.height=Math.round(h*dpr); cv.style.height=h+"px";
+  var s=(w*dpr)/(view.x1-view.x0);
+  ctx.setTransform(s,0,0,-s,-view.x0*s,view.y1*s);
+  return s/dpr;
+}
+function ala(ctx,ox,oy,dir,proy,alpha){
+  var R=M.R, c=M.c*proy;
+  ctx.save(); ctx.translate(ox,oy); ctx.rotate(dir);
+  var grad=ctx.createLinearGradient(0,0,R,0);
+  grad.addColorStop(0,col("--gold")+"66"); grad.addColorStop(1,col("--gold")+"1A");
+  ctx.beginPath(); ctx.moveTo(0,0);
+  for(var i=0;i<=24;i++){ var t=i/24; ctx.lineTo(t*R, -c*Math.sqrt(Math.max(0,1-Math.pow(2*t-1,2)))*0.55); }
+  for(var j=24;j>=0;j--){ var u=j/24; ctx.lineTo(u*R, c*Math.sqrt(Math.max(0,1-Math.pow(2*u-1,2)))*0.45); }
+  ctx.closePath(); ctx.fillStyle=grad; ctx.fill();
+  ctx.strokeStyle=col("--gold"); ctx.lineWidth=0.5; ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(0,0); ctx.lineTo(R,0);           // borde de ataque, carbono
+  ctx.strokeStyle=col("--ink"); ctx.lineWidth=1.2; ctx.stroke();
+  ctx.restore();
+}
+function etiqueta(ctx,px,x,y,tx,ty,txt,sub){
+  ctx.save(); ctx.setTransform(1,0,0,1,0,0);
+  var dpr=Math.min(window.devicePixelRatio||1,2);
+  var sx=(x-VIEW.x0)*px*dpr, sy=(VIEW.y1-y)*px*dpr, ex=(tx-VIEW.x0)*px*dpr, ey=(VIEW.y1-ty)*px*dpr;
+  ctx.strokeStyle=col("--muted"); ctx.lineWidth=1*dpr; ctx.globalAlpha=.75;
+  ctx.beginPath(); ctx.moveTo(sx,sy); ctx.lineTo(ex,ey); ctx.stroke();
+  ctx.beginPath(); ctx.arc(sx,sy,2*dpr,0,TAU); ctx.fillStyle=col("--muted"); ctx.fill();
+  ctx.globalAlpha=1; ctx.font=(11*dpr)+"px "+col("--mono").replace(/"/g,"");
+  ctx.fillStyle=col("--ink"); ctx.textBaseline="middle";
+  var der=tx>=x; ctx.textAlign=der?"left":"right";
+  ctx.fillText(txt, ex+(der?6:-6)*dpr, ey-(sub?6:0)*dpr);
+  if(sub){ ctx.fillStyle=col("--muted"); ctx.font=(10*dpr)+"px "+col("--mono").replace(/"/g,"");
+    ctx.fillText(sub, ex+(der?6:-6)*dpr, ey+7*dpr); }
+  ctx.restore();
+}
+function planta(phi){
+  var px=fit(c1,g1,VIEW);
+  g1.clearRect(VIEW.x0,VIEW.y0,VIEW.x1-VIEW.x0,VIEW.y1-VIEW.y0);
+  var th=theta(phi), ps=psi(phi), tope=90-AOA, al=tors(phi,tope*DEG);
+  var proy=Math.abs(Math.cos(al)), clap=Math.abs(Math.abs(ps)-88.8*DEG)<6*DEG;
+
+  // cuerpo de la esfera
+  g1.beginPath(); g1.arc(0,0,M.esfera,0,TAU);
+  g1.fillStyle=col("--gold")+"22"; g1.fill();
+  g1.strokeStyle=col("--gold")+"88"; g1.lineWidth=0.7; g1.stroke();
+
+  // destello del clap
+  if(clap){ g1.save();
+    var sg=g1.createRadialGradient(0,ps>0?M.alaY+M.R*0.55:M.alaY-M.R*0.55,2,0,ps>0?M.alaY+M.R*0.55:M.alaY-M.R*0.55,26);
+    sg.addColorStop(0,col("--gold")+"55"); sg.addColorStop(1,col("--gold")+"00");
+    g1.fillStyle=sg; g1.beginPath(); g1.arc(0,ps>0?M.alaY+M.R*0.55:M.alaY-M.R*0.55,26,0,TAU); g1.fill(); g1.restore(); }
+
+  // alas (atras del tren para que se vea el mecanismo encima)
+  ala(g1,-M.alaX,M.alaY, Math.PI-ps, proy, al);
+  ala(g1, M.alaX,M.alaY, ps,          proy, al);
+
+  // corona dentada
+  g1.save(); g1.translate(M.cx,M.cy);
+  g1.beginPath(); g1.arc(0,0,M.corona,0,TAU);
+  g1.fillStyle=col("--panel"); g1.fill();
+  g1.strokeStyle=col("--brass"); g1.lineWidth=0.8; g1.stroke();
+  for(var k=0;k<72;k++){ var a=k/72*TAU+phi/8;
+    g1.beginPath(); g1.moveTo(Math.cos(a)*M.corona,Math.sin(a)*M.corona);
+    g1.lineTo(Math.cos(a)*(M.corona+0.9),Math.sin(a)*(M.corona+0.9)); g1.stroke(); }
+  g1.beginPath(); g1.arc(0,0,1.2,0,TAU); g1.fillStyle=col("--brass"); g1.fill();
+  // pinon del motor
+  g1.save(); g1.translate(-M.corona-1.8,0);
+  g1.beginPath(); g1.arc(0,0,1.8,0,TAU); g1.fillStyle=col("--brass")+"55"; g1.fill();
+  g1.strokeStyle=col("--brass"); g1.lineWidth=0.5; g1.stroke(); g1.restore();
+  g1.restore();
+
+  // dos palancas ranuradas + tambores + cintas + ejes de ala
+  [-1,1].forEach(function(s){
+    var pvx=s*M.d+M.cx, pvy=M.cy, ang=s>0? -th : th;
+    var pinx=M.cx+M.r*Math.cos(phi+(s>0?Math.PI:0)), piny=M.cy+M.r*Math.sin(phi+(s>0?Math.PI:0));
+    // ranura
+    g1.save(); g1.translate(pvx,pvy); g1.rotate(Math.atan2(piny-pvy,pinx-pvx));
+    g1.beginPath(); g1.moveTo(1.6,0); g1.lineTo(11.5,0);
+    g1.strokeStyle=col("--line"); g1.lineWidth=1.3; g1.stroke();
+    g1.strokeStyle=col("--ink"); g1.lineWidth=0.35;
+    g1.beginPath(); g1.moveTo(1.6,-0.65); g1.lineTo(11.5,-0.65);
+    g1.moveTo(1.6,0.65); g1.lineTo(11.5,0.65); g1.stroke();
+    g1.restore();
+    // tambor grande en el pivote
+    g1.beginPath(); g1.arc(pvx,pvy,M.tamborG,0,TAU);
+    g1.strokeStyle=col("--brass")+"99"; g1.lineWidth=0.6; g1.setLineDash([2,2]); g1.stroke(); g1.setLineDash([]);
+    g1.beginPath(); g1.arc(pvx,pvy,1.3,0,TAU); g1.fillStyle=col("--ink"); g1.fill();
+    // pin
+    g1.beginPath(); g1.arc(pinx,piny,1.0,0,TAU);
+    g1.fillStyle=col("--alert"); g1.fill();
+    // eje del ala + tambor chico
+    var ex=s*M.alaX, ey=M.alaY;
+    g1.beginPath(); g1.arc(ex,ey,M.tamborP,0,TAU);
+    g1.strokeStyle=col("--brass")+"99"; g1.lineWidth=0.6; g1.setLineDash([2,2]); g1.stroke(); g1.setLineDash([]);
+    g1.beginPath(); g1.arc(ex,ey,1.1,0,TAU); g1.fillStyle=col("--ink"); g1.fill();
+    // cinta: dos ramales tangentes, desplazados por el giro
+    for(var b=0;b<2;b++){
+      var sg2=b?1:-1;
+      var a1=Math.atan2(ey-pvy,ex-pvx)+sg2*Math.PI/2+ang;
+      var a2=Math.atan2(pvy-ey,pvx-ex)-sg2*Math.PI/2-ps*s;
+      g1.beginPath();
+      g1.moveTo(pvx+Math.cos(a1)*M.tamborG, pvy+Math.sin(a1)*M.tamborG);
+      g1.lineTo(ex+Math.cos(a2)*M.tamborP*-1, ey+Math.sin(a2)*M.tamborP*-1);
+      g1.strokeStyle=col("--patina"); g1.lineWidth=0.55; g1.globalAlpha=.9; g1.stroke(); g1.globalAlpha=1;
+    }
+  });
+
+  if(COTAS){
+    etiqueta(g1,px,0,M.cy,-46,-34,"corona 72d","Ø 28.8 · 31 Hz");
+    etiqueta(g1,px,M.cx+M.r*Math.cos(phi),M.cy+M.r*Math.sin(phi),42,-40,"pin r = 2.8","en la ranura");
+    etiqueta(g1,px,-M.d+M.cx-6,M.cy+2,-52,-5,"palanca ranurada","θ = ±44.4°");
+    etiqueta(g1,px,-M.alaX-3,M.alaY+3,-50,26,"tambor + cinta 2:1","ψ = ±88.8°");
+    etiqueta(g1,px,M.alaX,M.alaY,46,22,"eje del ala","resorte k = 0.072");
+    etiqueta(g1,px,M.alaX+Math.cos(psi(phi))*M.R*0.75,M.alaY+Math.sin(psi(phi))*M.R*0.75,58,66,"ala 75 mm","Mylar 6 µm");
+  }
+  // lectura de fase
+  g1.save(); g1.setTransform(1,0,0,1,0,0);
+  var dpr=Math.min(window.devicePixelRatio||1,2);
+  g1.font=(11*dpr)+"px ui-monospace,monospace"; g1.fillStyle=col("--muted"); g1.textAlign="left"; g1.textBaseline="top";
+  g1.fillText("fase "+String(Math.round(phi/DEG)%360).padStart(3," ")+"°   barrido "+(ps/DEG>=0?"+":"")+(ps/DEG).toFixed(1)+"°   AoA "+AOA+"°", 10*dpr, 10*dpr);
+  if(clap){ g1.fillStyle=col("--gold"); g1.fillText("clap-and-fling", 10*dpr, 26*dpr); }
+  g1.restore();
+}
+
+// ---------- lienzo 2: seccion de la muneca ----------
+var c2=document.getElementById("c2"), g2=c2.getContext("2d");
+var V2={x0:-26,x1:26,y0:-18,y1:18};
+function muneca(phi){
+  var px=fit(c2,g2,V2);
+  g2.clearRect(V2.x0,V2.y0,V2.x1-V2.x0,V2.y1-V2.y0);
+  var tope=(90-AOA)*DEG, al=tors(phi,tope);
+  var h=0.0015, v=(psi(phi+h)-psi(phi-h))/(2*h);
+
+  // plano de batido
+  g2.beginPath(); g2.moveTo(-24,0); g2.lineTo(24,0);
+  g2.strokeStyle=col("--line"); g2.lineWidth=0.25; g2.setLineDash([1.5,1.5]); g2.stroke(); g2.setLineDash([]);
+  // topes
+  [1,-1].forEach(function(s){
+    g2.save(); g2.rotate(s*tope);
+    g2.beginPath(); g2.moveTo(2.6,0); g2.lineTo(5.4,0);
+    g2.strokeStyle=col("--alert")+"77"; g2.lineWidth=1.1; g2.stroke(); g2.restore();
+  });
+  // cuerda del ala, girada por la torsion pasiva
+  g2.save(); g2.rotate(al);
+  var cg=g2.createLinearGradient(-3,0,19,0);
+  cg.addColorStop(0,col("--gold")+"99"); cg.addColorStop(1,col("--gold")+"33");
+  g2.beginPath(); g2.moveTo(-3,0);
+  g2.quadraticCurveTo(8,-1.5,19,0); g2.quadraticCurveTo(8,0.9,-3,0);
+  g2.fillStyle=cg; g2.fill(); g2.strokeStyle=col("--gold"); g2.lineWidth=0.3; g2.stroke();
+  // centro de presion, 2 mm detras del eje
+  g2.beginPath(); g2.arc(2,0,0.7,0,TAU); g2.fillStyle=col("--patina"); g2.fill();
+  // fuerza aerodinamica
+  var F=Math.min(7,Math.abs(v)*5.5)+1.4, dirF=(v>=0?1:-1);
+  g2.save(); g2.translate(2,0);
+  g2.beginPath(); g2.moveTo(0,0); g2.lineTo(0,dirF*F);
+  g2.strokeStyle=col("--patina"); g2.lineWidth=0.5; g2.stroke();
+  g2.beginPath(); g2.moveTo(-0.9,dirF*(F-1.3)); g2.lineTo(0,dirF*F); g2.lineTo(0.9,dirF*(F-1.3));
+  g2.fillStyle=col("--patina"); g2.fill(); g2.restore();
+  g2.restore();
+  // casquillo y eje de carbono
+  g2.beginPath(); g2.arc(0,0,2.3,0,TAU);
+  g2.fillStyle=col("--panel"); g2.fill(); g2.strokeStyle=col("--ink"); g2.lineWidth=0.4; g2.stroke();
+  g2.beginPath(); g2.arc(0,0,1.0,0,TAU); g2.fillStyle=col("--ink"); g2.fill();
+  // flujo relativo
+  var fx=(v>=0?-1:1);
+  for(var i=-2;i<=2;i++){ var yy=i*5.5;
+    g2.beginPath(); g2.moveTo(fx*22,yy); g2.lineTo(fx*13,yy);
+    g2.strokeStyle=col("--muted")+"66"; g2.lineWidth=0.35; g2.stroke();
+    g2.beginPath(); g2.moveTo(fx*14.6,yy-0.8); g2.lineTo(fx*13,yy); g2.lineTo(fx*14.6,yy+0.8);
+    g2.strokeStyle=col("--muted")+"88"; g2.stroke(); }
+
+  g2.save(); g2.setTransform(1,0,0,1,0,0);
+  var dpr=Math.min(window.devicePixelRatio||1,2);
+  g2.font=(11*dpr)+"px ui-monospace,monospace"; g2.textBaseline="top"; g2.textAlign="left";
+  g2.fillStyle=col("--muted");
+  g2.fillText(Math.abs(v)<0.12?"inversión: el aire la voltea":(v>0?"ida · 75 % de la sustentación":"vuelta · 25 %"),10*dpr,10*dpr);
+  g2.fillStyle=col("--patina"); g2.fillText("centro de presión 2 mm detrás del eje",10*dpr,26*dpr);
+  g2.restore();
+}
+
+// ---------- animacion ----------
+var AOA=38, COTAS=true, play=true, SPEED=20, phi=0, last=0;
+function frame(t){
+  if(!last) last=t;
+  var dt=Math.min((t-last)/1000,0.05); last=t;
+  if(play){ phi=(phi+TAU*31*dt/SPEED)%TAU; document.getElementById("phase").value=Math.round(phi/DEG)%360; }
+  planta(phi); muneca(phi);
+  requestAnimationFrame(frame);
+}
+var $=function(id){return document.getElementById(id)};
+$("play").addEventListener("click",function(){ play=!play; this.setAttribute("aria-pressed",play); this.textContent=play?"Pausa":"Animar"; });
+$("speed").addEventListener("input",function(){ SPEED=+this.value; $("speedv").textContent="1/"+SPEED; });
+$("phase").addEventListener("input",function(){ play=false; $("play").setAttribute("aria-pressed",false); $("play").textContent="Animar"; phi=+this.value*DEG; });
+$("cotas").addEventListener("change",function(){ COTAS=this.checked; });
+$("aoa").addEventListener("input",function(){ AOA=+this.value; $("aoav").textContent=AOA+"°"; });
+if(window.matchMedia("(prefers-reduced-motion: reduce)").matches){ play=false; $("play").setAttribute("aria-pressed",false); $("play").textContent="Animar"; }
+requestAnimationFrame(frame);
+addEventListener("resize",function(){ planta(phi); muneca(phi); });
+
+// ---------- calculadora ----------
+var RHO=1.225, R2=0.55, G=9.80665;
+function smooth(a,b,x){ var t=Math.min(1,Math.max(0,(x-a)/(b-a))); return t*t*(3-2*t); }
+function calc(){
+  var R=+$("sR").value/1000, c=+$("sc").value/1000, f=+$("sf").value,
+      amp=+$("sa").value, m=+$("sm").value, mah=+$("sb").value, vb=3.7;
+  var Phi=amp*DEG, CL=1.8+0.4*smooth(165,178,amp), S=R*c;
+  var Utip=2*Phi*f*R, Uref=Utip*R2;
+  var L=2*0.5*RHO*Uref*Uref*S*CL, W=m/1000*G, margen=L/W;
+  var Ad=Phi*R*R, Pind=1.2*Math.pow(W,1.5)/Math.sqrt(2*RHO*Ad);
+  var Pel=Pind*1.95/0.40+0.30;
+  var min=(mah/1000*vb*0.80)/Pel*60, I=Pel/vb, Cr=I/(mah/1000);
+  var mmax=L/(1.20*G)*1000;
+  $("vR").textContent=$("sR").value; $("vc").textContent=$("sc").value;
+  $("vf").textContent=$("sf").value; $("va").textContent=$("sa").value;
+  $("vm").textContent=(+$("sm").value).toFixed(1); $("vb").textContent=$("sb").value;
+  $("oL").textContent=(L/G*1000).toFixed(1)+" g";
+  $("oM").textContent=margen.toFixed(2)+"×";
+  $("oM").style.color=margen>=1.20?col("--patina"):col("--alert");
+  $("oMl").textContent=margen>=1.20?"margen de empuje · vuela":"margen de empuje · no vuela";
+  $("oMb").style.width=Math.min(100,margen/2*100)+"%";
+  $("oMb").style.background=margen>=1.20?col("--patina"):col("--alert");
+  $("oP").textContent=Pel.toFixed(2)+" W";
+  $("oT").textContent=min.toFixed(1)+" min";
+  $("oI").textContent=Math.round(I*1000)+" mA";
+  $("oIl").textContent="corriente · "+Cr.toFixed(1)+"C"+(Cr>10?" (demasiado)":"");
+  $("oX").textContent=mmax.toFixed(1)+" g";
+  $("oCl").textContent=(amp>=176?"Clap-and-fling activo: las alas se tocan arriba y el C_L medio sube a "+CL.toFixed(2)+".":
+    amp>=166?"Clap parcial, C_L medio "+CL.toFixed(2)+". Abajo de 166° se pierde del todo.":
+    "Sin clap: C_L medio "+CL.toFixed(2)+". Es la diferencia entre la variante A y la B.")
+    + "  Reynolds de la cuerda: "+Math.round(Uref*c/1.5e-5)+".";
+}
+["sR","sc","sf","sa","sm","sb"].forEach(function(id){ $(id).addEventListener("input",calc); });
+calc();
+})();
+</script>

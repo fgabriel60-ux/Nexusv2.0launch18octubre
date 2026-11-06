@@ -1,0 +1,8 @@
+file '/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/entregables/correcciones_avm_20261031/Victor_v7_seg0.mp4'
+file '/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/entregables/correcciones_avm_20261031/Victor_v7_seg1.mp4'
+file '/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/entregables/correcciones_avm_20261031/Victor_v7_seg2.mp4'
+file '/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/entregables/correcciones_avm_20261031/Victor_v7_seg3.mp4'
+file '/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/entregables/correcciones_avm_20261031/Victor_v7_seg4.mp4'
+file '/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/entregables/correcciones_avm_20261031/Victor_v7_seg5.mp4'
+file '/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/entregables/correcciones_avm_20261031/Victor_v7_seg6.mp4'
+file '/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/entregables/correcciones_avm_20261031/Victor_v7_seg7.mp4'

@@ -1,0 +1,41 @@
+{
+  "tramo_1": {
+    "id": "7debadc8b39e45d4871867cb0ae4eb5b",
+    "model": "kwaivgi/kling-v2.6-pro/image-to-video",
+    "url": "https://d2h7xmz5gqybh9.cloudfront.net/predictions/7debadc8b39e45d4871867cb0ae4eb5b/1.mp4"
+  },
+  "saldo": {
+    "antes": 10.93,
+    "despues": 10.58
+  },
+  "tramo_3": {
+    "id": "cc3de15e9e4343c7bd324ad088ce5337",
+    "model": "kwaivgi/kling-v2.6-pro/image-to-video",
+    "url": "https://d2h7xmz5gqybh9.cloudfront.net/predictions/cc3de15e9e4343c7bd324ad088ce5337/1.mp4"
+  },
+  "tramo_2": {
+    "id": "31b3828faf7f46f5bc523c3512cc8a58",
+    "model": "kwaivgi/kling-v2.6-pro/image-to-video",
+    "url": "https://d2h7xmz5gqybh9.cloudfront.net/predictions/31b3828faf7f46f5bc523c3512cc8a58/1.mp4"
+  },
+  "tramo_4": {
+    "id": "33ced2322af2438599a45e3a3aa45080",
+    "model": "kwaivgi/kling-v2.6-pro/image-to-video",
+    "url": "https://d2h7xmz5gqybh9.cloudfront.net/predictions/33ced2322af2438599a45e3a3aa45080/1.mp4"
+  },
+  "tramo_5": {
+    "id": "f6a28d91ba364d73a1067667326ef6ee",
+    "model": "kwaivgi/kling-v2.6-pro/image-to-video",
+    "url": "https://d2h7xmz5gqybh9.cloudfront.net/predictions/f6a28d91ba364d73a1067667326ef6ee/1.mp4"
+  },
+  "tramo_6": {
+    "id": "90a12cb359374781892a6d451c730626",
+    "model": "kwaivgi/kling-v2.6-pro/image-to-video",
+    "url": "https://d2h7xmz5gqybh9.cloudfront.net/predictions/90a12cb359374781892a6d451c730626/1.mp4"
+  },
+  "tramo_7": {
+    "id": "d3f28973c4634d1ba120ce41fbc24978",
+    "model": "kwaivgi/kling-v2.6-pro/image-to-video",
+    "url": "https://d2h7xmz5gqybh9.cloudfront.net/predictions/d3f28973c4634d1ba120ce41fbc24978/1.mp4"
+  }
+}

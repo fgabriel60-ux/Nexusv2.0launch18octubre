@@ -1,0 +1,100 @@
+{
+ "carpeta": "sancarlos_planb",
+ "salida": "entregables/prospectos_sancarlos_20261031/plan_b/salida/",
+ "semilla": 13,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "4C1_aereo_v",
+   "4C1_aereo",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow cinematic drone push over San Carlos bay toward the mountains, golden light. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "4C2_alberca_v",
+   "4C2_alberca",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow gimbal glide along the pool with palm trees and red flowers, mountains behind. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "4C3_sala_v",
+   "4C3_sala",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow gimbal push toward the windows with ocean view, wooden ceiling. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "4C4_cocina_v",
+   "4C4_cocina",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow lateral gimbal slide across the kitchen and dining area with sea view. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "4C5_recamara_v",
+   "4C5_recamara",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow push in to the bedroom, ceiling fan turning. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "4C6_bano_v",
+   "4C6_bano",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow tilt down across the bathroom vanity. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "CP1_fachada_v",
+   "CP1_fachada",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow gimbal push toward the white villa entrance with blue door, bright sun. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "CP2_atardecer_v",
+   "CP2_atardecer",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow cinematic glide on the terrace at sunset over the sea and mountains. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "CP3_terraza_v",
+   "CP3_terraza",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow gimbal move on the covered terrace revealing the bay view. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "CP4_vestibulo_v",
+   "CP4_vestibulo",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow walkthrough dolly through the arches past the tiled fountain. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "CP5_sala_v",
+   "CP5_sala",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow gimbal arc in the living room with arched windows. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "CP6_cocina_v",
+   "CP6_cocina",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow lateral slide along the kitchen island. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ],
+  [
+   "CP7_recamara_v",
+   "CP7_recamara",
+   "Vertical luxury real estate video, stabilized gimbal, wide angle, realistic, smooth and slow. Slow push in to the master bedroom, warm light. Same real place, nothing added, no people, no text. Audio: soft ambience.",
+   2.6,
+   null
+  ]
+ ]
+}

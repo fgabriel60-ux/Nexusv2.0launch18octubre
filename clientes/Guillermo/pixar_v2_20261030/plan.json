@@ -1,0 +1,124 @@
+{
+ "cuadros": {
+  "GUI1": [
+   [
+    "carlos",
+    "zaguan"
+   ],
+   "Estilo animación 3D tipo Pixar, mismo estilo de personaje que la primera imagen: proporciones tiernas, texturas suaves, iluminación cálida de cine, colores vivos, foto vertical 9:16, sin texto, sin letras, sin subtítulos, sin logotipos. Guillermo: herrero mexicano animado de unos 45 años, complexión robusta, bigote y barba corta, gorra gris de trabajo, camisa azul de manga larga arremangada, guantes de cuero en el cinturón, careta de soldar levantada sobre la gorra. Crea a Guillermo como personaje nuevo (NO uses la cara de la primera imagen, solo su estilo de animación). Está de pie en la banqueta frente a una casa blanca con un zaguán negro de herrería cerrado (usa la segunda imagen como el lugar), con el celular en la mano, mirando a cámara con gesto de urgencia y preocupación, cejas arriba. Plano medio de cabeza a cintura."
+  ],
+  "CAR1": [
+   [
+    "carlos",
+    "cortina"
+   ],
+   "Conserva EXACTAMENTE al mismo personaje animado de la primera imagen (misma cara, cabello oscuro rizado, bigote y barba, playera polo crema). Quita todo el texto y los subtítulos de la imagen. Cambia el fondo: ahora está de pie frente a una casa blanca con una cortina metálica negra de cochera (usa la segunda imagen como fondo), hablando a cámara con sonrisa amable. Plano medio."
+  ],
+  "CAR2": [
+   [
+    "carlos",
+    "puerta"
+   ],
+   "Conserva EXACTAMENTE al mismo personaje animado de la primera imagen (misma cara, cabello oscuro rizado, bigote y barba, playera polo crema). Quita todo el texto y los subtítulos de la imagen. Cambia el fondo: ahora está frente a una casa blanca con una puerta negra de herrería (usa la segunda imagen como fondo), señalando hacia ella con una mano, hablando a cámara. Plano medio."
+  ],
+  "GUI2": [
+   [
+    "carlos",
+    "zaguan"
+   ],
+   "Estilo animación 3D tipo Pixar, mismo estilo de personaje que la primera imagen: proporciones tiernas, texturas suaves, iluminación cálida de cine, colores vivos, foto vertical 9:16, sin texto, sin letras, sin subtítulos, sin logotipos. Guillermo: herrero mexicano animado de unos 45 años, complexión robusta, bigote y barba corta, gorra gris de trabajo, camisa azul de manga larga arremangada, guantes de cuero en el cinturón, careta de soldar levantada sobre la gorra. Crea a Guillermo como personaje nuevo (NO uses la cara de la primera imagen, solo su estilo de animación). Está de pie frente a la casa blanca con el zaguán negro de herrería recién terminado (usa la segunda imagen como fondo), sonriendo orgulloso a cámara con el pulgar arriba. Plano medio de cabeza a cintura."
+  ],
+  "CAR3": [
+   [
+    "carlos",
+    "casa"
+   ],
+   "Conserva EXACTAMENTE al mismo personaje animado de la primera imagen (misma cara, cabello oscuro rizado, bigote y barba, playera polo crema). Quita todo el texto y los subtítulos de la imagen. Cambia el fondo: está frente a una casa blanca pequeña con una pérgola de metal arriba (usa la segunda imagen), con expresión emocionada y una mano abierta hacia el frente, hablando a cámara. Plano medio."
+  ],
+  "GUI3": [
+   [
+    "carlos",
+    "perg"
+   ],
+   "Estilo animación 3D tipo Pixar, mismo estilo de personaje que la primera imagen: proporciones tiernas, texturas suaves, iluminación cálida de cine, colores vivos, foto vertical 9:16, sin texto, sin letras, sin subtítulos, sin logotipos. Guillermo: herrero mexicano animado de unos 45 años, complexión robusta, bigote y barba corta, gorra gris de trabajo, camisa azul de manga larga arremangada, guantes de cuero en el cinturón, careta de soldar levantada sobre la gorra. Crea a Guillermo como personaje nuevo (NO uses la cara de la primera imagen, solo su estilo de animación). Está bajo la pérgola metálica negra (usa la segunda imagen como fondo) sosteniendo un celular con una pantalla verde de chat de mensajería sin texto legible, sonriendo esperanzado a cámara. Plano medio de cabeza a cintura."
+  ],
+  "CAR4": [
+   [
+    "carlos"
+   ],
+   "Conserva EXACTAMENTE al mismo personaje animado de la primera imagen (misma cara, cabello oscuro rizado, bigote y barba, playera polo crema). Quita todo el texto y los subtítulos de la imagen. Mantén su oficina con la ventana de montañas. Está hablando a cámara con sonrisa confiada, con un dedo levantado como contando. Plano medio."
+  ],
+  "CAR5": [
+   [
+    "carlos"
+   ],
+   "Conserva EXACTAMENTE al mismo personaje animado de la primera imagen (misma cara, cabello oscuro rizado, bigote y barba, playera polo crema). Quita todo el texto y los subtítulos de la imagen. Mantén su oficina con la ventana de montañas. Está hablando a cámara con sonrisa cálida y señala hacia abajo, como indicando un botón. Plano medio."
+  ]
+ },
+ "tomas": [
+  [
+   "T1_gui_urge",
+   "GUI1",
+   "Vertical animated Pixar-style shot: the cartoon blacksmith holds his phone and talks anxiously in front of the black gate. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   3.7,
+   null,
+   "g_urge"
+  ],
+  [
+   "T2_car1",
+   "CAR1",
+   "Vertical animated Pixar-style shot: the cartoon man talks friendly in front of the black metal garage door. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   5.6,
+   null,
+   "c_1"
+  ],
+  [
+   "T3_car2",
+   "CAR2",
+   "Vertical animated Pixar-style shot: the cartoon man talks and points toward the black door. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   4.3,
+   null,
+   "c_2"
+  ],
+  [
+   "T4_gui_fregon",
+   "GUI2",
+   "Vertical animated Pixar-style shot: the cartoon blacksmith talks excitedly, proud, thumbs up in front of the black gate. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   3.1,
+   null,
+   "g_fregon"
+  ],
+  [
+   "T5_car3",
+   "CAR3",
+   "Vertical animated Pixar-style shot: the cartoon man talks excitedly with an open hand. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   5.6,
+   null,
+   "c_3"
+  ],
+  [
+   "T6_gui_mensaje",
+   "GUI3",
+   "Vertical animated Pixar-style shot: the cartoon blacksmith talks hopefully holding his phone. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   3.3,
+   null,
+   "g_mensaje"
+  ],
+  [
+   "T7_car4",
+   "CAR4",
+   "Vertical animated Pixar-style shot: the cartoon man talks confidently counting with a finger. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   4.0,
+   null,
+   "c_4"
+  ],
+  [
+   "T8_car5",
+   "CAR5",
+   "Vertical animated Pixar-style shot: the cartoon man talks warmly and points down. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   5.5,
+   null,
+   "c_5"
+  ]
+ ]
+}

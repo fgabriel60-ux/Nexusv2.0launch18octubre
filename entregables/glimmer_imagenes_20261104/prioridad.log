@@ -1,0 +1,1316 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-LCoH7M1lngLXJJfbSrWO9L
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<30:41,  1.28s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:02<31:22,  1.31s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:02<12:31,  1.91it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:02<09:31,  2.50it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:02<07:34,  3.15it/s]
+[1ALoading weights:   1%|          | 14/1436 [00:03<02:08, 11.03it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:03<01:46, 13.30it/s]
+[1ALoading weights:   1%|▏         | 20/1436 [00:03<01:34, 15.03it/s]
+[1ALoading weights:   2%|▏         | 26/1436 [00:03<01:16, 18.39it/s]
+[1ALoading weights:   2%|▏         | 29/1436 [00:03<01:11, 19.80it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:03<01:08, 20.63it/s]
+[1ALoading weights:   3%|▎         | 39/1436 [00:04<00:56, 24.68it/s]
+[1ALoading weights:   3%|▎         | 42/1436 [00:04<01:09, 20.05it/s]
+[1ALoading weights:   3%|▎         | 47/1436 [00:04<00:55, 24.89it/s]
+[1ALoading weights:   4%|▎         | 51/1436 [00:04<01:07, 20.63it/s]
+[1ALoading weights:   4%|▍         | 54/1436 [00:04<01:08, 20.15it/s]
+[1ALoading weights:   4%|▍         | 62/1436 [00:05<00:45, 30.27it/s]
+[1ALoading weights:   5%|▍         | 66/1436 [00:05<01:04, 21.13it/s]
+[1ALoading weights:   5%|▌         | 74/1436 [00:05<00:45, 29.78it/s]
+[1ALoading weights:   6%|▌         | 79/1436 [00:05<01:01, 21.97it/s]
+[1ALoading weights:   6%|▌         | 85/1436 [00:06<00:50, 27.00it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:06<00:55, 24.41it/s]
+[1ALoading weights:   6%|▋         | 93/1436 [00:06<00:54, 24.64it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:06<00:47, 28.07it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:06<00:58, 22.83it/s]
+[1ALoading weights:   8%|▊         | 109/1436 [00:07<00:55, 23.74it/s]
+[1ALoading weights:   8%|▊         | 113/1436 [00:07<00:52, 25.17it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:07<00:57, 22.98it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:07<00:45, 28.60it/s]
+[1ALoading weights:   9%|▉         | 127/1436 [00:07<01:00, 21.48it/s]
+[1ALoading weights:   9%|▉         | 136/1436 [00:08<00:45, 28.46it/s]
+[1ALoading weights:  10%|▉         | 140/1436 [00:08<00:56, 22.86it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:08<00:45, 28.30it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:08<00:54, 23.38it/s]
+[1ALoading weights:  11%|█         | 160/1436 [00:08<00:44, 28.47it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:09<00:53, 23.82it/s]
+[1ALoading weights:  12%|█▏        | 171/1436 [00:09<00:41, 30.81it/s]
+[1ALoading weights:  12%|█▏        | 175/1436 [00:09<00:59, 21.03it/s]
+[1ALoading weights:  13%|█▎        | 182/1436 [00:09<00:50, 25.04it/s]
+[1ALoading weights:  13%|█▎        | 186/1436 [00:10<00:57, 21.72it/s]
+[1ALoading weights:  14%|█▎        | 194/1436 [00:10<00:49, 24.93it/s]
+[1ALoading weights:  14%|█▎        | 197/1436 [00:10<00:48, 25.41it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:10<00:52, 23.36it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:10<00:42, 28.64it/s]
+[1ALoading weights:  15%|█▍        | 211/1436 [00:11<00:58, 20.93it/s]
+[1ALoading weights:  15%|█▌        | 220/1436 [00:11<00:43, 28.14it/s]
+[1ALoading weights:  16%|█▌        | 224/1436 [00:11<00:55, 21.95it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:11<00:44, 27.28it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:12<00:54, 22.09it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:12<00:43, 27.70it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:12<00:51, 22.94it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:12<00:41, 28.23it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:13<00:50, 23.37it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:13<00:41, 28.13it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:13<00:50, 23.23it/s]
+[1ALoading weights:  19%|█▉        | 279/1436 [00:13<00:38, 30.18it/s]
+[1ALoading weights:  20%|█▉        | 283/1436 [00:14<00:53, 21.60it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:14<00:39, 28.74it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:14<00:49, 23.26it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:14<00:40, 27.95it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:15<00:48, 23.04it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:15<00:40, 27.90it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:15<00:48, 23.13it/s]
+[1ALoading weights:  23%|██▎       | 325/1436 [00:15<00:47, 23.31it/s]
+[1ALoading weights:  23%|██▎       | 328/1436 [00:15<00:47, 23.49it/s]
+[1ALoading weights:  23%|██▎       | 331/1436 [00:15<00:47, 23.03it/s]
+[1ALoading weights:  24%|██▎       | 339/1436 [00:16<00:33, 33.11it/s]
+[1ALoading weights:  24%|██▍       | 343/1436 [00:16<00:50, 21.65it/s]
+[1ALoading weights:  25%|██▍       | 352/1436 [00:16<00:38, 28.32it/s]
+[1ALoading weights:  25%|██▍       | 356/1436 [00:16<00:46, 23.05it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:17<00:38, 27.81it/s]
+[1ALoading weights:  26%|██▌       | 368/1436 [00:17<00:45, 23.33it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:17<00:37, 28.09it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:17<00:45, 23.21it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:18<00:36, 28.56it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:18<00:43, 24.08it/s]
+[1ALoading weights:  28%|██▊       | 398/1436 [00:18<00:40, 25.34it/s]
+[1ALoading weights:  28%|██▊       | 401/1436 [00:18<00:41, 25.18it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:18<00:43, 23.85it/s]
+[1ALoading weights:  28%|██▊       | 409/1436 [00:18<00:36, 28.27it/s]
+[1ALoading weights:  29%|██▉       | 413/1436 [00:19<00:41, 24.42it/s]
+[1ALoading weights:  29%|██▉       | 416/1436 [00:19<00:44, 22.91it/s]
+[1ALoading weights:  29%|██▉       | 422/1436 [00:19<00:34, 29.69it/s]
+[1ALoading weights:  30%|██▉       | 426/1436 [00:19<00:48, 20.82it/s]
+[1ALoading weights:  30%|███       | 434/1436 [00:19<00:33, 29.67it/s]
+[1ALoading weights:  31%|███       | 438/1436 [00:20<00:46, 21.38it/s]
+[1ALoading weights:  31%|███       | 446/1436 [00:20<00:32, 30.15it/s]
+[1ALoading weights:  31%|███▏      | 451/1436 [00:20<00:43, 22.79it/s]
+[1ALoading weights:  32%|███▏      | 456/1436 [00:20<00:36, 26.67it/s]
+[1ALoading weights:  32%|███▏      | 461/1436 [00:21<00:37, 25.67it/s]
+[1ALoading weights:  32%|███▏      | 465/1436 [00:21<00:38, 25.00it/s]
+[1ALoading weights:  33%|███▎      | 469/1436 [00:21<00:40, 23.98it/s]
+[1ALoading weights:  33%|███▎      | 474/1436 [00:21<00:40, 23.66it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:21<00:37, 25.33it/s]
+[1ALoading weights:  34%|███▍      | 487/1436 [00:22<00:38, 24.79it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:22<00:30, 30.95it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:22<00:37, 25.02it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:22<00:31, 29.86it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:23<00:38, 24.23it/s]
+[1ALoading weights:  36%|███▌      | 520/1436 [00:23<00:31, 28.92it/s]
+[1ALoading weights:  36%|███▋      | 524/1436 [00:23<00:38, 23.98it/s]
+[1ALoading weights:  37%|███▋      | 531/1436 [00:23<00:29, 30.96it/s]
+[1ALoading weights:  37%|███▋      | 535/1436 [00:23<00:40, 22.12it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:24<00:30, 29.31it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:24<00:36, 24.40it/s]
+[1ALoading weights:  39%|███▊      | 554/1436 [00:24<00:30, 29.35it/s]
+[1ALoading weights:  39%|███▉      | 558/1436 [00:24<00:40, 21.74it/s]
+[1ALoading weights:  39%|███▉      | 566/1436 [00:24<00:29, 29.50it/s]
+[1ALoading weights:  40%|███▉      | 571/1436 [00:25<00:39, 22.01it/s]
+[1ALoading weights:  40%|████      | 576/1436 [00:25<00:33, 25.90it/s]
+[1ALoading weights:  40%|████      | 581/1436 [00:25<00:41, 20.64it/s]
+[1ALoading weights:  41%|████      | 591/1436 [00:26<00:31, 27.20it/s]
+[1ALoading weights:  41%|████▏     | 595/1436 [00:26<00:37, 22.57it/s]
+[1ALoading weights:  42%|████▏     | 602/1436 [00:26<00:32, 25.65it/s]
+[1ALoading weights:  42%|████▏     | 606/1436 [00:26<00:35, 23.16it/s]
+[1ALoading weights:  43%|████▎     | 614/1436 [00:26<00:26, 30.76it/s]
+[1ALoading weights:  43%|████▎     | 618/1436 [00:27<00:38, 21.21it/s]
+[1ALoading weights:  44%|████▍     | 630/1436 [00:27<00:23, 34.39it/s]
+[1ALoading weights:  46%|████▌     | 661/1436 [00:27<00:09, 79.51it/s]
+[1ALoading weights:  48%|████▊     | 690/1436 [00:27<00:06, 115.57it/s]
+[1ALoading weights:  50%|█████     | 720/1436 [00:27<00:04, 153.58it/s]
+[1ALoading weights:  53%|█████▎    | 764/1436 [00:27<00:03, 217.56it/s]
+[1ALoading weights:  57%|█████▋    | 813/1436 [00:27<00:02, 266.27it/s]
+[1ALoading weights:  60%|██████    | 862/1436 [00:28<00:01, 317.19it/s]
+[1ALoading weights:  63%|██████▎   | 908/1436 [00:28<00:01, 353.11it/s]
+[1ALoading weights:  67%|██████▋   | 955/1436 [00:28<00:01, 384.15it/s]
+[1ALoading weights:  69%|██████▉   | 998/1436 [00:28<00:01, 396.58it/s]
+[1ALoading weights:  73%|███████▎  | 1042/1436 [00:28<00:00, 398.71it/s]
+[1ALoading weights:  76%|███████▌  | 1087/1436 [00:28<00:00, 408.86it/s]
+[1ALoading weights:  79%|███████▉  | 1135/1436 [00:28<00:00, 428.34it/s]
+[1ALoading weights:  82%|████████▏ | 1182/1436 [00:28<00:00, 422.55it/s]
+[1ALoading weights:  85%|████████▌ | 1225/1436 [00:28<00:00, 412.79it/s]
+[1ALoading weights:  89%|████████▉ | 1279/1436 [00:29<00:00, 444.24it/s]
+[1ALoading weights:  92%|█████████▏| 1325/1436 [00:29<00:00, 448.55it/s]
+[1ALoading weights:  95%|█████████▌| 1371/1436 [00:29<00:00, 441.91it/s]
+[1ALoading weights:  99%|█████████▊| 1416/1436 [00:29<00:00, 436.91it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:29<00:00, 48.95it/s] 
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=3800) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## TATUADOR_PRIORITARIO
+1) CALIFICACIÓN DE SU VIDEO TAL COMO ESTÁ: 3/10, y PROYECTADA: 8/10 si le hacemos los cambios de abajo.
+
+2) CÓMO LLEVARLO A 8 CON LO QUE YA TENEMOS (solo cortes, textos y audio; nada de volver a grabar):
+- Orden exacto de las tomas con los segundos (qué dejar, qué quitar, qué poner primero)
+  0.0-3.0s: Toma 1 del video original, hombre en sofá con tableta, primer plano medio. Dejar.
+  3.0-5.8s: Toma 2 del video original, mismo plano ligeramente desplazado. Dejar.
+  5.8-7.5s: Corte a Toma 3 del video original, superposición calle/señal. Dejar solo 1.7s para transición.
+  7.5-9.5s: Toma 4 del video original, señal “Azucenas CP 77500”. Dejar.
+  9.5-11.5s: Toma 5 del video original, fachada “Placer Dolor TATTOO” con moto y camioneta. Dejar.
+  11.5-17.0s: Toma 6-7-8 del video original, tatuaje pecho linterna + sakura + samurái en brazo. Dejar secuencia de 3 planos del mismo tatuaje.
+  Quitar: repeticiones de la misma toma de sofá, el desenfoque prolongado de la superposición y cualquier cuadro sin información de ubicación o trabajo.
+- Qué arreglar en cada tramo y cuánto sube la nota
+  0.0-5.8s: Añadir subtítulos palabra por palabra y tarjeta de texto “Adrián Santana · Tatuador en Cancún Centro”. Mejora legibilidad y autoridad. +1.5
+  5.8-7.5s: Reducir superposición, estabilizar y bajar brillo. Evita confusión visual. +0.5
+  7.5-11.5s: Insertar tarjeta de ubicación “Frente al Palacio Municipal · Av. Azucenas CP 77500”. Refuerza localización real. +1.0
+  11.5-17.0s: Recorte a detalle del tatuaje, corrección de color y ritmo de corte cada 1.5s. Muestra trabajo real sin inventar. +1.0
+  Global: normalizar audio, música ligera propia y ritmo de cortes cada 1.5-2s. +1.0
+
+3) SUBTÍTULOS EXACTOS, con tiempos, palabra por palabra como se deben ver en pantalla (corrige lo que la transcripción trae mal, en español de México, sin inventar nada). Di también tamaño, posición y color para que se lean en celular.
+Estilo: fuente sans bold, tamaño 64-72 px en 720x1280, posición inferior 12% del alto, fondo negro 60% opacidad con borde blanco 2px, centrado.
+0.0-1.2s Buscas
+1.2-2.1s un
+2.1-3.0s tatuaje
+3.0-3.9s en
+3.9-4.6s Cancún
+4.6-5.2s Centro,
+5.2-5.8s soy
+5.8-6.6s Adrián
+6.6-7.2s Santana,
+7.2-8.0s estoy
+8.0-8.7s frente
+8.7-9.4s a
+9.4-10.1s Palacio
+10.1-10.9s Municipal
+10.9-11.6s en
+11.6-12.3s el
+12.3-13.0s Centro
+13.0-13.7s de
+13.7-14.4s Cancún.
+14.4-15.1s Escribimos
+15.1-15.8s ahora
+15.8-16.3s a
+16.3-16.8s WhatsApp,
+16.8-17.0s las
+[FALTA: tiempo restante de audio para completar la frase “las citas se agendan con anticipación, no te quedes fuera”]. Con el audio disponible se mantiene hasta 17.0s.
+
+4) DOS ÁNGULOS DE VENTA distintos para sus anuncios (nombre, a quién le habla, promesa con dato real, por qué baja el costo por mensaje, qué prueba falta).
+Ángulo A – “Ubicación comprobable”
+A quién le habla: personas en Cancún Centro que buscan estudio físico cercano y visible.
+Promesa con dato real: Estudio frente al Palacio Municipal en el Centro de Cancún, Av. Azucenas CP 77500, visible en video.
+Por qué baja el costo por mensaje: Video muestra calle y fachada real, señal de Azucenas y local “Placer Dolor TATTOO”, lo que aumenta relevancia local y reduce desperdicio.
+Prueba que falta: [FALTA: testimonio de cliente, foto del interior del estudio, o número de años en el mercado verificable en video].
+
+Ángulo B – “Trabajo real de piel”
+A quién le habla: personas indecisas por diseño, que quieren ver calidad de tatuaje antes de agendar.
+Promesa con dato real: Muestra tatuaje real de linterna, sakura y samurái en pecho/brazo realizado por Adrián Santana.
+Por qué baja el costo por mensaje: Primeros planos de trabajo real generan interés cualificado y menos rechazos en WhatsApp.
+Prueba que falta: [FALTA: antes y después del mismo tatuaje, o proceso de diseño a mano alzada en video].
+
+5) DOS ANUNCIOS DE IMAGEN, uno por ángulo: qué se ve y de dónde sale la foto, titular (máximo 7 palabras), línea de apoyo, formato, texto primario, botón, calificación esperada.
+Anuncio Imagen 1 – Ángulo Ubicación
+Qué se ve y de dónde sale: Fachada “Placer Dolor TATTOO” con moto y camioneta, cuadro 5 del video.
+Titular: Frente al Palacio Municipal
+Línea de apoyo: Cancún Centro, Av. Azucenas CP 77500
+Formato: 1080x1080
+Texto primario: Soy Adrián Santana. Tatuador en Cancún Centro, frente al Palacio Municipal. Escríbenos por WhatsApp para agendar.
+Botón: Enviar mensaje
+Calificación esperada: 7/10 con los activos actuales.
+
+Anuncio Imagen 2 – Ángulo Trabajo real
+Qué se ve y de dónde sale: Primer plano del tatuaje de linterna con sakura en pecho, cuadro 6 del video.
+Titular: Tatuajes reales en Cancún
+Línea de apoyo: Diseño personalizado a tu idea
+Formato: 1080x1080
+Texto primario: Mira el trabajo de Adrián Santana en piel real. Si tienes una idea, armamos un diseño único para ti. Escríbenos por WhatsApp.
+Botón: Enviar mensaje
+Calificación esperada: 7/10 con los activos actuales.
+
+6) GUION PARA QUE GRABE EL SIGUIENTE VIDEO (20-30 s): frase por frase con lo que debe estar grabando en cada una, cómo poner el celular y la luz, y qué NO decir.
+0-4s “Hola, soy Adrián Santana, tatuador en Cancún Centro.” Grabar de frente, plano medio, celular a la altura de ojos en vertical, luz natural de frente por ventana. NO decir precios ni promociones.
+4-9s “Estoy frente al Palacio Municipal, Av. Azucenas.” Grabar caminando hacia la fachada del local, plano de la calle y letrero visible. NO inventar años ni ofertas.
+9-15s “Este es un tatuaje que realicé, linterna con sakura y samurái.” Grabar primer plano del tatuaje en piel, luz suave lateral, sin flash. NO prometer tiempos de cicatrización.
+15-22s “Si tienes una idea, la convertimos en un diseño único para ti.” Grabar dibujando en tableta o papel, plano de manos. NO decir “garantizado” ni resultados.
+22-28s “Escríbenos por WhatsApp para agendar. Las citas se agendan con anticipación.” Grabar de frente señalando la cámara, fondo limpio del estudio. NO decir “no te quedes fuera” como urgencia falsa; mantener tono informativo.
+
+7) QUÉ NOS TIENE QUE MANDAR ÉL.
+- Video vertical 20-30 s nuevo siguiendo el guion, con audio claro sin música fuerte.
+- 3 fotos nítidas del interior del estudio y de la fachada con letrero visible a plena luz del día.
+- 3 fotos cercanas de tatuajes terminados con buena luz, sin filtros, mostrando detalle de líneas y color.
+- Confirmación escrita de la dirección exacta y nombre comercial del estudio para usar en texto del anuncio.
+- Autorización por escrito de los clientes cuyos tatuajes se van a mostrar en anuncios.
+
+######## Mariano
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo A — “Recorrido real de las 3 casas”
+- A quién le habla y qué le duele: Familias que buscan casa propia en Rosarito y les duele no saber qué hay de verdad en Vizcaíno Residencial y comparar opciones rápido.
+- Promesa concreta con dato real: Ver en un solo video las 3 casas que Mariano muestra: Bugambilia, Benjamina y Salvia, con acceso controlado, plaza comercial, pádel y área de juegos.
+- Por qué baja el costo por mensaje en su giro: Es contenido de valor que el algoritmo de Meta premia; atrae tráfico calificado y luego convierte a WhatsApp.
+- Prueba real que lo respalda: Videos reales de Bugambilia, Benjamina y Salvia grabados por Mariano. [FALTA: fotos/vídeo del acceso controlado, plaza comercial, pádel y área de juegos para mostrarlos en el anuncio]
+
+Ángulo B — “Precio de entrada real en Benjamina”
+- A quién le habla y qué le duele: Compradores primerizos en Rosarito que necesitan un precio de entrada claro y verificable.
+- Promesa concreta con dato real: Benjamina desde 2.8M.
+- Por qué baja el costo por mensaje en su giro: Oferta clara y específica reduce curiosidad y sube intención de compra; el mensaje llega a quien puede decidir.
+- Prueba real que lo respalda: Flyer de Benjamina que Mariano ya tiene. [FALTA: confirmación por escrito de que 2.8M es precio vigente de preventa/venta y condiciones; foto real del frente de Benjamina sin texto para animar]
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio 1 — Ángulo A
+- Qué se ve y de dónde sale la foto: Collage con 3 fotos reales de Mariano: Bugambilia, Benjamina y Salvia. Generado con Qwen a partir de sus fotos reales, fondo limpio, sin texto incrustado.
+- Titular en pantalla: “3 casas en Vizcaíno”
+- Línea de apoyo: “Bugambilia · Benjamina · Salvia”
+- Formato: 4:5. Botón de WhatsApp abajo a la derecha.
+- Texto primario: “Recorre las 3 casas de Vizcaíno Residencial con Mariano. Acceso controlado, plaza comercial, pádel y área de juegos. Escríbeme por WhatsApp.”
+- Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 8/10. Le falta para 10: foto real del acceso controlado, plaza comercial, pádel y área de juegos para usar como prueba visual.
+
+Anuncio 2 — Ángulo B
+- Qué se ve y de dónde sale la foto: Foto real del frente de Benjamina sin texto, recortada sobre color. Generada con Qwen a partir del flyer de Benjamina que Mariano ya tiene.
+- Titular en pantalla: “Benjamina desde 2.8M”
+- Línea de apoyo: “Vizcaíno Residencial, Rosarito”
+- Formato: 4:5. Botón de WhatsApp abajo a la derecha.
+- Texto primario: “Benjamina en Vizcaíno Residencial desde 2.8M. Información real con Mariano. Escríbeme por WhatsApp.”
+- Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: confirmación escrita de precio vigente y condiciones; foto real exterior de Benjamina sin texto.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Ángulo A)
+
+- “Hola, soy Mariano en Vizcaíno Residencial.” → De pie frente a la entrada del residencial. Se ve la calle y letrero del fraccionamiento atrás. Celular vertical a la altura del pecho, luz de día. 4 s.
+- “Hoy te muestro 3 casas reales: Bugambilia, Benjamina y Salvia.” → Caminando lento hacia la primera casa. Se ve fachada. 5 s.
+- “Aquí está Bugambilia.” → Parado frente a Bugambilia, muestra fachada con mano. 4 s.
+- “Seguimos con Benjamina, desde 2.8M.” → Frente a Benjamina, muestra frente. 5 s.
+- “Y esta es Salvia.” → Frente a Salvia, muestra fachada. 4 s.
+- “Acceso controlado, plaza comercial, pádel y área de juegos.” → Plano abierto del área común que se pueda ver. 4 s.
+- “Escríbeme por WhatsApp y te paso fotos y precios.” → Cierre mirando a cámara, sonrisa. 4 s.
+
+Cómo grabarlo: vertical 9:16, celular a la altura del pecho, luz natural de frente, sin sol de contraluz, audio claro sin viento, cortes cada 3-5 s. Duración total 25-30 s.
+
+Qué NO debe decir: no prometer tiempos de entrega, no dar garantías, no inventar precios de Bugambilia ni Salvia, no decir “el más barato” ni “inversión segura”.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE ESTO CALIFIQUE 10
+
+- Foto real del frente de Benjamina sin texto, en buena luz, para titular “Benjamina desde 2.8M”.
+- Foto real del frente de Bugambilia y Salvia sin texto.
+- Video corto con dron del acceso controlado, plaza comercial, cancha de pádel y área de juegos, sin viento.
+- Confirmación escrita de que “Benjamina desde 2.8M” es precio vigente y condiciones básicas.
+- Logo de Mariano en PNG con fondo transparente.
+- Autorización para usar su voz clonada y sus videos reales en anuncios.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+
+- Segmentación: Radio 25 km alrededor de Rosarito, Baja California; también Tijuana y Playas de Rosarito. Edad 28-55. Intereses: bienes raíces, compra de casa, vivir en Rosarito, familias, construcción, bienes raíces en Baja California.
+- Presupuesto diario estimado: $300 a $600 MXN para probar los 2 anuncios y el video de recorrido, con optimización a mensajes de WhatsApp.
+
+######## Rafael
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo 1 — “Prueba de manejo hoy”
+- A quién le habla y qué le duele: A quien busca auto nuevo en México y le duele perder tiempo con cotizaciones vagas y citas que no concretan.
+- Promesa concreta con dato real: “Agenda tu prueba de manejo hoy con Rafael en la agencia BYD.” [FALTA: nombre de agencia/ciudad y horario real de pruebas]
+- Por qué baja el costo por mensaje: Oferta clara de acción inmediata y local; el mensaje llega a quien ya está en modo decisión y pide WhatsApp para agendar.
+- Prueba real que lo respalda: [FALTA: foto suya a la altura de los ojos con uniforme/credencial visible en la agencia y foto del auto que ofrece; testimonio de cliente con nombre y ciudad]
+
+Ángulo 2 — “Asesor real, respuesta real”
+- A quién le habla y qué le duele: A quien le duele hablar con bots o vendedores que no responden rápido por WhatsApp.
+- Promesa concreta con dato real: “Habla por WhatsApp con Rafael, asesor BYD, y te responde hoy.” [FALTA: horario real de atención por WhatsApp]
+- Por qué baja el costo por mensaje: La oferta es de contacto humano inmediato; Meta premia claridad de acción y confianza del anunciante.
+- Prueba real que lo respalda: [FALTA: captura de WhatsApp Business con nombre visible “Rafael · autos BYD” y foto de perfil suya; foto suya en la agencia con el auto]
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio A — Ángulo “Prueba de manejo hoy”
+- Qué se ve y de dónde sale la foto: Rafael de pie junto a un BYD, encuadre medio, fondo limpio de la agencia. Foto suya que debe mandar. Si no hay, generada con Qwen-Image-Edit a partir de su foto real recortando fondo y manteniendo su rostro/ropa.
+- Titular en pantalla: “Prueba de manejo hoy”
+- Línea de apoyo: “Agenda por WhatsApp con Rafael”
+- Formato: 4:5. Botón de WhatsApp abajo a la derecha, logo BYD discreto arriba izquierda.
+- Texto primario: “Quieres probar un BYD hoy. Escríbele a Rafael por WhatsApp y agenda tu prueba de manejo.” Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: oferta comercial del mes escrita por él, 2 tomas suyas a la altura de los ojos, y prueba visible de agencia/ciudad.
+
+Anuncio B — Ángulo “Asesor real, respuesta real”
+- Qué se ve y de dónde sale la foto: Primer plano de Rafael sonriendo, a la altura de los ojos, con un BYD desenfocado atrás. Foto suya que debe mandar. Alternativa: generada con Qwen-Image-Edit a partir de su foto real, fondo limpio de agencia.
+- Titular en pantalla: “Asesor real por WhatsApp”
+- Línea de apoyo: “Respuesta el mismo día”
+- Formato: 9:16. Botón de WhatsApp centrado inferior, sin cubrir rostro.
+- Texto primario: “Habla ahora con Rafael, asesor BYD. Te atiende por WhatsApp y coordina tu visita.” Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: horario real de atención, foto de perfil de WhatsApp Business visible y mención de agencia/ciudad.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Prueba de manejo hoy)
+
+- “Hola, soy Rafael, asesor BYD.” → Cámara vertical, celular a la altura de los ojos, selfie. Rafael de pie frente al auto, puerta abierta, agencia atrás. 4 s.
+- “Si buscas un auto nuevo, agenda tu prueba de manejo hoy.” → Misma toma, señala el auto con la mano. 5 s.
+- “Escríbeme por WhatsApp y te confirmo horario.” → Acercarse un paso a cámara, gesto a WhatsApp. 5 s.
+- “Estoy en la agencia, te espero.” → Cámara se mueve a plano medio mostrando logo BYD/agencia atrás. 5 s.
+- “Te mando información clara y sin vueltas.” → Sonrisa, mirada a cámara. 4 s.
+
+Cómo grabarlo: vertical 9:16, celular a la altura de los ojos, a 1 metro de distancia. Luz natural de frente, sin contraluz. Ruido bajo, sin música. Cada frase en una toma corta. Total 20-25 s.
+
+Qué NO debe decir: no prometer precio, mensualidad, bono, garantía ni tiempo de entrega; no decir “el mejor” ni “el más barato”; no usar textos en la grabación.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE ESTO CALIFIQUE 10
+
+- Oferta comercial del mes escrita por él, con palabras exactas que quiere usar en el anuncio.
+- 2 tomas nuevas con el celular a la altura de los ojos: una de cuerpo completo junto al auto en la agencia, otra primer plano sonriendo; fondo limpio, luz de día.
+- Nombre exacto de la agencia BYD y ciudad.
+- Horario real de atención por WhatsApp.
+- Foto de perfil de WhatsApp Business y captura que muestre el nombre “Rafael · autos BYD”.
+- Una foto nítida del modelo BYD que está promoviendo ahora, tomada por él en la agencia, sin textos pegados.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+
+- Ciudad o radio: [FALTA: ciudad y radio en km de la agencia]. Sugerencia inicial: radio 15-30 km alrededor de la agencia.
+- Edad: 28-55.
+- Intereses: autos nuevos, BYD, híbridos/eléctricos, concesionarios de autos, prueba de manejo, financiamiento automotriz.
+- Presupuesto diario en pesos: rango estimado $250-$450 MXN para iniciar y buscar mensajes calificados por WhatsApp, con optimización a “Mensajes” y ventana de aprendizaje de 7 días.
+
+######## Giovanni_Pulido
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo 1 — “Cierre en paz sin ir a la guerra”
+- A quién le habla y qué le duele: Personas en Los Cabos que quieren terminar su matrimonio sin pleitos largos, sin exponer su vida privada y sin perder tiempo en trámites confusos.
+- Promesa concreta con dato real: Divorcios en línea con proceso claro y precio único desde $20,000. (Precio confirmado por el cliente el 10-28 13:33 y usado en anuncios corregidos el 10-29 16:48).
+- Por qué baja el costo por mensaje en su giro: Mensaje específico “divorcios en línea” + precio visible + autoridad del abogado reduce clics curiosos y sube relevancia en Meta.
+- Qué prueba real lo respalda: [FALTA: foto de su cédula profesional / número de colegiado visible en landing; 1 testimonio corto con nombre inicial y ciudad; captura de conversación de WhatsApp anonimizada que muestre cierre].
+
+Ángulo 2 — “Tu tiempo vale: menos trámites”
+- A quién le habla y qué le duele: Personas ocupadas que no pueden estar yendo a oficinas y quieren saber exactamente qué sigue y cuánto cuesta desde el inicio.
+- Promesa concreta con dato real: Divorcios en línea con precio único desde $20,000 y pasos claros desde el primer contacto por WhatsApp. (Precio confirmado por el cliente el 10-28 13:33).
+- Por qué baja el costo por mensaje en su giro: Claridad de oferta y precio visible califican mejor la intención; se filtra quien no puede pagar y se premia la relevancia.
+- Qué prueba real lo respalda: [FALTA: foto suya en despacho en Los Cabos; foto de escritorio con expediente anonimizado; breve frase de cliente real con iniciales y ciudad].
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio Imagen 1 — Ángulo “Cierre en paz sin ir a la guerra”
+- Qué se ve y de dónde sale la foto: Foto suya real de frente con traje, fondo despacho limpio. Se genera con Qwen-Image-Edit a partir de su foto del “cuadro nuevo” usada el 10-01 18:16 (boca cerrada). Sin mano cerca de la tarjeta.
+- Titular en pantalla (máx. 7 palabras): Tu familia merece cierre en paz
+- Línea de apoyo: Divorcios en línea · Precio único desde $20,000
+- Formato y botón: 4:5. Botón de WhatsApp fijo en landing, sin necesidad de scroll (ya corregido 09-22).
+- Texto primario (máx. 3 renglones): Divorcios en línea con Lic. Giovanni Pulido en Los Cabos. Proceso claro y precio único desde $20,000. Escríbeme por WhatsApp y te explico los pasos.
+- Título del botón: WhatsApp
+- Calificación esperada: 8/10. Le falta para 10: prueba visible de autoridad (cédula/colegiado) y un testimonio corto real en la imagen o landing.
+
+Anuncio Imagen 2 — Ángulo “Tu tiempo vale: menos trámites”
+- Qué se ve y de dónde sale la foto: Collage con dos fotos suyas reales: una en despacho y otra en exterior de Los Cabos. Generado con Qwen a partir de sus fotos reales que ya tenemos (video v2 con 3 escenas: despacho, Los Cabos, escritorio, 10-29 20:51).
+- Titular en pantalla (máx. 7 palabras): Tu tiempo merece menos trámites
+- Línea de apoyo: Divorcio en línea · Precio único desde $20,000
+- Formato y botón: 9:16. Botón de WhatsApp en landing visible sin scroll.
+- Texto primario (máx. 3 renglones): Lic. Giovanni Pulido, divorcios en línea desde Los Cabos. Precio único desde $20,000, sin sorpresas. Habla conmigo por WhatsApp hoy.
+- Título del botón: WhatsApp
+- Calificación esperada: 8/10. Le falta para 10: sello de autoridad visible y prueba social real (testimonio breve con iniciales/ciudad).
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Cierre en paz)
+
+- “Hola, soy el Lic. Giovanni Pulido, abogado de divorcios en Los Cabos.” 
+  Qué se ve: Plano medio, de pie frente a escritorio ordenado, logo discreto atrás. Celular a la altura de ojos, vertical.
+- “Si quieres cerrar tu matrimonio en paz, sin pleitos innecesarios, te puedo ayudar con divorcio en línea.” 
+  Qué se ve: Primer plano suave, gestos tranquilos con las manos. Luz natural de ventana al frente.
+- “Trabajo con un proceso claro y precio único desde $20,000.” 
+  Qué se ve: Corte a plano medio mostrando escritorio con libreta y pluma, sin documentos personales. Tarjeta gráfica con texto “Precio único desde $20,000” al final.
+- “Escríbeme por WhatsApp y te explico los pasos, sin compromiso.” 
+  Qué se ve: Vuelve a plano medio, sonrisa breve, señala discreto hacia abajo donde irá el botón de WhatsApp en el anuncio.
+
+Cómo grabarlo: Vertical 9:16, celular fijo en trípode a la altura de ojos, luz natural de frente, fondo limpio despacho. 3 tomas de 6-10 s cada una. Total ~26 s. Áudio limpio sin música alta.
+
+Qué NO debe decir: No decir “resultados en 15 días”, “garantizado”, “el más barato”, “en X días te divorcias”, ni prometer tiempos ni resultados.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE ESTO CALIFIQUE 10
+- Foto nítida de su cédula profesional o número de colegiado para colocar como sello de autoridad en landing y anuncios.
+- 1 testimonio corto real de cliente con iniciales y ciudad, y autorización para usarlo.
+- Foto suya en exterior identificable de Los Cabos (fachada neutra, sin logos de terceros) para el collage 9:16.
+- Confirmación escrita de que el precio a mostrar es “desde $20,000 precio único” y que no hay cargos ocultos a mencionar.
+- Acceso a la cuenta de Facebook Business ya verificada o contraseña temporal para vincular WhatsApp Business y subir anuncios sin rechazos.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+- Ubicación: Radio 25-30 km alrededor de Los Cabos, Baja California Sur, México. Incluir San José del Cabo y Cabo San Lucas.
+- Edad: 28-55.
+- Intereses y comportamientos: Estado civil casado/en unión libre, interés en derecho familiar, divorcio, asesoría legal, expatriados en Los Cabos.
+- Presupuesto diario estimado: $150 a $300 MXN para iniciar y buscar calificación ≥8; si la calificación se mantiene ≥8, escalar a $300-$500 MXN/día.
+
+######## Fernando
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo A — “Ya tienes computadora, ahora sí vende con ella”
+- A quién le habla y qué le duele: Tiendas de barrio, abarrotes, neverías y pequeños comercios en CDMX que ya tienen una computadora sin usar o poco aprovechada y pierden control de inventario/ventas por hacerlo a mano.
+- Promesa concreta con dato real: Aprovecha la computadora que ya tienes para llevar tu punto de venta con el kit que Fernando entrega: impresora térmica + lector + rollos + software (1 año). Precio real del kit completo: $3,500 MXN.
+- Por qué baja el costo por mensaje en su giro: Habla del dolor real que él mismo escuchó en llamada (“control de inventario en nevería, gramos variables”) y del activo que ya poseen (computadora), por lo que el mensaje es inmediato y relevante.
+- Prueba real que lo respalda: [FALTA: foto/video real del kit sobre un mostrador de tiendita con sus productos; captura del software en uso en una computadora real; testimonio corto de cliente con nombre, negocio y ciudad].
+
+Ángulo B — “Cierra ventas por WhatsApp con asesoría en llamada”
+- A quién le habla y qué le duele: Dueños que reciben consultas por WhatsApp pero no cierran porque les faltan respuestas claras sobre inventario, precios y funcionamiento del punto de venta.
+- Promesa concreta con dato real: Te atiendo por WhatsApp 557 6456707 y en llamada te explico cómo se instala y usa el kit completo $3,500 MXN: impresora térmica + lector + rollos + software (1 año).
+- Por qué baja el costo por mensaje en su giro: El anuncio ofrece contacto directo con el asesor y la opción de llamada, que Fernando ya usa para convencer; eso filtra gente que realmente quiere comprar y reduce mensajes fríos.
+- Prueba real que lo respalda: [FALTA: captura de pantalla de conversación de WhatsApp real (sin datos personales) donde se resuelva una duda y se avance a compra; breve video de Fernando atendiendo una llamada de asesoría].
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio 1 — Ángulo A
+- Qué se ve y de dónde sale la foto: Collage con sus fotos reales. Foto 1: computadora encendida en mostrador de tiendita (suya que ya tenemos o la que debe mandar). Foto 2: kit sobre mostrador (impresora térmica real, lector real, rollos, caja de software) generado con Qwen-Image-Edit a partir de sus fotos reales para fondo limpio y encuadre correcto. Formato 4:5.
+- Titular en pantalla (máx. 7 palabras): “Tu computadora ya puede vender”
+- Línea de apoyo: “Kit punto de venta $3,500 MXN”
+- Formato y botón: 4:5, botón de WhatsApp abajo a la derecha.
+- Texto primario (máx. 3 renglones): “¿Ya tienes computadora en tu negocio? Aprovéchala con punto de venta. Kit completo $3,500 MXN. Escríbenos por WhatsApp.”
+- Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 8/10. Le falta para 10: foto real del kit con los accesorios correctos (impresora tamaño real, lector correcto) y prueba social real visible en la imagen.
+
+Anuncio 2 — Ángulo B
+- Qué se ve y de dónde sale la foto: Foto suya real atendiendo, de medio cuerpo, con fondo limpio de negocio; al lado, inserto con el kit sobre mostrador generado con Qwen-Image-Edit a partir de sus fotos reales. Formato 9:16 para Stories/Reels.
+- Titular en pantalla (máx. 7 palabras): “Te explico por llamada y WhatsApp”
+- Línea de apoyo: “Asesoría directa para tu punto de venta”
+- Formato y botón: 9:16, botón de WhatsApp centrado inferior.
+- Texto primario (máx. 3 renglones): “Dudas de inventario o instalación. Hablamos por WhatsApp 557 6456707 y te asesoro por llamada.”
+- Título del botón: “Hablar por WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: prueba real de atención (captura anonimizada de chat o mini video de llamada) y confirmación visible del número de WhatsApp de negocio.
+
+3) GUION PARA QUE ÉL LO GRAVE CON SU CELULAR (20-30 s, ángulo más fuerte A)
+
+Duración total ~25 s. Grabar en vertical 9:16. Celular a la altura de los ojos, a 1 metro. Luz natural de frente, fondo limpio de negocio o mostrador sin desorden.
+
+Frase 1: “¿Ya tienes computadora en tu negocio y no la estás aprovechando?” 
+Qué se ve: Fernando de pie junto a una computadora encendida en un mostrador. Cámara fija.
+
+Frase 2: “Con ella puedes llevar tu punto de venta.” 
+Qué se ve: Primer plano de la pantalla con el software abierto. Mano señalando.
+
+Frase 3: “Te entrego kit completo: impresora térmica, lector, rollos y software por un año.” 
+Qué se ve: plano cenital del kit sobre el mostrador, mostrando cada accesorio real.
+
+Frase 4: “Todo por $3,500 MXN.” 
+Qué se ve: Fernando sostiene la caja/software y muestra el precio en texto en pantalla.
+
+Frase 5: “Escríbeme por WhatsApp 557 6456707 y te explico cómo se instala.” 
+Qué se ve: Fernando mira a cámara, sonríe, muestra el celular con WhatsApp abierto.
+
+Cómo grabarlo: 5 tomas de 4-6 s cada una. Sin música alta. Audio claro sin eco. Evita moverte mientras hablas.
+
+Qué NO debe decir: No prometer instalación inmediata, tiempos de entrega, garantía ni resultados de ventas. No decir “Te instaló un Punto de venta completo”. No usar imágenes de productos que no entrega.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE ESTO CALIFIQUE 10
+
+- Fotos reales nítidas del kit exacto que entrega: impresora térmica real a escala correcta, lector de códigos real correcto, rollos y empaque/software. Mínimo 3 ángulos, luz de día, fondo neutro.
+- Foto o video corto de la computadora con el software abierto en su punto de venta.
+- Confirmación por escrito del número oficial de WhatsApp de negocio a mostrar en anuncios: 557 6456707.
+- Un testimonio corto de cliente real con nombre, negocio y ciudad, y autorización para usarlo. Si no hay, [FALTA: testimonio].
+- Captura anonimizada de una conversación de WhatsApp donde se resuelva una duda técnica o de inventario.
+- Logo en PNG transparente y paleta de colores de marca.
+- Aprobación del texto final del titular y precio antes de publicar.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+
+- Ubicación: CDMX, radio 15-25 km alrededor de sus puntos de entrega habituales. [FALTA: colonia/barrio exacto de operación para afinar radio].
+- Edad: 28-60.
+- Intereses y comportamientos: dueños de tiendita, abarrotes, nevería, minimarket, papelería; intereses en “punto de venta”, “control de inventario”, “software para negocios”, “comercio local CDMX”.
+- Presupuesto diario estimado para mensajes calificados por WhatsApp: $250 a $450 MXN/día inicial, con optimización a Conversaciones por WhatsApp y límite de frecuencia 2-3 impactos por usuario en 7 días.
+
+Listo para producir con sus fotos reales y sin inventar datos.
+
+######## Rubén
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo 1 — Alivio de molestias cervicales y de espalda con Alphabiotismo  
+- A quién le habla y qué le duele: Personas en Zinacantepec y Metepec con estrés acumulado, adormecimiento de extremidades, dolor de cuello y dolor de espalda/ciática que buscan una atención manual local.  
+- Promesa concreta con dato real: Sesión de Alphabiotismo con atracción a nivel cervical para liberar la columna. Costo real: $300 por sesión.  
+- Por qué baja el costo por mensaje en su giro: Oferta clara y local, precio visible y servicio específico; el mensaje califica a quien ya siente el síntoma y está en zona.  
+- Prueba real que lo respalda: [FALTA: foto o video corto del consultorio en Zinacantepec/Metepec; testimonio de cliente con nombre inicial y ciudad; foto del antes/después de postura con sus propias fotos].
+
+Ángulo 2 — Atención quiropráctica de confianza con Rubén  
+- A quién le habla y qué le duele: Personas que buscan quiropráctico de confianza cerca para molestias por estrés y tensión muscular sin procesos largos.  
+- Promesa concreta con dato real: Atención con Rubén · Quiropraxia · Alineación alfabiótica en Zinacantepec y Metepec. Costo real: $300 por sesión.  
+- Por qué baja el costo por mensaje en su giro: Nombre, especialidad y zona claros; precio real visible; reduce curiosidad y sube intención de compra.  
+- Prueba real que lo respalda: [FALTA: foto del consultorio con fachada/ubicación visible; 1 testimonio breve de cliente real; foto suya trabajando con paciente con consentimiento].
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio A — Ángulo 1  
+- Qué se ve y de dónde sale la foto: Collage con 2 fotos suyas reales de TikTok @vibra.alphabiotista recortadas y fondo limpio, sin textos.  
+- Titular en pantalla: “Alivia cuello y espalda hoy”  
+- Línea de apoyo: “Sesión Alphabiotismo $300”  
+- Formato: 4:5. Botón de WhatsApp abajo a la derecha.  
+- Texto primario: “Estrés, cuello rígido, adormecimiento o ciática. Sesión de Alphabiotismo con Rubén en Zinacantepec y Metepec. $300 por sesión. Escríbenos por WhatsApp.”  
+- Título del botón: “Enviar WhatsApp”  
+- Calificación esperada: 8/10. Le falta para 10: foto del consultorio real y 1 testimonio corto con nombre/ciudad.
+
+Anuncio B — Ángulo 2  
+- Qué se ve y de dónde sale la foto: Foto suya real de TikTok @vibra.alphabiotista en primer plano, fondo limpio generado con Qwen a partir de su foto.  
+- Titular en pantalla: “Quiropraxia cerca de ti”  
+- Línea de apoyo: “Alineación alfabiótica $300 sesión”  
+- Formato: 9:16. Botón de WhatsApp centrado inferior.  
+- Texto primario: “Rubén · Quiropraxia en Zinacantepec y Metepec. Atención para estrés, dolor de cuello y espalda. $300 por sesión. Agenda por WhatsApp.”  
+- Título del botón: “Hablar por WhatsApp”  
+- Calificación esperada: 7/10. Le falta para 10: foto del exterior del consultorio con ubicación y prueba social real.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte)
+
+Toma 1 — 0-6 s  
+Frase: “Hola, soy Rubén, quiropráctico en Zinacantepec y Metepec.”  
+Qué se ve: De pie frente a la puerta del consultorio, se ve el letrero o fachada. Celular a la altura del pecho, vertical. Luz de día.  
+
+Toma 2 — 6-14 s  
+Frase: “Trabajo con Alphabiotismo, hago una atracción a nivel cervical para liberar la columna.”  
+Qué se ve: Primer plano de sus manos explicando el movimiento, sin mostrar paciente. Fondo limpio.  
+
+Toma 3 — 14-22 s  
+Frase: “Ayudo con estrés, adormecimiento de extremidades, dolor de cuello, espalda y ciática.”  
+Qué se ve: Plano medio, él señalando cuello y espalda con las manos.  
+
+Toma 4 — 22-28 s  
+Frase: “Mi costo es de $300 por sesión. Escríbeme por WhatsApp para agendar.”  
+Qué se ve: Sonrisa, mirada a cámara, muestra cartel escrito a mano “$300 por sesión”.  
+
+Cómo grabarlo: Vertical 9:16, celular fijo en trípode o apoyado a 1.2 m de altura, luz natural de frente, sin música con derechos, audio claro sin ruido. Cada toma 4-7 s, corte limpio.  
+Qué NO debe decir: No prometer curar, sanar, garantizar resultados ni tiempos de mejora. No usar palabras como “cura”, “elimina”, “garantizado”, “inmediato”.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE ESTO CALIFIQUE 10
+
+- 3 a 5 fotos reales del consultorio: fachada con calle/localidad visible, sala de atención, él atendiendo con consentimiento.  
+- 1 foto suya clara de frente y de perfil, fondo neutro, para crear creatividades.  
+- 1 testimonio corto de cliente real con nombre inicial, ciudad y frase breve sobre su experiencia, con autorización.  
+- Confirmación escrita de que el precio vigente es $300 por sesión y que atiende en Zinacantepec y Metepec.  
+- Enlace a TikTok verificado @vibra.alphabiotista y permiso para usar sus videos/fotos en anuncios.  
+- [FALTA: horario de atención y número de WhatsApp oficial para el botón].
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+
+- Ubicación: Radio 8-12 km alrededor de Zinacantepec y Metepec, Estado de México.  
+- Edad: 28-55.  
+- Intereses: quiropráctica, salud postural, dolor de espalda, estrés, bienestar, fisioterapia, yoga, pilates.  
+- Comportamientos: personas que interactúan con negocios locales de salud y que usan WhatsApp.  
+- Presupuesto diario estimado: $150 a $300 MXN para iniciar, optimizar a mensajes por WhatsApp con costo por mensaje objetivo bajo.
+
+######## Ginecólogo_(prospecto)
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo 1 — Cita disponible hoy con horario de oficina claro
+- A quién le habla y qué le duele: Mujeres en Nogales que necesitan cita ginecológica y no saben cuándo pueden ir; les duele la incertidumbre de horarios y la espera.
+- Promesa concreta con dato real: Agenda tu cita en horario de oficina. Dato real: lunes a viernes 9-13:00 horas y 15-18 horas.
+- Por qué baja el costo por mensaje en su giro: El horario visible califica la demanda y reduce mensajes fuera de horario y fuera de intención.
+- Qué prueba real lo respalda: [FALTA: foto del consultorio con fachada/entrada y letrero visible; captura del enlace de disponibilidad de citas que el Dr. mencionó].
+
+Ángulo 2 — Ultrasonido para embarazadas en Nogales
+- A quién le habla y qué le duele: Embarazadas o parejas en Nogales que buscan ultrasonido; les duele no saber dónde hacerlo cerca y de forma segura.
+- Promesa concreta con dato real: Ultrasonido para embarazadas en Nogales. Dato real: el Dr. tiene anuncio de ultrasonido para embarazadas en Nogales.
+- Por qué baja el costo por mensaje en su giro: Mensaje específico de servicio + localidad = menos curiosidad, más gente que sí compra.
+- Qué prueba real lo respalda: [FALTA: foto real del equipo de ultrasonido en su consultorio; foto del Dr. con bata en consultorio; comprobante de que atiende en Nogales].
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio A — Ángulo 1: Cita en horario de oficina
+- Qué se ve y de dónde sale la foto: Foto del consultorio con fachada/entrada o interior limpio. Opción: la que debe mandar el Dr. / si no hay, generada con Qwen a partir de una foto suya del consultorio recortando textos y fondo limpio.
+- Titular en pantalla: “Citas lunes a viernes”
+- Línea de apoyo: “9-13 y 15-18 h”
+- Formato: 4:5. Botón de WhatsApp abajo a la derecha.
+- Texto primario (máx. 3 renglones): Cita ginecológica en Nogales. Horario de oficina claro. Escríbenos por WhatsApp.
+- Título del botón: Enviar WhatsApp
+- Calificación esperada: 7/10. Le falta para 10: foto real del consultorio con fachada/letrero y captura del enlace de disponibilidad.
+
+Anuncio B — Ángulo 2: Ultrasonido para embarazadas
+- Qué se ve y de dónde sale la foto: Imagen del equipo de ultrasonido en su consultorio o Dr. con bata junto al equipo. Opción: foto que debe mandar el Dr. / generada con Qwen a partir de su foto real del equipo/consultorio sin textos.
+- Titular en pantalla: “Ultrasonido para embarazadas”
+- Línea de apoyo: “En Nogales”
+- Formato: 9:16. Botón de WhatsApp abajo centrado.
+- Texto primario (máx. 3 renglones): Ultrasonido para embarazadas en Nogales. Agenda por WhatsApp. Horario de oficina.
+- Título del botón: Hablar por WhatsApp
+- Calificación esperada: 7/10. Le falta para 10: foto real del equipo en su consultorio y evidencia de ubicación en Nogales.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Ultrasonido para embarazadas)
+
+- “Hola, soy el Dr. Gerson.” → Cámara frontal, plano medio, de pie frente a la recepción del consultorio. Se ve el logo en la pared si existe.
+- “En Nogales realizo ultrasonido para embarazadas.” → Travelling corto hacia el equipo de ultrasonido encendido, se ve la pantalla apagada por privacidad.
+- “Agenda tu cita en horario de oficina.” → Primer plano, muestra un papel o tablet con los horarios: lunes a viernes 9-13:00 y 15-18 horas.
+- “Escríbeme por WhatsApp y te confirmo disponibilidad.” → Plano medio, señala hacia abajo donde está el botón de WhatsApp en pantalla.
+Cómo grabarlo: vertical 9:16, celular a la altura de los ojos, luz natural de ventana al frente, sin ruido. Toma 1: 6 s. Toma 2: 8 s. Toma 3: 6 s. Toma 4: 6 s. Total ~26 s.
+Qué NO debe decir: no prometer resultados de salud, no dar diagnósticos, no mencionar precios que no hayamos confirmado, no decir “el mejor” ni garantías.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL para que esto califique 10
+- Foto real de la fachada del consultorio con letrero visible en Nogales.
+- Foto real del interior limpio y del equipo de ultrasonido en su consultorio.
+- Foto suya con bata en el consultorio, sin pacientes.
+- Captura del enlace de disponibilidad de citas que mencionó.
+- Confirmación escrita del teléfono 631 315 01 04 como contacto oficial de citas y horarios lunes a viernes 9-13:00 y 15-18 horas.
+- Logo en PNG con fondo transparente.
+- Autorización escrita para usar su imagen y la del consultorio en anuncios.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+- Ciudad o radio: Nogales, Sonora, México. Radio 10-15 km alrededor del consultorio.
+- Edad: 22 a 45 años.
+- Intereses: embarazo, maternidad, salud de la mujer, control prenatal, ultrasonido obstétrico.
+- Presupuesto diario en pesos: $250 a $450 MXN para iniciar y optimizar costo por mensaje calificado.
+
+######## Oficinas_amuebladas_León_(prospecto)
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo A — “Sala de juntas por horas en Celaya”
+
+- A quién le habla y qué le duele: Emprendedores, despachos y equipos que necesitan una sala lista ya, sin renta fija ni trámites. Les duele perder tiempo buscando lugar y pagar de más por horas que no usan.
+- Promesa concreta con dato real: Sala de juntas amueblada en Celaya desde $900 por 2 horas. Opciones reales de 2, 4 y 8 horas.
+- Por qué baja el costo por mensaje en su giro: Oferta específica por producto y ciudad + precio desde visible. Eso filtra curiosidad y atrae quien realmente necesita sala por horas.
+- Prueba real que lo respalda: [FALTA: foto/video real de la sala de juntas con luz natural y sin gente; foto del espacio con mesa, sillas y equipo visible; testimonio de cliente con nombre y uso real].
+
+Ángulo B — “Oficina amueblada flexible en Celaya”
+
+- A quién le habla y qué le duele: Profesionales y pequeños equipos que quieren oficina sin contrato largo. Les duele pagar mes completo cuando solo necesitan horas o días.
+- Promesa concreta con dato real: Oficina amueblada en Celaya desde $250 la hora; $1,000 día completo o semana con 5 horas; $2,000 al mes con 10 horas. Promoción inicial $1,500 al mes con 10 horas.
+- Por qué baja el costo por mensaje en su giro: Precio por hora/día/mes claro y rango de uso. El anuncio habla a quien busca flexibilidad real y reduce mensajes de “información general”.
+- Prueba real que lo respalda: [FALTA: foto/video real del interior de la oficina amueblada; foto del área de coworking; foto del espacio de domicilio procesal; comprobante de la promoción inicial aplicada].
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio 1 — Ángulo A Sala de juntas
+
+- Qué se ve y de dónde sale la foto: Imagen generada con Qwen-Image-Edit a partir de la foto real que el cliente mandó de su sala de juntas. Recorte limpio, fondo neutro, encuadre centrado en mesa y sillas. Sin texto incrustado en la foto original.
+- Titular en pantalla (máx. 7 palabras): Sala de juntas desde $900
+- Línea de apoyo: 2, 4 y 8 horas en Celaya
+- Formato y botón: 4:5. Botón de WhatsApp abajo a la derecha, área segura libre.
+- Texto primario (máx. 3 renglones): Sala de juntas amueblada en Celaya. Desde $900 por 2 horas. Agenda por WhatsApp.
+- Título del botón: WhatsApp
+- Calificación esperada: 8/10. Le falta para 10: foto real nítida de la sala con buena luz y sin reflejos; logo del negocio en esquina; mostrar equipo real en la imagen.
+
+Anuncio 2 — Ángulo B Oficina flexible
+
+- Qué se ve y de dónde sale la foto: Collage generado con Qwen a partir de las fotos reales que el cliente mandó: oficina amueblada + área de coworking. Producto recortado sobre fondo color sólido de marca. Sin caras inventadas.
+- Titular en pantalla (máx. 7 palabras): Oficina por hora en Celaya
+- Línea de apoyo: Desde $250 la hora
+- Formato y botón: 9:16. Botón de WhatsApp abajo centrado, margen seguro.
+- Texto primario (máx. 3 renglones): Oficina amueblada sin contrato largo. Día $1,000. Mes promo $1,500 con 10 horas.
+- Título del botón: WhatsApp
+- Calificación esperada: 8/10. Le falta para 10: foto real del interior de la oficina con luz natural; evidencia visual de la promoción inicial; logo visible.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Oficina flexible)
+
+- “Hola, soy [Nombre] de Oficinas Amuebladas en Celaya.” Qué debe estar grabando: De pie frente a la entrada del local, puerta abierta, se ve recepción. Celular a la altura del pecho, vertical. 4 s.
+- “Tenemos oficina amueblada por hora, por día y por mes.” Qué debe estar grabando: Camina hacia interior, muestra escritorio con silla y luz natural. Plano medio. 5 s.
+- “Desde $250 la hora, $1,000 el día completo o semana con 5 horas.” Qué debe estar grabando: Primer plano de escritorio ordenado, luego plano abierto del área de trabajo. 6 s.
+- “Y tenemos promoción inicial de $1,500 al mes con 10 horas.” Qué debe estar grabando: Señala el espacio de coworking al fondo, gesto natural. 5 s.
+- “También sala de juntas desde $900 por 2 horas y domicilio procesal desde $500.” Qué debe estar grabando: Corte rápido a sala de juntas, luego a área señalada como domicilio procesal. 6 s.
+- “Escríbeme por WhatsApp y te mando disponibilidad de hoy.” Qué debe estar grabando: Vuelve a la entrada, mira a cámara y sonríe. 4 s.
+
+Cómo grabarlo: vertical 9:16, luz natural de frente, sin ruido, sin música con derechos. Un solo take continuo o 5 cortes suaves. Cada toma 4-6 s. Evitar texto en pantalla.
+
+Qué NO debe decir: No prometer “el más barato”, no dar garantías de venta o resultados, no mencionar otras ciudades, no inventar precios ni tiempos, no usar frases de urgencia falsas.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE ESTO CALIFIQUE 10
+
+- 3 fotos reales nítidas: sala de juntas, oficina amueblada, área de coworking. Luz natural, sin gente o con personal propio.
+- 1 foto del espacio de domicilio procesal.
+- Foto del exterior del local con fachada y letrero visible.
+- Logo en PNG con fondo transparente.
+- Confirmación por escrito de la promoción inicial $1,500 al mes con 10 horas y condiciones.
+- Nombre completo y cómo quiere que lo presentemos en el video.
+- [FALTA: testimonio corto de cliente real con nombre y uso; foto del equipo disponible en sala].
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+
+- Ubicación: Celaya, Guanajuato. Radio 10-12 km alrededor del domicilio del negocio.
+- Edad: 25-55.
+- Intereses: Emprendedores, pequeñas empresas, abogados, contadores, agentes inmobiliarios, coworking, oficinas virtuales.
+- Comportamientos: Administradores de páginas, pequeñas empresas, usuarios activos de WhatsApp.
+- Presupuesto diario estimado: $150 a $300 MXN para iniciar y aprender; escalar a $300-$500 MXN cuando el costo por mensaje se estabilice.
+
+######## Lisbeth
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo 1 — “Terreno real, listo para construir”
+
+- A quién le habla y qué le duele: A personas que buscan invertir en terreno y les duele comprar “a ciegas” o que el terreno llegue con sorpresas. Quieren ver que ya está listo para construir.
+- Promesa concreta con dato real: Ver el terreno real desde la carretera y desde arriba para decidir por WhatsApp. Dato real que la sostiene: el cliente ya mandó fotos tomadas normal y con dron del terreno y videos del terreno.
+- Por qué baja el costo por mensaje en su giro: Muestra prueba visual real y reduce la duda de “¿cómo es en verdad?”. Eso filtra curiosos y atrae gente que quiere ver y comprar.
+- Qué prueba real lo respalda: Fotos normales y con dron del terreno que el cliente mandó el 10-24. [FALTA: foto del terreno desde abajo que muestre que está listo para construir, sin monte, con acceso visible].
+
+Ángulo 2 — “Ubicación clara en Tomatlán, Jalisco”
+
+- A quién le habla y qué le duele: A compradores que buscan certeza de dónde está y qué servicios hay cerca. Les duele la falta de claridad de lugar y servicios.
+- Promesa concreta con dato real: Conoce la ubicación exacta en Tomatlán, Jalisco y qué servicios están cerca. Dato real que la sostiene: el cliente confirmó “El hospital está a un lado del Tecnológico” y dijo “Si tendrán agua y luz”.
+- Por qué baja el costo por mensaje en su giro: La claridad de lugar y servicios reduce preguntas repetidas y sube la calidad del mensaje.
+- Qué prueba real lo respalda: Declaración del cliente sobre hospital junto al Tecnológico y sobre agua y luz. [FALTA: confirmación escrita de que agua y luz están disponibles en el fraccionamiento y no solo como plus al visitar].
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio 1 — Ángulo “Terreno real, listo para construir”
+
+- Qué se ve y de dónde sale la foto: Collage con foto real del terreno desde la carretera que el cliente mandó el 10-24 y vista aérea con dron que el cliente mandó el 10-24. Generado con Qwen a partir de esas fotos para limpiar fondo y encuadre.
+- Titular en pantalla: “Tu terreno real en Tomatlán”
+- Línea de apoyo: “Desde la carretera y desde arriba”
+- Formato: 4:5. Botón de WhatsApp abajo a la derecha.
+- Texto primario: “Mira cómo es el terreno antes de decidir. Fotos y video reales de Tomatlán, Jalisco. Escríbenos por WhatsApp.”
+- Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 8/10. Le falta para 10: foto que muestre claramente que el terreno está listo para construir y texto en pantalla con “Tomatlán, Jalisco” fijo desde el inicio.
+
+Anuncio 2 — Ángulo “Ubicación clara en Tomatlán, Jalisco”
+
+- Qué se ve y de dónde sale la foto: Imagen generada con Qwen a partir de la foto real del cliente en su terreno el 10-24, recortada sobre fondo limpio, con inserto pequeño de vista aérea del terreno mandada por el cliente.
+- Titular en pantalla: “Tomatlán, Jalisco. Ubicación real”
+- Línea de apoyo: “Cerca de hospital y Tecnológico”
+- Formato: 9:16. Botón de WhatsApp abajo centrado.
+- Texto primario: “Terrenos en Tomatlán, Jalisco. Ubicación clara y servicios cercanos. Información por WhatsApp.”
+- Título del botón: “Hablar por WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: prueba visual de agua y luz en el lote y confirmación escrita de medidas reales de los lotes.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Terreno real)
+
+- “Hola, soy Lisbeth y esto es mi terreno en Tomatlán, Jalisco.” → Grabación: de pie en el borde de la carretera frente al terreno, cámara vertical a la altura del pecho, se ve el terreno detrás. 5 s.
+- “Aquí se ve desde abajo, acceso directo desde la carretera.” → Grabación: caminar unos pasos hacia el terreno señalando el acceso con la mano. 5 s.
+- “Y así se ve desde arriba, lote real, sin inventos.” → Grabación: mostrar en el celular la foto con dron del terreno que ya tiene, luego volver a cámara. 6 s.
+- “Son 34 lotes con medidas variables de 400 a 600 m².” → Grabación: de pie en el terreno, plano medio, fondo limpio del lote. 5 s.
+- “Escríbeme por WhatsApp y te mando fotos y ubicación exacta.” → Grabación: primer plano, sonrisa, gesto invitando a escribir. 5 s.
+
+Cómo grabarlo: vertical 9:16, celular fijo en trípode o apoyado, luz del día frente a él, sin sol de frente. Cada toma 4 a 6 s, sin cortes bruscos. Hablar despacio y claro.
+
+Qué NO debe decir: no prometer precio, no prometer tiempo de entrega, no decir “desde 300 m²”, no decir que el terreno está a 20 min de la playa, no prometer ganancias, no hablar de salud.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL para que esto califique 10
+
+- Foto del terreno desde abajo que muestre que está listo para construir, sin verse como monte, con acceso visible.
+- Confirmación escrita de que agua y luz están disponibles en el fraccionamiento, no solo como plus al visitar.
+- Confirmación escrita de las medidas reales de los lotes y que el plano es de 400 a 600 m².
+- Número de WhatsApp actualizado y activo para la campaña.
+- Autorización para usar su foto y voz clonada en los anuncios.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+
+- Segmentación: Radio 30-40 km alrededor de Tomatlán, Jalisco y zonas emisoras cercanas como Puerto Vallarta y Guadalajara para inversionistas. Edad 30-55. Intereses: bienes raíces, terrenos, inversión, construcción, vida en playa, relocalización.
+- Presupuesto diario estimado: $300 a $600 MXN para iniciar y buscar mensajes calificados por WhatsApp, con optimización a mensajes y revisión de calidad antes de escalar.
+
+######## Víctor
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo A — “Limpieza de obra fina para constructoras y empresas”
+- A quién le habla y qué le duele: Residentes, supervisores y dueños de obra en CDMX y área metropolitana que necesitan entregar obra limpia y no pierden tiempo coordinando personal.
+- Promesa concreta con dato real: Entrega de obra fina lista para entrega con proceso para empresas. [FALTA: tiempo estándar de entrega por m²/tipo de obra y precio real por servicio o rango].
+- Por qué baja el costo por mensaje: Mensaje claro “servicio para empresas, no es oferta de empleo” + credenciales visibles REPSE · ISO · STPS reduce clics de buscadores de trabajo y sube relevancia.
+- Prueba real que lo respalda: [FALTA: foto/video de antes y después de obra real con permiso del cliente, testimonio corto de empresa, número de obras atendidas, constancias REPSE/ISO/STPS visibles].
+
+Ángulo B — “Servicio empresarial con respaldo documental”
+- A quién le habla y qué le duele: Empresas constructoras que requieren proveedor formal, comprobable y sin riesgo administrativo.
+- Promesa concreta con dato real: Servicio de limpieza de obra fina con respaldo empresarial. [FALTA: alcance exacto del servicio, condiciones comerciales reales y tiempo de respuesta].
+- Por qué baja el costo por mensaje: La oferta habla a decisores B2B, filtra empleo y muestra confianza con sellos REPSE · ISO · STPS en creativo y texto.
+- Prueba real que lo respalda: [FALTA: imagen de constancias REPSE/ISO/STPS, foto de equipo uniformado en obra, referencia de empresa].
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio 1 — Ángulo A
+- Qué se ve y de dónde sale la foto: Collage antes/después de obra fina generado con Qwen-Image-Edit a partir de fotos reales del cliente. Fondo limpio, sin textos ajenos.
+- Titular en pantalla: “Obra fina lista para entrega”
+- Línea de apoyo: “Servicio para empresas. No es oferta de empleo.”
+- Formato: 4:5. Botón de WhatsApp abajo a la derecha.
+- Texto primario: “Limpieza de obra fina para constructoras y empresas en CDMX. Servicio formal con respaldo. Escríbenos por WhatsApp.”
+- Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: prueba visual real antes/después con sus fotos, sello REPSE · ISO · STPS visible en imagen y dato concreto de alcance/precio.
+
+Anuncio 2 — Ángulo B
+- Qué se ve y de dónde sale la foto: Imagen de equipo en obra con uniforme limpio, generada con Qwen-Image-Edit a partir de foto real del cliente. Producto recortado sobre fondo neutro. Sellos REPSE · ISO · STPS en esquina.
+- Titular en pantalla: “Proveedor formal para obra”
+- Línea de apoyo: “REPSE · ISO · STPS. No es oferta de empleo.”
+- Formato: 9:16. Botón de WhatsApp centrado inferior.
+- Texto primario: “Servilin atiende empresas de construcción. Limpieza de obra fina con proceso y respaldo. Cotiza por WhatsApp.”
+- Título del botón: “Cotizar por WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: constancias visibles reales, testimonio breve de empresa y claridad de alcance/servicio.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Servicio empresarial con respaldo)
+
+- “Hola, soy Víctor de Servilin.” → Cámara frontal, de medio cuerpo, parado frente a entrada de obra limpia. Luz natural de frente. 3 s.
+- “Hacemos limpieza de obra fina para constructoras y empresas.” → Plano medio, muestra con la mano área limpia de piso/pared. 4 s.
+- “Somos servicio para empresas. No es oferta de empleo.” → Primer plano, mirada a cámara. Texto en pantalla al inicio del video: “NO ES OFERTA DE EMPLEO”. 4 s.
+- “Trabajamos con respaldo: REPSE, ISO y STPS.” → Muestra credenciales físicas o impresas sin tapar datos sensibles. 5 s.
+- “Si eres residente o dueño de obra, escríbenos por WhatsApp y te explico el proceso.” → Vuelve a plano medio, señala botón de WhatsApp en pantalla. 5 s.
+Cómo grabarlo: vertical 9:16, celular a la altura de los ojos, soporte estable, luz natural de frente, sin música con derechos. Cortes cortos, total 20-30 s.
+Qué NO debe decir: no prometer precios, tiempos ni resultados que no tengamos confirmados; no decir “vacantes”, “empleo”, “contrata personal”.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE ESTO CALIFIQUE 10
+- 6 a 8 fotos reales de obras antes y después de limpieza fina, con buena luz y sin personas identificables sin autorización.
+- Video corto de 10-15 s de recorrido en obra limpia grabado por él.
+- Fotos de equipo uniformado trabajando.
+- Constancias REPSE, ISO y STPS en imagen para usar sellos sin datos sensibles.
+- Alcance exacto del servicio y precio real o rango autorizado para publicar. [FALTA: precio/rango y tiempos estándar].
+- Un testimonio corto de empresa cliente con nombre de obra y autorización de uso.
+- Logo en PNG con fondo transparente.
+- Confirmación escrita de que puede usar las imágenes en anuncios de Meta.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+- Ubicación: CDMX y área metropolitana. Radio inicial 15-25 km alrededor de zonas con obra activa. [FALTA: colonia/ciudad exacta donde más le conviene].
+- Edad: 28-55.
+- Detalles: Hombres y mujeres.
+- Intereses y comportamientos: Construcción, ingeniería civil, arquitectura, desarrolladores inmobiliarios, gerentes de obra, propietarios de constructoras, administradores de inmuebles.
+- Presupuesto diario estimado: $250 a $400 MXN para iniciar y optimizar costo por mensaje calificado. Ajustar según costo por mensaje real en los primeros 3-5 días.
+
+¿Le armo ya los dos creativos en 4:5 y 9:16 con sus fotos actuales y los textos listos para subir?
+
+######## Rashel_Carrasco_(prospecto)
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo A — “Efecto pelo a pelo natural con anestesia y diseño a medida”
+
+- A quién le habla y qué le duele: Mujeres en Mexicali que quieren cejas definidas y naturales, pero temen dolor, resultados artificiales o perder tiempo en retoques.
+- Promesa concreta con dato real que la sostiene: “Cejas con efecto pelo a pelo, muy natural, con preparación de la piel con anestesia para minimizar molestias y diseño tomado a medidas de su rostro para ver forma y grosor antes de pigmentación.” Dato real del audio del cliente: “Problème… efecto pelo a pelo. Es una ceja con forma definida y sobre todo muy natural. Preparamos la piel con una anestesia para minimizar las molestias. Después de esto, hacemos un diseño tomando medidas a su rostro y haciendo la forma de acuerdo a lo que más favorece. Así usted puede ver la forma y grosor como le quedaría en las cejas.”
+- Por qué baja el costo por mensaje en su giro: El gancho habla del beneficio buscado “natural + sin dolor” y del proceso visible “diseño a medidas antes de pigmentación”, lo que filtra a interesadas reales en micropigmentación y reduce curiosidad.
+- Qué prueba real lo respalda: [FALTA: foto o video corto del paso “diseño a medidas” en cabina real; antes/después recortado sin rostro de cejas realizadas por Rashel; testimonio de clienta con nombre inicial y ciudad].
+
+Ángulo B — “Cabina real en Mexicali, trabajo de especialista visible”
+
+- A quién le habla y qué le duele: Mujeres que desconfían de estudios anónimos y quieren ver dónde y quién las atenderá antes de escribir por WhatsApp.
+- Promesa concreta con dato real que la sostiene: “Conoce el área de trabajo donde se realizan los tratamientos de micropigmentación en Mexicali.” Dato real del cliente: “Está es mi área de trabajo donde se realiza los tratamientos de micropigmentación” y dirección dada: “Calzada Cuauhtemoc 876 Prohogar, Mexicali”.
+- Por qué baja el costo por mensaje en su giro: Mostrar lugar real y especialista reduce fricción de confianza y sube relevancia; el algoritmo aprende a quién le interesa un servicio local presencial.
+- Qué prueba real lo respalda: [FALTA: video corto de 5-8 s del interior de la cabina con luz limpia, sin texto superpuesto; foto del logo recibido; foto de Rashel en su área de trabajo autorizada para uso publicitario].
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio 1 — Ángulo A
+
+- Qué se ve y de dónde sale la foto: Imagen generada con Qwen-Image-Edit a partir de foto suya de cabina/área de trabajo enviada el 10-21, fondo limpio, encuadre centrado en mesa de trabajo con instrumental de micropigmentación desenfocado. Se inserta recorte de antes/después de cejas de sus fotos existentes, sin rostro.
+- Titular en pantalla: “Cejas pelo a pelo naturales”
+- Línea de apoyo: “Diseño a medidas + anestesia”
+- Formato: 4:5. Botón de WhatsApp abajo centro.
+- Texto primario: “Efecto pelo a pelo muy natural. Preparamos la piel con anestesia para minimizar molestias y diseñamos la forma a tu rostro antes de empezar. Escríbenos por WhatsApp.”
+- Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 8/10. Le falta para 10: antes/después real propio con buena luz y sin rostro, y un testimonio corto de clienta.
+
+Anuncio 2 — Ángulo B
+
+- Qué se ve y de dónde sale la foto: Collage generado con Qwen a partir de sus fotos enviadas el 10-21: foto de Rashel en su área de trabajo + logo recibido + vista limpia de cabina. Sin textos incrustados en la foto original, texto en capa.
+- Titular en pantalla: “Tu cabina en Mexicali”
+- Línea de apoyo: “Micropigmentación con especialista”
+- Formato: 9:16. Botón de WhatsApp abajo centro.
+- Texto primario: “Conoce el área donde se realizan los tratamientos de micropigmentación. Atención personalizada en Mexicali. Escríbenos por WhatsApp para agendar.”
+- Título del botón: “WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: video corto real de la cabina con luz natural y autorización expresa de uso de imagen de Rashel para anuncios.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte A)
+
+- “Hola, soy Rashel de Clou SPA en Mexicali.” → De pie frente a la cabina, plano medio, se ve mesa de trabajo limpia detrás. 4 s.
+- “Hago micropigmentación de cejas con efecto pelo a pelo, muy natural.” → Primer plano de manos mostrando láminas o pigmentos, sin mostrar marcas. 5 s.
+- “Preparamos la piel con anestesia para minimizar las molestias.” → Plano detalle de preparación en mesa, sin mostrar rostro de clienta. 4 s.
+- “Primero hacemos un diseño tomando medidas de tu rostro para que veas la forma y grosor antes de empezar.” → Cámara sobre hombro mostrando diseño en espejo o papel, sin rostro identificable. 6 s.
+- “Si te interesa, escríbeme por WhatsApp y te explico cómo quedaría en ti.” → Mirada a cámara, sonrisa, fondo cabina ordenada. 5 s.
+
+Cómo grabarlo: vertical 9:16, celular a la altura de ojos, luz natural de ventana al frente, sin filtros. Cada toma 4-6 s, sin cortes bruscos. Audio claro sin música alta.
+
+Qué NO debe decir: no prometer resultados permanentes, no dar precios que no hayamos confirmado, no decir “dolor cero”, no usar nombres de marcas de pigmentos, no mostrar rostros de clientas sin autorización.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL para que esto califique 10
+
+- Audio de voz en off de 20-25 s con suassistant to=selfEres estratega de anuncios de Meta... Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento.
+
+We need to output exactly format specified.
+
+1) DOS ÁNGULOS DE VENTA distintos (no la misma idea con otras palabras). Por cada uno:
+- Nombre del ángulo
+- A quién le habla y qué le duele
+- La promesa concreta con el dato real que la sostiene
+- Por qué baja el costo por mensaje en su giro
+- Qué prueba real lo respalda (si no la tenemos: [FALTA: ...])
+
+2) DOS ANUNCIOS DE IMAGEN (uno por ángulo). Por cada uno:
+- Qué se ve y de dónde sale la foto (suya que ya tenemos / la que debe mandar / generada con Qwen a partir de cuál)
+- Titular en pantalla: texto exacto, máximo 7 palabras
+- Línea de apoyo: texto exacto
+- Formato (4:5 o 9:16) y dónde va el botón
+- Texto primario (máximo 3 renglones) y título del botón
+- Calificación esperada (X/10) y qué le falta para 10
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, el ángulo más fuerte):
+- Frase por frase, palabra por palabra, como lo diría él
+- Al lado de cada frase: qué debe estar grabando (dónde parado, qué enseña, qué se ve atrás)
+- Cómo grabarlo: vertical, dónde poner el celular, luz, duración de cada toma
+- Qué NO debe decir
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL para que esto califique 10.
+
+5) SEGMENTACIÓN Y PRESUPUESTO: ciudad o radio, edad, intereses, presupuesto diario en pesos como rango (estimación).
+
+We must use only data from conversation. No invent prices, times, distances, guarantees nor results. If missing data write [FALTA: ...] and say what to ask.
+
+We have data: business Rashel Carrasco, Micropigmentación / Clou SPA, Mexicali. Address Calzada Cuauhtemoc 876 Prohogar, Mexicali. Facebook pages links. Audio transcript: "Problème sega efecto pelo a pelo. Es una seja con forma definida y sobre todo muy natural. Preparamos la piel con una anestesia para minimizar las molestias. Después de esto, hacemos un diseño tomando medidas a su rostro y haciendo la forma de acuerdo a lo que más favorece. Así usted puede ver la forma y grosor como le quedaría en las cejas. Después pasamos a elegir el tono utilizamos solo tono"
+
+Also client says: "Está es mi área de trabajo donde se realiza los tratamientos de micropigmentación". "Si crees que ayude si". "Pero si no ayuda no lo mostramos". "Si porque ese también ha sido un problema Que ya no he podido regresar al precio normal". "Si, porque de un tiempo para acá solo con promoción". "Pero no importa Mientras tenga bastantes citas". "antes estaba en el anonimato No me gustaba ser publica". "Pero de un tiempo para acá, se están manejando en los lugares de micropigmentación el nombre de la especialista". "No me gusta mi voz Jajajaja". "La puedo hacer hablar en un vídeo si me pasa un audio". "En un momento le envío un audio". Photos sent x22, logo sent, photo "Está soy yo". Video of area.
+
+We cannot invent prices. So no price in ads. Must not invent times, distances, guarantees nor results.
+
+We need to ensure we don't invent price. The prompt says no invent prices. So we must not put price. The ad copy must not have price. Good.
+
+We need to ensure we don't invent results. So avoid "resultados permanentes". Use only what is said.
+
+We need to provide segmentation and budget estimate. No data about budget. We can estimate range? Probably we can give estimation. Might be okay. No data about budget. Could say [FALTA: ...] but segmentation can be inferred from location Mexicali. Age? Not given. Could propose typical. Might be okay to estimate. The instruction: Use ONLY these data: no invent prices, times, distances, guarantees nor results. If falta dato escribe [FALTA: ...] y di qué pedirle. So for segmentation, age, interests, budget daily in pesos as range (estimación). Age and interests not in data. So we need [FALTA: ...]. Probably we can propose city radio based on address. City Mexicali is real. Radio? Not given. Could say [FALTA: radio preferido]. Budget daily? Not given. Could give estimation? It says estimación. Might be okay to give range estimate. But maybe it's inventing. Safer to put [FALTA: presupuesto diario aprobado] and give estimation? The instruction says presupuesto diario en pesos como rango (estimación). So we can estimate. Probably okay.
+
+We must not show reasoning. Output final only.
+
+Need to follow format exactly.
+
+Let's produce sections numbered.
+
+Ensure Spanish clear.
+
+For angle names distinct.
+
+Angle A: Efecto pelo a pelo natural con anestesia y diseño a medida.
+
+Angle B: Cabina real en Mexicali, especialista visible.
+
+Promesa concreta with dato real that sustains it. Use quote.
+
+Why lowers cost per message: filter.
+
+Proof real: [FALTA: ...]
+
+For ads: need what se ve y de dónde sale la foto (suya que ya tenemos / la que debe mandar / generada con Qwen a partir de cuál). We have photos sent x22, logo, photo of her, video of area. So we can say from photos sent 10-21.
+
+Titular max 7 words.
+
+Linea de apoyo.
+
+Formato 4:5 or 9:16 and where button goes.
+
+Texto primario max 3 renglones.
+
+Título del botón.
+
+Calificación esperada X/10 and what missing for 10.
+
+Guion: phrase by phrase, word by word, as he would say. Next to each phrase: what must be recording. Then how to record: vertical, where put cell, light, duration each take. What NOT to say.
+
+What he must send to qualify 10.
+
+Segmentation and budget.
+
+Make sure not invent prices. No price.
+
+Don't invent times? Duration of treatment? Not given. So avoid.
+
+Don't invent distance. Address given.
+
+Don't invent guarantees.
+
+Don't invent results.
+
+We must not invent "antes/después recortado (sin rostros)"? The prompt says we can produce before/after with their photos. But we don't have before/after photos confirmed. The client sent photos x22. Could be. Safer to say [FALTA: antes/después]. Might be okay to assume photos exist? The conversation says "Envío las fotos" and "Creo que envié unas duplicadas" and "Envié el logo tambien". No confirmation they are before/after. So we should say [FALTA: ...] for proof.
+
+We can say photo from photos sent 10-21.
+
+We must not invent results like "cejas perfectas". Use only data.
+
+Let's craft.
+
+Ensure we don't use "precio normal" etc. No price.
+
+For segmentation: ciudad Mexicali, radio [FALTA: radio en km que quiere cubrir]. Edad [FALTA: rango de edad que atiende]. Intereses [FALTA: ...]. Presupuesto diario: estimación? Could give range 150-300 MXN? Might be inventing. Maybe we can say [FALTA: presupuesto diario aprobado] and give estimation as per typical? The instruction says presupuesto diario en pesos como rango (estimación). So we can give estimation without data. Probably okay.
+
+Better to give estimation: 200 a 400 MXN diarios. That's estimation.
+
+We must ensure we don't show reasoning.
+
+Output final.
+
+Let's produce clean format.
+
+Use bullet points? Probably keep structure.
+
+Make sure each angle has subpoints.
+
+Let's produce.
+
+Potential pitfalls: The client name is Rashel Carrasco, but also mentions Rachel? In note: *Glimmer · RACHEL (Clou SPA)*. Might be typo. Use Rashel.
+
+Don't invent guarantee.
+
+Don't say "sin dolor". He said "minimizar las molestias". Use that.
+
+Don't say "permanente".
+
+Ok.
+
+Let's produce final answer.assistant to=user1) DOS ÁNGULOS DE VENTA
+
+Ángulo A — Efecto pelo a pelo natural con anestesia y diseño a medida
+- A quién le habla y qué le duele: Mujeres en Mexicali que buscan cejas definidas y naturales y temen dolor o resultados artificiales.
+- La promesa concreta con el dato real que la sostiene: Cejas con efecto pelo a pelo muy natural, con preparación de la piel con anestesia para minimizar las molestias y diseño tomado a medidas del rostro para ver forma y grosor antes de pigmentación. Dato real del audio del cliente: “efecto pelo a pelo. Es una seja con forma definida y sobre todo muy natural. Preparamos la piel con una anestesia para minimizar las molestias. Después de esto, hacemos un diseño tomando medidas a su rostro y haciendo la forma de acuerdo a lo que más favorece. Así usted puede ver la forma y grosor como le quedaría en las cejas.”
+- Por qué baja el costo por mensaje en su giro: El gancho habla del beneficio buscado “natural + minimizar molestias” y del proceso visible “diseño a medidas antes”, lo que filtra a interesadas reales en micropigmentación y reduce curiosidad.
+- Qué prueba real lo respalda: [FALTA: video corto del paso de diseño a medidas en cabina real; antes/después recortado sin rostro de cejas realizadas por Rashel; testimonio de clienta con nombre inicial y ciudad].
+
+Ángulo B — Cabina real en Mexicali, especialista visible
+- A quién le habla y qué le duele: Mujeres que desconfían de estudios anónimos y quieren ver dónde y quién las atenderá antes de escribir por WhatsApp.
+- La promesa concreta con el dato real que la sostiene: Conoce el área de trabajo donde se realizan los tratamientos de micropigmentación en Mexicali. Dato real del cliente: “Está es mi área de trabajo donde se realiza los tratamientos de micropigmentación” y dirección dada: “Calzada Cuauhtemoc 876 Prohogar, Mexicali”.
+- Por qué baja el costo por mensaje en su giro: Mostrar lugar real y especialista reduce fricción de confianza y sube relevancia local, el algoritmo aprende a quién le interesa un servicio presencial en Mexicali.
+- Qué prueba real lo respalda: [FALTA: video corto de 5-8 s del interior de la cabina con luz limpia sin texto superpuesto; autorización expresa de uso de imagen de Rashel para anuncios].
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio 1 — Ángulo A
+- Qué se ve y de dónde sale la foto: Imagen generada con Qwen-Image-Edit a partir de foto de cabina/área de trabajo enviada el 10-21, fondo limpio y encuadre centrado en mesa de trabajo. Se inserta recorte de cejas de sus fotos existentes sin rostro.
+- Titular en pantalla: “Cejas pelo a pelo naturales”
+- Línea de apoyo: “Diseño a medidas +
+
+######## Jesús_Puertas_(prospecto)
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo A — “Antes y después real de su taller”
+- A quién le habla y qué le duele: Dueños de casa y negocios en Mazatlán que tienen puertas/closets viejos, dañados o sin terminar y no encuentran a quien les haga el trabajo bien y rápido.
+- Promesa concreta con dato real que la sostiene: Mostrar con sus propias fotos el cambio real de puerta/closet antes y después, para que el cliente vea el trabajo hecho por Jesús Puertas y pida cotización por WhatsApp.
+- Por qué baja el costo por mensaje en su giro: El “antes y después” es el formato que Meta señala como poderoso para vender y que ya usamos con clientes; con su material real se genera confianza inmediata y más respuestas calificadas.
+- Prueba real que lo respalda: [FALTA: fotos reales de antes y después de puertas/closets hechas por él en Mazatlán]. Sin esas fotos no podemos prometer números.
+
+Ángulo B — “Cotización por WhatsApp sin salir de casa”
+- A quién le habla y qué le duele: Personas en Mazatlán que necesitan puerta o closet y les da flojera buscar proveedores; quieren cotizar rápido por WhatsApp.
+- Promesa concreta con dato real que la sostiene: Recibir cotización por WhatsApp con fotos de su trabajo real. No inventamos precios ni tiempos.
+- Por qué baja el costo por mensaje en su giro: Mensaje claro de “cotiza por WhatsApp” + imagen de su trabajo real = más clics de gente que sí compra en carpintería local.
+- Prueba real que lo respalda: [FALTA: fotos reales de puertas y closets terminados, y 1 video corto del taller]. Con eso armamos el anuncio con su material.
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio 1 — Ángulo A
+- Qué se ve y de dónde sale la foto: Collage antes/después generado con Qwen-Image-Edit a partir de fotos reales que debe mandar él de una misma puerta/closet. Fondo limpio, sin textos ajenos.
+- Titular en pantalla (máx. 7 palabras): “Tu puerta nueva en Mazatlán”
+- Línea de apoyo: “Antes y después real de nuestro taller”
+- Formato y botón: 4:5. Botón de WhatsApp abajo a la derecha.
+- Texto primario (máx. 3 renglones): “Mira el cambio real de puerta/closet. Escríbenos por WhatsApp y cotiza hoy.”
+- Título del botón: “WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: fotos reales de antes y después suyas y logo visible.
+
+Anuncio 2 — Ángulo B
+- Qué se ve y de dónde sale la foto: Imagen generada con Qwen a partir de una foto suya de un closet/puerta terminado, recortado sobre fondo neutro. Sin modelos de banco.
+- Titular en pantalla (máx. 7 palabras): “Cotiza tu closet por WhatsApp”
+- Línea de apoyo: “Trabajo real en Mazatlán”
+- Formato y botón: 9:16. Botón de WhatsApp centrado inferior.
+- Texto primario (máx. 3 renglones): “Envíame foto y medida. Te respondo por WhatsApp con opciones.”
+- Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 6/10. Le falta para 10: foto real suya de alta calidad y confirmación de que el número que aparece es el suyo.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Antes y después real)
+
+- “Hola, soy Jesús Puertas, carpintería en Mazatlán.” → Grabación: de pie frente al taller, puerta/closet terminado a su lado. Celular vertical a la altura del pecho, luz de día.
+- “Aquí tienes un antes y un después de un trabajo real.” → Toma: muestra con las manos foto impresa o en tablet del antes, luego señala el después real detrás de él.
+- “Puertas y closets a medida, con materiales que elijo en el taller.” → Toma: primer plano de la puerta/closet terminado, se ve textura y herrajes. Luz natural.
+- “Escríbeme por WhatsApp con una foto y medida y te cotizo hoy.” → Toma: close al rostro sonriendo, muestra el número de WhatsApp en un letrero limpio sin tapar.
+Duración por toma: 5-7 s. Total ~25 s. Vertical 9:16. Grabar de día, fondo ordenado, sin ruido.
+Qué NO debe decir: no prometer precios, tiempos de entrega, garantías ni resultados de ventas. No decir “el más barato” ni “oferta por tiempo limitado”.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE ESTO CALIFIQUE 10
+- 3 a 5 fotos reales de puertas y 3 a 5 de closets terminados, bien iluminadas, fondo limpio.
+- 2 pares de fotos antes/después del mismo mueble, mismo encuadre.
+- 1 video corto de 10-15 s caminando en el taller mostrando el proceso, sin música con derechos.
+- Logo en PNG con fondo transparente, o nombre “Jesús Puertas” en texto plano para poner en imagen.
+- Confirmar número de WhatsApp que debe aparecer en el anuncio.
+- [FALTA: precio de referencia que esté dispuesto a mostrar, si quiere mostrar alguno]. Si no quiere mostrar precio, usamos “Cotiza por WhatsApp”.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+- Ubicación: Mazatlán, Sinaloa. Radio 15-25 km desde su taller. [FALTA: colonia exacta del taller para afinar radio].
+- Edad: 28-65.
+- Intereses: remodelación hogar, carpintería, closets, bienes raíces, construcción, pinterest hogar.
+- Presupuesto diario estimado: $250 a $500 MXN para iniciar y probar mensajes por WhatsApp. Ajuste según costo por mensaje real en los primeros 3-5 días.
+
+######## Ignacio_Iglesia
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo 1 — “Americana afiliada, lista para revisar”
+- A quién le habla y qué le duele: A comprador de camioneta usada en México que teme papeles y sorpresas mecánicas. Le duele no saber si es legal y si el motor/transmisión están bien.
+- Promesa concreta con dato real: Chevrolet Colorado 2019, motor 6 cil y transmisión al 💯, americana afiliada, cámara de reversa. Precio $225 mil pesos. A tratar.
+- Por qué baja el costo por mensaje en su giro: El mensaje filtra por nacionalidad/legalidad y condición mecánica; atrae quien busca camioneta americana afiliada y reduce curiosos.
+- Qué prueba real lo respalda: [FALTA: foto del título/constancia de afiliación; foto del odómetro con kilometraje visible; video corto del motor encendido y transmisión funcionando; foto de la cámara de reversa en uso].
+
+Ángulo 2 — “Precio a tratar, trato directo con el dueño”
+- A quién le habla y qué le duele: A quien quiere negociar de frente y cerrar rápido sin intermediarios. Le duele perder tiempo con anuncios inflados o sin respuesta.
+- Promesa concreta con dato real: Chevrolet Colorado 2019 americana afiliada con cámara de reversa. Precio $225 mil pesos. A tratar. Vendedor Ignacio Iglesia, contacto por WhatsApp.
+- Por qué baja el costo por mensaje en su giro: “A tratar” + contacto directo invita a compradores con intención real de negociar; el mensaje califica por precio y canal.
+- Qué prueba real lo respalda: [FALTA: foto del número de serie/NIV visible; foto de la factura/afiliación; foto del interior y caja; comprobante de que el vendedor es el dueño].
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio A — Ángulo 1
+- Qué se ve y de dónde sale la foto: Foto frontal de la Colorado 2019 del cliente, fondo limpio. Generada con Qwen-Image-Edit a partir de la foto que el cliente mandó el 10-19.
+- Titular en pantalla: “Colorado 2019 Americana Afiliada”
+- Línea de apoyo: “Motor 6 cil y transmisión al 💯”
+- Formato: 4:5. Botón de WhatsApp abajo a la derecha.
+- Texto primario: Chevrolet Colorado 2019. Americana afiliada. Cámara de reversa. Precio $225 mil pesos. A tratar. Escríbeme por WhatsApp.
+- Título del botón: Enviar WhatsApp
+- Calificación esperada: 7/10. Le falta para 10: foto del odómetro/kilometraje visible, evidencia de afiliación y un plano del motor encendido.
+
+Anuncio B — Ángulo 2
+- Qué se ve y de dónde sale la foto: Collage con 3 fotos reales del cliente: lateral, frente y vista trasera con cámara de reversa. Generado con Qwen-Image-Edit a partir de las fotos que el cliente mandó el 10-19.
+- Titular en pantalla: “Precio $225 mil pesos A tratar”
+- Línea de apoyo: “Dueño directo por WhatsApp”
+- Formato: 9:16. Botón de WhatsApp centrado inferior.
+- Texto primario: Chevrolet Colorado 2019 americana afiliada. Motor 6 cil y transmisión al 💯. Trato directo con el dueño. ¿La revisas esta semana?
+- Título del botón: Hablar por WhatsApp
+- Calificación esperada: 6/10. Le falta para 10: foto del NIV/placas tapadas correctamente, evidencia de afiliación y foto del interior/caja.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Americana afiliada, lista para revisar)
+
+- “Buenas tardes, soy Ignacio.” → De pie junto a la puerta del conductor, abre la puerta, se ve la camioneta completa atrás. 4 s. Celular vertical a la altura del pecho, luz de día.
+- “Esta es mi Chevrolet Colorado 2019, americana afiliada.” → Camina lento al frente, muestra frente y calcomanía de afiliación si existe. 5 s.
+- “Motor 6 cilindros y transmisión al 💯.” → Abre cofre, muestra motor sin tocar piezas. 5 s.
+- “Trae cámara de reversa.” → Se para atrás, enciende reversa para que se vea la cámara en la pantalla. 5 s.
+- “Precio $225 mil pesos, a tratar.” → De pie de lado de la camioneta, señala la camioneta con la mano. 4 s.
+- “Escríbeme por WhatsApp, trato directo con el dueño.” → Primer plano rostro sonriente, muestra número en pantalla o indica botón de WhatsApp. 4 s.
+
+Cómo grabarlo: vertical 9:16, celular fijo en trípode o apoyado a la altura del pecho, luz natural de frente, sin música con derechos. Cada toma 3-5 s, total 20-30 s. Evita reflejos en vidrios.
+
+Qué NO debe decir: no prometer garantía, no decir “cero fallas”, no dar tiempo de entrega, no inventar kilometraje, no decir “precio fijo” ni “oferta por tiempo limitado”.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL para que esto califique 10
+- Foto clara del odómetro con kilometraje visible.
+- Foto del documento de afiliación/nacionalización y NIV visible.
+- Video corto 5-8 s del motor encendido y cambio de velocidades.
+- Foto de la cámara de reversa funcionando en la pantalla.
+- Fotos del interior, caja y llantas, con buena luz y fondo limpio.
+- Confirmar ciudad/ubicación exacta para geolocalizar el anuncio.
+- Confirmar si acepta visitas con cita y horarios disponibles.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+- Ciudad o radio: [FALTA: ciudad donde está la camioneta]. Sugerido radio 25-40 km alrededor de esa ciudad.
+- Edad: 28-60.
+- Intereses: Chevrolet, camionetas pickup, Chevrolet Colorado, autos americanos afiliados, compra-venta de autos usados, remates de autos.
+- Presupuesto diario en pesos: $150 a $300 MXN para iniciar y optimizar por mensajes calificados a WhatsApp.
+
+######## Jesús
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo 1 — “Conoce Rar~Amore”
+- A quién le habla y qué le duele: Personas en México que buscan información clara sobre suplementos en cápsulas y no saben qué es Rar~Amore ni cómo contactar.
+- Promesa concreta con dato real: Mostrar qué es Rar~Amore y cómo escribir por WhatsApp para recibir información. Dato real: WhatsApp 8184668456. [FALTA: nombre comercial exacto del producto, ingredientes y qué contiene el suplemento].
+- Por qué baja el costo por mensaje: Oferta informativa sin promesas de salud, con curiosidad y contacto directo; el público califica mejor y el mensaje llega a quien pide información.
+- Prueba real que lo respalda: [FALTA: foto real del producto en mano del cliente, foto del empaque, testimonio escrito con nombre y ciudad, evidencia de WhatsApp Business activo].
+
+Ángulo 2 — “Mira todo lo que regenera Rar~Amore”
+- A quién le habla y qué le duele: Personas interesadas en ver contenido visual del producto y leer más, con miedo a anuncios bloqueados por imágenes delicadas.
+- Promesa concreta con dato real: Ver y leer sobre Rar~Amore en un enlace seguro y escribir por WhatsApp 8184668456. Dato real: WhatsApp 8184668456 y petición del cliente “QUIERES VER TODO LO QUE REGENERA RAR~ AMORE ?????” y “Y un link para que la gente lo pueda ver y leer”.
+- Por qué baja el costo por mensaje: El titular pide curiosidad y lleva a un link informativo + WhatsApp; filtra a quien realmente quiere ver y preguntar, baja rechazos por promesas médicas.
+- Prueba real que lo respalda: [FALTA: link funcional a página informativa aprobada, fotos reales del producto sin textos médicos, capturas de conversaciones de WhatsApp con interesados].
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio A — Ángulo “Conoce Rar~Amore”
+- Qué se ve y de dónde sale la foto: Foto real del cliente con el producto en mano, fondo limpio de estudio. Si no la tenemos, generar con Qwen-Image-Edit a partir de la foto “Rar~Amore A · Estudio” que ya tenemos.
+- Titular en pantalla: “Conoce Rar~Amore hoy”
+- Línea de apoyo: “Escríbenos por WhatsApp”
+- Formato: 4:5. Botón inferior centro.
+- Texto primario: “Rar~Amore cápsulas. Información directa por WhatsApp. 8184668456. Todo México.”
+- Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: foto real del producto en mano del cliente con buena luz, logo visible, WhatsApp Business verificado y link informativo.
+
+Anuncio B — Ángulo “Mira todo lo que regenera”
+- Qué se ve y de dónde sale la foto: Collage con 2 fotos reales del cliente: “Sin Rar~Amore” y “SIEMPRE CON Rar~Amore” enviadas el 10-14. Producto recortado sobre fondo neutro generado con Qwen a partir de esas fotos.
+- Titular en pantalla: “QUIERES VER TODO LO QUE REGENERA”
+- Línea de apoyo: “Mira y lee aquí”
+- Formato: 9:16. Botón inferior.
+- Texto primario: “Ve el contenido de Rar~Amore y escríbenos. WhatsApp 8184668456. Todo México.”
+- Título del botón: “Ver más”
+- Calificación esperada: 6/10. Le falta para 10: link funcional a contenido informativo aprobado por Meta, evitar palabras médicas, foto del empaque real y prueba social real.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: “Conoce Rar~Amore”)
+
+- “Hola, soy Jesús.” → Cámara frontal, de pecho para arriba, cliente parado junto a mesa limpia, producto a la vista. Luz de ventana al frente. 3 s.
+- “Esto es Rar~Amore, cápsulas.” → Primer plano de las manos mostrando el envase/cápsulas sobre mesa. 4 s.
+- “Si quieres conocer más, escríbeme.” → Mirada a cámara, sonrisa leve, fondo neutro sin distractores. 4 s.
+- “WhatsApp 8184668456.” → Mostrar pantalla con el número escrito en papel o en el celular, sin cubrir rostro. 4 s.
+- “Todo México.” → Plano medio, gesto de bienvenida con la mano. 3 s.
+- “Te contesto yo.” → Cierre mirando a cámara. 3 s.
+
+Cómo grabarlo: vertical 9:16, celular a la altura de los ojos, soporte estable, luz natural de ventana frente a él, sin ruido, 20-30 s en total, cortes simples.
+
+Qué NO debe decir: no prometer curar, aliviar, regenerar, antes/después de salud, no dar precios si no fueron confirmados, no decir “garantizado” ni resultados.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL para que esto califique 10
+- Foto real nítida del producto: empaque frontal y cápsulas en mano del cliente, fondo limpio, luz natural.
+- Confirmación escrita de nombre comercial exacto e ingredientes que puede mostrar públicamente.
+- Link funcional a página informativa simple con datos del producto y botón a WhatsApp 8184668456.
+- Capturas de WhatsApp Business activo con el número 8184668456 y nombre de negocio visible.
+- 1 testimonio escrito corto de un cliente real con nombre, ciudad y fecha, sin promesas médicas.
+- Autorización para usar su rostro y voz en anuncios de Meta en México.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+- Ubicación: Todo México, con foco inicial en radio de 30-50 km alrededor de la ciudad del cliente. [FALTA: ciudad base del cliente].
+- Edad: 35-65.
+- Intereses: salud natural, bienestar, suplementos, nutrición, remedios caseros, productos naturales.
+- Presupuesto diario estimado: $150 a $300 MXN para iniciar y optimizar costo por mensaje en WhatsApp.
+
+######## Manuel
+1) DOS ÁNGULOS DE VENTA
+
+Ángulo A — “Recuerdo que dura”
+- A quién le habla y qué le duele: Mamás de quinceañeras en México que quieren un recuerdo bonito y no un video de fiesta genérico.
+- Promesa concreta con dato real: Mostrar la luz, la sonrisa y el vestido verde de la quinceañera con un toque cinematográfico, tal como se ve en el reel de 35 s que ya armamos con sus escenas.
+- Por qué baja el costo por mensaje en su giro: El video ya tiene escenas reales mejoradas y música de fiesta; el mensaje es emocional y específico, lo que hace que la gente que se identifica escriba por WhatsApp.
+- Prueba real que lo respalda: Reel Manuel v12 (35 s) primera mitad del v3 + escenas IA del v8, sin portugués, sin voz todavía. [FALTA: testimonio de cliente con nombre y fecha / foto del antes y después con su autorización]
+
+Ángulo B — “Agenda tu fecha por WhatsApp”
+- A quién le habla y qué le duele: Papás y mamás que ya decidieron contratar fotografía de XV y solo buscan quién esté disponible y cómo agendar rápido.
+- Promesa concreta con dato real: Ver momentos reales con un toque cinematográfico y poder escribir por WhatsApp para agendar la fecha, tal como dice su audio del 10-26 20:10.
+- Por qué baja el costo por mensaje en su giro: La oferta es clara y directa a WhatsApp, con su logo Hunab Ku y sus dos números visibles en la versión final v18.
+- Prueba real que lo respalda: Versión FINAL v18 con logo sin fondo + WhatsApp +1 (520) 313-6941 y 631 126 5175. [FALTA: disponibilidad de fechas reales / rango de cobertura geográfica]
+
+2) DOS ANUNCIOS DE IMAGEN
+
+Anuncio 1 — Ángulo A
+- Qué se ve y de dónde sale la foto: Collage con sus fotos reales del reel v3 y v8. Si hace falta, generamos con Qwen-Image-Edit a partir de sus fotos reales: encuadre limpio, fondo limpio, sin textos.
+- Titular en pantalla (máx. 7 palabras): “Tu quinceañera, luz y sonrisa”
+- Línea de apoyo: “Recuerdo que dura con toque cinematográfico”
+- Formato y botón: 4:5. Botón de WhatsApp abajo a la derecha.
+- Texto primario (máx. 3 renglones): “Ves la luz, la sonrisa y el vestido verde. Momentos reales con un toque cinematográfico. Escríbenos por WhatsApp.”
+- Título del botón: “Enviar WhatsApp”
+- Calificación esperada: 8/10. Le falta para 10: prueba social real visible en la imagen y claridad total de la oferta sin ambigüedades.
+
+Anuncio 2 — Ángulo B
+- Qué se ve y de dónde sale la foto: Imagen suya recortada sobre color con logo Hunab Ku. Base: foto real suya del reel. Si hace falta, generamos con Qwen a partir de su foto real, fondo limpio.
+- Titular en pantalla (máx. 7 palabras): “Agenda tu fecha por WhatsApp”
+- Línea de apoyo: “Fotografía de XV con estilo cinematográfico”
+- Formato y botón: 9:16. Botón de WhatsApp centrado abajo.
+- Texto primario (máx. 3 renglones): “Quieres algo así para tu hija. Escríbenos por WhatsApp y agenda tu fecha.”
+- Título del botón: “WhatsApp”
+- Calificación esperada: 7/10. Le falta para 10: mostrar prueba real de trabajo terminado y confirmar que el número que se muestra es el correcto para México.
+
+3) GUION PARA QUE ÉL LO GRABE CON SU CELULAR (20-30 s, ángulo más fuerte: Agenda tu fecha por WhatsApp)
+
+- “Una quinceañera, un recuerdo que dura.” → De pie frente a una de sus fotos impresas o pantalla con el reel. Se ve el logo Hunab Ku atrás.
+- “Aquí ves la luz, la sonrisa, el vestido verde.” → Primer plano mostrando en su celular el clip del vestido verde del reel.
+- “Momentos reales con un toque cinematográfico.” → Camina un paso y señala una secuencia del salón/entrada/giro del reel en una tablet o monitor.
+- “Si quieres algo así para tu hija, escríbenos por WhatsApp y agenda tu fecha.” → Mira a cámara, sonríe, muestra la pantalla final del video con el botón de WhatsApp y sus dos números.
+
+Cómo grabarlo: vertical 9:16. Celular a la altura de los ojos, trípode o apoyo. Luz natural de frente, cerca de una ventana. 4 a 6 s por frase. Corte en cada frase. Sin música alta de fondo, voz clara y alegre en fiesta, suave en lo tranquilo.
+
+Qué NO debe decir: no prometer precios, tiempos de entrega, garantías ni resultados. No hablar de “brazileiros”. No usar voz con miedo ni tono de anuncio clásico.
+
+4) QUÉ NOS TIENE QUE MANDAR ÉL PARA QUE ESTO CALIFIQUE 10
+
+- [FALTA: precio real que está dispuesto a mostrar en el anuncio, si lo quiere mostrar]
+- [FALTA: ciudad o ciudades donde atiende y radio máximo de traslado]
+- [FALTA: 3 a 5 fotos reales de XV terminadas con autorización para uso en anuncios]
+- [FALTA: testimonio corto de mamá o papá cliente con nombre y fecha del evento]
+- [FALTA: confirmar cuál número de WhatsApp usar en México y cuál es el de EE. UU.]
+- [FALTA: disponibilidad de fechas próximas para no prometer lo que no hay]
+- Logo Hunab Ku en PNG sin fondo ya recibido, mantenerlo.
+
+5) SEGMENTACIÓN Y PRESUPUESTO
+
+- Ciudad o radio: [FALTA: ciudad base y radio en km]. Sugerencia inicial: ciudad donde trabaja Manuel y radio 15-30 km.
+- Edad: 28 a 55. Detalle: mujeres 30-50 como decisoras, hombres 30-55 como apoyo.
+- Intereses: Quinceañeras, fotografía, eventos familiares, música para fiestas, vestidos de quinceañera, salones de fiestas.
+- Presupuesto diario en pesos: rango estimado $300 a $600 MXN para iniciar y buscar mensajes baratos por WhatsApp, ajustar según costo por mensaje en los primeros 3-5 días.
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-LCoH7M1lngLXJJfbSrWO9L
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_imagenes_20261104/lote_prioridad.json --tokens 3800
+Duración: 32.8 min  (código 0)
+  nexus3 (ap-ZtSTaaSIs8SrcU1TRgCKhf): $0.144
+  tablero-nexus (ap-KQvQ59JktJFE9CObPZp2JN): $0.001
+  auto-aplicar-cambios (ap-ce2KU24i3X3cvw0ikPHQxB): $0.002
+  prioridades-carlos (ap-hOZCm4c1yKe9gnSeJrx2pC): $0.001
+  vigia-clientes (ap-IZbkSyA2otIvj658MMlpSi): $0.001
+  glimmer (ap-LCoH7M1lngLXJJfbSrWO9L): $1.392
+Gasto del trabajo: $1.539
+Saldo restante ≈ $10.51

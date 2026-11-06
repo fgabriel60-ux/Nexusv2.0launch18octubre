@@ -1,0 +1,281 @@
+{
+  "ruta": "/workspaces/Nexusv2.0launch18octubre/entregables/captacion_villas_20261101/voz_compuesta_verificada.wav",
+  "texto": "rentas una villa, mira como convertimos tus fotos en un recorrido premium. Usamos la IA de Facebook para revisar tu anuncio y buscamos que llegue a 8 de 10 antes de lanzarlo. Aplícalo antes que tu competencia, videos y estrategia por 500 pesos al mes, pauta aparte. Escríbeme Villa y tu ciudad por WhatsApp.",
+  "palabras": [
+    {
+      "word": "rentas",
+      "start": 0.0,
+      "end": 0.56
+    },
+    {
+      "word": "una",
+      "start": 0.56,
+      "end": 0.72
+    },
+    {
+      "word": "villa,",
+      "start": 0.72,
+      "end": 0.94
+    },
+    {
+      "word": "mira",
+      "start": 0.94,
+      "end": 1.02
+    },
+    {
+      "word": "como",
+      "start": 1.02,
+      "end": 1.2199999999999998
+    },
+    {
+      "word": "convertimos",
+      "start": 1.2199999999999998,
+      "end": 1.7399999999999998
+    },
+    {
+      "word": "tus",
+      "start": 1.7399999999999998,
+      "end": 1.92
+    },
+    {
+      "word": "fotos",
+      "start": 1.92,
+      "end": 2.2199999999999998
+    },
+    {
+      "word": "en",
+      "start": 2.2199999999999998,
+      "end": 2.46
+    },
+    {
+      "word": "un",
+      "start": 2.46,
+      "end": 2.62
+    },
+    {
+      "word": "recorrido",
+      "start": 2.62,
+      "end": 3.0999999999999996
+    },
+    {
+      "word": "premium.",
+      "start": 3.0999999999999996,
+      "end": 3.7199999999999998
+    },
+    {
+      "word": "Usamos",
+      "start": 4.1,
+      "end": 4.54
+    },
+    {
+      "word": "la",
+      "start": 4.54,
+      "end": 4.7
+    },
+    {
+      "word": "IA",
+      "start": 4.7,
+      "end": 4.88
+    },
+    {
+      "word": "de",
+      "start": 4.88,
+      "end": 5.039999999999999
+    },
+    {
+      "word": "Facebook",
+      "start": 5.039999999999999,
+      "end": 5.379999999999999
+    },
+    {
+      "word": "para",
+      "start": 5.379999999999999,
+      "end": 5.68
+    },
+    {
+      "word": "revisar",
+      "start": 5.68,
+      "end": 6.199999999999999
+    },
+    {
+      "word": "tu",
+      "start": 6.199999999999999,
+      "end": 6.279999999999999
+    },
+    {
+      "word": "anuncio",
+      "start": 6.279999999999999,
+      "end": 6.9
+    },
+    {
+      "word": "y",
+      "start": 6.9,
+      "end": 7.3199999999999985
+    },
+    {
+      "word": "buscamos",
+      "start": 7.3199999999999985,
+      "end": 7.779999999999999
+    },
+    {
+      "word": "que",
+      "start": 7.779999999999999,
+      "end": 7.979999999999999
+    },
+    {
+      "word": "llegue",
+      "start": 7.979999999999999,
+      "end": 8.26
+    },
+    {
+      "word": "a",
+      "start": 8.26,
+      "end": 8.42
+    },
+    {
+      "word": "8",
+      "start": 8.42,
+      "end": 8.62
+    },
+    {
+      "word": "de",
+      "start": 8.62,
+      "end": 8.819999999999999
+    },
+    {
+      "word": "10",
+      "start": 8.819999999999999,
+      "end": 9.04
+    },
+    {
+      "word": "antes",
+      "start": 9.04,
+      "end": 9.36
+    },
+    {
+      "word": "de",
+      "start": 9.36,
+      "end": 9.54
+    },
+    {
+      "word": "lanzarlo.",
+      "start": 9.54,
+      "end": 10.36
+    },
+    {
+      "word": "Aplícalo",
+      "start": 10.6,
+      "end": 11.18
+    },
+    {
+      "word": "antes",
+      "start": 11.18,
+      "end": 11.44
+    },
+    {
+      "word": "que",
+      "start": 11.44,
+      "end": 11.62
+    },
+    {
+      "word": "tu",
+      "start": 11.62,
+      "end": 11.739999999999998
+    },
+    {
+      "word": "competencia,",
+      "start": 11.739999999999998,
+      "end": 12.52
+    },
+    {
+      "word": "videos",
+      "start": 12.76,
+      "end": 12.999999999999998
+    },
+    {
+      "word": "y",
+      "start": 12.999999999999998,
+      "end": 13.28
+    },
+    {
+      "word": "estrategia",
+      "start": 13.28,
+      "end": 13.659999999999998
+    },
+    {
+      "word": "por",
+      "start": 13.659999999999998,
+      "end": 13.899999999999999
+    },
+    {
+      "word": "500",
+      "start": 13.899999999999999,
+      "end": 14.299999999999999
+    },
+    {
+      "word": "pesos",
+      "start": 14.299999999999999,
+      "end": 14.7
+    },
+    {
+      "word": "al",
+      "start": 14.7,
+      "end": 14.94
+    },
+    {
+      "word": "mes,",
+      "start": 14.94,
+      "end": 15.359999999999998
+    },
+    {
+      "word": "pauta",
+      "start": 15.819999999999999,
+      "end": 16.220000000000002
+    },
+    {
+      "word": "aparte.",
+      "start": 16.220000000000002,
+      "end": 17.16
+    },
+    {
+      "word": "Escríbeme",
+      "start": 17.46,
+      "end": 17.94
+    },
+    {
+      "word": "Villa",
+      "start": 17.94,
+      "end": 18.26
+    },
+    {
+      "word": "y",
+      "start": 18.26,
+      "end": 18.560000000000002
+    },
+    {
+      "word": "tu",
+      "start": 18.560000000000002,
+      "end": 18.76
+    },
+    {
+      "word": "ciudad",
+      "start": 18.76,
+      "end": 19.04
+    },
+    {
+      "word": "por",
+      "start": 19.04,
+      "end": 19.34
+    },
+    {
+      "word": "WhatsApp.",
+      "start": 19.34,
+      "end": 19.64
+    }
+  ],
+  "fuentes": [
+    "Gancho: toma 3",
+    "Cuerpo y cierre: toma 2"
+  ],
+  "pendiente": "Revisar transcripción de salida final"
+}

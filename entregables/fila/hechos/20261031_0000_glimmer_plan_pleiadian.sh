@@ -1,0 +1,1 @@
+GASTO_PERFIL=fgabriel60 python3 gasto_modal.py run entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/planes_glimmer_20261030/lote_pleiadian.json --tokens 4500 > entregables/planes_glimmer_20261030/glimmer_pleiadian.log 2>&1

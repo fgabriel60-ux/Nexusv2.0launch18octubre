@@ -1,0 +1,25 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-cqppaoKc9gUkip4iARCo8M
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/_escenas_carlos/escenas_carlos
+│   _modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma KX1_afuera
+toma KX2_dentro
+guardado KX1_afuera.mp4
+guardado KX2_dentro.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-cqppaoKc9gUkip4iARCo8M
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261101/rafael_byd_gancho_v2.json
+Duración: 10.9 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.052
+  escenas-carlos (ap-cqppaoKc9gUkip4iARCo8M): $0.419
+Gasto del trabajo: $0.471
+Saldo restante ≈ $27.57

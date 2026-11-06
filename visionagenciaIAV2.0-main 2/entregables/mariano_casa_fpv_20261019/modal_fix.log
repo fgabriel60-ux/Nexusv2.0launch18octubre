@@ -1,0 +1,14 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-Fsir4lOUo1ot8ZF0FPab8i
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/mariano_casa_fpv_20261019/mariano_casa_modal.py
+└── ✓ Created Function clips.
+clip E5 /datos/siena/out/mariano_casa_fpv/E5_00002_.mp4
+clip E6 /datos/siena/out/mariano_casa_fpv/E6_00002_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/clips/E5.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_casa_fpv_20261019/clips/E6.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-Fsir4lOUo1ot8ZF0FPab8i

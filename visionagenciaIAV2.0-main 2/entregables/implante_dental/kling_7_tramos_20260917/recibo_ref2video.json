@@ -1,0 +1,11 @@
+{
+ "modelo": "kwaivgi/kling-video-o3-pro/reference-to-video",
+ "id": "873f91f96c0c45c19ccd4d61d1b63aec",
+ "url": "https://d2h7xmz5gqybh9.cloudfront.net/predictions/873f91f96c0c45c19ccd4d61d1b63aec/1.mp4",
+ "video_movimiento": "MOVIMIENTO_BLENDER_T5.mp4",
+ "saldo": {
+  "antes": 13.31,
+  "despues": 12.47
+ },
+ "costo_real": 0.84
+}

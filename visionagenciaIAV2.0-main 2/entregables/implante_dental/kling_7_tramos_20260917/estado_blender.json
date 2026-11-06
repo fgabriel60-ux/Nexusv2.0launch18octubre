@@ -1,0 +1,20 @@
+{
+ "tramo_6": {
+  "id": "b3d942d4eec24b2394a9ff0519744e10",
+  "model": "kwaivgi/kling-video-o3-pro/reference-to-video",
+  "refs": [
+   "07_integracion.png",
+   "08_pilar_corona.png",
+   "09_corona_colocada.png"
+  ],
+  "url": "https://d2h7xmz5gqybh9.cloudfront.net/predictions/b3d942d4eec24b2394a9ff0519744e10/1.mp4"
+ },
+ "saldo": {
+  "antes": 12.47,
+  "despues": 11.63,
+  "tramos": [
+   6
+  ],
+  "costo": 0.84
+ }
+}

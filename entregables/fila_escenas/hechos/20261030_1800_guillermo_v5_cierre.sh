@@ -1,0 +1,1 @@
+GASTO_PERFIL=fgabriel60 python3 gasto_modal.py run clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261030/guillermo_v5_cierre.json > entregables/specs_20261030/guillermo_v5_cierre.log 2>&1

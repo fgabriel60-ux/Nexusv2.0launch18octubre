@@ -1,0 +1,778 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-Rdi8nRGFzRUHZdardQXrgm
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octub
+│   re/entregables/glimmer_estrategias_20261029/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<33:42,  1.41s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:03<36:56,  1.55s/it]
+[1ALoading weights:   0%|          | 3/1436 [00:03<21:42,  1.10it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:03<10:21,  2.30it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:03<08:30,  2.80it/s]
+[1ALoading weights:   1%|          | 14/1436 [00:03<02:15, 10.52it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:04<02:32,  9.29it/s]
+[1ALoading weights:   2%|▏         | 26/1436 [00:04<01:17, 18.15it/s]
+[1ALoading weights:   2%|▏         | 30/1436 [00:04<01:37, 14.43it/s]
+[1ALoading weights:   3%|▎         | 37/1436 [00:04<01:08, 20.43it/s]
+[1ALoading weights:   3%|▎         | 41/1436 [00:05<01:26, 16.05it/s]
+[1ALoading weights:   3%|▎         | 49/1436 [00:05<01:17, 17.86it/s]
+[1ALoading weights:   4%|▍         | 54/1436 [00:05<01:09, 20.03it/s]
+[1ALoading weights:   4%|▍         | 62/1436 [00:05<00:51, 26.81it/s]
+[1ALoading weights:   5%|▍         | 66/1436 [00:06<01:10, 19.37it/s]
+[1ALoading weights:   5%|▌         | 75/1436 [00:06<00:49, 27.75it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:06<01:05, 20.72it/s]
+[1ALoading weights:   6%|▌         | 86/1436 [00:06<00:53, 25.22it/s]
+[1ALoading weights:   6%|▋         | 90/1436 [00:07<01:12, 18.64it/s]
+[1ALoading weights:   7%|▋         | 98/1436 [00:07<00:59, 22.33it/s]
+[1ALoading weights:   7%|▋         | 102/1436 [00:07<01:06, 20.15it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:08<00:49, 26.75it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:08<00:59, 22.02it/s]
+[1ALoading weights:   8%|▊         | 122/1436 [00:08<00:49, 26.57it/s]
+[1ALoading weights:   9%|▉         | 126/1436 [00:08<01:09, 18.98it/s]
+[1ALoading weights:   9%|▉         | 133/1436 [00:08<00:50, 25.64it/s]
+[1ALoading weights:  10%|▉         | 137/1436 [00:09<01:10, 18.45it/s]
+[1ALoading weights:  10%|█         | 146/1436 [00:09<00:47, 27.35it/s]
+[1ALoading weights:  11%|█         | 151/1436 [00:09<01:01, 20.84it/s]
+[1ALoading weights:  11%|█         | 158/1436 [00:10<01:05, 19.56it/s]
+[1ALoading weights:  11%|█▏        | 162/1436 [00:10<01:01, 20.74it/s]
+[1ALoading weights:  12%|█▏        | 169/1436 [00:10<00:55, 22.66it/s]
+[1ALoading weights:  12%|█▏        | 173/1436 [00:10<00:50, 25.04it/s]
+[1ALoading weights:  12%|█▏        | 177/1436 [00:11<00:51, 24.52it/s]
+[1ALoading weights:  13%|█▎        | 182/1436 [00:11<00:43, 28.94it/s]
+[1ALoading weights:  13%|█▎        | 186/1436 [00:11<01:05, 19.09it/s]
+[1ALoading weights:  14%|█▎        | 194/1436 [00:11<00:44, 27.80it/s]
+[1ALoading weights:  14%|█▍        | 199/1436 [00:12<01:00, 20.60it/s]
+[1ALoading weights:  14%|█▍        | 206/1436 [00:12<00:45, 27.26it/s]
+[1ALoading weights:  15%|█▍        | 211/1436 [00:12<00:59, 20.74it/s]
+[1ALoading weights:  15%|█▌        | 218/1436 [00:12<00:53, 22.93it/s]
+[1ALoading weights:  15%|█▌        | 222/1436 [00:13<01:00, 20.01it/s]
+[1ALoading weights:  16%|█▌        | 229/1436 [00:13<00:45, 26.66it/s]
+[1ALoading weights:  16%|█▌        | 233/1436 [00:13<00:53, 22.48it/s]
+[1ALoading weights:  17%|█▋        | 237/1436 [00:13<00:53, 22.35it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:13<00:46, 25.72it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:14<00:56, 20.85it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:14<00:45, 26.09it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:14<00:57, 20.50it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:14<00:45, 25.87it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:15<00:56, 20.77it/s]
+[1ALoading weights:  19%|█▉        | 279/1436 [00:15<00:48, 23.63it/s]
+[1ALoading weights:  20%|█▉        | 282/1436 [00:15<00:59, 19.46it/s]
+[1ALoading weights:  20%|██        | 290/1436 [00:15<00:41, 27.51it/s]
+[1ALoading weights:  20%|██        | 294/1436 [00:16<01:00, 18.87it/s]
+[1ALoading weights:  21%|██        | 303/1436 [00:16<00:40, 28.14it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:16<00:53, 21.09it/s]
+[1ALoading weights:  22%|██▏       | 313/1436 [00:17<00:53, 20.95it/s]
+[1ALoading weights:  22%|██▏       | 317/1436 [00:17<00:49, 22.53it/s]
+[1ALoading weights:  22%|██▏       | 321/1436 [00:17<00:49, 22.43it/s]
+[1ALoading weights:  23%|██▎       | 325/1436 [00:17<00:44, 24.95it/s]
+[1ALoading weights:  23%|██▎       | 329/1436 [00:17<00:50, 21.83it/s]
+[1ALoading weights:  23%|██▎       | 332/1436 [00:17<00:52, 21.04it/s]
+[1ALoading weights:  24%|██▎       | 338/1436 [00:17<00:39, 27.77it/s]
+[1ALoading weights:  24%|██▍       | 342/1436 [00:18<01:00, 18.22it/s]
+[1ALoading weights:  24%|██▍       | 350/1436 [00:18<00:48, 22.52it/s]
+[1ALoading weights:  25%|██▍       | 353/1436 [00:18<00:46, 23.16it/s]
+[1ALoading weights:  25%|██▍       | 356/1436 [00:18<00:50, 21.50it/s]
+[1ALoading weights:  25%|██▌       | 363/1436 [00:19<00:35, 29.89it/s]
+[1ALoading weights:  26%|██▌       | 367/1436 [00:19<00:55, 19.30it/s]
+[1ALoading weights:  26%|██▌       | 374/1436 [00:19<00:48, 21.93it/s]
+[1ALoading weights:  26%|██▋       | 377/1436 [00:19<00:46, 22.70it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:19<00:50, 21.12it/s]
+[1ALoading weights:  27%|██▋       | 385/1436 [00:20<00:40, 25.84it/s]
+[1ALoading weights:  27%|██▋       | 389/1436 [00:20<00:48, 21.59it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:20<00:52, 19.88it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:20<00:39, 26.55it/s]
+[1ALoading weights:  28%|██▊       | 403/1436 [00:21<00:52, 19.62it/s]
+[1ALoading weights:  29%|██▊       | 410/1436 [00:21<00:37, 27.51it/s]
+[1ALoading weights:  29%|██▉       | 414/1436 [00:21<00:55, 18.28it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:21<00:39, 25.84it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:22<00:46, 21.69it/s]
+[1ALoading weights:  30%|███       | 434/1436 [00:22<00:38, 25.96it/s]
+[1ALoading weights:  31%|███       | 438/1436 [00:22<00:54, 18.47it/s]
+[1ALoading weights:  31%|███       | 446/1436 [00:22<00:37, 26.49it/s]
+[1ALoading weights:  31%|███▏      | 451/1436 [00:23<00:48, 20.39it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:23<00:37, 25.97it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:23<00:44, 21.76it/s]
+[1ALoading weights:  33%|███▎      | 467/1436 [00:23<00:45, 21.30it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:24<00:46, 20.52it/s]
+[1ALoading weights:  33%|███▎      | 475/1436 [00:24<00:50, 19.08it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:24<00:35, 26.55it/s]
+[1ALoading weights:  34%|███▍      | 487/1436 [00:24<00:47, 20.13it/s]
+[1ALoading weights:  34%|███▍      | 495/1436 [00:25<00:38, 24.53it/s]
+[1ALoading weights:  35%|███▍      | 498/1436 [00:25<00:47, 19.71it/s]
+[1ALoading weights:  35%|███▌      | 504/1436 [00:25<00:37, 25.14it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:25<00:35, 26.37it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:25<00:44, 20.70it/s]
+[1ALoading weights:  36%|███▌      | 520/1436 [00:26<00:35, 25.60it/s]
+[1ALoading weights:  36%|███▋      | 523/1436 [00:26<00:45, 20.17it/s]
+[1ALoading weights:  37%|███▋      | 529/1436 [00:26<00:42, 21.36it/s]
+[1ALoading weights:  37%|███▋      | 533/1436 [00:26<00:39, 22.66it/s]
+[1ALoading weights:  37%|███▋      | 536/1436 [00:26<00:40, 22.24it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:27<00:31, 28.55it/s]
+[1ALoading weights:  38%|███▊      | 547/1436 [00:27<00:42, 20.75it/s]
+[1ALoading weights:  39%|███▊      | 554/1436 [00:27<00:31, 28.11it/s]
+[1ALoading weights:  39%|███▉      | 558/1436 [00:27<00:45, 19.29it/s]
+[1ALoading weights:  39%|███▉      | 565/1436 [00:28<00:33, 25.76it/s]
+[1ALoading weights:  40%|███▉      | 569/1436 [00:28<00:45, 18.96it/s]
+[1ALoading weights:  40%|████      | 576/1436 [00:28<00:33, 25.67it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:28<00:31, 27.00it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:28<00:40, 21.01it/s]
+[1ALoading weights:  41%|████      | 589/1436 [00:29<00:34, 24.68it/s]
+[1ALoading weights:  41%|████▏     | 593/1436 [00:29<00:46, 18.13it/s]
+[1ALoading weights:  42%|████▏     | 602/1436 [00:29<00:29, 27.80it/s]
+[1ALoading weights:  42%|████▏     | 607/1436 [00:30<00:39, 20.79it/s]
+[1ALoading weights:  43%|████▎     | 613/1436 [00:30<00:31, 26.12it/s]
+[1ALoading weights:  43%|████▎     | 618/1436 [00:30<00:42, 19.11it/s]
+[1ALoading weights:  44%|████▍     | 639/1436 [00:30<00:18, 43.20it/s]
+[1ALoading weights:  46%|████▋     | 666/1436 [00:30<00:10, 76.97it/s]
+[1ALoading weights:  48%|████▊     | 690/1436 [00:30<00:07, 104.92it/s]
+[1ALoading weights:  50%|█████     | 718/1436 [00:31<00:05, 131.01it/s]
+[1ALoading weights:  53%|█████▎    | 764/1436 [00:31<00:03, 196.32it/s]
+[1ALoading weights:  56%|█████▌    | 802/1436 [00:31<00:02, 238.11it/s]
+[1ALoading weights:  59%|█████▉    | 844/1436 [00:31<00:02, 275.54it/s]
+[1ALoading weights:  61%|██████    | 878/1436 [00:31<00:01, 285.61it/s]
+[1ALoading weights:  64%|██████▎   | 912/1436 [00:31<00:01, 299.87it/s]
+[1ALoading weights:  67%|██████▋   | 956/1436 [00:31<00:01, 325.39it/s]
+[1ALoading weights:  69%|██████▉   | 994/1436 [00:31<00:01, 337.59it/s]
+[1ALoading weights:  72%|███████▏  | 1029/1436 [00:31<00:01, 337.84it/s]
+[1ALoading weights:  74%|███████▍  | 1066/1436 [00:31<00:01, 341.55it/s]
+[1ALoading weights:  78%|███████▊  | 1116/1436 [00:32<00:00, 375.76it/s]
+[1ALoading weights:  80%|████████  | 1154/1436 [00:32<00:00, 373.80it/s]
+[1ALoading weights:  83%|████████▎ | 1192/1436 [00:32<00:00, 355.03it/s]
+[1ALoading weights:  86%|████████▌ | 1228/1436 [00:32<00:00, 353.19it/s]
+[1ALoading weights:  89%|████████▉ | 1276/1436 [00:32<00:00, 382.64it/s]
+[1ALoading weights:  92%|█████████▏| 1315/1436 [00:32<00:00, 368.97it/s]
+[1ALoading weights:  94%|█████████▍| 1353/1436 [00:32<00:00, 371.87it/s]
+[1ALoading weights:  97%|█████████▋| 1391/1436 [00:32<00:00, 357.33it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:32<00:00, 43.60it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## MARIANO_SPIDERMAN_v2
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+NEGOCIO: Mariano vende casas en desarrollo Catania, Vizcaíno, Rosarito B.C. Gancho estilo Spiderman de la referencia.
+Objetivo: campaña de mensajes a WhatsApp con mensajes baratos y CALIFICADOS (gente que sí compra).
+
+VIDEO DEL ANUNCIO (32.2 s, 9:16). Imágenes adjuntas = 30 cuadros repartidos en TODO el video (2 hojas de 15, con el segundo de cada cuadro arriba a la izquierda). Los subtítulos y tarjetas son capas de texto exactas.
+TRANSCRIPCIÓN DE LO QUE SE DICE (con tiempos):
+[  1.8-  6.8s] ¿Buscas casa en Rosarito?, Vizcaíno Residencial, mira esto
+[  9.1- 12.1s] Sotol, desde un millón cuatrocientos mil
+[ 12.1- 15.1s] Blambilla, desde dos millones cuatrocientos mil
+[ 15.1- 18.1s] Benchamina, desde dos millones ochocientos mil
+[ 18.1- 22.1s] Y Salvia, de cuatro recámaras, desde tres millones cien mil
+[ 22.1- 26.1s] En privada, con cancha de paddle, aceptan Infonavit y crédito hipotecario
+[ 26.1- 30.1s] Escríbeme Vizcaíno por WhatsApp y agendamos tu visita
+
+Responde EXACTAMENTE con este formato:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+CAPACIDADES...
+
+We need to evaluate video based on data. Use only data given. Transcription has names: Blambilla? In video frames: BUGAMBILIA. Transcription says Blambilla. Also Benchamina vs BENJAMINA. Might be mismatch. Need note? Use only data. The transcription is given. The frames show text. Might be discrepancy. Should we note? Possibly clarity issue.
+
+We need rating.
+
+We have 30 frames with timestamps: 0.5s,1.6s,2.7s,3.8s,4.8s,5.9s,7.0s,8.0s,9.1s,10.2s,11.3s,12.3s,13.4s,14.5s,15.5s,16.6s,17.7s,18.8s,19.8s,20.9s,22.0s,23.1s,24.1s,25.2s,26.3s,27.3s,28.4s,29.5s,30.6s,31.6s
+
+Video length 32.2s.
+
+Transcription times: 1.8-6.8s, 9.1-12.1s, 12.1-15.1s, 15.1-18.1s, 18.1-22.1s, 22.1-26.1s, 26.1-30.1s
+
+We need to assess hook, offer, confidence, clarity, visual quality, Meta policies, cheap messages, qualified messages.
+
+Hook style Spiderman: 0.5s jump. Good.
+
+Offer: prices shown: SOTOL desde $1.4 MDP, BUGAMBILIA desde $2.4 MDP, BENJAMINA desde $2.8 MDP, SALVIA desde $3.1 MDP. Transcription says Sotol desde un millón cuatrocientos mil (matches $1.4 MDP). Blambilla desde dos millones cuatrocientos mil (matches BUGAMBILIA). Benchamina desde dos millones ochocientos mil (matches BENJAMINA). Salvia de cuatro recámaras desde tres millones cien mil (matches). Good.
+
+Confidence: shows aerial, interior, night shots, Infonavit acceptance.
+
+Clarity: text overlays: "buscas casa en ROSARITO?" at 3.8s, "vizcaíno RESIDENCIAL" at 4.8s, "mira" at 5.9s. Good.
+
+Quality visual: mix of real? Possibly AI generated? Might be okay.
+
+Meta policies: real estate ads need disclaimer? Might be okay. No prohibited content.
+
+Messages baratos: hook strong, first 3 seconds.
+
+Messages calificados: CTA WhatsApp clear, price filter.
+
+Potential issues: transcription mismatch names Blambilla vs BUGAMBILIA, Benchamina vs BENJAMINA. Could cause confusion. Also 8.0s and 9.1s show "Visualización" watermark, maybe AI generated. Might be okay but policy? Might be okay.
+
+Also 22.0s-23.1s shows balcony with "con CANCHA" text at 23.1s. Good.
+
+Potential frena: name mismatch audio vs on-screen text. Need sync voice clone to match on-screen names: BUGAMBILIA, BENJAMINA. Also 12.1-15.1s audio says Blambilla but on screen at 12.3s shows BUGAMBILIA. So fix voice.
+
+Also maybe CTA appears late? 27.3s onward. Could be okay.
+
+Also 0.5s jump may be AI deformation risk.
+
+We need give rating total X/10.
+
+Let's propose: CALIFICACIÓN TOTAL: 7/10
+
+NOTAS: Gancho 9/10 · Oferta 8/10 · Confianza 7/10 · Claridad 6/10 · Calidad visual 7/10 · Políticas de Meta 8/10 · Mensajes baratos 8/10 · Mensajes calificados 7/10
+
+POR QUÉ FUNCIONA: bullet points with second exact.
+
+Need 3-5 bullets each pointing second exact and why makes people write.
+
+Examples:
+- 0.5s salto estilo Spiderman con casa de fondo → pattern interrupt inmediato, retiene atención en feed.
+- 3.8s-4.8s texto "buscas casa en ROSARITO? vizcaíno RESIDENCIAL" con asesor en plano medio → pregunta directa + ubicación, cualifica interés.
+- 10.2s-11.3s tarjeta SOTOL 2 recámaras DESDE $1.4 MDP con cocina real → precio de entrada visible, ancla de oferta.
+- 24.1s-26.3s noche con "con CANCHA de pádel" y "aceptan INFONAVIT y crédito hipotecario" → beneficios diferenciadores y acceso a financiamiento, reduce fricción.
+- 27.3s-29.5s asesor señalando + botón verde "Escribe «VIZCAÍNO»" → CTA claro a WhatsApp con palabra clave.
+
+QUÉ LO FRENA: 1-3 bullets with second exact and concrete fix viable.
+
+- 12.1-15.1s audio dice "Blambilla" pero en pantalla 12.3s-14.5s aparece "BUGAMBILIA casa de 2 pisos DESDE $2.4 MDP". Incoherencia nombre voz vs texto. Arreglo viable: regrabar frase con voz clonada diciendo "Bugambilia" con mismo timing y mantener tarjetas.
+- 15.1-18.1s audio dice "Benchamina" pero en pantalla 15.5s-17.7s aparece "BENJAMINA casa de 2 pisos DESDE $2.8 MDP". Arreglo viable: regrabar frase con voz clonada diciendo "Benjamina".
+- 8.0s-9.1s visualización aérea con marca "Visualización" y sin transición clara al interior. Arreglo viable: recortar a 8.0s-9.1s con push-in animado MiniMax y añadir subtítulo palabra por palabra para mantener ritmo sin generar texto dentro del video.
+
+VEREDICTO: «Subir con cambios», calificación proyectada con los cambios 8.5/10
+
+Make sure format exact.
+
+The format requires:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas...
+QUÉ LO FRENA: ...
+VEREDICTO: ...
+
+Use bullet points maybe dash or •. Probably use hyphen.
+
+Ensure Spanish.
+
+No invent prices. Use data.
+
+Check transcription: "Blambilla" vs "BUGAMBILIA". Might be typo in transcription. But we must use only data. The transcription is data. The frames show text. Both are data. So inconsistency exists.
+
+Also note development name: Catania, Vizcaíno, Rosarito B.C. In video text says Vizcaíno Residencial, Rosarito B.C. Good.
+
+Meta policies: no guarantees. Accept Infonavit is okay.
+
+Messages baratos: hook good.
+
+Messages calificados: price filter good, but CTA generic.
+
+Potential improvement: add filter question? Can't invent.
+
+We must not invent prices, times, distances nor guarantees. We used times from frames.
+
+Make sure second exact references match frames: 0.5s is first frame. Good.
+
+3.8s frame shows "buscas casa en ROSARITO?" text. 4.8s shows "vizcaíno RESIDENCIAL". Good.
+
+10.2s shows SOTOL 2 recámaras DESDE $1.4 MDP. Good.
+
+24.1s shows "con CANCHA de pádel." 25.2s shows "aceptan INFONAVIT". 26.3s shows "aceptan INFONAVIT y crédito hipotecario." Good.
+
+27.3s shows asesor pointing, text "escribeme vizcaíno". 28.4s shows "escribeme vizcaíno por WHATSAPP". 29.5s shows "VISITA." Good.
+
+We need 3-5 bullets.
+
+Let's produce final answer.
+
+Ensure no reasoning shown.
+
+Output exactly format.
+
+Potential nuance: CALIFICACIÓN TOTAL: 7/10
+
+NOTAS line with dots.
+
+Make sure use middle dot ·.
+
+Let's produce.
+
+Maybe rating total 7/10.
+
+Provide veredicto: «Subir con cambios», calificación proyectada 8.5/10
+
+Ok.
+
+Ensure no extra text.
+
+Let's output.assistant to=userCALIFICACIÓN TOTAL: 7/10
+NOTAS: Gancho 9/10 · Oferta 8/10 · Confianza 7/10 · Claridad 6/10 · Calidad visual 7/10 · Políticas de Meta 8/10 · Mensajes baratos 8/10 · Mensajes calificados 7/10
+POR QUÉ FUNCIONA:
+- 0.5s salto estilo Spiderman frente a la fachada → pattern interrupt inmediato que retiene en feed y asocia al asesor con energía.
+- 3.8s “buscas casa en ROSARITO?” y 4.8s “vizcaíno RESIDENCIAL” con plano medio del asesor → pregunta directa + ubicación que cualifica interés desde el inicio.
+- 10.2s tarjeta SOTOL 2 recámaras DESDE $1.4 MDP con cocina real y 11.3s recámara SOTOL → precio de entrada visible y prueba visual de producto.
+- 24.1s noche “con CANCHA de pádel.” y 25.2s-26.3s “aceptan INFONAVIT y crédito hipotecario.” → beneficios diferenciadores y acceso a financiamiento que reducen fricción para escribir.
+- 27.3s-29.5s asesor señalando con botón verde “Escribe «VIZCAÍNO»” y “VISITA.” → CTA a WhatsApp claro, repetido y con palabra clave.
+QUÉ LO FRENA:
+- 12.1-15.1s audio dice “Blambilla, desde dos millones cuatrocientos mil” pero en pantalla 12.3s-14.5s aparece “BUGAMBILIA casa de 2 pisos DESDE $2.4 MDP”. Incoherencia nombre voz vs texto. Arreglo viable: regrabar con voz clonada la frase diciendo “Bugambilia” manteniendo el mismo timing y las tarjetas existentes.
+- 15.1-18.1s audio dice “Benchamina, desde dos millones ochocientos mil” pero en pantalla 15.5s-17.7s aparece “BENJAMINA casa de 2 pisos DESDE $2.8 MDP”. Arreglo viable: regrabar con voz clonada la frase diciendo “Benjamina” para alinear audio y texto.
+- 8.0s-9.1s visualización aérea con marca “Visualización” sin subtítulo sincronizado. Arreglo viable: animar el clip con MiniMax H3 push-in de ~5 s y añadir subtítulos en capa palabra por palabra para mantener ritmo sin generar texto dentro del video.
+VEREDICTO: «Subir con cambios», calificación proyectada con los cambios 8.5/10
+
+######## VERONICA_v1
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+NEGOCIO: Verónica Arguelles vende departamentos en Torre El Charro, Tampico. Precios en pesos.
+Objetivo: campaña de mensajes a WhatsApp con mensajes baratos y CALIFICADOS (gente que sí compra).
+
+VIDEO DEL ANUNCIO (26.5 s, 9:16). Imágenes adjuntas = 30 cuadros repartidos en TODO el video (2 hojas de 15, con el segundo de cada cuadro arriba a la izquierda). Los subtítulos y tarjetas son capas de texto exactas.
+TRANSCRIPCIÓN DE LO QUE SE DICE (con tiempos):
+[  0.0-  5.0s] Buscas un departamento exclusivo con privacidad y estilo de vida premium.
+[  5.0- 10.0s] En el Charro Tampico tenemos departamentos de 7,6 millones de dólares.
+[ 10.0- 15.0s] Recorremos la sala, amplia y con piso de cerámica.
+[ 15.0- 19.0s] La recámara principal tiene un walk-in closet y baño completo.
+[ 19.0- 20.0s] Escríbeme.
+
+Responde EXACTAMENTE con este formato:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+CAPACIDADES...
+
+We need to evaluate video. Use only data. Transcription says "departamentos de 7,6 millones de dólares." But business says prices in pesos. Video text shows DESDE $7.6 MDP EN EL CHARRO. MDP = millones de pesos. So transcription has error: says dólares. That's a problem. Also transcription says 7.6 millones de dólares, but on screen says $7.6 MDP. Conflict. Must not invent. Use only data. So clarity issue.
+
+Also video frames: timestamps. First frames 0.4s to 4.0s show building with text DEPARTAMENTOS EXCLUSIVOS EN EL CHARRO. 4.9s etc. 5.7s shows DESDE $7.6 MDP EN EL CHARRO. 9.3s shows DESDE $7.6 MDP. 10.2s etc interior sala. 11.1s SALA AMPLIA PISO DE CERAMICA. 13.7s etc. 15.5s RECÁMARA PRINCIPAL WALKING CLOSET. 19.9s ESCRÍBEME POR WHATSAPP. 22.5s etc. 23.4s etc contact card VERÓNICA ARGUELLES ASESORA INMOBILIARIA EL CHARRO · TAMPICO · DESDE $7.6 MDP 789 101 5551.
+
+We need rating.
+
+Gancho: 0.0-5.0s "Buscas un departamento exclusivo..." maybe weak. No hook visual? Building appears. Might be 6/10.
+
+Oferta: price shown $7.6 MDP. But transcription says dólares. Confusion. So maybe 5/10.
+
+Confianza: shows real building, contact info, name. Good. 7/10.
+
+Claridad: price unit mismatch dollars vs pesos. Also "7,6 millones de dólares" is wrong. Also no mention of metros, recámaras, etc. 4/10.
+
+Calidad visual: static images, some zoom? Looks okay but static. 6/10.
+
+Políticas de Meta: no prohibited content. Price claim maybe misleading due to dollars vs pesos. Could be issue. 6/10.
+
+Mensajes baratos: broad hook "exclusivo premium" may attract curiosity but not qualified. 5/10.
+
+Mensajes calificados: price shown, location, contact. Might qualify. 6/10.
+
+Total maybe 5/10?
+
+Need exact format.
+
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+We must use only data. Can't invent prices. The transcription says dólares, but on screen says MDP. That's a conflict. We should note clarity issue. Maybe mark [CONFIRMAR] for price unit? Instruction: Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+We have price $7.6 MDP on screen. Transcription says 7,6 millones de dólares. That's contradictory. Might need to flag. Could mark [CONFIRMAR] for price unit.
+
+Maybe we can say Claridad issue due to mismatch. Can't confirm which is correct. Could mark [CONFIRMAR] for price currency.
+
+The instruction: if missing something, mark [CONFIRMAR]. Not sure.
+
+Better to note in QUÉ LO FRENA: 5.0-10.0s audio dice "7,6 millones de dólares" mientras la capa de texto muestra "$7.6 MDP". Arreglo: cambiar voz clonada a "7.6 millones de pesos" y mantener texto.
+
+That's viable with voice clone.
+
+Also hook maybe generic.
+
+Also no CTA early? CTA at 19.0-20.0s "Escríbeme." and 19.9s onward ESCRÍBEME POR WHATSAPP. Could be later.
+
+Also messages baratos vs calificados: need qualification. Could add filter.
+
+We need 3-5 bullet points for POR QUÉ FUNCIONA with exact second.
+
+Possible:
+- 0.4s-4.0s fachada real con texto "DEPARTAMENTOS EXCLUSIVOS EN EL CHARRO" genera contexto inmediato de producto y ubicación.
+- 5.7s-8.4s aparece "DESDE $7.6 MDP EN EL CHARRO" fija precio y zona, filtra interés real.
+- 11.1s-12.8s "SALA AMPLIA PISO DE CERÁMICA" muestra interior real y beneficio tangible.
+- 15.5s-19.0s "RECÁMARA PRINCIPAL WALKING CLOSET" muestra amenidad diferenciadora.
+- 23.4s-26.1s tarjeta final con nombre Verónica Arguelles, asesor inmobiliaria, El Charro · Tampico · Desde $7.6 MDP y WhatsApp 789 101 5551 da confianza y acción directa.
+
+That's 5.
+
+QUÉ LO FRENA:
+- 5.0-10.0s audio dice "departamentos de 7,6 millones de dólares" y la capa de texto dice "$7.6 MDP". Confusión de moneda que rompe confianza y puede incumplir políticas. Arreglo viable: regrabar con voz clonada la frase exacta a "En el Charro Tampico tenemos departamentos desde 7.6 millones de pesos" manteniendo el texto en capa.
+- 0.0-5.0s gancho genérico "Buscas un departamento exclusivo con privacidad y estilo de vida premium" sin beneficio concreto ni prueba visual. Arreglo viable: cambiar guion de voz clonada a beneficio específico visible en los primeros cuadros, ej. "Torre El Charro en Tampico, departamentos desde $7.6 MDP" y añadir punch-in/zoom con ffmpeg sobre la fachada 0.4s-1.3s.
+- 19.0-20.0s CTA verbal "Escríbeme" llega tarde y sin filtro de calificación. Arreglo viable: añadir tarjeta de texto en capa a partir de 5.7s con "¿Te interesa agendar visita por WhatsApp?" y mantener CTA final.
+
+Maybe 2-3 items.
+
+Verdict: Subir con cambios. Calificación proyectada maybe 8/10.
+
+Need total rating. Let's pick 5/10 total.
+
+Notes: Gancho 5/10 · Oferta 6/10 · Confianza 7/10 · Claridad 3/10 · Calidad visual 6/10 · Políticas de Meta 5/10 · Mensajes baratos 6/10 · Mensajes calificados 5/10
+
+Total 5/10.
+
+Provide final answer exactly format.
+
+Ensure Spanish.
+
+No reasoning.
+
+Output exactly format.
+
+Let's produce.
+
+assistant to=userCALIFICACIÓN TOTAL: 5/10
+NOTAS: Gancho 5/10 · Oferta 6/10 · Confianza 7/10 · Claridad 3/10 · Calidad visual 6/10 · Políticas de Meta 5/10 · Mensajes baratos 6/10 · Mensajes calificados 5/10
+POR QUÉ FUNCIONA:
+- 0.4s-4.0s fachada real con capa “DEPARTAMENTOS EXCLUSIVOS EN EL CHARRO” sitúa producto y ubicación de inmediato.
+- 5.7s-8.4s aparece “DESDE $7.6 MDP EN EL CHARRO” fija precio y zona, filtra interés real.
+- 11.1s-12.8s “SALA AMPLIA PISO DE CERÁMICA” muestra interior real con beneficio tangible.
+- 15.5s-19.0s “RECÁMARA PRINCIPAL WALKING CLOSET” expone amenidad diferenciadora.
+- 23.4s-26.1s tarjeta final con Verónica Arguelles ASESORA INMOBILIARIA EL CHARRO · TAMPICO · DESDE $7.6 MDP y 789 101 5551 da identidad y acción directa a WhatsApp.
+QUÉ LO FRENA:
+- 5.0-10.0s audio dice “departamentos de 7,6 millones de dólares” mientras la capa de texto muestra “$7.6 MDP”. Confusión de moneda que rompe claridad y confianza. Arreglo viable: regrabar con voz clonada la frase exacta a “En el Charro Tampico tenemos departamentos desde 7.6 millones de pesos” manteniendo el texto en capa.
+- 0.0-5.0s gancho genérico “Buscas un departamento exclusivo con privacidad y estilo de vida premium” sin beneficio concreto. Arreglo viable: cambiar guion de voz clonada a beneficio visible y aplicar punch-in/zoom con ffmpeg sobre la fachada 0.4s-1.3s.
+- 19.0-20.0s CTA verbal “Escríbeme” llega tarde sin filtro. Arreglo viable: añadir en capa de texto a partir de 5.7s un disparador de calificación tipo “¿Quieres cotización por WhatsApp?” y mantener el cierre “ESCRÍBEME POR WHATSAPP” 19.9s-22.5s.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10 con voz corregida a pesos, gancho con precio/ubicación en los primeros 3 segundos y CTA de calificación anticipada.
+
+######## RACHEL_v1
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+NEGOCIO: Rachel, Clou SPA, micropigmentación de cejas y labios en Mexicali.
+Objetivo: campaña de mensajes a WhatsApp con mensajes baratos y CALIFICADOS (gente que sí compra).
+
+VIDEO DEL ANUNCIO (24.7 s, 9:16). Imágenes adjuntas = 30 cuadros repartidos en TODO el video (2 hojas de 15, con el segundo de cada cuadro arriba a la izquierda). Los subtítulos y tarjetas son capas de texto exactas.
+TRANSCRIPCIÓN DE LO QUE SE DICE (con tiempos):
+[  0.0-  3.3s] ¿Te asustaste al ver tus cejas recién hechas?
+[  3.3-  4.4s] Es normal.
+[  4.4-  8.6s] La especialista en micropigmentación te ayuda a lograr cejas naturales.
+[  8.6- 12.5s] Con más de 10 años de experiencia, tu confianza está en buenas manos.
+[ 12.5- 15.9s] Mira los resultados reales de nuestras clientes en Mexicali.
+[ 15.9- 18.6s] Cada ceja es un diseño personalizado para ti.
+[ 18.6- 21.0s] Agenda tu cita o
+
+Responde EXACTAMENTE con este formato:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+CAPACIDADES...
+
+We need to evaluate video. Use only data. No invent prices etc.
+
+We have transcription up to 21.0s "Agenda tu cita o". Probably incomplete. Video is 24.7s. Last frames show micropigmentación cejas - Mexicali, address Calzada Cuauhtémoc 876, Prohogar, escribenos por whatsapp 686 160 7879. Also logo Clou SPA.
+
+We need rating.
+
+Let's analyze.
+
+Gancho: 0.0-3.3s "¿Te asustaste al ver tus cejas recién hechas?" That's good hook for people who had microblading. Might be narrow. Could be good.
+
+Oferta: No clear offer, price, promo. Just service. So low.
+
+Confianza: 8.6-12.5s "Con más de 10 años de experiencia..." plus logo, results reales. Good.
+
+Claridad: The video shows cejas recientes es normal, cejas naturales con la especialista, experiencia confía en nosotros, resultados reales en Mexicali, diseño personalizado para ti, agenda tu cita hoy, micropigmentación cejas - Mexicali address whatsapp. Clear.
+
+Calidad visual: Images are collage of stills, some AI? The first row looks like AI generated face. Might be okay but maybe inconsistent. The second row close up of brows. Third row logo overlay. Might be okay.
+
+Políticas de Meta: No before/after? It shows results reales. Might be okay. No claims. No medical claims? Micropigmentación is cosmetic. Should be okay. No prohibited content. Might be okay.
+
+Mensajes baratos: Hook specific to people who already had brows done, so maybe cheap? Could be narrow audience. Might be okay.
+
+Mensajes calificados: The hook targets people who already had procedure and scared, not necessarily buyers. Also no clear CTA with urgency. The CTA is "Agenda tu cita hoy" at 19.4s onward. Might be okay.
+
+We need scores 0-10.
+
+Let's propose:
+
+CALIFICACIÓN TOTAL: 6/10
+
+NOTAS: Gancho 7/10 · Oferta 2/10 · Confianza 8/10 · Claridad 7/10 · Calidad visual 6/10 · Políticas de Meta 8/10 · Mensajes baratos 7/10 · Mensajes calificados 5/10
+
+POR QUÉ FUNCIONA:
+- 0.0-3.3s pregunta "¿Te asustaste al ver tus cejas recién hechas?" genera identificación inmediata en quien ya hizo micropigmentación y abre curiosidad.
+- 4.4-8.6s "La especialista... cejas naturales" + texto en pantalla "CEJAS NATURALES CON LA ESPECIALISTA" 4.5-7.8s reduce miedo y posiciona beneficio.
+- 8.6-12.5s "Con más de 10 años de experiencia..." + logo Clou SPA 8.7-11.9s aporta autoridad y marca reconocible.
+- 12.5-15.9s "Mira los resultados reales... en Mexicali" + texto "RESULTADOS REALES EN MEXICALI" 12.8-15.2s da prueba social local.
+- 21.8-24.3s tarjeta final con "MICROPIGMENTACIÓN CEJAS - MEXICALI", dirección Calzada Cuauhtémoc 876, Prohogar y WhatsApp 686 160 7879 deja datos de contacto claros para escribir.
+
+QUÉ LO FRENA:
+- 18.6-21.0s la voz dice "Agenda tu cita o" y se corta; en pantalla 19.4-21.0s aparece "AGENDA TU CITA HOY" sin completar la frase ni mostrar el beneficio de escribir ahora. Arreglo viable: regrabar con voz clonada la frase completa que ya está en guion y mantener el texto en capa.
+- 0.0-3.7s las primeras 5 tomas muestran "CEJAS RECIENTES ES NORMAL" con rostro generado y zoom brusco; la calidad visual es inconsistente con las tomas reales posteriores. Arreglo viable: reemplazar esas 5 tomas por animación imagen→video con MiniMax H3 con push-in suave sobre fotos reales de cejas recientes del cliente y quitar texto del video, dejando texto en capa.
+- Oferta ausente: no hay motivo claro para escribir hoy. Arreglo viable: con texto en capa añadir en 21.8-24.3s un disparador de acción sin inventar precio, por ejemplo "Escríbenos por WhatsApp para valoración" usando la frase ya existente "ESCRÍBENOS POR WHATSAPP".
+
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+
+Need ensure format exactly.
+
+The format requires:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+Make sure bullet points? Probably dash or •. Use viñetas cortas.
+
+We must not invent prices, times, distances nor guarantees. We used address and phone which are in data. Good.
+
+We used "más de 10 años de experiencia" which is in transcription.
+
+We must not invent. The transcription ends at 21.0s "Agenda tu cita o". We noted cut.
+
+We should not assume video length beyond 24.7s. We used 21.8-24.3s for final card, which is from images.
+
+Check images: 21.0s shows agenda tu cita hoy with woman. 21.8s black screen with micropigmentación... 22.7s same, 23.5s same, 24.3s same. Good.
+
+We must ensure we don't invent guarantee. We didn't.
+
+Potential issue: "Mensajes baratos" score. Might be 7.
+
+We need ensure we use only data. The transcription says [8.6-12.5s] Con más de 10 años de experiencia, tu confianza está en buenas manos. Good.
+
+We used "diseño personalizado para ti" at 15.9-18.6s.
+
+We should cite seconds exactly as per transcription and image timestamps.
+
+The image timestamps: 0.4s,1.2s,2.1s,2.9s,3.7s for first row. So hook covers 0.0-3.3s.
+
+We can reference 0.4-3.7s.
+
+Better to be precise: 0.4s,1.2s etc.
+
+The instruction: each bullet señalando el segundo exacto del video. So we can say 0.0-3.3s.
+
+Ok.
+
+Make sure no reasoning shown.
+
+Output only final answer.
+
+Let's produce final.
+
+Potential improvements: Could also note that video ends at 24.7s but last frame is 24.3s. Fine.
+
+Make sure Spanish clear.
+
+Let's output.
+
+assistant to=userCALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 7/10 · Oferta 2/10 · Confianza 8/10 · Claridad 7/10 · Calidad visual 6/10 · Políticas de Meta 8/10 · Mensajes baratos 7/10 · Mensajes calificados 5/10
+POR QUÉ FUNCIONA:
+- 0.0-3.3s “¿Te asustaste al ver tus cejas recién hechas?” con tarjetas “CEJAS RECIENTES ES NORMAL” 0.4-3.7s genera identificación inmediata y curiosidad en quien ya conoce micropigmentación.
+- 4.4-8.6s “La especialista en micropigmentación te ayuda a lograr cejas naturales” + texto en pantalla “CEJAS NATURALES CON LA ESPECIALISTA” 4.5-7.8s baja el miedo y posiciona el beneficio deseado.
+- 8.6-12.5s “Con más de 10 años de experiencia, tu confianza está en buenas manos” + logo Clou SPA 8.7-11.9s con “EXPERIENCIA CONFÍA EN NOSOTROS” aporta autoridad y marca.
+- 12.5-15.9s “Mira los resultados reales de nuestras clientes en Mexicali” + texto “RESULTADOS REALES EN MEXICALI” 12.8-15.2s da prueba social local.
+- 21.8-24.3s tarjeta final con “MICROPIGMENTACIÓN CEJAS - MEXICALI”, “CALZADA CUAUHTÉMOC 876, PROHOGAR” y “ESCRÍBENOS POR WHATSAPP 686 160 7879” deja datos de contacto claros para escribir.
+QUÉ LO FRENA:
+- 18.6-21.0s la voz dice “Agenda tu cita o” y se corta; en pantalla 19.4-21.0s aparece “AGENDA TU CITA HOY” sin completar la frase. Arreglo viable: regrabar con voz clonada la frase completa y mantener el texto en capa.
+- 0.0-3.7s las 5 primeras tomas con “CEJAS RECIENTES ES NORMAL” muestran rostro generado y cortes bruscos, inconsistentes con las tomas reales posteriores. Arreglo viable: reemplazar por animación imagen→video con MiniMax H3 con push-in suave sobre fotos reales de cejas recientes del cliente y texto en capa aparte.
+- No hay motivo de acción para escribir ahora. Arreglo viable: con texto en capa en 21.8-24.3s reforzar el CTA con la frase ya existente “ESCRÍBENOS POR WHATSAPP” sin inventar precio ni promesa.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+
+######## BDPRO_v2
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+NEGOCIO: BD Pro Monterrey, renta de pistas de baile para eventos (bodas, XV).
+Objetivo: campaña de mensajes a WhatsApp con mensajes baratos y CALIFICADOS (gente que sí compra).
+
+VIDEO DEL ANUNCIO (33.6 s, 9:16). Imágenes adjuntas = 30 cuadros repartidos en TODO el video (2 hojas de 15, con el segundo de cada cuadro arriba a la izquierda). Los subtítulos y tarjetas son capas de texto exactas.
+TRANSCRIPCIÓN DE LO QUE SE DICE (con tiempos):
+[  0.0-  7.4s] Tu salón se ve vacío para tu boda o tus 15. En BD Pro lo transformamos con una pista de baile personalizada,
+[  7.4- 19.1s] vinil con tu monograma, talavera, ajedrez, blanca, negra o iluminada, en Monterrey y su área metropolitana.
+[ 19.1- 27.2s] También audio, escenario y pantallas LED para eventos de empresa. Pide tu cotización por medida.
+[ 27.2- 29.7s] BD Pro, tu pista, tu momento.
+
+Responde EXACTAMENTE con este formato:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+CAPACIDADES...
+
+We need to evaluate video based on frames and transcription.
+
+We have frames timestamps: 0.6s,1.7s,2.8s,3.9s,5.0s,6.2s,7.3s,8.4s,9.5s,10.6s,11.7s,12.9s,14.0s,15.1s,16.2s,17.3s,18.5s,19.6s,20.7s,21.8s,22.9s,24.1s,25.2s,26.3s,27.4s,28.5s,29.6s,30.8s,31.9s,33.0s
+
+Text overlays:
+0.6s TU PISTA VACÍA... ASÍ SE TRANSFORMA
+1.7s same
+2.8s same
+3.9s EL PROCESO PISTA PERSONALIZADA
+5.0s EL PROCESO PISTA PERSONALIZADA
+6.2s EL PROCESO PISTA PERSONALIZADA
+7.3s EL PROCESO PISTA PERSONALIZADA
+8.4s VINIL CON TU MONOGRAMA TALAVERA · AJEDREZ
+9.5s same
+10.6s same
+11.7s BLANCA, NEGRA O ILUMINADA
+12.9s same
+14.0s same
+15.1s same
+16.2s EL RESULTADO TU PISTA, TU MOMENTO
+17.3s same
+18.5s same
+19.6s same
+20.7s AUDIO · ESCENARIO PANTALLAS LED PARA EMPRESAS
+21.8s same
+22.9s same
+24.1s same
+25.2s COTIZA POR MEDIDA MONTERREY Y ÁREA METROPOLITANA
+26.3s same
+27.4s same
+28.5s same
+29.6s same
+30.8s BD PRO MONTERREY EVENTOS PISTAS DE BAILE PERSONALIZADAS COTIZA POR WHATSAPP 81 3261 3554
+31.9s same
+33.0s same
+
+Transcription says 0-7.4s Tu salón se ve vacío... etc. So hook is about empty hall.
+
+We need rating.
+
+We must use only data. No invent prices etc.
+
+We need calificación total X/10 and notes each X/10.
+
+We need POR QUÉ FUNCIONA: 3-5 bullet points with exact second and why makes people write.
+
+QUÉ LO FRENA: 1-3 bullet points with exact second and concrete fix viable with capabilities.
+
+VEREDICTO: Subir ya / Subir con cambios / No subir, and projected rating with changes.
+
+We need to assess.
+
+Potential strengths: clear offer, visual transformation, monogram, multiple styles, CTA WhatsApp with phone number at 30.8s onward. Shows process with smoke etc. Shows wedding couple dancing. Shows corporate audio escenario.
+
+Weaknesses: Hook text "TU PISTA VACÍA... ASÍ SE TRANSFORMA" but voice says "Tu salón se ve vacío..." maybe mismatch? Actually okay.
+
+Potential issues: 14.0s black screen with text BLANCA, NEGRA O ILUMINADA - no visual. That's a problem. Also 14.0s is black. Could be filler. Also 0.6-2.8s shows same talavera floor from different angles, maybe repetitive. Also corporate segment 20.7-24.1s shows green striped floor with men in suits, but voice says audio escenario pantallas LED para empresas. Might be confusing.
+
+Also no clear price, but objective is messages cheap and qualified. No price is okay? Might reduce qualification? Might increase cheap messages.
+
+Policy of Meta: no issues? Phone number displayed, okay. No prohibited content.
+
+Messages baratos? Might be high because broad appeal.
+
+Messages calificados? Might be low because no filter for budget/timing.
+
+Also 14.0s black screen is bad quality.
+
+Also 30.8-33.0s black screen with contact info only, no visual proof. Could be okay but loses attention.
+
+Also the video shows many different styles but no clear differentiation for bodas vs XV vs empresa. Might be okay.
+
+We need to give scores.
+
+Let's propose:
+
+CALIFICACIÓN TOTAL: 6/10
+
+NOTAS: Gancho 7/10 · Oferta 7/10 · Confianza 6/10 · Claridad 5/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 8/10 · Mensajes calificados 4/10
+
+Reasoning: Hook shows empty to transformed but text "TU PISTA VACÍA..." appears at 0.6s, good. Offer shows multiple options. Confianza: shows real events? Might be AI generated? Visuals look AI. Might reduce trust. Clarity: corporate segment mixed, black screen at 14.0s. Quality visual: some AI artifacts? Smoke etc. Policies fine. Messages baratos high because broad. Messages calificados low because no qualifier like fecha, presupuesto, etc.
+
+POR QUÉ FUNCIONA:
+- 2.8s: pareja bailando en pista talavera al atardecer con velas, texto "TU PISTA VACÍA... ASÍ SE TRANSFORMA" + voz sobre salón vacío, conecta dolor con deseo y genera identificación para novios.
+- 8.4s-10.6s: vinil con monograma en exterior con montañas y luego con gente bailando, texto "VINIL CON TU MONOGRAMA TALAVERA · AJEDREZ", muestra personalización tangible que justifica escribir por cotización.
+- 15.1s: pista iluminada con gente saltando y confeti, texto "BLANCA, NEGRA O ILUMINADA", demuestra opción premium y emoción del momento, incentiva mensaje.
+- 30.8s-33.0s: pantalla negra con marca BD PRO MONTERREY EVENTOS, botón COTIZA POR WHATSAPP y número 81 3261 3554, CTA claro y directo para mensajes.
+
+Maybe 5 bullets max.
+
+QUÉ LO FRENA:
+- 14.0s: pantalla negra con texto "BLANCA, NEGRA O ILUMINADA" sin imagen, rompe ritmo y atención. Arreglo viable: reemplazar con animación imagen→video MiniMax H3 de una foto real de pista blanca/negra/iluminada con push-in suave y mantener texto en capa.
+- 20.7s-24.1s: segmento AUDIO · ESCENARIO PANTALLAS LED PARA EMPRESAS muestra pasillo verde con hombres de traje, pero la voz habla de audio/escenario y la transición a bodas es brusca, diluye el mensaje para bodas/XV. Arreglo viable: recortar duración del bloque corporativo a 2 s y mantener foco en pistas de baile, o moverlo al final con texto en capa.
+- 25.2s-29.6s: texto "COTIZA POR MEDIDA MONTERREY Y ÁREA METROPOLITANA" sobre clips de novia entrando a pista roja, sin pregunta calificadora. Arreglo viable: cambiar voz clonada en ese bloque por frase con filtro suave tipo "¿Boda o XV en los próximos 3 meses?" manteniendo el mismo visual, para subir calidad de mensajes.
+
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+
+We must ensure format exactly.
+
+Format required:
+
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+Make sure bullet points maybe with dash or •. Use Spanish.
+
+We must not invent prices, times, distances, guarantees. We used seconds from frames. Good.
+
+We used "próximos 3 meses" - is that inventing? That's a suggestion for voice change. Might be considered inventing a filter. The instruction says no invent prices, times, distances nor guarantees. "próximos 3 meses" is a time. Might be considered inventing. Safer to say "añadir filtro de fecha/evento sin inventar datos". Could propose change voice to ask "¿Para boda o XV?" That's okay. No time.
+
+Better avoid specific time. Use "añadir pregunta calificadora de tipo de evento y fecha" but not specify time. Might be okay.
+
+Also we said "recortar duración". That's viable with ffmpeg.
+
+We must ensure we only use data from below. The suggestion to change voice phrase is allowed? We can change words, order and speed with voice clone. So we can propose new phrase. But we must not invent prices etc. Asking "¿Para boda o XV?" is okay.
+
+Maybe avoid specifying "3 meses". Use "con pregunta calificadora de tipo de evento".
+
+Let's refine.
+
+Also note about black screen at 14.0s. Could be replaced with animation from real photo.
+
+We need to ensure we reference exact second. Use 14.0s.
+
+Also 30.8s CTA.
+
+Potential also 5.0s smoke cloud with no people? Might be okay.
+
+Quality visual: some frames look AI generated, maybe hands deform. Could be issue.
+
+We need to give scores.
+
+Let's produce final answer.
+
+Make sure format exactly as requested. Probably each section on new line.
+
+Use bullet points with hyphen or •.
+
+Let's output.
+
+assistant to=userCALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 7/10 · Oferta 7/10 · Confianza 6/10 · Claridad 5/10 · Calidad visual 6/10 · Políticas de Meta 9/10 · Mensajes baratos 8/10 · Mensajes calificados 4/10
+POR QUÉ FUNCIONA:
+- 2.8s: pareja bailando en pista talavera al atardecer con velas y texto “TU PISTA VACÍA… ASÍ SE TRANSFORMA”. La voz habla de salón vacío para boda/15 y la imagen muestra la transformación, genera identificación inmediata.
+- 8.4s-10.6s: vinil con monograma en exterior con montañas y luego con gente bailando, texto “VINIL CON TU MONOGRAMA TALAVERA · AJEDREZ”. Muestra personalización tangible que justifica escribir por cotización.
+- 15.1s: pista iluminada con gente saltando y confeti, texto “BLANCA, NEGRA O ILUMINADA”. Demuestra opción premium y emoción del momento, incentiva mensaje.
+- 30.8s-33.0s: pantalla con BD PRO MONTERREY EVENTOS, PISTAS DE BAILE PERSONALIZADAS, botón COTIZA POR WHATSAPP y 81 3261 3554. CTA claro y directo para mensajes.
+QUÉ LO FRENA:
+- 14.0s: pantalla negra con texto “BLANCA, NEGRA O ILUMINADA” sin imagen, rompe ritmo y atención. Arreglo viable: reemplazar con animación imagen→video MiniMax H3 a partir de foto real de pista blanca/negra/iluminada con push-in suave y mantener texto en capa.
+- 20.7s-24.1s: bloque AUDIO · ESCENARIO PANTALLAS LED PARA EMPRESAS con pasillo verde y hombres de traje. Diluye el foco de bodas/XV y confunde la oferta. Arreglo viable: recortar el bloque con ffmpeg a 2 s y mantener el foco en pistas de baile, texto en capa aparte.
+- 25.2s-29.6s: texto “COTIZA POR MEDIDA MONTERREY Y ÁREA METROPOLITANA” sobre novia entrando a pista roja sin filtro de calificación. Arreglo viable: cambiar con voz clonada Fish Audio la frase del bloque por una pregunta calificadora de tipo de evento, manteniendo el mismo visual, para subir calidad de mensajes.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-31T07:01:42+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-Rdi8nRGFzRUHZdardQXrgm
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/ronda1b_20261031/lote.json --tokens 4500
+Duración: 19.1 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.089
+  escenas-carlos (ap-LVJF2rnCoqtfiN5PunSBA4): $0.359
+  glimmer (ap-Rdi8nRGFzRUHZdardQXrgm): $0.808
+  escenas-carlos (ap-T9TziRljDZIJbnPg71lPYL): $0.289
+  escenas-carlos (ap-Z71ltzRYd3LmDfyfR4fCpU): $0.438
+  escenas-carlos (ap-jzLwgRnA4gYSPAPvGQvnBv): $0.425
+Gasto del trabajo: $2.408
+Saldo restante ≈ $25.40

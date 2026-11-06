@@ -1,0 +1,31 @@
+{
+ "carpeta": "giovanni_v4_20261030",
+ "salida": "clientes/Giovanni/video_v4_20261030/salida",
+ "semilla": 12,
+ "refs": {
+  "cara": "clientes/lote_30oct/refs/giovanni_cara.png",
+  "arco": "clientes/Giovanni/video_v4_20261030/arco_real_cc0.jpg"
+ },
+ "cuadros": {
+  "GB": [
+   [
+    "cara",
+    "arco"
+   ],
+   "Edita la PRIMERA foto SIN cambiar a la persona: conserva EXACTAMENTE la misma cara, los mismos rasgos, el mismo tono de piel, el mismo bigote canoso SIN barba en la barbilla, el mismo cabello canoso corto, el mismo traje azul marino, la misma corbata, la misma pose con los brazos cruzados y el mismo encuadre de medio cuerpo. Quita todo el texto y el fondo rojo. El fondo ahora es EXACTAMENTE el paisaje REAL de la segunda imagen: el mar real y las rocas de El Arco de Cabo San Lucas, como una fotografía real tomada desde un mirador o terraza frente al mar, sin edificios inventados, sin castillos, sin fantasía. Foto realista vertical 9:16, luz natural de día.",
+   "castillo, cúpulas, edificios inventados, fantasía, otra persona, barba"
+  ]
+ },
+ "voces": {
+  "G2a": "clientes/lote_30oct/voz/G2a.wav"
+ },
+ "tomas": [
+  [
+   "G2a",
+   "GB",
+   "Vertical realistic talking-head shot: the man speaks directly to the camera in Spanish with natural lip movement exactly matching the speech, small natural head movements, arms stay crossed, very slow gentle push-in. Keep exactly the same face, mustache without beard, suit and the real sea and rocks background. No text.",
+   8.92,
+   "G2a"
+  ]
+ ]
+}

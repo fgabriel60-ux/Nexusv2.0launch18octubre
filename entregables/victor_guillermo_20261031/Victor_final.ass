@@ -1,0 +1,30 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montserrat,48,&H00FFFFFF,&H0000D7FF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,4,1,2,48,48,280,1
+Style: Title,Montserrat,38,&H00FFFFFF,&H0000D7FF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,3,2,0,8,35,35,85,1
+Style: CTA,Montserrat,35,&H0066D325,&H0000D7FF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,3,2,0,2,35,35,130,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:22.15,Title,,0,0,0,,SERVILIN · LIMPIEZA DE OBRA FINA\NSOLO EMPRESAS · NO ES VACANTE
+Dialogue: 1,0:00:00.00,0:00:22.15,CTA,,0,0,0,,WHATSAPP 56 3634 1441\NTipo de inmueble + m²
+Dialogue: 3,0:00:00.00,0:00:02.00,Default,,0,0,0,,{\an5\pos(360,500)\fs46}¿ERES CONSTRUCTORA\NO DESARROLLADOR?
+Dialogue: 2,0:00:00.00,0:00:02.14,Default,,0,0,0,,{\kf54}¿Eres {\kf70}constructora {\kf22}o {\kf68}desarrollador?
+Dialogue: 2,0:00:02.26,0:00:03.98,Default,,0,0,0,,{\kf8}En {\kf52}Servilín {\kf46}hacemos {\kf66}limpieza
+Dialogue: 2,0:00:03.98,0:00:05.10,Default,,0,0,0,,{\kf18}de {\kf20}obra {\kf48}fina {\kf26}para
+Dialogue: 2,0:00:05.10,0:00:05.66,Default,,0,0,0,,{\kf56}empresas.
+Dialogue: 2,0:00:06.12,0:00:07.82,Default,,0,0,0,,{\kf56}Retiramos {\kf48}polvo, {\kf30}cemento {\kf14}y
+Dialogue: 2,0:00:07.82,0:00:08.98,Default,,0,0,0,,{\kf46}restos {\kf18}de {\kf52}pintura.
+Dialogue: 2,0:00:09.22,0:00:10.94,Default,,0,0,0,,{\kf58}Limpiamos {\kf54}ventanas {\kf22}y {\kf38}pisos
+Dialogue: 2,0:00:10.94,0:00:13.18,Default,,0,0,0,,{\kf24}con {\kf46}personal {\kf78}uniformado, {\kf50}capacitado
+Dialogue: 2,0:00:13.18,0:00:14.08,Default,,0,0,0,,{\kf22}y {\kf68}supervisado.
+Dialogue: 2,0:00:14.26,0:00:15.32,Default,,0,0,0,,{\kf10}Tu {\kf30}obra {\kf36}lista {\kf30}para
+Dialogue: 2,0:00:15.32,0:00:15.86,Default,,0,0,0,,{\kf54}entregar.
+Dialogue: 2,0:00:15.86,0:00:17.52,Default,,0,0,0,,{\kf60}Solicita {\kf32}una {\kf44}propuesta {\kf30}por
+Dialogue: 2,0:00:17.52,0:00:18.06,Default,,0,0,0,,{\kf54}WhatsApp.
+Dialogue: 2,0:00:18.68,0:00:19.64,Default,,0,0,0,,{\kf22}Dinos {\kf20}qué {\kf32}tipo {\kf22}de
+Dialogue: 2,0:00:19.64,0:00:21.06,Default,,0,0,0,,{\kf42}inmueble {\kf30}y {\kf36}cuántos {\kf34}metros
+Dialogue: 2,0:00:21.06,0:00:21.62,Default,,0,0,0,,{\kf56}cuadrados.

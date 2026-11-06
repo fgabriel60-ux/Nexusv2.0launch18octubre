@@ -1,0 +1,11 @@
+{
+  "clip_03_04": {
+    "id": "20b4c7ab8dd24e4f8d12b2308dbe5f51",
+    "model": "kwaivgi/kling-v2.6-pro/image-to-video",
+    "url": "https://d2h7xmz5gqybh9.cloudfront.net/predictions/20b4c7ab8dd24e4f8d12b2308dbe5f51/1.mp4"
+  },
+  "saldo": {
+    "antes": 4.47,
+    "despues": 4.12
+  }
+}

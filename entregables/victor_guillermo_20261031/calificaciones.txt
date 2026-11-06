@@ -1,0 +1,30 @@
+Victor_corregido_20261031
+CALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 7/10 · Oferta 6/10 · Confianza 7/10 · Claridad 8/10 · Calidad visual 5/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 8/10
+POR QUÉ FUNCIONA:
+- 0.4s-3.3s: “¿Eres constructora o desarrollador? En Servilin hacemos limpieza de obra fina para empresas” identifica al decisor B2B y deja claro SOLO EMPRESAS · NO ES VACANTE, filtra audiencia.
+- 5.5s-7.0s: cambio a escoba larga con texto “Retiramos polvo,” visualiza el servicio de obra fina en acción y mantiene ritmo.
+- 11.4s-14.4s: limpieza de ventanas con agua y texto “con personal uniformado, capacitado y supervisado” refuerza operación profesional.
+- 16.6s-18.4s: plano en cocina con supervisor y equipo, texto “Tu obra lista para entregar” conecta beneficio final de entrega.
+- 18.4s-22.1s: CTA “Dinos qué tipo de inmueble y cuántos metros cuadrados” pide datos de compra y califica el mensaje a WhatsApp.
+QUÉ LO FRENA:
+- 0.0-5.8s: la transcripción indica voz “Cervilín” mientras la tarjeta dice SERVILIN. Arreglo viable: regrabar la frase con voz clonada del asesor con guion exacto “En Servilin” y subtítulo palabra por palabra en capa.
+- 0.4s-4.8s: primeros cuadros son generados, repiten pose y muestran manos/proporciones artificiales. Arreglo viable: reemplazar por tomas reales del cliente de limpieza de obra fina y animar con MiniMax H3 push-in suave, texto en capa aparte.
+- 5.5s-10.7s: el texto “empresas. Retiramos polvo,” queda partido entre cortes y el fondo salta a piso brillante sin transición. Arreglo viable: editar con ffmpeg cortes al ritmo y subtítulos virales continuos para que la frase se lea completa.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10 con voz corregida a Servilin, subtítulos continuos y al menos 2-3 tomas reales del cliente intercaladas para prueba visual.
+
+
+
+Guillermo_corregido_20261031
+CALIFICACIÓN TOTAL: 6.5/10
+NOTAS: Gancho 6/10 · Oferta 7/10 · Confianza 7/10 · Claridad 8/10 · Calidad visual 5/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 7/10
+POR QUÉ FUNCIONA:
+- 0.7s “zaguán? En Puebla,” con tarjeta superior “VICENS - ZAGUANES A LA MEDIDA PUEBLA Y ALREDEDORES” ubica servicio y zona en el primer segundo.
+- 2.2s “Proyectos Metálicos Vicens” aparece mientras el asesor en rojo instala, da marca y acción real.
+- 4.7-9.8s voz “Cuidamos los detalles desde el armado hasta el acabado, más de 15 años de experiencia.” + texto “la medida..Cuidamos / los detalles, desde / el armado hasta / el acabado. Más / de quince años / de experiencia.” genera confianza sin promesas.
+- 9.8-13.8s voz “Mándanos por WhatsApp una foto, las medidas y tu colonia para cotizar tu saguán.” + WhatsApp 231 231 1066 y “Foto + medidas + colonia” visibles todo el video, CTA concreto y calificable.
+QUÉ LO FRENA:
+- 10.8s el cielo pasa de nublado a azul sólido y el zaguán cambia a negro de golpe, rompe continuidad. Arreglo viable: con ffmpeg aplicar transición con desenfoque + whoosh entre 10.3s y 10.8s manteniendo paleta de cielo original; o generar con MiniMax H3 un clip push-in 10.8-14.4s con primer y último cuadro fijados para cerrar el zaguán sin salto de color.
+- 0.0-4.7s la voz dice “saguán” y los subtítulos/texto usan “zaguán”. Inconsistencia ortográfica. Arreglo viable: re-clonar la frase con Fish Audio corrigiendo a “zaguán” y actualizar subtítulos palabra por palabra en capa de texto.
+- 0.2-4.6s el plano es estático del mismo frente con el asesor parcialmente cortado. Arreglo viable: con Qwen-Image-Edit-2511 a partir de foto real del cliente crear un primer plano del asesor con uniforme y animarlo con MiniMax H3 push-in suave 0.0-2.2s, manteniendo todo texto en capa aparte.
+VEREDICTO: «Subir con cambios», calificación proyectada 8.5/10 con corrección de voz/texto, transición suave del cierre y un primer plano humanizado del asesor.

@@ -1,0 +1,6 @@
+file 'P1_barre_anim.mp4'
+file 'P2_mezcla_anim.mp4'
+file 'P3_capas_anim.mp4'
+file 'P4_rodillo_anim.mp4'
+file 'P5_terminada_anim.mp4'
+file 'P6_lluvia_anim.mp4'

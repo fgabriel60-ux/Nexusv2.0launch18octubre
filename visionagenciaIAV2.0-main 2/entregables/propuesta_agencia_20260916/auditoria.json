@@ -1,0 +1,39 @@
+{
+  "source": "entregables/historial_comparable_20260916/03_historial_simulador.csv",
+  "source_sha256": "fd0c919eb90411aa447dddb0e9394f6638564bd3c5ef4ec62cd2dcecc27f1280",
+  "engine_sha256": "e0b4208c3b6a7687c5657a6c614ca2659b97e2247da60a51b2d98ad285f056bd",
+  "rows": 111,
+  "duplicates": 0,
+  "comparable_rows": 18,
+  "comparable_ads": [
+    "120251563209080651",
+    "120252656552890651"
+  ],
+  "comparable_campaigns": [
+    "120251563208660651"
+  ],
+  "historical_ad_reference": {
+    "ad_id": "120251563209080651",
+    "campaign_id": "120251563208660651",
+    "spend": 966.6300000000001,
+    "results": 84.0,
+    "impressions": 6904.0,
+    "link_clicks": 157.0
+  },
+  "historical_cost_per_conversation": 11.507500000000002,
+  "temporal_validation_for_conversations": {
+    "tested_ads": 0,
+    "tested_campaigns": 0,
+    "mae_per_1000": null,
+    "baseline_mae_per_1000": null,
+    "text_model_enabled": false,
+    "splits": [],
+    "note": "Validación temporal de tasa de resultados, no de subasta ni de intervalos. El texto solo modifica la tasa si supera al promedio por al menos 5%, con ≥8 anuncios y ≥3 campañas de prueba."
+  },
+  "limitations": [
+    "Exploración con dos anuncios autorizada por Carlos; no habilita el modelo textual.",
+    "Evento corregido: conversacion_iniciada usa results, incluso con objective=traffic.",
+    "Referencia seleccionada por anuncio: excluye las métricas del video.",
+    "Se habilitó explícitamente el mínimo exploratorio de dos; no se cambiaron públicos, objetivos, IDs ni validación textual."
+  ]
+}

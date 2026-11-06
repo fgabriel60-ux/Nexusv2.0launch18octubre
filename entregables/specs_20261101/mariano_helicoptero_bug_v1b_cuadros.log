@@ -1,0 +1,142 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-bV4852HVyXsMw4L4YvJ2tt
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/_escenas_carlos/escenas_carlos
+│   _modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+/usr/local/lib/python3.12/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+[1ALoading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]
+[1ALoading pipeline components...:  17%|█▋        | 1/6 [00:00<00:01,  3.22it/s]
+[1ALoading pipeline components...:  33%|███▎      | 2/6 [00:00<00:02,  1.98it/s][transformers] Qwen2_5_VLConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. 
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section'}
+
+
+[1A
+[1ALoading weights:   0%|          | 0/729 [00:00<?, ?it/s][A
+
+[1A
+[1ALoading weights:   6%|▌         | 42/729 [00:00<00:01, 374.11it/s][A
+
+[1A
+[1ALoading weights:  11%|█▏        | 83/729 [00:00<00:01, 383.89it/s][A
+
+[1A
+[1ALoading weights:  17%|█▋        | 122/729 [00:00<00:02, 229.08it/s][A
+
+[1A
+[1ALoading weights:  21%|██        | 150/729 [00:00<00:02, 202.15it/s][A
+
+[1A
+[1ALoading weights:  24%|██▍       | 174/729 [00:00<00:03, 181.80it/s][A
+
+[1ALoading weights:  27%|██▋       | 197/729 [00:00<00:02, 192.49it/s][A
+
+[1A
+[1ALoading weights:  30%|██▉       | 218/729 [00:01<00:03, 168.34it/s][A
+
+[1A
+[1ALoading weights:  34%|███▍      | 251/729 [00:01<00:02, 187.18it/s][A
+
+[1A
+[1ALoading weights:  37%|███▋      | 271/729 [00:01<00:02, 172.66it/s][A
+
+[1A
+[1ALoading weights:  41%|████      | 299/729 [00:01<00:02, 179.69it/s][A
+
+[1A
+[1ALoading weights:  44%|████▎     | 318/729 [00:01<00:02, 179.69it/s][A
+
+[1A
+[1ALoading weights:  47%|████▋     | 344/729 [00:01<00:01, 198.10it/s][A
+
+[1A
+[1ALoading weights:  52%|█████▏    | 380/729 [00:01<00:01, 234.48it/s][A
+
+[1A
+[1ALoading weights:  60%|█████▉    | 435/729 [00:01<00:00, 310.56it/s][A
+
+[1A
+[1ALoading weights:  66%|██████▌   | 480/729 [00:02<00:00, 347.31it/s][A
+
+[1A
+[1ALoading weights:  73%|███████▎  | 532/729 [00:02<00:00, 385.04it/s][A
+
+[1A
+[1ALoading weights:  82%|████████▏ | 598/729 [00:02<00:00, 447.90it/s][A
+
+[1A
+[1ALoading weights:  88%|████████▊ | 644/729 [00:02<00:00, 444.54it/s][A
+
+[1ALoading weights:  99%|█████████▉| 720/729 [00:02<00:00, 498.31it/s][ALoading weights: 100%|██████████| 729/729 [00:02<00:00, 292.23it/s]
+
+[1ALoading pipeline components...:  50%|█████     | 3/6 [00:04<00:05,  1.80s/it]
+[1ALoading pipeline components...:  67%|██████▋   | 4/6 [00:05<00:02,  1.46s/it]
+
+[1ALoading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+[1ALoading checkpoint shards:  20%|██        | 1/5 [00:02<00:09,  2.29s/it][A
+
+[1A
+[1ALoading checkpoint shards:  40%|████      | 2/5 [00:04<00:06,  2.23s/it][A
+
+[1ALoading checkpoint shards:  60%|██████    | 3/5 [00:06<00:04,  2.21s/it][A
+
+[1A
+[1ALoading checkpoint shards:  80%|████████  | 4/5 [00:08<00:02,  2.22s/it][A
+
+[1A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [00:09<00:00,  1.50s/it][A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [00:09<00:00,  1.82s/it]
+
+[1ALoading pipeline components...: 100%|██████████| 6/6 [00:14<00:00,  3.19s/it]Loading pipeline components...: 100%|██████████| 6/6 [00:14<00:00,  2.44s/it]
+guidance_scale is passed as 1.0, but ignored since the model is not guidance-distilled.
+
+[1A  0%|          | 0/28 [00:00<?, ?it/s]
+[1A  4%|▎         | 1/28 [00:03<01:22,  3.04s/it]
+[1A  7%|▋         | 2/28 [00:06<01:22,  3.18s/it]
+[1A 11%|█         | 3/28 [00:09<01:20,  3.23s/it]
+[1A 14%|█▍        | 4/28 [00:12<01:18,  3.25s/it]
+[1A 18%|█▊        | 5/28 [00:16<01:15,  3.27s/it]
+[1A 21%|██▏       | 6/28 [00:19<01:12,  3.28s/it]
+[1A 25%|██▌       | 7/28 [00:22<01:08,  3.29s/it]
+[1A 29%|██▊       | 8/28 [00:26<01:05,  3.29s/it]
+[1A 32%|███▏      | 9/28 [00:29<01:02,  3.30s/it]
+[1A 36%|███▌      | 10/28 [00:32<00:59,  3.30s/it]
+[1A 39%|███▉      | 11/28 [00:36<00:56,  3.30s/it]
+[1A 43%|████▎     | 12/28 [00:39<00:52,  3.30s/it]
+[1A 46%|████▋     | 13/28 [00:42<00:49,  3.31s/it]
+[1A 50%|█████     | 14/28 [00:45<00:46,  3.31s/it]
+[1A 54%|█████▎    | 15/28 [00:49<00:43,  3.31s/it]
+[1A 57%|█████▋    | 16/28 [00:52<00:39,  3.31s/it]
+[1A 61%|██████    | 17/28 [00:55<00:36,  3.31s/it]
+[1A 64%|██████▍   | 18/28 [00:59<00:33,  3.31s/it]
+[1A 68%|██████▊   | 19/28 [01:02<00:29,  3.31s/it]
+[1A 71%|███████▏  | 20/28 [01:05<00:26,  3.31s/it]
+[1A 75%|███████▌  | 21/28 [01:09<00:23,  3.31s/it]
+[1A 79%|███████▊  | 22/28 [01:12<00:19,  3.32s/it]
+[1A 82%|████████▏ | 23/28 [01:15<00:16,  3.32s/it]
+[1A 86%|████████▌ | 24/28 [01:19<00:13,  3.32s/it]
+[1A 89%|████████▉ | 25/28 [01:22<00:09,  3.32s/it]
+[1A 93%|█████████▎| 26/28 [01:25<00:06,  3.32s/it]
+[1A 96%|█████████▋| 27/28 [01:29<00:03,  3.32s/it]
+[1A100%|██████████| 28/28 [01:32<00:00,  3.32s/it]
+[1A100%|██████████| 28/28 [01:32<00:00,  3.30s/it]
+cuadro H1b_heli
+guardado H1b_heli.png
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-bV4852HVyXsMw4L4YvJ2tt
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::cuadros --spec entregables/specs_20261101/mariano_helicoptero_bug_v1b.json
+Duración: 3.1 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.019
+  escenas-carlos (ap-bV4852HVyXsMw4L4YvJ2tt): $0.125
+Gasto del trabajo: $0.144
+Saldo restante ≈ $28.22

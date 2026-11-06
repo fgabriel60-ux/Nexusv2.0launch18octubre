@@ -1,0 +1,21 @@
+ESTILO = "Foto vertical 9:16 hiperrealista tipo video de celular profesional, luz natural, sin texto, sin letras, sin logotipos en la ropa ni en los envases."
+TECNICO = "el MISMO técnico fumigador de la imagen (playera azul, mascarilla con filtros, guantes)"
+CUADROS = {   # acercamientos de DETALLE (método del reel de Planet Plus): dónde anidan las plagas y cómo se aplica, con el técnico real de Fumicam
+    "D1": (["zoclo"], f"Acercamiento macro: la mano con guante de {TECNICO} aplica con una jeringa aplicadora un punto de gel insecticida en la grieta entre el zoclo y el piso de una cocina. Se ve la grieta y el punto de gel, fondo desenfocado. " + ESTILO),
+    "D2": (["zoclo"], f"Acercamiento: la mano con guante de {TECNICO} aplica gel con jeringa en la entrada del tubo debajo del fregadero, gabinete abierto, linterna iluminando. " + ESTILO),
+    "D3": (["recamara"], f"Acercamiento a la boquilla de la bomba aspersora de {TECNICO} rociando una niebla fina a lo largo de la base de la cama y la esquina del cuarto, luz de ventana. " + ESTILO),
+    "D4": (["mochila"], f"Toma baja: {TECNICO} con su mochila aspersora verde rocía el perímetro del muro y la tierra del jardín, gotas finas brillando a contraluz. " + ESTILO),
+    "D5": (["pasillo"], f"Acercamiento: {TECNICO} perfora con un taladro pequeño un orificio en el marco de madera de una puerta e inyecta el tratamiento contra termitas de madera seca con una boquilla, aserrín fino de termita en el piso. " + ESTILO),
+    "D6": (["mochila"], f"Acercamiento: {TECNICO} inyecta tratamiento contra termitas subterráneas en la tierra junto al muro de la casa con una varilla inyectora metálica, tierra húmeda. " + ESTILO),
+}
+SUAVE = " Handheld smartphone close-up, realistic precise movement, shallow depth of field. Audio: sprayer hiss, no music, no speech."
+TOMAS = {
+    "V1": ("D1", "Slow macro push-in as the gloved hand places a dot of gel bait into the crack along the baseboard." + SUAVE),
+    "V2": ("D2", "The gloved hand applies gel around the pipe under the sink, flashlight beam moves slightly." + SUAVE),
+    "V3": ("D3", "The sprayer nozzle releases a fine mist along the bed base and room corner, camera follows the nozzle." + SUAVE),
+    "V4": ("D4", "The technician sprays the garden wall perimeter, fine droplets sparkle in the backlight, camera low tracking." + SUAVE),
+    "V5": ("D5", "The technician injects the termite treatment into the small hole in the wooden door frame, slow push-in." + SUAVE),
+    "V6": ("D6", "The technician pushes the metal injection rod into the soil along the house wall and the treatment flows, close-up." + SUAVE),
+}
+
+

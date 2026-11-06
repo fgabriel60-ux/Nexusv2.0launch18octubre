@@ -1,0 +1,34 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-d8aN7lViDsV5nDtHCGmgpt
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma Z1_corte
+toma Z2_cepillo
+toma Z3_lija
+toma Z4_barniz
+toma Z5_gabinete
+guardado Z1_corte.mp4
+guardado Z2_cepillo.mp4
+guardado Z3_lija.mp4
+guardado Z4_barniz.mp4
+guardado Z5_gabinete.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-d8aN7lViDsV5nDtHCGmgpt
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261030/jesus_v3.json
+Duración: 13.0 min  (código 0)
+  nexus-claude (ap-q0KnfU6OU6UlQa6ySKfRdw): $0.041
+  glimmer (ap-0yLhRP5JaqbuSYJPPlsu6e): $0.136
+  glimmer (ap-DZKPWStZ1FsD3yDHlRTmd9): $0.015
+  glimmer (ap-UQ7aB8N8r1IbtP7J1tesBJ): $0.123
+  escenas-carlos (ap-d8aN7lViDsV5nDtHCGmgpt): $0.618
+Gasto del trabajo: $0.933
+Saldo restante ≈ $8.92

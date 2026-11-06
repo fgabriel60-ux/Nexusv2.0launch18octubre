@@ -1,0 +1,326 @@
+<title>Cronograma de Obra</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: hoja de obra — encabezado con datos del proyecto, panel para pedirle el plan a Claude, tabla de tareas y el Gantt por días con domingos sombreados. */
+:root {
+  --bg: #eef0ec; --paper: #fafbf8; --ink: #1b2a3a; --muted: #5d6b78; --line: #d3d8d2;
+  --accent: #1f5f8b; --hazard: #d98e04; --hazard-soft: #fbefd3; --ok: #2f7d4f; --sunday: #e3e6e1;
+  --f-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --c1: #1f5f8b; --c2: #6d5aa8; --c3: #2f7d4f; --c4: #a8573a; --c5: #3f7f86; --c6: #7a6a2f;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121820; --paper: #19212b; --ink: #e4e9ee; --muted: #9aa8b5; --line: #2c3743;
+  --accent: #6fb2e0; --hazard: #f0b03a; --hazard-soft: #3a2e14; --ok: #5cbf86; --sunday: #1e2731;
+  --c1: #5ea3d4; --c2: #a393dc; --c3: #5cbf86; --c4: #dd8f71; --c5: #6dbcc4; --c6: #c9b569; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121820; --paper: #19212b; --ink: #e4e9ee; --muted: #9aa8b5; --line: #2c3743;
+  --accent: #6fb2e0; --hazard: #f0b03a; --hazard-soft: #3a2e14; --ok: #5cbf86; --sunday: #1e2731;
+  --c1: #5ea3d4; --c2: #a393dc; --c3: #5cbf86; --c4: #dd8f71; --c5: #6dbcc4; --c6: #c9b569; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 22px; }
+h1, h2 { font-family: var(--f-display); font-stretch: 80%; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 5vw, 44px); font-weight: 800; letter-spacing: -0.01em; line-height: 1.05; }
+h2 { font-size: 20px; font-weight: 700; }
+.eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+header { display: grid; gap: 14px; }
+.campos { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); font-family: var(--f-mono); letter-spacing: 0.04em; text-transform: uppercase; }
+input, textarea, select { font: inherit; font-size: 15px; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; min-width: 0; text-transform: none; letter-spacing: 0; font-family: var(--f-body); }
+input:focus-visible, textarea:focus-visible, button:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.resumen { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--f-mono); font-size: 13px; color: var(--muted); }
+.resumen b { color: var(--ink); font-weight: 500; }
+.panel { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: grid; gap: 12px; }
+.ia textarea { min-height: 84px; resize: vertical; }
+.fila { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+button { font: inherit; font-weight: 600; font-size: 14px; border-radius: 6px; padding: 9px 14px; cursor: pointer; border: 1px solid var(--line); background: var(--paper); color: var(--ink); }
+button.primario { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+button.guardar { background: var(--hazard); border-color: var(--hazard); color: #1b1407; }
+button:disabled { opacity: .55; cursor: default; }
+.nota { font-size: 13px; color: var(--muted); }
+.estado { font-family: var(--f-mono); font-size: 13px; color: var(--muted); }
+.ejemplo { font-family: var(--f-mono); font-size: 12px; background: var(--hazard-soft); color: var(--ink); padding: 3px 8px; border-radius: 4px; }
+.scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--paper); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th { text-align: left; font-family: var(--f-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 500; padding: 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 4px 6px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+td input { width: 100%; padding: 5px 7px; font-size: 14px; border-color: transparent; background: transparent; }
+td input:hover { border-color: var(--line); }
+td.num, .num input { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+td.fechas { font-family: var(--f-mono); font-size: 12px; color: var(--muted); white-space: nowrap; }
+.idc { font-family: var(--f-mono); color: var(--muted); font-size: 12px; width: 28px; }
+.quitar { padding: 2px 8px; font-size: 13px; color: var(--muted); }
+tr.critica .idc { color: var(--hazard); font-weight: 600; }
+.gantt { display: grid; min-width: max-content; font-size: 12px; }
+.g-head, .g-row { display: grid; grid-template-columns: 220px 1fr; }
+.g-name { position: sticky; left: 0; background: var(--paper); z-index: 2; padding: 6px 10px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.g-name small { display: block; color: var(--muted); font-family: var(--f-mono); font-size: 10px; letter-spacing: .05em; text-transform: uppercase; }
+.g-track { position: relative; border-bottom: 1px solid var(--line); }
+.g-days { display: flex; }
+.g-day { flex: 0 0 var(--dw); text-align: center; font-family: var(--f-mono); font-size: 10px; color: var(--muted); border-left: 1px solid var(--line); padding-block: 2px; }
+.g-day.dom { background: var(--sunday); }
+.g-month { font-family: var(--f-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink); white-space: nowrap; border-left: 1px solid var(--line); padding: 4px 6px; overflow: hidden; }
+.g-bg { position: absolute; inset: 0; display: flex; }
+.g-bg span { flex: 0 0 var(--dw); border-left: 1px solid var(--line); opacity: .55; }
+.g-bg span.dom { background: var(--sunday); opacity: 1; }
+.bar { position: absolute; top: 9px; height: 20px; border-radius: 4px; background: color-mix(in srgb, var(--c) 28%, var(--paper)); border: 1px solid var(--c); overflow: hidden; }
+.bar i { position: absolute; inset: 0 auto 0 0; background: var(--c); }
+.bar.critica { box-shadow: 0 0 0 2px var(--hazard); }
+.hito { position: absolute; top: 11px; width: 14px; height: 14px; background: var(--hazard); transform: rotate(45deg); margin-left: -7px; border-radius: 2px; }
+.hoy { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--accent); z-index: 1; }
+.leyenda { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; color: var(--muted); }
+.leyenda span { display: inline-flex; gap: 6px; align-items: center; }
+.sw { width: 14px; height: 10px; border-radius: 2px; background: var(--c); display: inline-block; }
+.sw.crit { background: transparent; box-shadow: 0 0 0 2px var(--hazard); }
+.wa { white-space: pre-wrap; font-family: var(--f-mono); font-size: 13px; background: var(--bg); border-radius: 6px; padding: 12px; max-height: 260px; overflow: auto; }
+@media (prefers-reduced-motion: no-preference) { .bar i { transition: width .3s ease; } }
+@media (max-width: 560px) { .g-head, .g-row { grid-template-columns: 140px 1fr; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Visión Agencia · Cronograma de obra</div>
+    <h1 id="titulo">Cronograma de obra</h1>
+    <div class="campos">
+      <label for="f-proyecto">Proyecto<input id="f-proyecto"></label>
+      <label for="f-cliente">Cliente<input id="f-cliente"></label>
+      <label for="f-contratista">Contratista<input id="f-contratista"></label>
+      <label for="f-inicio">Inicio<input id="f-inicio" type="date"></label>
+      <label for="f-sabados">Días de trabajo<select id="f-sabados"><option value="1">Lunes a sábado</option><option value="0">Lunes a viernes</option></select></label>
+    </div>
+    <div class="resumen" id="resumen"></div>
+  </header>
+
+  <section class="panel ia" id="panel-ia" hidden>
+    <h2>Pídele el plan a Claude</h2>
+    <label for="f-desc">Describe el trabajo: qué se hace, medidas, materiales y si hay algo que esperar (permisos, pedido de material, secado)
+      <textarea id="f-desc" placeholder="Ej.: Techo de lámina a una caída de 6 × 8 m sobre estructura de PTR, anclada a barda y 3 columnas. Hay que pedir la lámina (tarda 4 días)."></textarea></label>
+    <div class="fila">
+      <button class="primario" id="b-generar">Generar cronograma</button>
+      <span class="estado" id="estado-ia"></span>
+    </div>
+    <p class="nota">Claude propone tareas, duraciones en días hábiles y qué depende de qué. Después puedes corregir cualquier dato en la tabla.</p>
+  </section>
+
+  <section class="panel">
+    <div class="fila" style="justify-content: space-between">
+      <h2>Tareas</h2>
+      <div class="fila">
+        <span class="ejemplo" id="marca-ejemplo" hidden>Ejemplo · reemplázalo con tu obra</span>
+        <button id="b-agregar">Agregar tarea</button>
+        <button class="guardar" id="b-guardar" hidden disabled>Guardar cambios</button>
+      </div>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>#</th><th>Fase</th><th>Tarea</th><th>Días</th><th>Depende de</th><th>Avance %</th><th>Responsable</th><th>Fechas</th><th></th></tr></thead>
+        <tbody id="tabla"></tbody>
+      </table>
+    </div>
+    <p class="nota">«Días» son días hábiles (0 = hito). «Depende de» acepta números separados por coma: la tarea empieza al terminar esas.</p>
+    <span class="estado" id="estado-guardar"></span>
+  </section>
+
+  <section class="panel">
+    <div class="fila" style="justify-content: space-between">
+      <h2>Gantt</h2>
+      <div class="leyenda" id="leyenda"></div>
+    </div>
+    <div class="scroll"><div class="gantt" id="gantt"></div></div>
+  </section>
+
+  <section class="panel">
+    <div class="fila" style="justify-content: space-between">
+      <h2>Resumen para WhatsApp</h2>
+      <button id="b-copiar">Copiar resumen</button>
+    </div>
+    <div class="wa" id="wa"></div>
+  </section>
+</div>
+
+<script type="application/json" id="estado">{"ejemplo":true,"proyecto":"Techo de lámina a una caída","cliente":"Casa Sra. López","contratista":"Herrería Vicens","inicio":"2026-11-02","sabados":1,"tareas":[{"id":1,"fase":"Preparación","nombre":"Medición y trazo en sitio","dias":1,"dep":[],"avance":100,"resp":"Guillermo"},{"id":2,"fase":"Preparación","nombre":"Pedido de lámina y PTR","dias":4,"dep":[1],"avance":50,"resp":"Proveedor"},{"id":3,"fase":"Estructura","nombre":"Habilitado de vigas en taller","dias":3,"dep":[1],"avance":0,"resp":"Taller"},{"id":4,"fase":"Estructura","nombre":"Anclas en barda y columnas","dias":1,"dep":[3],"avance":0,"resp":"Cuadrilla"},{"id":5,"fase":"Estructura","nombre":"Montaje y soldadura de estructura","dias":2,"dep":[4],"avance":0,"resp":"Cuadrilla"},{"id":6,"fase":"Acabados","nombre":"Primario y pintura de estructura","dias":2,"dep":[5],"avance":0,"resp":"Cuadrilla"},{"id":7,"fase":"Cubierta","nombre":"Colocación de lámina a una caída","dias":2,"dep":[2,6],"avance":0,"resp":"Cuadrilla"},{"id":8,"fase":"Cubierta","nombre":"Canalón y sellado contra barda","dias":1,"dep":[7],"avance":0,"resp":"Cuadrilla"},{"id":9,"fase":"Entrega","nombre":"Limpieza y entrega al cliente","dias":0,"dep":[8],"avance":0,"resp":"Guillermo"}]}</script>
+
+<script>
+(function () {
+  const PLANTILLA = document.body.innerHTML; // tal como se publicó, para regenerar la página al guardar
+  let S = JSON.parse(document.getElementById('estado').textContent);
+  let artifact = null, sucio = false;
+  const $ = id => document.getElementById(id);
+  const MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+  const COLORES = ['--c1', '--c2', '--c3', '--c4', '--c5', '--c6'];
+  const DW = 24;
+  const usar = n => (window.claude && window.claude.use) ? window.claude.use(n) : Promise.resolve(null);
+
+  const fecha = s => { const [y, m, d] = s.split('-').map(Number); return new Date(y, m - 1, d); };
+  const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  const corta = d => `${d.getDate()} ${MESES[d.getMonth()]}`;
+  const habil = d => d.getDay() !== 0 && (S.sabados == 1 || d.getDay() !== 6);
+  function diaHabil(n) { // n-ésimo día hábil desde el inicio (0 = primero)
+    const d = fecha(S.inicio); while (!habil(d)) d.setDate(d.getDate() + 1);
+    let k = 0; while (k < n) { d.setDate(d.getDate() + 1); if (habil(d)) k++; }
+    return d;
+  }
+
+  function calcular() {
+    const T = S.tareas, porId = new Map(T.map(t => [t.id, t]));
+    const visit = new Set(), orden = [];
+    const ir = (t, pila) => {
+      if (visit.has(t.id)) return; if (pila.has(t.id)) { t.ciclo = true; return; }
+      pila.add(t.id); (t.dep || []).forEach(i => porId.has(i) && ir(porId.get(i), pila)); pila.delete(t.id);
+      visit.add(t.id); orden.push(t);
+    };
+    T.forEach(t => { t.ciclo = false; ir(t, new Set()); });
+    for (const t of orden) {
+      const deps = (t.dep || []).map(i => porId.get(i)).filter(Boolean);
+      t.es = deps.length ? Math.max(...deps.map(p => p.dias > 0 ? p.ef + 1 : p.ef)) : 0;
+      t.ef = t.dias > 0 ? t.es + t.dias - 1 : t.es;
+    }
+    const fin = Math.max(0, ...T.map(t => t.dias > 0 ? t.ef : t.es));
+    for (const t of [...orden].reverse()) {
+      const sucs = T.filter(s => (s.dep || []).includes(t.id));
+      const lf = sucs.length ? Math.min(...sucs.map(s => t.dias > 0 ? s.ls - 1 : s.ls)) : (t.dias > 0 ? fin : fin);
+      t.lf = lf; t.ls = t.dias > 0 ? lf - t.dias + 1 : lf;
+      t.critica = t.ls - t.es === 0;
+    }
+    return fin;
+  }
+
+  const fases = () => [...new Set(S.tareas.map(t => t.fase || 'General'))];
+  const colorFase = f => `var(${COLORES[fases().indexOf(f) % COLORES.length]})`;
+
+  function render() {
+    const fin = calcular();
+    $('titulo').textContent = S.proyecto || 'Cronograma de obra';
+    $('f-proyecto').value = S.proyecto || ''; $('f-cliente').value = S.cliente || ''; $('f-contratista').value = S.contratista || '';
+    $('f-inicio').value = S.inicio; $('f-sabados').value = String(S.sabados);
+    $('marca-ejemplo').hidden = !S.ejemplo;
+    const ini = diaHabil(0), entrega = diaHabil(fin);
+    const total = S.tareas.reduce((a, t) => a + t.dias, 0) || 1;
+    const avance = Math.round(S.tareas.reduce((a, t) => a + t.dias * (t.avance || 0), 0) / total);
+    $('resumen').innerHTML = `<span>Inicio <b>${corta(ini)}</b></span><span>Entrega <b>${corta(entrega)} ${entrega.getFullYear()}</b></span><span>Duración <b>${fin + 1} días hábiles</b></span><span>Avance <b>${avance}%</b></span>`;
+
+    const tb = $('tabla'); tb.innerHTML = '';
+    S.tareas.forEach((t, i) => {
+      const tr = document.createElement('tr'); if (t.critica) tr.className = 'critica';
+      const f1 = diaHabil(t.es), f2 = diaHabil(t.ef);
+      tr.innerHTML = `<td class="idc">${t.id}</td>
+        <td><input id="fase-${t.id}" data-k="fase" value=""></td>
+        <td><input id="nom-${t.id}" data-k="nombre" value="" style="min-width:200px"></td>
+        <td class="num"><input id="dias-${t.id}" data-k="dias" type="number" min="0" max="365" value="${t.dias}" style="width:64px"></td>
+        <td class="num"><input id="dep-${t.id}" data-k="dep" value="${(t.dep || []).join(', ')}" style="width:80px"></td>
+        <td class="num"><input id="av-${t.id}" data-k="avance" type="number" min="0" max="100" step="10" value="${t.avance || 0}" style="width:70px"></td>
+        <td><input id="resp-${t.id}" data-k="resp" value=""></td>
+        <td class="fechas">${t.ciclo ? 'revisa dependencias' : t.dias ? `${corta(f1)} → ${corta(f2)}` : corta(f1)}</td>
+        <td><button class="quitar" aria-label="Quitar tarea ${t.id}">✕</button></td>`;
+      tr.querySelector('[data-k=fase]').value = t.fase || '';
+      tr.querySelector('[data-k=nombre]').value = t.nombre || '';
+      tr.querySelector('[data-k=resp]').value = t.resp || '';
+      tr.querySelectorAll('input').forEach(inp => inp.addEventListener('change', () => {
+        const k = inp.dataset.k; let v = inp.value;
+        if (k === 'dias') v = Math.max(0, Math.round(+v || 0));
+        if (k === 'avance') v = Math.min(100, Math.max(0, Math.round(+v || 0)));
+        if (k === 'dep') v = v.split(/[ ,;]+/).map(Number).filter(n => n && n !== t.id);
+        t[k] = v; cambio();
+      }));
+      tr.querySelector('.quitar').addEventListener('click', () => {
+        S.tareas.splice(i, 1); S.tareas.forEach(o => o.dep = (o.dep || []).filter(d => d !== t.id)); cambio();
+      });
+      tb.appendChild(tr);
+    });
+
+    // Gantt por día calendario, del inicio a la entrega + 2 días
+    const d0 = fecha(S.inicio), dN = new Date(entrega); dN.setDate(dN.getDate() + 2);
+    const dias = []; for (const d = new Date(d0); d <= dN; d.setDate(d.getDate() + 1)) dias.push(new Date(d));
+    const col = d => Math.round((d - d0) / 864e5);
+    const g = $('gantt'); g.style.setProperty('--dw', DW + 'px'); g.innerHTML = '';
+    const meses = []; dias.forEach(d => { const m = d.getMonth(); if (!meses.length || meses.at(-1).m !== m) meses.push({ m, y: d.getFullYear(), n: 0 }); meses.at(-1).n++; });
+    g.insertAdjacentHTML('beforeend', `<div class="g-head"><div class="g-name"><small>Semana de</small>${corta(d0)}</div><div><div class="g-days">${meses.map(x => `<div class="g-month" style="flex:0 0 ${x.n * DW}px">${MESES[x.m]} ${x.y}</div>`).join('')}</div><div class="g-days">${dias.map(d => `<div class="g-day${d.getDay() === 0 ? ' dom' : ''}">${'DLMMJVS'[d.getDay()]}<br>${d.getDate()}</div>`).join('')}</div></div></div>`);
+    const fondo = `<div class="g-bg">${dias.map(d => `<span class="${d.getDay() === 0 ? 'dom' : ''}"></span>`).join('')}</div>`;
+    const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
+    const lineaHoy = hoy >= d0 && hoy <= dN ? `<div class="hoy" style="left:${col(hoy) * DW + DW / 2}px" title="Hoy"></div>` : '';
+    S.tareas.forEach(t => {
+      const a = col(diaHabil(t.es)), b = col(diaHabil(t.ef)) + 1;
+      const marca = t.dias > 0
+        ? `<div class="bar${t.critica ? ' critica' : ''}" style="--c:${colorFase(t.fase || 'General')};left:${a * DW + 1}px;width:${(b - a) * DW - 2}px" title="${t.nombre}"><i style="width:${t.avance || 0}%"></i></div>`
+        : `<div class="hito" style="left:${(a + 1) * DW}px" title="${t.nombre}"></div>`;
+      const row = document.createElement('div'); row.className = 'g-row';
+      row.innerHTML = `<div class="g-name"><small>${t.id} · </small></div><div class="g-track" style="height:38px;width:${dias.length * DW}px">${fondo}${lineaHoy}${marca}</div>`;
+      row.querySelector('small').textContent = `${t.id} · ${t.fase || ''}`;
+      row.querySelector('.g-name').append(t.nombre || '');
+      g.appendChild(row);
+    });
+    $('leyenda').innerHTML = fases().map(f => `<span><i class="sw" style="--c:${colorFase(f)}"></i></span>`).join('') + '<span><i class="sw crit"></i>Ruta crítica</span><span>◆ Entrega</span>';
+    [...$('leyenda').children].slice(0, fases().length).forEach((s, i) => s.append(fases()[i]));
+
+    let wa = `*${S.proyecto || 'Cronograma'}*\n`;
+    if (S.cliente) wa += `Cliente: ${S.cliente}\n`;
+    if (S.contratista) wa += `Contratista: ${S.contratista}\n`;
+    wa += `Inicio: ${corta(ini)} · Entrega estimada: ${corta(entrega)} · ${fin + 1} días hábiles\nAvance: ${avance}%\n\n`;
+    fases().forEach(f => {
+      wa += `*${f}*\n`;
+      S.tareas.filter(t => (t.fase || 'General') === f).forEach(t => {
+        wa += `• ${t.nombre}: ${t.dias ? `${corta(diaHabil(t.es))} – ${corta(diaHabil(t.ef))}` : corta(diaHabil(t.es))}${t.avance ? ` (${t.avance}%)` : ''}\n`;
+      });
+    });
+    wa += `\nLas fechas pueden moverse por clima o entrega de material.`;
+    $('wa').textContent = wa;
+  }
+
+  function cambio() { sucio = true; S.ejemplo = false; render(); if (artifact) { $('b-guardar').disabled = false; $('estado-guardar').textContent = 'Hay cambios sin guardar.'; } }
+
+  [['f-proyecto', 'proyecto'], ['f-cliente', 'cliente'], ['f-contratista', 'contratista'], ['f-inicio', 'inicio'], ['f-sabados', 'sabados']].forEach(([id, k]) =>
+    $(id).addEventListener('change', e => { if (k === 'inicio' && !e.target.value) return; S[k] = k === 'sabados' ? +e.target.value : e.target.value; cambio(); }));
+  $('b-agregar').addEventListener('click', () => {
+    const id = Math.max(0, ...S.tareas.map(t => t.id)) + 1, ult = S.tareas.at(-1);
+    S.tareas.push({ id, fase: ult ? ult.fase : 'General', nombre: 'Nueva tarea', dias: 1, dep: ult ? [ult.id] : [], avance: 0, resp: '' }); cambio();
+  });
+  $('b-copiar').addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText($('wa').textContent); $('b-copiar').textContent = 'Copiado'; }
+    catch { const r = document.createRange(); r.selectNodeContents($('wa')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); $('b-copiar').textContent = 'Texto seleccionado: cópialo'; }
+    setTimeout(() => $('b-copiar').textContent = 'Copiar resumen', 2500);
+  });
+
+  const RESET = 'html{color-scheme:light}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,-apple-system,sans-serif}img{max-width:100%}[hidden]{display:none!important}';
+  $('b-guardar').addEventListener('click', async () => {
+    const limpio = S.tareas.map(({ id, fase, nombre, dias, dep, avance, resp }) => ({ id, fase, nombre, dias, dep, avance, resp }));
+    const datos = JSON.stringify({ ...S, tareas: limpio }).replace(/</g, '\\u003c');
+    const cuerpo = PLANTILLA.replace(/(<script type="application\/json" id="estado">)[\s\S]*?(<\/script>)/, (_, a, b) => a + datos + b);
+    const html = `<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>${RESET}</style></head><body>${cuerpo}</body></html>`;
+    $('b-guardar').disabled = true; $('estado-guardar').textContent = 'Guardando…';
+    try { await artifact.publish(html); $('estado-guardar').textContent = 'Guardado.'; sucio = false; }
+    catch (e) {
+      if (e && e.code === 'conflict') $('estado-guardar').textContent = 'Alguien guardó otra versión; la página se recarga con esa.';
+      else if (e && (e.code === 'not_writer' || e.code === 'not_granted')) { $('estado-guardar').textContent = 'Solo puedes verlo; quien lo comparte puede editarlo.'; $('b-guardar').hidden = true; }
+      else { $('estado-guardar').textContent = 'No se guardó. Intenta de nuevo.'; $('b-guardar').disabled = false; }
+    }
+  });
+
+  $('b-generar').addEventListener('click', async () => {
+    const desc = $('f-desc').value.trim();
+    if (!desc) { $('estado-ia').textContent = 'Escribe primero qué trabajo es.'; return; }
+    const sample = await usar('sample');
+    if (!sample) { $('panel-ia').hidden = true; return; }
+    $('b-generar').disabled = true; $('estado-ia').textContent = 'Claude está armando el plan…';
+    const prompt = `Eres un residente de obra en México. Arma el cronograma de este trabajo para un contratista pequeño (herrería, techos, impermeabilización, construcción ligera).
+Trabajo: ${desc}
+Reglas: 5 a 14 tareas, agrupadas en fases cortas (Preparación, Estructura, etc.). Duraciones realistas en días hábiles enteros; 0 solo para el hito final de entrega. Incluye esperas reales (pedido de material, secado, curado) como tareas. "dep" lista los id de las tareas que deben terminar antes. "resp" es quién la hace (Cuadrilla, Taller, Proveedor, Cliente…). Escribe en español de México.
+Responde SOLO con JSON: {"proyecto": "nombre corto del trabajo", "tareas": [{"id": 1, "fase": "...", "nombre": "...", "dias": 1, "dep": [], "resp": "..."}]}`;
+    try {
+      const r = await sample.json(prompt, { modelTier: 'default' });
+      if (!r || !Array.isArray(r.tareas) || !r.tareas.length) throw { message: 'sin tareas' };
+      S.tareas = r.tareas.map((t, i) => ({ id: +t.id || i + 1, fase: String(t.fase || 'General'), nombre: String(t.nombre || 'Tarea'), dias: Math.max(0, Math.round(+t.dias || 0)), dep: (t.dep || []).map(Number).filter(Boolean), avance: 0, resp: String(t.resp || '') }));
+      if (r.proyecto) S.proyecto = String(r.proyecto);
+      $('estado-ia').textContent = 'Listo. Revisa duraciones y fechas.'; cambio();
+    } catch (e) {
+      if (e && e.code === 'not_granted') { $('panel-ia').hidden = true; return; }
+      $('estado-ia').textContent = e && e.code === 'rate_limited' ? 'Demasiadas solicitudes; espera un minuto.' : 'No salió el plan. Agrega más detalle e intenta otra vez.';
+    } finally { $('b-generar').disabled = false; }
+  });
+
+  render();
+  usar('sample').then(s => { if (s) $('panel-ia').hidden = false; });
+  usar('artifact').then(a => { if (a) { artifact = a; $('b-guardar').hidden = false; if (sucio) $('b-guardar').disabled = false; } });
+})();
+</script>

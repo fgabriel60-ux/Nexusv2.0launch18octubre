@@ -1,0 +1,198 @@
+<title>Centro de Mando Nexus</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: barra de "hoy" arriba → pestañas Agenda / Embudo / Clientes; todo se escanea, se marca hecho por persona */
+:root{
+  --bg:#f5f6f3;--panel:#ffffff;--ink:#17201b;--soft:#5d6a62;--line:#dfe4de;--accent:#1f7a52;--accent-ink:#ffffff;
+  --tu:#c2410c;--tu-bg:#fff1e7;--ia:#1f6f8b;--ia-bg:#e6f3f8;--cli:#7c5a00;--cli-bg:#fff6d6;
+  --ok:#1f7a52;--warn:#b7791f;--bad:#b42318;
+  --f1:#94a3a0;--f2:#3b82a6;--f3:#b7791f;--f4:#7c4dbb;--f5:#1f7a52;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;--body:"Figtree",ui-sans-serif,system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111613;--panel:#19201c;--ink:#e7ece8;--soft:#9aa69f;--line:#2a332e;--accent:#3fb37f;--accent-ink:#0c1410;
+  --tu:#fb923c;--tu-bg:#3a2214;--ia:#5cc0e0;--ia-bg:#12303b;--cli:#e8c25a;--cli-bg:#352b0e;
+  --ok:#3fb37f;--warn:#e0a33a;--bad:#f0645a;--f1:#7d8a87;--f2:#5aa9cf;--f3:#e0a33a;--f4:#a98be0;--f5:#3fb37f;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111613;--panel:#19201c;--ink:#e7ece8;--soft:#9aa69f;--line:#2a332e;--accent:#3fb37f;--accent-ink:#0c1410;
+  --tu:#fb923c;--tu-bg:#3a2214;--ia:#5cc0e0;--ia-bg:#12303b;--cli:#e8c25a;--cli-bg:#352b0e;
+  --ok:#3fb37f;--warn:#e0a33a;--bad:#f0645a;--f1:#7d8a87;--f2:#5aa9cf;--f3:#e0a33a;--f4:#a98be0;--f5:#3fb37f;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px;display:grid;gap:18px}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,4vw,38px);margin:0;letter-spacing:-.01em;text-wrap:balance}
+.sub{color:var(--soft);margin:2px 0 0}
+.top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:end}
+.meta{font-family:var(--mono);font-size:12px;color:var(--soft)}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.k{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.k b{display:block;font-family:var(--display);font-size:28px;font-weight:800;font-variant-numeric:tabular-nums}
+.k span{font-size:12px;color:var(--soft);text-transform:uppercase;letter-spacing:.06em}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.tabs button{font:600 14px var(--body);background:none;border:0;border-bottom:3px solid transparent;color:var(--soft);padding:10px 12px;cursor:pointer}
+.tabs button[aria-selected="true"]{color:var(--ink);border-color:var(--accent)}
+.tabs button:focus-visible,.chk:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--soft)}
+.pill{display:inline-flex;align-items:center;gap:6px;font:600 11px var(--body);text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:999px;white-space:nowrap}
+.tu{background:var(--tu-bg);color:var(--tu)}.ia{background:var(--ia-bg);color:var(--ia)}.cli{background:var(--cli-bg);color:var(--cli)}
+.fbtn{font:600 12px var(--body);border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:5px 11px;cursor:pointer}
+.fbtn[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+/* Agenda */
+.day{display:grid;grid-template-columns:120px 1fr;gap:14px;padding:14px 0;border-top:1px solid var(--line)}
+.day h3{font-family:var(--display);font-size:17px;margin:0;font-weight:800}
+.day small{display:block;color:var(--soft);font-family:var(--mono);font-size:11px}
+.items{display:grid;gap:8px;min-width:0}
+.it{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:start;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.it.done{opacity:.45}.it.done .what{text-decoration:line-through}
+.chk{width:20px;height:20px;border:2px solid var(--soft);border-radius:6px;background:none;cursor:pointer;margin-top:2px;display:grid;place-items:center;color:var(--accent-ink);font-size:13px;padding:0}
+.it.done .chk{background:var(--accent);border-color:var(--accent)}
+.what{font-weight:600}.who{color:var(--soft);font-size:13px}
+.money{font-family:var(--mono);font-size:12px;color:var(--ok);white-space:nowrap}
+/* Embudo */
+.board{display:grid;grid-template-columns:repeat(5,minmax(200px,1fr));gap:10px;overflow-x:auto;padding-bottom:6px}
+.col{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px;display:grid;gap:8px;align-content:start;border-top:4px solid var(--c)}
+.col h4{margin:0;font-family:var(--display);font-size:15px;display:flex;justify-content:space-between}
+.col p.exit{margin:0;font-size:12px;color:var(--soft)}
+.card{border:1px solid var(--line);border-radius:9px;padding:8px 10px;display:grid;gap:4px;background:var(--bg)}
+.card b{font-size:14px}.card .nx{font-size:12px;color:var(--soft)}
+.score{font-family:var(--mono);font-size:11px;font-weight:500}
+.s-ok{color:var(--ok)}.s-warn{color:var(--warn)}.s-bad{color:var(--bad)}
+/* Tabla */
+.tw{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;min-width:860px;font-size:13.5px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--soft);font-weight:600;position:sticky;top:0;background:var(--panel)}
+.fz{display:inline-block;width:22px;height:22px;border-radius:50%;color:#fff;font:700 12px var(--mono);display:grid;place-items:center}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--soft)}
+@media (max-width:640px){.day{grid-template-columns:1fr}.it{grid-template-columns:auto 1fr}.money{grid-column:2}}
+@media (prefers-reduced-motion:no-preference){.it,.card{transition:opacity .2s}}
+</style>
+
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>Centro de Mando Nexus</h1>
+      <p class="sub">Clientes, prospectos y quién mueve cada cosa. Meta: llevarlos a la fase de Guillermo ($1,000 al mes).</p>
+    </div>
+    <div class="meta" id="act">Actualizado 31 oct 2026 · 01:30</div>
+  </div>
+
+  <div class="strip" id="kpis"></div>
+
+  <div class="legend">
+    <span><span class="pill tu">Tú</span> solo Carlos puede hacerlo (Meta, cobros, decisiones)</span>
+    <span><span class="pill ia">IA</span> lo hago yo</span>
+    <span><span class="pill cli">Cliente</span> esperamos algo de ellos</span>
+  </div>
+
+  <div class="tabs" role="tablist">
+    <button role="tab" id="t-agenda" aria-selected="true" data-v="agenda">Agenda</button>
+    <button role="tab" id="t-embudo" aria-selected="false" data-v="embudo">Embudo por fase</button>
+    <button role="tab" id="t-tabla" aria-selected="false" data-v="tabla">Todos los clientes</button>
+  </div>
+
+  <div class="filters" id="filtros">Ver:
+    <button class="fbtn" data-q="todos" aria-pressed="true">Todo</button>
+    <button class="fbtn" data-q="tu" aria-pressed="false">Lo mío</button>
+    <button class="fbtn" data-q="ia" aria-pressed="false">Lo de la IA</button>
+    <button class="fbtn" data-q="cli" aria-pressed="false">Esperando cliente</button>
+  </div>
+
+  <section id="v-agenda"></section>
+  <section id="v-embudo" hidden></section>
+  <section id="v-tabla" hidden></section>
+</div>
+
+<script>
+const FASES=[
+ {n:1,t:"Contacto",c:"var(--f1)",sal:"Sale con giro, ciudad y 3 fotos o voz"},
+ {n:2,t:"Muestra",c:"var(--f2)",sal:"Sale con muestra 8+ que le guste"},
+ {n:3,t:"Primer pago",c:"var(--f3)",sal:"Sale cuando paga $500 + pauta"},
+ {n:4,t:"Al aire",c:"var(--f4)",sal:"Sale cuando cierra un trabajo con los mensajes"},
+ {n:5,t:"Mensual",c:"var(--f5)",sal:"Paga cada mes y pide videos"}];
+// c: nombre, giro, fase, g: [hoy, proyectada], sig: siguiente paso, q: quién, f: fecha (AAAA-MM-DD), $: dinero
+const C=[
+ {c:"Guillermo · Vicens",g0:"Herrería · Puebla",f:5,g:[7.5,8.6],sig:"Recalificando v3 @far12; mandar clips de su taller",q:"cli",d:"2026-10-31",m:"Cobro 29 nov · $1,000"},
+ {c:"BD Pro",g0:"Pistas de baile · MTY",f:4,g:null,sig:"Revisar en Meta por qué no le llegan mensajes",q:"tu",d:"2026-10-31",m:"Cobro 24 nov"},
+ {c:"José · Grupo JR",g0:"Impermeabilización · Puebla",f:4,g:[6.5,8.5],sig:"Confirmar si el 10% de descuento es real",q:"cli",d:"2026-10-31"},
+ {c:"Alberto · Veneers",g0:"Dentista · Nogales",f:4,g:[6,8],sig:"Que la doctora apruebe la v6c y corregir cuadro borroso",q:"cli",d:"2026-11-01"},
+ {c:"Israel · SIRLed",g0:"Pantallas LED",f:4,g:null,sig:"Mandar audio leyendo su guion",q:"cli",d:"2026-11-01"},
+ {c:"Iván · Fumicam",g0:"Fumigación · Cuernavaca/CDMX",f:4,g:[6,8],sig:"Mandar precios «desde»",q:"cli",d:"2026-10-31"},
+ {c:"Uriel",g0:"Consultor de liderazgo",f:4,g:[3,7],sig:"Rehacer reel de «Filtro de Liderazgo» con su foto",q:"ia",d:"2026-11-03"},
+ {c:"Rar~Amore · 360 Salud",g0:"Suplementos",f:4,g:null,sig:"Confirmar que recibe mensajes y mandarle reporte",q:"tu",d:"2026-11-02"},
+ {c:"Víctor · Servilin",g0:"Limpieza empresas",f:3,g:[7,8.5],sig:"Anuncios subidos en pausa; activar cuando llegue a 8 («activa Víctor»)",q:"tu",d:"2026-11-01",m:"Pauta $200 al 9 nov"},
+ {c:"Manuel · Hunab Ku",g0:"Fotografía XV",f:3,g:[5,7],sig:"Agregar oferta y corregir voz «agenda»",q:"ia",d:"2026-11-01"},
+ {c:"Giovanni",g0:"Abogado · Los Cabos",f:3,g:[6,8],sig:"WhatsApp grande y voz «Giovanni»; cobro por confirmar",q:"ia",d:"2026-11-01"},
+ {c:"Fernando · Anegocios",g0:"Punto de venta",f:3,g:null,sig:"Mandar audio con su guion",q:"cli",d:"2026-11-01"},
+ {c:"Lisbeth",g0:"Terrenos · Tomatlán",f:3,g:[5,9],sig:"Número nuevo, medidas, plano y video de la presa",q:"cli",d:"2026-11-01"},
+ {c:"Omar",g0:"Redes de mercadeo",f:3,g:null,sig:"Decidir si se devuelven $250",q:"tu",d:"2026-11-01"},
+ {c:"Cinthia",g0:"Psicóloga",f:3,g:null,sig:"Aprobar tarjetas; luego ofrecer campaña",q:"cli",d:"2026-11-03"},
+ {c:"Tatuador · Adrián",g0:"Tatuajes · Cancún",f:2,g:[6,8],sig:"Mandarle el hard cut (sin IA en él) y cobrar",q:"tu",d:"2026-10-31",m:"Ofreció $1,000"},
+ {c:"Rubén",g0:"Alineación · Metepec",f:2,g:[7,8.5],sig:"Tu «ok Rubén» para mandarle la v3b",q:"tu",d:"2026-10-31"},
+ {c:"Jesús · Puertas",g0:"Carpintería · Mazatlán",f:2,g:[7,8.5],sig:"Foto suya y videos del taller; cerrar $500",q:"cli",d:"2026-11-01"},
+ {c:"Andrés · U Construcción",g0:"Contratista · Juárez",f:2,g:[6,8],sig:"Nombre comercial, ciudad y fotos de obra",q:"cli",d:"2026-11-01"},
+ {c:"Rachel",g0:"Micropigmentación · Mexicali",f:2,g:null,sig:"Tu «ok Rachel» para animar",q:"tu",d:"2026-10-31"},
+ {c:"Mariano",g0:"Casas · Rosarito",f:2,g:null,sig:"Rehacer gancho Spider-Man (necesita recarga GPU)",q:"ia",d:"2026-11-02"},
+ {c:"Blanca",g0:"Terapia de lenguaje",f:2,g:null,sig:"Esperar su video grabado; $500 por cerrar",q:"cli",d:"2026-11-02"},
+ {c:"Verónica",g0:"Torre El Charro · Tampico",f:2,g:null,sig:"Corregir a pesos y pedir selfie",q:"ia",d:"2026-11-03"},
+ {c:"Generadores · Ignacio",g0:"Energy Controlled",f:2,g:null,sig:"Escuchar audios y mostrar caso Guillermo",q:"ia",d:"2026-11-02"},
+ {c:"Ignacio",g0:"Iglesia",f:2,g:null,sig:"Ofrecer pauta pagada por él",q:"tu",d:"2026-11-03",m:"$500 pendiente"},
+ {c:"Pleiadian Brewing",g0:"Cervecería · Nogales",f:1,g:null,sig:"Plan de Meta en camino; pedir fotos, videos y precios",q:"ia",d:"2026-10-31"},
+ {c:"Sanick",g0:"Terapia ciática · Chicoloapan",f:1,g:null,sig:"Tu «aprobado Sanick» para la muestra",q:"tu",d:"2026-10-31"},
+ {c:"Carpintería Cadena",g0:"Cocinetas · MTY",f:1,g:null,sig:"Tu «aprobado Cocinetas» para la muestra",q:"tu",d:"2026-10-31"},
+ {c:"Terapeuta de lenguaje",g0:"55 2858 1526",f:1,g:null,sig:"Mandarle tu cuenta: quería depositar",q:"tu",d:"2026-10-31",m:"$500 + pauta"},
+ {c:"Carpintería El Marqués",g0:"Querétaro",f:1,g:null,sig:"Pedir giro detallado y precio",q:"ia",d:"2026-11-01"},
+ {c:"Despacho contable",g0:"55 2757 1049",f:1,g:null,sig:"Ciudad, servicio, precio y fotos",q:"cli",d:"2026-11-01"},
+ {c:"Cursos de inglés",g0:"55 5069 9407",f:1,g:null,sig:"Fotos y precio para su muestra",q:"cli",d:"2026-11-01"},
+ {c:"6 leads sin respuesta",g0:"81 2947 · 55 6709 · 81 2007 · 442 327 · 55 2849 · 442 324",f:1,g:null,sig:"Seguimiento a las 48 h",q:"ia",d:"2026-11-01"},
+];
+const EXTRA=[
+ {d:"2026-10-31",c:"Recarga GPU",sig:"Recargar Modal para muestras y Spider-Man (quedan ≈$1.3)",q:"tu"},
+ {d:"2026-11-09",c:"Víctor · Servilin",sig:"Termina su pauta de $200: revisar mensajes y renovar",q:"tu"},
+ {d:"2026-11-24",c:"BD Pro · pistas de baile",sig:"Cobro mensual",q:"tu",m:"$500"},
+ {d:"2026-11-29",c:"Guillermo · Vicens",sig:"Cobro mensual",q:"tu",m:"$1,000"},
+];
+const QN={tu:"Tú",ia:"IA",cli:"Cliente"};
+let filtro="todos",DONE={};
+try{DONE=JSON.parse(localStorage.getItem("nexus_done")||"{}")}catch(e){}
+const guardar=()=>{try{localStorage.setItem("nexus_done",JSON.stringify(DONE))}catch(e){}};
+const key=x=>x.c+"|"+x.d+"|"+x.sig;
+const fmt=d=>{const t=new Date(d+"T12:00:00");return{dia:t.toLocaleDateString("es-MX",{weekday:"long"}),f:t.toLocaleDateString("es-MX",{day:"numeric",month:"short"})}};
+const sc=g=>!g?'<span class="score" style="color:var(--soft)">sin calificar</span>':`<span class="score ${g[0]>=8?"s-ok":g[0]>=6?"s-warn":"s-bad"}">Glimmer ${g[0]} → ${g[1]}</span>`;
+const esc=s=>String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+function kpis(){
+  const n=f=>C.filter(x=>x.f===f).length;
+  const tu=[...C,...EXTRA].filter(x=>x.q==="tu"&&x.d<="2026-10-31"&&!DONE[key(x)]).length;
+  const ok8=C.filter(x=>x.g&&x.g[0]>=8).length;
+  document.getElementById("kpis").innerHTML=[
+   ["Mensuales (fase 5)",n(5)],["Al aire (fase 4)",n(4)],["Pagaron (fase 3)",n(3)],["Con muestra (fase 2)",n(2)],["Prospectos (fase 1)",n(1)],["Tus pendientes hoy",tu],["Videos en 8+",ok8]
+  ].map(([s,b])=>`<div class="k"><b>${b}</b><span>${s}</span></div>`).join("");
+}
+function agenda(){
+  const all=[...C,...EXTRA].filter(x=>filtro==="todos"||x.q===filtro).sort((a,b)=>a.d.localeCompare(b.d)||(a.q==="tu"?-1:1));
+  const dias=[...new Set(all.map(x=>x.d))];
+  document.getElementById("v-agenda").innerHTML=dias.map(d=>{const f=fmt(d);return `<div class="day"><div><h3 style="text-transform:capitalize">${f.dia}</h3><small>${f.f}</small></div><div class="items">${
+    all.filter(x=>x.d===d).map(x=>{const k=key(x),dn=!!DONE[k];return `<div class="it${dn?" done":""}"><button class="chk" aria-label="Marcar hecho: ${esc(x.c)}" data-k="${esc(k)}">${dn?"✓":""}</button><div style="min-width:0"><div class="what">${esc(x.sig)}</div><div class="who">${esc(x.c)} · <span class="pill ${x.q}">${QN[x.q]}</span></div></div>${x.m?`<span class="money">${esc(x.m)}</span>`:"<span></span>"}</div>`}).join("")
+  }</div></div>`}).join("")||'<p class="sub">Nada pendiente con este filtro.</p>';
+}
+function embudo(){
+  document.getElementById("v-embudo").innerHTML=`<div class="board">${FASES.slice().reverse().map(F=>{const L=C.filter(x=>x.f===F.n&&(filtro==="todos"||x.q===filtro));return `<div class="col" style="--c:${F.c}"><h4><span>${F.n} · ${F.t}</span><span>${L.length}</span></h4><p class="exit">${F.sal}</p>${L.map(x=>`<div class="card"><b>${esc(x.c)}</b><span class="nx">${esc(x.g0)}</span>${sc(x.g)}<span class="nx">→ ${esc(x.sig)}</span><span><span class="pill ${x.q}">${QN[x.q]}</span></span></div>`).join("")}</div>`}).join("")}</div>`;
+}
+function tabla(){
+  const L=C.filter(x=>filtro==="todos"||x.q===filtro).sort((a,b)=>b.f-a.f);
+  document.getElementById("v-tabla").innerHTML=`<div class="tw"><table><thead><tr><th>Fase</th><th>Cliente</th><th>Giro</th><th>Glimmer</th><th>Siguiente paso</th><th>Quién</th><th>Cuándo</th><th>Dinero</th></tr></thead><tbody>${
+   L.map(x=>`<tr><td><span class="fz" style="background:${FASES[x.f-1].c}">${x.f}</span></td><td><b>${esc(x.c)}</b></td><td>${esc(x.g0)}</td><td>${sc(x.g)}</td><td>${esc(x.sig)}</td><td><span class="pill ${x.q}">${QN[x.q]}</span></td><td style="font-family:var(--mono);font-size:12px">${fmt(x.d).f}</td><td class="money">${esc(x.m||"")}</td></tr>`).join("")}</tbody></table></div>`;
+}
+function todo(){kpis();agenda();embudo();tabla()}
+document.addEventListener("click",e=>{
+  const t=e.target.closest(".tabs button");
+  if(t){document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b===t));["agenda","embudo","tabla"].forEach(v=>document.getElementById("v-"+v).hidden=v!==t.dataset.v);return}
+  const f=e.target.closest(".fbtn");
+  if(f){filtro=f.dataset.q;document.querySelectorAll(".fbtn").forEach(b=>b.setAttribute("aria-pressed",b===f));todo();return}
+  const c=e.target.closest(".chk");
+  if(c){const k=c.dataset.k;DONE[k]=!DONE[k];if(!DONE[k])delete DONE[k];guardar();todo()}
+});
+todo();
+</script>

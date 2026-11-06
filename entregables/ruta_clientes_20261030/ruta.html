@@ -1,0 +1,264 @@
+<title>Ruta a Guillermo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: escalera de 5 fases arriba (cuántos hay en cada una), reglas que sacó Guillermo, y luego el tablero por fase con la siguiente acción de cada cliente. */
+:root {
+  --bg: #f1f2ee; --paper: #fbfbf8; --ink: #1c2420; --muted: #5f6b65; --line: #d5dad4; --soft: #e7eae5;
+  --accent: #b5561b; --accent-soft: #f6e1d2; --money: #2d7a4a; --money-soft: #dcefe2; --warn: #a06b00; --warn-soft: #f5ead0;
+  --f1: #8a948f; --f2: #6a7fa8; --f3: #8a6fb0; --f4: #c07a2a; --f5: #2d7a4a;
+  --f-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #131815; --paper: #1a201c; --ink: #e6ebe7; --muted: #9ba8a1; --line: #2d3631; --soft: #222a25;
+  --accent: #ec8a4c; --accent-soft: #3c2617; --money: #63c48a; --money-soft: #183626; --warn: #e9b44d; --warn-soft: #3a2d10;
+  --f1: #8f9a94; --f2: #8ea3cf; --f3: #b39ad8; --f4: #e3a35a; --f5: #63c48a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #131815; --paper: #1a201c; --ink: #e6ebe7; --muted: #9ba8a1; --line: #2d3631; --soft: #222a25;
+  --accent: #ec8a4c; --accent-soft: #3c2617; --money: #63c48a; --money-soft: #183626; --warn: #e9b44d; --warn-soft: #3a2d10;
+  --f1: #8f9a94; --f2: #8ea3cf; --f3: #b39ad8; --f4: #e3a35a; --f5: #63c48a; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1100px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 28px; }
+h1, h2, h3 { font-family: var(--f-display); font-stretch: 80%; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(30px, 5.5vw, 48px); font-weight: 800; line-height: 1.02; }
+h2 { font-size: 24px; font-weight: 800; }
+h3 { font-size: 18px; font-weight: 700; }
+p { margin: 0; max-width: 68ch; }
+.eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.lead { color: var(--muted); font-size: 16px; }
+header { display: grid; gap: 10px; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--f-mono); font-size: 13px; color: var(--muted); }
+.meta b { color: var(--ink); font-weight: 500; }
+
+.escalera { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; align-items: end; }
+.peld { background: var(--paper); border: 1px solid var(--line); border-top: 5px solid var(--c); border-radius: 8px; padding: 12px; display: grid; gap: 6px; cursor: pointer; text-align: left; font: inherit; color: inherit; }
+.peld:nth-child(1) { min-height: 150px } .peld:nth-child(2) { min-height: 170px } .peld:nth-child(3) { min-height: 190px } .peld:nth-child(4) { min-height: 210px } .peld:nth-child(5) { min-height: 230px; background: var(--money-soft); }
+.peld[aria-pressed="true"] { outline: 2px solid var(--c); outline-offset: 1px; }
+.peld .n { font-family: var(--f-mono); font-size: 11px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+.peld .t { font-family: var(--f-display); font-stretch: 80%; font-weight: 800; font-size: 19px; line-height: 1.1; }
+.peld .cnt { font-family: var(--f-display); font-weight: 800; font-size: 34px; line-height: 1; color: var(--c); font-variant-numeric: tabular-nums; }
+.peld .sal { font-size: 13px; color: var(--muted); }
+@media (max-width: 720px) { .escalera { grid-template-columns: 1fr; } .peld { min-height: 0 !important; } }
+
+.oferta { background: var(--ink); color: var(--bg); border-radius: 10px; padding: 18px 20px; display: grid; gap: 8px; }
+.oferta .eyebrow { color: color-mix(in srgb, var(--bg) 70%, var(--ink)); }
+.oferta p { font-size: 17px; max-width: 70ch; }
+.oferta b { color: var(--bg); }
+
+.reglas { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+.regla { background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; display: grid; gap: 6px; align-content: start; }
+.regla .por { font-size: 13px; color: var(--muted); }
+
+.semana { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; }
+.dia { border-left: 3px solid var(--accent); padding: 4px 0 4px 12px; display: grid; gap: 2px; }
+.dia b { font-family: var(--f-mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+
+.barra { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: 500 12px var(--f-mono); padding: 5px 11px; border-radius: 99px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+button { font: inherit; cursor: pointer; }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.guardar { font-weight: 600; font-size: 14px; border-radius: 6px; padding: 8px 14px; border: 1px solid var(--accent); background: var(--accent); color: var(--paper); }
+.guardar:disabled { opacity: .5; cursor: default; }
+.estado { font-family: var(--f-mono); font-size: 12px; color: var(--muted); }
+
+.grupo { display: grid; gap: 10px; }
+.grupo-t { display: flex; align-items: baseline; gap: 10px; border-bottom: 2px solid var(--c); padding-bottom: 4px; }
+.grupo-t span { font-family: var(--f-mono); font-size: 12px; color: var(--muted); }
+.fichas { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 10px; }
+@media (max-width: 400px) { .fichas { grid-template-columns: 1fr; } }
+.ficha { background: var(--paper); border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 8px; padding: 14px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.ficha.urgente { box-shadow: inset 0 0 0 1px var(--accent); }
+.ficha-top { display: flex; justify-content: space-between; gap: 10px; align-items: start; }
+.giro { font-family: var(--f-mono); font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
+.pills { display: flex; flex-wrap: wrap; gap: 5px; }
+.pill { font: 500 11px var(--f-mono); padding: 2px 8px; border-radius: 99px; background: var(--soft); color: var(--ink); }
+.pill.dinero { background: var(--money-soft); color: var(--money); }
+.pill.riesgo { background: var(--warn-soft); color: var(--warn); }
+.pill.urg { background: var(--accent-soft); color: var(--accent); }
+.falta { font-size: 13px; color: var(--muted); }
+.falta b { color: var(--ink); font-weight: 600; }
+.accion { background: var(--soft); border-radius: 6px; padding: 8px 10px; font-size: 14px; }
+.accion b { display: block; font: 500 10px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.msj { display: grid; gap: 4px; }
+.msj q { quotes: none; font-size: 14px; border-left: 2px solid var(--line); padding-left: 10px; color: var(--ink); }
+.fila-b { display: flex; flex-wrap: wrap; gap: 6px; }
+.mini { font: 500 12px var(--f-body); padding: 4px 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); }
+.mover { font: 500 12px var(--f-mono); padding: 4px 8px; border-radius: 6px; border: 1px solid var(--line); background: transparent; color: var(--muted); }
+.vacio { color: var(--muted); font-size: 14px; }
+footer { color: var(--muted); font-size: 13px; display: grid; gap: 4px; }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Visión Agencia · sistema de clientes · 30 oct 2026</div>
+    <h1>Llevar a cada cliente a donde está Guillermo</h1>
+    <p class="lead">Guillermo paga cada mes, aprueba rápido y cierra trabajos con tus videos. Esta página ordena a todos tus clientes y prospectos en cinco fases. Cada ficha dice qué falta para subir de fase y qué mensaje mandar hoy.</p>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <section aria-labelledby="t-fases" style="display:grid;gap:12px">
+    <h2 id="t-fases">Las cinco fases</h2>
+    <div class="escalera" id="escalera"></div>
+    <p class="estado">Toca una fase para ver solo esos clientes abajo.</p>
+  </section>
+
+  <section class="oferta" aria-labelledby="t-oferta">
+    <div class="eyebrow" id="t-oferta">Una sola oferta para todos</div>
+    <p><b>$500 al mes</b> por la estrategia y los videos (hasta 4 al mes, con sus fotos y su voz) <b>+ su pauta en Facebook desde $250</b>, que paga él. Total para el cliente: <b>$750 a $1,000 al mes</b>. Se cobra el mismo día de cada mes.</p>
+    <p style="font-size:14px;opacity:.85">Hoy ofreces cosas distintas: «4 videos por $500», «$500 + $100 diarios», «$500 al mes» y el tatuador ofreció $1,000 si le salen 2 citas por semana. Con una sola oferta el cliente compara menos y tú cobras igual a todos.</p>
+  </section>
+
+  <section aria-labelledby="t-reglas" style="display:grid;gap:12px">
+    <h2 id="t-reglas">Lo que funcionó con Guillermo, como reglas</h2>
+    <div class="reglas">
+      <div class="regla"><h3>1. Oficio con trabajos caros</h3><p>Pérgolas, techos, puertas, abogado, dentista, tatuajes. Con uno o dos de los 30 mensajes ya recupera lo que te paga.</p><p class="por">Tú lo dijiste el 29 oct: enfocarte en los que tienen oficio. Ramos de $160 o sombras de $50 no alcanzan para pagar $1,000.</p></div>
+      <div class="regla"><h3>2. Sus fotos reales, nunca imágenes inventadas</h3><p>Guillermo manda capturas de su obra y el video sale con su estructura exacta. Por eso confía y lo enseña a sus clientes.</p><p class="por">Generadores lo dijo directo: «yo necesito resultados, no imágenes».</p></div>
+      <div class="regla"><h3>3. Muestra en 24 horas</h3><p>Fotos recibidas hoy, muestra mañana. La espera es donde más se te enfrían: Jesús Puertas lleva desde el 28 esperando su prueba y Víctor pregunta si ya circula su campaña.</p><p class="por">Con Modal 666 corriendo solo ya no depende de tu compu.</p></div>
+      <div class="regla"><h3>4. Calificación 8 o más antes de subir</h3><p>Los videos con 8.2 trajeron mensajes a $4; los de 6 no trajeron nada. No se sube nada con menos de 8.</p><p class="por">Lisbeth está en 5/10: por eso todavía no se sube.</p></div>
+      <div class="regla"><h3>5. Al aire 48 horas después del pago</h3><p>Pagó, se sube. Si falta algo, se sube con lo que hay y se mejora después.</p><p class="por">Guillermo pagó el 29 y ese mismo día ya tenía su video del techo.</p></div>
+      <div class="regla"><h3>6. Reporte con números cada semana</h3><p>Mensajes recibidos, costo por mensaje y cuáles preguntaron precio. Es lo que hace que paguen el segundo mes.</p><p class="por">Guillermo renueva porque ve los trabajos que cierra.</p></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-analisis" style="display:grid;gap:12px">
+    <h2 id="t-analisis">Lo que dicen tus chats desde que entró José (28 sep)</h2>
+    <p class="lead">Revisé 322 chats y 10,555 mensajes. Unos 45 negocios platicaron en serio contigo.</p>
+    <div class="reglas">
+      <div class="regla"><h3>Quién pagó</h3><p>Guillermo, BD Pro, José, Víctor, Israel, Iván (pauta), Omar, Alberto (campaña con su tarjeta) y Jesús de Rar~Amore. Solo Guillermo dice que cierra trabajos.</p></div>
+      <div class="regla"><h3>Se perdieron por espera</h3><p>Omar pidió su dinero el 15 oct («no veo formalidad»). Jeremías se fue con otro el 22 («muchas vueltas»). Israel pagó el 19 y sigue sin campaña.</p></div>
+      <div class="regla"><h3>El acceso a Facebook se come los días</h3><p>WhatsApp Business, cuentas publicitarias, tarjetas y contraseñas: con 360 Salud, Alberto, José, Jeremías, Omar y Uriel se fueron días ahí antes de subir nada.</p></div>
+      <div class="regla"><h3>Precio distinto cada vez</h3><p>$500 + $50 diarios, $500 + $100 diarios, $200 cada 15 días, $1,000. José Héctor calculó $2,000 al mes y se frenó; el 55 6447 5707 dijo que sale de su presupuesto.</p></div>
+      <div class="regla"><h3>Resultados que no convencen</h3><p>Iván: «puro preguntón». Víctor: cero clientes. Uriel apagó su campaña. Hace falta filtro en el anuncio (precio y zona) y reporte semanal.</p></div>
+      <div class="regla"><h3>Interesados que nadie siguió</h3><p>Al menos 12 preguntaron precio o dijeron «me interesa» y no se les volvió a escribir. Ya están en el tablero en fase 1 y 2.</p></div>
+      <div class="regla"><h3>Frases que restan confianza</h3><p>«No tengo créditos», «espero el pago de otro prospecto», «se me cayó el sistema», «el que se desespera se queda sin campaña». Mejor dar fecha y cumplirla.</p></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-semana" style="display:grid;gap:12px">
+    <h2 id="t-semana">Tu semana</h2>
+    <div class="semana">
+      <div class="dia"><b>Lunes</b>Reporte de números a cada cliente en fase 4 y 5. Cobros que vencen esa semana.</div>
+      <div class="dia"><b>Martes</b>Muestras para quien mandó fotos. Una por prospecto, con su foto real.</div>
+      <div class="dia"><b>Miércoles</b>Cerrar: a quien vio su muestra, mandarle la oferta y tu cuenta.</div>
+      <div class="dia"><b>Jueves</b>Subir campañas de quien pagó. Pedir calificación 8+ antes.</div>
+      <div class="dia"><b>Viernes</b>Contestar a todos los «Quiero más información» de la semana pidiendo giro, ciudad y 3 fotos.</div>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-tablero" style="display:grid;gap:16px">
+    <div class="barra">
+      <h2 id="t-tablero">Tablero por fase</h2>
+      <div class="fila-b">
+        <button class="guardar" id="b-guardar" hidden disabled>Guardar cambios</button>
+        <span class="estado" id="estado-guardar"></span>
+      </div>
+    </div>
+    <div class="chips" id="filtros">
+      <button class="chip" id="f-hoy" aria-pressed="false">Solo lo de hoy</button>
+      <button class="chip" id="f-dinero" aria-pressed="false">Hay dinero por cobrar</button>
+      <button class="chip" id="f-todas" aria-pressed="true">Todas las fases</button>
+    </div>
+    <div id="tablero" style="display:grid;gap:22px"></div>
+  </section>
+
+  <footer>
+    <p>Datos: tus chats de WhatsApp del 20 al 29 oct (texto; los audios no se transcribieron), el tablero del 27 oct y la lista de clientes del 30 oct. Se dejaron fuera familia, amigos y chats personales.</p>
+    <p>Lo marcado «por confirmar» no aparece claro en los chats: revísalo antes de cobrar.</p>
+  </footer>
+</div>
+
+<script type="application/json" id="datos">{"fases": [{"n": 1, "t": "Contacto", "c": "--f1", "sal": "Sale cuando te da su giro, su ciudad y 3 fotos reales o su voz."}, {"n": 2, "t": "Muestra", "c": "--f2", "sal": "Sale cuando ve su muestra con calificación 8+ y dice que le gusta."}, {"n": 3, "t": "Primer pago", "c": "--f3", "sal": "Sale cuando paga los $500 + su pauta."}, {"n": 4, "t": "Al aire", "c": "--f4", "sal": "Sale cuando recibe mensajes y cierra un trabajo con ellos."}, {"n": 5, "t": "Mensual · como Guillermo", "c": "--f5", "sal": "Se queda: paga cada mes y pide videos nuevos."}], "clientes": [{"id": "guillermo", "n": "Guillermo Vicens", "g": "Herrería · pérgolas, techos, zaguanes · Puebla", "f": 5, "hoy": true, "dinero": "Pagó $750 el 29 oct ($500 tuyos + $250 pauta). Próximo cobro 29 nov", "falta": "Nada: mantenerlo. Con su primera campaña ya cerró trabajos (uno de $5,500 según su audio) y tiene un techo por cerrar con el video v6.", "accion": "Mandarle el video Pixar de zaguanes, cortinas, puertas y pérgolas (se está generando). Preguntar si cerró el techo.", "msj": "Guillermo, ¿cómo le fue con el cliente del techo? Ya va su video de zaguanes, cortinas y puertas, más accesible como pidió."}, {"id": "bdpro", "n": "BD Pro Monterrey", "g": "Pistas de baile · Monterrey", "f": 4, "dinero": "Pagó $500 el 24 oct. Cobro 24 nov", "falta": "Confía plenamente, pero no entendió eso de «cuesta medio dólar». Falta reporte de resultados y su estrategia 10/10/10.", "accion": "Mandar reporte de mensajes y costo de su primera semana.", "msj": "¿Cómo van los mensajes de la campaña? Le paso los números de esta semana y lo que vamos a mejorar."}, {"id": "jose", "n": "José · Grupo JR", "g": "Impermeabilización · Puebla · 221 573 3127", "f": 4, "hoy": true, "dinero": "Iba a transferir la pauta el 27 oct · por confirmar", "riesgo": "Confirmar pago", "falta": "v4 aprobada («Quedó bien»). Falta quitar lo rojo y subirla.", "accion": "Quitar lo rojo de la v4, pedir calificación y subir v3 + v4 juntas.", "msj": "José, ya quité lo rojo. Subo la v3 y la v4 y la que mejor califique Facebook se queda. ¿Me confirma la transferencia de la pauta?"}, {"id": "victor", "n": "Víctor Servilin", "g": "Limpieza para empresas", "f": 3, "hoy": true, "dinero": "Pagó $250 + $100 de pauta y $200 el 29 oct (quedó en $200 cada 15 días)", "riesgo": "Cero clientes hasta hoy · pagó y no está al aire", "falta": "Su campaña no está al aire. Le prometiste activarla mañana.", "accion": "Subir hoy el video que eligió con la alerta «No es oferta de empleo» y su segmentación a empresas.", "msj": "Víctor, su campaña queda activa hoy con el video que eligió. El lunes le paso cuántos mensajes de empresas llegaron."}, {"id": "giovanni", "n": "Giovanni Pulido", "g": "Abogado · divorcios · Los Cabos", "f": 3, "hoy": true, "dinero": "Por confirmar", "falta": "Video v2 listo (la cara cambia entre tomas). Confirmar precio $20,000 y cobro.", "accion": "Corregir la cara y mandarle la v2 con la oferta mensual.", "msj": "Licenciado, quedó su video con su voz. Corrijo un detalle de la cara y lo subimos. Para arrancar son $500 del mes + su pauta desde $250."}, {"id": "fernando", "n": "Fernando · Anegocios", "g": "Punto de venta en la nube · 55 4358 3070", "f": 3, "dinero": "Por confirmar", "falta": "Le gusta y da cambios: impresora más chica, lector real, caja de software. Va a grabar él.", "accion": "Corregir accesorios y mandarle el guion 10/10 para que lo grabe.", "msj": "Fernando, corregí el lector y la impresora. Le paso el guion para que lo grabe con su naturalidad y lo subimos."}, {"id": "manuel", "n": "Manuel · Hunab Ku Fotografía", "g": "Fotografía de XV años", "f": 3, "hoy": true, "dinero": "Por confirmar", "falta": "Le gustó la v19. Le prometiste hacer la campaña hoy.", "accion": "Subir la campaña con la v19 y su WhatsApp en la tarjeta final.", "msj": "Manuel, hoy queda su campaña arriba con la v19. ¿Qué número de WhatsApp pongo al final?"}, {"id": "alberto", "n": "Alberto · Veneers Dental", "g": "Dra. Ángeles · Nogales", "f": 4, "dinero": "Campaña creada el 22 oct con $100 diarios en su tarjeta", "falta": "La campaña se configuró el 22 oct. Grabaste a la doctora el 27. Faltan precios de carillas, brackets, tomografía y placas.", "accion": "Mandar reporte de mensajes desde el 22 y subir el video real de la doctora.", "msj": "Alberto, ya tengo lo de la doctora. Para el anuncio me faltan los precios de carillas, brackets, tomografía y placas."}, {"id": "lisbeth", "n": "Lisbeth", "g": "Terreno · Tomatlán, Jalisco", "f": 3, "dinero": "Por confirmar", "riesgo": "Calificación 5/10", "falta": "No se sube hasta 8. Faltan su número nuevo, presupuesto, plano y documentos.", "accion": "Llamada de las 12: pedir número nuevo, lotes y precios. Rehacer cierre.", "msj": "Lisbeth, con su número nuevo y el plano de los lotes subo la calificación a 8 y la arrancamos."}, {"id": "cinthia", "n": "Cinthia Payán", "g": "Psicóloga · Jayil · 631 132 9429", "f": 3, "dinero": "Trabajo de diseño (tarjetas)", "falta": "Mañana enseña la tarjeta para dar el visto bueno e imprimir.", "accion": "Cuando apruebe, ofrecerle la campaña de consultas.", "msj": "Cinthia, cuando la aprueben le mando el PDF para imprimir. Si quiere, hacemos un video con su voz para llenar su agenda de consultas."}, {"id": "mariano", "n": "Mariano", "g": "Catania · Vizcaíno, Rosarito", "f": 2, "dinero": "Por confirmar", "falta": "Le mandaste dos ganchos; no ha elegido. Recorrido solo de casas.", "accion": "Mandarle el recorrido premium con el gancho nuevo para que elija.", "msj": "Mariano, quedó el recorrido de las casas con el gancho nuevo. ¿Cuál le gusta para subirlo?"}, {"id": "jesus", "n": "Jesús · Puertas", "g": "Puertas y portones", "f": 2, "hoy": true, "riesgo": "Espera desde el 28 oct", "falta": "Su muestra ya está lista (fotos reales, su voz y precios). Dice: «yo cierro la venta, lo difícil es contactar al cliente».", "accion": "Mandarle su muestra y la oferta: es el perfil ideal (sabe vender, le faltan contactos).", "msj": "Jesús, gracias por esperar. Ya quedó el sistema estable: aquí está su muestra."}, {"id": "ruben", "n": "Rubén · Quiropraxia", "g": "Quiropráctico", "f": 2, "dinero": "", "falta": "Mandó fotos el 29 oct. Tiene 6 cuadros listos.", "accion": "Armar su video de oferta y confianza con sus fotos.", "msj": "Rubén, con sus fotos quedó su video. Véalo y si le gusta lo calificamos con Facebook."}, {"id": "tatuador", "n": "Tatuador · 998 331 6522", "g": "Tatuajes", "f": 2, "hoy": true, "dinero": "Ofreció $1,000 si salen 2 citas por semana", "falta": "Ya mandó fotos, videos y su voz. Eligió dos estilos de referencia.", "accion": "Su video con su voz y la oferta mensual. Es el más parecido a Guillermo: ticket alto y ganas.", "msj": "Ya quedó su video con su voz. Arrancamos con $500 del mes + $250 de pauta; si salen sus 2 citas por semana, subimos al plan de $1,000."}, {"id": "israel", "n": "Israel · SIRLed", "g": "Pantallas LED · 55 7503 1182", "f": 4, "falta": "Pagó el 19 oct. Le mandaste v1 y v2 el 22; el 27 pidió seguimiento y un guion para grabar su voz.", "accion": "Recibir su audio con el guion y subir la campaña esta semana.", "msj": "Israel, ¿pudo grabar el guion? Con su audio subo la campaña al día siguiente.", "dinero": "Ya pagó (transferencia 19 oct)", "riesgo": "Pagó y no tiene campaña al aire"}, {"id": "blanca", "n": "Blanca", "g": "Terapia de lenguaje", "f": 2, "dinero": "$500 por cerrar", "falta": "Dijo que la IA se ve «ultra falsa» y que mejor graba ella. Antes otra agencia le trajo 26 mensajes y ninguna terapia.", "accion": "Esperar su video grabado por ella y armarlo con subtítulos y su precio.", "msj": "Blanca, ¿pudo grabar su video? Con él armamos su anuncio."}, {"id": "ivan", "n": "Iván · Fumicam", "g": "Fumigación", "f": 4, "dinero": "Paga pauta de $100 en $100", "falta": "Le gustó la v4 con su voz. Sus mensajes no se convierten en servicios.", "accion": "Revisar con él qué preguntan y ajustar el anuncio con precio y zona para filtrar.", "msj": "Iván, ¿qué le preguntan los que escriben? Ajusto el anuncio para que lleguen con precio y zona claros.", "riesgo": "«Preguntan puro preguntón, no salen los servicios»"}, {"id": "rachel", "n": "Rachel · Clou SPA", "g": "Micropigmentación · Mexicali", "f": 2, "falta": "Escribió «Buen día» el 30 oct a las 8:03. Su muestra está hecha y no se la has mandado.", "accion": "Mandarle la muestra.", "msj": "Rachel, le hice una muestra con su local. ¿Qué le parece?", "hoy": true}, {"id": "veronica", "n": "Verónica Arguelles", "g": "Torre El Charro · Tampico", "f": 2, "falta": "Su muestra decía «7.6 millones de dólares» (son pesos) y la voz le sonó robotizada. Falta su selfie para su voz.", "accion": "Corregir a pesos y pedir su video de 10 s.", "msj": "Verónica, con un video suyo de 10 segundos le pongo su voz a la muestra."}, {"id": "generadores", "n": "Generadores · Ignacio Corona", "g": "Energy Controlled · 55 5461 5710", "f": 2, "riesgo": "Quiere ventas, no imágenes", "falta": "Le pediste $500 al mes; contestó con audios.", "accion": "Escuchar sus audios. Mostrarle el caso de Guillermo con números.", "msj": "Le muestro lo que le llegó a Guillermo con su campaña: mensajes a $4 y trabajos cerrados. Lo mismo hacemos con sus generadores."}, {"id": "ignacio", "n": "Ignacio", "g": "Iglesia", "f": 2, "dinero": "$500 pendiente", "falta": "Quiere «calar»: que subas la publicidad y pagar cuando venda. También quiere promover una camioneta Colorado 2019 en $225 mil.", "accion": "Ofrecer: pauta pagada por él desde $250 y tu servicio al primer resultado.", "msj": "Ignacio, ¿seguimos con el video de la iglesia?"}, {"id": "andres", "n": "Andrés · U Construcción", "g": "Contratista · 656 130 0006", "f": 1, "falta": "Mandó 6 fotos; prefiere otra voz.", "accion": "Hacerle la muestra con voz Fish.", "msj": "Andrés, con sus fotos le armo una muestra con otra voz como pidió."}, {"id": "cocinetas", "n": "Cocinetas y clósets", "g": "81 2416 7384", "f": 1, "falta": "Dio su giro. Faltan fotos y ciudad.", "accion": "Pedir 3 fotos de trabajos y su ciudad.", "msj": "¿Me pasa 3 fotos de cocinetas que haya hecho y su ciudad? Con eso le hago su muestra."}, {"id": "plomeria", "n": "Plomería y electricidad", "g": "81 2616 1532", "f": 1, "falta": "Dio su giro. Faltan fotos.", "accion": "Pedir 3 fotos reales.", "msj": "¿Me pasa 3 fotos de trabajos suyos y su ciudad? Le hago la muestra."}, {"id": "terapeuta", "n": "Terapeuta de lenguaje", "g": "55 2858 1526", "f": 1, "dinero": "Preguntó dónde depositar", "falta": "Quería depositar $500 + $100 diarios.", "accion": "Mandarle la oferta única y tu cuenta.", "msj": "Le paso cómo queda: $500 del mes por los videos + su pauta desde $250. Mi cuenta: 5428 7804 4568 4178."}, {"id": "fumigador", "n": "Fumigaciones Chávez", "g": "Aguascalientes · 449 819 0392", "f": 1, "riesgo": "Ya le fallaron dos agencias", "falta": "Dijo no, pero «diario tengo tiempo».", "accion": "Mandarle su muestra y el caso de Guillermo.", "msj": "Le dejo su muestra y lo que le llegó a otro cliente de oficio. Sin compromiso."}, {"id": "bajo", "n": "Ticket bajo", "g": "294 169 9315 · sombras $50, aretes $60, ramos $160", "f": 1, "riesgo": "No alcanza para $1,000", "falta": "Producto barato.", "accion": "No priorizar.", "msj": ""}, {"id": "p4813", "n": "Prospecto 33 4813 0112", "g": "Sin giro aún", "f": 2, "hoy": true, "dinero": "El 23 oct: «Me interesa calar 1 mes»", "falta": "Preguntó qué necesitas para comenzar; le mandaste tu cuenta y no se volvió a escribir.", "accion": "Pedirle los 6 datos de la ficha y hacer su muestra.", "msj": "¡Hola! Para arrancar su mes de prueba necesito: su giro y ciudad, 3 fotos de su trabajo, su precio desde y un audio de 15 s. Mañana le mando su video."}, {"id": "p1292", "n": "Prospecto 55 1292 2655", "g": "Sin giro aún", "f": 1, "falta": "Preguntó si son $500 al mes y si los resultados tardan 3 meses. «Déjeme busco».", "accion": "Responder con la oferta única y el caso de Guillermo.", "msj": "Son $500 al mes + su pauta desde $250. A Guillermo le llegaron mensajes desde la primera semana. ¿Le hago una muestra?"}, {"id": "mariachi", "n": "Mariachi · 33 1901 4588", "g": "Serenatas y XV · Guadalajara", "f": 2, "dinero": "Dijo «te transfiero el jueves» (28 sep) · por confirmar", "falta": "No aparece la transferencia en el chat.", "accion": "Preguntar si sigue interesado y pedir 3 videos de sus serenatas.", "msj": "¿Seguimos con su campaña de serenatas? Con 3 videos suyos le hago el anuncio."}, {"id": "julio", "n": "Julio César · rosticería", "g": "Coacalco, Edo. Méx.", "f": 2, "falta": "Mandó 10 fotos; le hiciste volante «2 pollos x $280». Nunca ha tenido publicidad.", "accion": "Video corto con sus fotos y su promoción.", "msj": "Julio, le armé un video con sus pollos y la promo de 2 x $280. ¿Se lo mando?"}, {"id": "p962", "n": "Livegood · 962 160 6113", "g": "Emprendedor · Mérida", "f": 1, "falta": "Calculó $350 de pauta + $500. Tiene página, no volantes.", "accion": "Pedirle fotos y su oferta.", "msj": "¿Me pasa fotos de su producto y su precio? Le hago la muestra."}, {"id": "p656", "n": "Internet · 656 827 1366", "g": "Proveedor de internet · Cd. Juárez", "f": 1, "falta": "Ya invierte en anuncios. Preguntó «¿cuál es el plan?» y quedó pendiente.", "accion": "Mandarle la oferta única con un ejemplo.", "msj": "El plan: $500 al mes por estrategia y videos + su pauta. ¿Me pasa fotos de sus instalaciones y precios?"}, {"id": "jhector", "n": "José Héctor León", "g": "Sin giro claro", "f": 1, "riesgo": "Calculó $2,000 al mes y se frenó", "falta": "Le dijeron $500 + $50 diarios.", "accion": "Ofrecerle pauta desde $250 al mes.", "msj": "Le ajusto: $500 de servicio + desde $250 de pauta al mes, no $50 diarios."}, {"id": "finanzas", "n": "Finanzas e Inmobiliaria", "g": "Inmobiliaria", "f": 1, "falta": "«Me interesa mucho, lo buscaré mañana para cerrar trato» (5 oct). Sin seguimiento.", "accion": "Retomar con la oferta única.", "msj": "¿Seguimos con lo que platicamos? Le muestro cómo quedaría su anuncio."}, {"id": "luzsonido", "n": "Luz y sonido · 33 3393 2527", "g": "Eventos · Guadalajara", "f": 1, "falta": "Mandó videos; pidió una prueba antes de pagar. También quiere algo para el depa de su hermana en Manzanillo.", "accion": "Hacer muestra con sus videos (ya los tiene).", "msj": "Con sus videos le hice una muestra. Si le gusta, arrancamos y vemos lo del depa de su hermana."}, {"id": "armando", "n": "Armando · traslados", "g": "Tours a Teotihuacán · CDMX", "f": 2, "dinero": "Se le mandó cuenta el 28-29 sep · por confirmar pago", "falta": "Tiene video v2 en inglés con su voz. Pidió vehículos de fondo en vez de su foto.", "accion": "Confirmar si pagó; si no, retomarlo.", "msj": "Armando, ¿retomamos su video de traslados con las camionetas de fondo?"}, {"id": "uriel", "n": "Uriel Chávez · consultor", "g": "Consultoría · 614 192 8647", "f": 4, "riesgo": "Apagó su campaña el 16 oct", "falta": "Su campaña corrió y la apagó para esperar el nuevo guion «Filtro de Liderazgo».", "accion": "Mandarle el reel nuevo y volver a prenderla.", "msj": "Uriel, ya tengo el reel del Filtro de Liderazgo con su cara y voz. ¿La volvemos a prender?"}, {"id": "rar", "n": "Jesús · Rar~Amore (360 Salud)", "g": "Suplementos · 81 8466 8456", "f": 4, "falta": "Su campaña se armó con su Facebook entre el 13 y 15 oct; faltaba WhatsApp Business.", "accion": "Confirmar si recibe mensajes y mandarle reporte.", "msj": "Don Jesús, ¿cómo van los mensajes de Rar~Amore? Le paso los números."}, {"id": "omar", "n": "Omar · redes de mercadeo", "g": "Red Natura · Edo. Méx.", "f": 3, "riesgo": "Pidió su dinero de vuelta el 15 oct", "dinero": "Pagó $250 el 10 oct", "falta": "Su campaña no salió a tiempo y se molestó.", "accion": "Decidir: devolverle los $250 o entregarle hoy su campaña con disculpa.", "msj": "Omar, le debo una disculpa por la tardanza. ¿Prefiere que le devuelva sus $250 o que hoy mismo quede su campaña?"}, {"id": "acosta", "n": "Servicio Acosta", "g": "Créditos a pensionados y trámites", "f": 1, "falta": "Preguntó honorarios y pauta; mandó lista de trámites.", "accion": "Pedir sus precios de trámites y hacer muestra.", "msj": ""}, {"id": "cancel", "n": "Antonio · cancelería", "g": "Aluminio y cristal · CDMX", "f": 1, "falta": "Mandó 8 fotos (30 sep).", "accion": "Hacer muestra con sus fotos.", "msj": "Antonio, con sus fotos de cancelería le hice una muestra. ¿Se la mando?"}, {"id": "leads", "n": "Nuevos «Quiero más información»", "g": "NUEVOS 30 oct: 55 2849 5167 · 55 2757 1049 · 771 197 1452 · 442 327 8332 · 33 2233 2291 · 56 1155 2617 · 81 2007 3961 · 55 5069 9407 (sin respuesta) · antes: 669 220 3676 · 55 7477 9949 · 55 1966 6519 · 222 833 5354 · 993 405 4164 · 33 1953 6965 · 55 6801 6666", "f": 1, "hoy": true, "falta": "Los del 30 oct no han recibido respuesta. A los anteriores les mandaste imagen y audio y ninguno contestó.", "accion": "Un mensaje corto que pida giro y ciudad.", "msj": "¿A qué se dedica y en qué ciudad? Con 3 fotos de su trabajo le hago una muestra gratis."}]}</script>
+
+<script>
+(function () {
+  const PLANTILLA = document.body.innerHTML;
+  const D = JSON.parse(document.getElementById('datos').textContent);
+  const $ = id => document.getElementById(id);
+  let filtroFase = 0, soloHoy = false, soloDinero = false, artifact = null;
+  const usar = n => (window.claude && window.claude.use) ? window.claude.use(n) : Promise.resolve(null);
+  const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+
+  function pintar() {
+    const mens = D.clientes.filter(c => c.f === 5).length;
+    const cobro = D.clientes.filter(c => c.dinero && /\$/.test(c.dinero)).length;
+    $('meta').innerHTML = '';
+    [['En fase Guillermo', mens], ['Total en el tablero', D.clientes.length], ['Para hoy', D.clientes.filter(c => c.hoy).length], ['Con dinero en juego', cobro]].forEach(([k, v]) => { const s = el('span', null, k + ' '); s.append(el('b', null, String(v))); $('meta').append(s); });
+
+    const esc = $('escalera'); esc.innerHTML = '';
+    D.fases.forEach(f => {
+      const b = el('button', 'peld'); b.style.setProperty('--c', `var(${f.c})`); b.setAttribute('aria-pressed', filtroFase === f.n);
+      b.append(el('span', 'n', 'Fase ' + f.n), el('span', 't', f.t), el('span', 'cnt', String(D.clientes.filter(c => c.f === f.n).length)), el('span', 'sal', f.sal));
+      b.addEventListener('click', () => { filtroFase = filtroFase === f.n ? 0 : f.n; pintar(); });
+      esc.append(b);
+    });
+    $('f-todas').setAttribute('aria-pressed', filtroFase === 0); $('f-hoy').setAttribute('aria-pressed', soloHoy); $('f-dinero').setAttribute('aria-pressed', soloDinero);
+
+    const tab = $('tablero'); tab.innerHTML = '';
+    [...D.fases].reverse().forEach(f => {
+      if (filtroFase && filtroFase !== f.n) return;
+      const cs = D.clientes.filter(c => c.f === f.n && (!soloHoy || c.hoy) && (!soloDinero || (c.dinero && /\$/.test(c.dinero))));
+      if (!cs.length) return;
+      const g = el('div', 'grupo'); g.style.setProperty('--c', `var(${f.c})`);
+      const gt = el('div', 'grupo-t'); gt.append(el('h3', null, `Fase ${f.n} · ${f.t}`), el('span', null, `${cs.length} · ${f.sal}`)); g.append(gt);
+      const fl = el('div', 'fichas');
+      cs.forEach(c => {
+        const a = el('article', 'ficha' + (c.hoy ? ' urgente' : '')); a.style.setProperty('--c', `var(${f.c})`);
+        const top = el('div', 'ficha-top'); const tt = el('div'); tt.append(el('h3', null, c.n), el('div', 'giro', c.g)); top.append(tt); a.append(top);
+        const p = el('div', 'pills');
+        if (c.hoy) p.append(el('span', 'pill urg', 'Hoy'));
+        if (c.dinero) p.append(el('span', 'pill dinero', c.dinero));
+        if (c.riesgo) p.append(el('span', 'pill riesgo', c.riesgo));
+        if (p.children.length) a.append(p);
+        const fa = el('p', 'falta'); fa.append(el('b', null, 'Dónde está: '), c.falta); a.append(fa);
+        const ac = el('div', 'accion'); ac.append(el('b', null, 'Siguiente paso'), c.accion); a.append(ac);
+        const fb = el('div', 'fila-b');
+        if (c.msj) {
+          const m = el('div', 'msj'); m.append(el('q', null, c.msj));
+          const cp = el('button', 'mini', 'Copiar mensaje');
+          cp.addEventListener('click', async () => { try { await navigator.clipboard.writeText(c.msj); cp.textContent = 'Copiado'; } catch { const r = document.createRange(); r.selectNodeContents(m.querySelector('q')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); cp.textContent = 'Seleccionado: cópialo'; } setTimeout(() => cp.textContent = 'Copiar mensaje', 2000); });
+          fb.append(cp); a.append(m);
+        }
+        {
+          if (c.f > 1) { const b = el('button', 'mover', '← Bajar'); b.setAttribute('aria-label', `Bajar a ${c.n} una fase`); b.addEventListener('click', () => mover(c, -1)); fb.append(b); }
+          if (c.f < 5) { const b = el('button', 'mover', 'Subir de fase →'); b.setAttribute('aria-label', `Subir a ${c.n} una fase`); b.addEventListener('click', () => mover(c, 1)); fb.append(b); }
+          a.append(fb);
+        }
+        fl.append(a);
+      });
+      g.append(fl); tab.append(g);
+    });
+    if (!tab.children.length) tab.append(el('p', 'vacio', 'Nadie coincide con ese filtro.'));
+  }
+
+  function mover(c, d) {
+    c.f = Math.min(5, Math.max(1, c.f + d)); pintar();
+    if (artifact) { $('b-guardar').hidden = false; $('b-guardar').disabled = false; $('estado-guardar').textContent = 'Hay cambios sin guardar.'; }
+    else $('estado-guardar').textContent = 'Este cambio solo se ve en esta pantalla.';
+  }
+
+  $('f-hoy').addEventListener('click', () => { soloHoy = !soloHoy; pintar(); });
+  $('f-dinero').addEventListener('click', () => { soloDinero = !soloDinero; pintar(); });
+  $('f-todas').addEventListener('click', () => { filtroFase = 0; soloHoy = false; soloDinero = false; pintar(); });
+
+  const RESET = 'html{color-scheme:light}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,-apple-system,sans-serif}img{max-width:100%}[hidden]{display:none!important}';
+  $('b-guardar').addEventListener('click', async () => {
+    const datos = JSON.stringify(D).replace(/</g, '\\u003c');
+    const cuerpo = PLANTILLA.replace(/(<script type="application\/json" id="datos">)[\s\S]*?(<\/script>)/, (_, a, b) => a + datos + b);
+    const html = `<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>${RESET}</style></head><body>${cuerpo}</body></html>`;
+    $('b-guardar').disabled = true; $('estado-guardar').textContent = 'Guardando…';
+    try { await artifact.publish(html); $('estado-guardar').textContent = 'Guardado.'; }
+    catch (e) {
+      if (e && e.code === 'conflict') $('estado-guardar').textContent = 'Había otra versión guardada; se recarga con esa.';
+      else if (e && (e.code === 'not_writer' || e.code === 'not_granted')) { $('estado-guardar').textContent = 'Solo puedes verlo.'; $('b-guardar').hidden = true; }
+      else { $('estado-guardar').textContent = 'No se guardó. Intenta de nuevo.'; $('b-guardar').disabled = false; }
+    }
+  });
+
+  pintar();
+  usar('artifact').then(a => { artifact = a; });
+})();
+</script>

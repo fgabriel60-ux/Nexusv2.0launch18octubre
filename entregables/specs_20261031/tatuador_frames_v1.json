@@ -1,0 +1,106 @@
+{
+ "carpeta": "tatuador_frames_v1",
+ "salida": "clientes/Tatuador9983316522/frames_v1/salida",
+ "semilla": 19,
+ "refs": {
+  "cara": "clientes/Tatuador9983316522/whatsapp/1029_180850_el_image.jpg",
+  "estudio": "clientes/Tatuador9983316522/whatsapp/1029_180622_el_image.jpg",
+  "tatuaje": "clientes/Tatuador9983316522/whatsapp/1029_180322_el_image.jpg"
+ },
+ "cuadros": {
+  "A1_entra": [
+   [
+    "cara",
+    "estudio"
+   ],
+   "Foto realista vertical 9:16, toma desde atrás: el MISMO joven de la primera imagen (misma cara, mismo cabello negro, piel morena clara, sin barba) de ESPALDAS caminando hacia la entrada de en su estudio de tatuajes real como la segunda imagen (paredes con cuadros de arte enmarcados, silla negra de tatuar), ahora con iluminación oscura y dramática: luz de neón morada y luces blancas duras, mucho contraste, estilo video de tatuador cinematográfico. Camiseta gris, silueta recortada por la luz morada.",
+   "texto, letras, logotipos, cara diferente, otra persona como protagonista, persona duplicada, manos deformes, dedos extra, caricatura, ilustración"
+  ],
+  "A2_cara": [
+   [
+    "cara",
+    "estudio"
+   ],
+   "Foto realista vertical 9:16, primer plano: el MISMO joven de la primera imagen (misma cara, mismo cabello negro, piel morena clara, sin barba) mirando fijo a la cámara, serio y seguro, con guantes negros de nitrilo, en su estudio de tatuajes real como la segunda imagen (paredes con cuadros de arte enmarcados, silla negra de tatuar), ahora con iluminación oscura y dramática: luz de neón morada y luces blancas duras, mucho contraste, estilo video de tatuador cinematográfico. luz de neón morada de un lado y luz blanca del otro.",
+   "texto, letras, logotipos, cara diferente, otra persona como protagonista, persona duplicada, manos deformes, dedos extra, caricatura, ilustración"
+  ],
+  "A3_manos": [
+   [
+    "cara",
+    "estudio",
+    "tatuaje"
+   ],
+   "Foto realista vertical 9:16, primer plano cenital: las manos con guantes negros de el MISMO joven de la primera imagen (misma cara, mismo cabello negro, piel morena clara, sin barba) tatuando con máquina rotativa un antebrazo con un diseño de lobo como la tercera imagen, tinta negra, papel film, en su estudio de tatuajes real como la segunda imagen (paredes con cuadros de arte enmarcados, silla negra de tatuar), ahora con iluminación oscura y dramática: luz de neón morada y luces blancas duras, mucho contraste, estilo video de tatuador cinematográfico. ",
+   "texto, letras, logotipos, cara diferente, otra persona como protagonista, persona duplicada, manos deformes, dedos extra, caricatura, ilustración"
+  ],
+  "A4_ring": [
+   [
+    "cara",
+    "estudio"
+   ],
+   "Foto realista vertical 9:16, plano medio: el MISMO joven de la primera imagen (misma cara, mismo cabello negro, piel morena clara, sin barba) concentrado tatuando el brazo de un cliente, con un aro de luz LED circular grande detrás de él, guantes negros, en su estudio de tatuajes real como la segunda imagen (paredes con cuadros de arte enmarcados, silla negra de tatuar), ahora con iluminación oscura y dramática: luz de neón morada y luces blancas duras, mucho contraste, estilo video de tatuador cinematográfico. ",
+   "texto, letras, logotipos, cara diferente, otra persona como protagonista, persona duplicada, manos deformes, dedos extra, caricatura, ilustración"
+  ],
+  "A5_maquina": [
+   [
+    "cara",
+    "estudio"
+   ],
+   "Foto realista vertical 9:16, contrapicado: el MISMO joven de la primera imagen (misma cara, mismo cabello negro, piel morena clara, sin barba) sostiene la máquina de tatuar frente a la cámara con guantes negros, mirada intensa, en su estudio de tatuajes real como la segunda imagen (paredes con cuadros de arte enmarcados, silla negra de tatuar), ahora con iluminación oscura y dramática: luz de neón morada y luces blancas duras, mucho contraste, estilo video de tatuador cinematográfico. ",
+   "texto, letras, logotipos, cara diferente, otra persona como protagonista, persona duplicada, manos deformes, dedos extra, caricatura, ilustración"
+  ],
+  "A6_cierre": [
+   [
+    "cara",
+    "estudio",
+    "tatuaje"
+   ],
+   "Foto realista vertical 9:16, plano medio: el MISMO joven de la primera imagen (misma cara, mismo cabello negro, piel morena clara, sin barba) de pie con los brazos cruzados frente a la cámara, sonrisa ligera, camiseta negra, en su estudio de tatuajes real como la segunda imagen (paredes con cuadros de arte enmarcados, silla negra de tatuar), ahora con iluminación oscura y dramática: luz de neón morada y luces blancas duras, mucho contraste, estilo video de tatuador cinematográfico. al fondo cuadros de arte.",
+   "texto, letras, logotipos, cara diferente, otra persona como protagonista, persona duplicada, manos deformes, dedos extra, caricatura, ilustración"
+  ]
+ },
+ "tomas": [
+  [
+   "AT1_entra",
+   "A1_entra",
+   "Vertical cinematic tattoo studio video, dark moody purple neon and hard white light, same young man, realistic. Camera follows him from behind as he walks into the studio, slow motion.",
+   2.0,
+   null
+  ],
+  [
+   "AT2_cara",
+   "A2_cara",
+   "Vertical cinematic tattoo studio video, dark moody purple neon and hard white light, same young man, realistic. He looks into the camera, slight head turn, neon flicker, slow push in.",
+   2.0,
+   null
+  ],
+  [
+   "AT3_manos",
+   "A3_manos",
+   "Vertical cinematic tattoo studio video, dark moody purple neon and hard white light, same young man, realistic. Close up: gloved hands tattooing the forearm with the machine, ink lines appearing, needle buzzing. Audio: tattoo machine buzz.",
+   2.0,
+   null
+  ],
+  [
+   "AT4_ring",
+   "A4_ring",
+   "Vertical cinematic tattoo studio video, dark moody purple neon and hard white light, same young man, realistic. He tattoos concentrated, ring light behind, subtle camera orbit. Audio: tattoo machine buzz.",
+   2.0,
+   null
+  ],
+  [
+   "AT5_maquina",
+   "A5_maquina",
+   "Vertical cinematic tattoo studio video, dark moody purple neon and hard white light, same young man, realistic. He raises the tattoo machine toward the camera, it buzzes, low angle, quick push in. Audio: tattoo machine buzz.",
+   2.0,
+   null
+  ],
+  [
+   "AT6_cierre",
+   "A6_cierre",
+   "Vertical cinematic tattoo studio video, dark moody purple neon and hard white light, same young man, realistic. He stands with arms crossed and gives a slight confident nod and smile.",
+   2.0,
+   null
+  ]
+ ]
+}

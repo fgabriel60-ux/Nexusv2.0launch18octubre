@@ -1,0 +1,8 @@
+Error: Cannot read file "/workspaces/catania_recorrido_corregido_20260912/NUEVACATANIA_RECORRIDO_CORREGIDO_20260912.blend": No such file or directory
+... opened default scene instead; saving will write to: /workspaces/catania_recorrido_corregido_20260912/NUEVACATANIA_RECORRIDO_CORREGIDO_20260912.blend
+Can't find scene: 'CATANIA_WORKBENCH' in file: '/workspaces/catania_recorrido_corregido_20260912/NUEVACATANIA_RECORRIDO_CORREGIDO_20260912.blend'
+OSError: Python file "/workspaces/visionagenciaIAV2.0/benchmark_viewport.py" could not be opened: No such file or directory
+
+Error: script failed, file: 'benchmark_viewport.py', exiting.
+
+Blender quit

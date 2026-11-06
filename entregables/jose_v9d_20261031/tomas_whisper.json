@@ -1,0 +1,326 @@
+[
+  {
+    "file": "/workspaces/Nexusv2.0launch18octubre/entregables/jose_v9d_20261031/cierre_toma1.wav",
+    "text": " Mándanos fotos de tu azotea por whatsapp y te cotizamos hoy.",
+    "match": 1.0,
+    "confidence": 0.9369366466999053,
+    "segments": [
+      {
+        "text": " Mándanos fotos de tu azotea por whatsapp y te cotizamos hoy.",
+        "start": 0.0,
+        "end": 3.4,
+        "words": [
+          {
+            "word": " Mándanos",
+            "start": 0.0,
+            "end": 0.6,
+            "probability": 0.8889364997545878
+          },
+          {
+            "word": " fotos",
+            "start": 0.6,
+            "end": 1.02,
+            "probability": 0.9907268285751343
+          },
+          {
+            "word": " de",
+            "start": 1.02,
+            "end": 1.22,
+            "probability": 0.9932289123535156
+          },
+          {
+            "word": " tu",
+            "start": 1.22,
+            "end": 1.36,
+            "probability": 0.978198766708374
+          },
+          {
+            "word": " azotea",
+            "start": 1.36,
+            "end": 1.88,
+            "probability": 0.9814327756563822
+          },
+          {
+            "word": " por",
+            "start": 1.88,
+            "end": 2.1,
+            "probability": 0.9826242327690125
+          },
+          {
+            "word": " whatsapp",
+            "start": 2.1,
+            "end": 2.5,
+            "probability": 0.6811843812465668
+          },
+          {
+            "word": " y",
+            "start": 2.5,
+            "end": 2.62,
+            "probability": 0.9540377855300903
+          },
+          {
+            "word": " te",
+            "start": 2.62,
+            "end": 2.76,
+            "probability": 0.9928951859474182
+          },
+          {
+            "word": " cotizamos",
+            "start": 2.76,
+            "end": 3.24,
+            "probability": 0.9891590277353922
+          },
+          {
+            "word": " hoy.",
+            "start": 3.24,
+            "end": 3.4,
+            "probability": 0.8738787174224854
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "/workspaces/Nexusv2.0launch18octubre/entregables/jose_v9d_20261031/cierre_toma2.wav",
+    "text": " Mándanos fotos de tu azotea por WhatsApp y te cotizamos hoy.",
+    "match": 1.0,
+    "confidence": 0.9093327910611123,
+    "segments": [
+      {
+        "text": " Mándanos fotos de tu azotea por WhatsApp y te cotizamos hoy.",
+        "start": 0.0,
+        "end": 2.76,
+        "words": [
+          {
+            "word": " Mándanos",
+            "start": 0.0,
+            "end": 0.5,
+            "probability": 0.857481062412262
+          },
+          {
+            "word": " fotos",
+            "start": 0.5,
+            "end": 0.84,
+            "probability": 0.9912996888160706
+          },
+          {
+            "word": " de",
+            "start": 0.84,
+            "end": 1.02,
+            "probability": 0.9923838973045349
+          },
+          {
+            "word": " tu",
+            "start": 1.02,
+            "end": 1.1,
+            "probability": 0.9670209288597107
+          },
+          {
+            "word": " azotea",
+            "start": 1.1,
+            "end": 1.46,
+            "probability": 0.9577015240987142
+          },
+          {
+            "word": " por",
+            "start": 1.46,
+            "end": 1.62,
+            "probability": 0.9889737367630005
+          },
+          {
+            "word": " WhatsApp",
+            "start": 1.62,
+            "end": 1.9,
+            "probability": 0.391128808259964
+          },
+          {
+            "word": " y",
+            "start": 1.9,
+            "end": 2.08,
+            "probability": 0.9561657905578613
+          },
+          {
+            "word": " te",
+            "start": 2.08,
+            "end": 2.2,
+            "probability": 0.9956662654876709
+          },
+          {
+            "word": " cotizamos",
+            "start": 2.2,
+            "end": 2.64,
+            "probability": 0.9953258832295736
+          },
+          {
+            "word": " hoy.",
+            "start": 2.64,
+            "end": 2.76,
+            "probability": 0.9095131158828735
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "/workspaces/Nexusv2.0launch18octubre/entregables/jose_v9d_20261031/cierre_toma3.wav",
+    "text": " Mándanos fotos de tu azotea por whatsapp y te cotizamos hoy.",
+    "match": 1.0,
+    "confidence": 0.9336193032336957,
+    "segments": [
+      {
+        "text": " Mándanos fotos de tu azotea por whatsapp y te cotizamos hoy.",
+        "start": 0.0,
+        "end": 3.78,
+        "words": [
+          {
+            "word": " Mándanos",
+            "start": 0.0,
+            "end": 0.52,
+            "probability": 0.8813168207804362
+          },
+          {
+            "word": " fotos",
+            "start": 0.52,
+            "end": 0.94,
+            "probability": 0.9925428628921509
+          },
+          {
+            "word": " de",
+            "start": 0.94,
+            "end": 1.12,
+            "probability": 0.9953560829162598
+          },
+          {
+            "word": " tu",
+            "start": 1.12,
+            "end": 1.24,
+            "probability": 0.9844032526016235
+          },
+          {
+            "word": " azotea",
+            "start": 1.24,
+            "end": 1.94,
+            "probability": 0.9840726653734843
+          },
+          {
+            "word": " por",
+            "start": 1.94,
+            "end": 2.14,
+            "probability": 0.9550581574440002
+          },
+          {
+            "word": " whatsapp",
+            "start": 2.14,
+            "end": 2.72,
+            "probability": 0.6897193491458893
+          },
+          {
+            "word": " y",
+            "start": 2.72,
+            "end": 2.92,
+            "probability": 0.8716003894805908
+          },
+          {
+            "word": " te",
+            "start": 2.92,
+            "end": 3.06,
+            "probability": 0.9911375045776367
+          },
+          {
+            "word": " cotizamos",
+            "start": 3.06,
+            "end": 3.6,
+            "probability": 0.9947423934936523
+          },
+          {
+            "word": " hoy.",
+            "start": 3.6,
+            "end": 3.78,
+            "probability": 0.9298628568649292
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "/workspaces/Nexusv2.0launch18octubre/entregables/jose_v9d_20261031/cierre_toma4.wav",
+    "text": " Mándanos fotos de tu azotea por WhatsApp y te cotizamos hoy.",
+    "match": 1.0,
+    "confidence": 0.919070435292793,
+    "segments": [
+      {
+        "text": " Mándanos fotos de tu azotea por WhatsApp y te cotizamos hoy.",
+        "start": 0.0,
+        "end": 3.82,
+        "words": [
+          {
+            "word": " Mándanos",
+            "start": 0.0,
+            "end": 0.54,
+            "probability": 0.8795068065325419
+          },
+          {
+            "word": " fotos",
+            "start": 0.54,
+            "end": 0.94,
+            "probability": 0.9943211078643799
+          },
+          {
+            "word": " de",
+            "start": 0.94,
+            "end": 1.22,
+            "probability": 0.9924585223197937
+          },
+          {
+            "word": " tu",
+            "start": 1.22,
+            "end": 1.48,
+            "probability": 0.9833312630653381
+          },
+          {
+            "word": " azotea",
+            "start": 1.48,
+            "end": 1.94,
+            "probability": 0.9783558050791422
+          },
+          {
+            "word": " por",
+            "start": 1.94,
+            "end": 2.12,
+            "probability": 0.9924473762512207
+          },
+          {
+            "word": " WhatsApp",
+            "start": 2.12,
+            "end": 2.48,
+            "probability": 0.4803043007850647
+          },
+          {
+            "word": " y",
+            "start": 2.48,
+            "end": 2.94,
+            "probability": 0.8743094205856323
+          },
+          {
+            "word": " te",
+            "start": 2.94,
+            "end": 3.1,
+            "probability": 0.9950345754623413
+          },
+          {
+            "word": " cotizamos",
+            "start": 3.1,
+            "end": 3.66,
+            "probability": 0.9920778870582581
+          },
+          {
+            "word": " hoy.",
+            "start": 3.66,
+            "end": 3.82,
+            "probability": 0.9476277232170105
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,325 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-Rr15FV6GoHTIkOHBpEFmM0
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octub
+│   re/entregables/glimmer_estrategias_20261029/glimmer_modal.py
+├── ✓ Created Function consultar_lote.
+└── ✓ Created Function consultar.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:03<1:19:01,  3.30s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:03<16:21,  1.46it/s]  
+[1ALoading weights:   0%|          | 5/1436 [00:03<13:19,  1.79it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:04<11:15,  2.12it/s]
+[1ALoading weights:   1%|          | 10/1436 [00:04<05:13,  4.54it/s]
+[1ALoading weights:   1%|          | 16/1436 [00:04<02:30,  9.46it/s]
+[1ALoading weights:   1%|▏         | 19/1436 [00:04<02:30,  9.42it/s]
+[1ALoading weights:   2%|▏         | 25/1436 [00:04<01:39, 14.20it/s]
+[1ALoading weights:   2%|▏         | 29/1436 [00:05<01:36, 14.65it/s]
+[1ALoading weights:   2%|▏         | 32/1436 [00:05<01:31, 15.36it/s]
+[1ALoading weights:   3%|▎         | 37/1436 [00:05<01:10, 19.86it/s]
+[1ALoading weights:   3%|▎         | 41/1436 [00:05<01:13, 19.05it/s]
+[1ALoading weights:   3%|▎         | 44/1436 [00:05<01:18, 17.70it/s]
+[1ALoading weights:   3%|▎         | 49/1436 [00:06<01:21, 17.05it/s]
+[1ALoading weights:   4%|▍         | 54/1436 [00:06<01:17, 17.75it/s]
+[1ALoading weights:   4%|▍         | 61/1436 [00:06<00:54, 25.14it/s]
+[1ALoading weights:   5%|▍         | 65/1436 [00:06<01:20, 17.11it/s]
+[1ALoading weights:   5%|▌         | 74/1436 [00:07<00:51, 26.55it/s]
+[1ALoading weights:   6%|▌         | 79/1436 [00:07<01:05, 20.73it/s]
+[1ALoading weights:   6%|▌         | 86/1436 [00:07<00:50, 26.69it/s]
+[1ALoading weights:   6%|▋         | 91/1436 [00:07<01:04, 20.88it/s]
+[1ALoading weights:   7%|▋         | 98/1436 [00:08<00:48, 27.32it/s]
+[1ALoading weights:   7%|▋         | 103/1436 [00:08<01:04, 20.67it/s]
+[1ALoading weights:   8%|▊         | 110/1436 [00:08<00:57, 23.20it/s]
+[1ALoading weights:   8%|▊         | 114/1436 [00:09<01:07, 19.58it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:09<00:51, 25.35it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [00:09<01:00, 21.49it/s]
+[1ALoading weights:   9%|▉         | 133/1436 [00:09<01:03, 20.68it/s]
+[1ALoading weights:  10%|▉         | 137/1436 [00:09<00:56, 22.83it/s]
+[1ALoading weights:  10%|▉         | 140/1436 [00:10<01:01, 21.23it/s]
+[1ALoading weights:  10%|█         | 144/1436 [00:10<00:55, 23.49it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:10<00:50, 25.67it/s]
+[1ALoading weights:  11%|█         | 151/1436 [00:10<01:08, 18.71it/s]
+[1ALoading weights:  11%|█         | 159/1436 [00:10<00:44, 29.00it/s]
+[1ALoading weights:  11%|█▏        | 163/1436 [00:11<01:06, 19.11it/s]
+[1ALoading weights:  12%|█▏        | 169/1436 [00:11<00:52, 24.33it/s]
+[1ALoading weights:  12%|█▏        | 173/1436 [00:11<00:59, 21.20it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:11<01:05, 19.11it/s]
+[1ALoading weights:  12%|█▏        | 179/1436 [00:11<01:00, 20.82it/s]
+[1ALoading weights:  13%|█▎        | 185/1436 [00:12<01:07, 18.64it/s]
+[1ALoading weights:  13%|█▎        | 193/1436 [00:12<00:45, 27.10it/s]
+[1ALoading weights:  14%|█▎        | 197/1436 [00:12<00:51, 24.12it/s]
+[1ALoading weights:  14%|█▍        | 201/1436 [00:12<00:51, 23.84it/s]
+[1ALoading weights:  14%|█▍        | 204/1436 [00:12<00:51, 23.84it/s]
+[1ALoading weights:  15%|█▍        | 209/1436 [00:13<01:02, 19.51it/s]
+[1ALoading weights:  15%|█▌        | 216/1436 [00:13<00:46, 26.45it/s]
+[1ALoading weights:  15%|█▌        | 221/1436 [00:13<00:48, 25.23it/s]
+[1ALoading weights:  16%|█▌        | 225/1436 [00:13<00:48, 24.94it/s]
+[1ALoading weights:  16%|█▌        | 230/1436 [00:14<00:50, 23.96it/s]
+[1ALoading weights:  16%|█▋        | 234/1436 [00:14<00:54, 22.08it/s]
+[1ALoading weights:  17%|█▋        | 241/1436 [00:14<00:40, 29.39it/s]
+[1ALoading weights:  17%|█▋        | 245/1436 [00:14<00:49, 24.21it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:14<00:51, 23.00it/s]
+[1ALoading weights:  18%|█▊        | 253/1436 [00:14<00:45, 25.98it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:15<00:45, 26.17it/s]
+[1ALoading weights:  18%|█▊        | 259/1436 [00:15<01:03, 18.68it/s]
+[1ALoading weights:  18%|█▊        | 265/1436 [00:15<00:47, 24.85it/s]
+[1ALoading weights:  19%|█▊        | 269/1436 [00:15<00:53, 21.62it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:15<00:57, 20.30it/s]
+[1ALoading weights:  19%|█▉        | 277/1436 [00:16<00:45, 25.34it/s]
+[1ALoading weights:  20%|█▉        | 281/1436 [00:16<01:08, 16.83it/s]
+[1ALoading weights:  20%|██        | 289/1436 [00:16<00:46, 24.70it/s]
+[1ALoading weights:  20%|██        | 293/1436 [00:16<00:52, 21.81it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:16<00:54, 21.03it/s]
+[1ALoading weights:  21%|██        | 301/1436 [00:17<00:45, 25.17it/s]
+[1ALoading weights:  21%|██        | 305/1436 [00:17<00:51, 22.17it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:17<00:54, 20.63it/s]
+[1ALoading weights:  22%|██▏       | 313/1436 [00:17<00:44, 25.18it/s]
+[1ALoading weights:  22%|██▏       | 317/1436 [00:17<00:50, 22.34it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:18<00:53, 20.95it/s]
+[1ALoading weights:  23%|██▎       | 327/1436 [00:18<00:44, 25.15it/s]
+[1ALoading weights:  23%|██▎       | 330/1436 [00:18<00:56, 19.72it/s]
+[1ALoading weights:  24%|██▎       | 338/1436 [00:18<00:39, 28.14it/s]
+[1ALoading weights:  24%|██▍       | 342/1436 [00:19<00:53, 20.55it/s]
+[1ALoading weights:  24%|██▍       | 350/1436 [00:19<00:38, 28.17it/s]
+[1ALoading weights:  25%|██▍       | 354/1436 [00:19<00:52, 20.51it/s]
+[1ALoading weights:  25%|██▌       | 360/1436 [00:19<00:42, 25.11it/s]
+[1ALoading weights:  25%|██▌       | 365/1436 [00:19<00:44, 24.01it/s]
+[1ALoading weights:  26%|██▌       | 369/1436 [00:20<00:45, 23.60it/s]
+[1ALoading weights:  26%|██▌       | 373/1436 [00:20<00:40, 26.34it/s]
+[1ALoading weights:  26%|██▋       | 377/1436 [00:20<00:55, 19.04it/s]
+[1ALoading weights:  27%|██▋       | 386/1436 [00:20<00:35, 29.32it/s]
+[1ALoading weights:  27%|██▋       | 391/1436 [00:21<00:48, 21.44it/s]
+[1ALoading weights:  28%|██▊       | 396/1436 [00:21<00:41, 25.17it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:21<00:39, 26.03it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:21<00:50, 20.51it/s]
+[1ALoading weights:  29%|██▊       | 410/1436 [00:21<00:40, 25.20it/s]
+[1ALoading weights:  29%|██▉       | 414/1436 [00:22<00:53, 18.96it/s]
+[1ALoading weights:  29%|██▉       | 420/1436 [00:22<00:40, 24.89it/s]
+[1ALoading weights:  30%|██▉       | 424/1436 [00:22<00:37, 26.91it/s]
+[1ALoading weights:  30%|██▉       | 428/1436 [00:22<00:50, 19.79it/s]
+[1ALoading weights:  30%|███       | 435/1436 [00:22<00:44, 22.63it/s]
+[1ALoading weights:  31%|███       | 438/1436 [00:23<00:53, 18.69it/s]
+[1ALoading weights:  31%|███       | 446/1436 [00:23<00:36, 26.96it/s]
+[1ALoading weights:  31%|███▏      | 450/1436 [00:23<00:48, 20.50it/s]
+[1ALoading weights:  32%|███▏      | 455/1436 [00:23<00:47, 20.81it/s]
+[1ALoading weights:  32%|███▏      | 461/1436 [00:24<00:36, 26.59it/s]
+[1ALoading weights:  32%|███▏      | 465/1436 [00:24<00:39, 24.57it/s]
+[1ALoading weights:  33%|███▎      | 470/1436 [00:24<00:40, 23.83it/s]
+[1ALoading weights:  33%|███▎      | 474/1436 [00:24<00:46, 20.65it/s]
+[1ALoading weights:  34%|███▎      | 482/1436 [00:24<00:31, 29.84it/s]
+[1ALoading weights:  34%|███▍      | 486/1436 [00:25<00:44, 21.58it/s]
+[1ALoading weights:  34%|███▍      | 490/1436 [00:25<00:39, 23.87it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:25<00:32, 29.18it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:25<00:40, 23.07it/s]
+[1ALoading weights:  35%|███▌      | 505/1436 [00:25<00:34, 27.09it/s]
+[1ALoading weights:  35%|███▌      | 509/1436 [00:26<00:38, 23.83it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:26<00:42, 21.79it/s]
+[1ALoading weights:  36%|███▌      | 516/1436 [00:26<00:37, 24.65it/s]
+[1ALoading weights:  36%|███▋      | 521/1436 [00:26<00:38, 23.92it/s]
+[1ALoading weights:  36%|███▋      | 524/1436 [00:26<00:40, 22.26it/s]
+[1ALoading weights:  37%|███▋      | 527/1436 [00:26<00:39, 23.21it/s]
+[1ALoading weights:  37%|███▋      | 533/1436 [00:27<00:44, 20.51it/s]
+[1ALoading weights:  38%|███▊      | 542/1436 [00:27<00:28, 31.67it/s]
+[1ALoading weights:  38%|███▊      | 547/1436 [00:27<00:37, 23.93it/s]
+[1ALoading weights:  39%|███▊      | 554/1436 [00:27<00:34, 25.51it/s]
+[1ALoading weights:  39%|███▉      | 558/1436 [00:28<00:40, 21.61it/s]
+[1ALoading weights:  39%|███▉      | 567/1436 [00:28<00:32, 26.69it/s]
+[1ALoading weights:  40%|███▉      | 571/1436 [00:28<00:38, 22.46it/s]
+[1ALoading weights:  40%|████      | 579/1436 [00:28<00:32, 26.60it/s]
+[1ALoading weights:  41%|████      | 582/1436 [00:29<00:40, 20.98it/s]
+[1ALoading weights:  41%|████      | 589/1436 [00:29<00:31, 26.75it/s]
+[1ALoading weights:  41%|████▏     | 593/1436 [00:29<00:42, 19.72it/s]
+[1ALoading weights:  42%|████▏     | 600/1436 [00:29<00:32, 25.37it/s]
+[1ALoading weights:  42%|████▏     | 605/1436 [00:30<00:39, 20.78it/s]
+[1ALoading weights:  43%|████▎     | 614/1436 [00:30<00:27, 29.43it/s]
+[1ALoading weights:  43%|████▎     | 619/1436 [00:30<00:38, 21.32it/s]
+[1ALoading weights:  44%|████▍     | 633/1436 [00:30<00:21, 36.73it/s]
+[1ALoading weights:  46%|████▌     | 658/1436 [00:30<00:11, 68.94it/s]
+[1ALoading weights:  48%|████▊     | 684/1436 [00:31<00:07, 103.26it/s]
+[1ALoading weights:  49%|████▉     | 702/1436 [00:31<00:06, 118.71it/s]
+[1ALoading weights:  51%|█████▏    | 736/1436 [00:31<00:04, 163.06it/s]
+[1ALoading weights:  54%|█████▍    | 780/1436 [00:31<00:02, 227.02it/s]
+[1ALoading weights:  57%|█████▋    | 818/1436 [00:31<00:02, 263.27it/s]
+[1ALoading weights:  60%|██████    | 862/1436 [00:31<00:01, 299.74it/s]
+[1ALoading weights:  62%|██████▏   | 897/1436 [00:31<00:01, 303.33it/s]
+[1ALoading weights:  66%|██████▌   | 947/1436 [00:31<00:01, 355.91it/s]
+[1ALoading weights:  69%|██████▉   | 991/1436 [00:31<00:01, 365.27it/s]
+[1ALoading weights:  72%|███████▏  | 1032/1436 [00:31<00:01, 371.73it/s]
+[1ALoading weights:  75%|███████▍  | 1071/1436 [00:32<00:00, 374.10it/s]
+[1ALoading weights:  77%|███████▋  | 1111/1436 [00:32<00:00, 379.10it/s]
+[1ALoading weights:  80%|████████  | 1150/1436 [00:32<00:00, 378.30it/s]
+[1ALoading weights:  83%|████████▎ | 1189/1436 [00:32<00:00, 377.38it/s]
+[1ALoading weights:  85%|████████▌ | 1227/1436 [00:32<00:00, 376.92it/s]
+[1ALoading weights:  88%|████████▊ | 1265/1436 [00:32<00:00, 374.10it/s]
+[1ALoading weights:  91%|█████████ | 1303/1436 [00:32<00:00, 355.10it/s]
+[1ALoading weights:  93%|█████████▎| 1340/1436 [00:32<00:00, 359.06it/s]
+[1ALoading weights:  96%|█████████▌| 1377/1436 [00:32<00:00, 351.81it/s]
+[1ALoading weights:  99%|█████████▊| 1418/1436 [00:33<00:00, 364.52it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:33<00:00, 43.43it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## IVAN_FUMICAM_v5
+ to=selfEres estratega de anuncios de Meta (Facebook/Instagram) y director de video para negocios en México. Da SOLO la respuesta final, en español claro para el dueño del negocio, sin mostrar tu razonamiento. Usa SOLO los datos de abajo; si falta algo, marca [CONFIRMAR]. No inventes precios, tiempos, distancias ni garantías.
+
+NEGOCIO: Iván · Fumicam: fumigación y control de plagas (cucarachas, alacranes, chinches, pulgas, termitas) en casas, clínicas, oficinas y negocios de Cuernavaca y CDMX. Precio [CONFIRMAR]. CTA: WhatsApp con zona y plaga. Video con sus técnicos REALES fumigando (fotos animadas) y su voz clonada. Su campaña anterior trajo mensajes que no se convertían.
+Objetivo: campaña de mensajes a WhatsApp con mensajes baratos y CALIFICADOS (gente que sí compra).
+
+VIDEO DEL ANUNCIO (25.1 s, 9:16). Imágenes adjuntas = 30 cuadros repartidos en TODO el video (2 hojas de 15, con el segundo de cada cuadro arriba a la izquierda). Los subtítulos y tarjetas son capas de texto exactas.
+TRANSCRIPCIÓN DE LO QUE SE DICE (con tiempos):
+[  0.0-  5.0s] Con las lluvias las plagas buscan meterse a tu casa cucarachas, alacranes y termitas.
+[  5.0-  8.8s] Aquí en Fumicán vamos al detalle de grieta por grieta y rincón por rincón,
+[  8.8- 10.7s] nada de fumigar por el címita.
+[ 10.7- 16.1s] Técnicos reales en casas, clínicas, oficinas y negocios de cuernabaca y CDMX.
+[ 16.1- 22.0s] Escrívenos por WhatsApp con tu zona y la plaga que tienes y te cotizamos sin compromiso.
+
+Responde EXACTAMENTE con este formato:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+CAPACIDADES DE PRODUCCIÓN DE VIDEO...
+
+We need to evaluate video. Use only data. No invent prices etc.
+
+We need rating total X/10. Notes with scores.
+
+We need POR QUÉ FUNCIONA: 3-5 bullet points with exact second and why.
+
+QUÉ LO FRENA: 1-3 bullet points with exact second and concrete fix viable.
+
+VEREDICTO: Subir ya / Subir con cambios / No subir, and projected rating.
+
+We must use data from video frames. Let's analyze frames.
+
+First sheet: timestamps:
+0.4s, 1.3s, 2.1s, 2.9s, 3.8s
+4.6s, 5.4s, 6.3s, 7.1s, 8.0s
+8.8s, 9.6s, 10.5s, 11.3s, 12.1s
+
+Second sheet:
+13.0s, 13.8s, 14.6s, 15.5s, 16.3s
+17.2s, 18.0s, 18.8s, 19.7s, 20.5s
+21.3s, 22.2s, 23.0s, 23.9s, 24.7s
+
+Transcription times:
+0.0-5.0s: Con las lluvias...
+5.0-8.8s: Aquí en Fumicán vamos al detalle...
+8.8-10.7s: nada de fumigar por el címita.
+10.7-16.1s: Técnicos reales...
+16.1-22.0s: Escríbenos por WhatsApp...
+
+Text overlays:
+First row: ¿PLAGAS CON LAS LLUVIAS? at 0.4-3.8s
+4.6s: ¿PLAGAS CON LAS LLUVIAS?
+5.4-8.0s: AL DETALLE: GRIETA POR GRIETA
+8.8-10.5s: AL DETALLE: GRIETA POR GRIETA
+11.3-12.1s: CASAS • CLÍNICAS • OFICINAS • NEGOCIOS
+13.0-15.5s: CASAS • CLÍNICAS • OFICINAS • NEGOCIOS
+16.3-21.3s: TU ZONA + TU PLAGA + COTIZACIÓN
+22.2-24.7s: FUMICAM CONTROL DE PLAGAS ... Cotiza por WhatsApp
+
+Note transcription says Fumicán but brand is FUMICAM. Might be typo in voice? Transcription says Fumicán. Could be issue.
+
+Also "nada de fumigar por el címita." maybe "cima"? Might be typo.
+
+We need evaluate.
+
+Gancho: 0.0-5.0s mentions lluvias plagas. Text ¿PLAGAS CON LAS LLUVIAS? Good hook. Maybe 7/10.
+
+Oferta: No price given. Price [CONFIRMAR]. So offer unclear. Maybe 3/10.
+
+Confianza: Técnicos reales, shows technicians. 11.3s etc. Might be 7/10.
+
+Claridad: CTA clear: escribe zona y plaga. 16.1-22.0s. Good. Maybe 8/10.
+
+Calidad visual: photos animated, real technicians. Might be decent but some deformation risk. Maybe 6/10.
+
+Políticas de Meta: No claims? "nada de fumigar por el címita" maybe okay. No prohibited. Might be 8/10.
+
+Mensajes baratos: Hook relevant to season lluvias, broad. Might attract cheap messages. Maybe 6/10.
+
+Mensajes calificados: CTA asks zona y plaga, qualifies. But no price filter. Might be 6/10.
+
+Total maybe 6/10?
+
+Need provide notes scores.
+
+Let's propose:
+CALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 7/10 · Oferta 3/10 · Confianza 7/10 · Claridad 8/10 · Calidad visual 6/10 · Políticas de Meta 8/10 · Mensajes baratos 6/10 · Mensajes calificados 6/10
+
+POR QUÉ FUNCIONA:
+- 0.4-3.8s ¿PLAGAS CON LAS LLUVIAS? + voz 0.0-5.0s conecta temporada de lluvias con cucarachas/alacranes/termitas, genera relevancia inmediata.
+- 5.4-8.0s AL DETALLE: GRIETA POR GRIETA con técnico rociando techo, refuerza diferenciación vs fumigación superficial y justifica mensaje.
+- 10.7-16.1s muestra técnicos reales en casas/clínicas/oficinas/negocios de Cuernavaca y CDMX, da cobertura geográfica creíble.
+- 16.3-21.3s TU ZONA + TU PLAGA + COTIZACIÓN + voz 16.1-22.0s pide datos de calificación antes de cotizar, orienta a WhatsApp con intención.
+
+QUÉ LO FRENA:
+- 8.8-10.7s voz dice “nada de fumigar por el címita” y texto no lo refuerza; suena confuso y resta profesionalismo. Arreglo viable: re-clonar voz con frase clara “nada de fumigar por encima” y mantener subtítulo palabra por palabra.
+- 22.2-24.7s cierre con FUMICAM CONTROL DE PLAGAS y “Cotiza por WhatsApp” pero sin precio ni rango [CONFIRMAR]; la oferta queda abierta y atrae curiosos. Arreglo viable: agregar en capa de texto un disparador de calificación como “Dinos tu zona y tu plaga” ya está, pero mantener CTA y evitar prometer tiempo/costo. Si el cliente autoriza, añadir texto de plagas atendidas ya presente.
+- 0.0-5.0s la voz dice “Fumicán” en lugar de “Fumicam”. Arreglo viable: regrabar con Fish Audio la frase 5.0-8.8s con nombre correcto y sincronizar labios con MiniMax.
+
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+
+Make sure format exact.
+
+The format requires:
+CALIFICACIÓN TOTAL: X/10
+NOTAS: Gancho X/10 · Oferta X/10 · Confianza X/10 · Claridad X/10 · Calidad visual X/10 · Políticas de Meta X/10 · Mensajes baratos X/10 · Mensajes calificados X/10
+POR QUÉ FUNCIONA: 3 a 5 viñetas cortas, cada una señalando el segundo exacto del video y por qué hace que la gente escriba.
+QUÉ LO FRENA: 1 a 3 viñetas con el segundo exacto y el arreglo concreto (solo arreglos viables con las capacidades de abajo).
+VEREDICTO: «Subir ya», «Subir con cambios» o «No subir», y la calificación proyectada con los cambios.
+
+Use bullet points? Probably dash or •. Use viñetas cortas.
+
+Ensure Spanish.
+
+No invent prices. We marked [CONFIRMAR] for price.
+
+We must not invent times distances guarantees. We used seconds from data.
+
+Check transcription: "Aquí en Fumicán vamos al detalle..." brand mismatch. Good.
+
+Potential policy: "nada de fumigar por el címita" maybe okay.
+
+Mensajes baratos: maybe high because hook broad. Could be 5/10.
+
+Let's refine scores to be plausible.
+
+Maybe total 6/10.
+
+Provide final answer.
+
+Ensure no reasoning shown.
+
+Output only final.
+
+Let's produce.assistant to=userCALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 7/10 · Oferta 3/10 · Confianza 7/10 · Claridad 8/10 · Calidad visual 6/10 · Políticas de Meta 8/10 · Mensajes baratos 6/10 · Mensajes calificados 6/10
+POR QUÉ FUNCIONA:
+- 0.4-3.8s ¿PLAGAS CON LAS LLUVIAS? + voz 0.0-5.0s “Con las lluvias las plagas buscan meterse a tu casa cucarachas, alacranes y termitas.” Conecta temporada con dolor inmediato y genera relevancia.
+- 5.4-8.0s AL DETALLE: GRIETA POR GRIETA con técnico rociando techo, refuerza diferenciación de servicio detallado y justifica el contacto.
+- 10.7-16.1s “Técnicos reales en casas, clínicas, oficinas y negocios de cuernavaca y CDMX.” + tarjetas 11.3-15.5s CASAS • CLÍNICAS • OFICINAS • NEGOCIOS, da cobertura geográfica creíble con evidencia visual.
+- 16.3-21.3s TU ZONA + TU PLAGA + COTIZACIÓN + voz 16.1-22.0s “Escríbenos por WhatsApp con tu zona y la plaga que tienes y te cotizamos sin compromiso.” Pide datos de calificación antes de cotizar y orienta a mensaje con intención.
+QUÉ LO FRENA:
+- 8.8-10.7s voz dice “nada de fumigar por el címita.” Suena confuso y resta profesionalismo. Arreglo viable: re-clonar con Fish Audio la frase con redacción clara, por ejemplo “nada de fumigar por encima”, y mantener subtítulos palabra por palabra.
+- 0.0-5.0s y 5.0-8.8s la voz dice “Fumicán” en lugar de FUMICAM. Arreglo viable: regrabar con Fish Audio las frases con nombre correcto y sincronizar labios con MiniMax H3.
+- 22.2-24.7s cierre con FUMICAM CONTROL DE PLAGAS y “Cotiza por WhatsApp” sin precio. Precio [CONFIRMAR]. La oferta queda abierta y atrae curiosos. Arreglo viable: mantener CTA y texto de plagas atendidas ya en pantalla, sin inventar precios, tiempos ni garantías, y reforzar el disparador “Dinos tu zona y tu plaga”.
+VEREDICTO: «Subir con cambios», calificación proyectada 8/10
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-Rr15FV6GoHTIkOHBpEFmM0
+
+== Reporte Modal fgabriel60 ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/20261030m/lote.json --tokens 4500
+Duración: 6.5 min  (código 0)
+  escenas-carlos (ap-6g8Zev7VByp1wxg7snmfzD): $0.286
+  glimmer (ap-Rr15FV6GoHTIkOHBpEFmM0): $0.270
+Gasto del trabajo: $0.556
+Saldo restante ≈ $5.70

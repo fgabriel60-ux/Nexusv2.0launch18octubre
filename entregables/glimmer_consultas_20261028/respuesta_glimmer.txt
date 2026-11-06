@@ -1,0 +1,7 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fabelagabriel645/main/ap-XC4aECLPtxnHlPRIfDOsHL
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/modelos_modal/glimmer_modal.py
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.

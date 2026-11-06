@@ -1,0 +1,65 @@
+{
+ "carpeta": "villabahia_3c_r2",
+ "salida": "entregables/prospectos_sancarlos_20261031/villabahia_3c/salida2/",
+ "semilla": 9,
+ "refs": {},
+ "cuadros": {},
+ "tomas": [
+  [
+   "VCT01_exterior",
+   "VC01_exterior",
+   "Vertical luxury real estate video shot on a stabilized gimbal with wide angle lens, realistic, smooth and slow. Slow low-angle gimbal glide sideways along the pool toward the condo building, palm trees, bright sun. Same real place, nothing added, no people, no text. Audio: soft room ambience.",
+   2.6,
+   null
+  ],
+  [
+   "VCT02_recamara",
+   "VC02_recamara",
+   "Vertical luxury real estate video shot on a stabilized gimbal with wide angle lens, realistic, smooth and slow. Slow smooth gimbal push in toward the bed, warm sunlight, ceiling fan turning. Same real place, nothing added, no people, no text. Audio: soft room ambience.",
+   2.6,
+   null
+  ],
+  [
+   "VCT03_recamara_mar",
+   "VC03_recamara_mar",
+   "Vertical luxury real estate video shot on a stabilized gimbal with wide angle lens, realistic, smooth and slow. Slow lateral gimbal slide revealing the ocean view through the window, curtains moving. Same real place, nothing added, no people, no text. Audio: soft room ambience.",
+   2.6,
+   null
+  ],
+  [
+   "VCT04_comedor",
+   "VC04_comedor",
+   "Vertical luxury real estate video shot on a stabilized gimbal with wide angle lens, realistic, smooth and slow. Slow low gimbal glide along the dining table toward the kitchen, warm light. Same real place, nothing added, no people, no text. Audio: soft room ambience.",
+   2.6,
+   null
+  ],
+  [
+   "VCT05_sala",
+   "VC05_sala",
+   "Vertical luxury real estate video shot on a stabilized gimbal with wide angle lens, realistic, smooth and slow. Slow gimbal arc around the sofa toward the sliding doors with sea view. Same real place, nothing added, no people, no text. Audio: soft room ambience.",
+   2.6,
+   null
+  ],
+  [
+   "VCT06_sala2",
+   "VC06_sala2",
+   "Vertical luxury real estate video shot on a stabilized gimbal with wide angle lens, realistic, smooth and slow. Slow tilt up from the coffee table to the wooden ceiling beams, ceiling fan turning. Same real place, nothing added, no people, no text. Audio: soft room ambience.",
+   2.6,
+   null
+  ],
+  [
+   "VCT07_recamara2",
+   "VC07_recamara2",
+   "Vertical luxury real estate video shot on a stabilized gimbal with wide angle lens, realistic, smooth and slow. Slow smooth push in to the twin bedroom, soft light. Same real place, nothing added, no people, no text. Audio: soft room ambience.",
+   2.6,
+   null
+  ],
+  [
+   "VCT08_bano",
+   "VC08_bano",
+   "Vertical luxury real estate video shot on a stabilized gimbal with wide angle lens, realistic, smooth and slow. Slow gimbal tilt down from the mirror to the vanity, clean bright bathroom. Same real place, nothing added, no people, no text. Audio: soft room ambience.",
+   2.6,
+   null
+  ]
+ ]
+}

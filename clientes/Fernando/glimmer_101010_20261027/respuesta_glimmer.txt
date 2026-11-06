@@ -1,0 +1,66 @@
+**1) Qué tomar de cada referencia**
+
+1. Reel DJCzCm4vyVJ: Copiar estructura de ecosistema en 8 cuadros con etiquetas claras de cada pieza del kit. NO copiar marcas Arctic/Titanium/Mycelium ni precios ajenos.
+2. Reel DdsBv7XuyLW: Copiar contraste dolor/beneficio con texto corto en pantalla y ritmo de cortes. NO copiar “contactless del punto naranja” ni marca Latin Pagos.
+3. Reel DcOYKzdOtn8: Copiar demostración de control en tiempo real + app móvil + “siempre tendrás control”. NO copiar Venti/New Network System ni “de otro nivel”.
+4. Reel DeKb77gzsHw: Copiar narrativa de pérdida silenciosa “Lo que no ves también te cuesta” antes/después. NO copiar Valery ni diálogos de Caracas.
+5. Reel DbGXLe7idHv: Copiar prueba social de instalación + supervisión a distancia + CTA claro. NO copiar número 317 382 6696 ni marca SICAR.
+6. Reel DCH19XFRLcg: Copiar tono de capacitación honesta paso a paso. NO copiar VistroSoft ni comparativas de Joker 2.
+7. Reel Ddef9hpjKIY: Copiar secuencia de instalación real: verificar equipos, prueba de comanda, capacitación. NO copiar nombres de local.
+
+**2) Concepto y gancho**
+
+Concepto: Capacitación práctica en 40 minutos. Enseñar con el caso real de la nevería y cómo Anegocios resuelve inventario irregular por gramos/vasos, mostrando el método de Fernando.
+
+Ganchos 0-3 s:
+A. “¿Una bola de nieve con más o menos gramos? Así se controla sin pelearse con la báscula.”
+B. “Te enseño en 40 minutos a tener tu punto de venta funcionando, pausando y haciendo.”
+C. “Lo que no ves en tu libreta te está costando clientes.”
+
+Mejor: A. Es específico del cliente ideal nevería/miscelánea, usa la anécdota real de Fernando y genera curiosidad técnica sin sonar a anuncio gritón.
+
+**3) Guion completo 30-45 s**
+
+[VOZ CLONADA] ¿Una bola de nieve con más o menos gramos? Así se controla sin pelearse con la báscula.
+[FERNANDO VOZ REAL - nota real] si quiere lo vemos funcionando en este momento en la computadora.
+[VOZ CLONADA] En Anegocios llevas inventario por gramos y por vasos, ventas al momento, cortes claros y varias cajas en una vista.
+Si ya tienes computadora, te llevamos software, impresora térmica, lector de códigos, instalación y capacitación personal en tu negocio.
+Primero lo tienes funcionando, después pagas. 3,500 pesos más impuestos por un año.
+Escríbeme por WhatsApp y lo vemos hoy.
+
+**4) Escenas**
+
+| # | Seg | Qué se ve - fuente | Texto en pantalla exacto | Voz | Sonido |
+|---|-----|--------------------|--------------------------|-----|--------|
+| 1 | 0-3 | Foto real de Fernando, animación H3 push-in | ¿Bola de nieve con más o menos gramos? | Voz clonada gancho | Beat sintetizado + whoosh |
+| 2 | 3-8 | Video real de Fernando taller a cámara | Lo vemos funcionando en este momento | Fernando voz real: “si quiere lo vemos funcionando en este momento en la computadora.” | Audio natural |
+| 3 | 8-13 | Pantalla del sistema - inventario por unidades | Inventario por gramos y por vasos | Voz clonada | Click suave |
+| 4 | 13-18 | Fotos reales del kit: impresora térmica, lector de códigos, rollos | Software + impresora térmica + lector de códigos | Voz clonada | Whoosh |
+| 5 | 18-24 | Video real taller Fernando con pantalla compartida | Instalación y capacitación personal en tu negocio | Voz clonada | Beat |
+| 6 | 24-32 | Qwen-Image-Edit a partir de foto real de Fernando, escena de instalación simulada | Primero lo tienes funcionando, después pagas | Voz clonada | Riser |
+| 7 | 32-38 | Pantalla azul con botón WhatsApp | 3,500 MXN + impuestos / 1 año. Escríbeme por WhatsApp | Voz clonada CTA | Drop + clic |
+
+**5) CTA exacto y precalificación WhatsApp**
+
+CTA en pantalla y voz: “Escríbeme por WhatsApp. Ya tienes computadora? Te llevamos el punto de venta a tu negocio, lo instalamos y te capacitamos personalmente. Primero lo tienes funcionando, después pagas.”
+
+Preguntas de precalificación en WhatsApp:
+1. ¿Qué tipo de negocio tienes y hoy llevas ventas en libreta, Excel o ya usas sistema?
+2. ¿Ya cuentas con computadora en el negocio?
+3. ¿Tienes rutas de venta o solo punto fijo?
+
+**6) Qué NO decir**
+
+No inventar precios, funciones ni marcas. No prometer facturación electrónica, garantía de ventas ni “pago cero”. No usar marcas de referencia. No mostrar datos de clientes reales. No usar música con derechos. No hacer promesas de resultados. Todo texto en capa aparte, sin texto generado dentro del video.
+
+**7) Calificación honesta**
+
+Confianza 7/10. Claridad de la oferta 8/10. Probabilidad de mensajes calificados 6/10.
+
+Falta para 10/10/10:
+- Video real de Fernando demostrando en pantalla la función inventario por vasos/gramos, 10-15 s.
+- Grabación con celular de Fernando en una instalación real, 15 s, sin datos de clientes, para usar como base Qwen/H3.
+- Foto real del kit junto a una computadora en un mostrador real.
+- Clip de 5 s de la app Android de rutas mostrando sincronización en tiempo real.
+Con ese material se puede reemplazar la escena simulada de instalación y subir la confianza y la calidad de los leads.
+Stopping app - local entrypoint completed.

@@ -1,0 +1,445 @@
+{
+ "filas_03": 119,
+ "anuncios_03": 43,
+ "campanas_03": 19,
+ "filas_origen": 161,
+ "anuncios_origen": 46,
+ "campanas_origen": 22,
+ "ajenos_quitados": {
+  "filas": 63,
+  "anuncios": 15,
+  "campanas": 9
+ },
+ "rango_03": [
+  "2026-03-25",
+  "2026-08-10"
+ ],
+ "ceros_por_accion_omitida": 70,
+ "excluidas": {
+  "la segmentación cambió ese mismo día (el día mezcla dos configuraciones)": {
+   "filas": 10,
+   "anuncios": 8
+  },
+  "sin entrega ese día (0 impresiones)": {
+   "filas": 28,
+   "anuncios": 11
+  },
+  "objetivo MESSAGES + optimización POST_ENGAGEMENT + destino WHATSAPP: sin mapeo seguro": {
+   "filas": 4,
+   "anuncios": 1
+  }
+ },
+ "contextos": [
+  {
+   "objective": "leads",
+   "result_type": "lead",
+   "audience": "Edad mínima=18; Lugar=México; Público Advantage+=Activado",
+   "anuncios": 11,
+   "campanas": 2,
+   "filas": 20,
+   "gasto": 217.4,
+   "resultados": 15
+  },
+  {
+   "objective": "messages",
+   "result_type": "conversacion_iniciada",
+   "audience": "Edad mínima=18; Lugar=México; Público Advantage+=Activado",
+   "anuncios": 3,
+   "campanas": 3,
+   "filas": 21,
+   "gasto": 1470.51,
+   "resultados": 31
+  },
+  {
+   "objective": "messages",
+   "result_type": "conversacion_iniciada",
+   "audience": "Edad=25 - 52; Idioma=Polaco; Intereses=Pequeñas empresas (negocios y finanzas), Marketing digital (marketing), Pequeñas y medianas empresas (negocios y finanzas), Espíritu empresarial (negocios y finanzas), Sociedad unipersonal (negocios y finanzas), Mujeres emprendedoras (negocios y finanzas) o Líderes empresariales (negocios y finanzas); Lugar=México; Público Advantage+=Desactivado",
+   "anuncios": 2,
+   "campanas": 2,
+   "filas": 2,
+   "gasto": 111.78,
+   "resultados": 0
+  },
+  {
+   "objective": "messages",
+   "result_type": "conversacion_iniciada",
+   "audience": "Edad=18 - 65+; Lugar=México: Latitud 31,20 Longitud -110,99 Nogales (+80 km) Sonora; Personas que coinciden con=Intereses: Pequeñas empresas (negocios y finanzas), Ventas (negocios y finanzas), Pequeñas y medianas empresas (negocios y finanzas), Trabajo independiente (empleo), Empresas emergentes (negocios y finanzas), Espíritu empresarial (negocios y finanzas), Negocios (negocios y finanzas), Negocio familiar (negocios y finanzas), Asociación de empresarias (organización profesional) o Mujeres emprendedoras (negocios y finanzas)",
+   "anuncios": 1,
+   "campanas": 1,
+   "filas": 3,
+   "gasto": 171.57,
+   "resultados": 2
+  },
+  {
+   "objective": "messages",
+   "result_type": "conversacion_iniciada",
+   "audience": "Edad=18 - 65+; Lugar=México: Latitud 31,20 Longitud -110,99 Nogales (+80 km) Sonora; Personas que coinciden con=Intereses: Pequeñas empresas (negocios y finanzas), Ventas (negocios y finanzas), Pequeñas y medianas empresas (negocios y finanzas), Comida (comida y bebida), Restaurantes (comedor) o Mujeres emprendedoras (negocios y finanzas); Segmentación detallada Advantage+=Activada",
+   "anuncios": 1,
+   "campanas": 1,
+   "filas": 2,
+   "gasto": 39.59,
+   "resultados": 0
+  },
+  {
+   "objective": "messages",
+   "result_type": "conversacion_iniciada",
+   "audience": "Edad=25 - 55; Idioma=Polaco; Lugar=México; Público Advantage+=Desactivado",
+   "anuncios": 1,
+   "campanas": 1,
+   "filas": 2,
+   "gasto": 63.71,
+   "resultados": 0
+  },
+  {
+   "objective": "messages",
+   "result_type": "conversacion_iniciada",
+   "audience": "Edad mínima=18; Lugar=México; Público Advantage+=Activado; Público personalizado=Público similar (2%) - People who like Vision Agencia",
+   "anuncios": 1,
+   "campanas": 1,
+   "filas": 1,
+   "gasto": 12.58,
+   "resultados": 0
+  },
+  {
+   "objective": "messages",
+   "result_type": "conversacion_iniciada",
+   "audience": "Edad=18 - 65+; Lugar=México",
+   "anuncios": 1,
+   "campanas": 1,
+   "filas": 2,
+   "gasto": 114.56,
+   "resultados": 2
+  },
+  {
+   "objective": "messages",
+   "result_type": "conversacion_iniciada",
+   "audience": "Edad=18 - 65+; Lugar=México; Público Advantage+=Desactivado; Público personalizado Advantage+=Activado; Público personalizado=Audiencia tibia",
+   "anuncios": 1,
+   "campanas": 1,
+   "filas": 1,
+   "gasto": 42.59,
+   "resultados": 1
+  },
+  {
+   "objective": "messages",
+   "result_type": "conversacion_iniciada",
+   "audience": "Edad=18 - 65+/Edad desconocida en WhatsApp: Se incluye; Lugar=México: Nogales (+25 mi) Sonora; Público Advantage+=Desactivado; Público personalizado Advantage+=Activado; Público personalizado=Audiencia tibia",
+   "anuncios": 1,
+   "campanas": 1,
+   "filas": 2,
+   "gasto": 38.85,
+   "resultados": 1
+  },
+  {
+   "objective": "traffic",
+   "result_type": "conversacion_iniciada",
+   "audience": "Edad=18 - 65+; Lugar=México",
+   "anuncios": 2,
+   "campanas": 1,
+   "filas": 18,
+   "gasto": 1033.01,
+   "resultados": 85
+  },
+  {
+   "objective": "traffic",
+   "result_type": "conversacion_iniciada",
+   "audience": "Edad=18 - 65+; Lugar=México: Nogales (+25 mi) Sonora/Estados Unidos: Nogales (Arizona) (+25 mi) Arizona",
+   "anuncios": 1,
+   "campanas": 1,
+   "filas": 2,
+   "gasto": 51.76,
+   "resultados": 1
+  },
+  {
+   "objective": "traffic",
+   "result_type": "conversacion_iniciada",
+   "audience": "Edad=25 - 55; Lugar=México; Público Advantage+=Desactivado; Segmentación detallada Advantage+=Activada",
+   "anuncios": 1,
+   "campanas": 1,
+   "filas": 5,
+   "gasto": 303.13,
+   "resultados": 7
+  },
+  {
+   "objective": "traffic",
+   "result_type": "landing_page_view",
+   "audience": "Edad=25 - 55; Lugar=México; Público Advantage+=Desactivado",
+   "anuncios": 6,
+   "campanas": 1,
+   "filas": 16,
+   "gasto": 289.01,
+   "resultados": 327
+  },
+  {
+   "objective": "traffic",
+   "result_type": "link_click",
+   "audience": "Edad=25 - 60; Lugar=México; Público Advantage+=Desactivado",
+   "anuncios": 10,
+   "campanas": 1,
+   "filas": 17,
+   "gasto": 94.82,
+   "resultados": 76
+  },
+  {
+   "objective": "traffic",
+   "result_type": "link_click",
+   "audience": "Edad mínima=18; Lugar=México; Público Advantage+=Activado",
+   "anuncios": 1,
+   "campanas": 1,
+   "filas": 1,
+   "gasto": 11.71,
+   "resultados": 39
+  },
+  {
+   "objective": "traffic",
+   "result_type": "link_click",
+   "audience": "Edad=18 - 65+; Lugar=México; Público Advantage+=Desactivado",
+   "anuncios": 1,
+   "campanas": 1,
+   "filas": 4,
+   "gasto": 93.49,
+   "resultados": 266
+  }
+ ],
+ "historial_previo_por_campana": [
+  {
+   "campaign_id": "120245791760570651",
+   "nombre": "Promoción continua de generación de clientes potenciales de Vision Agencia",
+   "objetivo": "leads",
+   "evento": "lead",
+   "inicio": "2026-03-25",
+   "fin": "2026-03-26",
+   "anuncios": 4,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 0
+  },
+  {
+   "campaign_id": "120247020986310651",
+   "nombre": "[14/4/2026] Promoción de https://facebook.com/61550960271359",
+   "objetivo": "messages",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-04-15",
+   "fin": "2026-04-17",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 0
+  },
+  {
+   "campaign_id": "120247234526370651",
+   "nombre": "Promoción continua de generación de clientes potenciales de Vision Agencia",
+   "objetivo": "leads",
+   "evento": "lead",
+   "inicio": "2026-04-17",
+   "fin": "2026-04-18",
+   "anuncios": 7,
+   "anuncios_previos_mismo_contexto": 4,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 4
+  },
+  {
+   "campaign_id": "120248293143320651",
+   "nombre": "Campaña de Interacción con la configuración recomendada",
+   "objetivo": "messages",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-05-03",
+   "fin": "2026-05-20",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 1,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 1
+  },
+  {
+   "campaign_id": "120248854054830651",
+   "nombre": "[11/5/2026] Promoción de https://fb.com/messenger_doc/",
+   "objetivo": "messages",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-05-11",
+   "fin": "2026-05-15",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 1
+  },
+  {
+   "campaign_id": "120248938538930651",
+   "nombre": "[11/5/2026] Promoción de https://fb.com/messenger_doc/ - Copia",
+   "objetivo": "messages",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-05-12",
+   "fin": "2026-05-13",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 1
+  },
+  {
+   "campaign_id": "120249058424030651",
+   "nombre": "Marketing AI - WhatsApp Conversaciones - Mayo 2026",
+   "objetivo": "messages",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-05-14",
+   "fin": "2026-05-15",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 2
+  },
+  {
+   "campaign_id": "120249070404250651",
+   "nombre": "Retargeting — Cierre $500 — Vision Agencia",
+   "objetivo": "messages",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-05-15",
+   "fin": "2026-05-15",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 2
+  },
+  {
+   "campaign_id": "120250725962400651",
+   "nombre": "Campaña de Interacción con la configuración recomendada",
+   "objetivo": "messages",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-06-06",
+   "fin": "2026-06-06",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 6
+  },
+  {
+   "campaign_id": "120250781854430651",
+   "nombre": "New messages campaign",
+   "objetivo": "messages",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-06-06",
+   "fin": "2026-06-07",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 6
+  },
+  {
+   "campaign_id": "120251277625940651",
+   "nombre": "Sanaas - 1 Video Gratis - Trafico WA (Jun 2026)",
+   "objetivo": "traffic",
+   "evento": "link_click",
+   "inicio": "2026-06-13",
+   "fin": "2026-06-13",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 0
+  },
+  {
+   "campaign_id": "120251287627160651",
+   "nombre": "Sanaas - 1 Video Gratis - Trafico URL wa.me (Jun 2026)",
+   "objetivo": "traffic",
+   "evento": "link_click",
+   "inicio": "2026-06-14",
+   "fin": "2026-06-17",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 1
+  },
+  {
+   "campaign_id": "120251317176980651",
+   "nombre": "Campaña de Interacción con la configuración recomendada",
+   "objetivo": "messages",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-06-14",
+   "fin": "2026-06-14",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 2,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 8
+  },
+  {
+   "campaign_id": "120251504830220651",
+   "nombre": "Sanaas - 1 Video Gratis - Audiencia Tibia MENSAJES (Jun 2026)",
+   "objetivo": "messages",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-06-17",
+   "fin": "2026-06-17",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 9
+  },
+  {
+   "campaign_id": "120251563208660651",
+   "nombre": "Nuevo Tráfico Campaña",
+   "objetivo": "traffic",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-06-17",
+   "fin": "2026-08-01",
+   "anuncios": 2,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 0
+  },
+  {
+   "campaign_id": "120251572152380651",
+   "nombre": "Nuevo Tráfico Campaña",
+   "objetivo": "traffic",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-06-18",
+   "fin": "2026-06-19",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 0
+  },
+  {
+   "campaign_id": "120251557968490651",
+   "nombre": "Sanaas - 1 Video Gratis - Audiencia Tibia MENSAJES (Jun 2026) - Copia 2",
+   "objetivo": "messages",
+   "evento": "conversacion_iniciada",
+   "inicio": "2026-06-19",
+   "fin": "2026-06-20",
+   "anuncios": 1,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 10
+  },
+  {
+   "campaign_id": "120252722052980651",
+   "nombre": "Vision Agencia - Tráfico Bridge Vercel - 6 Anuncios (Jul 2026)",
+   "objetivo": "traffic",
+   "evento": "landing_page_view",
+   "inicio": "2026-07-09",
+   "fin": "2026-07-14",
+   "anuncios": 6,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 0
+  },
+  {
+   "campaign_id": "120253455066210651",
+   "nombre": "Vision Agencia - Trafico Agosto 2026",
+   "objetivo": "traffic",
+   "evento": "link_click",
+   "inicio": "2026-08-09",
+   "fin": "2026-08-10",
+   "anuncios": 10,
+   "anuncios_previos_mismo_contexto": 0,
+   "anuncios_previos_mismo_objetivo_evento_cualquier_audiencia": 2
+  }
+ ],
+ "por_objetivo": {
+  "leads/lead": 20,
+  "messages/conversacion_iniciada": 36,
+  "traffic/link_click": 22,
+  "traffic/conversacion_iniciada": 25,
+  "traffic/landing_page_view": 16
+ },
+ "creativos_filas_04": 47,
+ "anuncios_con_texto": 22,
+ "anuncios_visual_legible": 46,
+ "anuncios_video": [
+  "120247233591780651",
+  "120247234526300651",
+  "120247234526310651",
+  "120247234526420651",
+  "120247234526460651",
+  "120247234526470651",
+  "120248854054800651",
+  "120248938538950651",
+  "120252656552890651",
+  "120253470059870651"
+ ],
+ "miniatura_video": [
+  "120247234526300651",
+  "120248854054800651",
+  "120248938538950651",
+  "120249060526800651",
+  "120252656552890651",
+  "120253470059870651"
+ ]
+}

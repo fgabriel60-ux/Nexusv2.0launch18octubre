@@ -1,0 +1,36 @@
+✓ Initialized. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-IjCTZ9WY4DH8gbQwNeHEGU
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/_escenas_carlos/escenas_carlos
+│   _modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+├── ✓ Created Function Cuadros.*.
+└── ✓ Created Function gen_tomas.
+toma RAF_1
+toma RAF_2
+toma RAF_3
+toma MAR_1
+toma MAR_2
+guardado RAF_1.mp4
+guardado RAF_2.mp4
+guardado RAF_3.mp4
+guardado MAR_1.mp4
+guardado MAR_2.mp4
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/charlyfavela666/main/ap-IjCTZ9WY4DH8gbQwNeHEGU
+
+== Reporte Modal charlyfavela666 ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/ganchos_video_20261105/spec.json
+Duración: 8.7 min  (código 0)
+  vigia-clientes (ap-IZbkSyA2otIvj658MMlpSi): $0.000
+  tablero-nexus (ap-KQvQ59JktJFE9CObPZp2JN): $0.001
+  nexus3 (ap-ZtSTaaSIs8SrcU1TRgCKhf): $0.041
+  auto-aplicar-cambios (ap-ce2KU24i3X3cvw0ikPHQxB): $0.000
+  prioridades-carlos (ap-hOZCm4c1yKe9gnSeJrx2pC): $0.000
+  escenas-carlos (ap-IjCTZ9WY4DH8gbQwNeHEGU): $0.333
+Gasto del trabajo: $0.376
+Saldo restante ≈ $-3.73

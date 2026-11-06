@@ -1,0 +1,15 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-K4oK8WyoF0Cu81UrfK70L6
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/mariano_atardecer_20261019/atardecer_modal.py
+├── ✓ Created Function cuadros.
+└── ✓ Created Function clips.
+clip T1 124 /datos/siena/out/mariano_atardecer/T1_00001_.mp4
+clip T2 124 /datos/siena/out/mariano_atardecer/T2_00001_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_atardecer_20261019/clips/T1
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/mariano_atardecer_20261019/clips/T2
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-K4oK8WyoF0Cu81UrfK70L6

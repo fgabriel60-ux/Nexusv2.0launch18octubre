@@ -1,0 +1,5 @@
+Herramienta: image_gen integrada. Ediciones basadas en foto real de Rafael y referencia del SUV; reel usado solo como referencia de composición.
+A: Foto real vertical; Rafael cuerpo entero pequeño (un tercio de alto), manos en bolsillos, cámara a 15 metros, SUVs blancos estacionados, tronco desenfocado a izquierda, luz nublada CDMX.
+B: Mismo Rafael, ropa, pose y luz; cámara desplazada 40 grados, agencia con cristal detrás, SUVs de lado, poste cercano a derecha.
+Interior: Rafael sentado en banca trasera, cámara entre asientos delanteros mirando atrás, respaldos en primer plano, techo con manija, rostro nítido y boca entreabierta despejada.
+Común: conservar identidad, piel natural, sin otras personas, texto ni logotipos inventados; placas tapadas; márgenes de seguridad. Exportación final PNG 720x1280.

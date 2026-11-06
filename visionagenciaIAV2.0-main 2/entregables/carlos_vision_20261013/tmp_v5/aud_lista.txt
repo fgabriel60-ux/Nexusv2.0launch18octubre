@@ -1,0 +1,5 @@
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/tmp_v5/aud_P1.wav'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/tmp_v5/aud_P2.wav'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/tmp_v5/aud_P3.wav'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/tmp_v5/aud_P4.wav'
+file '/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/carlos_vision_20261013/tmp_v5/aud_P5.wav'

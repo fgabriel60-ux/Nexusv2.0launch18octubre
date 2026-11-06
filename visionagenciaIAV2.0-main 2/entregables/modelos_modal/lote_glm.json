@@ -1,0 +1,17 @@
+[
+ {
+  "nombre": "GLM_Servilin",
+  "foto": "/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/victor_servilin_20261012/flyers_modal/foto_mejorada_F1.png",
+  "prompt": "Turn this real photo into a professional vertical Facebook ad for an industrial cleaning company, keep the workers and the floor scrubber exactly as they are. Dark petrol blue and teal design. At the top a big bold Spanish headline exactly: 'GERENTE DE PLANTA: ¿TU PERSONAL DE LIMPIEZA FALTA?'. Below it: 'Plantillas desde $16,000 al mes por elemento'. At the bottom a green button with the text 'COTIZA: 56 3634 1441'. Spanish text spelled exactly, with accents."
+ },
+ {
+  "nombre": "GLM_Broquelito",
+  "foto": "/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/broquelito_20261013/refs/esclavas_nombres.png",
+  "prompt": "Turn this real photo of engraved silver ID bracelets with gold names into a luxury vertical jewelry ad in black and gold. Keep the bracelets exactly as they are. Top elegant serif headline exactly: 'SU NOMBRE, PARA SIEMPRE'. Subtitle: 'Esclavas grabadas · Oro 10K y plata'. Bottom golden button: 'COTIZA SIN COMPROMISO'. Small text: 'Envíos a toda la República'. Spanish text spelled exactly, with accents."
+ },
+ {
+  "nombre": "GLM_RarAmore",
+  "foto": "/workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/360salud_cartilago_20261013/cuadros/J5.png",
+  "prompt": "Turn this photo of the Rar~Amore supplement bottle held in a hand into a premium vertical ad in deep emerald green and gold, keep the bottle exactly. Top headline exactly: 'MANTÉN TU RITMO TODOS LOS DÍAS'. Subtitle: 'Colágeno · Magnesio · Calcio · Vitamina D'. Bottom green button: 'PIDE: 81 8466 8456'. Spanish text spelled exactly, with accents."
+ }
+]

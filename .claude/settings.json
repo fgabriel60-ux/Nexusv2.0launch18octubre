@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_Windsor_ai__get_data",
+      "mcp__claude_ai_Windsor_ai__get_connectors",
+      "mcp__claude_ai_Windsor_ai__get_fields",
+      "mcp__claude_ai_Windsor_ai__list_actions",
+      "mcp__claude_ai_Windsor_ai__get_options",
+      "mcp__claude_ai_Windsor_ai__get_connector_connect_info",
+      "mcp__claude_ai_Gmail__search_threads",
+      "mcp__claude_ai_Google_Drive__search_files",
+      "mcp__claude_ai_Supermetrics_Marketing_Analytics__accounts_discovery",
+      "Bash(modal volume list)",
+      "Bash(modal app list)",
+      "Bash(modal profile current)"
+    ]
+  }
+}

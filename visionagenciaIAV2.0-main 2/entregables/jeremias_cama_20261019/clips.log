@@ -1,0 +1,18 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fgabriel60/main/ap-6hW208X4DEQNQUoAJ4zdgB
+✓ Created objects.
+├── ✓ Uploaded /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 
+│   2/entregables/jeremias_cama_20261019/jeremias_modal.py
+├── ✓ Created Function clips.
+└── ✓ Created Function cuadros.
+clip T1 124 /datos/siena/out/jeremias_cama/T1_00001_.mp4
+clip T2 124 /datos/siena/out/jeremias_cama/T2_00001_.mp4
+clip T3 124 /datos/siena/out/jeremias_cama/T3_00001_.mp4
+clip T4 124 /datos/siena/out/jeremias_cama/T4_00001_.mp4
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/clips/T1
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/clips/T2
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/clips/T3
+guardado /workspaces/Nexusv2.0launch18octubre/visionagenciaIAV2.0-main 2/entregables/jeremias_cama_20261019/clips/T4
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/fgabriel60/main/ap-6hW208X4DEQNQUoAJ4zdgB

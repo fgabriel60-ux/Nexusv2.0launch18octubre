@@ -1,0 +1,196 @@
+{
+  "source_unchanged": true,
+  "checks": [
+    {
+      "frame": 1,
+      "natural_teeth": 4,
+      "roots": 0,
+      "face_visible": [
+        "CHICA_Rostro_completo_3D",
+        "CHICA_Contexto_cabello_y_cuello"
+      ],
+      "implant": false,
+      "cap": false,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 150,
+      "natural_teeth": 4,
+      "roots": 0,
+      "face_visible": [
+        "CHICA_Rostro_completo_3D",
+        "CHICA_Contexto_cabello_y_cuello"
+      ],
+      "implant": false,
+      "cap": false,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 230,
+      "natural_teeth": 4,
+      "roots": 0,
+      "face_visible": [
+        "CHICA_Rostro_completo_3D",
+        "CHICA_Contexto_cabello_y_cuello"
+      ],
+      "implant": false,
+      "cap": false,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 350,
+      "natural_teeth": 4,
+      "roots": 4,
+      "face_visible": [
+        "CHICA_Rostro_completo_3D",
+        "CHICA_Contexto_cabello_y_cuello"
+      ],
+      "implant": false,
+      "cap": false,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 380,
+      "natural_teeth": 4,
+      "roots": 4,
+      "face_visible": [
+        "CHICA_Rostro_completo_3D",
+        "CHICA_Contexto_cabello_y_cuello"
+      ],
+      "implant": false,
+      "cap": false,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 416,
+      "natural_teeth": 4,
+      "roots": 4,
+      "face_visible": [],
+      "implant": false,
+      "cap": false,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 450,
+      "natural_teeth": 4,
+      "roots": 4,
+      "face_visible": [],
+      "implant": false,
+      "cap": false,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 550,
+      "natural_teeth": 4,
+      "roots": 4,
+      "face_visible": [],
+      "implant": false,
+      "cap": false,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 620,
+      "natural_teeth": 4,
+      "roots": 4,
+      "face_visible": [],
+      "implant": true,
+      "cap": false,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 670,
+      "natural_teeth": 4,
+      "roots": 4,
+      "face_visible": [],
+      "implant": true,
+      "cap": false,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 704,
+      "natural_teeth": 4,
+      "roots": 4,
+      "face_visible": [],
+      "implant": true,
+      "cap": false,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 750,
+      "natural_teeth": 4,
+      "roots": 4,
+      "face_visible": [],
+      "implant": true,
+      "cap": true,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 845,
+      "natural_teeth": 4,
+      "roots": 4,
+      "face_visible": [],
+      "implant": true,
+      "cap": true,
+      "abutment": false,
+      "crown": false
+    },
+    {
+      "frame": 900,
+      "natural_teeth": 4,
+      "roots": 4,
+      "face_visible": [],
+      "implant": true,
+      "cap": false,
+      "abutment": true,
+      "crown": false
+    },
+    {
+      "frame": 940,
+      "natural_teeth": 4,
+      "roots": 4,
+      "face_visible": [],
+      "implant": true,
+      "cap": false,
+      "abutment": true,
+      "crown": true
+    },
+    {
+      "frame": 1000,
+      "natural_teeth": 4,
+      "roots": 0,
+      "face_visible": [
+        "CHICA_Rostro_completo_3D",
+        "CHICA_Contexto_cabello_y_cuello"
+      ],
+      "implant": true,
+      "cap": false,
+      "abutment": true,
+      "crown": true
+    },
+    {
+      "frame": 1050,
+      "natural_teeth": 4,
+      "roots": 0,
+      "face_visible": [
+        "CHICA_Rostro_completo_3D",
+        "CHICA_Contexto_cabello_y_cuello"
+      ],
+      "implant": true,
+      "cap": false,
+      "abutment": true,
+      "crown": true
+    }
+  ]
+}

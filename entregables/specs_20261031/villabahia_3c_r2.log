@@ -1,0 +1,41 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-LNYAm8RbwJoClsU9X9nhSw
+✓ Created objects.
+├── ✓ Uploaded 
+│   /__modal/volumes/vo-N6gOPxHfXSf5HzbsmuqjJ3/workspaces/Nexusv2.0launch18octub
+│   re/clientes/_escenas_carlos/escenas_carlos_modal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function gen_cuadros.
+└── ✓ Created Function gen_tomas.
+toma VCT01_exterior
+toma VCT02_recamara
+toma VCT03_recamara_mar
+toma VCT04_comedor
+toma VCT05_sala
+toma VCT06_sala2
+toma VCT07_recamara2
+toma VCT08_bano
+guardado VCT01_exterior.mp4
+guardado VCT02_recamara.mp4
+guardado VCT03_recamara_mar.mp4
+guardado VCT04_comedor.mp4
+guardado VCT05_sala.mp4
+guardado VCT06_sala2.mp4
+guardado VCT07_recamara2.mp4
+guardado VCT08_bano.mp4
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-31T08:30:10+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-LNYAm8RbwJoClsU9X9nhSw
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261031/villabahia_3c_r2.json
+Duración: 11.2 min  (código 0)
+  nexus-claude (ap-u99GVujOfWmtyQc1TDqWmk): $0.054
+  glimmer (ap-DS0APe2r0ss3esYxiEvvsM): $0.420
+  glimmer (ap-KKeI4Yld8IlbYPmtYkxBIK): $0.363
+  escenas-carlos (ap-LNYAm8RbwJoClsU9X9nhSw): $0.534
+  musica-villa (ap-wfuy41adtPrV4hvTRIeRrh): $0.003
+  glimmer (ap-xe4xunptUP7oYaFqzdnMZL): $0.016
+Gasto del trabajo: $1.391
+Saldo restante ≈ $16.37

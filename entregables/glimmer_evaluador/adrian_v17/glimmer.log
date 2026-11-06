@@ -1,0 +1,213 @@
+[0;93m2026-11-05 22:03:05.614059124 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:07/VMBUS:01/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+listo ADRIAN_v17_rafaga 31.7s
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-2pTaPuskNIz1axDKQEtOxW
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<37:07,  1.55s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:03<38:47,  1.62s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:03<15:29,  1.54it/s]
+[1ALoading weights:   0%|          | 5/1436 [00:03<11:50,  2.01it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:03<09:28,  2.52it/s]
+[1ALoading weights:   1%|          | 10/1436 [00:03<03:51,  6.16it/s]
+[1ALoading weights:   1%|          | 16/1436 [00:03<01:57, 12.11it/s]
+[1ALoading weights:   1%|▏         | 19/1436 [00:04<02:08, 11.04it/s]
+[1ALoading weights:   2%|▏         | 27/1436 [00:04<01:23, 16.87it/s]
+[1ALoading weights:   2%|▏         | 30/1436 [00:04<01:35, 14.70it/s]
+[1ALoading weights:   3%|▎         | 38/1436 [00:04<01:01, 22.86it/s]
+[1ALoading weights:   3%|▎         | 42/1436 [00:05<01:21, 17.20it/s]
+[1ALoading weights:   3%|▎         | 49/1436 [00:05<00:57, 24.04it/s]
+[1ALoading weights:   4%|▎         | 53/1436 [00:05<01:07, 20.45it/s]
+[1ALoading weights:   4%|▍         | 57/1436 [00:05<01:06, 20.79it/s]
+[1ALoading weights:   4%|▍         | 62/1436 [00:06<01:07, 20.42it/s]
+[1ALoading weights:   5%|▍         | 65/1436 [00:06<01:03, 21.43it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:06<01:06, 20.69it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:06<00:50, 26.92it/s]
+[1ALoading weights:   6%|▌         | 79/1436 [00:06<01:09, 19.65it/s]
+[1ALoading weights:   6%|▌         | 85/1436 [00:07<00:53, 25.34it/s]
+[1ALoading weights:   6%|▌         | 89/1436 [00:07<01:01, 21.73it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:07<01:07, 19.99it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:07<00:51, 25.88it/s]
+[1ALoading weights:   7%|▋         | 103/1436 [00:08<01:09, 19.16it/s]
+[1ALoading weights:   8%|▊         | 110/1436 [00:08<00:49, 26.61it/s]
+[1ALoading weights:   8%|▊         | 114/1436 [00:08<01:10, 18.87it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:08<00:50, 26.17it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [00:09<01:01, 21.23it/s]
+[1ALoading weights:   9%|▉         | 133/1436 [00:09<00:51, 25.16it/s]
+[1ALoading weights:  10%|▉         | 137/1436 [00:09<00:58, 22.17it/s]
+[1ALoading weights:  10%|▉         | 140/1436 [00:09<01:03, 20.53it/s]
+[1ALoading weights:  10%|█         | 146/1436 [00:09<00:48, 26.83it/s]
+[1ALoading weights:  10%|█         | 150/1436 [00:10<01:10, 18.15it/s]
+[1ALoading weights:  11%|█         | 155/1436 [00:10<00:57, 22.24it/s]
+[1ALoading weights:  11%|█         | 161/1436 [00:10<01:06, 19.11it/s]
+[1ALoading weights:  12%|█▏        | 168/1436 [00:10<00:49, 25.87it/s]
+[1ALoading weights:  12%|█▏        | 172/1436 [00:10<00:47, 26.43it/s]
+[1ALoading weights:  12%|█▏        | 176/1436 [00:11<01:01, 20.37it/s]
+[1ALoading weights:  13%|█▎        | 183/1436 [00:11<00:52, 23.65it/s]
+[1ALoading weights:  13%|█▎        | 186/1436 [00:11<01:05, 18.98it/s]
+[1ALoading weights:  13%|█▎        | 192/1436 [00:11<00:50, 24.49it/s]
+[1ALoading weights:  14%|█▎        | 196/1436 [00:12<00:47, 25.85it/s]
+[1ALoading weights:  14%|█▍        | 200/1436 [00:12<01:00, 20.58it/s]
+[1ALoading weights:  14%|█▍        | 206/1436 [00:12<00:46, 26.44it/s]
+[1ALoading weights:  15%|█▍        | 210/1436 [00:12<01:08, 17.90it/s]
+[1ALoading weights:  15%|█▌        | 217/1436 [00:12<00:48, 25.15it/s]
+[1ALoading weights:  15%|█▌        | 221/1436 [00:13<00:56, 21.39it/s]
+[1ALoading weights:  16%|█▌        | 225/1436 [00:13<00:56, 21.54it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:13<00:47, 25.59it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:13<00:58, 20.48it/s]
+[1ALoading weights:  17%|█▋        | 243/1436 [00:14<00:42, 27.91it/s]
+[1ALoading weights:  17%|█▋        | 247/1436 [00:14<01:03, 18.78it/s]
+[1ALoading weights:  18%|█▊        | 256/1436 [00:14<00:47, 25.10it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:15<00:57, 20.46it/s]
+[1ALoading weights:  19%|█▊        | 266/1436 [00:15<00:46, 25.41it/s]
+[1ALoading weights:  19%|█▉        | 270/1436 [00:15<01:04, 18.21it/s]
+[1ALoading weights:  19%|█▉        | 279/1436 [00:15<00:42, 27.49it/s]
+[1ALoading weights:  20%|█▉        | 284/1436 [00:16<00:57, 19.92it/s]
+[1ALoading weights:  20%|██        | 291/1436 [00:16<00:43, 26.12it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:16<00:57, 20.00it/s]
+[1ALoading weights:  21%|██        | 302/1436 [00:16<00:56, 20.24it/s]
+[1ALoading weights:  21%|██▏       | 306/1436 [00:17<01:03, 17.90it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:17<00:44, 24.92it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:17<00:54, 20.63it/s]
+[1ALoading weights:  23%|██▎       | 326/1436 [00:17<00:45, 24.67it/s]
+[1ALoading weights:  23%|██▎       | 330/1436 [00:18<01:00, 18.41it/s]
+[1ALoading weights:  23%|██▎       | 337/1436 [00:18<00:44, 24.68it/s]
+[1ALoading weights:  24%|██▎       | 341/1436 [00:18<01:03, 17.18it/s]
+[1ALoading weights:  24%|██▍       | 351/1436 [00:19<00:45, 23.93it/s]
+[1ALoading weights:  25%|██▍       | 355/1436 [00:19<00:53, 20.21it/s]
+[1ALoading weights:  25%|██▌       | 361/1436 [00:19<00:49, 21.76it/s]
+[1ALoading weights:  25%|██▌       | 365/1436 [00:19<00:45, 23.62it/s]
+[1ALoading weights:  26%|██▌       | 368/1436 [00:19<00:47, 22.30it/s]
+[1ALoading weights:  26%|██▌       | 373/1436 [00:20<00:49, 21.45it/s]
+[1ALoading weights:  26%|██▋       | 377/1436 [00:20<00:44, 23.69it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:20<00:47, 22.39it/s]
+[1ALoading weights:  27%|██▋       | 385/1436 [00:20<00:39, 26.59it/s]
+[1ALoading weights:  27%|██▋       | 389/1436 [00:20<00:46, 22.67it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:21<00:49, 20.92it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:21<00:38, 27.04it/s]
+[1ALoading weights:  28%|██▊       | 403/1436 [00:21<00:53, 19.32it/s]
+[1ALoading weights:  29%|██▊       | 412/1436 [00:21<00:39, 26.18it/s]
+[1ALoading weights:  29%|██▉       | 415/1436 [00:22<00:51, 19.70it/s]
+[1ALoading weights:  29%|██▉       | 421/1436 [00:22<00:39, 25.47it/s]
+[1ALoading weights:  30%|██▉       | 425/1436 [00:22<00:55, 18.13it/s]
+[1ALoading weights:  30%|███       | 434/1436 [00:22<00:37, 27.06it/s]
+[1ALoading weights:  31%|███       | 439/1436 [00:23<00:48, 20.54it/s]
+[1ALoading weights:  31%|███       | 446/1436 [00:23<00:37, 26.61it/s]
+[1ALoading weights:  31%|███▏      | 451/1436 [00:23<00:50, 19.46it/s]
+[1ALoading weights:  32%|███▏      | 460/1436 [00:23<00:39, 24.95it/s]
+[1ALoading weights:  32%|███▏      | 464/1436 [00:24<00:47, 20.40it/s]
+[1ALoading weights:  33%|███▎      | 472/1436 [00:24<00:38, 25.05it/s]
+[1ALoading weights:  33%|███▎      | 476/1436 [00:24<00:46, 20.66it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:24<00:37, 25.45it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:25<00:45, 20.97it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:25<00:37, 24.78it/s]
+[1ALoading weights:  35%|███▍      | 499/1436 [00:25<00:46, 20.04it/s]
+[1ALoading weights:  35%|███▌      | 505/1436 [00:25<00:36, 25.26it/s]
+[1ALoading weights:  35%|███▌      | 509/1436 [00:26<00:43, 21.11it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:26<00:45, 20.10it/s]
+[1ALoading weights:  36%|███▌      | 515/1436 [00:26<00:43, 21.26it/s]
+[1ALoading weights:  36%|███▌      | 520/1436 [00:26<00:34, 26.51it/s]
+[1ALoading weights:  36%|███▋      | 524/1436 [00:26<00:43, 20.84it/s]
+[1ALoading weights:  37%|███▋      | 529/1436 [00:26<00:35, 25.60it/s]
+[1ALoading weights:  37%|███▋      | 533/1436 [00:27<00:51, 17.64it/s]
+[1ALoading weights:  38%|███▊      | 542/1436 [00:27<00:32, 27.68it/s]
+[1ALoading weights:  38%|███▊      | 547/1436 [00:27<00:42, 20.79it/s]
+[1ALoading weights:  39%|███▊      | 556/1436 [00:28<00:33, 26.62it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:28<00:41, 21.18it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:28<00:34, 25.49it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:28<00:41, 20.69it/s]
+[1ALoading weights:  40%|████      | 578/1436 [00:29<00:38, 22.02it/s]
+[1ALoading weights:  40%|████      | 581/1436 [00:29<00:37, 22.63it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:29<00:39, 21.65it/s]
+[1ALoading weights:  41%|████      | 590/1436 [00:29<00:36, 23.15it/s]
+[1ALoading weights:  41%|████▏     | 593/1436 [00:30<00:46, 18.22it/s]
+[1ALoading weights:  42%|████▏     | 602/1436 [00:30<00:29, 28.36it/s]
+[1ALoading weights:  42%|████▏     | 606/1436 [00:30<00:44, 18.84it/s]
+[1ALoading weights:  43%|████▎     | 613/1436 [00:30<00:32, 24.98it/s]
+[1ALoading weights:  43%|████▎     | 617/1436 [00:30<00:37, 22.03it/s]
+[1ALoading weights:  43%|████▎     | 621/1436 [00:31<00:36, 22.06it/s]
+[1ALoading weights:  44%|████▍     | 630/1436 [00:31<00:24, 33.05it/s]
+[1ALoading weights:  46%|████▌     | 664/1436 [00:31<00:08, 88.56it/s]
+[1ALoading weights:  48%|████▊     | 690/1436 [00:31<00:06, 118.95it/s]
+[1ALoading weights:  50%|████▉     | 716/1436 [00:31<00:04, 147.55it/s]
+[1ALoading weights:  52%|█████▏    | 752/1436 [00:31<00:03, 197.90it/s]
+[1ALoading weights:  55%|█████▌    | 792/1436 [00:31<00:02, 242.26it/s]
+[1ALoading weights:  58%|█████▊    | 832/1436 [00:31<00:02, 281.33it/s]
+[1ALoading weights:  60%|██████    | 868/1436 [00:31<00:01, 302.44it/s]
+[1ALoading weights:  63%|██████▎   | 901/1436 [00:32<00:01, 305.25it/s]
+[1ALoading weights:  65%|██████▌   | 940/1436 [00:32<00:01, 327.35it/s]
+[1ALoading weights:  68%|██████▊   | 976/1436 [00:32<00:01, 328.90it/s]
+[1ALoading weights:  70%|███████   | 1010/1436 [00:32<00:01, 331.83it/s]
+[1ALoading weights:  73%|███████▎  | 1054/1436 [00:32<00:01, 350.11it/s]
+[1ALoading weights:  76%|███████▌  | 1090/1436 [00:32<00:00, 347.97it/s]
+[1ALoading weights:  79%|███████▉  | 1134/1436 [00:32<00:00, 369.22it/s]
+[1ALoading weights:  82%|████████▏ | 1176/1436 [00:32<00:00, 371.47it/s]
+[1ALoading weights:  85%|████████▍ | 1214/1436 [00:32<00:00, 360.35it/s]
+[1ALoading weights:  87%|████████▋ | 1251/1436 [00:33<00:00, 358.61it/s]
+[1ALoading weights:  90%|█████████ | 1298/1436 [00:33<00:00, 389.56it/s]
+[1ALoading weights:  93%|█████████▎| 1338/1436 [00:33<00:00, 373.51it/s]
+[1ALoading weights:  96%|█████████▌| 1376/1436 [00:33<00:00, 359.91it/s]
+[1ALoading weights:  99%|█████████▉| 1420/1436 [00:33<00:00, 375.72it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:33<00:00, 42.85it/s] 
+[transformers] Both `max_new_tokens` (=4000) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## ADRIAN_v17_rafaga
+CALIFICACIÓN TOTAL: 6.5/10
+NOTAS: Gancho 6/10 · Oferta 5/10 · Confianza 7/10 · Claridad 7/10 · Calidad visual 7/10 · Políticas de Meta 9/10 · Mensajes baratos 7/10 · Mensajes calificados 5/10
+POR QUÉ FUNCIONA:
+- 0.5-3.7s el tatuador en sillón con tablet y testimonios en notificaciones oscuras compactas estilo celular generan identificación inmediata y prueba social visible.
+- 4.7-5.8s “ESTOY FRENTE AL” + testimonios y 6.9-7.9s “FRENTE AL PALACIO MUNICIPAL Av. Azucenas - Cancún Centro” anclan ubicación real y reducen fricción de búsqueda.
+- 9.0-15.3s primer trabajo grande de pecho con linterna y cerezos + “ESCRÍBEME AHORA Y” y “LAS CITAS SE AGENDAN CON ANTICIPACIÓN” muestra calidad y urgencia sin prometer tiempos.
+- 17.4-25.9s ráfaga de trabajos de Adrián con 13 piezas a 0.70 s cada una con golpe de sonido en cada cambio demuestra variedad de estilos y volumen real.
+- 29.0-31.1s cierre con “ESCRÍBEME LA PALABRA «CITA» y te mando la disponibilidad de esta semana Adrián Santana - Cancún Centro Enviar WhatsApp” deja CTA clara y accionable.
+
+QUÉ LO FRENA:
+- 0.4-7.4s el gancho habla de “¿Buscas un tatuaje en Cancún Centro?” sin filtro de presupuesto/estilo; llega curiosidad barata. Arreglo: abrir con filtro de intención y precio implícito en los primeros 3 s.
+- 8.4-13.4s “Escríbeme ahora y asegura tu lugar. Las citas se agendan con anticipación” crea urgencia pero no define qué se necesita para agendar. Arreglo: añadir micro-requisito de mensaje en el mismo bloque.
+- 26.9-28.0s “¿TATUAJE PEQUEÑO O PROYECTO GRANDE? Dime cuál y te paso precio y fecha” aparece tarde y sin anclaje visual al portafolio. Arreglo: mover la pregunta de tamaño/proyecto justo antes de la ráfaga de trabajos y mantenerla 2 s.
+
+VEREDICTO: Subir con cambios
+Calificación proyectada con los cambios: 8.5/10
+
+CÓMO SUBIR CADA NOTA:
+  Gancho 6→8: Reemplazar los primeros 3 s de voz por “¿Quieres tatuaje en Cancún Centro con cita esta semana?” y texto en capa idéntico; mantener el mismo plano del tatuador en sillón 0.5s. · 0.4-3.0s · con voz clonada Fish Audio y texto en capa.
+  Oferta 5→8: Añadir tarjeta en capa “Escríbe CITA por WhatsApp y te mando disponibilidad de esta semana” justo después del gancho. · 3.0-5.0s · texto en capa.
+  Confianza 7→8: Mantener notificaciones oscuras compactas y añadir en capa el nombre y ubicación bajo cada testimonio visible. · 1.6-3.7s y 5.8s · texto en capa.
+  Claridad 7→9: Cambiar el letrero de contacto a texto limpio con sombra y aumentar tamaño/contraste para que se lea en móvil; repetir WhatsApp 998 331 6522 - escribe CITA en 0.5s, 3.7s, 9.0s, 29.0s. · todo el video · texto en capa.
+  Calidad visual 7→8: Estabilizar y hacer punch-in suave en los planos de calle 6.9-7.9s y en los primeros planos de tatuajes 9.0-15.3s. · 6.9-7.9s y 9.0-15.3s · edición ffmpeg con zoom y desenfoque de transición.
+  Políticas de Meta 9→9: ya está, no tocar.
+  Mensajes baratos 7→8: Reducir curiosidad sin intención añadiendo filtro de “cita esta semana” en el gancho y en la primera tarjeta. · 0.4-5.0s · voz clonada + texto en capa.
+  Mensajes calificados 5→8: Insertar micro-filtro antes de la ráfaga: “¿Pequeño o proyecto grande? Dime cuál y te paso precio y fecha” con visual de dos trabajos comparativos. · 16.4-17.4s · corte + texto en capa.
+
+3 GANCHOS ALTERNATIVOS para los primeros 3 segundos:
+- “Tatuajes en Cancún Centro frente al Palacio. ¿Te agendo esta semana?” Escena: primer plano del tatuador en sillón 0.5s con push-in MiniMax H3 y texto en capa. Filtra por urgencia y ubicación.
+- “¿Proyecto grande o pequeño? Te paso precio y fecha por WhatsApp.” Escena: split de dos trabajos del portafolio 17.4s y 18.5s con transición rápida. Filtra por tamaño de proyecto.
+- “Mira este pecho con linterna y cerezos, hecho aquí en el Centro.” Escena: primer plano del tatuaje de pecho 9.0s con órbita suave MiniMax H3. Filtra por gusto estético.
+
+2 ESCENAS NUEVAS CON IA que más subirían la nota:
+- Escena de fachada real del local frente al Palacio Municipal al atardecer con letrero “FRENTE AL PALACIO MUNICIPAL Av. Azucenas - Cancún Centro” en capa. Se hace con Qwen-Image-Edit-2511 a partir de foto real de fachada del cliente, animada 4 s con push-in MiniMax H3. Necesita foto real de fachada. Duración 4 s, reemplazar 6.9-7.9s.
+- Escena de mano del tatuador trabajando en tiempo real con cliente, primer plano de aguja y piel, sin texto dentro del video. Se genera con MiniMax H3 a partir de foto real del taller del cliente, clip 5 s con movimiento de cámara lento. Necesita foto real del taller y del tatuador trabajando. Duración 5 s, insertar en 15.3-16.4s.
+
+LO MÁS RÁPIDO:
+- Cambiar voz de los primeros 3 s a “¿Quieres tatuaje en Cancún Centro con cita esta semana?” con texto en capa idéntico. Sube Gancho y Mensajes calificados. Voz clonada Fish Audio + texto en capa.
+- Añadir tarjeta en capa “Escríbe CITA por WhatsApp y te mando disponibilidad de esta semana” a los 3-5 s. Sube Oferta y Claridad. Texto en capa.
+- Mover la pregunta “¿Pequeño o proyecto grande? Dime cuál y te paso precio y fecha” justo antes de la ráfaga de trabajos y mantenerla 2 s. Sube Mensajes calificados. Corte + texto en capa.
+Stopping app - local entrypoint completed.
+[modal-client] 2026-11-05T22:06:56+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-2pTaPuskNIz1axDKQEtOxW
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/adrian_v17/lote.json --tokens 4000
+Duración: 3.5 min  (código 0)
+  glimmer (ap-2pTaPuskNIz1axDKQEtOxW): $0.141
+Gasto del trabajo: $0.141
+Saldo restante ≈ $-12.48

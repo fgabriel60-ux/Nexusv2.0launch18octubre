@@ -1,0 +1,37 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,DejaVu Sans,38,&H00FFFFFF,&H00FFFFFF,&H00201510,&H90201510,-1,0,0,0,100,100,0,0,1,3,1,2,65,65,225,1
+Style: Head,DejaVu Sans,47,&H00FFFFFF,&H00FFFFFF,&H00201510,&H80201510,-1,0,0,0,100,100,0,0,1,3,1,8,60,60,175,1
+Style: Label,DejaVu Sans,23,&H00D3EDE2,&H00FFFFFF,&H00201510,&H80201510,-1,0,0,0,100,100,2,0,1,2,0,8,40,40,105,1
+Style: Offer,DejaVu Sans,49,&H00FFFFFF,&H00FFFFFF,&H00201510,&H80201510,-1,0,0,0,100,100,0,0,3,18,0,5,50,50,0,1
+Style: Small,DejaVu Sans,28,&H00D3EDE2,&H00FFFFFF,&H00201510,&H80201510,-1,0,0,0,100,100,0,0,1,3,0,8,50,50,290,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:20.72,Label,,0,0,0,,VISIÓN AGENCIA   /   MUESTRA ILUSTRATIVA
+Dialogue: 0,0:00:00.00,0:00:05.10,Head,,0,0,0,,DUEÑOS DE VILLAS\N¿RENTAS TU PROPIEDAD?
+Dialogue: 0,0:00:02.50,0:00:05.10,Small,,0,0,0,,DE TUS FOTOS → A UN RECORRIDO
+Dialogue: 0,0:00:06.20,0:00:12.72,Head,,0,0,0,,IA DE FACEBOOK\NBUSCAMOS UNA CALIFICACIÓN DE 8/10
+Dialogue: 0,0:00:12.72,0:00:17.00,Head,,0,0,0,,APLÍCALO ANTES\NQUE TU COMPETENCIA
+Dialogue: 0,0:00:09.72,0:00:15.72,Offer,,0,0,0,,VIDEOS + ESTRATEGIA\N$500 MXN / MES\N{\fs28}Pauta de Meta aparte · desde $250 MXN/mes
+Dialogue: 0,0:00:15.72,0:00:20.72,Head,,0,0,0,,¿TIENES UNA VILLA?\NESCRIBE «VILLA» + TU CIUDAD
+Dialogue: 0,0:00:15.72,0:00:20.72,Offer,,0,0,0,,{\pos(360,720)\fs48}631 247 0486\N{\fs30}WhatsApp · Mándame 3 fotos
+Dialogue: 1,0:00:00.00,0:00:01.14,Sub,,0,0,0,,¿Rentas una villa? Mira
+Dialogue: 1,0:00:01.02,0:00:02.34,Sub,,0,0,0,,cómo convertimos tus fotos
+Dialogue: 1,0:00:02.22,0:00:03.84,Sub,,0,0,0,,en un recorrido premium.
+Dialogue: 1,0:00:04.10,0:00:05.16,Sub,,0,0,0,,Usamos la IA de
+Dialogue: 1,0:00:05.04,0:00:06.40,Sub,,0,0,0,,Facebook para revisar tu
+Dialogue: 1,0:00:06.28,0:00:08.10,Sub,,0,0,0,,anuncio y buscamos que
+Dialogue: 1,0:00:07.98,0:00:08.94,Sub,,0,0,0,,llegue a ocho de
+Dialogue: 1,0:00:08.82,0:00:10.48,Sub,,0,0,0,,diez antes de lanzarlo.
+Dialogue: 1,0:00:10.60,0:00:11.86,Sub,,0,0,0,,Aplícalo antes que tu
+Dialogue: 1,0:00:11.74,0:00:13.78,Sub,,0,0,0,,competencia. Videos y estrategia
+Dialogue: 1,0:00:13.66,0:00:15.06,Sub,,0,0,0,,por quinientos pesos al
+Dialogue: 1,0:00:14.94,0:00:18.06,Sub,,0,0,0,,mes, pauta aparte. Escríbeme
+Dialogue: 1,0:00:17.94,0:00:19.16,Sub,,0,0,0,,villa y tu ciudad
+Dialogue: 1,0:00:19.04,0:00:19.76,Sub,,0,0,0,,por WhatsApp.

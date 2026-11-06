@@ -1,0 +1,367 @@
+[
+  {
+    "text": " se te filtra el agua cuando llueve, en grupo JR lo resolvemos, usamos",
+    "start": 0.0,
+    "end": 6.48,
+    "words": [
+      {
+        "word": " se",
+        "start": 0.0,
+        "end": 0.68,
+        "probability": 0.4479619860649109
+      },
+      {
+        "word": " te",
+        "start": 0.68,
+        "end": 0.96,
+        "probability": 0.9686166048049927
+      },
+      {
+        "word": " filtra",
+        "start": 0.96,
+        "end": 1.3,
+        "probability": 0.9954666197299957
+      },
+      {
+        "word": " el",
+        "start": 1.3,
+        "end": 1.58,
+        "probability": 0.9969610571861267
+      },
+      {
+        "word": " agua",
+        "start": 1.58,
+        "end": 1.76,
+        "probability": 0.9994182586669922
+      },
+      {
+        "word": " cuando",
+        "start": 1.76,
+        "end": 2.12,
+        "probability": 0.9929264187812805
+      },
+      {
+        "word": " llueve,",
+        "start": 2.12,
+        "end": 2.78,
+        "probability": 0.9949655334154764
+      },
+      {
+        "word": " en",
+        "start": 3.12,
+        "end": 3.14,
+        "probability": 0.9678322076797485
+      },
+      {
+        "word": " grupo",
+        "start": 3.14,
+        "end": 3.56,
+        "probability": 0.9763685464859009
+      },
+      {
+        "word": " JR",
+        "start": 3.56,
+        "end": 4.6,
+        "probability": 0.575979471206665
+      },
+      {
+        "word": " lo",
+        "start": 4.6,
+        "end": 5.02,
+        "probability": 0.8923165202140808
+      },
+      {
+        "word": " resolvemos,",
+        "start": 5.02,
+        "end": 5.98,
+        "probability": 0.9782882630825043
+      },
+      {
+        "word": " usamos",
+        "start": 6.24,
+        "end": 6.48,
+        "probability": 0.918389618396759
+      }
+    ]
+  },
+  {
+    "text": " poliuretano acrílico de 12 años más primario fibratado elástico, primero el",
+    "start": 6.48,
+    "end": 11.06,
+    "words": [
+      {
+        "word": " poliuretano",
+        "start": 6.48,
+        "end": 7.1,
+        "probability": 0.8402341902256012
+      },
+      {
+        "word": " acrílico",
+        "start": 7.1,
+        "end": 7.46,
+        "probability": 0.975925087928772
+      },
+      {
+        "word": " de",
+        "start": 7.46,
+        "end": 7.64,
+        "probability": 0.997148334980011
+      },
+      {
+        "word": " 12",
+        "start": 7.64,
+        "end": 7.8,
+        "probability": 0.9828014969825745
+      },
+      {
+        "word": " años",
+        "start": 7.8,
+        "end": 8.1,
+        "probability": 0.9988693594932556
+      },
+      {
+        "word": " más",
+        "start": 8.1,
+        "end": 8.36,
+        "probability": 0.7181122899055481
+      },
+      {
+        "word": " primario",
+        "start": 8.36,
+        "end": 8.74,
+        "probability": 0.9631989896297455
+      },
+      {
+        "word": " fibratado",
+        "start": 8.74,
+        "end": 9.26,
+        "probability": 0.8653801530599594
+      },
+      {
+        "word": " elástico,",
+        "start": 9.26,
+        "end": 10.22,
+        "probability": 0.9890126287937164
+      },
+      {
+        "word": " primero",
+        "start": 10.58,
+        "end": 10.82,
+        "probability": 0.9799783825874329
+      },
+      {
+        "word": " el",
+        "start": 10.82,
+        "end": 11.06,
+        "probability": 0.9929611086845398
+      }
+    ]
+  },
+  {
+    "text": " primario para una base sólida, luego la protección continua sin uniones, tu",
+    "start": 11.06,
+    "end": 17.3,
+    "words": [
+      {
+        "word": " primario",
+        "start": 11.06,
+        "end": 11.66,
+        "probability": 0.995432049036026
+      },
+      {
+        "word": " para",
+        "start": 11.66,
+        "end": 12.08,
+        "probability": 0.9128822088241577
+      },
+      {
+        "word": " una",
+        "start": 12.08,
+        "end": 12.26,
+        "probability": 0.9982099533081055
+      },
+      {
+        "word": " base",
+        "start": 12.26,
+        "end": 12.46,
+        "probability": 0.9985034465789795
+      },
+      {
+        "word": " sólida,",
+        "start": 12.46,
+        "end": 13.42,
+        "probability": 0.9916957418123881
+      },
+      {
+        "word": " luego",
+        "start": 13.74,
+        "end": 13.92,
+        "probability": 0.9977049231529236
+      },
+      {
+        "word": " la",
+        "start": 13.92,
+        "end": 14.22,
+        "probability": 0.9956161975860596
+      },
+      {
+        "word": " protección",
+        "start": 14.22,
+        "end": 14.66,
+        "probability": 0.9992081224918365
+      },
+      {
+        "word": " continua",
+        "start": 14.66,
+        "end": 15.2,
+        "probability": 0.9671199321746826
+      },
+      {
+        "word": " sin",
+        "start": 15.2,
+        "end": 15.76,
+        "probability": 0.9188737273216248
+      },
+      {
+        "word": " uniones,",
+        "start": 15.76,
+        "end": 16.4,
+        "probability": 0.9612921476364136
+      },
+      {
+        "word": " tu",
+        "start": 17.14,
+        "end": 17.3,
+        "probability": 0.8783623576164246
+      }
+    ]
+  },
+  {
+    "text": " loza queda lista para la temporada de lluvias, mándanos fotos de tu azotea",
+    "start": 17.3,
+    "end": 22.22,
+    "words": [
+      {
+        "word": " loza",
+        "start": 17.3,
+        "end": 17.88,
+        "probability": 0.7450125068426132
+      },
+      {
+        "word": " queda",
+        "start": 17.88,
+        "end": 18.16,
+        "probability": 0.973778247833252
+      },
+      {
+        "word": " lista",
+        "start": 18.16,
+        "end": 18.5,
+        "probability": 0.9978992938995361
+      },
+      {
+        "word": " para",
+        "start": 18.5,
+        "end": 18.82,
+        "probability": 0.9990948438644409
+      },
+      {
+        "word": " la",
+        "start": 18.82,
+        "end": 18.96,
+        "probability": 0.9993366599082947
+      },
+      {
+        "word": " temporada",
+        "start": 18.96,
+        "end": 19.4,
+        "probability": 0.9995700716972351
+      },
+      {
+        "word": " de",
+        "start": 19.4,
+        "end": 19.66,
+        "probability": 0.9990635514259338
+      },
+      {
+        "word": " lluvias,",
+        "start": 19.66,
+        "end": 20.42,
+        "probability": 0.987204353014628
+      },
+      {
+        "word": " mándanos",
+        "start": 20.78,
+        "end": 20.96,
+        "probability": 0.8747832377751669
+      },
+      {
+        "word": " fotos",
+        "start": 20.96,
+        "end": 21.32,
+        "probability": 0.9979774355888367
+      },
+      {
+        "word": " de",
+        "start": 21.32,
+        "end": 21.54,
+        "probability": 0.9982566237449646
+      },
+      {
+        "word": " tu",
+        "start": 21.54,
+        "end": 21.7,
+        "probability": 0.9792810678482056
+      },
+      {
+        "word": " azotea",
+        "start": 21.7,
+        "end": 22.22,
+        "probability": 0.983004113038381
+      }
+    ]
+  },
+  {
+    "text": " por whatsapp y te cotizamos hoy",
+    "start": 22.22,
+    "end": 24.12,
+    "words": [
+      {
+        "word": " por",
+        "start": 22.22,
+        "end": 22.4,
+        "probability": 0.9889351725578308
+      },
+      {
+        "word": " whatsapp",
+        "start": 22.4,
+        "end": 22.9,
+        "probability": 0.9107213020324707
+      },
+      {
+        "word": " y",
+        "start": 22.9,
+        "end": 23.14,
+        "probability": 0.9414775967597961
+      },
+      {
+        "word": " te",
+        "start": 23.14,
+        "end": 23.32,
+        "probability": 0.995643138885498
+      },
+      {
+        "word": " cotizamos",
+        "start": 23.32,
+        "end": 23.82,
+        "probability": 0.9936243693033854
+      },
+      {
+        "word": " hoy",
+        "start": 23.82,
+        "end": 24.12,
+        "probability": 0.9514253735542297
+      }
+    ]
+  }
+]

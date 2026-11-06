@@ -1,0 +1,49 @@
+{
+ "carpeta": "rafael_byd_gancho_v2",
+ "salida": "clientes/Rafael_BYD/gancho_v2",
+ "semilla": 43,
+ "refs": {
+  "r": "clientes/Rafael_BYD/refs/rafael_cara.jpg",
+  "r2": "clientes/Rafael_BYD/refs/rafael_cara_auto.jpg",
+  "auto": "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
+ },
+ "cuadros": {
+  "RX1_afuera": [
+   [
+    "r",
+    "r2",
+    "auto"
+   ],
+   "Foto cinematográfica realista vertical 9:16, plano ABIERTO de cuerpo completo tomado desde la banqueta de enfrente con cámara profesional y lente 35 mm: el MISMO hombre de la primera imagen (cara redonda, cabello negro corto, complexión robusta, polo azul marino con un pequeño logo verde en el pecho, pantalón oscuro) de pie, derecho, serio y seguro, manos en las bolsas, en la entrada de una agencia de autos BYD moderna en Ciudad de México (fachada de vidrio y concreto blanco, letrero BYD grande arriba), con SUVs eléctricas BYD blancas estacionadas a los lados. Luz de tarde suave, colores naturales, nítido.",
+   "texto, letras, logotipos inventados, marca de agua, cara distinta, persona duplicada, dos personas iguales, deforme, borroso, manos extra, dedos extra, caricatura, render 3D, imagen estirada, celular, selfie, brazo extendido, espejo"
+  ],
+  "RX2_dentro": [
+   [
+    "r",
+    "r2",
+    "auto"
+   ],
+   "Foto realista vertical 9:16 tomada con una cámara pegada al tablero mirando hacia el asiento del conductor: el MISMO hombre de la primera imagen (cara redonda, cabello negro corto, complexión robusta, polo azul marino con un pequeño logo verde en el pecho, pantalón oscuro) sentado en el asiento del conductor de una SUV eléctrica BYD con interior moderno de piel gris clara, cinturón sin poner, mirando directo a la cámara con expresión segura y amable, luz natural suave entrando por las ventanas, fondo de la agencia por la ventana. Nítido, rostro idéntico a la primera imagen.",
+   "texto, letras, logotipos inventados, marca de agua, cara distinta, persona duplicada, dos personas iguales, deforme, borroso, manos extra, dedos extra, caricatura, render 3D, imagen estirada, celular, selfie, brazo extendido, espejo, volante deforme"
+  ]
+ },
+ "tomas": [
+  [
+   "KX1_afuera",
+   "RX1_afuera",
+   "Vertical realistic cinematic shot. The man in the navy polo stands still and serious in front of the BYD car dealership with hands in pockets, looking at the camera, slight breathing, light breeze, static camera. Natural, no talking. No text. Audio: city ambience.",
+   3.0,
+   null
+  ],
+  [
+   "KX2_dentro",
+   "RX2_dentro",
+   "Vertical realistic shot from a camera mounted on the dashboard. The man in the navy polo sits in the driver seat of the electric SUV and talks directly to the camera with a confident friendly expression and small natural hand gestures. Lips synced to the speech. Static camera. No text.",
+   12.2,
+   "R3"
+  ]
+ ],
+ "voces": {
+  "R3": "clientes/Rafael_BYD/voz/R3.wav"
+ }
+}

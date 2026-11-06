@@ -1,0 +1,869 @@
+{
+ "status": "ok",
+ "mode": "ESCENARIO CON HISTORIAL IMPORTADO",
+ "context": {
+  "account_id": "684865860329838",
+  "currency": "MXN",
+  "objective": "messages",
+  "result_type": "conversacion_iniciada",
+  "attribution": "default_7d_click_1d_view",
+  "placement": "mixed",
+  "audience": "Mensajes a WhatsApp y Messenger - Vision Agencia (agrupado)"
+ },
+ "rows_used": 16,
+ "ads_used": 4,
+ "rows_excluded": 40,
+ "duplicates_removed": 0,
+ "benchmark": {
+  "campaign_id": "120250891895490651",
+  "cost_per_result": 4.388541666666667,
+  "results": 48.0,
+  "spend": 210.65,
+  "ctr": 2.0549704597996405,
+  "cpm": 27.05497045979964,
+  "note": "Referencia retrospectiva provisional; mínimo 20 resultados. La selección de la ganadora puede ser optimista."
+ },
+ "validation": {
+  "tested_ads": 0,
+  "tested_campaigns": 0,
+  "mae_per_1000": null,
+  "baseline_mae_per_1000": null,
+  "text_model_enabled": false,
+  "splits": [],
+  "note": "Validación temporal de tasa de resultados, no de subasta ni de intervalos. El texto solo modifica la tasa si supera al promedio por al menos 5%, con ≥8 anuncios y ≥3 campañas de prueba."
+ },
+ "settings": {
+  "budget": 1500.0,
+  "days": 7,
+  "audience_size": 10000.0,
+  "opportunities_per_person": 2.0,
+  "retrieval": 0.65,
+  "competition": 1.0,
+  "market_sigma": 0.45,
+  "fatigue": 0.08,
+  "execution_sigma": 0.35,
+  "bid_multiplier": 1.5,
+  "tolerance": 0.2,
+  "seed": 42,
+  "conversion_delay": 1,
+  "allocation": "equal"
+ },
+ "segments": [
+  {
+   "name": "Audiencia definida",
+   "share": 1.0,
+   "response": 1.0
+  }
+ ],
+ "runs": 600,
+ "ideas": [
+  {
+   "name": "Video Catania de Mariano",
+   "text": "Gancho: la casa aparece abierta como casa de muñecas, sin una pared, y la cámara entra recorriendo por dentro mientras los muebles van apareciendo uno por uno. Escena: recorrido 3D fotorrealista de la casa Catania en San Marino, fachada, sala, escalera, comedor, cocina y roof garden con vista al mar, luz natural cálida, subtítulos animados y cierre con el logo de Mariano Herrera. Demostración: se muestra por dentro lo que se vende, algo que un video normal de bienes raíces no enseña. Oferta: casas en San Marino desde 3.8 millones de pesos, financiamiento y visita guiada. Llamada a la acción: escribir por WhatsApp para agendar visita.",
+   "evidence": "Base común: no hay evidencia suficiente para diferenciar esta idea",
+   "neighbors": [
+    {
+     "ad_id": "120248854054800651",
+     "campaign_id": "120248854054830651",
+     "similarity": 0.242,
+     "idea": "Subes contenido, nadie lo ve. Tienes buen negocio pero pocos te conocen. El problema no es tu negocio — es el formato del contenido. En Visión creamos videos que el algoritmo de Instagram impulsa solo, sin pagar por cada vista. Negocios en Nogales ya están creciendo con este sist"
+    },
+    {
+     "ad_id": "120250891895420651",
+     "campaign_id": "120250891895490651",
+     "similarity": 0.094,
+     "idea": "🔥 HOY TE TOCA: compra 1 pollo entero y te regalamos MEDIO POLLO 🍗 Así de fácil: ✅ Compra tu pollo a la leña ✅ Comparte esta publicación en tu Facebook ✅ Muéstranos la publicación al recoger 🎁 ¡Y te regalamos medio pollo GRATIS! Jugoso, doradito y ahumado a la leña como debe de se"
+    },
+    {
+     "ad_id": "120251461356960651",
+     "campaign_id": "120251461357030651",
+     "similarity": 0.092,
+     "idea": "🔥 HOY TE TOCA: compra 1 pollo entero y te regalamos MEDIO POLLO 🍗 Así de fácil: ✅ Compra tu pollo a la leña ✅ Comparte esta publicación en tu Facebook ✅ Muéstranos la publicación al recoger 🎁 ¡Y te regalamos medio pollo GRATIS! Jugoso, doradito y ahumado a la leña como debe de se"
+    }
+   ],
+   "spend": {
+    "p10": 0.0,
+    "median": 35.09895019818143,
+    "p90": 230.71819995097312
+   },
+   "impressions": {
+    "p10": 0.0,
+    "median": 3088.0,
+    "p90": 10549.0
+   },
+   "clicks": {
+    "p10": 0.0,
+    "median": 26.0,
+    "p90": 216.0
+   },
+   "results": {
+    "p10": 0.0,
+    "median": 7.0,
+    "p90": 58.0
+   },
+   "cpa": {
+    "p10": 3.3077084727596815,
+    "median": 5.482183715559309,
+    "p90": null
+   },
+   "cpc": {
+    "p10": 0.8542254549876095,
+    "median": 1.2794482288838227,
+    "p90": null
+   },
+   "ctr": {
+    "p10": 0.0,
+    "median": 1.0821778829895163,
+    "p90": 2.440863255112619
+   },
+   "roas": null,
+   "zero_result_fraction": 0.38666666666666666,
+   "scenario_fraction_near_benchmark": 0.47833333333333333,
+   "stages": {
+    "opportunities": {
+     "p10": 19999.0,
+     "median": 19999.0,
+     "p90": 19999.0
+    },
+    "retrieved": {
+     "p10": 12916.0,
+     "median": 13004.0,
+     "p90": 13085.0
+    },
+    "won": {
+     "p10": 0.0,
+     "median": 3088.0,
+     "p90": 11055.0
+    },
+    "delivered": {
+     "p10": 0.0,
+     "median": 3088.0,
+     "p90": 10549.0
+    }
+   }
+  },
+  {
+   "name": "Flyer 1 - Vivir bien empieza por el entorno",
+   "text": "Gancho: una familia con su perro caminando por la calle del residencial con el mar de fondo, a plena luz del día. Escena: fotografía real del desarrollo, cielo azul, lomas verdes y el océano al fondo; entra el escudo de San Marino y el titular. Oferta: lotes residenciales con plusvalía garantizada, doble filtro de seguridad y 25 minutos de la frontera por el viaducto elevado. Llamada a la acción: conocer el residencial, marca Grupo Lagsa, Tijuana. Formato: imagen cuadrada animada de 5 segundos donde el texto aparece sobre la foto limpia.",
+   "evidence": "Base común: no hay evidencia suficiente para diferenciar esta idea",
+   "neighbors": [
+    {
+     "ad_id": "120250891895420651",
+     "campaign_id": "120250891895490651",
+     "similarity": 0.16,
+     "idea": "🔥 HOY TE TOCA: compra 1 pollo entero y te regalamos MEDIO POLLO 🍗 Así de fácil: ✅ Compra tu pollo a la leña ✅ Comparte esta publicación en tu Facebook ✅ Muéstranos la publicación al recoger 🎁 ¡Y te regalamos medio pollo GRATIS! Jugoso, doradito y ahumado a la leña como debe de se"
+    },
+    {
+     "ad_id": "120251461356960651",
+     "campaign_id": "120251461357030651",
+     "similarity": 0.158,
+     "idea": "🔥 HOY TE TOCA: compra 1 pollo entero y te regalamos MEDIO POLLO 🍗 Así de fácil: ✅ Compra tu pollo a la leña ✅ Comparte esta publicación en tu Facebook ✅ Muéstranos la publicación al recoger 🎁 ¡Y te regalamos medio pollo GRATIS! Jugoso, doradito y ahumado a la leña como debe de se"
+    },
+    {
+     "ad_id": "120248854054800651",
+     "campaign_id": "120248854054830651",
+     "similarity": 0.075,
+     "idea": "Subes contenido, nadie lo ve. Tienes buen negocio pero pocos te conocen. El problema no es tu negocio — es el formato del contenido. En Visión creamos videos que el algoritmo de Instagram impulsa solo, sin pagar por cada vista. Negocios en Nogales ya están creciendo con este sist"
+    }
+   ],
+   "spend": {
+    "p10": 0.0,
+    "median": 28.762913286257284,
+    "p90": 231.69228412902174
+   },
+   "impressions": {
+    "p10": 0.0,
+    "median": 2703.0,
+    "p90": 10368.0
+   },
+   "clicks": {
+    "p10": 0.0,
+    "median": 26.0,
+    "p90": 215.0
+   },
+   "results": {
+    "p10": 0.0,
+    "median": 5.0,
+    "p90": 59.0
+   },
+   "cpa": {
+    "p10": 3.357344115337084,
+    "median": 5.931717794428721,
+    "p90": null
+   },
+   "cpc": {
+    "p10": 0.8850221109194573,
+    "median": 1.2791645880781972,
+    "p90": null
+   },
+   "ctr": {
+    "p10": 0.0,
+    "median": 1.0159316555068114,
+    "p90": 2.4986469420891213
+   },
+   "roas": null,
+   "zero_result_fraction": 0.41333333333333333,
+   "scenario_fraction_near_benchmark": 0.43833333333333335,
+   "stages": {
+    "opportunities": {
+     "p10": 19999.0,
+     "median": 19999.0,
+     "p90": 19999.0
+    },
+    "retrieved": {
+     "p10": 12909.0,
+     "median": 13001.0,
+     "p90": 13088.0
+    },
+    "won": {
+     "p10": 0.0,
+     "median": 2703.0,
+     "p90": 10924.0
+    },
+    "delivered": {
+     "p10": 0.0,
+     "median": 2703.0,
+     "p90": 10368.0
+    }
+   }
+  },
+  {
+   "name": "Flyer 2 - 3 formas de vivir",
+   "text": "Gancho: tres casas distintas del residencial dentro de paneles diagonales azules, mostrando que hay varias opciones. Escena: fotos reales de tres modelos de casa, una individual de tres niveles, otra de fachada de piedra y una fila de townhouses con cocheras de madera. Oferta: tres formas de vivir en San Marino desde 3.8 millones de pesos, diferentes espacios con la misma calidad de vida. Llamada a la acción: conocer los modelos con Grupo Lagsa. Formato: imagen cuadrada animada de 5 segundos, el texto y las fotos entran en secuencia.",
+   "evidence": "Base común: no hay evidencia suficiente para diferenciar esta idea",
+   "neighbors": [
+    {
+     "ad_id": "120247020986250651",
+     "campaign_id": "120247020986310651",
+     "similarity": 0.212,
+     "idea": "❌ Publicas y no vendes ❌ Tienes seguidores pero no clientes 🔥 Eso se soluciona con estrategia En Visión Agencia convertimos tu publicidad en ventas reales 💡 No es magia… es marketing bien hecho 📲 Mándanos mensaje y te ayudamos a crecer https://wa.link/4m7i6e | Título: Vision Agen"
+    },
+    {
+     "ad_id": "120248854054800651",
+     "campaign_id": "120248854054830651",
+     "similarity": 0.063,
+     "idea": "Subes contenido, nadie lo ve. Tienes buen negocio pero pocos te conocen. El problema no es tu negocio — es el formato del contenido. En Visión creamos videos que el algoritmo de Instagram impulsa solo, sin pagar por cada vista. Negocios en Nogales ya están creciendo con este sist"
+    },
+    {
+     "ad_id": "120250891895420651",
+     "campaign_id": "120250891895490651",
+     "similarity": 0.041,
+     "idea": "🔥 HOY TE TOCA: compra 1 pollo entero y te regalamos MEDIO POLLO 🍗 Así de fácil: ✅ Compra tu pollo a la leña ✅ Comparte esta publicación en tu Facebook ✅ Muéstranos la publicación al recoger 🎁 ¡Y te regalamos medio pollo GRATIS! Jugoso, doradito y ahumado a la leña como debe de se"
+    }
+   ],
+   "spend": {
+    "p10": 0.0,
+    "median": 48.12509853053887,
+    "p90": 224.45586082252845
+   },
+   "impressions": {
+    "p10": 0.0,
+    "median": 3849.0,
+    "p90": 10434.0
+   },
+   "clicks": {
+    "p10": 0.0,
+    "median": 37.0,
+    "p90": 215.0
+   },
+   "results": {
+    "p10": 0.0,
+    "median": 9.0,
+    "p90": 59.0
+   },
+   "cpa": {
+    "p10": 3.2157016645249064,
+    "median": 5.286709819239435,
+    "p90": null
+   },
+   "cpc": {
+    "p10": 0.8484023299662472,
+    "median": 1.2650310780078242,
+    "p90": null
+   },
+   "ctr": {
+    "p10": 0.0,
+    "median": 1.1875385564466379,
+    "p90": 2.4390243902439024
+   },
+   "roas": null,
+   "zero_result_fraction": 0.36833333333333335,
+   "scenario_fraction_near_benchmark": 0.495,
+   "stages": {
+    "opportunities": {
+     "p10": 19999.0,
+     "median": 19999.0,
+     "p90": 19999.0
+    },
+    "retrieved": {
+     "p10": 12904.0,
+     "median": 12997.0,
+     "p90": 13085.0
+    },
+    "won": {
+     "p10": 0.0,
+     "median": 3849.0,
+     "p90": 11013.0
+    },
+    "delivered": {
+     "p10": 0.0,
+     "median": 3849.0,
+     "p90": 10434.0
+    }
+   }
+  },
+  {
+   "name": "Flyer 3 - Tarde Mexicana",
+   "text": "Gancho: papel picado de colores, confeti y tres cartas de lotería con las casas del residencial, ambiente de fiesta mexicana. Escena: invitación festiva con el letrero Tarde Mexicana en letras verdes y rojas, cartas de lotería tituladas Siena, Catania y Brescia. Oferta: evento gratuito el domingo 27 de septiembre de 1 a 6 de la tarde en San Marino, carretera escénica kilómetro 23.5, con antojitos mexicanos, lotería y actividades para niños. Llamada a la acción: reunir a la familia y asistir al evento. Formato: imagen vertical animada de 5 segundos.",
+   "evidence": "Base común: no hay evidencia suficiente para diferenciar esta idea",
+   "neighbors": [
+    {
+     "ad_id": "120250891895420651",
+     "campaign_id": "120250891895490651",
+     "similarity": 0.16,
+     "idea": "🔥 HOY TE TOCA: compra 1 pollo entero y te regalamos MEDIO POLLO 🍗 Así de fácil: ✅ Compra tu pollo a la leña ✅ Comparte esta publicación en tu Facebook ✅ Muéstranos la publicación al recoger 🎁 ¡Y te regalamos medio pollo GRATIS! Jugoso, doradito y ahumado a la leña como debe de se"
+    },
+    {
+     "ad_id": "120251461356960651",
+     "campaign_id": "120251461357030651",
+     "similarity": 0.158,
+     "idea": "🔥 HOY TE TOCA: compra 1 pollo entero y te regalamos MEDIO POLLO 🍗 Así de fácil: ✅ Compra tu pollo a la leña ✅ Comparte esta publicación en tu Facebook ✅ Muéstranos la publicación al recoger 🎁 ¡Y te regalamos medio pollo GRATIS! Jugoso, doradito y ahumado a la leña como debe de se"
+    },
+    {
+     "ad_id": "120248854054800651",
+     "campaign_id": "120248854054830651",
+     "similarity": 0.075,
+     "idea": "Subes contenido, nadie lo ve. Tienes buen negocio pero pocos te conocen. El problema no es tu negocio — es el formato del contenido. En Visión creamos videos que el algoritmo de Instagram impulsa solo, sin pagar por cada vista. Negocios en Nogales ya están creciendo con este sist"
+    }
+   ],
+   "spend": {
+    "p10": 0.0,
+    "median": 37.57392805057888,
+    "p90": 228.92989618786953
+   },
+   "impressions": {
+    "p10": 0.0,
+    "median": 3142.0,
+    "p90": 10523.0
+   },
+   "clicks": {
+    "p10": 0.0,
+    "median": 29.0,
+    "p90": 212.0
+   },
+   "results": {
+    "p10": 0.0,
+    "median": 6.0,
+    "p90": 60.0
+   },
+   "cpa": {
+    "p10": 3.38021069377966,
+    "median": 5.7928406390391025,
+    "p90": null
+   },
+   "cpc": {
+    "p10": 0.8818097347993127,
+    "median": 1.2841957000340702,
+    "p90": null
+   },
+   "ctr": {
+    "p10": 0.0,
+    "median": 1.0526315789473684,
+    "p90": 2.380952380952381
+   },
+   "roas": null,
+   "zero_result_fraction": 0.4066666666666667,
+   "scenario_fraction_near_benchmark": 0.4483333333333333,
+   "stages": {
+    "opportunities": {
+     "p10": 19999.0,
+     "median": 19999.0,
+     "p90": 19999.0
+    },
+    "retrieved": {
+     "p10": 12917.0,
+     "median": 13012.0,
+     "p90": 13093.0
+    },
+    "won": {
+     "p10": 0.0,
+     "median": 3142.0,
+     "p90": 10923.0
+    },
+    "delivered": {
+     "p10": 0.0,
+     "median": 3142.0,
+     "p90": 10523.0
+    }
+   }
+  },
+  {
+   "name": "Flyer 4 - Últimos lotes",
+   "text": "Gancho: el titular ÚLTIMOS LOTES sobre fondo azul marino, con sensación de escasez. Escena: tres fotos aéreas apiladas del desarrollo, el atardecer sobre el mar, el acceso controlado con palmeras y los terrenos vistos desde el aire. Oferta: enganche desde 30,999 dólares, financiamiento directo a 120 meses sin intereses, certeza jurídica, ubicación estratégica, doble acceso controlado y plusvalía garantizada. Llamada a la acción: apartar uno de los últimos lotes con Grupo Lagsa en Tijuana. Formato: imagen cuadrada animada de 5 segundos.",
+   "evidence": "Base común: no hay evidencia suficiente para diferenciar esta idea",
+   "neighbors": [
+    {
+     "ad_id": "120248854054800651",
+     "campaign_id": "120248854054830651",
+     "similarity": 0.199,
+     "idea": "Subes contenido, nadie lo ve. Tienes buen negocio pero pocos te conocen. El problema no es tu negocio — es el formato del contenido. En Visión creamos videos que el algoritmo de Instagram impulsa solo, sin pagar por cada vista. Negocios en Nogales ya están creciendo con este sist"
+    },
+    {
+     "ad_id": "120247020986250651",
+     "campaign_id": "120247020986310651",
+     "similarity": 0.045,
+     "idea": "❌ Publicas y no vendes ❌ Tienes seguidores pero no clientes 🔥 Eso se soluciona con estrategia En Visión Agencia convertimos tu publicidad en ventas reales 💡 No es magia… es marketing bien hecho 📲 Mándanos mensaje y te ayudamos a crecer https://wa.link/4m7i6e | Título: Vision Agen"
+    },
+    {
+     "ad_id": "120250891895420651",
+     "campaign_id": "120250891895490651",
+     "similarity": 0.041,
+     "idea": "🔥 HOY TE TOCA: compra 1 pollo entero y te regalamos MEDIO POLLO 🍗 Así de fácil: ✅ Compra tu pollo a la leña ✅ Comparte esta publicación en tu Facebook ✅ Muéstranos la publicación al recoger 🎁 ¡Y te regalamos medio pollo GRATIS! Jugoso, doradito y ahumado a la leña como debe de se"
+    }
+   ],
+   "spend": {
+    "p10": 0.0,
+    "median": 25.481289684856108,
+    "p90": 229.5793344200362
+   },
+   "impressions": {
+    "p10": 0.0,
+    "median": 2477.0,
+    "p90": 10460.0
+   },
+   "clicks": {
+    "p10": 0.0,
+    "median": 17.0,
+    "p90": 211.0
+   },
+   "results": {
+    "p10": 0.0,
+    "median": 4.0,
+    "p90": 59.0
+   },
+   "cpa": {
+    "p10": 3.340830717443898,
+    "median": 6.299614918809131,
+    "p90": null
+   },
+   "cpc": {
+    "p10": 0.8452793601558132,
+    "median": 1.2716307975426921,
+    "p90": null
+   },
+   "ctr": {
+    "p10": 0.0,
+    "median": 1.0818837505303351,
+    "p90": 2.486934582807713
+   },
+   "roas": null,
+   "zero_result_fraction": 0.42333333333333334,
+   "scenario_fraction_near_benchmark": 0.455,
+   "stages": {
+    "opportunities": {
+     "p10": 19999.0,
+     "median": 19999.0,
+     "p90": 19999.0
+    },
+    "retrieved": {
+     "p10": 12910.0,
+     "median": 12998.0,
+     "p90": 13086.0
+    },
+    "won": {
+     "p10": 0.0,
+     "median": 2477.0,
+     "p90": 10929.0
+    },
+    "delivered": {
+     "p10": 0.0,
+     "median": 2477.0,
+     "p90": 10460.0
+    }
+   }
+  },
+  {
+   "name": "Flyer 5 - El mar pone la vista",
+   "text": "Gancho: dos manos haciendo un marco con los dedos, encuadrando los terrenos y el mar al fondo, como quien imagina su casa ahí. Escena: fotografía aérea del residencial con calles trazadas, lomas verdes y el océano en el horizonte. Oferta: adquiere tu lote dentro de San Marino Residencial por 99,999 dólares. Mensaje central: el mar pone la vista, tú construyes la historia. Llamada a la acción: contactar a Grupo Lagsa en Tijuana. Formato: imagen cuadrada animada de 5 segundos.",
+   "evidence": "Base común: no hay evidencia suficiente para diferenciar esta idea",
+   "neighbors": [
+    {
+     "ad_id": "120247020986250651",
+     "campaign_id": "120247020986310651",
+     "similarity": 0.159,
+     "idea": "❌ Publicas y no vendes ❌ Tienes seguidores pero no clientes 🔥 Eso se soluciona con estrategia En Visión Agencia convertimos tu publicidad en ventas reales 💡 No es magia… es marketing bien hecho 📲 Mándanos mensaje y te ayudamos a crecer https://wa.link/4m7i6e | Título: Vision Agen"
+    },
+    {
+     "ad_id": "120248854054800651",
+     "campaign_id": "120248854054830651",
+     "similarity": 0.149,
+     "idea": "Subes contenido, nadie lo ve. Tienes buen negocio pero pocos te conocen. El problema no es tu negocio — es el formato del contenido. En Visión creamos videos que el algoritmo de Instagram impulsa solo, sin pagar por cada vista. Negocios en Nogales ya están creciendo con este sist"
+    },
+    {
+     "ad_id": "120250891895420651",
+     "campaign_id": "120250891895490651",
+     "similarity": 0.031,
+     "idea": "🔥 HOY TE TOCA: compra 1 pollo entero y te regalamos MEDIO POLLO 🍗 Así de fácil: ✅ Compra tu pollo a la leña ✅ Comparte esta publicación en tu Facebook ✅ Muéstranos la publicación al recoger 🎁 ¡Y te regalamos medio pollo GRATIS! Jugoso, doradito y ahumado a la leña como debe de se"
+    }
+   ],
+   "spend": {
+    "p10": 0.0,
+    "median": 38.03081181444837,
+    "p90": 218.4460798016463
+   },
+   "impressions": {
+    "p10": 0.0,
+    "median": 3258.0,
+    "p90": 10516.0
+   },
+   "clicks": {
+    "p10": 0.0,
+    "median": 32.0,
+    "p90": 211.0
+   },
+   "results": {
+    "p10": 0.0,
+    "median": 7.0,
+    "p90": 57.0
+   },
+   "cpa": {
+    "p10": 3.328675910980909,
+    "median": 5.707732673189007,
+    "p90": null
+   },
+   "cpc": {
+    "p10": 0.858472440980345,
+    "median": 1.3026410239210626,
+    "p90": null
+   },
+   "ctr": {
+    "p10": 0.0,
+    "median": 1.0490977759127151,
+    "p90": 2.368818422046055
+   },
+   "roas": null,
+   "zero_result_fraction": 0.38666666666666666,
+   "scenario_fraction_near_benchmark": 0.4583333333333333,
+   "stages": {
+    "opportunities": {
+     "p10": 19999.0,
+     "median": 19999.0,
+     "p90": 19999.0
+    },
+    "retrieved": {
+     "p10": 12916.0,
+     "median": 12998.0,
+     "p90": 13083.0
+    },
+    "won": {
+     "p10": 0.0,
+     "median": 3258.0,
+     "p90": 10961.0
+    },
+    "delivered": {
+     "p10": 0.0,
+     "median": 3258.0,
+     "p90": 10516.0
+    }
+   }
+  },
+  {
+   "name": "Flyer 6 - Lotes en zona costa",
+   "text": "Gancho: el sol metiéndose en el mar sobre el desarrollo, tomada con dron al atardecer. Escena: vista aérea de la zona costa con las casas blancas a un lado y los terrenos al otro, más dos fotos abajo del acceso y el trazo de calles. Oferta: lotes en zona costa desde 812 dólares mensuales con vista al mar, acceso controlado, vigilancia 24 por 7, a 30 minutos de la garita de San Ysidro y financiamiento directo hasta 120 meses sin intereses. Llamada a la acción: pedir informes a Grupo Lagsa. Formato: imagen cuadrada animada de 5 segundos.",
+   "evidence": "Base común: no hay evidencia suficiente para diferenciar esta idea",
+   "neighbors": [
+    {
+     "ad_id": "120248854054800651",
+     "campaign_id": "120248854054830651",
+     "similarity": 0.238,
+     "idea": "Subes contenido, nadie lo ve. Tienes buen negocio pero pocos te conocen. El problema no es tu negocio — es el formato del contenido. En Visión creamos videos que el algoritmo de Instagram impulsa solo, sin pagar por cada vista. Negocios en Nogales ya están creciendo con este sist"
+    },
+    {
+     "ad_id": "120247020986250651",
+     "campaign_id": "120247020986310651",
+     "similarity": 0.025,
+     "idea": "❌ Publicas y no vendes ❌ Tienes seguidores pero no clientes 🔥 Eso se soluciona con estrategia En Visión Agencia convertimos tu publicidad en ventas reales 💡 No es magia… es marketing bien hecho 📲 Mándanos mensaje y te ayudamos a crecer https://wa.link/4m7i6e | Título: Vision Agen"
+    },
+    {
+     "ad_id": "120250891895420651",
+     "campaign_id": "120250891895490651",
+     "similarity": 0.023,
+     "idea": "🔥 HOY TE TOCA: compra 1 pollo entero y te regalamos MEDIO POLLO 🍗 Así de fácil: ✅ Compra tu pollo a la leña ✅ Comparte esta publicación en tu Facebook ✅ Muéstranos la publicación al recoger 🎁 ¡Y te regalamos medio pollo GRATIS! Jugoso, doradito y ahumado a la leña como debe de se"
+    }
+   ],
+   "spend": {
+    "p10": 0.0,
+    "median": 35.93328987777652,
+    "p90": 230.61241418410575
+   },
+   "impressions": {
+    "p10": 0.0,
+    "median": 3113.0,
+    "p90": 10401.0
+   },
+   "clicks": {
+    "p10": 0.0,
+    "median": 31.0,
+    "p90": 205.0
+   },
+   "results": {
+    "p10": 0.0,
+    "median": 7.0,
+    "p90": 55.0
+   },
+   "cpa": {
+    "p10": 3.5381716005426633,
+    "median": 5.868250962668627,
+    "p90": null
+   },
+   "cpc": {
+    "p10": 0.8671704301439424,
+    "median": 1.275725184670027,
+    "p90": null
+   },
+   "ctr": {
+    "p10": 0.0,
+    "median": 1.0757610437170977,
+    "p90": 2.441077441077441
+   },
+   "roas": null,
+   "zero_result_fraction": 0.3983333333333333,
+   "scenario_fraction_near_benchmark": 0.43666666666666665,
+   "stages": {
+    "opportunities": {
+     "p10": 19999.0,
+     "median": 19999.0,
+     "p90": 19999.0
+    },
+    "retrieved": {
+     "p10": 12907.0,
+     "median": 12999.0,
+     "p90": 13082.0
+    },
+    "won": {
+     "p10": 0.0,
+     "median": 3113.0,
+     "p90": 10873.0
+    },
+    "delivered": {
+     "p10": 0.0,
+     "median": 3113.0,
+     "p90": 10401.0
+    }
+   }
+  }
+ ],
+ "daily": [
+  {
+   "day": 1,
+   "spend": {
+    "p10": 36.93734142369544,
+    "median": 76.53330896481135,
+    "p90": 116.18932057045825
+   },
+   "results": {
+    "p10": 8.0,
+    "median": 19.0,
+    "p90": 32.0
+   },
+   "cumulative_results": {
+    "p10": 8.0,
+    "median": 19.0,
+    "p90": 32.0
+   },
+   "budget_share": [
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282
+   ]
+  },
+  {
+   "day": 2,
+   "spend": {
+    "p10": 37.55816451387457,
+    "median": 79.75136979116472,
+    "p90": 120.34798276065135
+   },
+   "results": {
+    "p10": 8.0,
+    "median": 19.0,
+    "p90": 33.0
+   },
+   "cumulative_results": {
+    "p10": 16.0,
+    "median": 38.0,
+    "p90": 65.0
+   },
+   "budget_share": [
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282
+   ]
+  },
+  {
+   "day": 3,
+   "spend": {
+    "p10": 38.5018680215256,
+    "median": 81.81509176621019,
+    "p90": 123.47024182736249
+   },
+   "results": {
+    "p10": 8.0,
+    "median": 21.0,
+    "p90": 33.0
+   },
+   "cumulative_results": {
+    "p10": 25.0,
+    "median": 59.0,
+    "p90": 95.0
+   },
+   "budget_share": [
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282
+   ]
+  },
+  {
+   "day": 4,
+   "spend": {
+    "p10": 38.80950241331917,
+    "median": 80.03157919434149,
+    "p90": 121.98353919017575
+   },
+   "results": {
+    "p10": 8.0,
+    "median": 20.0,
+    "p90": 35.0
+   },
+   "cumulative_results": {
+    "p10": 34.0,
+    "median": 80.0,
+    "p90": 127.0
+   },
+   "budget_share": [
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282
+   ]
+  },
+  {
+   "day": 5,
+   "spend": {
+    "p10": 38.56702223891698,
+    "median": 76.11393193999211,
+    "p90": 115.97399154861934
+   },
+   "results": {
+    "p10": 7.0,
+    "median": 19.0,
+    "p90": 34.0
+   },
+   "cumulative_results": {
+    "p10": 42.0,
+    "median": 98.0,
+    "p90": 158.0
+   },
+   "budget_share": [
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282
+   ]
+  },
+  {
+   "day": 6,
+   "spend": {
+    "p10": 37.09540626912083,
+    "median": 72.43014598176755,
+    "p90": 109.01559318804102
+   },
+   "results": {
+    "p10": 7.0,
+    "median": 17.0,
+    "p90": 30.0
+   },
+   "cumulative_results": {
+    "p10": 51.0,
+    "median": 115.0,
+    "p90": 186.0
+   },
+   "budget_share": [
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282
+   ]
+  },
+  {
+   "day": 7,
+   "spend": {
+    "p10": 34.84951797992262,
+    "median": 68.43142152374931,
+    "p90": 102.76029905959756
+   },
+   "results": {
+    "p10": 7.0,
+    "median": 16.0,
+    "p90": 28.0
+   },
+   "cumulative_results": {
+    "p10": 58.0,
+    "median": 131.0,
+    "p90": 210.0
+   },
+   "budget_share": [
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282,
+    0.14285714285714282
+   ]
+  }
+ ],
+ "totals": {
+  "spend": {
+   "p10": 265.62494310511744,
+   "median": 532.7367662275927,
+   "p90": 802.7961860586391
+  },
+  "results": {
+   "p10": 58.0,
+   "median": 131.0,
+   "p90": 210.0
+  }
+ },
+ "warnings": [
+  "Los rangos P10–P90 son resultados del escenario; no son intervalos de confianza calibrados para Facebook.",
+  "La subasta, recuperación, afinidad, fatiga y calidad de ejecución contienen supuestos editables.",
+  "El parecido entre textos no demuestra que una idea cause mejores resultados. Falta observar el anuncio producido.",
+  "Las conversiones atribuidas se simulan por impresión, separadas de los clics; no se presupone que todas procedan de clics.",
+  "Las métricas son por costo por resultado; ROAS usa el ticket medio histórico fijo y no se usa para elegir la referencia.",
+  "No se ordenan las ideas como ganadoras: el modelo textual todavía no supera la referencia en validación. Diferencias numéricas pueden ser ruido Monte Carlo."
+ ],
+ "version": "0.1.0",
+ "metric": "Costo por conversacion_iniciada"
+}

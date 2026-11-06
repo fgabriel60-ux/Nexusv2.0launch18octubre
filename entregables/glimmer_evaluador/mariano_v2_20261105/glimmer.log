@@ -1,0 +1,192 @@
+✓ Initialized. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-DgJqHiEjDnGsMFYWborvfx
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/entregables/glimmer_estrategias_2026102
+│   9/glimmer_modal.py
+├── ✓ Created Function Calidad.*.
+├── ✓ Created Function consultar.
+└── ✓ Created Function consultar_lote.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+[1ALoading weights:   0%|          | 0/1436 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/1436 [00:01<29:48,  1.25s/it]
+[1ALoading weights:   0%|          | 2/1436 [00:02<31:45,  1.33s/it]
+[1ALoading weights:   0%|          | 4/1436 [00:02<13:24,  1.78it/s]
+[1ALoading weights:   0%|          | 6/1436 [00:02<07:49,  3.05it/s]
+[1ALoading weights:   1%|          | 13/1436 [00:03<02:51,  8.29it/s]
+[1ALoading weights:   1%|          | 17/1436 [00:03<02:02, 11.57it/s]
+[1ALoading weights:   1%|▏         | 20/1436 [00:03<01:47, 13.14it/s]
+[1ALoading weights:   2%|▏         | 26/1436 [00:03<01:21, 17.29it/s]
+[1ALoading weights:   2%|▏         | 30/1436 [00:03<01:23, 16.83it/s]
+[1ALoading weights:   3%|▎         | 40/1436 [00:04<00:52, 26.45it/s]
+[1ALoading weights:   3%|▎         | 44/1436 [00:04<01:03, 21.89it/s]
+[1ALoading weights:   4%|▎         | 52/1436 [00:04<00:48, 28.39it/s]
+[1ALoading weights:   4%|▍         | 56/1436 [00:04<00:58, 23.56it/s]
+[1ALoading weights:   4%|▍         | 61/1436 [00:04<00:50, 27.34it/s]
+[1ALoading weights:   5%|▍         | 65/1436 [00:05<00:56, 24.19it/s]
+[1ALoading weights:   5%|▍         | 68/1436 [00:05<00:59, 23.03it/s]
+[1ALoading weights:   5%|▌         | 76/1436 [00:05<00:45, 29.76it/s]
+[1ALoading weights:   6%|▌         | 80/1436 [00:05<00:58, 23.22it/s]
+[1ALoading weights:   6%|▌         | 88/1436 [00:05<00:45, 29.32it/s]
+[1ALoading weights:   6%|▋         | 92/1436 [00:06<00:55, 24.27it/s]
+[1ALoading weights:   7%|▋         | 100/1436 [00:06<00:45, 29.52it/s]
+[1ALoading weights:   7%|▋         | 104/1436 [00:06<00:55, 23.80it/s]
+[1ALoading weights:   8%|▊         | 112/1436 [00:06<00:43, 30.51it/s]
+[1ALoading weights:   8%|▊         | 116/1436 [00:07<00:53, 24.69it/s]
+[1ALoading weights:   9%|▊         | 124/1436 [00:07<00:43, 29.82it/s]
+[1ALoading weights:   9%|▉         | 128/1436 [00:07<00:54, 23.87it/s]
+[1ALoading weights:   9%|▉         | 136/1436 [00:07<00:43, 30.07it/s]
+[1ALoading weights:  10%|▉         | 140/1436 [00:07<00:54, 23.95it/s]
+[1ALoading weights:  10%|█         | 148/1436 [00:08<00:44, 29.09it/s]
+[1ALoading weights:  11%|█         | 152/1436 [00:08<00:55, 23.28it/s]
+[1ALoading weights:  11%|█         | 160/1436 [00:08<00:43, 29.19it/s]
+[1ALoading weights:  11%|█▏        | 164/1436 [00:08<00:53, 23.98it/s]
+[1ALoading weights:  12%|█▏        | 171/1436 [00:09<00:46, 27.14it/s]
+[1ALoading weights:  12%|█▏        | 175/1436 [00:09<00:53, 23.45it/s]
+[1ALoading weights:  13%|█▎        | 184/1436 [00:09<00:41, 30.29it/s]
+[1ALoading weights:  13%|█▎        | 188/1436 [00:09<00:51, 24.26it/s]
+[1ALoading weights:  13%|█▎        | 193/1436 [00:09<00:48, 25.89it/s]
+[1ALoading weights:  14%|█▎        | 197/1436 [00:10<00:55, 22.24it/s]
+[1ALoading weights:  14%|█▍        | 208/1436 [00:10<00:38, 31.61it/s]
+[1ALoading weights:  15%|█▍        | 212/1436 [00:10<00:47, 25.58it/s]
+[1ALoading weights:  15%|█▌        | 218/1436 [00:10<00:45, 27.03it/s]
+[1ALoading weights:  15%|█▌        | 221/1436 [00:11<00:57, 21.11it/s]
+[1ALoading weights:  16%|█▌        | 232/1436 [00:11<00:37, 31.84it/s]
+[1ALoading weights:  16%|█▋        | 236/1436 [00:11<00:47, 25.12it/s]
+[1ALoading weights:  17%|█▋        | 244/1436 [00:11<00:40, 29.63it/s]
+[1ALoading weights:  17%|█▋        | 248/1436 [00:12<00:47, 25.08it/s]
+[1ALoading weights:  18%|█▊        | 253/1436 [00:12<00:47, 24.93it/s]
+[1ALoading weights:  18%|█▊        | 257/1436 [00:12<00:44, 26.58it/s]
+[1ALoading weights:  18%|█▊        | 260/1436 [00:12<00:46, 25.56it/s]
+[1ALoading weights:  19%|█▊        | 268/1436 [00:12<00:37, 31.19it/s]
+[1ALoading weights:  19%|█▉        | 272/1436 [00:12<00:47, 24.42it/s]
+[1ALoading weights:  19%|█▉        | 278/1436 [00:13<00:43, 26.36it/s]
+[1ALoading weights:  20%|█▉        | 282/1436 [00:13<00:48, 23.59it/s]
+[1ALoading weights:  20%|██        | 292/1436 [00:13<00:35, 32.12it/s]
+[1ALoading weights:  21%|██        | 296/1436 [00:13<00:44, 25.86it/s]
+[1ALoading weights:  21%|██        | 304/1436 [00:14<00:37, 30.03it/s]
+[1ALoading weights:  21%|██▏       | 308/1436 [00:14<00:46, 24.43it/s]
+[1ALoading weights:  22%|██▏       | 316/1436 [00:14<00:37, 29.60it/s]
+[1ALoading weights:  22%|██▏       | 320/1436 [00:14<00:45, 24.59it/s]
+[1ALoading weights:  22%|██▏       | 323/1436 [00:14<00:45, 24.55it/s]
+[1ALoading weights:  23%|██▎       | 329/1436 [00:15<00:51, 21.46it/s]
+[1ALoading weights:  24%|██▎       | 338/1436 [00:15<00:34, 31.63it/s]
+[1ALoading weights:  24%|██▍       | 343/1436 [00:15<00:44, 24.74it/s]
+[1ALoading weights:  24%|██▍       | 350/1436 [00:15<00:34, 31.49it/s]
+[1ALoading weights:  25%|██▍       | 355/1436 [00:16<00:45, 23.75it/s]
+[1ALoading weights:  25%|██▌       | 364/1436 [00:16<00:36, 29.53it/s]
+[1ALoading weights:  26%|██▌       | 368/1436 [00:16<00:43, 24.59it/s]
+[1ALoading weights:  26%|██▌       | 376/1436 [00:16<00:36, 29.08it/s]
+[1ALoading weights:  26%|██▋       | 380/1436 [00:17<00:44, 23.56it/s]
+[1ALoading weights:  27%|██▋       | 388/1436 [00:17<00:36, 28.74it/s]
+[1ALoading weights:  27%|██▋       | 392/1436 [00:17<00:44, 23.42it/s]
+[1ALoading weights:  28%|██▊       | 400/1436 [00:17<00:35, 29.01it/s]
+[1ALoading weights:  28%|██▊       | 404/1436 [00:17<00:43, 23.72it/s]
+[1ALoading weights:  29%|██▊       | 410/1436 [00:18<00:39, 25.97it/s]
+[1ALoading weights:  29%|██▉       | 413/1436 [00:18<00:39, 25.94it/s]
+[1ALoading weights:  29%|██▉       | 416/1436 [00:18<00:41, 24.39it/s]
+[1ALoading weights:  29%|██▉       | 422/1436 [00:18<00:38, 26.05it/s]
+[1ALoading weights:  30%|██▉       | 426/1436 [00:18<00:43, 23.44it/s]
+[1ALoading weights:  30%|███       | 436/1436 [00:19<00:32, 30.75it/s]
+[1ALoading weights:  31%|███       | 440/1436 [00:19<00:39, 25.22it/s]
+[1ALoading weights:  31%|███       | 448/1436 [00:19<00:32, 30.63it/s]
+[1ALoading weights:  31%|███▏      | 452/1436 [00:19<00:39, 24.82it/s]
+[1ALoading weights:  32%|███▏      | 459/1436 [00:19<00:34, 28.52it/s]
+[1ALoading weights:  32%|███▏      | 463/1436 [00:20<00:39, 24.60it/s]
+[1ALoading weights:  33%|███▎      | 468/1436 [00:20<00:33, 28.54it/s]
+[1ALoading weights:  33%|███▎      | 473/1436 [00:20<00:42, 22.87it/s]
+[1ALoading weights:  34%|███▎      | 484/1436 [00:20<00:29, 32.20it/s]
+[1ALoading weights:  34%|███▍      | 488/1436 [00:21<00:35, 26.73it/s]
+[1ALoading weights:  35%|███▍      | 496/1436 [00:21<00:30, 31.16it/s]
+[1ALoading weights:  35%|███▍      | 500/1436 [00:21<00:36, 25.95it/s]
+[1ALoading weights:  35%|███▌      | 508/1436 [00:21<00:30, 30.49it/s]
+[1ALoading weights:  36%|███▌      | 512/1436 [00:21<00:36, 25.34it/s]
+[1ALoading weights:  36%|███▌      | 518/1436 [00:22<00:30, 30.49it/s]
+[1ALoading weights:  36%|███▋      | 522/1436 [00:22<00:41, 22.19it/s]
+[1ALoading weights:  37%|███▋      | 530/1436 [00:22<00:33, 27.04it/s]
+[1ALoading weights:  37%|███▋      | 534/1436 [00:22<00:39, 23.11it/s]
+[1ALoading weights:  38%|███▊      | 544/1436 [00:23<00:27, 32.62it/s]
+[1ALoading weights:  38%|███▊      | 548/1436 [00:23<00:33, 26.56it/s]
+[1ALoading weights:  39%|███▊      | 555/1436 [00:23<00:26, 33.27it/s]
+[1ALoading weights:  39%|███▉      | 560/1436 [00:23<00:35, 24.56it/s]
+[1ALoading weights:  40%|███▉      | 568/1436 [00:23<00:29, 29.37it/s]
+[1ALoading weights:  40%|███▉      | 572/1436 [00:24<00:34, 24.91it/s]
+[1ALoading weights:  40%|████      | 580/1436 [00:24<00:28, 30.29it/s]
+[1ALoading weights:  41%|████      | 584/1436 [00:24<00:34, 25.05it/s]
+[1ALoading weights:  41%|████      | 590/1436 [00:24<00:27, 30.28it/s]
+[1ALoading weights:  41%|████▏     | 594/1436 [00:25<00:37, 22.26it/s]
+[1ALoading weights:  42%|████▏     | 602/1436 [00:25<00:26, 30.91it/s]
+[1ALoading weights:  42%|████▏     | 607/1436 [00:25<00:35, 23.59it/s]
+[1ALoading weights:  43%|████▎     | 616/1436 [00:25<00:27, 30.05it/s]
+[1ALoading weights:  43%|████▎     | 620/1436 [00:25<00:33, 24.16it/s]
+[1ALoading weights:  44%|████▍     | 638/1436 [00:26<00:17, 46.87it/s]
+[1ALoading weights:  47%|████▋     | 674/1436 [00:26<00:07, 99.69it/s]
+[1ALoading weights:  49%|████▉     | 706/1436 [00:26<00:05, 137.10it/s]
+[1ALoading weights:  52%|█████▏    | 743/1436 [00:26<00:03, 186.48it/s]
+[1ALoading weights:  55%|█████▌    | 796/1436 [00:26<00:02, 261.68it/s]
+[1ALoading weights:  59%|█████▊    | 843/1436 [00:26<00:01, 307.78it/s]
+[1ALoading weights:  62%|██████▏   | 890/1436 [00:26<00:01, 346.80it/s]
+[1ALoading weights:  65%|██████▍   | 933/1436 [00:26<00:01, 368.88it/s]
+[1ALoading weights:  68%|██████▊   | 983/1436 [00:26<00:01, 400.53it/s]
+[1ALoading weights:  72%|███████▏  | 1032/1436 [00:27<00:00, 418.40it/s]
+[1ALoading weights:  75%|███████▍  | 1076/1436 [00:27<00:00, 416.31it/s]
+[1ALoading weights:  78%|███████▊  | 1122/1436 [00:27<00:00, 427.55it/s]
+[1ALoading weights:  81%|████████▏ | 1170/1436 [00:27<00:00, 425.83it/s]
+[1ALoading weights:  85%|████████▍ | 1218/1436 [00:27<00:00, 426.61it/s]
+[1ALoading weights:  89%|████████▉ | 1275/1436 [00:27<00:00, 458.28it/s]
+[1ALoading weights:  92%|█████████▏| 1323/1436 [00:27<00:00, 460.05it/s]
+[1ALoading weights:  95%|█████████▌| 1370/1436 [00:27<00:00, 442.96it/s]
+[1ALoading weights:  99%|█████████▊| 1415/1436 [00:27<00:00, 442.12it/s]
+[1ALoading weights: 100%|██████████| 1436/1436 [00:27<00:00, 51.41it/s] 
+[transformers] Both `max_new_tokens` (=4500) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+######## MARIANO_vizcaino_v2
+CALIFICACIÓN TOTAL: 6/10
+NOTAS: Gancho 7/10 · Oferta 6/10 · Confianza 5/10 · Claridad 6/10 · Calidad visual 7/10 · Políticas de Meta 9/10 · Mensajes baratos 5/10 · Mensajes calificados 4/10
+POR QUÉ FUNCIONA:
+- 0.5-3.8s rapel y aterrizaje del asesor sobre la fachada de Bugambilia genera curiosidad visual y pattern interrupt fuerte.
+- 10.3-11.4s “MIRA ESTA CASA” + corte a fachada amarilla de dos pisos muestra el producto real y ancla el modelo Bugambilia.
+- 12.5-13.6s “PRIVADA CON ACCESO CONTROLADO” sobre toma del acceso real refuerza seguridad, atributo buscado en Rosarito/Tijuana.
+- 14.7-15.8s “CANCHA DE PÁDEL” + “ESTÁ A PASOS” + “COMERCIAL” comunica amenidades diferenciales de Vizcaíno en 2 s.
+- 18.3-21.2s “SALA CON LUZ NATURAL / COCINA EQUIPADA / VAN INICIANDO” conecta espacio luminoso con público first-home.
+QUÉ LO FRENA:
+- 5.6-12.9s la voz dice “casas de Vizcaíno” y “casa de dos pisos en una privada con acceso controlado” pero el texto en pantalla y las tarjetas solo muestran Bugambilia; no se aclara que Bugambilia es la única con plaza comercial y área de juegos, ni se menciona Infonavit/hipotecario, lo que baja intención calificada.
+- 24.2-30.7s el precio “desde 2 millones 450 mil pesos” aparece en voz y en capa “Desde $2.45 MDP - Escribe BUGAMBILIA”, pero no se muestra diferenciación de modelos Sotol/Benjamina/Salvia y no hay prueba social ni credenciales del asesor; el CTA final 28.8-32.1s es genérico y sin urgencia.
+- 27.8s “Soy Mariano Herrera” aparece sobre imagen de recámara, rompe continuidad y no se ve rostro del asesor en ese momento; la última escena 32.1s+ queda borrosa con texto “EN SAN MARINO?” sin contexto.
+
+VEREDICTO: Subir con cambios
+CÓMO SUBIR CADA NOTA:
+  Gancho 7→9: Reforzar el aterrizaje con push-in rápido y texto en capa “Bajé hasta Vizcaíno para mostrarte Bugambilia” · 0.5-3.8s · MiniMax H3 push-in sobre el clip de rapel existente + texto en capa.
+  Oferta 6→8: Añadir tarjeta comparativa de modelos con precios dados por cliente y destacar “Bugambilia es la única con plaza comercial y área de juegos” · 10.3-11.4s · texto en capa + corte a tarjetas.
+  Confianza 5→8: Insertar micro-prueba social y credenciales del asesor con su rostro real y mención “Aceptamos Infonavit y crédito hipotecario” · 6.0-9.3s · voz clonada nueva frase + texto en capa + Qwen-Image-Edit para encuadre limpio del asesor.
+  Claridad 6→8: Sincronizar voz y texto para que “privada con acceso controlado, a pasos de plaza comercial, cancha de pádel y parque” aparezca palabra por palabra en subtítulos y tarjetas · 12.9-18.3s · subtítulos en capa + ajuste de voz clonada.
+  Calidad visual 7→8: Estabilizar y dar punch-in en los planos de fachada y amenidades, unificar color/luz · 10.3-15.8s · edición ffmpeg con punch-in/zoom y corrección de color.
+  Políticas de Meta 9→9: ya está, no tocar.
+  Mensajes baratos 5→7: Abrir con filtro de presupuesto y ubicación en los primeros 3 s para alejar curiosos · 0.5-3.8s · texto en capa “Rosarito/Tijuana · desde $2.45 MDP” + voz clonada.
+  Mensajes calificados 4→8: Añadir CTA cualificado con recorrido gratis sin compromiso y WhatsApp visible, y mencionar Infonavit/hipotecario · 28.8-32.1s · texto en capa + voz clonada con frase exacta del cliente.
+
+3 GANCHOS ALTERNATIVOS para los primeros 3 segundos:
+- “Si buscas casa en privada con acceso controlado en Rosarito, quédate” · escena: primer plano del asesor ya en suelo tras rapel, fondo fachada Bugambilia, texto en capa. Filtra por intención de compra en zona.
+- “Bugambilia desde $2.45 MDP, la única con plaza comercial y área de juegos” · escena: corte rápido fachada amarilla Bugambilia 10.3s con zoom MiniMax H3. Filtra por presupuesto y amenidad.
+- “Bajé en rapel para mostrarte la casa de 2 pisos que acepta Infonavit” · escena: clip de rapel 0.5-2.7s con texto en capa. Filtra por financiamiento y modelo.
+
+2 ESCENAS NUEVAS CON IA que más subirían la nota:
+- Plano de acceso controlado real con puerta y caseta, animado con MiniMax H3 dolly-in de 5 s, primer y último cuadro fijados con foto real del cliente del acceso; se inserta entre 12.5-13.6s para reforzar seguridad. Necesita foto real del acceso.
+- Interior de sala con luz natural al atardecer, animación MiniMax H3 órbita suave 5 s a partir de foto real de sala del cliente, para acompañar “es perfecta para familias que apenas van iniciando”. Necesita foto real de sala.
+
+LO MÁS RÁPIDO:
+- Añadir texto en capa en 0.5-3.8s “Rosarito/Tijuana · Bugambilia desde $2.45 MDP · privada con acceso controlado” para filtrar y subir Mensajes baratos y calificados.
+- Reemplazar voz clonada en 5.6-12.9s por frase exacta del cliente que incluya “Bugambilia es la única con plaza comercial y área de juegos” y sincronizar subtítulos palabra por palabra.
+- Insertar tarjeta final cualificada en 28.8-32.1s con “Recorrido GRATIS sin compromiso · Aceptamos Infonavit y crédito hipotecario · WhatsApp 664 233 4848” en texto en capa y voz clonada.
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/carlosfavelajeje/main/ap-DgJqHiEjDnGsMFYWborvfx
+
+== Reporte Modal carlosfavelajeje ==
+Trabajo: entregables/glimmer_estrategias_20261029/glimmer_modal.py --lote entregables/glimmer_evaluador/mariano_v2_20261105/lote.json --tokens 4500
+Duración: 3.0 min  (código 0)
+  glimmer (ap-DgJqHiEjDnGsMFYWborvfx): $0.120
+Gasto del trabajo: $0.120
+Saldo restante ≈ $-14.51

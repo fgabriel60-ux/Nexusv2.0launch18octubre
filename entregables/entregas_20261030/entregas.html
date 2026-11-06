@@ -1,0 +1,261 @@
+<title>Entregas 30 oct</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,600..800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: una tarjeta por video: reproductor vertical a la izquierda, calificación de Glimmer y qué sigue a la derecha (apilado en celular). */
+:root { --bg:#f1f2ee; --paper:#fbfbf8; --ink:#1c2420; --muted:#5f6b65; --line:#d5dad4; --ok:#2d7a4a; --ok-soft:#dcefe2; --warn:#a06b00; --warn-soft:#f5ead0; --bad:#b3261e; --bad-soft:#fbe3e0;
+  --f-d:"Archivo","Arial Narrow",system-ui,sans-serif; --f-b:"IBM Plex Sans",system-ui,sans-serif; --f-m:"IBM Plex Mono",ui-monospace,monospace; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#131815; --paper:#1a201c; --ink:#e6ebe7; --muted:#9ba8a1; --line:#2d3631; --ok:#63c48a; --ok-soft:#183626; --warn:#e9b44d; --warn-soft:#3a2d10; --bad:#f2928b; --bad-soft:#431a17; color-scheme:dark } }
+:root[data-theme="dark"] { --bg:#131815; --paper:#1a201c; --ink:#e6ebe7; --muted:#9ba8a1; --line:#2d3631; --ok:#63c48a; --ok-soft:#183626; --warn:#e9b44d; --warn-soft:#3a2d10; --bad:#f2928b; --bad-soft:#431a17; color-scheme:dark }
+body { background:var(--bg); color:var(--ink); font:15px/1.55 var(--f-b) }
+.wrap { max-width:980px; margin:0 auto; padding-block:28px 64px; padding-left:max(16px,env(safe-area-inset-left,0px)); padding-right:max(16px,env(safe-area-inset-right,0px)); display:grid; gap:18px }
+h1, h2 { font-family:var(--f-d); font-stretch:80%; margin:0; text-wrap:balance } h1 { font-size:clamp(28px,5vw,40px); font-weight:800 } h2 { font-size:22px; font-weight:800 }
+.eyebrow { font:500 12px var(--f-m); letter-spacing:.08em; text-transform:uppercase; color:var(--muted) }
+.lead { color:var(--muted); margin:0; max-width:66ch }
+.v { background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:16px; display:grid; grid-template-columns:240px minmax(0,1fr); gap:18px; align-items:start }
+@media (max-width:620px) { .v { grid-template-columns:1fr } .v video { max-width:300px; justify-self:center } }
+video { width:100%; aspect-ratio:9/16; background:#000; border-radius:8px; max-width:100% }
+.info { display:grid; gap:8px; min-width:0 }
+.nota { display:inline-flex; align-items:baseline; gap:8px; font-family:var(--f-d); font-weight:800; font-size:30px; font-variant-numeric:tabular-nums }
+.nota small { font:500 12px var(--f-m); color:var(--muted) }
+.chip { font:600 12px var(--f-b); padding:3px 10px; border-radius:99px; width:fit-content }
+.ok { background:var(--ok-soft); color:var(--ok) } .warn { background:var(--warn-soft); color:var(--warn) } .bad { background:var(--bad-soft); color:var(--bad) }
+.det { font:400 12px var(--f-m); color:var(--muted) }
+ul { margin:0; padding-left:18px } li { margin:2px 0 }
+h3 { margin:6px 0 0; font:600 13px var(--f-b); color:var(--muted); text-transform:uppercase; letter-spacing:.05em }
+</style>
+
+<div class="wrap">
+  <header style="display:grid;gap:8px">
+    <div class="eyebrow">Visión Agencia · 30 oct 2026</div>
+    <h1>Todos los videos para revisar</h1>
+    <p class="lead">WhatsApp está rechazando el envío de videos (error 500), así que aquí están para verlos o descargarlos. Cada uno trae la calificación de Glimmer, por qué funciona y qué lo frena. Ninguno se ha mandado a clientes.</p>
+  </header>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/jose_v9.mp4"></video>
+    <div class="info">
+      <h2>José · Grupo JR · v9</h2>
+      <span class="chip ok">Sin el hoyo · losa blanca · dron</span>
+      <ul><li>Inicio con charco pequeño y fisura delgada (consejo de Glimmer).</li><li>Losa plana y blanca; cierre de dron con la azotea completa y un solo obrero.</li><li>Mismo guion y voz de la v8.</li></ul>
+      <p class="det">≈26 s · Glimmer proyecta 6/10 en cuadros sueltos; recalificar armado</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/ruben_v3.mp4"></video>
+    <div class="info">
+      <h2>Rubén · v3 (habla con su voz)</h2>
+      <span class="chip ok">Lipsync como el tatuador</span>
+      <ul><li>Abre y cierra él hablando a cámara con su voz clonada.</li><li>En medio, sus terapias reales de TikTok.</li><li>Sin la frase de resultado (políticas de salud de Meta).</li></ul>
+      <p class="det">32.7 s · espera tu «ok Rubén»</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <img src="v/giovanni_arco_v5.jpg" alt="Giovanni · cuadro v5 (Arco completo)" style="width:100%;display:block">
+    <div class="info">
+      <h2>Giovanni · cuadro v5 (Arco completo)</h2>
+      <span class="chip ok">Animándose</span>
+      <ul><li>El Arco de Cabo San Lucas completo detrás de él (foto real Wikimedia, CC BY-SA 4.0).</li><li>Al animarse: corregir texto, WhatsApp completo y voz; luego se lo mando.</li></ul>
+      <p class="det">cuadro</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <img src="v/doctora_cara_v6.jpg" alt="Doctora · cara mejorada (v6)" style="width:100%;display:block">
+    <div class="info">
+      <h2>Doctora · cara mejorada (v6)</h2>
+      <span class="chip ok">Animándose</span>
+      <ul><li>1 su cara real · 2-3 nuevas sin lentes · 4 con lentes.</li><li>Animando con la 2-3 + audio corregido («Viniers Dental»).</li></ul>
+      <p class="det">cuadros</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <img src="v/rachel_cuadros.jpg" alt="Rachel · cuadros estilo Fiona" style="width:100%;display:block">
+    <div class="info">
+      <h2>Rachel · cuadros estilo Fiona</h2>
+      <span class="chip ok">Espera «ok Rachel»</span>
+      <ul><li>Princesa original + dragoncito en su cabina real, con su cara.</li></ul>
+      <p class="det">6 cuadros</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/jesus_v3.mp4"></video>
+    <div class="info">
+      <h2>Jesús · carpintería · v3</h2>
+      <span class="chip ok">Escenas de proceso como su referencia</span>
+      <ul><li>Corte, cepillo, lija, barniz e instalación generados en Modal.</li><li>Sus fotos reales con precios: parota $7,000 · económica $3,500 · melamina $8,000/m.</li></ul>
+      <p class="det">31.2 s · calificación Glimmer en cola</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/giovanni_v4.mp4"></video>
+    <div class="info">
+      <h2>Giovanni · v4</h2>
+      <span class="chip ok">Arco real de Cabo San Lucas</span>
+      <ul><li>Escena del precio con el Arco real detrás de él (foto CC0), sin fondo de fantasía.</li><li>v3 calificó 6/10; proyectada 8/10 con ajustes.</li></ul>
+      <p class="det">calificación Glimmer en cola</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/guillermo_pixar_v3.mp4"></video>
+    <div class="info">
+      <h2>Guillermo · Pixar v3 (tu voz mejorada)</h2>
+      <span class="chip ok">Lipsync nuevo con tu voz</span>
+      <ul><li>Tus 5 tomas re-animadas sobre la mejor de 4 tomas de voz por frase.</li><li>Tomas de Guillermo iguales a la v2 (sombrero corregido).</li></ul>
+      <p class="det">30.6 s</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/tatuador_v2.mp4"></video>
+    <div class="info">
+      <h2>Tatuador · Cancún · v2 (lipsync en estudio)</h2>
+      <span class="chip ok">Escenas Modal como el reel @noborders</span>
+      <ul><li>3 tomas generadas de él hablando a cámara en su estudio, con lipsync de su voz clonada.</li><li>Intercaladas con sus trabajos reales (fineline, japonés, realismo) y tarjeta «Sesiones desde $1,000».</li><li>Ojo: en la toma 2 la voz clonada suena «amamos» en vez de «armamos».</li></ul>
+      <p class="det">24.4 s · calificación Glimmer en cola</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/ruben_v1.mp4"></video>
+    <div class="info">
+      <h2>Rubén · alineación alphabiótica · muestra v1</h2>
+      <span class="chip ok">Sus pacientes reales + su voz</span>
+      <ul><li>Gancho con su frase: «Aquí no damos masaje ni tronamos huesos».</li><li>Voz clonada de su audio; cierre con sesión $300 y WhatsApp 722 313 9882.</li><li>Sin GPU. Espera tu «ok Rubén» para mandársela.</li></ul>
+      <p class="det">31.4 s · calificación Glimmer en cola</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/carlos_nexus_v7.mp4"></video>
+    <div class="info">
+      <h2>Tu anuncio · Nexus Pixar v7</h2>
+      <span class="chip ok">Voz mejorada</span>
+      <ul><li>Misma imagen y efectos del v6.</li><li>Voz nueva: cada frase elegida entre 4 tomas; las 8 se entienden completas («¿Tu publicidad…», «hoy mismo», «En Nexus creamos», «Facebook»).</li><li>Mismo ritmo para que los labios sigan cuadrando.</li></ul>
+      <p class="det">34 s · sin GPU</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/doctora_v5.mp4"></video>
+    <div class="info">
+      <h2>Doctora Ángeles · implantes v5</h2>
+      <span class="chip ok">Su voz real clonada</span>
+      <ul><li>Voz clonada de su video real (16 s), cada frase elegida entre 4 tomas.</li><li>Imagen basada en su foto, consultorio azul, modelos 3D y $12,500.</li><li>Siguiente: guion reescrito por Glimmer con su forma de hablar.</li></ul>
+      <p class="det">33 s · lipsync $0.53</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/andres_v2.mp4"></video>
+    <div class="info">
+      <h2>Andrés · contratista · muestra v2</h2>
+      <span class="chip ok">Escenas como su referencia</span>
+      <ul><li>Escenas generadas por mí como el reel de @massa_arquitectos: escalera con tablaroca, obra negra, andamio, esmeril, pala, azotea.</li><li>Su antes y después real del baño, su alberca y su local reales animados.</li><li>Voz de locutor; sin ciudad ni nombre comercial hasta que los confirme.</li></ul>
+      <p class="det">26.6 s · cuadros $0.40 + animación</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/tatuador_v1.mp4"></video>
+    <div class="info">
+      <h2>Tatuador · Cancún (prospecto)</h2>
+      <div class="nota">6/10 <small>Glimmer · video</small></div>
+      <span class="chip warn">Estrategia proyectada 9/10 · falta su precio</span>
+      <p class="det">Gancho 8 · Oferta 5 · Confianza 6</p>
+      <p>Hecho con su material real (sus videos y fotos de trabajos), su voz clonada de su audio y el guion 10/10/10 de Glimmer. Sin GPU.</p>
+      <h3>Por qué funciona</h3>
+      <ul><li>Abre con su cara y su pregunta: «¿Llevas tiempo queriéndote tatuar?» (dolor real).</li><li>Muestra sus trabajos reales: fineline, samurái, anime, realismo.</li><li>Oferta clara: tu idea → diseño único y personalizado; centro de Cancún; hasta tarde.</li></ul>
+      <h3>Falta</h3>
+      <ul><li>Su precio desde: es lo que baja la oferta a 5/10.</li><li>Ya corregí la voz del cierre: antes decía «Contártame por Guasa», ahora «Escríbeme por WhatsApp».</li></ul>
+      <p class="det">25 s · 720p · armado sin GPU · calificación Glimmer $0.23</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/andres_v1.mp4"></video>
+    <div class="info">
+      <h2>Andrés · contratista 656 130 0006 (prospecto)</h2>
+      <span class="chip warn">Estrategia de Glimmer: proyectado 8-9/10 · video sin calificar</span>
+      <p>Sus fotos reales (alberca, losa, estructura, excavación, local comercial), voz de locutor como pidió, y el antes y después real de su baño. Sin GPU.</p>
+      <ul><li>Gancho: «¿Quieres una obra real, con factura y sin sorpresas?».</li><li>No menciona ciudad ni nombre comercial: él no los ha confirmado.</li><li>Falta: su ciudad, si quiere usar «U Construcción» y precios desde.</li></ul>
+      <p class="det">26.6 s · gasto $0</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/giovanni_v3.mp4"></video>
+    <div class="info">
+      <h2>Giovanni Pulido · abogado</h2>
+      <div class="nota">6/10 <small>Glimmer</small></div>
+      <span class="chip warn">Subir con cambios</span>
+      <p class="det">Gancho 5 · Oferta 7 · Confianza 8 · Claridad 5 · Calidad visual 6 · Políticas 8 · Mensajes calificados 6</p>
+      <h3>Por qué funciona</h3>
+      <ul><li>Abre con «+90 divorcios resueltos · 100% en línea»: prueba social.</li><li>Su cara real y 15 años de experiencia dan autoridad (confianza 8).</li><li>El precio único de $20,000 se ve antes del WhatsApp.</li></ul>
+      <h3>Qué lo frena</h3>
+      <ul><li>El número de WhatsApp se lee en pedacitos en los subtítulos.</li><li>La voz pronuncia «y ovani» en lugar de Giovanni.</li><li>El fondo de la bahía salió con un castillo en vez del Arco.</li></ul>
+      <p class="det">30 s · gasto $1.48</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/guillermo_pixar_v2.mp4"></video>
+    <div class="info">
+      <h2>Guillermo · Pixar zaguanes y pérgolas</h2>
+      <div class="nota">6/10 <small>Glimmer</small></div>
+      <span class="chip warn">Subir con cambios</span>
+      <p class="det">Gancho 8 · Oferta 7 · Confianza 7 · Claridad 5 · Calidad visual 8 · Políticas 9</p>
+      <h3>Por qué funciona</h3>
+      <ul><li>Abre con el dolor del oficio: «Ya me urge volver a cotizar».</li><li>Su «¡se ve muy, muy fregón!» es un testimonio creíble.</li><li>Fondos de sus trabajos residenciales, sin la nave; la toma 6 ya trae su gorra.</li></ul>
+      <h3>Qué lo frena</h3>
+      <ul><li>Claridad 5: dice «4 videos al mes por $500» pero no qué gana el herrero.</li></ul>
+      <p class="det">37 s · gasto $1.89 + $0.32 de la corrección</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/jesus_v2.mp4"></video>
+    <div class="info">
+      <h2>Jesús · carpintería Mazatlán (prospecto)</h2>
+      <div class="nota">6/10 <small>Glimmer</small></div>
+      <span class="chip warn">Llega a 8 con su cara</span>
+      <p class="det">Gancho 6 · Oferta 9 · Confianza 4 · Claridad 8 · Calidad visual 6 · Políticas 9 · Mensajes calificados 8</p>
+      <h3>Por qué funciona</h3>
+      <ul><li>Ubica Mazatlán y su nombre desde el segundo 0.</li><li>Precios claros: parota desde $7,000, puerta económica $3,500, cocina $8,000 el metro.</li><li>El cierre pide medidas y colonia: filtra curiosos.</li></ul>
+      <h3>Qué lo frena</h3>
+      <ul><li>No sale él: pedirle una foto o video suyo.</li><li>Fotos sin movimiento: se pueden animar en la GPU.</li></ul>
+      <p class="det">31 s · gasto $0</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/jose_v8.mp4"></video>
+    <div class="info">
+      <h2>José · Grupo JR · v8 (propuesta)</h2>
+      <span class="chip warn">Lista para tu visto bueno · sin calificar aún</span>
+      <p>Hecha con los cambios que pidió Glimmer a la v7 (4/10), sin GPU y sin mandar nada a José.</p>
+      <ul><li>Abre con el problema: «¿Se te filtra el agua cuando llueve? En Grupo JR lo resolvemos», sobre la escena de lluvia.</li><li>26 s en vez de 47; quité las frases técnicas.</li><li>Precio en pantalla: desde $150 por m², sellador + 2 capas.</li><li>Cierre: «Mándanos fotos de tu azotea por WhatsApp y te cotizamos hoy».</li></ul>
+      <p class="det">26 s · voz clonada de José · gasto $0</p>
+    </div>
+  </article>
+
+  <article class="v">
+    <video controls preload="metadata" playsinline src="v/jose_v7.mp4"></video>
+    <div class="info">
+      <h2>José · Grupo JR</h2>
+      <div class="nota">4/10 <small>Glimmer</small></div>
+      <span class="chip bad">Cambiar el inicio antes de subir</span>
+      <p class="det">Gancho 3 · Oferta 5 · Confianza 4 · Claridad 5 · Calidad visual 6</p>
+      <p>Ya sin errores: líquido gris, sin boca moviéndose sin voz, volcán tranquilo y sin cubetas mal escritas.</p>
+      <h3>Qué lo frena</h3>
+      <ul><li>Abre con «la preparación de la superficie es clave»: técnico, sin dolor.</li><li>Dura 47 s; Glimmer pide unos 30.</li><li>Propuesta: abrir con la lluvia y «¿Se te filtra el agua?» en su voz, quitar 2 frases técnicas y cerrar con desde $150 el m². Fue su texto casi literal: ¿se lo planteas?</li></ul>
+      <p class="det">47 s · gasto $0.82 + $0.32</p>
+    </div>
+  </article>
+</div>

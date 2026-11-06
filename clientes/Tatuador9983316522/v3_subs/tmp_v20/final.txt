@@ -1,0 +1,4 @@
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Tatuador9983316522/v3_subs/tmp_v20/cuerpo.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Tatuador9983316522/v3_subs/tmp_v20/rafaga.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Tatuador9983316522/v3_subs/tmp_v20/filtro.mp4'
+file '/workspaces/Nexusv2.0launch18octubre/clientes/Tatuador9983316522/v3_subs/tmp_v20/cierre.mp4'

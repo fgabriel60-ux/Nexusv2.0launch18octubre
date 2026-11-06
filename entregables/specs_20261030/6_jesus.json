@@ -1,0 +1,93 @@
+{
+ "carpeta": "jesus_v3_20261030",
+ "salida": "entregables/jesus_puertas_20261028/v3/salida",
+ "semilla": 9,
+ "tam": [
+  704,
+  1280
+ ],
+ "refs": {
+  "puerta": "clientes/Jesus_Puertas/whatsapp/del_cliente/20261027_175651_image.jpg",
+  "cocina": "clientes/Jesus_Puertas/whatsapp/del_cliente/20261027_175920_image.jpg"
+ },
+ "listos": {
+  "PF": "clientes/Jesus_Puertas/whatsapp/del_cliente/20261027_175651_image.jpg",
+  "CF": "clientes/Jesus_Puertas/whatsapp/del_cliente/20261027_175920_image.jpg"
+ },
+ "cuadros": {
+  "Q1": [
+   [
+    "puerta"
+   ],
+   "Foto realista vertical 9:16 de un taller de carpintería mexicano real (Mazatlán), luz cálida de taller, aserrín, herramientas reales; carpintero adulto con camisa de trabajo y mandil, cara poco visible (de perfil o de espaldas). Sin texto, sin logotipos. El carpintero corta una tabla gruesa de madera de parota en la sierra de mesa, chispas de aserrín. La madera tiene el mismo color y veta de la puerta de la imagen."
+  ],
+  "Q2": [
+   [
+    "puerta"
+   ],
+   "Foto realista vertical 9:16 de un taller de carpintería mexicano real (Mazatlán), luz cálida de taller, aserrín, herramientas reales; carpintero adulto con camisa de trabajo y mandil, cara poco visible (de perfil o de espaldas). Sin texto, sin logotipos. El carpintero lija a mano el tablero de una puerta de parota sobre el banco de trabajo, polvo de aserrín en la luz."
+  ],
+  "Q3": [
+   [
+    "puerta"
+   ],
+   "Foto realista vertical 9:16 de un taller de carpintería mexicano real (Mazatlán), luz cálida de taller, aserrín, herramientas reales; carpintero adulto con camisa de trabajo y mandil, cara poco visible (de perfil o de espaldas). Sin texto, sin logotipos. El carpintero aplica barniz con brocha a la puerta de parota terminada, acostada sobre caballetes, la madera brilla."
+  ],
+  "Q4": [
+   [
+    "cocina"
+   ],
+   "Foto realista vertical 9:16 de un taller de carpintería mexicano real (Mazatlán), luz cálida de taller, aserrín, herramientas reales; carpintero adulto con camisa de trabajo y mandil, cara poco visible (de perfil o de espaldas). Sin texto, sin logotipos. El carpintero arma un gabinete de melamina color madera como los de la cocina de la imagen, atornillando las bisagras."
+  ]
+ },
+ "tomas": [
+  [
+   "Z1_corte",
+   "Q1",
+   "Vertical realistic woodworking shot: the carpenter pushes the parota board through the table saw, sawdust flies, close handheld camera. Realistic, keep the exact same place, materials and colors as the photo. No text. Audio: workshop ambience, no speech.",
+   4.0,
+   null,
+   null
+  ],
+  [
+   "Z2_lija",
+   "Q2",
+   "Vertical realistic woodworking shot: the carpenter sands the door panel by hand, dust floats in the light, slow push-in. Realistic, keep the exact same place, materials and colors as the photo. No text. Audio: workshop ambience, no speech.",
+   4.0,
+   null,
+   null
+  ],
+  [
+   "Z3_barniz",
+   "Q3",
+   "Vertical realistic woodworking shot: the carpenter brushes varnish on the parota door, the wood grain shines, slow lateral dolly. Realistic, keep the exact same place, materials and colors as the photo. No text. Audio: workshop ambience, no speech.",
+   4.0,
+   null,
+   null
+  ],
+  [
+   "Z4_gabinete",
+   "Q4",
+   "Vertical realistic woodworking shot: the carpenter screws the hinges of the melamine cabinet, close-up, slight camera movement. Realistic, keep the exact same place, materials and colors as the photo. No text. Audio: workshop ambience, no speech.",
+   4.0,
+   null,
+   null
+  ],
+  [
+   "Z5_puerta",
+   "PF",
+   "Vertical real shot: slow cinematic push-in on the finished parota door installed, warm light. Realistic, keep the exact same place, materials and colors as the photo. No text. Audio: quiet room, no speech.",
+   4.0,
+   null,
+   null
+  ],
+  [
+   "Z6_cocina",
+   "CF",
+   "Vertical real shot: slow cinematic dolly across the finished melamine kitchen. Realistic, keep the exact same place, materials and colors as the photo. No text. Audio: quiet room, no speech.",
+   4.0,
+   null,
+   null
+  ]
+ ]
+}

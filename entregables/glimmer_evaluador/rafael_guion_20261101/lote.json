@@ -1,0 +1,10 @@
+[
+ {
+  "nombre": "RAFAEL_GUION_DENTRO_AUTO",
+  "fotos": [
+   "clientes/Rafael_BYD/refs/rafael_cara_auto.jpg",
+   "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
+  ],
+  "prompt": "Eres estratega de anuncios de Meta (Facebook/Instagram) y guionista para asesores de autos en México. Da SOLO la respuesta final, en español, sin mostrar tu razonamiento. Usa SOLO estos datos; no inventes precios, bonos, mensualidades, tasas, autonomía ni promociones.\n\nASESOR: Rafael Hernández Ortiz, asesor de ventas de BYD Azcapotzalco (Ciudad de México). WhatsApp 55 7386 9438. Modelos que muestra su tarjeta: BYD Song Plus, BYD King y BYD Dolphin (aún no confirma oferta vigente). Objetivo: mensajes de WhatsApp de personas de Azcapotzalco y alrededores que de verdad quieren comprar auto.\n\nFORMATO DEL VIDEO (réplica de un reel): 0-3 s Rafael parado serio frente a su agencia BYD, cortes secos que se acercan a él con sonido; luego corte a Rafael sentado DENTRO de un BYD, cámara en el tablero, y ahí empieza a hablar a cámara ~12-15 s, tono de confianza, como platicando.\n\nENTREGA:\n1) GUION HABLADO dentro del carro, 30-38 palabras máximo, frases cortas, en primera persona, que abra con una pregunta-gancho que filtre al comprador real, mencione que es asesor de BYD Azcapotzalco y cierre pidiendo mensaje por WhatsApp con una palabra clave. Escribe números con letra.\n2) TEXTO EN PANTALLA para los primeros 3 s (máximo 6 palabras).\n3) CALIFICACIÓN 1-10 del guion en gancho, confianza, claridad y mensajes calificados."
+ }
+]

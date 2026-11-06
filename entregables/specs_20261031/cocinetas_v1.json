@@ -1,0 +1,56 @@
+{
+ "carpeta": "cocinetas_v1",
+ "salida": "clientes/Cocinetas8124167384/video_v1/salida/",
+ "semilla": 29,
+ "pasos": 28,
+ "refs": {
+  "k1": "clientes/Cocinetas8124167384/video_v1/salida/K1.png"
+ },
+ "cuadros": {
+  "K0_obra": [
+   [
+    "k1"
+   ],
+   "Foto realista vertical 9:16 de la MISMA cocina de la imagen, mismo ángulo de cámara, mismas paredes, misma ventana y mismo piso, pero ANTES de la remodelación: cuarto vacío en obra, SIN gabinetes, SIN cubierta, SIN estufa ni tarja, muros con marcas de instalación, cables y tubos visibles, polvo, luz de día.",
+   "gabinetes, muebles, cubierta, estufa, refrigerador, personas, texto"
+  ]
+ },
+ "tomas": [
+  [
+   "KT0_transforma",
+   "K0_obra",
+   "Vertical realistic interior video, stabilized gimbal, smooth, same real room, no people, no text. Time-lapse transformation: the empty unfinished room is quickly filled as modern kitchen cabinets, countertop and appliances assemble into place, ending as the finished kitchen. Audio: quick construction sounds, whoosh.",
+   2.8,
+   null,
+   "K1"
+  ],
+  [
+   "KT1_cocina",
+   "K1",
+   "Vertical realistic interior video, stabilized gimbal, smooth, same real room, no people, no text. Slow gimbal glide along the finished modern kitchen cabinets and countertop, warm lights on.",
+   2.6,
+   null
+  ],
+  [
+   "KT2_cocina2",
+   "K2",
+   "Vertical realistic interior video, stabilized gimbal, smooth, same real room, no people, no text. Slow push in to the U-shaped kitchen with grey cabinets, lights on.",
+   2.6,
+   null
+  ],
+  [
+   "KT3_closet",
+   "K3",
+   "Vertical realistic interior video, stabilized gimbal, smooth, same real room, no people, no text. Slow lateral slide revealing the tall wood-grain closet with drawers.",
+   2.6,
+   null
+  ],
+  [
+   "KT4_barra",
+   "K4",
+   "Vertical realistic interior video, stabilized gimbal, smooth, same real room, no people, no text. Slow gimbal arc around the kitchen island with wood finish and dark countertop.",
+   2.6,
+   null
+  ]
+ ]
+}

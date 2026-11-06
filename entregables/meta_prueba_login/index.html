@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prueba de acceso Meta</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 24px auto; padding: 0 16px; color: #1c1e21; }
+  button { font-size: 16px; padding: 10px 18px; border: 0; border-radius: 6px; background: #1877f2; color: #fff; cursor: pointer; }
+  pre { background: #f0f2f5; padding: 12px; border-radius: 6px; white-space: pre-wrap; word-break: break-word; }
+  .nota { color: #65676b; font-size: 14px; }
+</style>
+</head>
+<body>
+<h2>Prueba de acceso con Facebook</h2>
+<p class="nota">Inicias sesión en la ventana oficial de Facebook. Esta página no ve tu contraseña.</p>
+<button id="entrar" disabled>Iniciar sesión con Facebook</button>
+<h3>Resultado</h3>
+<pre id="salida">Cargando SDK…</pre>
+
+<script>
+  // ID de la app (Vision Ads). Solo es público; no va ningún secreto aquí.
+  const APP_ID = "1851074386342905";
+  const GRAPH = "https://graph.facebook.com/v24.0";
+  const salida = document.getElementById("salida");
+  const boton = document.getElementById("entrar");
+
+  function log(x) { salida.textContent = typeof x === "string" ? x : JSON.stringify(x, null, 2); }
+
+  window.fbAsyncInit = function () {
+    FB.init({ appId: APP_ID, cookie: true, xfbml: false, version: "v24.0" });
+    boton.disabled = false;
+    log("Listo. Pulsa el botón para probar.");
+  };
+
+  boton.addEventListener("click", function () {
+    FB.login(function (r) {
+      if (!r.authResponse) { log("Cancelado o sin permiso."); return; }
+      const token = r.authResponse.accessToken;
+      Promise.all([
+        fetch(`${GRAPH}/me?fields=id,name&access_token=${token}`).then(x => x.json()),
+        fetch(`${GRAPH}/me/adaccounts?fields=id,name,account_status,currency&access_token=${token}`).then(x => x.json()),
+        fetch(`${GRAPH}/me/accounts?fields=id,name&access_token=${token}`).then(x => x.json())
+      ]).then(([yo, cuentas, paginas]) => log({ yo, cuentas_publicitarias: cuentas, paginas }))
+        .catch(e => log("Error: " + e));
+    }, { scope: "public_profile,ads_read,pages_show_list" });
+  });
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js"></script>
+</body>
+</html>

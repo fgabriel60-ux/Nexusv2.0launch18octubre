@@ -1,0 +1,1 @@
+GASTO_PERFIL=carlosfavelajeje python3 gasto_modal.py run clientes/_escenas_carlos/escenas_carlos_modal.py::animar --spec entregables/specs_20261031/sancarlos_planb.json > entregables/specs_20261031/sancarlos_planb.log 2>&1

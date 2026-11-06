@@ -1,0 +1,14 @@
+[
+  {
+    "video": "/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/clientes/Victor/video/Servilin_obra_fina_v6d.mp4",
+    "decodificacion": "sin errores",
+    "audio_coincide_con_final_validado_whisper": true,
+    "duracion_comparada": 22.08
+  },
+  {
+    "video": "/__modal/volumes/vo-xHJagJhn56ImChwngDcWnl/workspaces/Nexusv2.0launch18octubre/clientes/Guillermo/far12_v1/Vicens_far12_v4b_voz.mp4",
+    "decodificacion": "sin errores",
+    "audio_coincide_con_final_validado_whisper": true,
+    "duracion_comparada": 14.4
+  }
+]

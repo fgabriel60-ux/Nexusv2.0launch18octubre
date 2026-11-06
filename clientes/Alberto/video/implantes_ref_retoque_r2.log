@@ -1,0 +1,105 @@
+✓ Initialized. View run at 
+https://modal.com/apps/fabelagabriel645/main/ap-zQG5RWHLxxbh2JEEO3tfoI
+✓ Created objects.
+├── ✓ Uploaded 
+│   /workspaces/Nexusv2.0launch18octubre/clientes/Alberto/video/implantes_ref_mo
+│   dal.py
+├── ✓ Uploaded PythonPackage:flyers_modal, PythonPackage:xv_modal
+├── ✓ Created Function cuadros.
+└── ✓ Created Function clips.
+/usr/local/lib/python3.12/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+
+[1ALoading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]
+[1ALoading pipeline components...:  17%|█▋        | 1/6 [00:00<00:02,  2.25it/s]
+[1ALoading pipeline components...:  33%|███▎      | 2/6 [00:01<00:04,  1.00s/it]
+
+[1ALoading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][A
+
+[1ALoading checkpoint shards:  20%|██        | 1/5 [00:09<00:36,  9.17s/it][A
+
+[1A
+[1ALoading checkpoint shards:  40%|████      | 2/5 [00:11<00:14,  4.93s/it][A
+
+[1A
+[1ALoading checkpoint shards:  60%|██████    | 3/5 [00:13<00:07,  3.62s/it][A
+
+[1A
+[1ALoading checkpoint shards:  80%|████████  | 4/5 [00:15<00:02,  2.97s/it][A
+
+[1A
+[1ALoading checkpoint shards: 100%|██████████| 5/5 [00:15<00:00,  1.97s/it][ALoading checkpoint shards: 100%|██████████| 5/5 [00:15<00:00,  3.07s/it]
+
+[1ALoading pipeline components...:  50%|█████     | 3/6 [00:18<00:24,  8.10s/it][transformers] Qwen2_5_VLConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. 
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section'}
+
+
+[1A
+[1ALoading weights:   0%|          | 0/729 [00:00<?, ?it/s][A
+
+[1A
+[1ALoading weights:   5%|▌         | 37/729 [00:00<00:01, 353.93it/s][A
+
+[1A
+[1ALoading weights:  10%|█         | 73/729 [00:00<00:02, 227.78it/s][A
+
+[1A
+[1ALoading weights:  14%|█▎        | 99/729 [00:00<00:02, 216.24it/s][A
+
+[1A
+[1ALoading weights:  17%|█▋        | 122/729 [00:00<00:03, 196.46it/s][A
+
+[1A
+[1ALoading weights:  20%|██        | 147/729 [00:00<00:02, 211.38it/s][A
+
+[1A
+[1ALoading weights:  23%|██▎       | 169/729 [00:00<00:02, 195.40it/s][A
+
+[1A
+[1ALoading weights:  26%|██▌       | 191/729 [00:00<00:02, 197.28it/s][A
+
+[1ALoading weights:  29%|██▉       | 212/729 [00:01<00:02, 195.39it/s][A
+
+[1A
+[1ALoading weights:  32%|███▏      | 234/729 [00:01<00:02, 179.50it/s][A
+
+[1A
+[1ALoading weights:  37%|███▋      | 269/729 [00:01<00:02, 218.15it/s][A
+
+[1A
+[1ALoading weights:  40%|████      | 292/729 [00:01<00:02, 204.84it/s][A
+
+[1A
+[1ALoading weights:  43%|████▎     | 314/729 [00:01<00:02, 178.06it/s][A
+
+[1A
+[1ALoading weights:  50%|█████     | 368/729 [00:01<00:01, 265.07it/s][A
+
+[1A
+[1ALoading weights:  58%|█████▊    | 422/729 [00:01<00:00, 334.40it/s][A
+
+[1A
+[1ALoading weights:  66%|██████▌   | 482/729 [00:01<00:00, 379.55it/s][A
+
+[1A
+[1ALoading weights:  77%|███████▋  | 564/729 [00:02<00:00, 491.47it/s][A
+
+[1A
+[1ALoading weights:  84%|████████▍ | 616/729 [00:02<00:00, 484.07it/s][A
+[1ALoading weights: 100%|██████████| 729/729 [00:02<00:00, 329.24it/s]
+
+[1ALoading pipeline components...:  83%|████████▎ | 5/6 [00:21<00:04,  4.27s/it]
+[1ALoading pipeline components...: 100%|██████████| 6/6 [00:21<00:00,  3.09s/it]Loading pipeline components...: 100%|██████████| 6/6 [00:21<00:00,  3.54s/it]
+guidance_scale is passed as 1.0, but ignored since the model is not guidance-distilled.
+
+[1A  0%|          | 0/40 [00:00<?, ?it/s]
+[1A  2%|▎         | 1/40 [00:01<01:07,  1.74s/it]
+[1A  5%|▌         | 2/40 [00:03<01:08,  1.80s/it]
+[1A  8%|▊         | 3/40 [00:05<01:07,  1.82s/it]
+[1A 10%|█         | 4/40 [00:07<01:06,  1.84s/it]
+[1A 12%|█▎        | 5/40 [00:09<01:04,  1.84s/it]
+[1A 15%|█▌        | 6/40 [00:10<01:02,  1.85s/it]
+[1A 18%|█▊        | 7/40 [00:12<01:01,  1.85s/it]
+[1A 20%|██        | 8/40 [00:14<00:59,  1.85s/it]
+[1A 22%|██▎       | 9/40 [00:16<00:57,  1.85s/it]
+[1A 25%|██▌       | 10/40 [00:18<00:55,  1.85s/it]

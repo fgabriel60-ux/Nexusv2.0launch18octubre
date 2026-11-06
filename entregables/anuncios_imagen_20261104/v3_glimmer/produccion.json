@@ -1,0 +1,122 @@
+{
+  "herramienta": "image_gen integrada; composición y tipografía SVG en postproducción",
+  "prompt_base": "Use case: ads-marketing, identity-preserve. Create a polished finished Spanish advertisement, vertical 4:5 intended 1080x1350. Strict layout coordinates relative to 1080x1350: top small brand at x108 y60 in top 10%; editorial photographic hero y135-740 (60% image), medium portrait not extreme closeup, photo subjects must match the attached actual people and properties EXACTLY, not stock replacements. Lower solid dark navy panel y740-1350. Large WHITE bold grotesk headline at x108 y770, 80px equivalent, max two lines. One support line 38px equivalent beneath headline, max10 words. Then specified short WHITE check bullets 30px. Wide green WhatsApp button x108 y1140 width864 height88; bottom edge at y1228 leaving122px safe bottom margin. Button white bold text plus simple WhatsApp icon. All text correct Spanish accents exact specified text, no invented letters. Total text occupies less40%. Palette navy/white/neutrals, green ONLY in button, no other colored graphic accents. No unrelated brand logos anywhere, remove clothing brand emblems. No fabricated testimonial or price. Photographic skin pores, fine wrinkles, natural imperfect skin, asymmetric relaxed expression, no beauty smoothing, real folded fabric, coherent single source shadows; hands concealed or anatomically correct; preserve identity. No text on photographed scene except actual BYD emblem on car when relevant. Designed premium editorial clarity and generous negative space, strong hierarchy brand>headline>support>checks>button. Do not show placement instructions. ",
+  "variantes": [
+    {
+      "id": "MARIANO_v3_A1",
+      "spec": "Tríptico de Benjamina, Salvia y Bugambilia con retrato de Mariano; titular 3 casas en Vizcaíno; apoyo Bugambilia · Benjamina · Salvia; checks Recorrido con Mariano / Compara las tres opciones; CTA Pide el recorrido por WhatsApp."
+    },
+    {
+      "id": "MARIANO_v3_A2",
+      "refs": [
+        "clientes/Mariano/fotos/mariano_luz_final.png",
+        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg"
+      ],
+      "spec": "Hero: Mariano same exact real face and blue checked blazer as ref1, waist-up, at right side of actual Benjamina ref2, natural sunlit scene, hands outside crop, avoid extreme face. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\" with city \"Rosarito, B.C.\". Headline \"Conoce las casas\\npor dentro\". Support \"Recorre Vizcaíno Residencial con Mariano\". Two checks \"Bugambilia, Benjamina y Salvia\" and \"Compara tus opciones\". CTA \"Pide el recorrido por WhatsApp\". No price."
+    },
+    {
+      "id": "MARIANO_v3_B1",
+      "refs": [
+        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg",
+        "clientes/Mariano/fotos/mariano_luz_final.png"
+      ],
+      "spec": "Hero primarily actual exact Benjamina facade ref1, preserve architecture; small portrait of Mariano ref2 in corner of hero only, real face blue blazer. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\", city \"Rosarito, B.C.\". Headline \"Conoce tu próxima\\ncasa: Benjamina\". Support \"Consulta precio y disponibilidad con Mariano\". Two checks \"Vizcaíno Residencial\" and \"Recorrido de la casa\". CTA \"Consulta por WhatsApp\". No price at all because current price unconfirmed; do not write 2.8M."
+    },
+    {
+      "id": "MARIANO_v3_B2",
+      "refs": [
+        "clientes/Mariano/fotos/mariano_luz_final.png",
+        "clientes/Mariano/anuncios/refs/benjamina_fachada.jpg"
+      ],
+      "spec": "Hero Mariano same exact real face blue checked blazer, standing at open entrance of actual Benjamina reference2, relaxed expression with hands hidden behind lower frame. Preserve house. Brand \"MARIANO · VIZCAÍNO RESIDENCIAL\", city \"Rosarito, B.C.\". Headline \"Agenda tu visita\\na Benjamina\". Support \"Conoce la casa con Mariano\". Two checks \"Consulta disponibilidad\" and \"Pregunta por el precio vigente\". CTA \"Agenda por WhatsApp\". No prices."
+    },
+    {
+      "id": "RAFAEL_v3_1A",
+      "refs": [
+        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
+        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
+        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
+      ],
+      "spec": "Hero Rafael next to actual exact WHITE BYD front of car ref3 in that showroom. Face identity from refs1 and2; clothing MUST be dark charcoal textured short sleeve polo from ref1, NOT navy polo with green emblem from ref2. No emblem on polo. Hands hidden behind car. Natural medium portrait, eye-level. Brand \"RAFAEL · ASESOR BYD\" no city because not verified, do not invent city or agency name. Headline \"Agenda tu prueba\\nde manejo\". Support \"Coordina tu visita con Rafael\". Two checks \"Atención por WhatsApp\" and \"Confirma el horario\". CTA \"Agenda por WhatsApp\". No same-day claim, price, finance."
+    },
+    {
+      "id": "RAFAEL_v3_1B",
+      "refs": [
+        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
+        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
+        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
+      ],
+      "spec": "Hero actual Rafael same exact face refs1/2 wearing real dark charcoal textured polo ref1 NO CLOTHING LOGO, next to open driver door of white BYD ref3, relaxed portrait with hands concealed. Preserve car design and actual showroom. Eye-level natural editorial photograph. Brand \"RAFAEL · ASESOR BYD\" no unverified city. Headline \"Súbete y conoce\\ntu próximo BYD\". Support \"Agenda una prueba de manejo con Rafael\". Two checks \"Consulta disponibilidad\" and \"Coordina tu horario\". CTA \"Pide tu prueba por WhatsApp\". No unverified promises."
+    },
+    {
+      "id": "RAFAEL_v3_2A",
+      "refs": [
+        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
+        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
+        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
+      ],
+      "spec": "Hero actual same Rafael reference face, waist-up candid eye-level portrait not closeup, real textured charcoal polo from ref1 no logos; actual white BYD ref3 visible at left behind him. Natural textured skin and hair, no exaggerated smile. Brand \"RAFAEL · ASESOR BYD\", omit unverified city. Headline \"Habla con Rafael,\\nasesor BYD\". Support \"Información para elegir tu próximo auto\". Two checks \"Versiones y disponibilidad\" and \"Coordina tu visita\". CTA \"Escríbele por WhatsApp\". No response speed claims or prices."
+    },
+    {
+      "id": "RAFAEL_v3_2B",
+      "refs": [
+        "clientes/Rafael_BYD/whatsapp/del_cliente/20261103_122502_image_7D4211E9.jpg",
+        "clientes/Rafael_BYD/refs/rafael_cara.jpg",
+        "clientes/Rafael_BYD/refs/byd_song_plus_blanco.jpg"
+      ],
+      "spec": "Hero actual same Rafael face refs1/2 and real charcoal textured polo ref1 with NO LOGO, medium waist-up by exact white car ref3 in showroom, hands outside crop; no fake phone screens or testimonials. Brand \"RAFAEL · ASESOR BYD\", omit city as unknown. Headline \"Pregunta por tu\\nBYD por WhatsApp\". Support \"Consulta versiones y disponibilidad con Rafael\". Two checks \"Información del auto\" and \"Agenda tu visita\". CTA \"Escríbele a Rafael por WhatsApp\". No same day response guarantees, no price."
+    }
+  ],
+  "imagenes": [
+    {
+      "id": "MARIANO_v3_A1",
+      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-3f4c4e82-e925-497d-9b9d-056a1c66a127.png"
+    },
+    {
+      "id": "MARIANO_v3_A2",
+      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-fedbce63-fae2-45f6-8dab-5e3ec3a8ddfd.png"
+    },
+    {
+      "id": "MARIANO_v3_B1",
+      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-291f94c9-a524-445b-b07d-3ac2c4eab40e.png"
+    },
+    {
+      "id": "MARIANO_v3_B2",
+      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-5895f293-34ba-433b-8132-5f35c72af3e1.png"
+    },
+    {
+      "id": "RAFAEL_v3_1A",
+      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-e1996d99-a826-494e-aea3-0b48fb519312.png"
+    },
+    {
+      "id": "RAFAEL_v3_1B",
+      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-75d44f9c-7250-46ec-9162-0d5dc15a739e.png"
+    },
+    {
+      "id": "RAFAEL_v3_2A",
+      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-6c268290-becc-472c-b73a-9d0195319756.png"
+    },
+    {
+      "id": "RAFAEL_v3_2B",
+      "path": "/home/codespace/.codex/generated_images/01a1ad72-5216-7361-bc22-8467227fec3b/exec-7b6779e0-14cd-4606-84b2-65790136758d.png"
+    }
+  ],
+  "notas": [
+    "Precio 2.8M omitido: vigencia no confirmada en Mariano.md.",
+    "Ciudad de Rafael omitida: no confirmada en Rafael.md.",
+    "Sin promesa de atención o prueba hoy.",
+    "No se ha solicitado una nueva calificación de Glimmer."
+  ],
+  "foto_final_rafael": "fuentes/RAFAEL_hero_sin_texto.png",
+  "verificacion": {
+    "formato": "8 PNG RGB, 1080x1350",
+    "titulares": "72 a 80 px, hasta 8 palabras",
+    "apoyo": "36 px, hasta 10 palabras",
+    "vinetas": "2 por anuncio, 30 px",
+    "boton": "y1140 a1230; margen inferior120px (8.89%)",
+    "color_texto": "blanco sobre #0B1D35",
+    "boton_color": "#087F3C; contraste blanco aproximado5.1:1",
+    "revision": "Visual de los ocho finales; SVG conserva texto exacto en español",
+    "limitaciones": "Ciudad de Rafael y vigencia del precio de Benjamina sin confirmar; omitidas. Fotografías recompuestas con IA a partir de las referencias."
+  }
+}

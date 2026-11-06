@@ -1,0 +1,26 @@
+.env
+*.env
+!*.env.example
+navegadores-high-sierra/
+
+# --- Medios pesados: no van al repo (8.6 GB) ---
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.mov
+*.avi
+*.blend
+*.blend1
+*.npy
+*.onnx
+*.wav
+*.mp3
+*.zip
+*.glb
+*.psd
+*.tif
+*.tiff
+
+# Enlaces de token de un solo uso
+copia para whatsapp/modal_enlace_token.txt

@@ -1,0 +1,51 @@
+{
+ "carpeta": "guillermo_pixar_v3_20261030",
+ "salida": "clientes/Guillermo/pixar_v3_20261030/salida",
+ "semilla": 21,
+ "refs": {},
+ "cuadros": {},
+ "voces": {
+  "c_1": "clientes/Guillermo/pixar_v3_20261030/voz/c_1.wav",
+  "c_2": "clientes/Guillermo/pixar_v3_20261030/voz/c_2.wav",
+  "c_3": "clientes/Guillermo/pixar_v3_20261030/voz/c_3.wav",
+  "c_4": "clientes/Guillermo/pixar_v3_20261030/voz/c_4.wav",
+  "c_5": "clientes/Guillermo/pixar_v3_20261030/voz/c_5.wav"
+ },
+ "tomas": [
+  [
+   "T2_car1",
+   "CAR1",
+   "Vertical animated Pixar-style shot: the cartoon man talks friendly in front of the black metal garage door. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   3.77,
+   "c_1"
+  ],
+  [
+   "T3_car2",
+   "CAR2",
+   "Vertical animated Pixar-style shot: the cartoon man talks and points toward the black door. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   3.68,
+   "c_2"
+  ],
+  [
+   "T5_car3",
+   "CAR3",
+   "Vertical animated Pixar-style shot: the cartoon man talks excitedly with an open hand. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   4.97,
+   "c_3"
+  ],
+  [
+   "T7_car4",
+   "CAR4",
+   "Vertical animated Pixar-style shot: the cartoon man talks confidently counting with a finger. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   3.4,
+   "c_4"
+  ],
+  [
+   "T8_car5",
+   "CAR5",
+   "Vertical animated Pixar-style shot: the cartoon man talks warmly and points down. He speaks directly to the camera with natural lip movement exactly matching the speech, small natural head movements, expressive eyebrows, calm hand gestures. Keep the same character, outfit and background exactly as in the first frame. Very slow gentle push-in. No text. Audio: clear male voice speaking Spanish.",
+   4.2,
+   "c_5"
+  ]
+ ]
+}
